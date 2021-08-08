@@ -78,7 +78,7 @@ class Venue extends React.Component {
         if (this.props.end) {
             const utcEndHour = parseInt(this.props.end.substr(0, 2));
             const localEndMinute = parseInt(this.props.end.substr(2, 2));
-            let nextDay = this.props.start.length === 6 && this.props.start.substr(4, 2) === "ND";
+            let nextDay = this.props.end.length === 6 && this.props.end.substr(4, 2) === "ND";
             let localEndHour = utcEndHour + currentTimezoneOffset;
             if (localEndHour < 0) {
                 localEndHour = 24 + localEndHour;
@@ -88,7 +88,7 @@ class Venue extends React.Component {
                 localEndHour = localEndHour - 24;
                 nextDay = true;
             }
-            localEndStr = `${localEndHour < 10 ? "0" : ""}${localEndHour}:${localEndMinute < 10 ? "0" : ""}${localEndMinute} ${nextDay && "(next day)"}`;
+            localEndStr = `${localEndHour < 10 ? "0" : ""}${localEndHour}:${localEndMinute < 10 ? "0" : ""}${localEndMinute} ${nextDay ? "(next day)": ""}`;
         }
         return localEndStr;
     }
@@ -106,7 +106,7 @@ class Venue extends React.Component {
             localStartHour = localStartHour - 24;
             nextDay = true;
         }
-        return `${localStartHour < 10 ? "0" : ""}${localStartHour}:${localStartMinute < 10 ? "0" : ""}${localStartMinute} ${nextDay && "(next day)"}`;
+        return `${localStartHour < 10 ? "0" : ""}${localStartHour}:${localStartMinute < 10 ? "0" : ""}${localStartMinute} ${nextDay ? "(next day)" : ""}`;
     }
 }
 
