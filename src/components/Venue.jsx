@@ -37,8 +37,8 @@ class Venue extends React.Component {
                 <div className="venue__detail-row">
                     <p className="venue__description">{this.props.description}</p>
                     <p className="venue__time-detail">
-                        Opens at: {localStartStr}<br />
-                        Closes at: {localEndStr}
+                        Opens at: {localStartStr}
+                        { localEndStr && <span><br />Closes at: {localEndStr}</span> }
                     </p>
                     <p>
                         { this.props.location }
