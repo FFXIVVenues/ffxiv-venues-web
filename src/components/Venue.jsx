@@ -55,10 +55,10 @@ class Venue extends React.Component {
                         }
                     </p>
                     { this.props.website && 
-                        <a className="venue__website" target="_blank" href={this.props.website}>Website</a>
+                        <a className="venue__website" target="_blank" rel="noreferrer" href={this.props.website}>Website</a>
                     }
                     { this.props.discord && 
-                        <a className="venue__descord" target="_blank" href={this.props.discord}>Discord</a>
+                        <a className="venue__descord" target="_blank" rel="noreferrer" href={this.props.discord}>Discord</a>
                     }
                     { this.props.photos &&
                         <div className="venue_photos">
