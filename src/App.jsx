@@ -26,6 +26,7 @@ function App() {
       <div className="venues">
         { venueViewModels.map(v => <Venue {...v} /> )}
       </div>
+      <div className="made-by">Made with <span>♥</span> by Kana Ki, Gilgamesh.</div>
     </div>
   );
 }

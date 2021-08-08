@@ -1,5 +1,6 @@
 :root {
-  font-size: 20px;
+  font-size: 16px;
+  --scroll-bar-width: calc(100% - 100vw);
 }
 
 body {
@@ -15,12 +16,29 @@ a {
 }
 
 h1 {
-  margin-top: 260px;
+  margin-top: 270px;
   margin-left: 4vw;
   font-size: 3.5rem;
 }
 
 .venues {
+  min-width: 485px;
   max-width: 100%;
   margin-left: 4vw;
+}
+
+.made-by {
+  margin-left: 4vw;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.made-by span {
+  color: red;
+}
+
+
+@media screen and (max-width: 615px) {
+  h1 { margin-left: 20px }
+  .venues { margin-left: 0; }
 }

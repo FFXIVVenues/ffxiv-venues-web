@@ -1,9 +1,9 @@
 .venue {
-    /* width: 100%; */
+    width: 1080px;
 }
 
 .venue summary {
-    width: max-content;
+    width: 100%;
     padding-left: 20px;
     box-sizing: border-box;
 }
@@ -13,7 +13,8 @@
 }
 
 .venue details {
-    width: max-content;
+    display: block;;
+    width: 100%;
 }
 
 .venue__summary-row {
@@ -22,17 +23,20 @@
 }
 
 .venue__cell { display: inline-block; }
-.venue__day { width: 120px; }
-.venue__start { width: 150px; }
-.venue__time-split { width: 20px; }
-.venue__end  { width: 180px; }
-.venue__name { width: 250px; font-weight: bolder; }
+.venue__day { width: 100px; }
+.venue__start { width: 120px; }
+.venue__time-split { width: 15px; }
+.venue__end  { width: 140px; }
+.venue__name { width: 230px; font-weight: bolder; text-overflow:ellipsis; }
 .venue__location { width: 350px; }
 
 .venue__detail-row {
     background-color: #333;
-    margin: 10px 20px;
+    margin: 10px 10px;
     padding: 15px 20px 20px 20px;
+    width: calc(100% - 20px);
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
 }
 
 .venue__description {
@@ -43,17 +47,22 @@
     margin-right: 20px;
 }
 
-@media screen and (max-width: 1250px) {
-    .venue__start { width: 180px; }
+@media screen and (max-width: 1150px) {
+    .venue { max-width: 950px; }
+    .venue__start { width: 140px; }
     .venue__time-split { display: none }
     .venue__end  { display: none }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 980px) {
+    .venue { max-width: 600px; }
     .venue__location  { display: none }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 615px) {
+    .venue { max-width: 100%; }
     .venue__name { width: auto }
     .venue__icons { display: none }
+    .venue details, .venue summary { width: 100% }
+    .venue__summary-row { padding: 10px 5px }
 }

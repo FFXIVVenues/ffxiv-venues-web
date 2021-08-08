@@ -2,7 +2,7 @@
     {
         "name": "The White Hare",
         "description": "Café and bar with inhouse artists.",
-        "location": "Faerie, The Mist, Ward 8, plot 32",
+        "location": "Faerie, The Mist, Ward 8, Plot 32",
         "website": "https://thewhitehare.carrd.co/",
         "discord": "https://discord.gg/8XYyQVDsJQ",
         "sfw": true,
@@ -21,6 +21,266 @@
             {
                 "day": 7,
                 "start": "0000ND"
+            }
+        ]
+    },
+    {
+        "name": "The HIVE",
+        "description": "Dance club and bar.",
+        "location": "Sargantanas, The Mist, Ward 4, Plot 30",
+        "discord": "https://discord.gg/ccXW6KQX",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": "0100ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 2,
+                "start": "0100ND",
+                "end": "0500ND"
+            }
+        ]
+    },
+    {
+        "name": "The Nest",
+        "description": "Bar with music, tarrot reading and courtesans. Offers venue rental.",
+        "location": "Adamantoise, The Mist, Ward 22, Plot 30",
+        "website": "https://www.thenestxiv.com/",
+        "discord": "https://discord.gg/thenestxiv",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": "0000ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 4,
+                "start": "0000ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 6,
+                "start": "0000ND",
+                "end": "0500ND"
+            }
+        ]
+    },
+    {
+        "name": "Vibe House - Fight Club",
+        "description": "Fight club with betting and prizes, and offers courtesans. ",
+        "location": "Adamantoise, Goblet, Ward 20, Plot 43",
+        "discord": "https://discord.gg/g7WwcFavsA",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": "0300ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 3,
+                "start": "0300ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 4,
+                "start": "0300ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 6,
+                "start": "0300ND",
+                "end": "0700ND"
+            }
+        ]
+    },
+    {
+        "name": "Seven Circles",
+        "description": "(+18) (LGBTQ+) Seven Circles nightclub prides itself on being a friendly and safe space for all walks of life. We feature a full selection of lovely dancers, live music, half priced special drinks, SFW and NSFW services for all your desires. Special additions include an in house photographer and artist! Come join us and sin the night away!",
+        "location": "Sargatanas, The Mist, Ward 9, Plot 35",
+        "discord": "https://discord.gg/XV8QnQ3xVQ",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": "0100ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 5,
+                "start": "0200ND",
+                "end": "0600ND"
+            }
+        ]
+    },
+    {
+        "name": "Eden Hall",
+        "description": "Digital Hostess Lounge - Great drink and great company.",
+        "location": "Siren, Goblet, Ward 5, Plot 44",
+        "website": "https://edenhall.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": "0200ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 7,
+                "start": "0200ND",
+                "end": "0700ND"
+            }
+        ]
+    },
+    {
+        "name": "Sinners Nightclub",
+        "description": "The Sinner’s Nightclub encourages everyone to find trouble in our little, “Sin City.” From exotic dancers, devilishly handcrafted drinks, appetizers, to perhaps a night with a fallen angel, we promise you won’t be disappointed~ After all there’s just a little devil in all of us, right? We promise to provide the ultimate experience for a very small price. Your soul? Please come by for a drink and to mingle, \"Hell is empty. All the devils are here.\"",
+        "location": "Sargantanas, Lavender Beds, Ward 5, Plot 5",
+        "website": "https://sinners-nightclub.carrd.co/",
+        "discord": "https://discord.gg/2zAeE7EPd7",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": "0200ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 5,
+                "start": "0200ND",
+                "end": "0700ND"
+            }
+        ]
+    },
+    {
+        "name": "House Catboi",
+        "description": "We're a community of male-loving-male focused LGBTQ+ gamers serving the gay community of Eorzea both through this Discord community and our venue! Of course everyone is welcome! While we are primarily a community of male-loving-male identifying folks, everyone is welcome to take part in what we have to offer and to join the party!",
+        "location": "Jenova, Lavender Beds, Ward 24, Plot 22",
+        "discord": "https://discord.gg/ePWB4ZEe5J",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": "0130ND",
+                "end": "0600ND"
+            },
+            {
+                "day": 7,
+                "start": "0130ND",
+                "end": "0600ND"
+            }
+        ]
+    },
+    {
+        "name": "Moonlight Mafia",
+        "description": "We got just about eveything you need. A good time!",
+        "location": "Adamantoise, The Mist, Ward 7, Plot 2",
+        "discord": "https://discord.gg/my4D32Sq",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 7,
+                "start": "0200ND"
+            }
+        ]
+    },
+    {
+        "name": "The Drunken Moogle",
+        "description": "Food, Drinks, Music, Events, & Much More!",
+        "location": "Faerie, Goblet, Ward 21, Plot 8",
+        "website": "https://drunkenmoogle.carrd.co/#venue",
+        "discord": "https://discord.gg/WdJEVHUBPu",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 7,
+                "start": "0200ND"
+            }
+        ]
+    },
+    {
+        "name": "The Crypt",
+        "description": "Come to your eternal rest with us at The Crypt. Drinks, music, and prizes await beyond the cemetery gates!",
+        "location": "Gilgamesh, Lavender Beds, Ward 18, Plot 36",
+        "discord": "https://discord.gg/h56U6qnQR8",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": "0000ND",
+                "end": "0400ND"
+            },
+            {
+                "day": 6,
+                "start": "0000ND",
+                "end": "0400ND"
+            },
+            {
+                "day": 7,
+                "start": "2300",
+                "end": "0300ND"
+            }
+        ]
+    },
+    {
+        "name": "Pickle Barrel",
+        "description": "Seeking a place to mellow out and just be yourself? Care to talk away with friends while knocking back a few cold ones with company? Perhaps you just want to drink your troubles away? Either way you go about it, you are more than welcome at the Barrel!",
+        "location": "Cactaur, Goblet, Ward 9, Plot 14",
+        "discord": "https://discord.gg/Q4nf8dZgpF",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": "0000ND",
+                "end": "0300ND"
+            },
+            {
+                "day": 5,
+                "start": "0000ND",
+                "end": "0300ND"
+            }
+        ]
+    },
+    {
+        "name": "Pheonix Rising",
+        "description": "We are an 18+ role-playing venue providing entertainment services to the world of Eorzea. Whether a passerby wanting to know more, or a devout member of our little society, you are among friends. Sit down and stay awhile, won’t you? After all, the debauchery doesn’t start until -oh, who are we kidding? It started the moment you walked through the door.",
+        "location": "Midgardsormr, The Mist, Ward 13, Plot 2",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 7,
+                "start": "0200ND",
+                "end": "0700ND"
+            }
+        ]
+    },
+    {
+        "name": "Booty House",
+        "description": "This venue changes their look every time they open. From a gladiator colosseum, farmhouse and fields, to a caveman nightclub. Absolutely 18+ themed. ",
+        "location": "Cactuar, Lavender Beds, Ward 3, Plot 35",
+        "discord": "https://discord.gg/XzjBxbF",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 7,
+                "start": "0200ND",
+                "end": "0700ND"
             }
         ]
     }
