@@ -271,16 +271,16 @@
     },
     {
         "name": "Booty House",
-        "description": "This venue changes their look every time they open. From a gladiator colosseum, farmhouse and fields, to a caveman nightclub. Absolutely 18+ themed. ",
+        "description": "Every week is something different! From a gladiator colosseum, farmhouse and fields, to a caveman nightclub. We have various live music entertainment line ups each week, contests, and ofcourse a \"Booty Bar\" and Dancers/Courtesan Services.",
         "location": "Cactuar, Lavender Beds, Ward 3, Plot 35",
         "discord": "https://discord.gg/XzjBxbF",
         "sfw": false,
         "nsfw": true,
         "times": [
             {
-                "day": 7,
-                "start": "0200ND",
-                "end": "0700ND"
+                "day": 5,
+                "start": "0100ND",
+                "end": "0400ND"
             }
         ]
     }
