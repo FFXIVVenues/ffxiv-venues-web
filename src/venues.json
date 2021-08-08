@@ -1,0 +1,27 @@
+[
+    {
+        "name": "The White Hare",
+        "description": "Café and bar with inhouse artists.",
+        "location": "Faerie, The Mist, Ward 8, plot 32",
+        "website": "https://thewhitehare.carrd.co/",
+        "discord": "https://discord.gg/8XYyQVDsJQ",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": "0000ND",
+                "end": "0300ND"
+            },
+            {
+                "day": 6,
+                "start": "0000ND",
+                "end": "0300ND"
+            },
+            {
+                "day": 7,
+                "start": "0000ND"
+            }
+        ]
+    }
+]
