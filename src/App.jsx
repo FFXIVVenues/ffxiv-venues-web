@@ -20,7 +20,7 @@ function App() {
 
   venueViewModels = venueViewModels.sort((a, b) =>  {
     const dayDiff = a.day - b.day;
-    if (dayDiff != 0) {
+    if (dayDiff !== 0) {
       return dayDiff;
     }
     let aStartTime = parseInt(a.start);
