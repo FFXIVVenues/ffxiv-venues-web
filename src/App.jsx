@@ -47,10 +47,10 @@ function getVenueViewModels() {
 
   for (let day = 0; day <= 6; day++) {
     venueViewModels[day] = venueViewModels[day].sort((a, b) => {
-      let aStartTime = parseInt(a.start);
+      let aStartTime = parseInt(a.time.start);
       if (aStartTime < 600)
         aStartTime += 2400;
-      let bStartTime = parseInt(b.start);
+      let bStartTime = parseInt(b.time.start);
       if (bStartTime < 600)
         bStartTime += 2400;
       return aStartTime - bStartTime;
