@@ -283,5 +283,47 @@
                 "end": "0400ND"
             }
         ]
+    },
+    {
+        "name": "Memory's End Tactus Anyder",
+        "description": "SFW Public, NSFW Private Bath House. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. ",
+        "location": "Adamantoise, Goblet, Ward 13, Plot 43",
+        "website": "https://www.anydercomplex.com/",
+        "discord": "https://discord.io/Anyder",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": "0300ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 2,
+                "start": "0400ND",
+                "end": "0800ND"
+            },
+            {
+                "day": 3,
+                "start": "0300ND",
+                "end": "0700ND"
+            }
+        ]
+    },
+    {
+        "name": "Memory's' Osculum Anyder",
+        "description": "NSFW Brothel, Bar, & Lounge. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. ",
+        "location": "Jenova, Goblet, Ward 23, Plot 42",
+        "website": "https://www.anydercomplex.com/",
+        "discord": "https://discord.io/Anyder",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": "0300ND",
+                "end": "0700ND"
+            }
+        ]
     }
 ]
