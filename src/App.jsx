@@ -18,7 +18,17 @@ function App() {
     }
   }
 
-  venueViewModels = venueViewModels.sort((a, b) => a.day - b.day)
+  venueViewModels = venueViewModels.sort((a, b) =>  {
+    const dayDiff = a.day - b.day;
+    if (dayDiff != 0) {
+      return dayDiff;
+    }
+    let aStartTime = parseInt(a.start);
+    if (aStartTime < 600) aStartTime += 2400;
+    let bStartTime = parseInt(b.start);
+    if (bStartTime < 600) bStartTime += 2400;
+    return aStartTime - bStartTime;
+  })
 
   return (
     <div className="aether-venues">
