@@ -9,17 +9,17 @@
         "nsfw": false,
         "times": [
             {
+                "day": 4,
+                "start": "0000ND",
+                "end": "0300ND"
+            },
+            {
                 "day": 5,
                 "start": "0000ND",
                 "end": "0300ND"
             },
             {
                 "day": 6,
-                "start": "0000ND",
-                "end": "0300ND"
-            },
-            {
-                "day": 7,
                 "start": "0000ND"
             }
         ]
@@ -33,12 +33,12 @@
         "nsfw": true,
         "times": [
             {
-                "day": 1,
+                "day": 0,
                 "start": "0100ND",
                 "end": "0500ND"
             },
             {
-                "day": 2,
+                "day": 1,
                 "start": "0100ND",
                 "end": "0500ND"
             }
@@ -54,17 +54,17 @@
         "nsfw": true,
         "times": [
             {
-                "day": 2,
+                "day": 1,
                 "start": "0000ND",
                 "end": "0500ND"
             },
             {
-                "day": 4,
+                "day": 3,
                 "start": "0000ND",
                 "end": "0500ND"
             },
             {
-                "day": 6,
+                "day": 5,
                 "start": "0000ND",
                 "end": "0500ND"
             }
@@ -79,6 +79,11 @@
         "nsfw": true,
         "times": [
             {
+                "day": 1,
+                "start": "0300ND",
+                "end": "0700ND"
+            },
+            {
                 "day": 2,
                 "start": "0300ND",
                 "end": "0700ND"
@@ -89,12 +94,7 @@
                 "end": "0700ND"
             },
             {
-                "day": 4,
-                "start": "0300ND",
-                "end": "0700ND"
-            },
-            {
-                "day": 6,
+                "day": 5,
                 "start": "0300ND",
                 "end": "0700ND"
             }
@@ -109,12 +109,12 @@
         "nsfw": true,
         "times": [
             {
-                "day": 3,
+                "day": 2,
                 "start": "0100ND",
                 "end": "0500ND"
             },
             {
-                "day": 5,
+                "day": 4,
                 "start": "0200ND",
                 "end": "0600ND"
             }
@@ -129,12 +129,12 @@
         "nsfw": false,
         "times": [
             {
-                "day": 3,
+                "day": 2,
                 "start": "0200ND",
                 "end": "0700ND"
             },
             {
-                "day": 7,
+                "day": 6,
                 "start": "0200ND",
                 "end": "0700ND"
             }
@@ -150,12 +150,12 @@
         "nsfw": true,
         "times": [
             {
-                "day": 4,
+                "day": 3,
                 "start": "0200ND",
                 "end": "0700ND"
             },
             {
-                "day": 5,
+                "day": 4,
                 "start": "0200ND",
                 "end": "0700ND"
             }
@@ -170,12 +170,12 @@
         "nsfw": true,
         "times": [
             {
-                "day": 5,
+                "day": 4,
                 "start": "0130ND",
                 "end": "0600ND"
             },
             {
-                "day": 7,
+                "day": 6,
                 "start": "0130ND",
                 "end": "0600ND"
             }
@@ -190,7 +190,7 @@
         "nsfw": true,
         "times": [
             {
-                "day": 7,
+                "day": 6,
                 "start": "0200ND"
             }
         ]
@@ -205,7 +205,7 @@
         "nsfw": false,
         "times": [
             {
-                "day": 7,
+                "day": 6,
                 "start": "0200ND"
             }
         ]
@@ -219,17 +219,17 @@
         "nsfw": true,
         "times": [
             {
+                "day": 4,
+                "start": "0000ND",
+                "end": "0400ND"
+            },
+            {
                 "day": 5,
                 "start": "0000ND",
                 "end": "0400ND"
             },
             {
                 "day": 6,
-                "start": "0000ND",
-                "end": "0400ND"
-            },
-            {
-                "day": 7,
                 "start": "2300",
                 "end": "0300ND"
             }
@@ -244,12 +244,12 @@
         "nsfw": false,
         "times": [
             {
-                "day": 1,
+                "day": 0,
                 "start": "0000ND",
                 "end": "0300ND"
             },
             {
-                "day": 5,
+                "day": 4,
                 "start": "0000ND",
                 "end": "0300ND"
             }
@@ -263,7 +263,7 @@
         "nsfw": true,
         "times": [
             {
-                "day": 7,
+                "day": 6,
                 "start": "0200ND",
                 "end": "0700ND"
             }
@@ -278,7 +278,7 @@
         "nsfw": true,
         "times": [
             {
-                "day": 5,
+                "day": 4,
                 "start": "0100ND",
                 "end": "0400ND"
             }
@@ -294,17 +294,17 @@
         "nsfw": true,
         "times": [
             {
-                "day": 1,
+                "day": 0,
                 "start": "0300ND",
                 "end": "0700ND"
             },
             {
-                "day": 2,
+                "day": 1,
                 "start": "0400ND",
                 "end": "0800ND"
             },
             {
-                "day": 3,
+                "day": 2,
                 "start": "0300ND",
                 "end": "0700ND"
             }
@@ -320,7 +320,7 @@
         "nsfw": true,
         "times": [
             {
-                "day": 5,
+                "day": 4,
                 "start": "0300ND",
                 "end": "0700ND"
             }

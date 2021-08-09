@@ -45,8 +45,19 @@ a {
   text-align: justify;
 }
 
+.aether-venues__day {
+  padding-top: 20px; 
+}
+
+.aether-venues__day h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+}
+
 .aether-venues__venues {
-  min-width: 485px;
+  min-width: 420px;
   max-width: 100%;
   margin-left: 4vw;
 }
@@ -64,6 +75,8 @@ a {
 
 
 @media screen and (max-width: 615px) {
+  .aether-venues__day { padding-top: 20px; }
+  .aether-venues__day summary { padding-left: 20px; }
   .aether-venues__heading { margin-left: 20px; margin-bottom: 100px; flex-direction: column; align-items: flex-start; }
   .aether-venues__heading h1 { margin-left: 0; }
   .aether-venues__definition { margin-left: 20px; margin-bottom: 40px }
