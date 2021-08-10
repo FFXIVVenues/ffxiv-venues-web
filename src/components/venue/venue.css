@@ -14,9 +14,9 @@
 .venue__name { width: 300px; font-weight: bolder; text-overflow:ellipsis; }
 .venue__location { width: 360px; }
 
-.venue__sfw-icon { height: 20px; margin-right: 10px; }
-.venue__nsfw-icon { height: 20px; }
-.venue__next-day { display: inline-block; height: 15px; margin: -5px 0 5px 5px; }
+.venue__sfw-icon { height: 15px; margin-right: 10px; }
+.venue__nsfw-icon { height: 15px; }
+.venue__next-day { display: inline-block; height: 10px; margin: -5px 0 5px 5px; }
 
 .venue__detail-row {
     background-color: #333;

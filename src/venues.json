@@ -325,5 +325,36 @@
                 "end": "0700ND"
             }
         ]
+    },
+    {
+        "name": "Inner Peace",
+        "description": "Inner Peace is a place to come relax and unwind from a stressful day. Everyone is welcome in our teahouse, and we are always happy to serve the weary. Whether you be a bold adventurer returning from travels or battle, a crafter of fine wares coming to rest after a long day of measuring and making, or a strong-backed gatherer seeking solace after the hard labor of bringing the rest of us what we need to get by you can come find a place to lay down the tools of whatever walk of life you travel and find your...Inner Peace.",
+        "location": "Midgardsormr, Shirogane, Ward 2, Plot 26",
+        "website": "https://innerpeaceteahouse.carrd.co/#",
+        "discord": "https://discord.gg/RDeZJ9zSUC",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": "0100ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 1,
+                "start": "0100ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 2,
+                "start": "0100ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 3,
+                "start": "0100ND",
+                "end": "0500ND"
+            }
+        ]
     }
 ]
