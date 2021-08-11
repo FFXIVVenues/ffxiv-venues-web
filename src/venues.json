@@ -311,7 +311,7 @@
         ]
     },
     {
-        "name": "Memory's' Osculum Anyder",
+        "name": "Memory's End Osculum Anyder",
         "description": "NSFW Brothel, Bar, & Lounge. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. ",
         "location": "Jenova, Goblet, Ward 23, Plot 42",
         "website": "https://www.anydercomplex.com/",
@@ -426,6 +426,27 @@
                 "day": 6,
                 "start": "0200ND",
                 "end": "0700ND"
+            }
+        ]
+    },
+    {
+        "name": "House of Seoul",
+        "description": "House of Seoul is a swanky little (SFW) After-hours Jazz Lounge located in the ❤️ of Shirogane on Faerie. We wanted to bring the world of Jazz and ALL music in general to passerbys. Believe it or not my muse was 'Lo-Fi Jazz Cafe meets Cowboy  Beebop' 😂. You'll have to see for yourself 😉. We also have a cozy cafe area in the main lobby and an Art Studio-esque setup in the loft upstairs. Our recently added services include an On-Site Artist for live portraits! We also have an On-Site fortune teller! So if you're into the mystic arts and curious about what your future has in store then please seek out the mysterious Lady Clea on your next visit. So drop in and share a drink and vibe with wandering minstrels practicing their arts. You bring your Soul and we bring the vibes!",
+        "location": "Faerie, Shirogane, Ward 24, Plot 24",
+        "website": "https://house-of-seoul.carrd.co/",
+        "discord": "https://discord.gg/vxntcea",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": "0200ND",
+                "end": "0600ND"
+            },
+            {
+                "day": 2,
+                "start": "0200ND",
+                "end": "0600ND"
             }
         ]
     }
