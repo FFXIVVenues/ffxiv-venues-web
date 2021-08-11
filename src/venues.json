@@ -361,7 +361,7 @@
         "name": "The Golden Otter",
         "description": "A relaxing, safe for work tea house, offering a bit of sanctuary when you need a break. At the Otter, we aim to offer the highest quality teas and treats to our lovely patrons, and always aim to please. The Golden Otter is the product of a young Au'ra's dream to build a community, serving quality refreshments to the community. Raina often walked through the halls of other locations, but always longed to own her own, bringing the recipes her family taught her as a child to the others, hopefully keeping the traditions alive.",
         "location": "Siren, Lavender Beds, Ward 10, Plot 51",
-        "website": "hhttps://the-golden-otter.carrd.co/",
+        "website": "https://the-golden-otter.carrd.co/",
         "discord": "https://discord.gg/QsfveEZMD7",
         "sfw": true,
         "nsfw": false,
@@ -373,8 +373,58 @@
             },
             {
                 "day": 5,
-                "start": "0000",
+                "start": "0000ND",
                 "end": "0300ND"
+            }
+        ]
+    },
+    {
+        "name": "The Twilight Moon",
+        "description": "Fae inspired venue with Twilight Moon Quintet live music 3 nights a week! The Twilight Moon is the home of the Twilight Moon Quintet.",
+        "location": "Faerie, Goblet, Ward 11, Plot 34",
+        "website": "https://twilightmoon.carrd.co/",
+        "discord": "https://discord.gg/Ru84CaU2fw",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": "0400ND",
+                "end": "0800ND"
+            },
+            {
+                "day": 4,
+                "start": "0400ND",
+                "end": "0800ND"
+            },
+            {
+                "day": 5,
+                "start": "0400ND",
+                "end": "0800ND"
+            }
+        ]
+    },
+    {
+        "name": "Nocturnal Escape",
+        "location": "Midgardsormr, Shirogane, Ward 4, Plot 31",
+        "discord": "https://discord.gg/MtveFGStaz",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": "0200ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 5,
+                "start": "0200ND",
+                "end": "0700ND"
+            },
+            {
+                "day": 6,
+                "start": "0200ND",
+                "end": "0700ND"
             }
         ]
     }
