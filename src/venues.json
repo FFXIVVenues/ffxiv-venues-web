@@ -197,16 +197,16 @@
     },
     {
         "name": "The Drunken Moogle",
-        "description": "Food, Drinks, Music, Events, & Much More!",
+        "description": "Need a place to chill and relax after a long day of grinding? Want a hot supper, or a stiff drink? Look no further than the Drunken Moogle! Food, Drinks, Music, Events, & Much More!",
         "location": "Faerie, Goblet, Ward 21, Plot 8",
-        "website": "https://drunkenmoogle.carrd.co/#venue",
+        "website": "https://drunkenmoogle.carrd.co/",
         "discord": "https://discord.gg/WdJEVHUBPu",
         "sfw": true,
         "nsfw": false,
         "times": [
             {
                 "day": 6,
-                "start": "0200ND"
+                "start": "0100ND"
             }
         ]
     },
