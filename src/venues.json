@@ -449,5 +449,59 @@
                 "end": "0600ND"
             }
         ]
+    },
+    {
+        "name": "The Painted Rose",
+        "location": "Gilgamesh, Goblet, Ward 12, Plot 14",
+        "discord": "https://discord.gg/A3v9A4fkSE",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": "0300ND",
+                "end": "0800ND"
+            },
+            {
+                "day": 3,
+                "start": "0300ND",
+                "end": "0800ND"
+            },
+            {
+                "day": 4,
+                "start": "0300ND",
+                "end": "0800ND"
+            },
+            {
+                "day": 5,
+                "start": "0300ND",
+                "end": "0800ND"
+            }
+        ]
+    },
+    {
+        "name": "Lilting Lilium",
+        "description": "[Every other week on Saturdays]. We are a bar and lounge, allowing connections to various vendors in Eorzea supplying various services. Please come by for a drink and to mingle. Should you have any needs, please see our vendor list for possible fulfillment or reach out to the Madame for recommendations. Services: Bar, Duty Roulette, Tarot Readings, Photography, Housing Decoration, Crafting, Gathering, SFW RP and NSFW RP services, Wedding Reception, Arena, Bards for Hire, Artists for Commission. ",
+        "location": "Adamantoise, The Mist, Ward 24, Plot 5",
+        "discord": "https://discord.gg/YUykuPM",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": "0100ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 3,
+                "start": "0100ND",
+                "end": "0500ND"
+            },
+            {
+                "day": 5,
+                "start": "0100ND",
+                "end": "0600ND"
+            }
+        ]
     }
 ]
