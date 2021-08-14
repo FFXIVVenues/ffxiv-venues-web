@@ -122,7 +122,7 @@
     },
     {
         "name": "Eden Hall",
-        "description": "Digital Hostess Lounge - Great drink and great company.",
+        "description": "Modeled after a traditional hostess clubs, Eden Hall allow our hostess to allow you to relax after a long day, come in for a drink, and some great company.",
         "location": "Siren, Goblet, Ward 5, Plot 44",
         "website": "https://edenhall.carrd.co/",
         "sfw": true,
@@ -164,7 +164,7 @@
     {
         "name": "House Catboi",
         "description": "We're a community of male-loving-male focused LGBTQ+ gamers serving the gay community of Eorzea both through this Discord community and our venue! Of course everyone is welcome! While we are primarily a community of male-loving-male identifying folks, everyone is welcome to take part in what we have to offer and to join the party!",
-        "location": "Jenova, Lavender Beds, Ward 24, Plot 22",
+        "location": "Jenova, Lavender Beds, Ward 6, Plot 58",
         "discord": "https://discord.gg/ePWB4ZEe5J",
         "sfw": true,
         "nsfw": true,
@@ -249,7 +249,7 @@
                 "end": "0300ND"
             },
             {
-                "day": 4,
+                "day": 3,
                 "start": "0000ND",
                 "end": "0300ND"
             }
@@ -271,7 +271,7 @@
     },
     {
         "name": "Booty House",
-        "description": "Every week is something different! From a gladiator colosseum, farmhouse and fields, to a caveman nightclub. We have various live music entertainment line ups each week, contests, and ofcourse a \"Booty Bar\" and Dancers/Courtesan Services.",
+        "description": "Every week is something different! From a gladiator colosseum, farmhouse and fields, to a caveman nightclub. We have various live music entertainment line ups each week, contests, and ofcourse a \"Booty Bar\" and Dancers/Courtesan Services. Amaryllis Ignitor says 'I'm also one of the best parts of working here. You see, I'm sexy as hell and I'm a great lay. Totally modest about it too.'. Also Amaryllis: 'I love that we do coke here.'",
         "location": "Cactuar, Lavender Beds, Ward 3, Plot 35",
         "discord": "https://discord.gg/XzjBxbF",
         "sfw": false,
