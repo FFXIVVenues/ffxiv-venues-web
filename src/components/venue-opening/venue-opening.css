@@ -1,0 +1,35 @@
+.venue-opening { max-width: 940px }
+.venue-opening--open { color: #009B80; text-shadow: 0 0 15px rgba(144, 238, 144, 0.7); font-weight: bolder; }
+
+
+.venue-opening__summary-row { width: 100%; display: inline-block; padding: 10px 20px; box-sizing: border-box; }
+.venue-opening__summary-row:hover { background-color: rgba(7, 255, 123, 0.075); cursor: pointer; }
+
+.venue-opening__cell { display: inline-block; }
+
+.venue-opening__start { width: 80px; }
+.venue-opening__time-split { width: 30px; }
+.venue-opening__end  { width: 90px; }
+.venue-opening__name { width: 300px; font-weight: bolder; text-overflow: ellipsis; }
+.venue-opening__location { width: 360px; }
+.venue-opening__icons .sfw-icon { height: 15px; margin-right: 10px; }
+.venue-opening__icons .nsfw-icon { height: 15px; }
+
+@media screen and (max-width: 1150px) {
+    .venue-opening { max-width: 850px; }
+    .venue-opening__start { width: 110px; }
+    .venue-opening__time-split { display: none }
+    .venue-opening__end  { display: none }
+}
+
+@media screen and (max-width: 980px) {
+    .venue-opening { max-width: 500px; }
+    .venue-opening__location  { display: none }
+}
+
+@media screen and (max-width: 615px) {
+    .venue-opening { max-width: 100%; }
+    .venue-opening__name { width: auto }
+    .venue-opening__icons { display: none }
+    .venue-opening__summary-row { width: 100%; padding: 10px 20px }
+}

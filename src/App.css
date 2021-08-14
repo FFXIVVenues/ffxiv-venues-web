@@ -5,23 +5,39 @@
 
 body {
   background-image: url("assets/background-image.jpg");
-  background-size: auto 400px;
+  background-position-x: center;
+  background-size: auto 650px;
   background-repeat: no-repeat;
-  background-color: #404040;
-  color: white;
+  background-color: #000003;
+  color: #BBB;
 }
 
 a {
-  color: white;
+  color: #DDD;
 }
 
+.app-root {
+  display: flex;
+  justify-content: center;
+}
+
+.aether-venues {
+  width: 90vw;
+  max-width: 940px;
+}
+
+.aether-venues__banner-credit {
+  font-size: small;
+  margin-top: 10px;
+  text-align: right;
+  text-shadow: 0px 0px 5px black;
+}
 
 .aether-venues__heading {
-  margin-top: 135px;
-  margin-left: 4vw;
+  margin-top: 380px;
   display: flex;
   align-items: center;
-  
+  text-shadow: 0px 0px 15px black;
 }
 
 .aether-venues__heading img {
@@ -38,11 +54,9 @@ a {
 }
 
 .aether-venues__definition {
-  margin-left: 4vw;
   margin-bottom: 75px;
-  width: 85vw;
-  max-width: 1080px;
   text-align: justify;
+  text-shadow: 0px 0px 10px black;
 }
 
 .aether-venues__day {
@@ -57,13 +71,10 @@ a {
 }
 
 .aether-venues__venues {
-  min-width: 420px;
   max-width: 100%;
-  margin-left: 4vw;
 }
 
 .aether-venues__made-by {
-  margin-left: 4vw;
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -73,12 +84,30 @@ a {
   font-size: 1.5rem;
 }
 
+body.light {
+  background-image: url("assets/background-image-2.jpg");
+  background-color: #B1B096;
+  color: #333;
+}
+
+.light a {
+  color: #222;
+}
+
+.light .aether-venues__banner-credit {
+  text-shadow: none;
+}
+
+.light .aether-venues__heading, .light .aether-venues__definition {
+  color: #BBB;
+  text-shadow: 0px 0px 15px #888;
+}
 
 @media screen and (max-width: 615px) {
   .aether-venues__day { padding-top: 20px; }
-  .aether-venues__day summary { padding-left: 20px; }
-  .aether-venues__heading { margin-left: 20px; margin-bottom: 100px; flex-direction: column; align-items: flex-start; }
+  .aether-venues__heading { margin-bottom: 110px; flex-direction: column; align-items: flex-start; }
   .aether-venues__heading h1 { margin-left: 0; }
-  .aether-venues__definition { margin-left: 20px; margin-bottom: 40px }
-  .aether-venues__venues { margin-left: 0; }
+  .aether-venues__definition { margin-bottom: 20px; text-shadow: none; }
+  .light .aether-venues__definition { color: #333; }
+  .aether-venues__venues { margin-right: 20px }
 }

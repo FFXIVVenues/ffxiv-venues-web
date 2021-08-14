@@ -10,17 +10,17 @@
         "times": [
             {
                 "day": 4,
-                "start": "0000ND",
-                "end": "0300ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0000ND",
-                "end": "0300ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": "0000ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -34,13 +34,13 @@
         "times": [
             {
                 "day": 0,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -55,18 +55,18 @@
         "times": [
             {
                 "day": 1,
-                "start": "0000ND",
-                "end": "0500ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": "0000ND",
-                "end": "0500ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0000ND",
-                "end": "0500ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -80,23 +80,23 @@
         "times": [
             {
                 "day": 1,
-                "start": "0300ND",
-                "end": "0700ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": "0300ND",
-                "end": "0700ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": "0300ND",
-                "end": "0700ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0300ND",
-                "end": "0700ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -110,13 +110,13 @@
         "times": [
             {
                 "day": 2,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": "0200ND",
-                "end": "0600ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -130,13 +130,13 @@
         "times": [
             {
                 "day": 2,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -151,13 +151,13 @@
         "times": [
             {
                 "day": 3,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -171,13 +171,13 @@
         "times": [
             {
                 "day": 4,
-                "start": "0130ND",
-                "end": "0600ND"
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": "0130ND",
-                "end": "0600ND"
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -191,7 +191,7 @@
         "times": [
             {
                 "day": 6,
-                "start": "0200ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -206,7 +206,7 @@
         "times": [
             {
                 "day": 6,
-                "start": "0100ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -220,18 +220,18 @@
         "times": [
             {
                 "day": 4,
-                "start": "0000ND",
-                "end": "0400ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0000ND",
-                "end": "0400ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": "2300",
-                "end": "0300ND"
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -245,13 +245,13 @@
         "times": [
             {
                 "day": 0,
-                "start": "0000ND",
-                "end": "0300ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": "0000ND",
-                "end": "0300ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -264,8 +264,8 @@
         "times": [
             {
                 "day": 6,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -279,8 +279,8 @@
         "times": [
             {
                 "day": 4,
-                "start": "0100ND",
-                "end": "0400ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -295,18 +295,18 @@
         "times": [
             {
                 "day": 0,
-                "start": "0300ND",
-                "end": "0700ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": "0400ND",
-                "end": "0800ND"
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": "0300ND",
-                "end": "0700ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -321,8 +321,8 @@
         "times": [
             {
                 "day": 4,
-                "start": "0300ND",
-                "end": "0700ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -337,23 +337,23 @@
         "times": [
             {
                 "day": 0,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -368,13 +368,13 @@
         "times": [
             {
                 "day": 4,
-                "start": "0000ND",
-                "end": "0300ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0000ND",
-                "end": "0300ND"
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -389,18 +389,18 @@
         "times": [
             {
                 "day": 1,
-                "start": "0400ND",
-                "end": "0800ND"
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": "0400ND",
-                "end": "0800ND"
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0400ND",
-                "end": "0800ND"
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -414,18 +414,18 @@
         "times": [
             {
                 "day": 0,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": "0200ND",
-                "end": "0700ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -440,13 +440,13 @@
         "times": [
             {
                 "day": 0,
-                "start": "0200ND",
-                "end": "0600ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": "0200ND",
-                "end": "0600ND"
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -460,23 +460,23 @@
         "times": [
             {
                 "day": 1,
-                "start": "0300ND",
-                "end": "0800ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": "0300ND",
-                "end": "0800ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": "0300ND",
-                "end": "0800ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0300ND",
-                "end": "0800ND"
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -491,18 +491,18 @@
         "times": [
             {
                 "day": 0,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": "0100ND",
-                "end": "0500ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": "0100ND",
-                "end": "0600ND"
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     }
