@@ -5,17 +5,18 @@ class Modal extends React.Component {
 
     constructor() {
         super();
-        this.destroy = null;
+        this._destroyModal = null;
     }
 
     componentDidMount() {
-        modalService.push({ 
+        this._destroyModal = modalService.push({ 
+            className: this.props.className,
             contents: this.props.children
         });
     }
 
     componentWillUnmount() {
-        this.destroy && this.destroy();
+        this._destroyModal && this._destroyModal();
     }
 
     render() {

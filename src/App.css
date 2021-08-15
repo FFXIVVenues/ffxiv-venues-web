@@ -1,15 +1,15 @@
 :root {
   font-size: 16px;
-  --scroll-bar-width: calc(100% - 100vw);
 }
 
 body {
   background-image: url("assets/background-image.jpg");
-  background-position-x: center;
+  background-position-x: calc((1920px - 100vw)/-2);
   background-size: auto 650px;
   background-repeat: no-repeat;
   background-color: #000003;
   color: #BBB;
+  width: calc(100vw);
 }
 
 a {

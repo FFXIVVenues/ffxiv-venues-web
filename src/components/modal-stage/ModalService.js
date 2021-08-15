@@ -9,7 +9,7 @@ class ModalService {
         this.modals.push(modal);
         this._observers.forEach(o => o());
         return () => {
-            this.modals = this.modals.filter(m => m === modal);
+            this.modals = this.modals.filter(m => m !== modal);
             this._observers.forEach(o => o());
         };
     }
