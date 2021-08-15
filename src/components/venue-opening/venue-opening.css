@@ -1,4 +1,4 @@
-.venue-opening { max-width: 940px;  }
+.venue-opening { max-width: 100%;  }
 .venue-opening--open { color: #009B80; text-shadow: 0 0 15px rgba(144, 238, 144, 0.7); font-weight: bolder; }
 
 
@@ -11,7 +11,7 @@
 .venue-opening__time-split { width: 30px; }
 .venue-opening__end  { width: 90px; }
 .venue-opening__name { width: 300px; font-weight: bolder; text-overflow: ellipsis; }
-.venue-opening__location { width: 360px; }
+.venue-opening__location { width: 380px; }
 .venue-opening__icons .sfw-icon { height: 15px; margin-right: 10px; }
 .venue-opening__icons .nsfw-icon { height: 15px; }
 
@@ -44,14 +44,14 @@
     margin-top: 0px;
 }
 
-@media screen and (max-width: 1050px) {
-    .venue-opening { max-width: 850px; }
+@media screen and (max-width: 1070px) {
+    .venue-opening { max-width: 870px; }
     .venue-opening__start { width: 110px; }
     .venue-opening__time-split { display: none }
     .venue-opening__end  { display: none }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 970px) {
     .venue-opening { max-width: 500px; }
     .venue-opening__location  { display: none }
 }

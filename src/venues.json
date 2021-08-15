@@ -643,5 +643,32 @@
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "Club Pure",
+        "description": "In a playful mood? Want to break the rules of modern society? Come have your every wish granted at Club Pure! Pure is a nightclub, bar, lounge, sauna, and casino where you can let loose your inner sinner and embrace the moonlit night with a bevy of some of the most gorgeous flowers, all waiting to be plucked at your disposal.",
+        "banner": "assets/banners/pure.jpg",
+        "location": "Jenova, Shirogane, Ward 13, Plot 46",
+        "website": "https://clubpure.carrd.co/",
+        "discord": "https://discord.gg/ceyFDTRwbT",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
