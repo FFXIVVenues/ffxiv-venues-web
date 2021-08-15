@@ -380,6 +380,7 @@
     },
     {
         "name": "The Twilight Moon",
+        "banner": "assets/banners/twilight-moon.jpg",
         "description": "Fae inspired venue with Twilight Moon Quintet live music 3 nights a week! The Twilight Moon is the home of the Twilight Moon Quintet.",
         "location": "Faerie, Goblet, Ward 11, Plot 34",
         "website": "https://twilightmoon.carrd.co/",
@@ -510,7 +511,7 @@
         "name": "Alie's Tea Shop",
         "banner": "assets/banners/alies-tea-shop.jpg",
         "bannerNew": "assets/banners/alies-tea-shop-new.jpg",
-        "location": "Siren, The Mist, Ward 7, Topmast Apartment #78",
+        "location": "Siren, The Mist, Ward 7, TM Apartment 78",
         "newLocation": "Siren, Lavender Beds, Ward 8, Plot 50",
         "website": "https://imgur.com/a/h8ZDjYs",
         "sfw": true,
@@ -551,6 +552,57 @@
                 "day": 5,
                 "start": { "hour": 21, "minute": 30, "nextDay": false },
                 "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "Wanderers Wayrest",
+        "description": "A place for weary travelers to come at the end of their day-to-day journeys and find that oft-desired culmination of rest and relaxation. To fill their stomachs with delicious foods, to find the open and welcoming arms of the denizens within and to rejuvenate their mind, and body with a much needed massage. The Wayrest is an 18+ RP focused establishment, and we are more than happy to have you as a patron and feel privileged to have the chance to serve you.",
+        "banner": "assets/banners/wanderers-wayrest.jpg",
+        "location": "Midgardsormr, Lavender Beds, Ward 3, Plot 8",
+        "website": "https://wanderers-wayrest.carrd.co/",
+        "discord": "https://discord.gg/bQ5ukvHEfv",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "Cozy",
+        "description": "The homey environment to take your worries away.",
+        "banner": "assets/banners/cozy.jpg",
+        "location": "Siren, Lavender Beds, Ward 13, LH Apartment 87",
+        "website": "https://cozyffxiv.carrd.co/",
+        "discord": "https://discord.gg/EsHRJYTj",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     }

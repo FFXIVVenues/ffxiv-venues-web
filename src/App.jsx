@@ -27,9 +27,9 @@ class App extends React.Component {
   
     venueViewModels = venueViewModels.map(day => day.sort((a, b) => {
       let aStartTime = (a.time.start.hour * 100) + a.time.start.minute;
-      if (aStartTime < 600) aStartTime += 2400;
+      if (aStartTime < 900) aStartTime += 2400;
       let bStartTime = (b.time.start.hour * 100) + b.time.start.minute;
-      if (bStartTime < 600) bStartTime += 2400;
+      if (bStartTime < 900) bStartTime += 2400;
       return aStartTime - bStartTime;
     }));
 
