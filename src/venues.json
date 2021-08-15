@@ -608,7 +608,7 @@
     },
     {
         "name": "Luxuria",
-        "description": "Luxuria is a Night Club that was founded in May 2020 by Darius Ardor and Katerina Noire. With the help of dedicated staff this venue is a thriving location with hot events. We've had some of the Hottest Talent in all of Eorzea hit our stage, our Escorts are truly exceptional in the art of companionship, and our Photographers are amongst the most gifted Artists XIV.",
+        "description": "Nestled by the trunk and under the boughs of Senna's Pride in Lavender Beds, the Luxuria provides a high class experience for its discerning guests and clientele.  Live music and DJs play within their halls to entertain their guests while their bar serves all manners of drinks from every corner of the twelve.  Hidden away from the eyes of the guard, its escorts provide warm companionship and warmer intimacy to their clients, taking them on wild adventures greater than anything Eorzea has to offer.  Won't you come and find your happiness within?",
         "banner": "assets/banners/luxuria.jpg",
         "location": "Siren, Lavender Beds, Ward 24, Plot 33",
         "website": "https://luxuria.uwu.ai/",
@@ -620,6 +620,27 @@
                 "day": 5,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "Under the Moonlight",
+        "description": "Nightclub offering SFW and NSFW RP services, a fully stocked bar, casino with dice, astro slots, death rolling and blackjack, giveaways, nightly raffle, photography and art services.",
+        "banner": "assets/banners/under-the-moonlight.jpg",
+        "location": "Midgardsormr, Goblet, Ward 24, Part 30",
+        "discord": "https://discord.gg/9sWtKPqEmQ",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     }
