@@ -11,10 +11,20 @@ class VenueOpening extends React.Component {
 
     constructor(props) {
         super();
-        this.state = {};
         this.props = props;
+        this.state = {
+            isOpen: this.isOpen()
+        };
+        this._checkInterval = null;
         this._onEscPressed = this._onEscPressed.bind(this);
-        this._isOpen = this.isOpen();
+    }
+    
+    componentDidMount() {
+        this._checkInterval = setInterval(() => this.setState({ isOpen: this.isOpen() }), 6000);
+    }
+
+    componentWillUnmount() {
+        this._checkInterval !== null && clearInterval(this._checkInterval);
     }
 
     isOpen() {
@@ -64,7 +74,7 @@ class VenueOpening extends React.Component {
     }
 
     render() {
-        return <div className={"venue-opening" + (this._isOpen ? " venue-opening--open" : "")}>
+        return <div className={"venue-opening" + (this.state.isOpen ? " venue-opening--open" : "")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
                 <div className="venue-opening__cell venue-opening__start"><Time time={this.props.time.start} day={this.props.time.day} format24={false} /></div>
                 <div className="venue-opening__cell venue-opening__time-split">{this.props.time.end && <React.Fragment>-</React.Fragment>}</div>

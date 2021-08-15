@@ -51,7 +51,7 @@ class App extends React.Component {
           </div>
           <p className="aether-venues__definition">
             A venue is a place maintained by players for all RPers to come by and RP in. This includes taverns, shops, nightclubs, restaurants or even crazier environments like colosseums. They often include various RP "services" such as in-house photography, artists, tarrot readings and courtesans. Venues must have a regularly scheduled opening time to be on this list. 
-          </p>
+          </p>  
           <div className="aether-venues__venues">
             { this._venueViewModels.map((venues, i) =>
                 <div className="aether-venues__day" key={i}>

@@ -13,10 +13,10 @@ class VenueProfile extends React.Component {
         return (
             <div className="venue-profile">
 
-                <div className="venue-profile__banner" />
+                <div className="venue-profile__banner" 
+                     style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null } />
 
                 <div className="venue-profile__details">
-
                     <div className="venue-profile__heading">
                         <h2>
                             { this.props.venue.name }
@@ -33,17 +33,16 @@ class VenueProfile extends React.Component {
                         }
                     </div>
 
-
-                    
                     <p className="venue-profile__location">
                         { this.props.venue.location }
                     </p>
 
                     <p className="venue-profile__description">
-                        { this.props.venue.description && <p className="venue-opening__description">{this.props.venue.description}</p> }
+                        { this.props.venue.description && <React.Fragment>{this.props.venue.description}</React.Fragment> }
                     </p>
                     
                     <table className="venue-profile__opening-times">
+                        <tbody>
                         { this.props.venue.times.map((t, i) => 
                             <tr key={i}>
                                 <td className="venue-profile__day"><strong>{days[t.day]}</strong></td> 
@@ -52,6 +51,7 @@ class VenueProfile extends React.Component {
                                 <td className="venue-profile__end">{ t.end && <Time time={t.end} day={t.day} format24={false} /> }</td>
                             </tr>
                         )}
+                        </tbody>
                     </table>
                     <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
 

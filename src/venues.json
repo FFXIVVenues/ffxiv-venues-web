@@ -505,5 +505,53 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "Alie's Tea Shop",
+        "banner": "assets/banners/alies-tea-shop.jpg",
+        "bannerNew": "assets/banners/alies-tea-shop-new.jpg",
+        "location": "Siren, The Mist, Ward 7, Topmast Apartment #78",
+        "newLocation": "Siren, Lavender Beds, Ward 8, Plot 50",
+        "website": "https://imgur.com/a/h8ZDjYs",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "Lyn's Corner",
+        "description": "Deep in the Goblet there's a little cafe. A small place to gather and relax or a quick visit just for a cup of coffee. My door is open for anyone to visit.",
+        "banner": "assets/banners/lyns-corner.jpg",
+        "location": "Cactuar, Goblet, Ward 24, Plot 29",
+        "website": "https://lynxsan20.wixsite.com/lynscorner",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 21, "minute": 30, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]

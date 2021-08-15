@@ -13,8 +13,8 @@ class Time extends React.Component {
             { this.props.format24 
                 ? <React.Fragment>{localTime.hour.toString().padStart(2, "0")}:{localTime.minute.toString().padStart(2, "0")}</React.Fragment> 
                 : <React.Fragment>
-                    { (localTime.pm ? localTime.hour - 12 : localTime.hour)}:{localTime.minute.toString().padStart(2, "0") }
-                    { localTime.pm ? "pm": "am" }
+                    { (localTime.hour > 12 ? localTime.hour - 12 : localTime.hour)}:{localTime.minute.toString().padStart(2, "0") }
+                    { localTime.hour > 12 ? "pm": "am" }
                 </React.Fragment>
             }
             <span>

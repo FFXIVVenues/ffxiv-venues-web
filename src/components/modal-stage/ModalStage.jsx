@@ -29,8 +29,8 @@ class ModalStage extends React.Component {
 
         return (
             <div className="modal-stage">
-                { this.state.modals.map(m => 
-                    <div className={"modal-stage__modal " + (m.className ? m.className : "") }>
+                { this.state.modals.map((m, i) => 
+                    <div key={i} className={"modal-stage__modal " + (m.className ? m.className : "") }>
                         { m.contents }
                     </div>
                 )}
