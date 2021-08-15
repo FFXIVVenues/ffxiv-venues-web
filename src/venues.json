@@ -581,7 +581,7 @@
     },
     {
         "name": "Cozy",
-        "description": "The homey environment to take your worries away.",
+        "description": "Cozy is Eorzea's newest venue offering a quaint library to study and discuss with your fellow Eorzean scholars. Sit with a cup of doman tea while enjoying our live performances, food menu and our friendly staff catering to all your needs.",
         "banner": "assets/banners/cozy.jpg",
         "location": "Siren, Lavender Beds, Ward 13, LH Apartment 87",
         "website": "https://cozyffxiv.carrd.co/",
@@ -603,6 +603,23 @@
                 "day": 6,
                 "start": { "hour": 22, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "Luxuria",
+        "description": "Luxuria is a Night Club that was founded in May 2020 by Darius Ardor and Katerina Noire. With the help of dedicated staff this venue is a thriving location with hot events. We've had some of the Hottest Talent in all of Eorzea hit our stage, our Escorts are truly exceptional in the art of companionship, and our Photographers are amongst the most gifted Artists XIV.",
+        "banner": "assets/banners/luxuria.jpg",
+        "location": "Siren, Lavender Beds, Ward 24, Plot 33",
+        "website": "https://luxuria.uwu.ai/",
+        "discord": "https://discord.gg/Luxuria",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     }
