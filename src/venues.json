@@ -671,5 +671,22 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "The Anti",
+        "description": "The Anti is a high-class SFW Roleplay focused Speakeasy & Lounge with quality interactions and libations. Our charming staff and atmosphere will have you entertained deep into the night with a wide selection of activities. Try your luck at one of our raffles, enjoy the melodies from our live bard and musical guests, or just kick back and enjoy the night with our lovely staff, the choice is yours at The Anti.",
+        "banner": "assets/banners/anti.jpg",
+        "location": "Cactuar, Lavender Beds, Ward 23, Plot 51",
+        "website": "https://theanti-ffxiv.carrd.co/",
+        "discord": "https://discord.gg/ECDEJ9V2XD",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
