@@ -1,0 +1,22 @@
+.notice {
+    margin-top: 100px;
+    padding: 10px 15px;
+    background-color: lightyellow;
+    border: solid 1px yellow;
+    color: #333;
+}
+
+.notice a {
+    color: #222;
+}
+
+.notice__summary {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 615px) {
+    .notice {
+        margin-top: 30px;
+    }
+}
