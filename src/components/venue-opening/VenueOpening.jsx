@@ -47,7 +47,7 @@ class VenueOpening extends React.Component {
                             (currentUtcDay === startTimeDay && pastOpeningTime);
                             
         let endTimeDay = endTime.nextDay ? this.props.time.day + 1 : this.props.time.day;
-        endTimeDay = endTimeDay === -1 ? 6 : endTimeDay;
+        endTimeDay = endTimeDay === 7 ? 0 : endTimeDay;
         const dayBeforeVenueEnd = (endTimeDay - 1 === -1 ? 6 : endTimeDay - 1);
 
         const beforeClosingTime = (currentUtcHour === endTime.hour && 
