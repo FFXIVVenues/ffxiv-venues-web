@@ -688,5 +688,32 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "The Scratch Post",
+        "description": "We are a dinner and dessert café specializing in good, old-fashioned cooking. Whether you're here share a meal with friends or family, grab a coffee to go, or to just check the place out - we hope you enjoy your visit!",
+        "banner": "assets/banners/scratch-post.jpg",
+        "location": "Jenova, Goblet, Ward 8, Plot 49",
+        "website": "https://meowbotscatcafe.carrd.co/#",
+        "discord": "https://discord.gg/YnW9fsrzZj",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
