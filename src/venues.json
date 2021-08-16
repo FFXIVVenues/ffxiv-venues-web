@@ -121,22 +121,23 @@
         ]
     },
     {
-        "name": "Eden Hall",
+        "name": "Eden Hall Hostess Club",
         "description": "Modeled after a traditional hostess clubs, Eden Hall allow our hostess to allow you to relax after a long day, come in for a drink, and some great company.",
         "location": "Siren, Goblet, Ward 5, Plot 44",
-        "website": "https://edenhall.carrd.co/",
+        "website": "https://www.edenhall.club/",
+        "discord": "https://discord.gg/vstSnGHTg7",
         "sfw": true,
         "nsfw": false,
         "times": [
             {
                 "day": 2,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
