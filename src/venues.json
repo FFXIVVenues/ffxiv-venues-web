@@ -715,5 +715,66 @@
                 "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "The Solstice Equinox",
+        "description": "Welcome to The Solstice Equinox! Known first and foremost as a legacy FC \"Sol Nova\". We have been around since the 2.0 Launch of ARR! Now with our new high end night club that changes its theme according to the seasons. You'll be sure Eorzea is on the watch for! We guarantee you will enjoy your stay with us at The Solstice!  Hope to see you soon and show us that You've Got Sol!",
+        "banner": "assets/banners/solstice-equinox.png",
+        "location": "Sargatanas, Lavender Beds, Ward 16, Plot 28",
+        "discord": "https://discord.gg/CFavDn43JN",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "A Bookstore",
+        "description": "Welcome to a bookstore! You appear to have stumbled into a random bookstore, with quiet librarians in a dark, warm cozy setting. Shelves line the wall, littered with books from different ages, varying in genres. Throughout your exploration of the small library, small noises can be heard faintly from beneath the floor but the librarians pay no attention to them. Suspiciously, an old window panel lays near the entrance, almost out of place as the librarians can be caught glancing at them every now and then.",
+        "location": "Cactuar, The Mist, Ward 9, Plot 44",
+        "discord": "https://discord.gg/CFavDn43JN",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
