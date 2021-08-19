@@ -485,10 +485,8 @@
     },
     {
         "name": "Alie's Tea Shop",
-        "banner": "assets/banners/alies-tea-shop.jpg",
-        "bannerNew": "assets/banners/alies-tea-shop-new.jpg",
-        "location": "Siren, The Mist, Ward 7, TM Apartment 78",
-        "newLocation": "Siren, Lavender Beds, Ward 8, Plot 50",
+        "banner": "assets/banners/alies-tea-shop-new.jpg",
+        "location": "Siren, Lavender Beds, Ward 8, Plot 50",
         "website": "https://imgur.com/a/h8ZDjYs",
         "sfw": true,
         "nsfw": false,
