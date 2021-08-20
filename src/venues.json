@@ -749,5 +749,26 @@
                 "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "Club Babylon",
+        "description": "AN LGBTQIA+ FRIENDLY CLUB LOCATED IN FAERIE'S GOBLET.",
+        "location": "Faerie, Goblet, Ward 15, Plot 5",
+        "website": "https://www.clubbabylon.org/",
+        "discord": "https://discord.gg/xbRhJCr",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
