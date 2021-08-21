@@ -10,6 +10,8 @@ class App extends React.Component {
 
   constructor() {
     super();
+    this._currentDay = new Date().getUTCHours() < 9 ? new Date().getUTCDay() - 2 : new Date().getUTCDay() - 1;
+    if (this._currentDay < 0) this._currentDay += 7;
     this._venueViewModels = this._getVenueViewModels();
   }
 
@@ -22,7 +24,8 @@ class App extends React.Component {
           venue,
           time
         };
-        venueViewModels[time.day].push(venueViewModel);
+        const position = time.day - this._currentDay < 0 ? time.day - this._currentDay + 7 : time.day - this._currentDay;
+        venueViewModels[position].push(venueViewModel);
       }
     }
   
@@ -55,13 +58,16 @@ class App extends React.Component {
           </p>  
           <Notice></Notice>
           <div className="aether-venues__venues">
-            { this._venueViewModels.map((venues, i) =>
-                <div className="aether-venues__day" key={i}>
-                  <details open>
-                    <summary><h2>{days[i]}</h2></summary>
-                    { venues.map((v, i) => <VenueOpening {...v} key={i} /> )}
-                  </details>
-                </div>
+            { this._venueViewModels.map((venues, i) => {
+
+              return (<div className="aether-venues__day" key={i}>
+                <details open>
+                  <summary><h2>{days[i + this._currentDay > 6 ? i + this._currentDay - 7 : i + this._currentDay ]}</h2></summary>
+                  { venues.map((v, i) => <VenueOpening {...v} key={i} /> )}
+                </details>
+              </div>);
+            }
+               
             )}
           </div>
           <div className="aether-venues__made-by">Made with <span>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
