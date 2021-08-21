@@ -752,7 +752,8 @@
     },
     {
         "name": "Club Babylon",
-        "description": "AN LGBTQIA+ FRIENDLY CLUB LOCATED IN FAERIE'S GOBLET.",
+        "banner": "assets/banners/babylon.jpg",
+        "description": "Club Babylon started off as an idea to revolutionize the club scene in Eorzea. We took inspiration from the many clubs located in The Mists, Lavender Beds, The Goblet, and Shirogane. Club Babylon’s aim is to create a safe nightlife clubbing experience for everyone regardless of their sexuality.",
         "location": "Faerie, Goblet, Ward 15, Plot 5",
         "website": "https://www.clubbabylon.org/",
         "discord": "https://discord.gg/xbRhJCr",
@@ -768,6 +769,27 @@
                 "day": 2,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "Starspace",
+        "banner": "assets/banners/starspace.jpg",
+        "description": "A Space and sci-fi themed venue featuring live music, drinks and gambling!",
+        "location": "Midgardsormr, Shirogane, Ward 5, Plot 30",
+        "discord": "https://discord.gg/starspace",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     }
