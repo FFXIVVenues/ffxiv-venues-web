@@ -814,5 +814,42 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "Blue Ember",
+        "banner": "assets/banners/blue-ember.jpg",
+        "description": "Nestled in the cliffs of Shirogane, Blue Ember is a sanctuary from the hustle and bustle of adventuring. Come relax with live music in our downstairs lounge, unwind in the private hot springs, or indulge yourself in our handmade menu offerings.",
+        "location": "Sargantanas, Shirogane, Ward 18, Plot 60",
+        "website": "https://blue-ember.carrd.co/",
+        "discord": "https://discord.gg/RdxeqZbNC3",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "name": "Sanguine",
+        "description": "Nestled in the cliffs of Shirogane, Blue Ember is a sanctuary from the hustle and bustle of adventuring. Come relax with live music in our downstairs lounge, unwind in the private hot springs, or indulge yourself in our handmade menu offerings.",
+        "location": "Siren, Lavender Beds, Ward 4, Plot 35",
+        "discord": "https://discord.gg/HWwchZXvQH",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
