@@ -792,5 +792,27 @@
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "name": "Cafe Miracles May",
+        "banner": "assets/banners/miracles.jpg",
+        "description": "We are an Ishgardian maid cafe that hopes to bring both lowborn and highborn the warmth and luxury of having their own personal maids and butlers. We do tarot reading and serve food and drinks from all around Coethas as well as other speciality services!",
+        "location": "Faerie, Lavender Beds, Ward 21, LH Apartments 82",
+        "website": "https://cafemiraclesmay.carrd.co/",
+        "discord": "https://discord.gg/starspace",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
