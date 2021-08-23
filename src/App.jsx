@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { VenueOpening } from "./components/venue-opening/VenueOpening";
 import { ModalStage } from "./components/modal-stage/ModalStage";
-import { Notice } from './components/notice/notice';
 import venues from "./venues.json";
 import days from "./consts/days.json"
 
