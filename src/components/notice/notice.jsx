@@ -9,12 +9,20 @@ class Notice extends React.Component {
         return (<div className="notice">
             <details className="notice__details">
                 <summary className="notice__summary">
-                    Important notice
+                    Vrixia's Last Lap - Final procession
                 </summary>
                 <p>Hey friends!</p>
-                <p>This announcement is not one that is easy to write, the RP/venue community is tight and so a noticable part of the community has been rocked by recent news that a well loved, active member of community Vrixia Odana from Jenova sadly passed away from cancer on August 15th. She was an astute member of the D20 FC in Jenova and a server at The Scratch Post. For this reason some venues are closed for the time being, planning for a social event in her honor on August 22nd. </p>
-                <p>The event is one Vrixia wanted to run herself -  a social picnic/chocobo walk happening on August 22nd touring through the black shroud and stopping at several places to picnic and listen to bards and eat... it was her idea that she never got to do.</p>
-                <p><em>The event will meet August 22nd, at 6:30 EST at the New Gridanian aetheryte in Jenova, before starting at 7PM.</em></p>
+                <p>
+                    <strong>First, a thank you!</strong><br/>
+                    You may have heard about the event that passed this Sunday, the Grand Vrix Prix, an event of Vrixia Odana's own design ran in her honor after her passing from cancer on August 15th.
+                    We sincerely thank you for the incredible turn out we received at the event, it became one of the biggest and most unique player-run events in recent FFXIV history - Vrix' would have been proud that her creation captured so many hearts accross Eorzea.
+                </p>
+                <p>
+                    <strong>Vrixia's Last Lap</strong><br/>
+                    Come join us as we remember Vrixia Odana through one last lap of Eorzea, to cherish and remember the friendships and relationships we have all formed and forged along the way. 
+                    We'll start in New Gridania before walking through Mor Dhona, Central Thanalan, East Shroud, and Central Shroud before finally ending at The Giving Tree for final words. 
+                </p>
+                <p><em>The procession will meet August 29th, at 6:00 EST at the New Gridanian aetheryte in Jenova.</em></p>
                 <p>♥ Kana</p> 
             </details>
         </div>);
