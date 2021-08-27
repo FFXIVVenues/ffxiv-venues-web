@@ -912,5 +912,27 @@
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "A2IAjs00f",
+        "name": "Red Moon",
+        "banner": "assets/banners/red-moon.jpg",
+        "description": "Red Moon is an LGBTQ+ 18+ RP venue that focuses on an immersive, welcoming environment for all to come and enjoy themselves. We've been operating since July 25th, 2020. Our mission at Red Moon is to provide a service to the community - whether it's the Red Moon community itself or the venue-going community as a whole. We want to provide a place for people to come to where they'll feel welcomed, noticed and loved.",
+        "location": "Jenova, Lavender Beds, Ward 23, Plot 58",
+        "discord": "http://discord.gg/redmoon",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
