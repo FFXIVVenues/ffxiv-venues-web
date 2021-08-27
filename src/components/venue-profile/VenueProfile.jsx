@@ -2,19 +2,75 @@ import React from "react";
 import { Time } from "../time/Time";
 import { NsfwIcon } from "../icons/NsfwIcon";
 import { SfwIcon } from "../icons/SfwIcon";
+import { favouritesService } from "../../services/favouritesService";
+import { visitedService } from "../../services/visitedService";
 import days from "../../consts/days.json";
-import discordIcon from "../../assets/discord-icon.svg"
-import webIcon from "../../assets/web-icon.svg"
+import discordIcon from "../../assets/discord-icon.svg";
+import favouriteIcon from "../../assets/favourite-icon.svg";
+import notVisitedIcon from "../../assets/not-visited-icon.svg";
+import visitedIcon from "../../assets/visited-icon.svg";
+import webIcon from "../../assets/web-icon.svg";
 import "./venue-profile.css";
 
 class VenueProfile extends React.Component {
 
+    constructor(props) {
+        super();
+        this.state = {
+            isVisited: visitedService.isVisited(props.venue.id),
+            isFavourite: favouritesService.isFavourite(props.venue.id)
+        }
+        this._onVisitedClick = this._onVisitedClick.bind(this);
+        this._onFavoriteClick = this._onFavoriteClick.bind(this);
+    }
+
+    _onVisitedClick() {
+        if (this.state.isVisited) visitedService.removeVisited(this.props.venue.id)
+        else visitedService.setVisited(this.props.venue.id);
+
+        this.setState({
+            isVisited: !this.state.isVisited
+        });
+    }
+
+    _onFavoriteClick() {
+        if (this.state.isFavourite) favouritesService.removeFavourite(this.props.venue.id)
+        else favouritesService.setFavourite(this.props.venue.id);
+        
+        this.setState({
+            isFavourite: !this.state.isFavourite
+        });
+    }
+
     render() {
+        
+
         return (
             <div className="venue-profile">
 
                 <div className="venue-profile__banner" 
-                     style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null } />
+                     style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null }>
+
+                    <div className="venue-profile__user-settings">
+                        <button 
+                            className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--visited" : " venue-profile__favourite-button--not-visited")}
+                            onClick={this._onFavoriteClick}>
+                            <img className="venue-profile__favourite-icon" src={favouriteIcon} alt="" />
+                            Favorite venue
+                        </button>
+
+                        <button 
+                            className={"venue-profile__visited-button" + (this.state.isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
+                            onClick={this._onVisitedClick}>
+                            { this.state.isVisited ? 
+                                <img className="venue-profile__visited-icon" src={visitedIcon} alt="" /> :
+                                <img className="venue-profile__visited-icon" src={notVisitedIcon} alt="" />
+                            }
+                            Visited
+                        </button>
+                    </div>
+                    
+                </div>
 
                 <div className="venue-profile__details">
                     <div className="venue-profile__heading">

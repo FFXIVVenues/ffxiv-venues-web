@@ -15,6 +15,8 @@
 .venue-opening__icons .sfw-icon { height: 15px; margin-right: 10px; }
 .venue-opening__icons .nsfw-icon { height: 15px; }
 
+.venue-opening--no-time .venue-opening__name { width: 500px; }
+
 .venue-modal__close-button { 
     border: none;
     cursor: pointer;
@@ -49,6 +51,7 @@
     .venue-opening__start { width: 110px; }
     .venue-opening__time-split { display: none }
     .venue-opening__end  { display: none }
+    .venue-opening--no-time .venue-opening__name { width: 410px; }
 }
 
 @media screen and (max-width: 970px) {
@@ -58,7 +61,7 @@
 
 @media screen and (max-width: 570px) {
     .venue-opening { max-width: 100%; }
-    .venue-opening__name { width: auto }
+    .venue-opening--no-time .venue-opening__name, .venue-opening__name { width: auto }
     .venue-opening__icons { display: none }
     .venue-opening__summary-row { width: 100%; padding: 10px 20px }
 }

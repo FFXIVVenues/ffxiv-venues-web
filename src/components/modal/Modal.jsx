@@ -11,7 +11,8 @@ class Modal extends React.Component {
     componentDidMount() {
         this._destroyModal = modalService.push({ 
             className: this.props.className,
-            contents: this.props.children
+            contents: this.props.children,
+            onStageClick: this.props.onStageClick
         });
     }
 

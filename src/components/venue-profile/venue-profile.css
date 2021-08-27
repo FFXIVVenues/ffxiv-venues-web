@@ -6,6 +6,35 @@
     background-position-y: center;
     height: 200px;
     width: 100%;
+    padding-top: 0.05px;
+}
+
+.venue-profile__user-settings {
+    margin: 10px
+}
+
+.venue-profile__user-settings button {
+    margin-right: 10px;
+    padding: 8px 9px;
+    border: none;
+    background-color: #222;
+    color: #BBB;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.venue-profile__user-settings button img {
+    height: 15px;
+    margin-right: 10px
+}
+
+button.venue-profile__favourite-button--visited,
+button.venue-profile__visited-button--visited {
+    background-color: #009B80;
+    color: #EEE
 }
 
 .venue-profile__details {
