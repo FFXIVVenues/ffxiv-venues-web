@@ -7,7 +7,7 @@ import "./time.css";
 class Time extends React.Component {
 
     render() {
-        const localTime = timeService.getLocalTime(this.props.time);
+        const localTime = timeService.convertToLocalTime(this.props.time);
         
         return (<time dateTime={`${localTime.utcHour.toString().padStart(2, "0")}:${localTime.minute.toString().padStart(2, "0")}Z`}>
             { this.props.format24 

@@ -24,11 +24,18 @@ class ModalStage extends React.Component {
         this.setState({ modals: modalService.modals });
     }
 
+    _onStageClick(event) {
+        if (event.target !== event.currentTarget) return;
+        for (let modal of this.state.modals) {
+            modal.onStageClick();
+        }
+    }
+
     render() {
         document.querySelector("body").className = this.state.modals.length ? "modal-open" : "";
 
         return (
-            <div className="modal-stage">
+            <div className="modal-stage" onClick={this._onStageClick.bind(this)}>
                 { this.state.modals.map((m, i) => 
                     <div key={i} className={"modal-stage__modal " + (m.className ? m.className : "") }>
                         { m.contents }

@@ -2,52 +2,85 @@ import React from 'react';
 import './App.css';
 import { VenueOpening } from "./components/venue-opening/VenueOpening";
 import { ModalStage } from "./components/modal-stage/ModalStage";
-import venues from "./venues.json";
-import days from "./consts/days.json"
 import { Notice } from './components/notice/notice';
+import days from "./consts/days.json"
+import { venueService } from './services/venueService';
+import { timeService } from './services/timeService';
+import { favouritesService } from './services/favouritesService';
 
 class App extends React.Component {
 
   constructor() {
     super();
-    this._currentDay = new Date().getUTCHours() < 9 ? new Date().getUTCDay() - 2 : new Date().getUTCDay() - 1;
-    if (this._currentDay < 0) this._currentDay += 7;
-    this._venueViewModels = this._getVenueViewModels();
+    this._venueViewModels = venueService.getVenueTimes();
+    this._destroyFavouritesObserver = null;
   }
 
-  _getVenueViewModels() {
-    let venueViewModels = [[], [], [], [], [], [], []];
-  
-    for (const venue of venues) {
-      for (const time of venue.times) {
-        const venueViewModel = {
-          venue,
-          time
-        };
-        const position = time.day - this._currentDay < 0 ? time.day - this._currentDay + 7 : time.day - this._currentDay;
-        venueViewModels[position].push(venueViewModel);
-      }
+  componentDidMount() {
+    this._destroyFavouritesObserver = favouritesService.observe(this.forceUpdate.bind(this));
+  }
+
+  componentWillUnmount() {
+    if (this._destroyFavouritesObserver) this._destroyFavouritesObserver();
+   }
+
+  _renderFavourites() {
+    const favouriteVenues = venueService.getVenues().filter(v => favouritesService.getFavourites().indexOf(v.id) !== -1);
+    if (favouriteVenues.length === 0) {
+      return <React.Fragment></React.Fragment>
     }
-  
-    venueViewModels = venueViewModels.map(day => day.sort((a, b) => {
-      let aStartTime = (a.time.start.hour * 100) + a.time.start.minute;
-      if (a.time.start.nextDay) aStartTime += 2400;
-      let bStartTime = (b.time.start.hour * 100) + b.time.start.minute;
-      if (b.time.start.nextDay) bStartTime += 2400;
-      return aStartTime - bStartTime;
-    }));
-
-    return venueViewModels;
+    return (
+      <div className="aether-venues__venues aether-venues__favourite-venues">
+        <details open>
+          <summary><h2>Favourites</h2></summary>
+          {favouriteVenues.map((v, i) => <VenueOpening venue={v} key={i} /> )}
+        </details>
+      </div>);
   }
-  
+
+  _renderScheduledVenues() {
+    const render = [];
+    const currentDay = timeService.getLocalDay();
+
+    for (let i = currentDay, looped = false; !looped || i !== currentDay; looped = true && (i = ++i % 7)) {
+      const venues = this._venueViewModels.scheduled[i];
+      render.push(
+        <div className="aether-venues__day" key={i}>
+          <details open>
+            <summary><h2>{days[i]}</h2></summary>
+            { venues.map((v, i) => <VenueOpening {...v} key={i} /> )}
+          </details>
+        </div>
+      )
+    }
+
+    return (
+      <div className="aether-venues__venues aether-venues__scheduled-venues">
+        { render }
+      </div>
+    );
+  }
+
+  _renderUnscheduledVenues() {
+    if (this._venueViewModels.unscheduled.length === 0) {
+      return <React.Fragment></React.Fragment>
+    }
+    return (
+      <div className="aether-venues__venues aether-venues__unscheduled-venues">
+        <details open>
+          <summary><h2>Unscheduled</h2></summary>
+          { this._venueViewModels.unscheduled.map((v, i) => <VenueOpening {...v} key={i} /> )}
+        </details>
+      </div>);
+  }
 
   render() {
     return (
       <React.Fragment>
         <ModalStage />
-        <div className={"aether-venues"}>
+        <div className="aether-venues">
           <div className="aether-venues__banner-credit">
-            Photograph by <a target="_blank" rel="noreferrer" href="https://here-xumm.carrd.co/">Here Xumm</a>, Siren.
+            Photography by <a target="_blank" rel="noreferrer" href="https://here-xumm.carrd.co/">Here Xumm</a>, Siren.
           </div>
           <div className="aether-venues__heading">
             <img src="logo.png" alt="" />
@@ -57,20 +90,12 @@ class App extends React.Component {
             A venue is a place maintained by players for all RPers to come by and RP in. This includes taverns, shops, nightclubs, restaurants or even crazier environments like colosseums. They often include various RP "services" such as in-house photography, artists, tarrot readings and courtesans. Venues must have a regularly scheduled opening time to be on this list. 
           </p>  
           <Notice />
-          <div className="aether-venues__venues">
-            { this._venueViewModels.map((venues, i) => {
-
-              return (<div className="aether-venues__day" key={i}>
-                <details open>
-                  <summary><h2>{days[i + this._currentDay > 6 ? i + this._currentDay - 7 : i + this._currentDay ]}</h2></summary>
-                  { venues.map((v, i) => <VenueOpening {...v} key={i} /> )}
-                </details>
-              </div>);
-            }
-               
-            )}
+          { this._renderFavourites() }
+          { this._renderScheduledVenues() }
+          { this._renderUnscheduledVenues() }
+          <div className="aether-venues__made-by">
+            Made with <span>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.
           </div>
-          <div className="aether-venues__made-by">Made with <span>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
         </div>
       </React.Fragment>
     );

@@ -63,14 +63,14 @@ a {
   padding-top: 20px; 
 }
 
-.aether-venues__day h2 {
+.aether-venues__venues summary h2 {
   font-size: 1rem;
   text-transform: uppercase;
   display: inline-block;
   cursor: pointer;
 }
 
-.aether-venues__venues {
+.aether-venues__scheduled-venues {
   max-width: 100%;
 }
 
