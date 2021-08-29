@@ -457,11 +457,6 @@
         "nsfw": true,
         "times": [
             {
-                "day": 1,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 3,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
@@ -932,6 +927,24 @@
                 "day": 6,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "X1FfI99z",
+        "name": "Full Moon",
+        "banner": "assets/banners/full-moon.png",
+        "description": "Aether's premier lottery clubhouse offers BIG JACKPOTS every Saturday Night! Are you feeling lucky? Full Moon offers a variety of \"fun activities\", including those which appeal to the more sinful patron and whether it's a refreshing Mentor Mojito or a playful Bahamut Bellini, Full Moon offers high quality beverages for you to indulge in.",
+        "location": "Sargatanas, Mist, Ward 16, Plot 2",
+        "website": "https://fullmoonclub.carrd.co/",
+        "discord": "https://discord.gg/QJdRzg2BX8",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     }
