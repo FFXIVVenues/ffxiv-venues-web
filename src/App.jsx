@@ -69,7 +69,7 @@ class App extends React.Component {
       <div className="aether-venues__venues aether-venues__unscheduled-venues">
         <details open>
           <summary><h2>Unscheduled</h2></summary>
-          { this._venueViewModels.unscheduled.map((v, i) => <VenueOpening {...v} key={i} /> )}
+          { this._venueViewModels.unscheduled.map((v, i) => <VenueOpening venue={v} key={i} /> )}
         </details>
       </div>);
   }
