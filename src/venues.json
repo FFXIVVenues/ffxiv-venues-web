@@ -947,5 +947,33 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "A2Fhj74w",
+        "name": "Silver Garden",
+        "banner": "assets/banners/silver-garden.jpg",
+        "description": "The Silver Garden is an open social space for small or large events, or for simply hanging out. RP is welcome, but not required. Feel free to come and chat, or just mingle.",
+        "location": "Cactuar, Lavender Beds, Ward 7, Plot 6",
+        "website": "https://silvergarden.carrd.co/#",
+        "discord": "https://discord.gg/s4VxmCzjuM",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            }
+        ]
     }
 ]
