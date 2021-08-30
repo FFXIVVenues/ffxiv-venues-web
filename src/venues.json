@@ -1041,5 +1041,23 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "LnAwy1dH",
+        "name": "Club Foxbury",
+        "banner": "assets/banners/foxbury.jpg",
+        "description": "Looking for a place to pregame before a night of venue crawling?  Looking to test your glamour abilities with themes voted on by patrons in our weekly glam contest?  Looking just to blow off some steam with a good drink and some dancing?  The Foxbury is your place to go as your early evening destination!",
+        "location": "Jenova, Mist, Ward 8, Plot 2",
+        "website": "https://clubfoxbury.carrd.co/",
+        "discord": "https://discord.gg/nCHgKeexN9",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
