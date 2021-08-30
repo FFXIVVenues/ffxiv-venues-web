@@ -989,38 +989,56 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 11, "minute": 0, "nextDay": true }
             },          
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 11, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "EuACRe7g",
+        "name": "Love by Snu Snu",
+        "banner": "assets/banners/snu-snu.jpg",
+        "description": "Come get some love and care with our carefully selected courtesans. We provide a multiple of services including private rooms, massage parlor, lap dances, public wash room and more. Full bar is available with drinks and snacks which our bartender, or court, can serve to you via body shots or during sessions. Full nudity is allowed in lobby.",
+        "location": "Siren, Goblet, Ward 6, Plot 14",
+        "website": "https://lovebysnusnu.carrd.co/",
+        "discord": "https://discord.gg/hmDes997WY",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     }
