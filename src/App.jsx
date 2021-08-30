@@ -21,7 +21,7 @@ class App extends React.Component {
 
   componentWillUnmount() {
     if (this._destroyFavouritesObserver) this._destroyFavouritesObserver();
-   }
+  }
 
   _renderFavourites() {
     const favouriteVenues = venueService.getVenues().filter(v => favouritesService.getFavourites().indexOf(v.id) !== -1);
@@ -41,7 +41,7 @@ class App extends React.Component {
     const render = [];
     const currentDay = timeService.getLocalDay();
 
-    for (let i = currentDay, looped = false; !looped || i !== currentDay; looped = true && (i = ++i % 7)) {
+    for (let i = currentDay, looped = false; !looped || i !== currentDay; (looped = true) && (i = ++i % 7)) {
       const venues = this._venueViewModels.scheduled[i];
       render.push(
         <div className="aether-venues__day" key={i}>
@@ -90,7 +90,7 @@ class App extends React.Component {
           </p>  
           { this._renderFavourites() }
           { this._renderScheduledVenues() }
-          { this._renderUnscheduledVenues() }
+          { this._renderUnscheduledVenues() } 
           <div className="aether-venues__made-by">
             Made with <span>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.
           </div>
