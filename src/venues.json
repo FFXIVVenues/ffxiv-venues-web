@@ -975,5 +975,53 @@
                 "end": { "hour": 23, "minute": 0, "nextDay": false }
             }
         ]
+    },
+    {
+        "id": "O8xIvP8Z",
+        "name": "Succubares Insomnium",
+        "banner": "assets/banners/succubares-insomnium.jpg",
+        "description": "Succubares Insomnium is proud and delighted to offer travelers of the dusty road a multitude of entertainment to help you unwind. We feature live bands to get your blood pumping, 3mil. max-bet gambling (with the best odds in Aether!), and a spa with courtesan services available.",
+        "location": "Sargantanas, Goblet, Ward 10, Plot 35",
+        "website": "https://succubares.carrd.co/#",
+        "discord": "https://discord.gg/pcrXTFvB",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
+            },          
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
