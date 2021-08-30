@@ -46,7 +46,7 @@ class VenueOpening extends React.Component {
     }
 
     render() {
-        return <div className={"venue-opening" + (this.state.isOpen ? " venue-opening--open" : "") + (this.props.time ? "" : " venue-opening--no-time")}>
+        return <div className={"venue-opening " + (this.props.venue.id) + (this.state.isOpen ? " venue-opening--open" : "") + (this.props.time ? "" : " venue-opening--no-time")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
                 {this.props.time && 
                     <React.Fragment>
