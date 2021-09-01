@@ -1099,5 +1099,33 @@
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "ipFkZ6Vh",
+        "name": "Roses XIV",
+        "banner": "assets/banners/roses-xiv.jpg",
+        "description": "We welcome you to the comforts of botanicals and luxuries at Roses XIV. We aim to provide all that you need and more for an evening at our lounge. Bartenders, dancers, courtesans, entertainment... -and a secretary to help guide you, should you ever feel lost in the flurry of the moment. The bar is accommodating with plentiful seating, curated entrees, and a few secret menus for the wandering eye to find. VIP lofts are available for a special view of the floor and stage, just one of the perks we have to offer to our most loyal guests. We are waiting patiently for you to venture into our garden, won't you stay the night?",
+        "location": "Siren, Shirogane, Ward 11, Plot 54",
+        "website": "https://roses-xiv.webnode.com/home/",
+        "discord": "https://discord.gg/upf9yFMkaV",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
