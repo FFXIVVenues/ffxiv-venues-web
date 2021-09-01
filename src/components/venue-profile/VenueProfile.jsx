@@ -1,6 +1,6 @@
 import React from "react";
 import { Time } from "../time/Time";
-import { NsfwIcon } from "../icons/NsfwIcon";
+// import { NsfwIcon } from "../icons/NsfwIcon";
 import { SfwIcon } from "../icons/SfwIcon";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
@@ -121,7 +121,7 @@ class VenueProfile extends React.Component {
                                 : <span>This venue is NOT a SFW venue.</span> 
                             }
                         </div>
-                        <div className={"venue-profile__nsfw" + (this.props.venue.nsfw ? " nsfw" : " not-nsfw")}>
+                        {/* <div className={"venue-profile__nsfw" + (this.props.venue.nsfw ? " nsfw" : " not-nsfw")}>
                             { this.props.venue.nsfw ? 
                                 <React.Fragment>
                                     <NsfwIcon />
@@ -129,7 +129,7 @@ class VenueProfile extends React.Component {
                                 </React.Fragment> :
                                 <span>This venue does NOT offer NSFW services.</span>
                             }
-                        </div>
+                        </div> */}
                     </div>
 
                     { this.props.venue.photos &&

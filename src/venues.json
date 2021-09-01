@@ -1059,5 +1059,45 @@
                 "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "ZRVwFJay",
+        "name": "Wet and Wild Resort",
+        "banner": "assets/banners/wet-and-wild.jpg",
+        "description": "Come relax relax and get wet in our showers beds, sofa hot tubs, baths and more. We have a full menu with fruits and drinks which you can have served to you by our barkeep and hostess (sometimes a court when available).",
+        "location": "Siren, Goblet, Ward 16, Plot 23",
+        "website": "https://wetandwildsparesortmenu.carrd.co/",
+        "discord": "https://discord.gg/hmDes997WY",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "OL7WUlLL",
+        "name": "Angel's Club",
+        "banner": "assets/banners/angels-club.jpg",
+        "description": "Stylish bar and dance floor with live band, drinks, and gambling. ",
+        "location": "Siren, Goblet, Ward 16, Plot 23",
+        "discord": "https://discord.gg/gPepwZSFHf",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
