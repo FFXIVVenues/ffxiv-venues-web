@@ -982,8 +982,8 @@
         "banner": "assets/banners/succubares-insomnium.jpg",
         "description": "Succubares Insomnium is proud and delighted to offer travelers of the dusty road a multitude of entertainment to help you unwind. We feature live bands to get your blood pumping, 3mil. max-bet gambling (with the best odds in Aether!), and a spa with courtesan services available.",
         "location": "Sargantanas, Goblet, Ward 10, Plot 35",
-        "website": "https://succubares.carrd.co/#",
-        "discord": "https://discord.gg/pcrXTFvB",
+        "website": "https://succubares.com/#",
+        "discord": "https://discord.gg/XyYy3cqC3t",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1125,6 +1125,44 @@
                 "day": 4,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "V3HlveUz",
+        "name": "Sugar Rush",
+        "banner": "assets/banners/sugar-crush.gif",
+        "description": "Join us for sweet treats, live music and the comfiest experience you'll find!",
+        "location": "Jenova, Lavender Beds, Ward 23, Plot 35",
+        "website": "https://sugar-ru.sh/",
+        "discord": "http://discord.sugar-ru.sh/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
     }

@@ -1,4 +1,4 @@
-const previousDayIfBeforeHour = 9;
+const previousDayIfBeforeHour = 12;
 
 class TimeService {
 
