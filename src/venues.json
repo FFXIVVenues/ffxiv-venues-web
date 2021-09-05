@@ -1141,27 +1141,27 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
                 "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
                 "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
                 "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
                 "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
                 "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
