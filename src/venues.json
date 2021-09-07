@@ -269,21 +269,6 @@
         ]
     },
     {
-        "id": "ZC954gwi",
-        "name": "Pheonix Rising",
-        "description": "We are an 18+ role-playing venue providing entertainment services to the world of Eorzea. Whether a passerby wanting to know more, or a devout member of our little society, you are among friends. Sit down and stay awhile, won’t you? After all, the debauchery doesn’t start until -oh, who are we kidding? It started the moment you walked through the door.",
-        "location": "Midgardsormr, The Mist, Ward 13, Plot 2",
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "9jr6Z6yI",
         "name": "Booty House",
         "description": "Every week is something different! From a gladiator colosseum, farmhouse and fields, to a caveman nightclub. We have various live music entertainment line ups each week, contests, and ofcourse a \"Booty Bar\" and Dancers/Courtesan Services. Amaryllis Ignitor says 'I'm also one of the best parts of working here. You see, I'm sexy as hell and I'm a great lay. Totally modest about it too.'. Also Amaryllis: 'I love that we do coke here.'",

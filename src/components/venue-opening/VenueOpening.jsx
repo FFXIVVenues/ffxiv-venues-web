@@ -3,7 +3,7 @@ import "./venue-opening.css";
 import { Modal } from "../modal/Modal";
 import { Time } from "../time/Time";
 // import { NsfwIcon } from "../icons/NsfwIcon";
-import { SfwIcon } from "../icons/SfwIcon";
+// import { SfwIcon } from "../icons/SfwIcon";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { timeService } from "../../services/timeService";
 
@@ -58,7 +58,7 @@ class VenueOpening extends React.Component {
                 <div className="venue-opening__cell venue-opening__name" >{this.props.venue.name}</div>
                 <div className="venue-opening__cell venue-opening__location" >{this.props.venue.location}</div>
                 <div className="venue-opening__cell venue-opening__icons">
-                    { this.props.venue.sfw && <SfwIcon /> }
+                    {/* { this.props.venue.sfw && <SfwIcon /> } */}
                     {/* { this.props.venue.nsfw && <NsfwIcon /> } */}
                 </div>
             </div>

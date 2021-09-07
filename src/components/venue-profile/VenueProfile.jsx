@@ -1,7 +1,7 @@
 import React from "react";
 import { Time } from "../time/Time";
 // import { NsfwIcon } from "../icons/NsfwIcon";
-import { SfwIcon } from "../icons/SfwIcon";
+// import { SfwIcon } from "../icons/SfwIcon";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import days from "../../consts/days.json";
@@ -110,7 +110,7 @@ class VenueProfile extends React.Component {
                         </tbody>
                     </table>
                     <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
-
+{/* 
                     <div className="venue-profile__badge-container">
                         <div className={"venue-profile__sfw" + (this.props.venue.sfw ? " sfw" : " not-sfw")}>
                             { this.props.venue.sfw 
@@ -121,7 +121,7 @@ class VenueProfile extends React.Component {
                                 : <span>This venue is NOT a SFW venue.</span> 
                             }
                         </div>
-                        {/* <div className={"venue-profile__nsfw" + (this.props.venue.nsfw ? " nsfw" : " not-nsfw")}>
+                        <div className={"venue-profile__nsfw" + (this.props.venue.nsfw ? " nsfw" : " not-nsfw")}>
                             { this.props.venue.nsfw ? 
                                 <React.Fragment>
                                     <NsfwIcon />
@@ -129,8 +129,8 @@ class VenueProfile extends React.Component {
                                 </React.Fragment> :
                                 <span>This venue does NOT offer NSFW services.</span>
                             }
-                        </div> */}
-                    </div>
+                        </div>
+                    </div> */}
 
                     { this.props.venue.photos &&
                         <div className="venue-profile_photos">
