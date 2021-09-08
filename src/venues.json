@@ -527,9 +527,24 @@
         "nsfw": false,
         "times": [
             {
+                "day": 0,
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
+            },
+            {
                 "day": 5,
-                "start": { "hour": 21, "minute": 30, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             }
         ]
     },
