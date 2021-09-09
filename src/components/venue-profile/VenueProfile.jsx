@@ -4,6 +4,7 @@ import { Time } from "../time/Time";
 // import { SfwIcon } from "../icons/SfwIcon";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
+import { Notice } from "../notice/notice";
 import days from "../../consts/days.json";
 import discordIcon from "../../assets/discord-icon.svg";
 import favouriteIcon from "../../assets/favourite-icon.svg";
@@ -92,6 +93,10 @@ class VenueProfile extends React.Component {
                     <p className="venue-profile__location">
                         { this.props.venue.location }
                     </p>
+
+                    { this.props.venue.notices?.map(n => 
+                        <Notice summary={n} />
+                    )}
 
                     <p className="venue-profile__description">
                         { this.props.venue.description && <React.Fragment>{this.props.venue.description}</React.Fragment> }

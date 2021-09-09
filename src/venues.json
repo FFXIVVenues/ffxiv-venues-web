@@ -724,6 +724,9 @@
         "discord": "https://discord.gg/CFavDn43JN",
         "sfw": true,
         "nsfw": true,
+        "notices": [
+            "The Solstice Equinox is currently closed until the 16th as they redesign for the new season!"
+        ],
         "times": [
             {
                 "day": 3,
@@ -867,7 +870,6 @@
     {
         "id": "X1RYIjk4",
         "name": "Sanguine",
-        "description": "Nestled in the cliffs of Shirogane, Blue Ember is a sanctuary from the hustle and bustle of adventuring. Come relax with live music in our downstairs lounge, unwind in the private hot springs, or indulge yourself in our handmade menu offerings.",
         "location": "Siren, Lavender Beds, Ward 4, Plot 35",
         "discord": "https://discord.gg/HWwchZXvQH",
         "sfw": true,
@@ -1163,6 +1165,29 @@
                 "day": 6,
                 "start": { "hour": 7, "minute": 30, "nextDay": true },
                 "end": { "hour": 12, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "iQSQFxC1",
+        "name": "Choco Kisses",
+        "banner": "assets/banners/choco-kisses.jpg",
+        "description": "♡ ♥️ Maid Cafe ♥️ ♡ offering custom polaroid shots with your personal maid's signature on them, lovely performances from or adorable maids, yummy, high-quality foodies to share, and amazing songs from our bard-san.",
+        "location": "Jenova, Goblet, Ward 2, Plot 22",
+        "website": "https://chocokisses.carrd.co/",
+        "discord": "https://discord.gg/QkEXHWVA7J",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     }
