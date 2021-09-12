@@ -491,6 +491,9 @@
         "banner": "assets/banners/alies-tea-shop-new.jpg",
         "location": "Siren, Lavender Beds, Ward 8, Plot 50",
         "website": "https://imgur.com/a/h8ZDjYs",
+        "notices": [
+            "Due to events in the real world, the owner - Alitzia - is currently taking a break from openning the Tea Shop for a couple of weeks as of Sept. 12th."
+        ],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1206,6 +1209,24 @@
                 "day": 5,
                 "start": { "hour": 15, "minute": 0, "nextDay": false },
                 "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ]
+    },
+    {
+        "id": "odKALK7S",
+        "name": "Glass Palace Bar & Grill",
+        "banner": "assets/banners/glass-palace.jpg",
+        "description": "Glass Palace is a SFW RP Venue, and a place to enjoy good food, drink, and company! We have a delightful variety of steaks for you to choose from and an open stage for performers.",
+        "location": "Sargatanas, Lavender Beds, Ward 10, Plot 34",
+        "website": "https://imgur.com/a/xCWnIpu",
+        "discord": "https://discord.gg/XhuaCpbQ8q",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 18, "minute": 30, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ]
     }
