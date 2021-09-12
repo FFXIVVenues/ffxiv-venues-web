@@ -1190,5 +1190,23 @@
                 "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "Mf9IJpmy",
+        "name": "Waffle House Lounge",
+        "banner": "assets/banners/waffle-house.jpg",
+        "description": "A SFW cafe and lounge for you to meet new friends and have a relaxing time~ We're here to share our love of waffles, cute desserts and enjoy a good time with our patrons :heart:. Now serving brunch and cocktails.",
+        "location": "Gilgamesh, Goblet, Ward 20, Plot 24",
+        "website": "https://imgur.com/a/uXDSB4c",
+        "discord": "https://discord.gg/bM6vZRJA",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ]
     }
 ]
