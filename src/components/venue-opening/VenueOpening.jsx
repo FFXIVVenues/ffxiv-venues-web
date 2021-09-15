@@ -46,6 +46,9 @@ class VenueOpening extends React.Component {
     }
 
     render() {
+        const newIfAfter = new Date();
+        newIfAfter.setDate(newIfAfter.getDate() - 7);
+
         return <div className={"venue-opening " + (this.props.venue.id) + (this.state.isOpen ? " venue-opening--open" : "") + (this.props.time ? "" : " venue-opening--no-time")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
                 {this.props.time && 
@@ -55,7 +58,13 @@ class VenueOpening extends React.Component {
                         <div className="venue-opening__cell venue-opening__end">{this.props.time.end && <Time time={this.props.time.end} day={this.props.time.day} format24={false} /> }</div>
                     </React.Fragment>
                 }
-                <div className="venue-opening__cell venue-opening__name" >{this.props.venue.name}</div>
+                <div className="venue-opening__cell venue-opening__name">
+                    {this.props.venue.name}
+                    { this.props.venue.added && new Date(this.props.venue.added) > newIfAfter ? 
+                        <span className="venue-opening__new">new!</span> :
+                        null
+                    }
+                </div>
                 <div className="venue-opening__cell venue-opening__location" >{this.props.venue.location}</div>
                 <div className="venue-opening__cell venue-opening__icons">
                     {/* { this.props.venue.sfw && <SfwIcon /> } */}

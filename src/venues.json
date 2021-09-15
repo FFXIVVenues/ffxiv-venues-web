@@ -1229,5 +1229,25 @@
                 "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ]
+    },
+    {
+        "id": "QmqHKi3O",
+        "name": "Duality",
+        "banner": "assets/banners/duality.jpg",
+        "description": "Come on in and choose your style for the night! With our upstairs for your modern clubby night! And downstairs for your jazzy and classy night! Upstairs is an open stage. If no one is there, show us what you got!",
+        "location": "Siren, Lavender Beds, Ward 5, Plot 30",
+        "website": "https://dualityffxiv.carrd.co/#",
+        "discord": "https://discord.gg/waGTkDGJnU",
+        "added": "2021-09-16Z",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
+
 ]
