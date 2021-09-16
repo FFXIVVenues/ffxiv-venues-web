@@ -1281,5 +1281,29 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "ScGjPYug",
+        "added": "2021-09-16Z",
+        "name": "Playboy Mansion",
+        "banner": "assets/banners/playboy-mansion.jpg",
+        "description": "Welcome to PBM! The place where all of your appetites will be sated every Wednesday and Saturday night. The Playboy Mansion is a night-club with a fully-stocked bar, casino upstairs, and a host to a number of live twitch-DJ's and bands for your enjoyment. Looking for something more? Our extremely talented and beautiful staff are always available and eager to please! Don't miss out on an unforgettable experience and come join us for our next opening!",
+        "location": "Sargatanas, Lavender Beds, Ward 6, Plot 21",
+        "website": "https://playboy-mansion.carrd.co/#",
+        "discord": "https://discord.gg/mhfs8AEz",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
