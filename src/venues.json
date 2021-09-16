@@ -1135,6 +1135,7 @@
     },
     {
         "id": "V3HlveUz",
+        "added": "2021-09-5Z",
         "name": "Sugar Rush",
         "banner": "assets/banners/sugar-crush.gif",
         "description": "Join us for sweet treats, live music and the comfiest experience you'll find!",
@@ -1173,6 +1174,7 @@
     },
     {
         "id": "iQSQFxC1",
+        "added": "2021-09-9Z",
         "name": "Choco Kisses",
         "banner": "assets/banners/choco-kisses.jpg",
         "description": "♡ ♥️ Maid Cafe ♥️ ♡ offering custom polaroid shots with your personal maid's signature on them, lovely performances from or adorable maids, yummy, high-quality foodies to share, and amazing songs from our bard-san.",
@@ -1196,6 +1198,7 @@
     },
     {
         "id": "Mf9IJpmy",
+        "added": "2021-09-12Z",
         "name": "Waffle House Lounge",
         "banner": "assets/banners/waffle-house.jpg",
         "description": "A SFW cafe and lounge for you to meet new friends and have a relaxing time~ We're here to share our love of waffles, cute desserts and enjoy a good time with our patrons :heart:. Now serving brunch and cocktails.",
@@ -1214,6 +1217,7 @@
     },
     {
         "id": "odKALK7S",
+        "added": "2021-09-13Z",
         "name": "Glass Palace Bar & Grill",
         "banner": "assets/banners/glass-palace.jpg",
         "description": "Glass Palace is a SFW RP Venue, and a place to enjoy good food, drink, and company! We have a delightful variety of steaks for you to choose from and an open stage for performers.",
@@ -1232,13 +1236,13 @@
     },
     {
         "id": "QmqHKi3O",
+        "added": "2021-09-16Z",
         "name": "Duality",
         "banner": "assets/banners/duality.jpg",
         "description": "Come on in and choose your style for the night! With our upstairs for your modern clubby night! And downstairs for your jazzy and classy night! Upstairs is an open stage. If no one is there, show us what you got!",
         "location": "Siren, Lavender Beds, Ward 5, Plot 30",
         "website": "https://dualityffxiv.carrd.co/#",
         "discord": "https://discord.gg/waGTkDGJnU",
-        "added": "2021-09-16Z",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1248,6 +1252,34 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "OwU5tZOI",
+        "added": "2021-09-16Z",
+        "name": "Purgatory",
+        "banner": "assets/banners/purgatory.jpg",
+        "description": "Purgatory Bar & Lounge is an [18+][RP][LGBTQ+] place where sinners, saviors, and the unlucky in-between go to have their souls weighed on the scale of judgement. Temptation is all around you, but will you be able to resist?",
+        "location": "Faerie, Shirogane, Ward 20, Plot 59",
+        "website": "https://purgatoryfaerie.carrd.co/",
+        "discord": "https://discord.gg/3weqZzcwvs",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
     }
-
 ]

@@ -47,7 +47,7 @@ class VenueOpening extends React.Component {
 
     render() {
         const newIfAfter = new Date();
-        newIfAfter.setDate(newIfAfter.getDate() - 7);
+        newIfAfter.setDate(newIfAfter.getDate() - 14);
 
         return <div className={"venue-opening " + (this.props.venue.id) + (this.state.isOpen ? " venue-opening--open" : "") + (this.props.time ? "" : " venue-opening--no-time")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
