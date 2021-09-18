@@ -1310,12 +1310,12 @@
         "added": "2021-09-17Z",
         "name": "The Angel's Orchard",
         "banner": "assets/banners/angels-orchard.jpg",
-        "description": "We offer the nicest people you've ever met as your personal hosts, as well as tantelizing food and drink during your stay. ",
+        "description": "We offer the nicest people you've ever met as your personal hosts, live music and tantelizing food and drink during while you get warm and comy.",
         "location": "Adamantoise, Lavender Beds, Ward 22, Plot 34",
         "website": "https://angelsorchard.carrd.co/",
         "discord": "https://discord.gg/2mTQsab4zR",
         "sfw": true,
-        "nsfw": true,
+        "nsfw": false,
         "times": [
             {
                 "day": 2,
@@ -1326,6 +1326,25 @@
                 "day": 4,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "fDnHYob8",
+        "added": "2021-09-18Z",
+        "name": "City Pop Night Club",
+        "banner": "assets/banners/city-pop.jpg",
+        "description": "Your one stop location for good vibes and beach parties. We specialize in providing a comfy night club experience that features a live dj with every session. Immerse yourself in the sick underground beats or find solace in the cool oasis of the beach with your friends and loved ones!",
+        "location": "Jenova, Shirogane, Ward 11, Plot 47",
+        "website": "https://citypopnightclub.carrd.co/#",
+        "discord": "https://discord.gg/4spaQvV",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     }
