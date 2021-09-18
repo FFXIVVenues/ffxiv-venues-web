@@ -724,12 +724,11 @@
         "description": "Welcome to The Solstice Equinox! Known first and foremost as a legacy FC \"Sol Nova\". We have been around since the 2.0 Launch of ARR! Now with our new high end night club that changes its theme according to the seasons. You'll be sure Eorzea is on the watch for! We guarantee you will enjoy your stay with us at The Solstice!  Hope to see you soon and show us that You've Got Sol!",
         "banner": "assets/banners/solstice-equinox.png",
         "location": "Sargatanas, Lavender Beds, Ward 16, Plot 28",
+        "website": "https://solautumn.carrd.co/",
         "discord": "https://discord.gg/CFavDn43JN",
         "sfw": true,
         "nsfw": true,
-        "notices": [
-            "The Solstice Equinox is currently closed until the 16th as they redesign for the new season!"
-        ],
+        "notices": [],
         "times": [
             {
                 "day": 3,
@@ -1303,6 +1302,30 @@
                 "day": 5,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "IRj64EsJ",
+        "added": "2021-09-17Z",
+        "name": "The Angel's Orchard",
+        "banner": "assets/banners/angels-orchard.jpg",
+        "description": "We offer the nicest people you've ever met as your personal hosts, as well as tantelizing food and drink during your stay. ",
+        "location": "Adamantoise, Lavender Beds, Ward 22, Plot 34",
+        "website": "https://angelsorchard.carrd.co/",
+        "discord": "https://discord.gg/2mTQsab4zR",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     }
