@@ -581,7 +581,7 @@
         "name": "Cozy",
         "description": "Cozy is Eorzea's newest venue offering a quaint library to study and discuss with your fellow Eorzean scholars. Sit with a cup of doman tea while enjoying our live performances, food menu and our friendly staff catering to all your needs.",
         "banner": "assets/banners/cozy.jpg",
-        "location": "Siren, Lavender Beds, Ward 13, LH Apartment 87",
+        "location": "Siren, Lavender Beds, Ward 13, Apartment 87",
         "website": "https://cozyffxiv.carrd.co/",
         "discord": "https://discord.gg/EsHRJYTj",
         "sfw": true,
@@ -833,7 +833,7 @@
         "name": "Cafe Miracles May",
         "banner": "assets/banners/miracles.jpg",
         "description": "We are an Ishgardian maid cafe that hopes to bring both lowborn and highborn the warmth and luxury of having their own personal maids and butlers. We do tarot reading and serve food and drinks from all around Coethas as well as other speciality services!",
-        "location": "Faerie, Lavender Beds, Ward 21, LH Apartments 82",
+        "location": "Faerie, Lavender Beds, Ward 21, Apartments 82",
         "website": "https://cafemiraclesmay.carrd.co/",
         "discord": "https://discord.gg/starspace",
         "sfw": true,
@@ -1261,7 +1261,7 @@
         "location": "Faerie, Shirogane, Ward 20, Plot 59",
         "website": "https://purgatoryfaerie.carrd.co/",
         "discord": "https://discord.gg/3weqZzcwvs",
-        "sfw": true,
+        "sfw": false,
         "nsfw": true,
         "times": [
             {
@@ -1364,6 +1364,29 @@
                 "day": 4,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "aBr1NAXW",
+        "added": "2021-09-19Z",
+        "name": "Suki's Cafe~",
+        "banner": "assets/banners/sukis-cafe.jpg",
+        "description": "Suki's cafe, a small and comfy dive bar with a cute plushie room. A comfy place to sit back and relax, enjoy the music and make new friends~",
+        "location": "Gilgamesh, Shirogane, Ward 20, Apartment 84",
+        "website": "https://sukis-cafe.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 11, "minute": 0, "nextDay": false },
+                "end": { "hour": 13, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 11, "minute": 0, "nextDay": false },
+                "end": { "hour": 13, "minute": 0, "nextDay": false }
             }
         ]
     }
