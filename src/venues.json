@@ -1208,6 +1208,11 @@
         "nsfw": false,
         "times": [
             {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
                 "day": 5,
                 "start": { "hour": 15, "minute": 0, "nextDay": false },
                 "end": { "hour": 19, "minute": 0, "nextDay": false }
