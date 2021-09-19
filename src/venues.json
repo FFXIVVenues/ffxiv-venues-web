@@ -937,7 +937,7 @@
     {
         "id": "X1FfI99z",
         "name": "Full Moon",
-        "banner": "assets/banners/full-moon.png",
+        "banner": "assets/banners/full-moon.jpg",
         "description": "Aether's premier lottery clubhouse offers BIG JACKPOTS every Saturday Night! Are you feeling lucky? Full Moon offers a variety of \"fun activities\", including those which appeal to the more sinful patron and whether it's a refreshing Mentor Mojito or a playful Bahamut Bellini, Full Moon offers high quality beverages for you to indulge in.",
         "location": "Sargatanas, Mist, Ward 16, Plot 2",
         "website": "https://fullmoonclub.carrd.co/",
@@ -1345,6 +1345,25 @@
                 "day": 6,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "ZEW2D63c",
+        "added": "2021-09-18Z",
+        "name": "NeXus",
+        "banner": "assets/banners/nexus.jpg",
+        "description": "Welcome to Nexus, We strive for excellence in customer service. We offer a variety of services and entertaintment ranging from Live Music, Tarot Readings, Talented Sketch's, Geisha's and a Full Service Bar. We hope you enjoy your stay with us and look forward to meeting you! Feel free to contact us for events and all your needs!",
+        "location": "Adamantoise, Shirogane, Ward 10, Plot 16",
+        "website": "https://nexus-ffxiv.carrd.co/",
+        "discord": "https://discord.gg/5QXS36RrUZ",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     }
