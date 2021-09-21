@@ -371,12 +371,12 @@
         "nsfw": false,
         "times": [
             {
-                "day": 4,
+                "day": 0,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
-                "day": 5,
+                "day": 1,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
@@ -745,6 +745,7 @@
     {
         "id": "Rm7qlIRl",
         "name": "A Bookstore",
+        "banner": "assets/banners/bookstore.jpg",
         "description": "Welcome to a bookstore! You appear to have stumbled into a random bookstore, with quiet librarians in a dark, warm cozy setting. Shelves line the wall, littered with books from different ages, varying in genres. Throughout your exploration of the small library, small noises can be heard faintly from beneath the floor but the librarians pay no attention to them. Suspiciously, an old window panel lays near the entrance, almost out of place as the librarians can be caught glancing at them every now and then.",
         "location": "Cactuar, The Mist, Ward 9, Plot 44",
         "discord": "https://discord.gg/CFavDn43JN",
@@ -1389,9 +1390,57 @@
                 "end": { "hour": 13, "minute": 0, "nextDay": false }
             },
             {
-                "day": 1,
+                "day": 0,
                 "start": { "hour": 11, "minute": 0, "nextDay": false },
                 "end": { "hour": 13, "minute": 0, "nextDay": false }
+            }
+        ]
+    },
+    {
+        "id": "Hez4WL20",
+        "added": "2021-09-21Z",
+        "name": "Last Stop",
+        "banner": "assets/banners/last-stop.jpg",
+        "description": "The last stop of the night before you retire to your slumber; full bar, saunas, an open stage and hint of chaos.",
+        "location": "Midgardsomr, Goblet, Ward 6, Apartment 2",
+        "discord": "https://discord.gg/uPWdH9jcEn",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 13, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 13, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 13, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 13, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 13, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 13, "minute": 0, "nextDay": true }
+            }, 
+            {
+                "day": 6,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 13, "minute": 0, "nextDay": true }
             }
         ]
     }
