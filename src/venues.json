@@ -1272,8 +1272,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
@@ -1282,8 +1282,8 @@
             },
             {
                 "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1567,6 +1567,29 @@
                 "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "gukwzvDl",
+        "added": "2021-09-23Z",
+        "name": "Eden's Corner",
+        "banner": "assets/banners/edens-corner.jpg",
+        "description": "Eden's Corner is an 18+ RP venue for EDM/Bass boosted beats, gambling and dancing! We've got a bar, live music, photography, tarrot reading, hostess dates, private dances and courtesan sessions! All at a fair price of course. We do events often, so make sure to check us out!",
+        "location": "Adamantoise, Shirogane, Ward 23, Plot 45",
+        "discord": "https://discord.gg/edenscorner",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 5, "minute": 30, "nextDay": true }
             }
         ]
     }
