@@ -3,7 +3,7 @@
         "id": "cDVp2CKC",
         "name": "The White Hare",
         "description": "\"Bringing the best restaurant experience to you\". The White Hare includes regular events, in-house artists and photography.",
-        "location": "Faerie, The Mist, Ward 8, Plot 32",
+        "location": "Faerie, Mist, Ward 8, Plot 32",
         "website": "https://thewhitehare.carrd.co/",
         "discord": "https://discord.gg/8XYyQVDsJQ",
         "sfw": true,
@@ -29,7 +29,7 @@
         "id": "0wffp5RR",
         "name": "The HIVE",
         "description": "Dance club and bar.",
-        "location": "Sargatanas, The Mist, Ward 4, Plot 30",
+        "location": "Sargatanas, Mist, Ward 4, Plot 30",
         "discord": "https://discord.gg/ccXW6KQX",
         "sfw": true,
         "nsfw": true,
@@ -50,7 +50,7 @@
         "id": "uOjYdk2r",
         "name": "The Nest",
         "description": "Bar with music, tarrot reading and courtesans. Offers venue rental.",
-        "location": "Adamantoise, The Mist, Ward 22, Plot 30",
+        "location": "Adamantoise, Mist, Ward 22, Plot 30",
         "website": "https://www.thenestxiv.com/",
         "discord": "https://discord.gg/thenestxiv",
         "sfw": true,
@@ -108,7 +108,7 @@
         "id": "RN5JB6q1",
         "name": "Seven Circles",
         "description": "(+18) (LGBTQ+) Seven Circles nightclub prides itself on being a friendly and safe space for all walks of life. We feature a full selection of lovely dancers, live music, half priced special drinks, SFW and NSFW services for all your desires. Special additions include an in house photographer and artist! Come join us and sin the night away!",
-        "location": "Sargatanas, The Mist, Ward 9, Plot 35",
+        "location": "Sargatanas, Mist, Ward 9, Plot 35",
         "discord": "https://discord.gg/XV8QnQ3xVQ",
         "sfw": true,
         "nsfw": true,
@@ -194,7 +194,7 @@
         "id": "QjNWWy2i",
         "name": "Moonlight Mafia",
         "description": "We got just about eveything you need. A good time!",
-        "location": "Adamantoise, The Mist, Ward 7, Plot 2",
+        "location": "Adamantoise, Mist, Ward 7, Plot 2",
         "discord": "https://discord.gg/my4D32Sq",
         "sfw": true,
         "nsfw": true,
@@ -462,7 +462,7 @@
         "id": "j7pVFww4",
         "name": "Lilting Lilium",
         "description": "[Every other week on Saturdays]. We are a bar and lounge, allowing connections to various vendors in Eorzea supplying various services. Please come by for a drink and to mingle. Should you have any needs, please see our vendor list for possible fulfillment or reach out to the Madame for recommendations. Services: Bar, Duty Roulette, Tarot Readings, Photography, Housing Decoration, Crafting, Gathering, SFW RP and NSFW RP services, Wedding Reception, Arena, Bards for Hire, Artists for Commission. ",
-        "location": "Adamantoise, The Mist, Ward 24, Plot 5",
+        "location": "Adamantoise, Mist, Ward 24, Plot 5",
         "website": "https://liltinglilium.carrd.co/",
         "discord": "https://discord.gg/YUykuPM",
         "sfw": true,
@@ -747,7 +747,7 @@
         "name": "A Bookstore",
         "banner": "assets/banners/bookstore.jpg",
         "description": "Welcome to a bookstore! You appear to have stumbled into a random bookstore, with quiet librarians in a dark, warm cozy setting. Shelves line the wall, littered with books from different ages, varying in genres. Throughout your exploration of the small library, small noises can be heard faintly from beneath the floor but the librarians pay no attention to them. Suspiciously, an old window panel lays near the entrance, almost out of place as the librarians can be caught glancing at them every now and then.",
-        "location": "Cactuar, The Mist, Ward 9, Plot 44",
+        "location": "Cactuar, Mist, Ward 9, Plot 44",
         "discord": "https://discord.gg/CFavDn43JN",
         "sfw": true,
         "nsfw": false,
@@ -788,7 +788,7 @@
         "id": "HoQPjrt8",
         "name": "Club Babylon",
         "banner": "assets/banners/babylon.jpg",
-        "description": "Club Babylon started off as an idea to revolutionize the club scene in Eorzea. We took inspiration from the many clubs located in The Mists, Lavender Beds, The Goblet, and Shirogane. Club Babylon’s aim is to create a safe nightlife clubbing experience for everyone regardless of their sexuality.",
+        "description": "Club Babylon started off as an idea to revolutionize the club scene in Eorzea. We took inspiration from the many clubs located in Mists, Lavender Beds, The Goblet, and Shirogane. Club Babylon’s aim is to create a safe nightlife clubbing experience for everyone regardless of their sexuality.",
         "location": "Faerie, Goblet, Ward 15, Plot 5",
         "website": "https://www.clubbabylon.org/",
         "discord": "https://discord.gg/xbRhJCr",
@@ -1506,6 +1506,39 @@
                 "day": 5,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "TzBGXuVz",
+        "added": "2021-09-23Z",
+        "name": "Grimm King's Hollow",
+        "banner": "assets/banners/grim-kings.jpg",
+        "description": " For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
+        "location": "Adamantoise, Mist, Ward 2, Plot 22",
+        "discord": "https://discord.gg/ebhPYhgV",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     }
