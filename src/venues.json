@@ -1514,7 +1514,7 @@
         "added": "2021-09-23Z",
         "name": "Grimm King's Hollow",
         "banner": "assets/banners/grim-kings.jpg",
-        "description": " For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
+        "description": "For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
         "location": "Adamantoise, Mist, Ward 2, Plot 22",
         "discord": "https://discord.gg/ebhPYhgV",
         "sfw": true,
@@ -1537,6 +1537,34 @@
             },
             {
                 "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "XRfyQYws",
+        "added": "2021-09-23Z",
+        "name": "Death's Head",
+        "banner": "assets/banners/deaths-hand.jpg",
+        "description": "Death's Head is a Gothic bar/Dance club, catering to vampires, werecats and other such creatures of the night.  Stop on in for curated music and a truly haunting experience.  Drinks, private dances and social time aren't the only vices on the menu...",
+        "location": "Midgardsormr, Goblet, Ward 6, Plot 52",
+        "discord": "https://discord.gg/H8TTkv9t",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
