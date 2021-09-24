@@ -1597,5 +1597,51 @@
                 "end": { "hour": 5, "minute": 30, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "mUijKMwf",
+        "added": "2021-09-24Z",
+        "name": "The Nix",
+        "banner": "assets/banners/the-nix.jpg",
+        "description": "The home of the Nix dance troupe! A chill bar and night club with live music, dancers, gambling, courtesans, glamour contests, and various events throughout the weeks. Every night ends with a one-hour performance from the glamourous Nix troupe.",
+        "location": "Adamantoise, Shirogane, Ward 23, Plot 60",
+        "discord": "https://discord.gg/NnJVd6sptt",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "fTO1840vM",
+        "added": "2021-09-24Z",
+        "name": "Cafe au ‘Laina",
+        "banner": "assets/banners/cafe-au-laina.jpg",
+        "description": "Come relax, connect to people, and enjoy something tasty. Open stage!",
+        "location": "Sargantanas, Mist, Ward 17, Plot 59",
+        "website": "https://cafeaulaina.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            }
+        ]
     }
 ]
