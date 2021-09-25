@@ -1643,5 +1643,18 @@
                 "end": { "hour": 23, "minute": 0, "nextDay": false }
             }
         ]
+    },
+    {
+        "id": "l9xRpBy1",
+        "added": "2021-09-25Z",
+        "name": "Lashels Spa and Lounge",
+        "banner": "assets/banners/lashels-spa-and-lounge.jpg",
+        "description": "18+ Spa and full service lounge, modeled this after the spas from shows like \"From Hell\" and \"The Alienist\". The decorations colors, walls everything as old as I could get them to look. Ran by two lovers, of new age but with old hearts and ideals. We will show as much hospitality and care, to everyone who walks through our door. No judgement here, just a place to relax, have a bite and a drink.",
+        "location": "Sargantanas, Mist, Ward 22, Apartment 30",
+        "shard": "The Topmast",
+        "discord": "https://discord.gg/DBCKmTCR7D",
+        "sfw": true,
+        "nsfw": false,
+        "times": []
     }
 ]

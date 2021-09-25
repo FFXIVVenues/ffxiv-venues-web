@@ -102,19 +102,23 @@ class VenueProfile extends React.Component {
                         { this.props.venue.description && <React.Fragment>{this.props.venue.description}</React.Fragment> }
                     </p>
                     
-                    <table className="venue-profile__opening-times">
-                        <tbody>
-                        { this.props.venue.times.map((t, i) => 
-                            <tr key={i}>
-                                <td className="venue-profile__day"><strong>{days[t.day]}</strong></td> 
-                                <td className="venue-profile__start"><Time time={t.start} day={t.day} format24={false} /></td>
-                                <td className="venue-profile__split">{ t.end && <React.Fragment>-</React.Fragment> }</td>
-                                <td className="venue-profile__end">{ t.end && <Time time={t.end} day={t.day} format24={false} /> }</td>
-                            </tr>
-                        )}
-                        </tbody>
-                    </table>
-                    <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
+                    { (this.props.venue.times && this.props.venue.times.length > 0) &&
+                        <React.Fragment>
+                            <table className="venue-profile__opening-times">
+                                <tbody>
+                                { this.props.venue.times.map((t, i) => 
+                                    <tr key={i}>
+                                        <td className="venue-profile__day"><strong>{days[t.day]}</strong></td> 
+                                        <td className="venue-profile__start"><Time time={t.start} day={t.day} format24={false} /></td>
+                                        <td className="venue-profile__split">{ t.end && <React.Fragment>-</React.Fragment> }</td>
+                                        <td className="venue-profile__end">{ t.end && <Time time={t.end} day={t.day} format24={false} /> }</td>
+                                    </tr>
+                                )}
+                                </tbody>
+                            </table>
+                            <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
+                        </React.Fragment>
+                    }
 {/* 
                     <div className="venue-profile__badge-container">
                         <div className={"venue-profile__sfw" + (this.props.venue.sfw ? " sfw" : " not-sfw")}>
