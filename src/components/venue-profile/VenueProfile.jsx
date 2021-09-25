@@ -54,7 +54,7 @@ class VenueProfile extends React.Component {
 
                     <div className="venue-profile__user-settings">
                         <button 
-                            className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--visited" : " venue-profile__favourite-button--not-visited")}
+                            className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
                             onClick={this._onFavoriteClick}>
                             <img className="venue-profile__favourite-icon" src={favouriteIcon} alt="" />
                             Favorite venue

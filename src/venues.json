@@ -1,31 +1,5 @@
 [
     {
-        "id": "cDVp2CKC",
-        "name": "The White Hare",
-        "description": "\"Bringing the best restaurant experience to you\". The White Hare includes regular events, in-house artists and photography.",
-        "location": "Faerie, Mist, Ward 8, Plot 32",
-        "website": "https://thewhitehare.carrd.co/",
-        "discord": "https://discord.gg/8XYyQVDsJQ",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "0wffp5RR",
         "name": "The HIVE",
         "description": "Dance club and bar.",
@@ -77,7 +51,9 @@
         "id": "AGQkKRNI",
         "name": "Vibe House - Fight Club",
         "description": "Fight club with betting and prizes, and offers courtesans. ",
+        "banner": "assets/banners/vibe-fight-club.jpg",
         "location": "Adamantoise, Goblet, Ward 20, Plot 43",
+        "shard": "The Sultana's Breath Subdivision",
         "discord": "https://discord.gg/g7WwcFavsA",
         "sfw": true,
         "nsfw": true,
@@ -150,6 +126,7 @@
     {
         "id": "j6ttz6gM",
         "name": "Sinners Nightclub",
+        "banner": "assets/banners/sinners.jpg",
         "description": "The Sinner’s Nightclub encourages everyone to find trouble in our little, “Sin City.” From exotic dancers, devilishly handcrafted drinks, appetizers, to perhaps a night with a fallen angel, we promise you won’t be disappointed~ After all there’s just a little devil in all of us, right? We promise to provide the ultimate experience for a very small price. Your soul? Please come by for a drink and to mingle, \"Hell is empty. All the devils are here.\"",
         "location": "Sargatanas, Lavender Beds, Ward 5, Plot 5",
         "website": "https://sinners-nightclub.carrd.co/",
@@ -461,7 +438,7 @@
     {
         "id": "j7pVFww4",
         "name": "Lilting Lilium",
-        "description": "[Every other week on Saturdays]. We are a bar and lounge, allowing connections to various vendors in Eorzea supplying various services. Please come by for a drink and to mingle. Should you have any needs, please see our vendor list for possible fulfillment or reach out to the Madame for recommendations. Services: Bar, Duty Roulette, Tarot Readings, Photography, Housing Decoration, Crafting, Gathering, SFW RP and NSFW RP services, Wedding Reception, Arena, Bards for Hire, Artists for Commission. ",
+        "description": "We are a bar and lounge, allowing connections to various vendors in Eorzea supplying various services. Please come by for a drink and to mingle. Should you have any needs, please see our vendor list for possible fulfillment or reach out to the Madame for recommendations. Services: Bar, Duty Roulette, Tarot Readings, Photography, Housing Decoration, Crafting, Gathering, SFW RP and NSFW RP services, Wedding Reception, Arena, Bards for Hire, Artists for Commission. ",
         "location": "Adamantoise, Mist, Ward 24, Plot 5",
         "website": "https://liltinglilium.carrd.co/",
         "discord": "https://discord.gg/YUykuPM",
@@ -873,7 +850,9 @@
     {
         "id": "X1RYIjk4",
         "name": "Sanguine",
-        "location": "Siren, Lavender Beds, Ward 4, Plot 35",
+        "banner": "assets/banners/sanguine.jpg",
+        "location": "Siren, Lavender Beds, Ward 24, Plot 6",
+        "shard": "Lavender East",
         "discord": "https://discord.gg/HWwchZXvQH",
         "sfw": true,
         "nsfw": false,
@@ -1137,9 +1116,10 @@
         "id": "V3HlveUz",
         "added": "2021-09-5Z",
         "name": "Sugar Rush",
-        "banner": "assets/banners/sugar-crush.gif",
+        "banner": "assets/banners/sugarrush.jpg",
         "description": "Join us for sweet treats, live music and the comfiest experience you'll find!",
         "location": "Jenova, Lavender Beds, Ward 23, Plot 35",
+        "shard": "Lavender South Subdivision",
         "website": "https://sugar-ru.sh/",
         "discord": "http://discord.sugar-ru.sh/",
         "sfw": true,
@@ -1203,6 +1183,7 @@
         "banner": "assets/banners/waffle-house.jpg",
         "description": "A SFW cafe and lounge for you to meet new friends and have a relaxing time~ We're here to share our love of waffles, cute desserts and enjoy a good time with our patrons :heart:. Now serving brunch and cocktails.",
         "location": "Gilgamesh, Goblet, Ward 20, Plot 24",
+        "shard": "Goblet East",
         "website": "https://imgur.com/a/uXDSB4c",
         "discord": "https://discord.gg/bM6vZRJA",
         "sfw": true,
