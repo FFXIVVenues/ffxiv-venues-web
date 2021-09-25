@@ -98,9 +98,15 @@ class VenueProfile extends React.Component {
                         <Notice summary={n} />
                     )}
 
-                    <p className="venue-profile__description">
-                        { this.props.venue.description && <React.Fragment>{this.props.venue.description}</React.Fragment> }
-                    </p>
+                    <article className="venue-profile__description">
+                        { this.props.venue.description && 
+                            (
+                                Array.isArray(this.props.venue.description) ? 
+                                    this.props.venue.description.map(para => <p>{para}</p>) :
+                                    <p>{this.props.venue.description}</p>
+                            )
+                        }
+                    </article>
                     
                     { (this.props.venue.times && this.props.venue.times.length > 0) &&
                         <React.Fragment>

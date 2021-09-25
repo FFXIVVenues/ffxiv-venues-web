@@ -1645,6 +1645,34 @@
         ]
     },
     {
+        "id": "fTO1840vM",
+        "added": "2021-09-25Z",
+        "name": "P.F. Berrys",
+        "banner": "assets/banners/berrys.jpg",
+        "description": [
+            "Berry is that natural entertainer in your friend group - where no day is the same when you’re around them. Berry now brings you P.F. Berry’s – an oriental burger bistro! This isn’t any ordinary bistro however, it’s a venue you can only explain through having experienced it, and no week is the same. ",
+            "It’s very much the same eclectic, random, creative, and humorous personality you’ve come to know from the owner. ",
+            "So, come and relax on a Friday night with Berry, in a premium burger bar environment, complete with live music, an open stage, trivia, glam contests, and a new weekly talk show hosted by Berry herself with a new and interesting guest every time!"
+        ],
+        "location": "Midgardsormr, Goblet, Ward 19, Plot 7",
+        "shard": "Goblet West",
+        "discord": "https://discord.gg/YZyq2UuH",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
         "id": "l9xRpBy1",
         "added": "2021-09-25Z",
         "name": "Lashels Spa and Lounge",
