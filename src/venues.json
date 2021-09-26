@@ -23,8 +23,10 @@
     {
         "id": "uOjYdk2r",
         "name": "The Nest",
-        "description": "Bar with music, tarrot reading and courtesans. Offers venue rental.",
+        "banner": "assets/banners/nest.jpg",
+        "description": "The Nest is a long running night club with a full bar, live music, tarrot reading and courtesans. The Nest location is also avaialble for rental!",
         "location": "Adamantoise, Mist, Ward 22, Plot 30",
+        "shard": "Mist Southeast",
         "website": "https://www.thenestxiv.com/",
         "discord": "https://discord.gg/thenestxiv",
         "sfw": true,
@@ -201,8 +203,10 @@
     {
         "id": "FcQP1E1F",
         "name": "The Crypt",
+        "banner": "assets/banners/crypt.jpg",
         "description": "Come to your eternal rest with us at The Crypt. Drinks, music, and prizes await beyond the cemetery gates!",
         "location": "Gilgamesh, Lavender Beds, Ward 18, Plot 36",
+        "shard": "Lavender South Subdivision",
         "discord": "https://discord.gg/h56U6qnQR8",
         "sfw": true,
         "nsfw": true,
@@ -438,12 +442,17 @@
     {
         "id": "j7pVFww4",
         "name": "Lilting Lilium",
+        "banner": "assets/banners/lilting-lilium.jpg",
         "description": "We are a bar and lounge, allowing connections to various vendors in Eorzea supplying various services. Please come by for a drink and to mingle. Should you have any needs, please see our vendor list for possible fulfillment or reach out to the Madame for recommendations. Services: Bar, Duty Roulette, Tarot Readings, Photography, Housing Decoration, Crafting, Gathering, SFW RP and NSFW RP services, Wedding Reception, Arena, Bards for Hire, Artists for Commission. ",
         "location": "Adamantoise, Mist, Ward 24, Plot 5",
+        "shard": "Mist South (Docks)",
         "website": "https://liltinglilium.carrd.co/",
         "discord": "https://discord.gg/YUykuPM",
         "sfw": true,
         "nsfw": true,
+        "notices": [
+            "Monday and Thursday every week. Saturday every other week. "
+        ],
         "times": [
             {
                 "day": 0,
@@ -895,9 +904,10 @@
     {
         "id": "A2IAjs00f",
         "name": "Red Moon",
-        "banner": "assets/banners/red-moon.jpg",
+        "banner": "assets/banners/redmoon.jpg",
         "description": "Red Moon is an LGBTQ+ 18+ RP venue that focuses on an immersive, welcoming environment for all to come and enjoy themselves. We've been operating since July 25th, 2020. Our mission at Red Moon is to provide a service to the community - whether it's the Red Moon community itself or the venue-going community as a whole. We want to provide a place for people to come to where they'll feel welcomed, noticed and loved.",
         "location": "Jenova, Lavender Beds, Ward 23, Plot 58",
+        "shard": "Lavender Northeast Subdivision",
         "discord": "http://discord.gg/redmoon",
         "sfw": true,
         "nsfw": true,
