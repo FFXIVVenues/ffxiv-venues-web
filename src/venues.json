@@ -281,11 +281,6 @@
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
-                "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 2,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
@@ -299,15 +294,12 @@
         "location": "Jenova, Goblet, Ward 23, Plot 42",
         "website": "https://www.anydercomplex.com/",
         "discord": "https://discord.io/Anyder",
+        "notices": [
+            "This venue is currently listed as unscheduled as continuous reports were received that the venue has not been open at the previously indicated time for several weeks."
+        ],
         "sfw": false,
         "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": [ ]
     },
     {
         "id": "BQKToSw7",
@@ -477,9 +469,6 @@
         "banner": "assets/banners/alies-tea-shop-new.jpg",
         "location": "Siren, Lavender Beds, Ward 8, Plot 50",
         "website": "https://imgur.com/a/h8ZDjYs",
-        "notices": [
-            "Due to events in the real world, the owner - Alitzia - is currently taking a break from openning the Tea Shop for a couple of weeks as of Sept. 12th."
-        ],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1722,6 +1711,34 @@
         "id": "oi0dFvn1S",
         "added": "2021-09-27Z",
         "name": "The Monochrome Maiden",
+        "description": [ 
+            "~Where your desires are neither black nor white~",
+            "Come and enjoy all of the pleasantries we have to offer.. Craving a taste of the green fairy? We offer Absinthe, Matcha and many other drinks at our well stocked bar, complimented with alternative rock music at our stage. Entertainment is what you seek instead? We have a skilled casino able to play blackjack and deathroll at a moments notice! But of course, we do offer the more lustrous forms of entertainment with our well trained and screened courts! A solid price for top quality roleplay and some may even take photos of your encounter with them ♥ Please feel free to stop by our carrd and get to know us, we all love to make new friends!"
+        ],
+        "banner": "assets/banners/monochrome-maiden.jpg",
+        "location": "Adamantoise, Mists, Ward 16, Plot 22",
+        "shard": "Mist Southeast",
+        "discord": "https://discord.gg/5axeNHSrPD",
+        "website": "https://monochromemaiden.carrd.co/",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "blBmZTyXt",
+        "added": "2021-09-27Z",
+        "name": "The Gates",
         "description": [ 
             "~Where your desires are neither black nor white~",
             "Come and enjoy all of the pleasantries we have to offer.. Craving a taste of the green fairy? We offer Absinthe, Matcha and many other drinks at our well stocked bar, complimented with alternative rock music at our stage. Entertainment is what you seek instead? We have a skilled casino able to play blackjack and deathroll at a moments notice! But of course, we do offer the more lustrous forms of entertainment with our well trained and screened courts! A solid price for top quality roleplay and some may even take photos of your encounter with them ♥ Please feel free to stop by our carrd and get to know us, we all love to make new friends!"
