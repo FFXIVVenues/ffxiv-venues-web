@@ -295,7 +295,7 @@
         "website": "https://www.anydercomplex.com/",
         "discord": "https://discord.io/Anyder",
         "notices": [
-            "This venue is currently listed as unscheduled as continuous reports were received that the venue has not been open at the previously indicated time for several weeks."
+            "This venue is currently unscheduled due to changes in staffing, but will be returning to a regarlar schedule soon."
         ],
         "sfw": false,
         "nsfw": true,
@@ -1737,28 +1737,24 @@
     },
     {
         "id": "blBmZTyXt",
-        "added": "2021-09-27Z",
+        "added": "2021-09-29Z",
         "name": "The Gates",
-        "description": [ 
-            "~Where your desires are neither black nor white~",
-            "Come and enjoy all of the pleasantries we have to offer.. Craving a taste of the green fairy? We offer Absinthe, Matcha and many other drinks at our well stocked bar, complimented with alternative rock music at our stage. Entertainment is what you seek instead? We have a skilled casino able to play blackjack and deathroll at a moments notice! But of course, we do offer the more lustrous forms of entertainment with our well trained and screened courts! A solid price for top quality roleplay and some may even take photos of your encounter with them ♥ Please feel free to stop by our carrd and get to know us, we all love to make new friends!"
-        ],
-        "banner": "assets/banners/monochrome-maiden.jpg",
-        "location": "Adamantoise, Mists, Ward 16, Plot 22",
-        "shard": "Mist Southeast",
-        "discord": "https://discord.gg/5axeNHSrPD",
-        "website": "https://monochromemaiden.carrd.co/",
-        "sfw": false,
+        "description": "The Gates is a small venue originally created by the official Free Company of the Delta Fighter Wing Gaming Community, The Fated, as a side project for fun.  Now a dedicated venue, our staff will do their best to serve your every need and provide the most relaxing experience possible!  Whether you seek casual RP, something a bit more focused, or even just a fun hangout, we do our best to provide!",
+        "banner": "assets/banners/the-gates.jpg",
+        "location": "Cactuar, Lavender Beds, Ward 10, Plot 4",
+        "discord": "https://discord.gg/5DnMeNbUJt",
+        "website": "https://thegates.carrd.co/",
+        "sfw": true,
         "nsfw": true,
         "times": [
             {
-                "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
-                "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
