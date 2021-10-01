@@ -1758,5 +1758,34 @@
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    
+    {
+        "id": "gc8cN9trp",
+        "added": "2021-10-01Z",
+        "name": "Primal Rib Alehouse & Eatery",
+        "description": "Fed up with silent venues? Hoping to connect with others but scared to try? Missing out on some Chaos in your life? Say no more and queue up at the PRAE! (Primal Rib Alehouse & Eatery) Our eastern inspired eatery & lounge has a little of something for everyone: BBQ service with delicious meats and treats, a myriad of thematic corners to relax and unwind, hot springs to soak in, and a fun friendly staff waiting to serve!",
+        "location": "Faerie, Shirogane, Ward 21, Plot 16",
+        "discord": "https://discord.gg/5RGDT88UMW",
+        "website": "https://prae.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
