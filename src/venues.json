@@ -697,7 +697,7 @@
         "id": "cjk2fx0v",
         "name": "The Solstice Equinox",
         "description": "Welcome to The Solstice Equinox! Known first and foremost as a legacy FC \"Sol Nova\". We have been around since the 2.0 Launch of ARR! Now with our new high end night club that changes its theme according to the seasons. You'll be sure Eorzea is on the watch for! We guarantee you will enjoy your stay with us at The Solstice!  Hope to see you soon and show us that You've Got Sol!",
-        "banner": "assets/banners/solstice-equinox.png",
+        "banner": "assets/banners/solstice-equinox.jpg",
         "location": "Sargatanas, Lavender Beds, Ward 16, Plot 28",
         "website": "https://solautumn.carrd.co/",
         "discord": "https://discord.gg/CFavDn43JN",
@@ -1233,8 +1233,8 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1759,7 +1759,6 @@
             }
         ]
     },
-    
     {
         "id": "gc8cN9trp",
         "added": "2021-10-01Z",
@@ -1785,6 +1784,26 @@
                 "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "OqFimFvqC",
+        "added": "2021-10-03Z",
+        "name": "The Wallflower",
+        "banner": "assets/banners/the-wallflower.jpg",
+        "description": "The Wallflower is a quaint and cozy café located on Adamantoise. Come enjoy our commodities and weekly specials found on our discord. Future events in the works!",
+        "location": "Adamantoise, The Mists, Ward 20, Apartment 4",
+        "shard": "The Topmast",
+        "discord": "https://discord.gg/j2uy4p39Xe",
+        "website": "https://the-wallflower.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ]
     }
