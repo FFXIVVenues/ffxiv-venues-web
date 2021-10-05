@@ -250,22 +250,6 @@
         ]
     },
     {
-        "id": "9jr6Z6yI",
-        "name": "Booty House",
-        "description": "Every week is something different! From a gladiator colosseum, farmhouse and fields, to a caveman nightclub. We have various live music entertainment line ups each week, contests, and ofcourse a \"Booty Bar\" and Dancers/Courtesan Services. Amaryllis Ignitor says 'I'm also one of the best parts of working here. You see, I'm sexy as hell and I'm a great lay. Totally modest about it too.'. Also Amaryllis: 'I love that we do coke here.'",
-        "location": "Cactuar, Lavender Beds, Ward 3, Plot 35",
-        "discord": "https://discord.gg/XzjBxbF",
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "HT60SIpK",
         "name": "Memory's End Tactus Anyder",
         "description": "SFW Public, NSFW Private Bath House. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. ",
@@ -1822,8 +1806,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 13, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ]
     }
