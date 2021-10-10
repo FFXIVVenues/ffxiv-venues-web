@@ -1757,7 +1757,7 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
-                "day": 5,
+                "day": 4,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
