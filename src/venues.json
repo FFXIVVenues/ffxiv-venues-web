@@ -1267,30 +1267,6 @@
         ]
     },
     {
-        "id": "IRj64EsJ",
-        "added": "2021-09-17Z",
-        "name": "The Angel's Orchard",
-        "banner": "assets/banners/angels-orchard.jpg",
-        "description": "We offer the nicest people you've ever met as your personal hosts, live music and tantelizing food and drink during while you get warm and comy.",
-        "location": "Adamantoise, Lavender Beds, Ward 22, Plot 34",
-        "website": "https://angelsorchard.carrd.co/",
-        "discord": "https://discord.gg/2mTQsab4zR",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "fDnHYob8",
         "added": "2021-09-18Z",
         "name": "City Pop Night Club",
@@ -1834,7 +1810,7 @@
         "name": "Club Radiance",
         "description": "Club Radiance is a chill and friendly little place for adventurers to dance and chill and vibe with us! We offer drinks, music, bards, horrible jokes, positive vibes  and occasional events meant for some light-hearted fun! Saturday 12am-4am EST is when we're fully active, but everyone is welcome to vibe with us on other days 10pm-4am EST! Come rest your weary souls with us, travelers. ♥",
         "location": "Faerie, Lavender Beds, Ward 18, Plot 53",
-        "shard": "Northeast Subdivision",
+        "shard": ":avender Northeast Subdivision",
         "discord": "https://discord.gg/e4uz86gk",
         "sfw": true,
         "nsfw": false,
