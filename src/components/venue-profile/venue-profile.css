@@ -42,7 +42,7 @@ button.venue-profile__visited-button--visited {
 .venue-profile__details {
     padding: 20px 25px 30px 25px;
     box-sizing: border-box;
-    max-height: 75vh;
+    max-height: 50vh;
     overflow-y: auto;
 }
 

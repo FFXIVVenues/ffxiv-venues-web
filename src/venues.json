@@ -1810,7 +1810,7 @@
         "name": "Club Radiance",
         "description": "Club Radiance is a chill and friendly little place for adventurers to dance and chill and vibe with us! We offer drinks, music, bards, horrible jokes, positive vibes  and occasional events meant for some light-hearted fun! Saturday 12am-4am EST is when we're fully active, but everyone is welcome to vibe with us on other days 10pm-4am EST! Come rest your weary souls with us, travelers. ♥",
         "location": "Faerie, Lavender Beds, Ward 18, Plot 53",
-        "shard": ":avender Northeast Subdivision",
+        "shard": "Lavender Northeast Subdivision",
         "discord": "https://discord.gg/e4uz86gk",
         "sfw": true,
         "nsfw": false,
@@ -1819,6 +1819,32 @@
                 "day": 5,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "mc2htfHOV",
+        "added": "2021-10-10Z",
+        "name": "Cafe Mi-Lanna",
+        "banner": "assets/banners/cafe-mi-lanna.jpg",
+        "description": [
+            "Lana created the Mi-Lanna cafe as a space for friends to meet new people and get away from the daily grind. She wanted a place for everyone to come and relax in a soothing, calm, and safe place either for in-character RP or simply for a chat and maybe some photos!",
+            "Lana's friends describe her as kind, fun, and productive. She's a caring girl who tries her best to make sure everyone around her has everything they need and is having a great time. She's the loving big sister the group. ♥️",
+            "Lana is joined by several friends to welcome you to the group. Some of them are a big ball of energy. 😆 Take Purr for example, she is passionate and caring and she'll go round the world to make you smile. ♥️ Mel, she is a soft, gentle, and tall 😲 Bunn Bunn. She’ll treat you like you are the only one in the room with her. Cerie is simply a sweetheart, will do everything in her power to ensure you have a great time and even go the extra mile to make you smile.",
+            "Tuya! She is the perfect chit-chat mate! She'll enjoy spending time with you in a conversation and will keep you hooked. Arhana, is our cute and shy one, but will still give you warmest and happiest welcome you ever seen. Celsius is one of the best MCs I’ve seen in this realm. She has the talent and the power to get you to come to any place and entertain you. Tama is super talented for photography and really enjoys spending time with everyone.",
+            "We can't wait to welcome everyone to the Mi-Lanna Café and our loving group. ♥️"
+        ],
+        "location": "Cactuar, Lavender Beds, Ward 17, Apartment 58",
+        "shard": "Lily Hills",
+        "discord": "https://discord.gg/HdtnwJdrXQ",
+        "website": "https://cafemi-lanna.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 30, "nextDay": false }
             }
         ]
     }
