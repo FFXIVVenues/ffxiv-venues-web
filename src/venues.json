@@ -1844,7 +1844,7 @@
             {
                 "day": 6,
                 "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 30, "nextDay": false }
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ]
     }
