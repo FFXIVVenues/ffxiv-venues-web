@@ -1780,7 +1780,7 @@
         "description": "The Wallflower is a quaint and cozy café located on Adamantoise. Come enjoy our commodities and weekly specials found on our discord. Future events in the works!",
         "location": "Adamantoise, The Mists, Ward 20, Apartment 4",
         "shard": "The Topmast",
-        "discord": "https://discord.gg/j2uy4p39Xe",
+        "discord": "https://discord.gg/6jNDAhjZmt",
         "website": "https://the-wallflower.carrd.co/",
         "sfw": true,
         "nsfw": false,
@@ -1798,7 +1798,7 @@
         "name": "The Snow Bunny Cafe",
         "banner": "assets/banners/the-snow-bunny-cafe.jpg",
         "description": " A small cozy cafe tucked away in the Lavender beds. The menu is focused on a variety of tea and pastries to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for lunch, you wont be disappointed!",
-        "location": "Gilgamesh, Lvaender Beds, Ward 15, Apartment 39",
+        "location": "Gilgamesh, Lavender Beds, Ward 15, Apartment 39",
         "shard": "Lilly Hills",
         "discord": "https://discord.gg/ckch8s4X7c",
         "website": "https://snowbunnycafe.carrd.co/",
@@ -1809,6 +1809,26 @@
                 "day": 5,
                 "start": { "hour": 17, "minute": 0, "nextDay": false },
                 "end": { "hour": 20, "minute": 0, "nextDay": false }
+            }
+        ]
+    },
+    {
+        "id": "jkT1nLx3k",
+        "added": "2021-10-10Z",
+        "name": "Bliss Boba Cafe",
+        "banner": "assets/banners/bliss-boba-cafe.jpg",
+        "description": "Bliss Boba Cafe is home for avid connoisseurs of pearly delights. Come rest your weary feet at our shop and partake in some delectable drinks, delicate pastries, and soothing music. Our special menu also includes a personalized piece of artwork corresponding with their order for our customers!",
+        "location": "Adamantoise, Mist, Ward 23, Plot 5",
+        "shard": "The Topmast",
+        "discord": "https://discord.gg/kkzdTBhH",
+        "website": "https://blissboba.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     }
