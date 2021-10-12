@@ -1847,5 +1847,33 @@
                 "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ]
+    },
+    {
+        "id": "aka3eqaxc",
+        "added": "2021-10-12Z",
+        "name": "Club ELIZA",
+        "banner": "assets/banners/club-eliza.jpg",
+        "description": [
+            "It's roads were paved in white — travertine gradients and basalt luster. The path to its doors? Shimmering cobblestone. Eliza opens itself before you, blinking neon at the far end of the club’s bar decked in all flavours and colours. Opulent shades of red and gold plaster its walls, complemented by the clink of gil and exchange of chips from gambling masters in round tables. A pleasant sound reaches your ears as the steps of most comely courtesans shuffled shim-shimmying blues, saxophone wailed a harmonic weave to its retro crescendo in your warmest welcome.",
+            "Eliza opens its doors to you for a fascinating experience with gambling tables, bartending and courtesan services, and entertainment on every floor."
+        ],
+        "location": "Gilgamesh, Mist, Ward 20, Plot 7",
+        "shard": "Mist West",
+        "discord": "https://discord.gg/elizaxiv",
+        "website": "https://elizavenue.carrd.co/#two",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
