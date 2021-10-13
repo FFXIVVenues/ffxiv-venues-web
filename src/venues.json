@@ -652,19 +652,19 @@
         "nsfw": false,
         "times": [
             {
-                "day": 0,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "day": 3,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     },
