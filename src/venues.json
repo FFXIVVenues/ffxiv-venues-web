@@ -1343,7 +1343,7 @@
         "name": "Last Stop",
         "banner": "assets/banners/last-stop.jpg",
         "description": "The last stop of the night before you retire to your slumber; full bar, saunas, an open stage and hint of chaos.",
-        "location": "Midgardsormr, Goblet, Ward 6, Apartment 2",
+        "location": "Midgardsormr, Goblet, Ward 2, Plot 18",
         "discord": "https://discord.gg/uPWdH9jcEn",
         "sfw": true,
         "nsfw": false,
@@ -1732,11 +1732,6 @@
         "sfw": true,
         "nsfw": false,
         "times": [
-            {
-                "day": 1,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
             {
                 "day": 4,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
