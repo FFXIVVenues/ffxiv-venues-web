@@ -1937,7 +1937,7 @@
         "sfw": true,
         "nsfw": false,
         "notices":[
-            "This venue is usually open at the below times at the descretion of the owner. Please check the discord's announcements channel before visiting. 😉"
+            "This venue is usually open at the below times at the discretion of the owner, it is not a fixed schedule. Please check the discord's announcements channel before visiting. 😉"
         ],
         "times": [
             {
@@ -1972,8 +1972,8 @@
         "added": "2021-10-15Z",
         "name": "Gold Star Saloon",
         "banner": "assets/banners/gold-star-saloon.jpg",
-        "description": "Gold Star Saloon offers a variety of gambling games for our patrons. All games are run by our game masters. Players will be invited to party to participate in games. To see game descriptions and rules, click one of the buttons below.",
-        "location": "Midgardsormr, Mist, Ward 12, Subdivision Apartment 39",
+        "description": "Gold Star Saloon is an immersive Western RP venue. The saloon offers a variety of gambling games, a full bar with libations and provisions, and events such as raffles and contests.",
+        "location": "Midgardsormr, Mist, Ward 12, Sub Apartment 39",
         "shard": "Topmast Subdivision",
         "website": "https://gold-star-saloon.carrd.co/",
         "discord": "https://discord.gg/xjc3c6Xvq6",
@@ -1999,6 +1999,56 @@
             {
                 "day": 2,
                 "start": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "Z8xI4qIXw",
+        "added": "2021-10-15Z",
+        "name": "The Hummingbird",
+        "banner": "assets/banners/the-hummingbird.jpg",
+        "description": "An Asian-fusion, inspired eastern bath & bar.",
+        "location": "Cactuar, Shirogane, Ward 23, Sub Apartment 15",
+        "shard": "Kobai Goten Subdivision",
+        "website": "https://hummingbirdxiv.carrd.co/#",
+        "discord": "https://discord.gg/cWUH3mCdRT",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "end": { "hour": 14, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "end": { "hour": 14, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "end": { "hour": 14, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "end": { "hour": 14, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "end": { "hour": 14, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "end": { "hour": 14, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "end": { "hour": 14, "minute": 30, "nextDay": false }
             }
         ]
     }
