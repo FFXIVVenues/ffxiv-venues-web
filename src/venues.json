@@ -1923,5 +1923,48 @@
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "kJdUSdC0g",
+        "added": "2021-10-15Z",
+        "name": "Brunch at Bella's",
+        "banner": "assets/banners/brunch-at-bellas.jpg",
+        "description": "his establishment is Bella's personal home. Guests are invited to spend their morning and early afternoon at Bella's to meet others, relax, and enjoy a complimentary breakfast. There is no set schedule, but the house is generally open on weekdays between 8am - 2pm CST. Be on the lookout for the Party Finder or join the Discord to get announcements for openings!",
+        "location": "Midgardsormr, Shirogana, Ward 24, Plot 6",
+        "shard": "Southeastern Shirogane",
+        "website": "https://brunch-at-bellas.carrd.co/#",
+        "discord": "https://discord.gg/xjc3c6Xvq6",
+        "sfw": true,
+        "nsfw": false,
+        "notices":[
+            "This venue is usually open at the below times at the descretion of the owner. Please check the discord's announcements channel before visiting. 😉"
+        ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ]
     }
 ]
