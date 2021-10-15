@@ -1899,5 +1899,29 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "fP0RhiRIq",
+        "added": "2021-10-15Z",
+        "name": "Shenanigans",
+        "banner": "assets/banners/shenanigans.jpg",
+        "description": "An exciting place come come eat, drink, dance, and/or gamble. Shenanigans is all about having fun however you find it.",
+        "location": "Faerie, Mist, Ward 12, Plot 38",
+        "shard": "Mistgate Square Subdivision",
+        "discord": "https://discord.gg/GPVvqpNXcm",
+        "sfw": false,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
