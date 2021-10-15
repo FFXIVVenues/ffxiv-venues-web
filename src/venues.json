@@ -1929,8 +1929,8 @@
         "added": "2021-10-15Z",
         "name": "Brunch at Bella's",
         "banner": "assets/banners/brunch-at-bellas.jpg",
-        "description": "his establishment is Bella's personal home. Guests are invited to spend their morning and early afternoon at Bella's to meet others, relax, and enjoy a complimentary breakfast. There is no set schedule, but the house is generally open on weekdays between 8am - 2pm CST. Be on the lookout for the Party Finder or join the Discord to get announcements for openings!",
-        "location": "Midgardsormr, Shirogana, Ward 24, Plot 6",
+        "description": "This establishment is Bella's personal home. Guests are invited to spend their morning and early afternoon at Bella's to meet others, relax, and enjoy a complimentary breakfast. There is no set schedule, but the house is generally open on weekdays between 8am - 2pm CST. Be on the lookout for the Party Finder or join the Discord to get announcements for openings!",
+        "location": "Midgardsormr, Shirogane, Ward 24, Plot 6",
         "shard": "Southeastern Shirogane",
         "website": "https://brunch-at-bellas.carrd.co/#",
         "discord": "https://discord.gg/xjc3c6Xvq6",
@@ -1964,6 +1964,41 @@
                 "day": 4,
                 "start": { "hour": 13, "minute": 0, "nextDay": false },
                 "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ]
+    },
+    {
+        "id": "TuVchZqs3",
+        "added": "2021-10-15Z",
+        "name": "Gold Star Saloon",
+        "banner": "assets/banners/gold-star-saloon.jpg",
+        "description": "Gold Star Saloon offers a variety of gambling games for our patrons. All games are run by our game masters. Players will be invited to party to participate in games. To see game descriptions and rules, click one of the buttons below.",
+        "location": "Midgardsormr, Mist, Ward 12, Subdivision Apartment 39",
+        "shard": "Topmast Subdivision",
+        "website": "https://gold-star-saloon.carrd.co/",
+        "discord": "https://discord.gg/xjc3c6Xvq6",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "JujBoklE9",
+        "added": "2021-10-15Z",
+        "name": "Kittenz - Women's Club and Cafe",
+        "location": "Cactuar, Shirogane, Ward 5, Plot 54",
+        "shard": "Northern Shirogane Subdivision",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     }
