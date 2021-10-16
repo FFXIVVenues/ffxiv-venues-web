@@ -2127,5 +2127,20 @@
                 "start": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "moMlpPpMB",
+        "added": "2021-10-16Z",
+        "name": "Mortar and Thistle Pharmacy",
+        "banner": "assets/banners/pharmacy.jpg",
+        "description": [ 
+            "Visit for medical consultations, be it roleplay or IRL. We can help with a basic diagnosis of issues and offer treatment recommendations to help improve your quality of life.",
+            "Check Party Finder on the weekends to see if we're open or message Jack Anders @ Cactuar for appointments."
+        ],
+        "location": "Cactuar, Mist, Ward 24, Plot 22",
+        "shard": "Mist Southeast",
+        "sfw": true,
+        "nsfw": false,
+        "times": []
     }
 ]
