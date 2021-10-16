@@ -2099,5 +2099,18 @@
                 "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "mlfivayiz",
+        "added": "2021-10-15Z",
+        "name": "Catnap Cafe",
+        "banner": "assets/banners/catnap-cafe.jpg",
+        "description": "The Catnap Café is a wonderfully quaint patisserie. Here you can find a cozy couch to relax on while enjoying a daily-rotating selection of pastries and beverages, as well as live music performed on the stage in the basement. The maids are here to serve and will cater to you as you unwind in this comfy and soothing atmosphere.",
+        "location": "Midgardsormr, Lavender Beds, Ward 10, Plot 55",
+        "shard": "Wildflower Stalls Subdivision",
+        "discord": "https://discord.gg/xjc3c6Xvq6",
+        "sfw": true,
+        "nsfw": false,
+        "times": []
     }
 ]
