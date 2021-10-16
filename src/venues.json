@@ -1134,8 +1134,8 @@
     {
         "id": "iQSQFxC1",
         "added": "2021-09-9Z",
-        "name": "Choco Kisses",
-        "banner": "assets/banners/choco-kisses.jpg",
+        "name": "ChocoKisses",
+        "banner": "assets/banners/chocokisses.jpg",
         "description": "♡ ♥️ Maid Cafe ♥️ ♡ offering custom polaroid shots with your personal maid's signature on them, lovely performances from or adorable maids, yummy, high-quality foodies to share, and amazing songs from our bard-san.",
         "location": "Jenova, Goblet, Ward 2, Plot 55",
         "website": "https://chocokisses.carrd.co/",
@@ -2049,6 +2049,54 @@
                 "day": 6,
                 "start": { "hour": 12, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
+            }
+        ]
+    },
+    {
+        "id": "VbDmrqrMC",
+        "added": "2021-10-15Z",
+        "name": "Idiot Bar",
+        "banner": "assets/banners/idiot-bar.jpg",
+        "location": "Siren, Goblet, Ward 24, Plot 25",
+        "shard": "Goblet East",
+        "website": "https://idiotbar.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "UYdfHkANG",
+        "added": "2021-10-16Z",
+        "name": "The Golden Kettle",
+        "description": "Come relax at the Golden Kettle and enjoy teas from all over Hydaelyn!",
+        "banner": "assets/banners/golden-kettle.jpg",
+        "location": "Siren, Mist, Ward 14, Plot 34",
+        "shard": "Mist Northwest Subdivision",
+        "website": "https://thegoldenkettle.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     }
