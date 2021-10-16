@@ -641,34 +641,6 @@
         ]
     },
     {
-        "id": "36UoGINe",
-        "name": "The Scratch Post",
-        "description": "We are a dinner and dessert café specializing in good, old-fashioned cooking. Whether you're here share a meal with friends or family, grab a coffee to go, or to just check the place out - we hope you enjoy your visit!",
-        "banner": "assets/banners/scratch-post.jpg",
-        "location": "Jenova, Goblet, Ward 8, Plot 49",
-        "website": "https://meowbotscatcafe.carrd.co/#",
-        "discord": "https://discord.gg/YnW9fsrzZj",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "cjk2fx0v",
         "name": "The Solstice Equinox",
         "description": "Welcome to The Solstice Equinox! Known first and foremost as a legacy FC \"Sol Nova\". We have been around since the 2.0 Launch of ARR! Now with our new high end night club that changes its theme according to the seasons. You'll be sure Eorzea is on the watch for! We guarantee you will enjoy your stay with us at The Solstice!  Hope to see you soon and show us that You've Got Sol!",
@@ -2017,37 +1989,37 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "start": { "hour": 13, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
             },
             {
                 "day": 1,
-                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "start": { "hour": 13, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
             },
             {
                 "day": 2,
-                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "start": { "hour": 13, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
             },
             {
                 "day": 3,
-                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "start": { "hour": 13, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
             },
             {
                 "day": 4,
-                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "start": { "hour": 13, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
             },
             {
                 "day": 5,
-                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "start": { "hour": 13, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 12, "minute": 30, "nextDay": false },
+                "start": { "hour": 13, "minute": 30, "nextDay": false },
                 "end": { "hour": 14, "minute": 30, "nextDay": false }
             }
         ]
@@ -2103,7 +2075,7 @@
     {
         "id": "mlfivayiz",
         "added": "2021-10-15Z",
-        "name": "Catnap Cafe",
+        "name": "Catnap Café",
         "banner": "assets/banners/catnap-cafe.jpg",
         "description": "The Catnap Café is a wonderfully quaint patisserie. Here you can find a cozy couch to relax on while enjoying a daily-rotating selection of pastries and beverages, as well as live music performed on the stage in the basement. The maids are here to serve and will cater to you as you unwind in this comfy and soothing atmosphere.",
         "location": "Midgardsormr, Lavender Beds, Ward 10, Plot 55",
@@ -2112,5 +2084,48 @@
         "sfw": true,
         "nsfw": false,
         "times": []
+    },
+    {
+        "id": "TzUVDwxaD",
+        "added": "2021-10-16Z",
+        "name": "Trionfi",
+        "banner": "assets/banners/trionfi.jpg",
+        "description": "Eorzeans look for a solace. Their own little spot in the corner of the world to just get away from it all. Sometimes a regular club just won't do it for them. Some folk need a bit more intimacy. That's what Trionfi is for. With a cozy atmosphere, the jazz lounge and bar is one of the few spaces in Eorzea where one can vent to a stranger, relax a bit and chill out with close friends in a smaller setting.",
+        "location": "Faerie, Shirogane, Ward 14, Plot 19",
+        "shard": "Southwestern Shirogane",
+        "discord": "https://discord.gg/gpPsXVpV3N",
+        "website": "https://welcometothestars.wixsite.com/trionfi",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "JWtAq9Iqr",
+        "added": "2021-10-16Z",
+        "name": "ATTIKA",
+        "banner": "assets/banners/attika.jpg",
+        "description": "A very warm welcome to the Attika community! ATTIKA is a classy nightclub and lounge where you can find dancing, live music, a mouth-watering selection of beverages, and even more so staff.",
+        "location": "Cactuar, Mist, Ward 7, Plot 45",
+        "shard": "Mist Southeast Subdivision",
+        "discord": "https://discord.gg/nWNDChzqNR",
+        "website": "https://attika.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
