@@ -1990,37 +1990,37 @@
             {
                 "day": 0,
                 "start": { "hour": 13, "minute": 0, "nextDay": false },
-                "end": { "hour": 14, "minute": 0, "nextDay": false }
+                "end": { "hour": 15, "minute": 0, "nextDay": false }
             },
             {
                 "day": 1,
-                "start": { "hour": 13, "minute": 30, "nextDay": false },
-                "end": { "hour": 14, "minute": 30, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 15, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
-                "start": { "hour": 13, "minute": 30, "nextDay": false },
-                "end": { "hour": 14, "minute": 30, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 15, "minute": 0, "nextDay": false }
             },
             {
                 "day": 3,
-                "start": { "hour": 13, "minute": 30, "nextDay": false },
-                "end": { "hour": 14, "minute": 30, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 15, "minute": 0, "nextDay": false }
             },
             {
                 "day": 4,
-                "start": { "hour": 13, "minute": 30, "nextDay": false },
-                "end": { "hour": 14, "minute": 30, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 15, "minute": 0, "nextDay": false }
             },
             {
                 "day": 5,
-                "start": { "hour": 13, "minute": 30, "nextDay": false },
-                "end": { "hour": 14, "minute": 30, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 15, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 13, "minute": 30, "nextDay": false },
-                "end": { "hour": 14, "minute": 30, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 15, "minute": 0, "nextDay": false }
             }
         ]
     },
