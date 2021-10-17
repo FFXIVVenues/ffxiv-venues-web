@@ -1153,25 +1153,6 @@
         ]
     },
     {
-        "id": "odKALK7S",
-        "added": "2021-09-13Z",
-        "name": "Glass Palace Bar & Grill",
-        "banner": "assets/banners/glass-palace.jpg",
-        "description": "Glass Palace is a SFW RP Venue, and a place to enjoy good food, drink, and company! We have a delightful variety of steaks for you to choose from and an open stage for performers.",
-        "location": "Sargatanas, Lavender Beds, Ward 10, Plot 34",
-        "website": "https://imgur.com/a/xCWnIpu",
-        "discord": "https://discord.gg/XhuaCpbQ8q",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 6,
-                "start": { "hour": 18, "minute": 30, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
-            }
-        ]
-    },
-    {
         "id": "QmqHKi3O",
         "added": "2021-09-16Z",
         "name": "Duality",
@@ -1670,6 +1651,7 @@
         "description": "The Gates is a small venue originally created by the official Free Company of the Delta Fighter Wing Gaming Community, The Fated, as a side project for fun.  Now a dedicated venue, our staff will do their best to serve your every need and provide the most relaxing experience possible!  Whether you seek casual RP, something a bit more focused, or even just a fun hangout, we do our best to provide!",
         "banner": "assets/banners/the-gates.jpg",
         "location": "Cactuar, Lavender Beds, Ward 10, Plot 4",
+        "shard": "Lavender East",
         "discord": "https://discord.gg/5DnMeNbUJt",
         "website": "https://thegates.carrd.co/",
         "sfw": true,
