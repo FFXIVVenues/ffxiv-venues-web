@@ -1649,7 +1649,7 @@
             "Come and enjoy all of the pleasantries we have to offer.. Craving a taste of the green fairy? We offer Absinthe, Matcha and many other drinks at our well stocked bar, complimented with alternative rock music at our stage. Entertainment is what you seek instead? We have a skilled casino able to play blackjack and deathroll at a moments notice! But of course, we do offer the more lustrous forms of entertainment with our well trained and screened courts! A solid price for top quality roleplay and some may even take photos of your encounter with them ♥ Please feel free to stop by our carrd and get to know us, we all love to make new friends!"
         ],
         "banner": "assets/banners/monochrome-maiden.jpg",
-        "location": "Adamantoise, Mists, Ward 16, Plot 22",
+        "location": "Adamantoise, Mist, Ward 16, Plot 22",
         "shard": "Mist Southeast",
         "discord": "https://discord.gg/5axeNHSrPD",
         "website": "https://monochromemaiden.carrd.co/",
@@ -1989,8 +1989,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 13, "minute": 30, "nextDay": false },
-                "end": { "hour": 14, "minute": 30, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             },
             {
                 "day": 1,
