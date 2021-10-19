@@ -4,7 +4,7 @@
         "name": "The HIVE",
         "description": "Dance club and bar.",
         "location": "Sargatanas, Mist, Ward 4, Plot 30",
-        "discord": "https://discord.gg/ccXW6KQX",
+        "discord": "https://discord.gg/thehive",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -174,7 +174,7 @@
         "name": "Moonlight Mafia",
         "description": "We got just about eveything you need. A good time!",
         "location": "Adamantoise, Mist, Ward 7, Plot 2",
-        "discord": "https://discord.gg/my4D32Sq",
+        "discord": "https://discord.gg/K9UdwEQJcp",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -533,7 +533,7 @@
         "banner": "assets/banners/cozy.jpg",
         "location": "Siren, Lavender Beds, Ward 13, Apartment 87",
         "website": "https://cozyffxiv.carrd.co/",
-        "discord": "https://discord.gg/EsHRJYTj",
+        "discord": "https://discord.gg/SZG8tTXp5c",
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -601,7 +601,7 @@
         "banner": "assets/banners/pure.jpg",
         "location": "Jenova, Shirogane, Ward 13, Plot 46",
         "website": "https://clubpure.carrd.co/",
-        "discord": "https://discord.gg/ceyFDTRwbT",
+        "discord": "https://discord.gg/clubpure",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1346,7 +1346,7 @@
         "description": "Welcome to Forgotten Sonata! With a relaxing atmosphere, wonderful live music, and a fully stocked bar, we look forward to getting to serve and know all our current (and potential) patrons! Feel free to stop by for our photobooth partner, Misty Shores, and nightly raffle for different prizes each night!",
         "location": "Midgardsormr, Shirogane, Ward 22, Plot 39",
         "website": "https://forgottensonata.carrd.co/",
-        "discord": "https://discord.gg/YBxbKJFB",
+        "discord": "https://discord.gg/H4kNsmMReH",
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1410,7 +1410,8 @@
         "banner": "assets/banners/grim-kings.jpg",
         "description": "For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
         "location": "Adamantoise, Mist, Ward 2, Plot 22",
-        "discord": "https://discord.gg/ebhPYhgV",
+        "shard": "Mist Southeast",
+        "discord": "https://discord.gg/Zn7G5dF24Z",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1420,17 +1421,31 @@
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "TzBGXuVz",
+        "added": "2021-09-23Z",
+        "name": "Grimm King's Hollow",
+        "banner": "assets/banners/grim-kings.jpg",
+        "description": "For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
+        "location": "Adamantoise, Goblet, Ward 1, Plot 34",
+        "shard": "Goblet Exchange Subdivision",
+        "discord": "https://discord.gg/Zn7G5dF24Z",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
                 "day": 4,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
@@ -1443,7 +1458,8 @@
         "banner": "assets/banners/deaths-hand.jpg",
         "description": "Death's Head is a Gothic bar/Dance club, catering to vampires, werecats and other such creatures of the night.  Stop on in for curated music and a truly haunting experience.  Drinks, private dances and social time aren't the only vices on the menu...",
         "location": "Midgardsormr, Goblet, Ward 6, Plot 52",
-        "discord": "https://discord.gg/H8TTkv9t",
+        "website":"https://thedeathshead.carrd.co/",
+        "discord": "https://discord.gg/nTW4CXzMqG",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1560,19 +1576,6 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
-    },
-    {
-        "id": "l9xRpBy1",
-        "added": "2021-09-25Z",
-        "name": "Lashels Spa and Lounge",
-        "banner": "assets/banners/lashels-spa-and-lounge.jpg",
-        "description": "18+ Spa and full service lounge, modeled this after the spas from shows like \"From Hell\" and \"The Alienist\". The decorations colors, walls everything as old as I could get them to look. Ran by two lovers, of new age but with old hearts and ideals. We will show as much hospitality and care, to everyone who walks through our door. No judgement here, just a place to relax, have a bite and a drink.",
-        "location": "Sargantanas, Mist, Ward 22, Apartment 30",
-        "shard": "The Topmast",
-        "discord": "https://discord.gg/DBCKmTCR7D",
-        "sfw": true,
-        "nsfw": false,
-        "times": []
     },
     {
         "id": "MUjzDk9v",
@@ -2119,5 +2122,30 @@
         "sfw": true,
         "nsfw": false,
         "times": []
+    },
+    {
+        "id": "Suor9nE8u",
+        "added": "2021-10-19Z",
+        "name": "Flora and Fana",
+        "banner": "assets/banners/flora-and-fana.jpg",
+        "description": "Greetings and welcome to the Flora & Fana Cafe. Glad to have you with us! Please feel free to take your ease in our lovely hot tub, sit with friends and grab a bite, play triple triad, or even perform on our open stage. Enjoy your stay!",
+        "location": "Jenova, Goblet, Ward 23, Plot 28",
+        "shard": "Goblet Southeast",
+        "website": "https://floraandfana.carrd.co/",
+        "discord": "https://discord.gg/fyBPX6PhXw",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
+            }
+        ]
     }
 ]
