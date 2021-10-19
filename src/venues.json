@@ -756,12 +756,17 @@
         "name": "Cafe Miracles May",
         "banner": "assets/banners/miracles.jpg",
         "description": "We are an Ishgardian maid cafe that hopes to bring both lowborn and highborn the warmth and luxury of having their own personal maids and butlers. We do tarot reading and serve food and drinks from all around Coethas as well as other speciality services!",
-        "location": "Faerie, Lavender Beds, Ward 21, Apartments 82",
+        "location": "Sargatanas, Lavender Beds, Ward 8, Plot 11",
         "website": "https://cafemiraclesmay.carrd.co/",
         "discord": "https://discord.gg/starspace",
         "sfw": true,
         "nsfw": true,
         "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
             {
                 "day": 3,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
@@ -779,7 +784,7 @@
         "name": "Blue Ember",
         "banner": "assets/banners/blue-ember.jpg",
         "description": "Nestled in the cliffs of Shirogane, Blue Ember is a sanctuary from the hustle and bustle of adventuring. Come relax with live music in our downstairs lounge, unwind in the private hot springs, or indulge yourself in our handmade menu offerings.",
-        "location": "Sargantanas, Shirogane, Ward 18, Plot 60",
+        "location": "Sargatanas, Shirogane, Ward 18, Plot 60",
         "website": "https://blue-ember.carrd.co/",
         "discord": "https://discord.gg/RdxeqZbNC3",
         "sfw": true,
@@ -911,7 +916,7 @@
         "name": "Succubares Insomnium",
         "banner": "assets/banners/succubares-insomnium.jpg",
         "description": "Succubares Insomnium is proud and delighted to offer travelers of the dusty road a multitude of entertainment to help you unwind. We feature live bands to get your blood pumping, 3mil. max-bet gambling (with the best odds in Aether!), and a spa with courtesan services available.",
-        "location": "Sargantanas, Goblet, Ward 10, Plot 35",
+        "location": "Sargatanas, Goblet, Ward 10, Plot 35",
         "website": "https://succubares.com/#",
         "discord": "https://discord.gg/succubares",
         "sfw": true,
@@ -1532,7 +1537,7 @@
         "name": "Cafe au ‘Laina",
         "banner": "assets/banners/cafe-au-laina.jpg",
         "description": "Cafe au 'Laina is a cozy welcoming place where you can always find good food and good company. Featuring a menu focusing on quality comfort food, an atmosphere well suited for relaxing, and a stage open to any and all who have a song to share, whatever you're looking for, Cafe au 'Laina is a wonderful place to connect and unwind.",
-        "location": "Sargantanas, Mist, Ward 17, Plot 59",
+        "location": "Sargatanas, Mist, Ward 17, Plot 59",
         "website": "https://cafeaulaina.carrd.co/",
         "sfw": true,
         "nsfw": false,
@@ -1793,6 +1798,11 @@
         "sfw": true,
         "nsfw": false,
         "times": [
+            {
+                "day": 3,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
+            },
             {
                 "day": 6,
                 "start": { "hour": 17, "minute": 0, "nextDay": false },
