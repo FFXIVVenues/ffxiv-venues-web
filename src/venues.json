@@ -539,17 +539,17 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
