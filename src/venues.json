@@ -2143,5 +2143,48 @@
                 "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ]
+    },
+    {
+        "id": "F22tVRBR7",
+        "added": "2021-10-22Z",
+        "name": "Constellations",
+        "banner": "assets/banners/constellations.jpg",
+        "description": "Constellations is one of Gilgamesh's most popular hang outs, you'll often find many of the community hanging here listening to live music, eating their world renound spaghetti and chatting silly stories. 😀 ",
+        "location": "Gilgamesh, Mist, Ward 13, Plot 7",
+        "shard": "Mist East",
+        "website": "https://constellationsbar.carrd.co/",
+        "discord": "https://discord.com/invite/PNF2pMc",
+        "sfw": true,
+        "nsfw": false,
+        "notices":[
+            "This venue is usually open at the below times at the discretion of the owners, it is not a fixed schedule. Please check the discord's announcements channel or party finder before visiting. 😉"
+        ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
+            }
+        ]
     }
-]
+]        
