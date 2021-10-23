@@ -1518,34 +1518,6 @@
     },
     {
         "id": "fTO1840vM",
-        "added": "2021-09-24Z",
-        "name": "Cafe au ‘Laina",
-        "banner": "assets/banners/cafe-au-laina.jpg",
-        "description": "Cafe au 'Laina is a cozy welcoming place where you can always find good food and good company. Featuring a menu focusing on quality comfort food, an atmosphere well suited for relaxing, and a stage open to any and all who have a song to share, whatever you're looking for, Cafe au 'Laina is a wonderful place to connect and unwind.",
-        "location": "Sargatanas, Mist, Ward 17, Plot 59",
-        "website": "https://cafeaulaina.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
-            }
-        ]
-    },
-    {
-        "id": "fTO1840vM",
         "added": "2021-09-25Z",
         "name": "P.F. Berrys",
         "banner": "assets/banners/berrys.jpg",
