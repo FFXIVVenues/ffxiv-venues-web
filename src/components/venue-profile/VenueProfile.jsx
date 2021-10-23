@@ -11,6 +11,7 @@ import favouriteIcon from "../../assets/favourite-icon.svg";
 import notVisitedIcon from "../../assets/not-visited-icon.svg";
 import visitedIcon from "../../assets/visited-icon.svg";
 import webIcon from "../../assets/web-icon.svg";
+import { DateString } from "../date/Date";
 import "./venue-profile.css";
 
 class VenueProfile extends React.Component {
@@ -124,6 +125,23 @@ class VenueProfile extends React.Component {
                             </table>
                             <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
                         </React.Fragment>
+                    }
+
+                    { (this.props.venue.exceptions && this.props.venue.exceptions.length > 0) && 
+                        <article className="venue-profile__exceptions">
+                            <p>This venue will be closed at the following times:</p>
+                            <table>
+                                { this.props.venue.exceptions.map((e, i) => {
+                                    const exceptionStart = new Date(e.start);
+                                    const exceptionEnd = new Date(e.end);
+                                    return (<tr key={i}>
+                                        <td><DateString date={exceptionStart} /></td>
+                                        <td className="venue-profile__split">{ <React.Fragment>-</React.Fragment> }</td>
+                                        <td><DateString date={exceptionEnd} /></td>
+                                    </tr>);
+                                })}
+                            </table>
+                        </article>
                     }
 {/* 
                     <div className="venue-profile__badge-container">

@@ -85,6 +85,8 @@ button.venue-profile__visited-button--visited {
 .venue-profile__timezone-notice { margin-left: 107px; }
 
 
+.venue-profile__exceptions { margin-top: 30px; }
+
 .venue-profile__badge-container {
     margin-top: 30px
 }

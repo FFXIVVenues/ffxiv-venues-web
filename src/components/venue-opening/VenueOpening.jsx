@@ -20,7 +20,7 @@ class VenueOpening extends React.Component {
     }
 
     isOpen() {
-        return this.props.time ? timeService.isOpen(this.props.time) : (this.props.venue.times.filter(timeService.isOpen).length > 0)
+        return this.props.time ? timeService.isOpen(this.props.time, this.props.venue.exceptions) : (this.props.venue.times.filter(t => timeService.isOpen(t, this.props.venue.exceptions)).length > 0)
     }
     
     componentDidMount() {

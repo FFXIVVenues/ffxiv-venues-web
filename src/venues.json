@@ -1684,6 +1684,12 @@
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
+        ],
+        "exceptions": [
+            {
+                "start": "2021-10-23T04:00Z",
+                "end": "2021-10-23T07:00Z"
+            }   
         ]
     },
     {

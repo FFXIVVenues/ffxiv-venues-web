@@ -44,14 +44,25 @@ class TimeService {
         }
     }
 
-    isOpen(time) {
+    isOpen(time, exceptions) {
+        if (exceptions !== null && exceptions !== undefined && exceptions.length >= 0) {
+            for (let exception of exceptions) {
+                let exceptionStart = new Date(exception.start);
+                let exceptionEnd = new Date(exception.end);
+                let currentDate = new Date();
+                if (currentDate >= exceptionStart && currentDate <= exceptionEnd) {
+                    return false;
+                }
+            }
+        }
+
         let currentUtcDay = new Date().getUTCDay() - 1;
         if (currentUtcDay === -1) currentUtcDay = 6;
         const currentUtcHour = new Date().getUTCHours();
         const currentUtcMinute = new Date().getUTCMinutes();
 
         // Assume venue is open for 2 hours
-        const endTime = time.end || timeService.addHours(time.start, 2)
+        const endTime = time.end || timeService.addHours(time.start, 2);
 
         let startTimeDay = time.start.nextDay ? time.day + 1 : time.day;
         startTimeDay = startTimeDay === 7 ? 0 : startTimeDay;
