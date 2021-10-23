@@ -87,6 +87,7 @@
         "name": "Seven Circles",
         "description": "(+18) (LGBTQ+) Seven Circles nightclub prides itself on being a friendly and safe space for all walks of life. We feature a full selection of lovely dancers, live music, half priced special drinks, SFW and NSFW services for all your desires. Special additions include an in house photographer and artist! Come join us and sin the night away!",
         "location": "Sargatanas, Mist, Ward 9, Plot 35",
+        "website": "https://sevencirclesthenightclub.carrd.co/#",
         "discord": "https://discord.gg/XV8QnQ3xVQ",
         "sfw": true,
         "nsfw": true,
@@ -1044,34 +1045,6 @@
         ]
     },
     {
-        "id": "ipFkZ6Vh",
-        "name": "Roses XIV",
-        "banner": "assets/banners/roses-xiv.jpg",
-        "description": "We welcome you to the comforts of botanicals and luxuries at Roses XIV. We aim to provide all that you need and more for an evening at our lounge. Bartenders, dancers, courtesans, entertainment... -and a secretary to help guide you, should you ever feel lost in the flurry of the moment. The bar is accommodating with plentiful seating, curated entrees, and a few secret menus for the wandering eye to find. VIP lofts are available for a special view of the floor and stage, just one of the perks we have to offer to our most loyal guests. We are waiting patiently for you to venture into our garden, won't you stay the night?",
-        "location": "Siren, Shirogane, Ward 11, Plot 54",
-        "website": "https://roses-xiv.webnode.com/home/",
-        "discord": "https://discord.gg/upf9yFMkaV",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "V3HlveUz",
         "added": "2021-09-5Z",
         "name": "Sugar Rush",
@@ -1140,11 +1113,11 @@
         "added": "2021-09-12Z",
         "name": "Waffle House Lounge",
         "banner": "assets/banners/waffle-house.jpg",
-        "description": "A SFW cafe and lounge for you to meet new friends and have a relaxing time~ We're here to share our love of waffles, cute desserts and enjoy a good time with our patrons :heart:. Now serving brunch and cocktails.",
+        "description": "A SFW cafe and lounge for you to meet new friends and have a relaxing time~. We're here to share our love of waffles, cute desserts and enjoy a good time with our patrons ♥️. Now serving brunch and cocktails.",
         "location": "Gilgamesh, Goblet, Ward 20, Plot 24",
         "shard": "Goblet East",
-        "website": "https://imgur.com/a/uXDSB4c",
-        "discord": "https://discord.gg/bM6vZRJA",
+        "website": "https://wafflehouselounge.carrd.co/",
+        "discord": "https://discord.gg/DQcUfTc8ZM",
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1216,7 +1189,7 @@
         "description": "Welcome to PBM! The place where all of your appetites will be sated every Wednesday and Saturday night. The Playboy Mansion is a night-club with a fully-stocked bar, casino upstairs, and a host to a number of live twitch-DJ's and bands for your enjoyment. Looking for something more? Our extremely talented and beautiful staff are always available and eager to please! Don't miss out on an unforgettable experience and come join us for our next opening!",
         "location": "Sargatanas, Lavender Beds, Ward 6, Plot 21",
         "website": "https://playboy-mansion.carrd.co/#",
-        "discord": "https://discord.gg/mhfs8AEz",
+        "discord": "https://discord.gg/pbm",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1531,7 +1504,7 @@
         ],
         "location": "Midgardsormr, Goblet, Ward 19, Plot 7",
         "shard": "Goblet West",
-        "discord": "https://discord.gg/YZyq2UuH",
+        "discord": "https://discord.gg/HGYREUwNAK",
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -2165,6 +2138,25 @@
                 "day": 4,
                 "start": { "hour": 16, "minute": 0, "nextDay": false },
                 "end": { "hour": 21, "minute": 0, "nextDay": false }
+            }
+        ]
+    },
+    {
+        "id": "TwdsOer3W",
+        "added": "2021-10-23Z",
+        "name": "Morbol Mansion",
+        "banner": "assets/banners/morbol-mansion.jpg",
+        "description": "Welcome to Morbol Mansion! We're just a Free Company with a penchant for morbols that want to make a fun hang out for you to join! Come in and feel free to relax in the bathes, dance to our live music, play games or enjoy our unique cuisine!",
+        "location": "Adamantoise, Lavender Beds, Ward 14, Plot 1",
+        "shard": "Mist East",
+        "discord": "https://discord.gg/2KeeNCC7MG",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": false }
             }
         ]
     }
