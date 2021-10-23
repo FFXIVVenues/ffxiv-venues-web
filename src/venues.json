@@ -278,12 +278,15 @@
         "location": "Jenova, Goblet, Ward 23, Plot 42",
         "website": "https://www.anydercomplex.com/",
         "discord": "https://discord.io/Anyder",
-        "notices": [
-            "This venue is currently unscheduled due to changes in staffing, but will be returning to a regarlar schedule soon."
-        ],
         "sfw": false,
         "nsfw": true,
-        "times": [ ]
+        "times": [ 
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ]
     },
     {
         "id": "BQKToSw7",
