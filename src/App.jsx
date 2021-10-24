@@ -6,6 +6,7 @@ import days from "./consts/days.json"
 import { venueService } from './services/venueService';
 import { timeService } from './services/timeService';
 import { favouritesService } from './services/favouritesService';
+import { VenueOpeningCard } from './components/venue-opening-card/VenueOpeningCard';
 
 class App extends React.Component {
 
@@ -47,7 +48,7 @@ class App extends React.Component {
         <div className="aether-venues__day" key={i}>
           <details open>
             <summary><h2>{days[i]}</h2></summary>
-            { venues.map((v, i) => <VenueOpening {...v} key={i} /> )}
+            { venues.map((v, i) => <VenueOpeningCard {...v} key={i} /> )}
           </details>
         </div>
       )
@@ -68,7 +69,7 @@ class App extends React.Component {
       <div className="aether-venues__venues aether-venues__unscheduled-venues">
         <details open>
           <summary><h2>Unscheduled</h2></summary>
-          { this._venueViewModels.unscheduled.map((v, i) => <VenueOpening venue={v} key={i} /> )}
+          { this._venueViewModels.unscheduled.map((v, i) => <VenueOpeningCard venue={v} key={i} /> )}
         </details>
       </div>);
   }
