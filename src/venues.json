@@ -2158,5 +2158,19 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": false }
             }
         ]
+    },
+    {
+        "id": "PRvqBG99q",
+        "added": "2021-10-25Z",
+        "name": "Cozy Catsual",
+        "banner": "assets/banners/cozy-catsual.jpg",
+        "description": "A small cafe on the beach front of Shirogane, for those looking to relax and enjoy the moment. Feel free to come by and chat. Food and Drinks are served here.",
+        "location": "Cactuar, Shirogane, Ward 24, Plot 51",
+        "shard": "Northern Shirogane Subdivison",
+        "website": "https://cozycatsual.carrd.co/",
+        "discord": "https://discord.gg/pf2R6W52Rv",
+        "sfw": true,
+        "nsfw": false,
+        "times": []
     }
-]        
+]
