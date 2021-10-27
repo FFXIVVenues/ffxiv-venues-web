@@ -2169,7 +2169,7 @@
             {
                 "day": 6,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": false }
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -2186,5 +2186,61 @@
         "sfw": true,
         "nsfw": false,
         "times": []
+    },
+    {
+        "id": "ohfr7Tjap",
+        "added": "2021-10-25Z",
+        "name": "Vaguely Lewd",
+        "banner": "assets/banners/vaguely-lewd.jpg",
+        "description": [
+            "Vaguely Lewd. Vehemently Lazy. Very Loud. VL for short.",
+            "We're a hangout first, a venue second. Every small thing about VL is run for fun and with hilarious little qwerks that'll have your belly aching for hours. You can only experience them by visiting, experiencing and paying close attention. ;)",
+            "Started and opened by Kai Hitaki as a solo project with support from her second half Akina Crimson, VL was created with relaxation in mind. A place where you can be social and not have to worry about anyone judging you. Come and chill with us. ♥",
+            "The venue layout changes every few weeks and you can influence the theme via regular votes in the discord. We also regularly hold contests!",
+            "With this hangout, we really recommended to keep those eyes open."
+        ],
+        "location": "Gilgamesh, Shirogane, Ward 12, Plot 57",
+        "shard": "Northeastern Shirogane Subdivison",
+        "website": "https://vaguelylewd.carrd.co/#",
+        "discord": "https://discord.gg/EmAJVkRCDs",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
