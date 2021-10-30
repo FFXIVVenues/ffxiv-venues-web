@@ -2242,5 +2242,37 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "imNrWwyig",
+        "added": "2021-10-30Z",
+        "name": "The Laundry",
+        "banner": "assets/banners/the-laundry.jpg",
+        "description": [
+            "Just a laundromat and adult bar and lounge.",
+            "Come get dirty while your clothes get clean*. ",
+            "We're a very open group of people and like to snuggle while we gamble and play games like Truth or Dare. ",
+            "* Cannot guarantee clothes will be clean when you leave. 😀"
+        ],
+        "location": "Siren, Goblet, Ward 14, Plot 8",
+        "shard": "Goblet West",
+        "website": "https://thelaundry.carrd.co/",
+        "discord": "https://discord.gg/gBk4NH8rXA",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
