@@ -1119,6 +1119,9 @@
         "discord": "https://discord.gg/DQcUfTc8ZM",
         "sfw": true,
         "nsfw": false,
+        "notices": [ 
+            "To allow for the EndWalker expansion, the Waffle House Lounge is now closed until the end of the year." 
+        ],
         "times": [
             {
                 "day": 3,
@@ -1129,6 +1132,12 @@
                 "day": 5,
                 "start": { "hour": 15, "minute": 0, "nextDay": false },
                 "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [
+            {
+                "start": "2021-10-30T00:00Z",
+                "end": "2022-01-01T00:00Z"
             }
         ]
     },
