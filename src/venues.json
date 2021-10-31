@@ -2283,5 +2283,41 @@
                 "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "UIafeu6jZ",
+        "added": "2021-10-31Z",
+        "name": "The Kitty (Cafe and Lounge)",
+        "banner": "assets/banners/the-kitty.jpg",
+        "description": [
+            "The Kitty Cafe and Lounge is a SFW venue located in the heart of the Mist on Jenova.  Sporting a cozy cafe upstairs, with fine dining and a water garden downstairs, our establishment offers cuisine, commodore and conversation!",
+            "The owners Sava and Azerith met one fateful day outside of Sava's apartment building in Shiro.  As it turns out, we were neighbors!  We kept bumping into each other, and became friends.  Sava had dreams of owning a cafe, and when she told Azerith this, on a whim Azerith said \"Well, why don't we start one together?\"  Thus began this fun little project!"
+        ],
+        "location": "Jenova, Mist, Ward 23, Plot 12",
+        "shard": "Mist Northeast",
+        "website": "https://thekittycafe.carrd.co/",
+        "discord": "https://discord.gg/R3b7UkjqfX",
+        "sfw": true,
+        "nsfw": false,
+        "times": []
+    },
+    {
+        "id": "mTxgrqra6",
+        "added": "2021-10-31Z",
+        "name": "The Glass Pumpkin",
+        "banner": "assets/banners/glass-pumpkin.jpg",
+        "description": "The Glass Pumpkin is an Aether venue looking to celebrate the XIV community. Our goals are to make new friends, have a great time and keep those serotonin levels riding high! Every month we will announce one \"special\" event filled with tons of fun and prizes! But we are also open regularly every Friday! We host raffles and give aways so be sure to stop by and sign up for those goodies! We cater to both RP and non-RP communities, don't be shy drop on by!",
+        "location": "Midgardsormr, Lavender Beds, Ward 7, Plot 28",
+        "shard": "Lavender Northwest",
+        "website": "https://theglasspumpkin.carrd.co/#",
+        "discord": "https://discord.gg/c3sjedwEwE",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
