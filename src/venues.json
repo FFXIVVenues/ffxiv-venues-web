@@ -1761,9 +1761,9 @@
         "nsfw": false,
         "times": [
             {
-                "day": 3,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "day": 5,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
