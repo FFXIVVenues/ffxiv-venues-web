@@ -964,15 +964,20 @@
     },
     {
         "id": "EuACRe7g",
-        "name": "Love by Snu Snu",
+        "name": "Love by Snu Snu Spa Motel",
         "banner": "assets/banners/snu-snu.jpg",
-        "description": "Come get some love and care with our carefully selected courtesans. We provide a multiple of services including private rooms, massage parlor, lap dances, public wash room and more. Full bar is available with drinks and snacks which our bartender, or court, can serve to you via body shots or during sessions. Full nudity is allowed in lobby.",
+        "description": "Flower/Fairy based spa with private rooms for rent and massage parlor. Come relax and soak with receiving love and care form our carefully selected courtesans.",
         "location": "Siren, Goblet, Ward 6, Plot 14",
         "website": "https://lovebysnusnu.carrd.co/",
         "discord": "https://discord.gg/hmDes997WY",
         "sfw": false,
         "nsfw": true,
         "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
             {
                 "day": 1,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
@@ -1000,24 +1005,6 @@
                 "day": 5,
                 "start": { "hour": 22, "minute": 0, "nextDay": false },
                 "end": { "hour": 1, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "ZRVwFJay",
-        "name": "Wet and Wild Spa Resort",
-        "banner": "assets/banners/wet-and-wild.jpg",
-        "description": "Come relax and get wet in our showers beds, sofa hot tubs, baths and more. We have a full menu with fruits and drinks which you can have served to you by our barkeep and hostess (sometimes a court when available). Full nudity is allowed in lobby.",
-        "location": "Siren, Goblet, Ward 16, Plot 23",
-        "website": "https://wetandwildsparesortmenu.carrd.co/",
-        "discord": "https://discord.gg/hmDes997WY",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
