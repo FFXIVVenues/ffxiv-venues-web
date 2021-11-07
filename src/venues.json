@@ -1431,30 +1431,6 @@
         ]
     },
     {
-        "id": "XRfyQYws",
-        "added": "2021-09-23Z",
-        "name": "Death's Head",
-        "banner": "assets/banners/deaths-hand.jpg",
-        "description": "Death's Head is a Gothic bar/Dance club, catering to vampires, werecats and other such creatures of the night.  Stop on in for curated music and a truly haunting experience.  Drinks, private dances and social time aren't the only vices on the menu...",
-        "location": "Midgardsormr, Goblet, Ward 6, Plot 52",
-        "website":"https://thedeathshead.carrd.co/",
-        "discord": "https://discord.gg/nTW4CXzMqG",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "gukwzvDl",
         "added": "2021-09-23Z",
         "name": "Eden's Corner",
@@ -2304,6 +2280,30 @@
             {
                 "day": 4,
                 "start": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "InVgG7fdp",
+        "added": "2021-11-07Z",
+        "name": "Rumors",
+        "banner": "assets/banners/rumors.jpg",
+        "description": "Rumors is an Electronic Nightclub nestled away in a corner of Lavender Beds. We cater to all guests and are an LGBTQ+ friendly venue. Join us for drinks, dancing, raffles or if you really feel like spreading RUMORS why not chat up one of our very talented courtesans? Let's have some fun tonight!",
+        "location": "Adamantoise, Lavender Beds, Ward 19, Plot 48",
+        "website": "https://i.imgur.com/Fr7iGk9.png",
+        "discord": "https://discord.gg/TgNzzxEK5D",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     }
