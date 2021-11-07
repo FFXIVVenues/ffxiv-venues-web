@@ -289,34 +289,6 @@
         ]
     },
     {
-        "id": "BQKToSw7",
-        "name": "Inner Peace",
-        "description": "Inner Peace is a place to come relax and unwind from a stressful day. Everyone is welcome in our teahouse, and we are always happy to serve the weary. Whether you be a bold adventurer returning from travels or battle, a crafter of fine wares coming to rest after a long day of measuring and making, or a strong-backed gatherer seeking solace after the hard labor of bringing the rest of us what we need to get by you can come find a place to lay down the tools of whatever walk of life you travel and find your...Inner Peace.",
-        "location": "Midgardsormr, Shirogane, Ward 24, Plot 26",
-        "website": "https://innerpeaceteahouse.carrd.co/#",
-        "discord": "https://discord.gg/RDeZJ9zSUC",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            
-            {
-                "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "i0htqKI4",
         "name": "The Golden Otter",
         "description": "A relaxing, safe for work tea house, offering a bit of sanctuary when you need a break. At the Otter, we aim to offer the highest quality teas and treats to our lovely patrons, and always aim to please. The Golden Otter is the product of a young Au'ra's dream to build a community, serving quality refreshments to the community. Raina often walked through the halls of other locations, but always longed to own her own, bringing the recipes her family taught her as a child to the others, hopefully keeping the traditions alive.",
