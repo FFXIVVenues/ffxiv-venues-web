@@ -2306,5 +2306,40 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "QTX9OHXuS",
+        "added": "2021-11-07Z",
+        "name": "The Crimson Lotus",
+        "banner": "assets/banners/crimson-lotus.jpg",
+        "description": [
+            "Hingan themes, black and red, hot baths, hot ramen, and hot girls. The Crimson Lotus' goal as a venue is to be somewhere that you can come to relax and be more than another face in the crowd. Rather than entering a venue where everybody is congregated on the dancefloor doing their favorite bee style dance, you can expect to find an environment that encourages social interaction over everything else.",
+            "Come hangout at our bar and enjoy some of our eastern themed food and cocktails, or make your way upstairs to do some close-knit gambling with one of our world famous dealers that offer games such as Heaven or Hell and Cho-Han.", 
+            "Doesn't sound like your cup of Doman tea? The Crimson Lotus also offers plenty of areas to relax while listening to one of our extremely talented bards and a full double-tiered bath area that is sure to inspire even the most experienced g-poser while you soak and relax with friends.", 
+            "Didn't come with anybody? The CrimLo offers a full range of hosts, hostesses, and courtesans to fulfill all of your SFW and NSFW needs and desires. ", 
+            "Come stop by and find out why this is one of the fastest growing venues on Aether. You're sure to remember the Crimson Lotus and they're sure to remember you when you come back in for a second visit!"
+        ],
+        "location": "Cactuar, Mist, Ward 4, Plot 32",
+        "website": "https://thecrimsonlotus.carrd.co/",
+        "discord": "https://discord.gg/crimsonlotus",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
