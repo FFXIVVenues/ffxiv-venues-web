@@ -2341,5 +2341,46 @@
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "MQktZnlIS",
+        "added": "2021-11-07Z",
+        "name": "Brewed Dreams",
+        "banner": "assets/banners/brewed-dreams.jpg",
+        "description": "Welcome to Brewed Dreams! Looking for a place to just relax/afk? Maybe grab a quick drink or bite to eat? Come hang with us we’d love to have you!",
+        "location": "Faerie, Shirogane, Ward 14, Plot 56",
+        "discord": "https://discord.gg/cngMt5hRzm",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
