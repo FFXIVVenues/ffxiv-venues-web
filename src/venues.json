@@ -731,7 +731,7 @@
         "name": "Cafe Miracles May",
         "banner": "assets/banners/miracles.jpg",
         "description": "We are an Ishgardian maid cafe that hopes to bring both lowborn and highborn the warmth and luxury of having their own personal maids and butlers. We do tarot reading and serve food and drinks from all around Coethas as well as other speciality services!",
-        "location": "Sargatanas, Lavender Beds, Ward 8, Plot 11",
+        "location": "Sargatanas, Mist, Ward 18, Plot 11",
         "website": "https://cafemm.carrd.co/#",
         "discord": "https://discord.gg/jrb8fVj29D",
         "sfw": true,
@@ -1970,7 +1970,43 @@
         "discord": "https://discord.gg/xjc3c6Xvq6",
         "sfw": true,
         "nsfw": false,
-        "times": []
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ]
     },
     {
         "id": "TzUVDwxaD",
@@ -2261,7 +2297,7 @@
         "name": "Rumors",
         "banner": "assets/banners/rumors.jpg",
         "description": "Rumors is an Electronic Nightclub nestled away in a corner of Lavender Beds. We cater to all guests and are an LGBTQ+ friendly venue. Join us for drinks, dancing, raffles or if you really feel like spreading RUMORS why not chat up one of our very talented courtesans? Let's have some fun tonight!",
-        "location": "Adamantoise, Lavender Beds, Ward 19, Plot 48",
+        "location": "Adamantoise, Goblet, Ward 1, Plot 4.",
         "website": "https://i.imgur.com/Fr7iGk9.png",
         "discord": "https://discord.gg/TgNzzxEK5D",
         "sfw": true,
@@ -2320,7 +2356,7 @@
         "name": "Brewed Dreams",
         "banner": "assets/banners/brewed-dreams.jpg",
         "description": "Welcome to Brewed Dreams! Looking for a place to just relax/afk? Maybe grab a quick drink or bite to eat? Come hang with us we’d love to have you!",
-        "location": "Faerie, Shirogane, Ward 14, Plot 56",
+        "location": "Faerie, Shirogane, Ward 1, Plot 13",
         "discord": "https://discord.gg/cngMt5hRzm",
         "sfw": true,
         "nsfw": false,
