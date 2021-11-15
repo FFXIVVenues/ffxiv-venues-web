@@ -511,6 +511,12 @@
         "discord": "https://discord.gg/5VQuTYJGnm",
         "sfw": true,
         "nsfw": false,
+        "exceptions":[
+            {
+                "start": "2021-11-14T00:00Z",
+                "end": "2022-12-28T00:00Z"
+            }
+        ],
         "times": [
             {
                 "day": 1,
@@ -1125,11 +1131,17 @@
         "name": "Purgatory",
         "banner": "assets/banners/purgatory.jpg",
         "description": "Purgatory Bar & Lounge is an [18+][RP][LGBTQ+] place where sinners, saviors, and the unlucky in-between go to have their souls weighed on the scale of judgement. Temptation is all around you, but will you be able to resist?",
-        "location": "Faerie, Shirogane, Ward 20, Plot 59",
+        "location": "Faerie, Goblet, Ward 22, Plot 35",
         "website": "https://purgatoryfaerie.carrd.co/",
         "discord": "https://discord.gg/3weqZzcwvs",
         "sfw": false,
         "nsfw": true,
+        "exceptions":[
+            {
+                "start": "2021-11-14T00:00Z",
+                "end": "2022-12-28T00:00Z"
+            }
+        ],
         "times": [
             {
                 "day": 0,
