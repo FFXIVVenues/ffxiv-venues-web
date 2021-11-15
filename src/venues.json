@@ -1803,7 +1803,7 @@
         "description": "This establishment is Bella's personal home. Guests are invited to spend their morning and early afternoon at Bella's to meet others, relax, and enjoy a complimentary breakfast. There is no set schedule, but the house is generally open on weekdays between 8am - 2pm CST. Be on the lookout for the Party Finder or join the Discord to get announcements for openings!",
         "location": "Midgardsormr, Shirogane, Ward 24, Plot 6",
         "shard": "Southeastern Shirogane",
-        "website": "https://brunch-at-bellas.carrd.co/#",
+        "website": "https://bellas.star-venues.com/",
         "discord": "https://discord.gg/xjc3c6Xvq6",
         "sfw": true,
         "nsfw": false,
@@ -1846,15 +1846,15 @@
         "description": "Gold Star Saloon is an immersive Western RP venue. The saloon offers a variety of gambling games, a full bar with libations and provisions, and events such as raffles and contests.",
         "location": "Midgardsormr, Mist, Ward 12, Sub Apartment 39",
         "shard": "Topmast Subdivision",
-        "website": "https://gold-star-saloon.carrd.co/",
+        "website": "https://gss.star-venues.com/",
         "discord": "https://discord.gg/xjc3c6Xvq6",
         "sfw": true,
         "nsfw": false,
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1979,44 +1979,25 @@
         "description": "Tabby's Tavern - This pirate themed hideout will fulfill all your gambling, grog and live music needs. Come and visit Aether's newest hidden treasure! (any bad reviews on yelp may be a result of salty sailors lamenting their gambling losses)",
         "location": "Midgardsormr, Lavender Beds, Ward 10, Plot 55",
         "shard": "Wildflower Stalls Subdivision",
+        "website": "https://tavern.star-venues.com/",
         "discord": "https://discord.gg/xjc3c6Xvq6",
         "sfw": true,
         "nsfw": false,
         "times": [
             {
-                "day": 0,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 2,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 30, "nextDay": true },
+                "end": { "hour": 9, "minute": 30, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 30, "nextDay": true },
+                "end": { "hour": 9, "minute": 30, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     },
