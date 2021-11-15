@@ -2385,29 +2385,21 @@
         ]
     },
     {
-        "id": "dGTcw4BZI",
-        "added": "2021-11-07Z",
-        "name": "Blessed Heaven",
-        "banner": "assets/banners/blessed-heaven.jpg",
-        "description": "Blessed Heaven is an 18+ softcore RP venue, that will offer a variety of services! we have lovely and welcoming staff ready to give you an unforgettable time. So, please come and enjoy your stay provided courtesy by the Bless Brother's. \\o/",
-        "location": "Adamantoise, Shirogane, Ward 9, Plot 31",
-        "discord": "https://discord.gg/NkxBzuSMRV",
-        "website": "https://blessedheaven.carrd.co/",
+        "id": "a4i7NOpez",
+        "added": "2021-11-15Z",
+        "name": "Vibe Check",
+        "banner": "assets/banners/vibe-check.jpg",
+        "description": "Vibe Check is a nice, relaxing pub tucked away in Midgard. Open for both a good time and a long time, you can come here and pick up a few drinks to start your night, or stop off at the end and settle up with a relaxing herb or two. Check it out the next time you decide you'd like to forget your worries and just settle down for a bit!",
+        "location": "Midgardsormr, Mist, Ward 12, Plot 43",
+        "discord": "https://discord.gg/7JVhGMM6tN",
+        "website": "https://vibecheck.star-venues.com/",
         "sfw": true,
-        "nsfw": true,
-        "notices": [
-            "Blessed Heaven's grand opening is on Saturday, November 13th."
-        ],
+        "nsfw": false,
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     }
