@@ -2402,5 +2402,39 @@
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "jEf2Q22EB",
+        "added": "2021-11-16Z",
+        "name": "The Hallowed Grounds Cafe",
+        "banner": "assets/banners/hallowed-ground.jpg",
+        "description": "The Hallowed Grounds Cafe; faeries evening community hang out where peopole can get away from the hustle and bustle of the every day, with a focus on coziness and relaxtion.  Featuring jump puzzles, an open stage and seasonal events, it's a perfect evening curl up spot. ♥",
+        "location": "Faerie, Goblet, Ward 9, Plot 51",
+        "discord": "https://discord.gg/T3gtwU7m74",
+        "website": "https://hallowedgroundscafe.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
