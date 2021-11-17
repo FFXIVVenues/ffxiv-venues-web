@@ -291,12 +291,19 @@
     {
         "id": "i0htqKI4",
         "name": "The Golden Otter",
+        "banner": "assets/banners/golden-otter.jpg",
         "description": "A relaxing, safe for work tea house, offering a bit of sanctuary when you need a break. At the Otter, we aim to offer the highest quality teas and treats to our lovely patrons, and always aim to please. The Golden Otter is the product of a young Au'ra's dream to build a community, serving quality refreshments to the community. Raina often walked through the halls of other locations, but always longed to own her own, bringing the recipes her family taught her as a child to the others, hopefully keeping the traditions alive.",
         "location": "Siren, Lavender Beds, Ward 10, Plot 51",
         "website": "https://the-golden-otter.carrd.co/",
         "discord": "https://discord.gg/QsfveEZMD7",
         "sfw": true,
         "nsfw": false,
+        "exceptions":[
+            {
+                "start": "2021-11-18T00:00Z",
+                "end": "2022-12-12T00:00Z"
+            }
+        ],
         "times": [
             {
                 "day": 0,
