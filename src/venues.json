@@ -650,6 +650,12 @@
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
+        ],
+        "exceptions": [
+            {
+                "start": "2021-12-02T00:00Z",
+                "end": "2022-12-23T00:00Z"
+            }
         ]
     },
     {
