@@ -1992,12 +1992,12 @@
         "nsfw": false,
         "times": [
             {
-                "day": 2,
+                "day": 1,
                 "start": { "hour": 6, "minute": 30, "nextDay": true },
                 "end": { "hour": 9, "minute": 30, "nextDay": true }
             },
             {
-                "day": 4,
+                "day": 3,
                 "start": { "hour": 6, "minute": 30, "nextDay": true },
                 "end": { "hour": 9, "minute": 30, "nextDay": true }
             },
