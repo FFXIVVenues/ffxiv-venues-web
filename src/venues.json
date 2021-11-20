@@ -2449,5 +2449,32 @@
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "KkEzGvWLp",
+        "added": "2021-11-20Z",
+        "name": "The Oaken Tavern",
+        "banner": "assets/banners/oaken-tavern.jpg",
+        "description": [
+            "Tired of a long day of adventuring? Looking to sit back, relax, and enjoy some great food and better company? Come visit the Oaken Tavern, a sfw venue and open social space to make new friends and find like minded Warriors of Light to play with. Open and welcoming to players of all backgrounds, we ask that you try to extend that same courtesy to our other guests. ",
+            "We're glad to have you, our tavern boasts a fully stocked bar, an open Stage for performing bards, and a cozy interior to help melt the weariness away. For More information, please visit our discord server and check out our website!"
+        ],
+        "location": "Jenova, Mist, Ward 21, Plot 37",
+        "discord": "https://discord.gg/Dn9DzY5eE4",
+        "website": "https://stoicoak0107.wixsite.com/oakentavern",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 ]
