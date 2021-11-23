@@ -1369,11 +1369,11 @@
     {
         "id": "TzBGXuVz",
         "added": "2021-09-23Z",
-        "name": "Grimm King's Hollow",
+        "name": "Grimm King's Manor",
         "banner": "assets/banners/grim-kings.jpg",
         "description": "For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
-        "location": "Adamantoise, Mist, Ward 2, Plot 22",
-        "shard": "Mist Southeast",
+        "location": "Adamantoise, Goblet, Ward 1, Plot 34",
+        "shard": "Goblet Exchange Subdivision",
         "discord": "https://discord.gg/Zn7G5dF24Z",
         "sfw": true,
         "nsfw": true,
@@ -1384,46 +1384,19 @@
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
-                "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "TzBGXuVz",
-        "added": "2021-09-23Z",
-        "name": "Grimm King's Hollow",
-        "banner": "assets/banners/grim-kings.jpg",
-        "description": "For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
-        "location": "Adamantoise, Goblet, Ward 1, Plot 34",
-        "shard": "Goblet Exchange Subdivision",
-        "discord": "https://discord.gg/Zn7G5dF24Z",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
                 "day": 4,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "TzBGXuVz",
-        "added": "2021-09-23Z",
-        "name": "Grimm King's Hollow-een",
-        "banner": "assets/banners/grim-kings.jpg",
-        "description": "For a night of upper class taste with fresh food and drinks we invite you to experience all the Grimm King's Hollow has to offer, if your tastes are more of the flesh variety our lovely courtesans will fulfill your desires.",
-        "location": "Adamantoise, Mist, Ward 16, Plot 35",
-        "discord": "https://discord.gg/Zn7G5dF24Z",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
+            },
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
