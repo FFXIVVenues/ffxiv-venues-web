@@ -1226,7 +1226,7 @@
         "added": "2021-09-18Z",
         "name": "NeXus",
         "banner": "assets/banners/nexus.jpg",
-        "description": "Welcome to Nexus, We strive for excellence in customer service. We offer a variety of services and entertaintment ranging from Live Music, Tarot Readings, Talented Sketch's, Geisha's and a Full Service Bar. We hope you enjoy your stay with us and look forward to meeting you! Feel free to contact us for events and all your needs!",
+        "description": "Welcome to Nexus, we strive for excellence in customer service. We offer a variety of services and entertaintment ranging from Live Music, Tarot Readings, Talented Sketch's, Geisha's and a Full Service Bar. We hope you enjoy your stay with us and look forward to meeting you! Feel free to contact us for events and all your needs!",
         "location": "Adamantoise, Shirogane, Ward 10, Plot 16",
         "website": "https://nexus-ffxiv.carrd.co/",
         "discord": "https://discord.gg/5QXS36RrUZ",
@@ -1990,7 +1990,7 @@
         "name": "Tabby's Tavern",
         "banner": "assets/banners/tabbys-pirate-pub.jpg",
         "description": "Tabby's Tavern - This pirate themed hideout will fulfill all your gambling, grog and live music needs. Come and visit Aether's newest hidden treasure! (any bad reviews on yelp may be a result of salty sailors lamenting their gambling losses)",
-        "location": "Midgardsormr, Lavender Beds, Ward 10, Plot 55",
+        "location": "Midgardsormr, Goblet, Ward 2, Plot 41",
         "shard": "Wildflower Stalls Subdivision",
         "website": "https://tavern.star-venues.com/",
         "discord": "https://discord.gg/xjc3c6Xvq6",
@@ -2474,6 +2474,44 @@
                 "day": 5,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "IrM6lOJj3",
+        "added": "2021-11-22Z",
+        "name": "The King's Bounty Cabaret",
+        "banner": "assets/banners/kings-bounty.png",
+        "description": [
+            "In the Kingdom of Troia, a place most Eorzeans have never heard of, let alone been to, sits a pub only accessible to those with a writ of membership.  This place is the King's Bounty Pub, and it has withstood the test of time.  Uniquely adorned with three thrones upon its stage, this pub has entertained with vivacious shows and beautiful women for generations.",
+            "Nearby the Kingdom of Troia is another virtually unheard of Kingdom to Eorzeans:  The Kingdom of Baron.  It is from this kingdom our proprietor hails from.  After spending nearly five years in Eorzea for reasons all his own, he has also built a venue similar to the pub he remembers from his homeland.",
+            "Enter The King's Bounty Cabaret.  Our goal is to entertain the masses by providing an upscale establishment, top notch entertainment, and the best staff to be found on all of Aether.  Come vibe with our DJ, see live performances, dance with your friends, try our signature drink, or perhaps spend some quality time with some of our more specialized associates.  Be treated like royalty when under our roof, but remember to act the part of a dignified and benevolent ruler.  We look forward to serving you!"
+        ],
+        "location": "Cactuar, Mist, Ward 11, Plot 35",
+        "discord": "https://discord.gg/7Qx7mnb45e",
+        "website": "https://www.kingsbountycabaret.com/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [
+            {
+                "start": "2021-11-26T02:00Z",
+                "end": "2021-11-26T05:00Z"
+            },
+            {
+                "start": "2021-12-02T00:00Z",
+                "end": "2021-12-19T23:59Z"
             }
         ]
     }
