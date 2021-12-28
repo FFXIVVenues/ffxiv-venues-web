@@ -1023,7 +1023,7 @@
     },
     {
         "id": "V3HlveUz",
-        "added": "2021-09-5Z",
+        "added": "2021-09-05Z",
         "name": "Sugar Rush",
         "banner": "assets/banners/sugarrush.jpg",
         "description": "Join us for sweet treats, live music and the comfiest experience you'll find!",
@@ -1063,7 +1063,7 @@
     },
     {
         "id": "iQSQFxC1",
-        "added": "2021-09-9Z",
+        "added": "2021-09-09Z",
         "name": "ChocoKisses",
         "banner": "assets/banners/chocokisses.jpg",
         "description": "♡ ♥️ Maid Cafe ♥️ ♡ offering custom polaroid shots with your personal maid's signature on them, lovely performances from or adorable maids, yummy, high-quality foodies to share, and amazing songs from our bard-san.",
@@ -1499,6 +1499,11 @@
         "sfw": false,
         "nsfw": true,
         "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
             {
                 "day": 5,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
