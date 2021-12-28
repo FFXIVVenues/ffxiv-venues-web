@@ -1349,24 +1349,6 @@
         ]
     },
     {
-        "id": "e8L3eg6O",
-        "added": "2021-09-21Z",
-        "name": "King's Court",
-        "banner": "assets/banners/kings-court.jpg",
-        "description": "King's Court offers an environment where everyone is able to have a good time, whether it be dancing to the music played by our wonderful bard, having a chat with our lovely bartender or just to sit back and relax to the scenary!",
-        "location": "Siren, Goblet, Ward 17, Plot 8",
-        "discord": "https://discord.gg/vzYUSMDsuw",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "TzBGXuVz",
         "added": "2021-09-23Z",
         "name": "Grimm King's Manor",
