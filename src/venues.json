@@ -2435,5 +2435,58 @@
                 "end": "2021-12-19T23:59Z"
             }
         ]
+    },
+    {
+        "id": "nmLVfMzrJ",
+        "added": "2022-01-03Z",
+        "name": "Beelzebabes Den",
+        "banner": "assets/banners/beelzebabes.jpg",
+        "description": [
+            "Hell's comfiest, yet naughty, establishment available for all to enjoy!",
+            "We provide a tonne of extra services to boost the already comfy but lively experience you'll get at Beelzebabes, including live music, dances, photography, courtesans, pillow services (SFW courtesans) and gambling!"
+        ],
+        "location": "Sargatanas, Lavender Beds, Ward 24, Plot 51",
+        "discord": "https://discord.gg/tNTpr9WK9B",
+        "website": "https://sites.google.com/view/beelzebabes-den/home",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": []
     }
 ]
