@@ -1086,7 +1086,7 @@
         "name": "Waffle House Lounge",
         "banner": "assets/banners/waffle-house.jpg",
         "description": "A SFW cafe and lounge for you to meet new friends and have a relaxing time~. We're here to share our love of waffles, cute desserts and enjoy a good time with our patrons ♥️. Now serving brunch and cocktails.",
-        "location": "Gilgamesh, Goblet, Ward 20, Plot 24",
+        "location": "Gilgamesh, Goblet, Ward 7, Plot 42",
         "shard": "Goblet East",
         "website": "https://wafflehouselounge.carrd.co/",
         "discord": "https://discord.gg/DQcUfTc8ZM",
@@ -1110,7 +1110,7 @@
         "exceptions": [
             {
                 "start": "2021-10-30T00:00Z",
-                "end": "2022-01-01T00:00Z"
+                "end": "2022-02-01T00:00Z"
             }
         ]
     },
