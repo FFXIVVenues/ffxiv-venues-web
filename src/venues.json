@@ -2493,6 +2493,7 @@
         "id": "E6gRBvUwr",
         "added": "2022-01-14T00:00:00Z",
         "name": "Pixieberry Cafe",
+        "banner": "assets/banners/pixieberry.jpg",
         "description": [
             "Pixie themed cafe with tarot readings and a hangout spot!"
         ],
