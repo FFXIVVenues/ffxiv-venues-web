@@ -141,6 +141,7 @@
         "discord": "https://discord.gg/2zAeE7EPd7",
         "sfw": true,
         "nsfw": true,
+        "contacts": [ "239229014756163585" ],
         "times": [
             {
                 "day": 3,
@@ -2596,6 +2597,108 @@
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": []
+        "exceptions": [],
+        "tags": [ ],
+        "contacts": [ "814973773094060052" ]
+    },
+    {
+        "id": "MQcQMRw8R",
+        "added": "2022-01-22T00:00:00Z",
+        "name": "The Hideaway Cafe",
+        "banner": "assets/banners/the-hideaway-cafe.jpg",
+        "description": [
+            "So you've finally made it! Grab a drink! The show starts soon. Welcome to the Hideaway Cafe! A Corner venue meant for all venue workers to come, relax, and kick their feet up. Dueling piano Bards try to outwit each other each night, and drinks served in our Speakeasy set up are cold, and very fairly priced. So fill your cups and empty your heavy coffers after a long day's work, here at The Hideaway! Enjoy your escape."
+        ],
+        "location": "Jenova, Goblet, Ward 16, Plot 57",
+        "discord": "https://discord.gg/wGYtHj2f",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "contacts": [ "287716611161325578" ]
+    },
+    {
+        "id": "dxTwBumjz",
+        "added": "2022-01-22T00:00:00Z",
+        "name": "The Drunken Croak",
+        "banner": "assets/banners/the-drunken-croak.jpg",
+        "description": [
+            "The Drunken Croak is a rustic tavern with friendly staff and a cozy atmosphere. Our goal is to create a welcoming community in which everybody can feel at home. The venue features a portrait artist, tarot readings, holiday events, a bath house and live music. Home of the best poutine in Eorzea. If comfy is your vibe, then make sure to pay us a visit!"
+        ],
+        "location": "Adamantoise, Goblet, Ward 22, Plot 7",
+        "discord": "https://discord.gg/4ATX2UaQ",
+        "website": "https://thedrunkencroak.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "contacts": [ "612024267298701323" ]
+    },
+    {
+        "id": "F5iS6rHNg",
+        "added": "2022-01-22T00:00:00Z",
+        "name": "Bae domain",
+        "banner": "assets/banners/bae-domain.jpg",
+        "description": [
+            "A new and chill atmosphere Cactuar, run mainly by bunny girl!",
+            "A lot of bunny girls and bunny boys like to hang out at the venue, but everyone is welcome! We also have NSFW and SFW dancers if someone needs companionship. Our specialty drink is bunny milk, and we have egg nog and Hot chocolate made from bunny milk.",
+            "If you want to feel extra special become a Bae VIP, offering you use of our VIP booth, 50 minutes of dancing per week, use of our bathhouse and free bunny milk!"
+        ],
+        "location": "Cactuar, Goblet, Ward 13, Plot 57",
+        "discord": "https://discord.gg/xExw8veQ3y",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Nightclub", "Courtesans", "Dancers", "Cuddles", "Open stage" ],
+        "contacts": [ "612024267298701323" ]
     }
 ]
