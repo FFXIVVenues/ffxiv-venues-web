@@ -2675,7 +2675,31 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Courtesans", "Dancers", "Cuddles", "Open stage" ],
+        "tags": [ "Nightclub", "Courtesans", "Dancers", "Pillow", "Open stage" ],
         "contacts": [ "612024267298701323" ]
+    },
+    {
+        "id": "F5iS6rHNg",
+        "added": "2022-01-22T00:00:00Z",
+        "name": "Aetherlife",
+        "banner": "assets/banners/aetherlife.jpg",
+        "description": [
+            "Tucked away in the exotic eastern lands of Shirogane, right off the beach, the Aetherlife nightclub brings life to the night. Providing the dark, throbbing, underground night life that Ethyris needs. Aetherlife offers live music and DJs, exotic dancers, alluring courtesans, professional artists, and a fully stocked bar for all your partying needs. Home of Jenovas only designer cocai- I mean bathroom!"
+        ],
+        "location": "Jenova, Shirogane, Ward 19, Plot 18",
+        "discord": "https://discord.gg/yD5HaA9ftv",
+        "website": "https://aetherlife.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddles", "Twitch DJ" ],
+        "contacts": [ "897201514580410369" ]
     }
 ]
