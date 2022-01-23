@@ -1358,29 +1358,6 @@
         ]
     },
     {
-        "id": "HySDoQ0j",
-        "added": "2021-09-21T00:00:00Z",
-        "name": "Night's Rose",
-        "banner": "assets/banners/nights-rose.jpg",
-        "description": [ "Welcome to Night's Rose, Dear Customer! We are open on Mondays and Fridays and offer you a calming experience in our Cafe upstairs. But, if that's not your cup of tea, we have a Night Club located downstairs. We offer an delicious drinks served by our lovely bartenders, live music, and occasional performances by the Burgundy Room, VIP services and various types of Courtesans Services. Occasionally we also offer Raffles, Giveaways, and Themed nights with best dressed rewards! Come on over, Dear Customers. We are here to service you!" ],
-        "location": "Gilgamesh, Goblet, Ward 19, Plot 30",
-        "discord": "https://discord.gg/vzYUSMDsuw",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "TzBGXuVz",
         "added": "2021-09-23T00:00:00Z",
         "name": "Grimm King's Manor",
