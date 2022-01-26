@@ -586,6 +586,8 @@
         "location": "Sargatanas, Lavender Beds, Ward 16, Plot 28",
         "website": "https://solautumn.carrd.co/",
         "discord": "https://discord.gg/CFavDn43JN",
+        "tags": [ "Nightclub", "Dancers", "Food", "Drink", "Bards", "Courtesans" ],
+        "contacts": [ "282419455525519371" ],
         "sfw": true,
         "nsfw": true,
         "notices": [],
@@ -793,6 +795,8 @@
         "location": "Cactuar, Lavender Beds, Ward 7, Plot 6",
         "website": "https://silvergarden.carrd.co/#",
         "discord": "https://discord.gg/s4VxmCzjuM",
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "91982053964279808" ],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1436,6 +1440,8 @@
         "website": "https://snowbunnycafe.carrd.co/",
         "sfw": true,
         "nsfw": false,
+        "tags":[ "Cafe", "Food", "Drink", "Open stage", "Bards" ],
+        "contacts": [ "244551427052142592" ],
         "times": [
             {
                 "day": 5,
@@ -1520,6 +1526,7 @@
         "location": "Faerie, Mist, Ward 2, Plot 43",
         "shard": "Central Mist Subdivision",
         "website": "https://moodlift.carrd.co/",
+        "tags": ["Cafe", "Food", "Drink", "Cuddling"],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -2512,5 +2519,64 @@
         "exceptions": [],
         "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddles", "Twitch DJ" ],
         "contacts": [ "897201514580410369" ]
+    },
+    {
+        "id": "oMMMnBED1",
+        "added": "2022-01-26T00:00:00Z",
+        "name": "The Syndicate",
+        "banner": "assets/banners/syndicate.jpg",
+        "description": [
+            ""
+        ],
+        "location": "Gilgamesh, Shirogane, Ward 13, Plot 37",
+        "discord": "https://discord.gg/the-syndicate",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Nightclub", "Bar", "Glambling", "Drink", "Courtesans", "Dancers", "Bards", "VIP" ],
+        "contacts": [ "328009433802080268" ]
+    },
+    {
+        "id": "TsyPu1wTW",
+        "added": "2022-01-26T00:00:00Z",
+        "name": "The Underdark",
+        "banner": "assets/banners/underdark.jpg",
+        "description": [
+            "SFW Tavern and Sauna with an Open Stage and a Dark Ambient Atmosphere. AFK Friendly, Stay as long as you'd like.",
+            "Meals and Readings do not have a set price and are offered to be paid as you wish.",
+            "All foods are sourced locally and prepared by hand in front of you."
+        ],
+        "location": "Gilgamesh, Lavender Beds, Ward 20, Apartment 57",
+        "wesite": "https://underdark.carrd.co/",
+        "discord": "https://discord.gg/6xZe5Dq4Cn",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Tavern", "Bath house", "Food", "Drink", "Tarot", "Open stage" ],
+        "contacts": [ "284114180859101195" ]
     }
 ]
