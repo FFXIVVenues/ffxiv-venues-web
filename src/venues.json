@@ -1245,6 +1245,8 @@
         "description": [ "The home of the Nix dance troupe! A chill bar and night club with live music, dancers, gambling, courtesans, glamour contests, and various events throughout the weeks. Every night ends with a one-hour performance from the glamourous Nix troupe." ],
         "location": "Adamantoise, Shirogane, Ward 23, Plot 60",
         "discord": "https://discord.gg/NnJVd6sptt",
+        "tags":[ "Dancers"],
+        "contacts":["342507805229711362"],
         "sfw": false,
         "nsfw": true,
         "times": [
@@ -2578,5 +2580,34 @@
         "exceptions": [],
         "tags": [ "Tavern", "Bath house", "Food", "Drink", "Tarot", "Open stage" ],
         "contacts": [ "284114180859101195" ]
+    },
+    {
+        "id": "mfq3sXqvt",
+        "added": "2022-01-27T00:00:00Z",
+        "name": "The Moogle Lounge",
+        "banner": "assets/banners/moogle-lounge.jpg",
+        "description": [
+            "The Moogle Lounge is a great place where you can party till you can't no more or sit back and relax a bit. There is a bar full with a diversity of meals and drinks for you to enjoy, also there's the Nighty Night Raffle were you can win cool stuff!! Come join us to have fun, and have a break from those adventures of the day!  We are more than glad to have you here with us KUPO!"
+        ],
+        "location": "Jenova, Lavender Beds, Ward 10, Plot 52",
+        "wesite": "https://themooglelounge.carrd.co/",
+        "discord": "https://discord.gg/SfSMtqFHtE",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 55, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 55, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Lounge", "Food", "Drink", "Photography", "Open stage" ],
+        "contacts": [ "782368828755410984", "343424502241165312" ]
     }
 ]
