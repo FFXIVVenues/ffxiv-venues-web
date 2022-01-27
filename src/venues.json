@@ -654,30 +654,6 @@
         ]
     },
     {
-        "id": "HoQPjrt8",
-        "added": "2022-08-20T00:00:00Z",
-        "name": "Club Babylon",
-        "banner": "assets/banners/babylon.jpg",
-        "description": [ "Club Babylon started off as an idea to revolutionize the club scene in Eorzea. We took inspiration from the many clubs located in Mists, Lavender Beds, The Goblet, and Shirogane. Club Babylon’s aim is to create a safe nightlife clubbing experience for everyone regardless of their sexuality." ],
-        "location": "Faerie, Goblet, Ward 15, Plot 5",
-        "website": "https://www.clubbabylon.org/",
-        "discord": "https://discord.gg/xbRhJCr",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "I1uOAEBc",
         "added": "2022-08-21T00:00:00Z",
         "name": "Blue Ember",
@@ -981,6 +957,8 @@
         "location": "Jenova, Goblet, Ward 2, Plot 55",
         "website": "https://chocokisses.carrd.co/",
         "discord": "https://discord.gg/QkEXHWVA7J",
+        "tags": [ "Cafe", "Maid cafe", "Photography", "Hosts", "Bar", "Food", "Drink", "Novel Services", "Bards" ],
+        "contacts":["864366760966225921", "755529644526010451"],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1082,6 +1060,8 @@
         "location": "Jenova, Lavender Beds, Ward 10, Plot 1",
         "website": "https://citypopnightclub.carrd.co/#",
         "discord": "https://discord.gg/4spaQvV",
+        "contacts":["96835417147465728"],
+        "tags":["Nightclub", "Bards", "Food", "Drink", "Gambling", "Dancers", "Twitch DJ"],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1630,21 +1610,6 @@
                 "day": 0,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "JujBoklE9",
-        "added": "2021-10-15T00:00:00Z",
-        "name": "Kittenz - Women's Club and Cafe",
-        "location": "Cactuar, Shirogane, Ward 5, Plot 54",
-        "shard": "Northern Shirogane Subdivision",
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     },
