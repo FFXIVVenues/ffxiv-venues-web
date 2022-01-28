@@ -33,6 +33,7 @@
         "location": "Adamantoise, Mist, Ward 22, Plot 30",
         "shard": "Mist Southeast",
         "discord": "https://discord.gg/thenestxiv",
+        "website": "https://imgur.com/gallery/yehcE7l",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -452,7 +453,7 @@
         "discord": "https://discord.gg/5VQuTYJGnm",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Cafe", "Food", "Drink", "Bards" ],
+        "tags": [ "Cafe", "Food", "Drink", "Bards", "Library" ],
         "contacts": [ "323387233832927235" ],
         "exceptions":[
             {
@@ -615,8 +616,11 @@
         "added": "2022-08-18T00:00:00Z",
         "name": "A Bookstore",
         "banner": "assets/banners/bookstore.jpg",
+        "tags":[ "Library", "Speakeasy", "Bards", "Food", "Drinks" ],
+        "contacts": [ "215075869360652288" ],
         "description": [ "Welcome to a bookstore! You appear to have stumbled into a random bookstore, with quiet librarians in a dark, warm cozy setting. Shelves line the wall, littered with books from different ages, varying in genres. Throughout your exploration of the small library, small noises can be heard faintly from beneath the floor but the librarians pay no attention to them. Suspiciously, an old window panel lays near the entrance, almost out of place as the librarians can be caught glancing at them every now and then." ],
         "location": "Cactuar, Mist, Ward 9, Plot 44",
+        "website": "https://speakeasybookstore.carrd.co/",
         "discord": "https://discord.gg/CFavDn43JN",
         "sfw": true,
         "nsfw": false,
@@ -650,25 +654,6 @@
                 "day": 5,
                 "start": { "hour": 7, "minute": 0, "nextDay": true },
                 "end": { "hour": 13, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "I1uOAEBc",
-        "added": "2022-08-21T00:00:00Z",
-        "name": "Blue Ember",
-        "banner": "assets/banners/blue-ember.jpg",
-        "description": [ "Nestled in the cliffs of Shirogane, Blue Ember is a sanctuary from the hustle and bustle of adventuring. Come relax with live music in our downstairs lounge, unwind in the private hot springs, or indulge yourself in our handmade menu offerings." ],
-        "location": "Sargatanas, Shirogane, Ward 18, Plot 60",
-        "website": "https://blue-ember.carrd.co/",
-        "discord": "https://discord.gg/RdxeqZbNC3",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -2431,6 +2416,7 @@
             }
         ],
         "exceptions": [],
+        "tags": [ "Bar", "Speakeasy", "Food", "Drink", "Artists", "Tarot", "Open stage", "Bath House" ],
         "contacts": [ "612024267298701323" ]
     },
     {
@@ -2460,7 +2446,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Courtesans", "Dancers", "Pillow", "Open stage", "VIP" ],
+        "tags": [ "Nightclub", "Courtesans", "Dancers", "Twitch DJ", "Pillow", "Open stage", "VIP" ],
         "contacts": [ "612024267298701323" ]
     },
     {
@@ -2562,17 +2548,20 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 55, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 55, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 0, "minute": 55, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 55, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
         "tags": [ "Lounge", "Food", "Drink", "Photography", "Open stage" ],
-        "contacts": [ "782368828755410984", "343424502241165312" ]
+        "contacts": [ "782368828755410984", "343424502241165312" ],
+        "comments": [
+            "Open at 7:55pm AST (they do not have daylight savings so do not migrate times)"
+        ]
     }
 ]
