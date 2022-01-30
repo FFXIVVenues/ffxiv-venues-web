@@ -1173,30 +1173,6 @@
         ]
     },
     {
-        "id": "MUjzDk9v",
-        "added": "2021-09-25T00:00:00Z",
-        "name": "The Heavenly Hearth",
-        "banner": "assets/banners/heavenly-hearth.jpg",
-        "description": [ "The Heavenly Hearth is a quaint and exclusive Eorzean-style tavern situated in the Far Eastern port city of Kugane. Heavily focused on storytelling and open character RP." ],
-        "location": "Cactuar, Shirogane, Ward 13, Plot 58",
-        "shard": "Eastern Shirogane Subdivision",
-        "website": "https://heavenlyhearth.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "UWOdGSLIf",
         "added": "2021-09-26T00:00:00Z",
         "name": "Oschon's Baths",
