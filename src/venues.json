@@ -2459,8 +2459,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 7, "minute": 0, "nextDay": false },
-                "end": { "hour": 9, "minute": 0, "nextDay": false }
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
