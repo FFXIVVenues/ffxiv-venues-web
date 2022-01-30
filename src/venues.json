@@ -658,53 +658,6 @@
         ]
     },
     {
-        "id": "X1RYIjk4",
-        "added": "2022-08-21T00:00:00Z",
-        "name": "Sanguine",
-        "banner": "assets/banners/sanguine.jpg",
-        "location": "Siren, Lavender Beds, Ward 24, Plot 6",
-        "shard": "Lavender East",
-        "discord": "https://discord.gg/HWwchZXvQH",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "Z7XRZi94s",
-        "added": "2022-08-27T00:00:00Z",
-        "name": "The Lunar Landing",
-        "banner": "assets/banners/lunar-landing.jpg",
-        "description": [ "We offer a variety of activities including a Full Service Bar, Lounge, Dancing, and Hot Tubs for full relaxation." ],
-        "location": "Faerie, Goblet, Ward 1, Plot 19",
-        "website": "https://lunar-landing.carrd.co/",
-        "discord": "https://discord.gg/3r2TZwhqkf",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "A2IAjs00f",
         "added": "2022-08-27T00:00:00Z",
         "name": "Red Moon",
@@ -712,7 +665,9 @@
         "description": [ "Red Moon is an LGBTQ+ 18+ RP venue that focuses on an immersive, welcoming environment for all to come and enjoy themselves. We've been operating since July 25th, 2020. Our mission at Red Moon is to provide a service to the community - whether it's the Red Moon community itself or the venue-going community as a whole. We want to provide a place for people to come to where they'll feel welcomed, noticed and loved." ],
         "location": "Jenova, Lavender Beds, Ward 23, Plot 58",
         "shard": "Lavender Northeast Subdivision",
-        "discord": "http://discord.gg/redmoon",
+        "discord": "https://discord.gg/redmoon",
+        "tags": [ "Nightclub", "Courtesans", "Bards", "VIP", "Photography", "Food", "Drink" ],
+        "contacts": [ "387440138587996181" ],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -737,6 +692,8 @@
         "location": "Sargatanas, Mist, Ward 16, Plot 2",
         "website": "https://fullmoonclub.carrd.co/",
         "discord": "https://discord.gg/QJdRzg2BX8",
+        "tags":[ "Nightclub", "Bards", "Dancers", "Courtesans", "Photography", "Drink" ],
+        "contacts":["110918345263427584"],
         "sfw": false,
         "nsfw": true,
         "times": [
@@ -787,6 +744,8 @@
         "location": "Sargatanas, Goblet, Ward 10, Plot 35",
         "website": "https://succubares.com/#",
         "discord": "https://discord.gg/succubares",
+        "contacts":[ "265695573527625731" ],
+        "tags": [ "Bar", "Lounge", "Gambling", "Courtesans", "VIP", "Food", "Drink" ],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -836,6 +795,8 @@
         "location": "Siren, Goblet, Ward 6, Plot 14",
         "website": "https://lovebysnusnu.carrd.co/",
         "discord": "https://discord.gg/hmDes997WY",
+        "tags": [ "Novel venue", "Courtesans" ],
+        "contacts":["443245852731899906"],
         "sfw": false,
         "nsfw": true,
         "times": [
@@ -849,7 +810,8 @@
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
-        ]
+        ],
+        "comments":[ "Novel because it's not really anything - it's a large pink room with beds and bath made purely for NSFW gathering and activities. Brothel is most likely the closest if we add a tag for that." ]
     },
     {
         "id": "LnAwy1dH",
@@ -860,13 +822,15 @@
         "location": "Jenova, Mist, Ward 8, Plot 2",
         "website": "https://clubfoxbury.carrd.co/",
         "discord": "https://discord.gg/nCHgKeexN9",
+        "tags":[ "Nightclub", "Bar", "Dancers", "Courtesans", "Cuddling", "Food", "Drink", "Photography"],
+        "contacts":["297568652855607296"],
         "sfw": true,
         "nsfw": true,
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -878,6 +842,9 @@
         "description": [ "Stylish monochrome bar and dance floor with live band, drinks, and gambling. " ],
         "location": "Gilgamesh, Goblet, Ward 20, Plot 12",
         "discord": "https://discord.gg/gPepwZSFHf",
+        "website": "https://angels-club.carrd.co/#features",
+        "tags": [ "Bar", "Lounge", "Courtesans", "Gambling", "Bards", "Drink" ],
+        "contacts": [ "171133483408687105", "216172415636602881" ],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -960,40 +927,6 @@
         ]
     },
     {
-        "id": "Mf9IJpmy",
-        "added": "2021-09-12T00:00:00Z",
-        "name": "Waffle House Lounge",
-        "banner": "assets/banners/waffle-house.jpg",
-        "description": [ "A SFW cafe and lounge for you to meet new friends and have a relaxing time~. We're here to share our love of waffles, cute desserts and enjoy a good time with our patrons ♥️. Now serving brunch and cocktails." ],
-        "location": "Gilgamesh, Goblet, Ward 7, Plot 42",
-        "shard": "Goblet East",
-        "website": "https://wafflehouselounge.carrd.co/",
-        "discord": "https://discord.gg/DQcUfTc8ZM",
-        "sfw": true,
-        "nsfw": false,
-        "notices": [ 
-            "To allow for the EndWalker expansion, the Waffle House Lounge is now closed until the end of the year." 
-        ],
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 16, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            }
-        ],
-        "exceptions": [
-            {
-                "start": "2021-10-30T00:00Z",
-                "end": "2022-02-01T00:00Z"
-            }
-        ]
-    },
-    {
         "id": "QmqHKi3O",
         "added": "2021-09-16T00:00:00Z",
         "name": "Duality",
@@ -1002,6 +935,8 @@
         "location": "Siren, Lavender Beds, Ward 5, Plot 30",
         "website": "https://dualityffxiv.carrd.co/#",
         "discord": "https://discord.gg/waGTkDGJnU",
+        "tags": [ "Nightclub", "Dancers", "Courtesans", "VIP", "Bards" ],
+        "contacts": ["387399909994659842"],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1009,6 +944,12 @@
                 "day": 2,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [
+            {
+                "start": "2021-12-01T00:00Z",
+                "end": "2022-02-28T00:00Z"
             }
         ]
     },
@@ -1021,6 +962,8 @@
         "location": "Sargatanas, Lavender Beds, Ward 6, Plot 21",
         "website": "https://playboy-mansion.net/#",
         "discord": "https://discord.gg/pbm",
+        "tags": [ "Nightclub", "Gambling", "Twitch DJ", "Photography", "Courtesans", "VIP", "Dancers"],
+        "contacts":[ "377876638228021258" ],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1073,34 +1016,13 @@
         "discord": "https://discord.gg/5QXS36RrUZ",
         "sfw": true,
         "nsfw": true,
+        "tags":["Nightclub", "Bar", "Drink", "Tarot", "Artists","Courtesans", "Bards", "VIP"],
+        "contacts":["625169410927230989"],
         "times": [
             {
                 "day": 4,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
                 "end": { "hour": 9, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "aBr1NAXW",
-        "added": "2021-09-19T00:00:00Z",
-        "name": "Suki's Cafe~",
-        "banner": "assets/banners/sukis-cafe.jpg",
-        "description": [ "Suki's cafe, a small and comfy dive bar with a cute plushie room. A comfy place to sit back and relax, enjoy the music and make new friends~" ],
-        "location": "Gilgamesh, Shirogane, Ward 20, Apartment 84",
-        "website": "https://sukis-cafe.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 6,
-                "start": { "hour": 12, "minute": 0, "nextDay": false },
-                "end": { "hour": 14, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 0,
-                "start": { "hour": 12, "minute": 0, "nextDay": false },
-                "end": { "hour": 14, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -1115,7 +1037,8 @@
         "website": "https://thelaststop.carrd.co/",
         "sfw": true,
         "nsfw": false,
-        "contacts": [ "Nightclub", "Open stage", "Food", "Drink" ],
+        "tags": [ "Nightclub", "Open stage", "Food", "Drink" ],
+        "contacts": [ "227938971190034432" ],
         "times": [
             {
                 "day": 0,
@@ -1153,6 +1076,8 @@
         "location": "Midgardsormr, Shirogane, Ward 22, Plot 39",
         "website": "https://forgottensonata.carrd.co/",
         "discord": "https://discord.gg/H4kNsmMReH",
+        "tags": [ "Bar", "Lounge", "Food", "Drink", "Bards", "Photography", "VIP" ],
+        "contacts": ["118518912957546496"],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1177,6 +1102,8 @@
         "location": "Adamantoise, Goblet, Ward 1, Plot 34",
         "shard": "Goblet Exchange Subdivision",
         "discord": "https://discord.gg/Zn7G5dF24Z",
+        "tags": [ "Nightclub", "Dancers", "Open stage", "Photography", "Twitch DJ", "Courtesans", "VIP", "Drink"],
+        "contacts": ["170329472459997184"],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1210,7 +1137,7 @@
         "description": [ "The home of the Nix dance troupe! A chill bar and night club with live music, dancers, gambling, courtesans, glamour contests, and various events throughout the weeks. Every night ends with a one-hour performance from the glamourous Nix troupe." ],
         "location": "Adamantoise, Shirogane, Ward 23, Plot 60",
         "discord": "https://discord.gg/NnJVd6sptt",
-        "tags":[ "Dancers"],
+        "tags":[ "Nightclub", "Dancers", "Bards", "Gambling", "Twitch DJ", "Courtesans"],
         "contacts":["342507805229711362"],
         "sfw": false,
         "nsfw": true,
@@ -1225,7 +1152,7 @@
     {
         "id": "fTO1840vM",
         "added": "2021-09-25T00:00:00Z",
-        "name": "P.F. Berrys",
+        "name": "Berry's",
         "banner": "assets/banners/berrys.jpg",
         "description": [
             "Berry is that natural entertainer in your friend group - where no day is the same when you’re around them. Berry now brings you P.F. Berry’s – an oriental burger bistro! This isn’t any ordinary bistro however, it’s a venue you can only explain through having experienced it, and no week is the same. ",
@@ -1300,6 +1227,8 @@
         "shard": "Goblet West",
         "discord": "https://discord.gg/7Gp4psbyeg",
         "website": "https://monochromemaiden.carrd.co/",
+        "tags": [ "Bar", "Bards", "Food", "Drink", "Gambling" ],
+        "contacts": [ "361999818769563658" ],
         "sfw": false,
         "nsfw": true,
         "times": [
@@ -1330,6 +1259,8 @@
         "shard": "Lavender East",
         "discord": "https://discord.gg/5DnMeNbUJt",
         "website": "https://thegates.carrd.co/",
+        "tags": [ "Bar", "Food", "Drink", "Dancers", "Bards", "Courtesans", "Triple triad" ],
+        "contacts": [ "320135049435676672" ],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -1343,6 +1274,12 @@
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
+        ],
+        "exceptions": [
+            {
+                "start": "2021-12-01T00:00Z",
+                "end": "2022-02-28T00:00Z"
+            }
         ]
     },
     {
@@ -1354,26 +1291,18 @@
         "location": "Faerie, Shirogane, Ward 21, Plot 16",
         "discord": "https://discord.gg/5RGDT88UMW",
         "website": "https://prae.carrd.co/",
+        "tags":["Bar", "Lounge", "Food", "Drink"],
+        "contacts":["72900120101793792"],
         "sfw": true,
         "nsfw": false,
         "times": [
             {
-                "day": 4,
+                "day": 5,
                 "start": { "hour": 5, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [
-            {
-                "start": "2021-10-23T04:00Z",
-                "end": "2021-10-23T07:00Z"
-            }   
-        ]
+        "exceptions": []
     },
     {
         "id": "OqFimFvqC",
@@ -1599,56 +1528,6 @@
         ]
     },
     {
-        "id": "Z8xI4qIXw",
-        "added": "2021-10-15T00:00:00Z",
-        "name": "The Hummingbird",
-        "banner": "assets/banners/the-hummingbird.jpg",
-        "description": [ "An Asian-fusion, inspired eastern bath & bar." ],
-        "location": "Cactuar, Shirogane, Ward 23, Sub Apartment 15",
-        "shard": "Kobai Goten Subdivision",
-        "website": "https://hummingbirdxiv.carrd.co/#",
-        "discord": "https://discord.gg/cWUH3mCdRT",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 16, "minute": 0, "nextDay": false }
-            }
-        ]
-    },
-    {
         "id": "VbDmrqrMC",
         "added": "2021-10-15T00:00:00Z",
         "name": "Idiot Bar",
@@ -1779,6 +1658,8 @@
             "Check Party Finder on the weekends to see if we're open or message Jack Anders @ Cactuar for appointments."
         ],
         "location": "Cactuar, Mist, Ward 24, Plot 22",
+        "tags": [ "Novel venue", "Novel services" ],
+        "contacts": [ "95248969935884288" ],
         "shard": "Mist Southeast",
         "sfw": true,
         "nsfw": false,
@@ -1819,57 +1700,14 @@
         "shard": "Mist East",
         "website": "https://constellationsbar.carrd.co/",
         "discord": "https://discord.com/invite/PNF2pMc",
+        "contacts":["193451555649748992"],
+        "tags":["Lounge", "Food", "Drink", "Open stage"],
         "sfw": true,
         "nsfw": false,
         "notices":[
             "This venue is usually open at the below times at the discretion of the owners, it is not a fixed schedule. Please check the discord's announcements channel or party finder before visiting. 😉"
         ],
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
-            }
-        ]
-    },
-    {
-        "id": "TwdsOer3W",
-        "added": "2021-10-23T00:00:00Z",
-        "name": "Morbol Mansion",
-        "banner": "assets/banners/morbol-mansion.jpg",
-        "description": [ "Welcome to Morbol Mansion! We're just a Free Company with a penchant for morbols that want to make a fun hang out for you to join! Come in and feel free to relax in the bathes, dance to our live music, play games or enjoy our unique cuisine!" ],
-        "location": "Adamantoise, Lavender Beds, Ward 14, Plot 1",
-        "shard": "Mist East",
-        "discord": "https://discord.gg/2KeeNCC7MG",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": []
     },
     {
         "id": "PRvqBG99q",
@@ -1881,6 +1719,8 @@
         "shard": "Northern Shirogane Subdivison",
         "website": "https://cozycatsual.carrd.co/",
         "discord": "https://discord.gg/pf2R6W52Rv",
+        "tags":[ "Cafe", "Bath house", "Food", "Drink" ],
+        "contacts":["90703004650467328"],
         "sfw": true,
         "nsfw": false,
         "times": []
@@ -1903,6 +1743,8 @@
         "discord": "https://discord.gg/EmAJVkRCDs",
         "sfw": true,
         "nsfw": false,
+        "tags":[ "Bar", "Food", "Drink", "Open stage" ],
+        "contacts": ["443392206447837194"],
         "times": [
             {
                 "day": 0,
@@ -1956,6 +1798,8 @@
         "shard": "Goblet West",
         "website": "https://thelaundry.carrd.co/",
         "discord": "https://discord.gg/gBk4NH8rXA",
+        "tags":["Novel venue", "Food", "Drink"],
+        "contacts":["246808682501767169"],
         "sfw": false,
         "nsfw": true,
         "times": [
@@ -2048,6 +1892,7 @@
         "location": "Cactuar, Mist, Ward 4, Plot 32",
         "website": "https://thecrimsonlotus.carrd.co/",
         "discord": "https://discord.gg/crimsonlotus",
+        "tags": [ "Bar", "Bath house", "Courtesans" ],
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -2325,6 +2170,7 @@
         ],
         "location": "Faerie, Goblet, Ward 3, Plot 2",
         "discord": "https://discord.gg/tyYdrestJH",
+        "website": "https://tkdmenu.carrd.co/",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -2470,7 +2316,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddles", "Twitch DJ" ],
+        "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddling", "Twitch DJ" ],
         "contacts": [ "897201514580410369" ]
     },
     {
@@ -2563,5 +2409,64 @@
         "comments": [
             "Open at 7:55pm AST (they do not have daylight savings so do not migrate times)"
         ]
+    },
+    {
+        "id": "UQMJP84jw",
+        "added": "2022-01-29T00:00:00Z",
+        "name": "Crossroads Lounge",
+        "banner": "assets/banners/crossroads-lounge.jpg",
+        "description": [
+            "When you're lost and don't know where to turn next, you arrive at the Crossroads.  Take your time to rest your feet, have a bite to eat, and enjoy in the fellow company of travelers.   Find a friend and then pick up where you left off, ready to discover where you're meant to explore next.",
+            "This diner is designed for the first time RP'ers. Engaging you in 60-90 minute immersive RP dinner parties encouraging character development, introducing new people, and building friendships before discovering new venues to experience!"
+        ],
+        "location": "Gilgamesh, Goblet, Ward 21, Plot 8",
+        "discord": "https://discord.gg/Mub5P9h4t8",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [],
+        "tags": [ "Lounge", "Food", "Drink", "Bards", "Open stage", "Novel services" ],
+        "contacts": [ "782368828755410984", "343424502241165312" ]
+    },
+    {
+        "id": "lmTY1dkGV",
+        "added": "2022-01-30T00:00:00Z",
+        "name": "Entropy Maid Cafe",
+        "banner": "assets/banners/entropy-maid-cafe.jpg",
+        "description": [
+            "Our story is simple starting with a desire to have a comfortable and welcoming place to go to relax and enjoy a good chat, the name was decided since everything is a disorder, but here we unite the disorder to give some peace to some of our clients.",
+            "Entropy Maid Cafe offers a comfortable atmosphere with kind maids and butlers eager to help you relax! Come alone or bring a friend to chat with us!",
+            "We are a SFW establishment that strives to put your comfort and relaxation first"
+        ],
+        "location": "Cactaur, Lavender Beds, Ward 10, Plot 26",
+        "wesite": "https://entropymaidcafe.carrd.co/",
+        "discord": "https://discord.gg/AbBNU57v6p",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Cafe", "Maid cafe", "Host club", "Food", "Drink", "Bards", "Photography" ],
+        "contacts": [ "254434244288315392" ]
     }
 ]
