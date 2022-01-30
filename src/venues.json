@@ -2444,5 +2444,27 @@
         "exceptions": [],
         "tags": [ "Cafe", "Maid cafe", "Host club", "Food", "Drink", "Bards", "Photography" ],
         "contacts": [ "254434244288315392" ]
+    },
+    {
+        "id": "S07FLJ9tL",
+        "added": "2022-01-30T00:00:00Z",
+        "name": "Kari's Botanical Garden",
+        "banner": "assets/banners/karis-botanical.jpg",
+        "description": [
+        ],
+        "location": "Jenova, Goblet, Ward 14, Plot 55, Room 7",
+        "wesite": "https://botanicalcafe.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 7, "minute": 0, "nextDay": false },
+                "end": { "hour": 9, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "746942655644172388" ]
     }
 ]
