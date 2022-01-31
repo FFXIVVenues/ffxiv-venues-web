@@ -1362,34 +1362,6 @@
         ]
     },
     {
-        "id": "aka3eqaxc",
-        "added": "2021-10-12T00:00:00Z",
-        "name": "Club ELIZA",
-        "banner": "assets/banners/club-eliza.jpg",
-        "description": [
-            "It's roads were paved in white — travertine gradients and basalt luster. The path to its doors? Shimmering cobblestone. Eliza opens itself before you, blinking neon at the far end of the club’s bar decked in all flavours and colours. Opulent shades of red and gold plaster its walls, complemented by the clink of gil and exchange of chips from gambling masters in round tables. A pleasant sound reaches your ears as the steps of most comely courtesans shuffled shim-shimmying blues, saxophone wailed a harmonic weave to its retro crescendo in your warmest welcome.",
-            "Eliza opens its doors to you for a fascinating experience with gambling tables, bartending and courtesan services, and entertainment on every floor."
-        ],
-        "location": "Gilgamesh, Mist, Ward 20, Plot 7",
-        "shard": "Mist West",
-        "discord": "https://discord.gg/elizaxiv",
-        "website": "https://elizavenue.carrd.co/#two",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "GZYlZUamp",
         "added": "2021-10-13T00:00:00Z",
         "name": "Moodlift Cuddle Corner",
@@ -2519,5 +2491,29 @@
         "exceptions": [],
         "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
         "contacts": [ "175918747524136961" ]
+    },
+    {
+        "id": "lgEUnz5N6",
+        "added": "2022-01-30T00:00:00Z",
+        "name": "Inveritas. A place far and near.",
+        "banner": "assets/banners/inveritas.jpg",
+        "description": [
+            "We all have our perspectives caused by different backgrounds, environments, and events in our life. Inveritas, so the \"The untruth\" or \"the lying things\" symbolize a place where the \"truth\" is nothing than a lie to the another. A Tavern for adventurers for their stories to tell, sit down, relax, and show their perspective. As truth is subjective, so is home. So come and feel at home on this long life journey."
+        ],
+        "location": "Siren, Mist, Ward 5, Aptartment 71",
+        "website": "https://inveritas.carrd.co/",
+        "discord": "https://discord.gg/kMq9nF7r4z",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Tavern", "Food", "Drink", "Open stage", "Novel services" ],
+        "contacts": [ "515845380622254090", "82172138152263680"]
     }
 ]
