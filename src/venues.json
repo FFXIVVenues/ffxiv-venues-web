@@ -1541,6 +1541,9 @@
         "location": "Siren, Mist, Ward 14, Plot 34",
         "shard": "Mist Northwest Subdivision",
         "website": "https://thegoldenkettle.carrd.co/",
+        "discord": "https://discord.gg/EsNQTSSDbx",
+        "tags": [ "Cafe", "Food", "Drink", "Bath House" ],
+        "contacts":[ "328782330741260288" ],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1850,6 +1853,38 @@
                 "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "MUjzDk9v",
+        "added": "2021-09-25T00:00:00Z",
+        "name": "The Heavenly Hearth",
+        "banner": "assets/banners/heavenly-hearth.jpg",
+        "description": [ "The Heavenly Hearth is a quaint and exclusive Eorzean-style tavern situated in the Far Eastern port city of Kugane. Heavily focused on storytelling and open character RP." ],
+        "location": "Cactuar, Shirogane, Ward 15, Plot 7",
+        "shard": "Eastern Shirogane Subdivision",
+        "website": "https://heavenlyhearth.carrd.co/",
+        "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Soft-counselling", "Food", "Drink", "Open stage", "Novel services" ],
+        "contacts":["181202033808769024"],
+        "sfw": true,
+        "nsfw": false,
+        "comments":[ "Novel service is able to rent RP rooms.", "RP heavy venue; speachmarks via /em and OOC via brackets only." ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -2329,7 +2364,7 @@
             "All foods are sourced locally and prepared by hand in front of you."
         ],
         "location": "Cactuar, Lavender Beds, Ward 20, Apartment 57",
-        "wesite": "https://underdark.carrd.co/",
+        "website": "https://underdark.carrd.co/",
         "discord": "https://discord.gg/6xZe5Dq4Cn",
         "sfw": true,
         "nsfw": false,
@@ -2363,7 +2398,7 @@
             "The Moogle Lounge is a great place where you can party till you can't no more or sit back and relax a bit. There is a bar full with a diversity of meals and drinks for you to enjoy, also there's the Nighty Night Raffle were you can win cool stuff!! Come join us to have fun, and have a break from those adventures of the day!  We are more than glad to have you here with us KUPO!"
         ],
         "location": "Jenova, Lavender Beds, Ward 10, Plot 52",
-        "wesite": "https://themooglelounge.carrd.co/",
+        "website": "https://themooglelounge.carrd.co/",
         "discord": "https://discord.gg/SfSMtqFHtE",
         "sfw": true,
         "nsfw": false,
@@ -2415,7 +2450,7 @@
             "We are a SFW establishment that strives to put your comfort and relaxation first"
         ],
         "location": "Cactaur, Lavender Beds, Ward 10, Plot 26",
-        "wesite": "https://entropymaidcafe.carrd.co/",
+        "website": "https://entropymaidcafe.carrd.co/",
         "discord": "https://discord.gg/AbBNU57v6p",
         "sfw": true,
         "nsfw": false,
@@ -2453,7 +2488,7 @@
         "description": [
         ],
         "location": "Jenova, Goblet, Ward 14, Plot 55, Room 7",
-        "wesite": "https://botanicalcafe.carrd.co/",
+        "website": "https://botanicalcafe.carrd.co/",
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -2466,5 +2501,23 @@
         "exceptions": [],
         "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
         "contacts": [ "746942655644172388" ]
+    },
+    {
+        "id": "lgEUnz5N6",
+        "added": "2022-01-30T00:00:00Z",
+        "name": "Bone Zone Cafe",
+        "banner": "assets/banners/bone-zone.jpg",
+        "description": [
+            "Our staff consists of the chill, fun-loving free company: Skeleton Warriors (BONES).",
+            "We pride ourselves on enjoying what the game has to offer whether it be leveling a job, raiding, crafting or simply the company of others."
+        ],
+        "location": "Adamantoise, Mist, Ward 7, Plot 49",
+        "website": "https://bonezonecafe.carrd.co/#about",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "175918747524136961" ]
     }
 ]
