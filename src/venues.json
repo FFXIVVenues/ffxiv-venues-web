@@ -2515,5 +2515,43 @@
         "exceptions": [],
         "tags": [ "Tavern", "Food", "Drink", "Open stage", "Novel services" ],
         "contacts": [ "515845380622254090", "82172138152263680"]
+    },
+    {
+        "id": "eoTPsXtgg",
+        "added": "2022-01-31T00:00:00Z",
+        "name": "The Blue Moon Bistro",
+        "banner": "assets/banners/blue-moon-bistro.jpg",
+        "description": [
+            "A café in The Lavender Beds, with a staff dedicated to quality and a calming atmosphere."
+        ],
+        "location": "Adamantoise, Lavender Beds, Ward 4, Apartment 61",
+        "website": "https://bluemoonbistro.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Cafe", "Maid cafe", "Food", "Drink", "Bards" ],
+        "contacts": [ "125375301172723712" ]
     }
 ]
