@@ -2553,5 +2553,85 @@
         "exceptions": [],
         "tags": [ "Cafe", "Maid cafe", "Food", "Drink", "Bards" ],
         "contacts": [ "125375301172723712" ]
+    },
+    {
+        "id": "Y8VYigbOA",
+        "added": "2022-02-03T00:00:00Z",
+        "name": "Celestial Delights",
+        "banner": "assets/banners/celestial-delights.jpg",
+        "description": [],
+        "location": "Siren, Goblet, Ward 19, Plot 43",
+        "discord": "http://discord.gg/YQGxeDhPeq",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Nightclub", "Food", "Drink", "Pillow", "Courtesans", "VIP" ],
+        "contacts": [ "896378556953800724" ]
+    },
+    {
+        "id": "Xiuz4eIfW",
+        "added": "2022-02-03T00:00:00Z",
+        "name": "Dead Space",
+        "banner": "assets/banners/dead-space.jpg",
+        "description": [ "Dead Space offers an upscale clubbing and gambling experience with adult entertainment, live DJs, a busy bar, and experience courtesans for all tastes. We are LGBTQ+ friendly. Special events held regularly, so check the discord for what’s coming up!"],
+        "location": "Siren, Mist, Ward 1, Plot 6",
+        "discord": "https://discord.gg/yPP2DbHsGQ",
+        "website": "https://deadspacebar.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Nightclub", "Void", "Bar", "Gambling", "Courts", "Food", "Drink", "VIP" ],
+        "contacts": [ "896378556953800724" ]
+    },
+    {
+        "id": "gJIW0NYBh",
+        "added": "2022-02-03T00:00:00Z",
+        "name": "Atlantis",
+        "banner": "assets/banners/atlantis.jpg",
+        "description": [ "An LGBTQ+ Friendly, All-Inclusive FF14 Venue! Come relax. get a drink, dance, and have fun with our courtesans~" ],
+        "location": "Adamantoise, Shirogane, Ward 19, Plot 7",
+        "discord": "https://discord.gg/DNYP7vqmdc",
+        "website": "https://atlantisxiv.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Lounge", "Courtesans", "Dancers", "Bards", "Food", "Drink" ],
+        "contacts": [ "712464990551932989" ]
     }
 ]
