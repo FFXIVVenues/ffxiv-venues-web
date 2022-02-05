@@ -1833,30 +1833,31 @@
         "added": "2021-09-25T00:00:00Z",
         "name": "The Heavenly Hearth",
         "banner": "assets/banners/heavenly-hearth.jpg",
-        "description": [ "The Heavenly Hearth is a quaint and exclusive Eorzean-style tavern situated in the Far Eastern port city of Kugane. Heavily focused on storytelling and open character RP." ],
+        "description": [ 
+            "Welcome to The Heavenly Hearth, a quaint and exclusive Eorzean-style tavern, situated in the port city of Kugane. Offering the unique taste of Aldenard's cuisine to Far Eastern shores, enjoy the variety of food and specially-crafted teas and beverages with the company of fellow adventurers. Our hostel and private suites also offer comfortable lodgings for our guests.",
+            "We look forward to your visit!",
+            "[ SFW Immersive RP ]",
+            "Active and friendly RP community, welcoming both new and veteran roleplayers!",
+            "Non-roleplayers are also welcome to visit, and enjoy the ambience!"
+        ],
         "location": "Cactuar, Shirogane, Ward 15, Plot 7",
         "shard": "Eastern Shirogane Subdivision",
         "website": "https://heavenlyhearth.carrd.co/",
-        "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Soft-counselling", "Food", "Drink", "Open stage", "Novel services" ],
+        "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Soft-counselling", "Food", "Drink", "Open stage",  "RP Only", "Novel services" ],
         "contacts":["181202033808769024"],
         "sfw": true,
         "nsfw": false,
         "comments":[ "Novel service is able to rent RP rooms.", "RP heavy venue; speachmarks via /em and OOC via brackets only." ],
         "times": [
             {
-                "day": 0,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 4,
                 "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
                 "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -2300,7 +2301,7 @@
         ],
         "exceptions": [],
         "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddling", "Twitch DJ", "VIP" ],
-        "contacts": [ "897201514580410369" ]
+        "contacts": [ "215335306344267778" ]
     },
     {
         "id": "oMMMnBED1",
