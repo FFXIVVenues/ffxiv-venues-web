@@ -962,7 +962,7 @@
         "location": "Sargatanas, Lavender Beds, Ward 6, Plot 21",
         "website": "https://playboy-mansion.net/#",
         "discord": "https://discord.gg/pbm",
-        "tags": [ "Nightclub", "Gambling", "Twitch DJ", "Photography", "Courtesans", "VIP", "Dancers"],
+        "tags": [ "Nightclub", "Gambling", "Twitch DJ", "Photography", "Courtesans", "Cuddling", "VIP", "Dancers"],
         "contacts":[ "377876638228021258" ],
         "sfw": true,
         "nsfw": true,
@@ -2299,7 +2299,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddling", "Twitch DJ" ],
+        "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddling", "Twitch DJ", "VIP" ],
         "contacts": [ "897201514580410369" ]
     },
     {
@@ -2626,8 +2626,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
