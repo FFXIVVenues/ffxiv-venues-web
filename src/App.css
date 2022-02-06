@@ -3,17 +3,18 @@
 }
 
 body {
-  background-image: url("assets/background-image.jpg");
-  background-position-x: calc((1920px - 100vw)/-2);
-  background-size: auto 650px;
+  background-image: url("assets/background.png");
+  background-position-x: -1500px;
+  background-attachment: fixed;
+  background-size: auto 100vh;
   background-repeat: no-repeat;
   background-color: #000003;
-  color: #BBB;
+  color: black;
   width: calc(100vw);
 }
 
 a {
-  color: #DDD;
+  color: white;
 }
 
 .app-root {
@@ -30,14 +31,12 @@ a {
   font-size: small;
   margin-top: 10px;
   text-align: right;
-  text-shadow: 0px 0px 5px black;
 }
 
 .aether-venues__heading {
-  margin-top: 380px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
-  text-shadow: 0px 0px 15px black;
 }
 
 .aether-venues__heading img {
@@ -56,7 +55,6 @@ a {
 .aether-venues__definition {
   margin-bottom: 75px;
   text-align: justify;
-  text-shadow: 0px 0px 10px black;
 }
 
 .aether-venues__day {

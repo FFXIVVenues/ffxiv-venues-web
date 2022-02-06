@@ -72,10 +72,6 @@ class VenueOpening extends React.Component {
                     }
                 </div>
                 <div className="venue-opening__cell venue-opening__location" >{this.props.venue.location}</div>
-                <div className="venue-opening__cell venue-opening__icons">
-                    { this.props.venue.sfw && <SfwIcon /> }
-                    { this.props.venue.nsfw && <NsfwIcon /> }
-                </div>
             </div>
             { this.state.openModal && 
                 <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>

@@ -48,7 +48,7 @@ class App extends React.Component {
         <div className="aether-venues__day" key={i}>
           <details open>
             <summary><h2>{days[i]}</h2></summary>
-            { venues.map((v, i) => <VenueOpeningCard {...v} key={i} /> )}
+            { venues.map((v, i) => <VenueOpening {...v} key={i} /> )}
           </details>
         </div>
       )
@@ -84,7 +84,7 @@ class App extends React.Component {
           </div>
           <div className="aether-venues__heading">
             <img src="logo.png" alt="" />
-            <h1>Aether Venues</h1>
+            <h1>FFXIV Venues Index</h1>
           </div>
           <p className="aether-venues__definition">
             A venue is a place maintained by players for all RPers to come by and RP in. This includes taverns, shops, nightclubs, restaurants or even crazier environments like colosseums. They often include various RP "services" such as in-house photography, artists, tarot readings and courtesans. Venues must have a regularly scheduled opening time to be on this list. 

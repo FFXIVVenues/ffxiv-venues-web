@@ -2,8 +2,6 @@ import React from "react";
 import "./venue-opening-card.css";
 import { Modal } from "../modal/Modal";
 import { Time } from "../time/Time";
-import { NsfwIcon } from "../icons/NsfwIcon";
-import { SfwIcon } from "../icons/SfwIcon";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { VenueOpening } from "../venue-opening/VenueOpening";
 
@@ -16,7 +14,17 @@ class VenueOpeningCard extends VenueOpening {
                  role="row" 
                  onClick={ this._onVenueClick.bind(this) }
                  style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null }>
-                
+
+                { this.isNew() ? 
+                    <div className="venue-opening-card__new">new!</div> :
+                    null
+                }
+
+                <div className="venue-opening-card__name">
+                    { this.props.venue.name }
+                    
+                </div>
+
                 { this.props.time && 
                     <div className="venue-opening-card__time">
                         <div className="venue-opening-card__start"><Time time={this.props.time.start} day={this.props.time.day} format24={false} /></div>
@@ -25,18 +33,7 @@ class VenueOpeningCard extends VenueOpening {
                     </div>
                 }
 
-                <div className="venue-opening-card__name">
-                    { this.props.venue.name }
-                    { this.isNew() ? 
-                        <span className="venue-opening-card__new">new!</span> :
-                        null
-                    }
-                </div>
                 <div className="venue-opening-card__location">{this.props.venue.location}</div>
-                <div className="venue-opening-card__icons">
-                    { this.props.venue.sfw && <SfwIcon /> }
-                    { this.props.venue.nsfw && <NsfwIcon /> }
-                </div>
             </div>
             { this.state.openModal && 
                 <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>
