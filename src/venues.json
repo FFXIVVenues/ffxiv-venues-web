@@ -1529,7 +1529,7 @@
     {
         "id": "mlfivayiz",
         "added": "2021-11-07T00:00:00Z",
-        "name": "Tabby's Tavern",
+        "name": "Tabby's",
         "banner": "assets/banners/tabbys-pirate-pub.jpg",
         "description": [ "Tabby's Tavern - This pirate themed hideout will fulfill all your gambling, grog and live music needs. Come and visit Aether's newest hidden treasure! (any bad reviews on yelp may be a result of salty sailors lamenting their gambling losses)" ],
         "location": "Midgardsormr, Goblet, Ward 2, Plot 41",
@@ -1538,19 +1538,11 @@
         "discord": "https://discord.gg/xjc3c6Xvq6",
         "sfw": true,
         "nsfw": false,
+        "tags": [ "Den", "Bar", "Bath house", "Library", "Food", "Drink", "Bards", "Gambling" ],
+        "contacts":["113480178256072704"],
         "times": [
             {
-                "day": 1,
-                "start": { "hour": 6, "minute": 30, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
-            },
-            {
                 "day": 3,
-                "start": { "hour": 6, "minute": 30, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
-            },
-            {
-                "day": 5,
                 "start": { "hour": 6, "minute": 30, "nextDay": true },
                 "end": { "hour": 9, "minute": 30, "nextDay": true }
             }
