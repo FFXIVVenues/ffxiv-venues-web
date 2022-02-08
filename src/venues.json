@@ -2650,5 +2650,33 @@
         "exceptions": [],
         "tags": [ "Tavern", "Inn", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Open Stage", "RP only" ],
         "contacts": [ "134349700428988416" ]
+    },
+    {
+        "id": "axAXOGSSS",
+        "added": "2022-02-08T00:00:00Z",
+        "name": "Amarot's Utopia",
+        "banner": "assets/banners/amarots-utopia.jpg",
+        "description": [ 
+            "Welcome to the golden days of Amaurot. Never was a casino more magnificent. From the humble slots, to the heighted blackjack, she fairly gleems.",
+            "Take a break from peace and contentment, let your soul live for the moment.",
+            "Give into want, and let our creation magics provide you with an entertainment gaming experience like no other.",
+            "So pray not to primals, but to lady luck, as we weave reality to provide you a premium entertainment gaming experience, like no other.",
+            "So come enjoy life as an Ancient, and \"remember\" the pleasures of Amaurot's Utopia."
+        ],
+        "location": "Midgardsormr, Goblet, Ward 8, Plot 36",
+        "discord": "https://discord.gg/CGmyDH2x2T",
+        "website": "https://amaurotsutopia.com/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Casino", "Food", "Drink", "Bards", "Open stage" ],
+        "contacts": [ "134349700428988416" ]
     }
 ]
