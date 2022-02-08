@@ -4,11 +4,12 @@
 
 body {
   background-image: url("assets/background.png");
-  background-position-x: -1500px;
+  background-position-x: 000px;
   background-attachment: fixed;
   background-size: auto 100vh;
   background-repeat: no-repeat;
-  background-color: #000003;
+  background-color: #DDDDDD;
+
   color: black;
   width: calc(100vw);
 }

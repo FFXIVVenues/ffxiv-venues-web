@@ -33,7 +33,7 @@ class App extends React.Component {
       <div className="aether-venues__venues aether-venues__favourite-venues">
         <details open>
           <summary><h2>Favorites</h2></summary>
-          {favouriteVenues.map((v, i) => <VenueOpening venue={v} key={i} /> )}
+          {favouriteVenues.map((v, i) => <VenueOpeningCard venue={v} key={i} /> )}
         </details>
       </div>);
   }
