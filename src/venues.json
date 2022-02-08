@@ -2669,11 +2669,7 @@
         "sfw": true,
         "nsfw": false,
         "times": [
-            {
-                "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 30, "nextDay": true }
-            }
+            
         ],
         "exceptions": [],
         "tags": [ "Casino", "Food", "Drink", "Bards", "Open stage" ],
