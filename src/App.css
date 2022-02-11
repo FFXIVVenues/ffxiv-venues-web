@@ -6,7 +6,7 @@
 :root {
   font-size: 16px;
   --background-color: rgb(221, 221, 221);
-  --background-color: rgb(33, 33, 33);
+  --background-color: rgb(20, 20, 20);
   --accent-color: rgba(227, 120, 255);
 }
 
@@ -38,19 +38,21 @@ a {
 .aether-venues__banner-credit {
   font-size: small;
   margin-top: 10px;
-  text-align: right;
+  text-align: left;
 }
 
 .aether-venues__heading {
   /* margin-left: 10px; */
-  margin-top: 20px;
-  display: flex;
+  border-bottom: black;
+  box-shadow: black 0 0 5px;
   align-items: center;
-  font-family: "Hingashi Extended";
+  padding: 0 30px;
+  height: 40px;
+  /* font-family: "Hingashi Extended"; */
 }
 
 .aether-venues__heading img {
-  height: 120px;
+  height: 40px;
   display: inline-block;
 }
 

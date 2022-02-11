@@ -105,9 +105,6 @@ class App extends React.Component {
       <React.Fragment>
         <ModalStage />
         <div className="aether-venues">
-          <div className="aether-venues__banner-credit">
-            Photography by <a target="_blank" rel="noreferrer" href="https://here-xumm.carrd.co/">Here Xumm</a>, Siren.
-          </div>
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
           </div>
@@ -116,7 +113,8 @@ class App extends React.Component {
           { this._renderScheduledVenues() }
           { this._renderUnscheduledVenues() } 
           <div className="aether-venues__made-by">
-            Made with <span>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.
+            Made with <span>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh. <br/>
+            Photography by <a target="_blank" rel="noreferrer" href="https://here-xumm.carrd.co/">Here Xumm</a>, Siren.
           </div>
         </div>
       </React.Fragment>
