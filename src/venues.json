@@ -616,7 +616,7 @@
         "added": "2021-08-18T00:00:00Z",
         "name": "A Bookstore",
         "banner": "assets/banners/bookstore.jpg",
-        "tags":[ "Library", "Speakeasy", "Bards", "Food", "Drinks" ],
+        "tags":[ "Library", "Speakeasy", "Bards", "Food", "Drink" ],
         "contacts": [ "215075869360652288" ],
         "description": [ "Welcome to a bookstore! You appear to have stumbled into a random bookstore, with quiet librarians in a dark, warm cozy setting. Shelves line the wall, littered with books from different ages, varying in genres. Throughout your exploration of the small library, small noises can be heard faintly from beneath the floor but the librarians pay no attention to them. Suspiciously, an old window panel lays near the entrance, almost out of place as the librarians can be caught glancing at them every now and then." ],
         "location": "Cactuar, Mist, Ward 9, Plot 44",
@@ -2669,5 +2669,41 @@
         "exceptions": [],
         "tags": [ "Casino", "Food", "Drink", "Bards", "Open stage" ],
         "contacts": [ "134349700428988416" ]
+    },
+    {
+        "id": "gwvoxDO7c",
+        "added": "2022-02-11T00:00:00Z",
+        "name": "The Gold Roller",
+        "banner": "assets/banners/gold-roller.jpg",
+        "description": [ 
+            "The Gold Roller would like to welcome you to a premium casino and club experience! Our casino floor offers a variety of games such as slot dice, roulette, and blackjack. We also host a High Roller Bar for those who enjoy the finer things in life!",
+            "Join us on our lower floor for a night of dancing, tarot, our Rainbow Bar and our resident DJ.",
+            "Other services include: Photography, Courtesans, Personal Dances, High Roller Club Membership, In House Bard Band!"
+        ],
+        "location": "Siren, Shirogane, Ward 12, Plot 45",
+        "discord": "https://discord.gg/B2XUK7be",
+        "website": "https://goldroller.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Casino", "Nightclub", "Courtesans", "Dancers", "Twitch DJ", "Bards", "Food", "Drink", "Tarot", "VIP" ],
+        "contacts": [ "135533826783838208" ]
     }
 ]
