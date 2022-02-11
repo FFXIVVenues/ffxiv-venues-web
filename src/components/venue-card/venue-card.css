@@ -1,0 +1,86 @@
+.venue-card__block {
+    width: 350px;
+    height: 175px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* padding: 15px; */
+    text-shadow: 0 0 10px black;
+    color: white;
+    font-size: 1.1rem;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: black 0 0 5px;
+    animation: slideInFromRight .3s linear;
+}
+
+.venue-card--open .venue-card__block {
+    box-shadow: var(--accent-color) 0 0 5px;
+    border: solid 1px var(--accent-color);
+}
+
+.venue-card__summary {
+    position: absolute;
+    bottom: 0px;
+    padding: 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.venue-card__name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.venue-card__new {
+    float: right;
+    margin: 15px;
+    background-color: darkorange;
+    color: white;
+    border-radius: 3px;
+    font-size: .9rem;
+    text-shadow: none;
+    padding: 3px 6px 5px;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.venue-card__open {
+    margin: 15px;
+    float: right;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 3px;
+    font-size: .9rem;
+    text-shadow: none;
+    padding: 3px 6px 5px;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.venue-card__time .venue-card__start {
+    display: inline-block;
+}
+.venue-card__time .venue-card__time-split {
+    display: inline-block;
+    margin: auto 10px auto 10px;
+}
+.venue-card__time .venue-card__end {
+    display: inline-block;
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

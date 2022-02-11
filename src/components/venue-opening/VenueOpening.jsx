@@ -2,8 +2,6 @@ import React from "react";
 import "./venue-opening.css";
 import { Modal } from "../modal/Modal";
 import { Time } from "../time/Time";
-import { NsfwIcon } from "../icons/NsfwIcon";
-import { SfwIcon } from "../icons/SfwIcon";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { timeService } from "../../services/timeService";
 

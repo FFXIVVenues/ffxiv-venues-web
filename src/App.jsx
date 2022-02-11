@@ -6,7 +6,7 @@ import days from "./consts/days.json"
 import { venueService } from './services/venueService';
 import { timeService } from './services/timeService';
 import { favouritesService } from './services/favouritesService';
-import { VenueOpeningCard } from './components/venue-opening-card/VenueOpeningCard';
+import { VenueStrip } from './components/venue-strip/VenueStrip';
 
 class App extends React.Component {
 
@@ -33,7 +33,7 @@ class App extends React.Component {
       <div className="aether-venues__venues aether-venues__favourite-venues">
         <details open>
           <summary><h2>Favorites</h2></summary>
-          {favouriteVenues.map((v, i) => <VenueOpeningCard venue={v} key={i} /> )}
+          <VenueStrip venues={favouriteVenues} />
         </details>
       </div>);
   }
@@ -42,13 +42,24 @@ class App extends React.Component {
     const render = [];
     const currentDay = timeService.getLocalDay();
 
+    const openNow = this._venueViewModels.scheduled[currentDay].filter(v => timeService.isOpen(v.time));
+
+    render.push(
+      <div className="aether-venues__opennow">
+        <details open>
+          <summary><h2>Open now</h2></summary>
+          <VenueStrip venues={openNow} />
+        </details>
+      </div>
+    );
+
     for (let i = currentDay, looped = false; !looped || i !== currentDay; (looped = true) && (i = ++i % 7)) {
       const venues = this._venueViewModels.scheduled[i];
       render.push(
         <div className="aether-venues__day" key={i}>
           <details open>
-            <summary><h2>{days[i]}</h2></summary>
-            { venues.map((v, i) => <VenueOpening {...v} key={i} /> )}
+            <summary><h2>{currentDay === i ? "Today" : currentDay === i - 1 ? "Tomorrow" : days[i]}</h2></summary>
+            <VenueStrip venues={venues} />
           </details>
         </div>
       )
@@ -69,7 +80,22 @@ class App extends React.Component {
       <div className="aether-venues__venues aether-venues__unscheduled-venues">
         <details open>
           <summary><h2>Unscheduled</h2></summary>
-          { this._venueViewModels.unscheduled.map((v, i) => <VenueOpeningCard venue={v} key={i} /> )}
+          <VenueStrip venues={this._venueViewModels.unscheduled} />
+        </details>
+      </div>);
+  }
+
+  _renderNewestVenues() {
+    const newIfAfter = new Date();
+    newIfAfter.setDate(newIfAfter.getDate() - 14);
+    let newVenues = venueService.getVenues().filter(v => v.added && new Date(v.added) > newIfAfter);
+    newVenues = newVenues.sort((a, b) => (b.added && new Date(b.added) || 0) - (a.added && new Date(a.added) || 0))
+    
+    return (
+      <div className="aether-venues__venues aether-venues__newest-venues">
+        <details open>
+          <summary><h2>Newest</h2></summary>
+          <VenueStrip venues={newVenues} />
         </details>
       </div>);
   }
@@ -83,13 +109,10 @@ class App extends React.Component {
             Photography by <a target="_blank" rel="noreferrer" href="https://here-xumm.carrd.co/">Here Xumm</a>, Siren.
           </div>
           <div className="aether-venues__heading">
-            <img src="logo.png" alt="" />
-            <h1>FFXIV Venues Index</h1>
+            <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
           </div>
-          <p className="aether-venues__definition">
-            A venue is a place maintained by players for all RPers to come by and RP in. This includes taverns, shops, nightclubs, restaurants or even crazier environments like colosseums. They often include various RP "services" such as in-house photography, artists, tarot readings and courtesans. Venues must have a regularly scheduled opening time to be on this list. 
-          </p>
           { this._renderFavourites() }
+          { this._renderNewestVenues() }
           { this._renderScheduledVenues() }
           { this._renderUnscheduledVenues() } 
           <div className="aether-venues__made-by">

@@ -1,0 +1,34 @@
+.venue-strip__block {
+    width: 100%;
+    height: 200px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    position: relative;
+}
+
+.venue-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.venue-card:first-child {
+    margin-left: 20px;
+}
+
+.venue-strip__block:after {
+    content  : "";
+    position : absolute;
+    z-index  : 1;
+    right: 0;
+    top: 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to right, 
+                        rgba(255,255,255, 0), 
+                        var(--background-color));
+    width    : 20px;
+    height   : 100%;
+}
+
+.venue-strip__block .venue-card__block {
+    margin-right: 20px;
+}

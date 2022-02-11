@@ -1,5 +1,5 @@
 .venue-opening { max-width: 100%;  }
-.venue-opening--open { color: #009B80; text-shadow: 0 0 15px rgba(144, 238, 144, 0.7); font-weight: bolder; }
+.venue-opening--open { color: #E378FF; text-shadow: 0 0 15px rgba(227, 120, 255, 0.7); font-weight: bolder; }
 
 .venue-opening__summary-row { width: 100%; display: inline-block; padding: 10px 20px; box-sizing: border-box; cursor: pointer; }
 .venue-opening__summary-row:hover { background-color: rgba(7, 255, 123, 0.075); cursor: pointer; }
