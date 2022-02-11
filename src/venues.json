@@ -1,7 +1,7 @@
 [
     {
         "id": "0wffp5RR",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2021-08-08T00:00:00Z",
         "name": "The HIVE",
         "description": [ "Dance club and bar." ],
         "location": "Sargatanas, Lavender Beds, Ward 19, Plot 3",
@@ -26,7 +26,7 @@
     },
     {
         "id": "uOjYdk2r",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2021-08-08T00:00:00Z",
         "name": "The Nest",
         "banner": "assets/banners/nest.jpg",
         "description": [ "The Nest is a long running night club with a full bar, live music, tarrot reading and courtesans. The Nest location is also avaialble for rental!" ],
@@ -58,7 +58,7 @@
     },
     {
         "id": "AGQkKRNI",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2021-08-08T00:00:00Z",
         "name": "Vibe House - Fight Club",
         "description": [
             "Fight club with betting and prizes, and offers courtesans.", 
@@ -98,7 +98,7 @@
     },
     {
         "id": "AaZDrRD1",
-        "added": "2022-08-16T00:00:00Z",
+        "added": "2021-08-16T00:00:00Z",
         "name": "Eden Hall Hostess Club",
         "description": [ "Modeled after a traditional hostess clubs, Eden Hall allow our hostess to allow you to relax after a long day, come in for a drink, and some great company." ],
         "location": "Siren, Goblet, Ward 5, Plot 44",
@@ -123,7 +123,7 @@
     },
     {
         "id": "yxcLCfLQ",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2021-08-08T00:00:00Z",
         "name": "House Catboi",
         "description": [ "We're a community of male-loving-male focused LGBTQ+ gamers serving the gay community of Eorzea both through this Discord community and our venue! Of course everyone is welcome! While we are primarily a community of male-loving-male identifying folks, everyone is welcome to take part in what we have to offer and to join the party!" ],
         "location": "Jenova, Lavender Beds, Ward 6, Plot 58",
@@ -147,7 +147,7 @@
     },
     {
         "id": "yuIJTHTG",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2021-08-08T00:00:00Z",
         "name": "The Drunken Moogle",
         "description": [ "Need a place to chill and relax after a long day of grinding? Want a hot supper, or a stiff drink? Look no further than the Drunken Moogle! Food, Drinks, Music, Events, & Much More!" ],
         "location": "Faerie, Goblet, Ward 21, Plot 8",
@@ -166,7 +166,7 @@
     },
     {
         "id": "FcQP1E1F",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2021-08-08T00:00:00Z",
         "name": "The Crypt",
         "banner": "assets/banners/crypt.jpg",
         "description": [ "Come to your eternal rest with us at The Crypt. Drinks, music, and prizes await beyond the cemetery gates!" ],
@@ -197,7 +197,7 @@
     },
     {
         "id": "NfEH24MO",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2021-08-08T00:00:00Z",
         "name": "Pickle Barrel",
         "description": [ "Seeking a place to mellow out and just be yourself? Care to talk away with friends while knocking back a few cold ones with company? Perhaps you just want to drink your troubles away? Either way you go about it, you are more than welcome at the Barrel!" ],
         "location": "Cactuar, Goblet, Ward 9, Plot 14",
@@ -221,7 +221,7 @@
     },
     {
         "id": "HT60SIpK",
-        "added": "2022-08-09T00:00:00Z",
+        "added": "2021-08-09T00:00:00Z",
         "name": "Memory's End Tactus Anyder",
         "description": [ "SFW Public, NSFW Private Bath House. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. " ],
         "location": "Jenova, Mist, Ward 24, Plot 15",
@@ -246,7 +246,7 @@
     },
     {
         "id": "5RO5fjqO",
-        "added": "2022-08-09T00:00:00Z",
+        "added": "2021-08-09T00:00:00Z",
         "name": "Memory's End Osculum Anyder",
         "description": [ "NSFW Brothel, Bar, & Lounge. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. " ],
         "location": "Jenova, Goblet, Ward 23, Plot 42",
@@ -266,7 +266,7 @@
     },
     {
         "id": "sI6UilnO",
-        "added": "2022-08-11T00:00:00Z",
+        "added": "2021-08-11T00:00:00Z",
         "name": "The Twilight Moon",
         "banner": "assets/banners/twilight-moon.jpg",
         "description": [ "Fae inspired venue with Twilight Moon Quintet live music 3 nights a week! The Twilight Moon is the home of the Twilight Moon Quintet." ],
@@ -292,7 +292,7 @@
     },
     {
         "id": "xDAOkOJQ",
-        "added": "2022-08-12T00:00:00Z",
+        "added": "2021-08-12T00:00:00Z",
         "name": "House of Seoul",
         "description": [ "House of Seoul is a swanky little (SFW) After-hours Jazz Lounge located in the ❤️ of Shirogane on Faerie. We wanted to bring the world of Jazz and ALL music in general to passerbys. Believe it or not my muse was 'Lo-Fi Jazz Cafe meets Cowboy  Beebop' 😂. You'll have to see for yourself 😉. We also have a cozy cafe area in the main lobby and an Art Studio-esque setup in the loft upstairs. Our recently added services include an On-Site Artist for live portraits! We also have an On-Site fortune teller! So if you're into the mystic arts and curious about what your future has in store then please seek out the mysterious Lady Clea on your next visit. So drop in and share a drink and vibe with wandering minstrels practicing their arts. You bring your Soul and we bring the vibes!" ],
         "location": "Faerie, Shirogane, Ward 24, Plot 24",
@@ -317,7 +317,7 @@
     },
     {
         "id": "UTjS8EGI",
-        "added": "2022-08-12T00:00:00Z",
+        "added": "2021-08-12T00:00:00Z",
         "name": "The Painted Rose",
         "description": [ "The Painted Rose is an Alice in Wonderland themed brothel! We invite you to celebrate your night and week with us and enjoy a range of fun and wonky little cocktails! Not to mention the wonderful host of company our courtesans may provide for you!" ],
         "location": "Gilgamesh, Goblet, Ward 12, Plot 14",
@@ -347,7 +347,7 @@
     },
     {
         "id": "j7pVFww4",
-        "added": "2022-08-12T00:00:00Z",
+        "added": "2021-08-12T00:00:00Z",
         "name": "Lilting Lilium",
         "banner": "assets/banners/lilting-lilium.jpg",
         "description": [ "We are a bar and lounge, allowing connections to various vendors in Eorzea supplying various services. Please come by for a drink and to mingle. Should you have any needs, please see our vendor list for possible fulfillment or reach out to the Madame for recommendations. Services: Bar, Duty Roulette, Tarot Readings, Photography, Housing Decoration, Crafting, Gathering, SFW RP and NSFW RP services, Wedding Reception, Arena, Bards for Hire, Artists for Commission. " ],
@@ -382,7 +382,7 @@
     },
     {
         "id": "x3iHjzta",
-        "added": "2022-08-15T00:00:00Z",
+        "added": "2021-08-15T00:00:00Z",
         "name": "Lyn's Corner",
         "description": [ "Deep in the Goblet there's a little cafe. A small place to gather and relax or a quick visit just for a cup of coffee. My door is open for anyone to visit." ],
         "banner": "assets/banners/lyns-corner.jpg",
@@ -416,7 +416,7 @@
     },
     {
         "id": "M37G9kFY",
-        "added": "2022-08-15T00:00:00Z",
+        "added": "2021-08-15T00:00:00Z",
         "name": "Wanderers Wayrest",
         "description": [ "A place for weary travelers to come at the end of their day-to-day journeys and find that oft-desired culmination of rest and relaxation. To fill their stomachs with delicious foods, to find the open and welcoming arms of the denizens within and to rejuvenate their mind, and body with a much needed massage. The Wayrest is an 18+ RP focused establishment, and we are more than happy to have you as a patron and feel privileged to have the chance to serve you." ],
         "banner": "assets/banners/wanderers-wayrest.jpg",
@@ -444,7 +444,7 @@
     },
     {
         "id": "jCgKtrei",
-        "added": "2022-08-15T00:00:00Z",
+        "added": "2021-08-15T00:00:00Z",
         "name": "Cozy",
         "description": [ "Cozy offers a quaint library to study and discuss with your fellow Eorzean scholars. Sit with a cup of doman tea while enjoying our live performances, food menu and our friendly staff catering to all your needs." ],
         "banner": "assets/banners/cozy.jpg",
@@ -481,7 +481,7 @@
     },
     {
         "id": "3ziYdpzn",
-        "added": "2022-08-15T00:00:00Z",
+        "added": "2021-08-15T00:00:00Z",
         "name": "Luxuria",
         "description": [ "Nestled by the trunk and under the boughs of Senna's Pride in Lavender Beds, the Luxuria provides a high class experience for its discerning guests and clientele.  Live music and DJs play within their halls to entertain their guests while their bar serves all manners of drinks from every corner of the twelve.  Hidden away from the eyes of the guard, its escorts provide warm companionship and warmer intimacy to their clients, taking them on wild adventures greater than anything Eorzea has to offer.  Won't you come and find your happiness within?" ],
         "banner": "assets/banners/luxuria.jpg",
@@ -502,7 +502,7 @@
     },
     {
         "id": "FpugxJOn",
-        "added": "2022-08-15T00:00:00Z",
+        "added": "2021-08-15T00:00:00Z",
         "name": "Under the Moonlight",
         "description": [ "Nightclub offering SFW and NSFW RP services, a fully stocked bar, casino with dice, astro slots, death rolling and blackjack, giveaways, nightly raffle, photography and art services." ],
         "banner": "assets/banners/under-the-moonlight.jpg",
@@ -528,7 +528,7 @@
     },
     {
         "id": "jquMZYKZ",
-        "added": "2022-08-15T00:00:00Z",
+        "added": "2021-08-15T00:00:00Z",
         "name": "Club Pure",
         "description": [ "In a playful mood? Want to break the rules of modern society? Come have your every wish granted at Club Pure! Pure is a nightclub, bar, lounge, sauna, and casino where you can let loose your inner sinner and embrace the moonlit night with a bevy of some of the most gorgeous flowers, all waiting to be plucked at your disposal." ],
         "banner": "assets/banners/pure.jpg",
@@ -559,7 +559,7 @@
     },
     {
         "id": "tOMrDk0g",
-        "added": "2022-08-16T00:00:00Z",
+        "added": "2021-08-16T00:00:00Z",
         "name": "The Anti",
         "description": [ "The Anti is a SFW Roleplay encouraged focused Lounge with quality interactions and libations. Our charming staff and atmosphere will have you entertained deep into the night with a wide selection of activities. Try your luck at one of our raffles, enjoy the melodies from our live bard and musical guests. If chatting is not up to your liking, anyone is welcome to just kick back and enjoy the night in our carefully planned out layout, the choice is yours at The Anti." ],
         "banner": "assets/banners/anti.jpg",
@@ -580,7 +580,7 @@
     },
     {
         "id": "cjk2fx0v",
-        "added": "2022-08-18T00:00:00Z",
+        "added": "2021-08-18T00:00:00Z",
         "name": "The Solstice Equinox",
         "description": [ "Welcome to The Solstice Equinox! Known first and foremost as a legacy FC \"Sol Nova\". We have been around since the 2.0 Launch of ARR! Now with our new high end night club that changes its theme according to the seasons. You'll be sure Eorzea is on the watch for! We guarantee you will enjoy your stay with us at The Solstice!  Hope to see you soon and show us that You've Got Sol!" ],
         "banner": "assets/banners/solstice-equinox.jpg",
@@ -607,13 +607,13 @@
         "exceptions": [
             {
                 "start": "2021-12-02T00:00Z",
-                "end": "2022-12-23T00:00Z"
+                "end": "2021-12-23T00:00Z"
             }
         ]
     },
     {
         "id": "Rm7qlIRl",
-        "added": "2022-08-18T00:00:00Z",
+        "added": "2021-08-18T00:00:00Z",
         "name": "A Bookstore",
         "banner": "assets/banners/bookstore.jpg",
         "tags":[ "Library", "Speakeasy", "Bards", "Food", "Drinks" ],
@@ -659,7 +659,7 @@
     },
     {
         "id": "A2IAjs00f",
-        "added": "2022-08-27T00:00:00Z",
+        "added": "2021-08-27T00:00:00Z",
         "name": "Red Moon",
         "banner": "assets/banners/redmoon.jpg",
         "description": [ "Red Moon is an LGBTQ+ 18+ RP venue that focuses on an immersive, welcoming environment for all to come and enjoy themselves. We've been operating since July 25th, 2020. Our mission at Red Moon is to provide a service to the community - whether it's the Red Moon community itself or the venue-going community as a whole. We want to provide a place for people to come to where they'll feel welcomed, noticed and loved." ],
@@ -685,7 +685,7 @@
     },
     {
         "id": "X1FfI99z",
-        "added": "2022-08-29T00:00:00Z",
+        "added": "2021-08-29T00:00:00Z",
         "name": "Full Moon",
         "banner": "assets/banners/full-moon.jpg",
         "description": [ "Aether's premier lottery clubhouse offers BIG JACKPOTS every Saturday Night! Are you feeling lucky? Full Moon offers a variety of \"fun activities\", including those which appeal to the more sinful patron and whether it's a refreshing Mentor Mojito or a playful Bahamut Bellini, Full Moon offers high quality beverages for you to indulge in." ],
@@ -706,7 +706,7 @@
     },
     {
         "id": "A2Fhj74w",
-        "added": "2022-08-29T00:00:00Z",
+        "added": "2021-08-29T00:00:00Z",
         "name": "Silver Garden",
         "banner": "assets/banners/silver-garden.jpg",
         "description": [ "The Silver Garden is an open social space for small or large events, or for simply hanging out. RP is welcome, but not required. Feel free to come and chat, or just mingle." ],
@@ -737,7 +737,7 @@
     },
     {
         "id": "O8xIvP8Z",
-        "added": "2022-08-30T00:00:00Z",
+        "added": "2021-08-30T00:00:00Z",
         "name": "Succubares Insomnium",
         "banner": "assets/banners/succubares-insomnium.jpg",
         "description": [ "Succubares Insomnium is proud and delighted to offer travelers of the dusty road a multitude of entertainment to help you unwind. We feature live bands to get your blood pumping, 3mil. max-bet gambling (with the best odds in Aether!), and a spa with courtesan services available." ],
@@ -788,7 +788,7 @@
     },
     {
         "id": "EuACRe7g",
-        "added": "2022-08-30T00:00:00Z",
+        "added": "2021-08-30T00:00:00Z",
         "name": "Love by Snu Snu Spa Motel",
         "banner": "assets/banners/snu-snu.jpg",
         "description": [ "Flower/Fairy based spa with private rooms for rent and massage parlor. Come relax and soak with receiving love and care form our carefully selected courtesans." ],
@@ -815,7 +815,7 @@
     },
     {
         "id": "LnAwy1dH",
-        "added": "2022-08-31T00:00:00Z",
+        "added": "2021-08-31T00:00:00Z",
         "name": "Club Foxbury",
         "banner": "assets/banners/foxbury.jpg",
         "description": [ "Looking for a place to pregame before a night of venue crawling?  Looking to test your glamour abilities with themes voted on by patrons in our weekly glam contest?  Looking just to blow off some steam with a good drink and some dancing?  The Foxbury is your place to go as your early evening destination!" ],
@@ -836,7 +836,7 @@
     },
     {
         "id": "OL7WUlLL",
-        "added": "2022-09-01T00:00:00Z",
+        "added": "2021-09-01T00:00:00Z",
         "name": "Angel's Club",
         "banner": "assets/banners/angels-club.jpg",
         "description": [ "Stylish monochrome bar and dance floor with live band, drinks, and gambling. " ],
