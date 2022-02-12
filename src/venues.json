@@ -443,43 +443,6 @@
         ]
     },
     {
-        "id": "jCgKtrei",
-        "added": "2021-08-15T00:00:00Z",
-        "name": "Cozy",
-        "description": [ "Cozy offers a quaint library to study and discuss with your fellow Eorzean scholars. Sit with a cup of doman tea while enjoying our live performances, food menu and our friendly staff catering to all your needs." ],
-        "banner": "assets/banners/cozy.jpg",
-        "location": "Siren, Lavender Beds, Ward 16, Plot 1",
-        "website": "https://cozyffxiv.carrd.co/",
-        "discord": "https://discord.gg/5VQuTYJGnm",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Cafe", "Food", "Drink", "Bards", "Library" ],
-        "contacts": [ "323387233832927235" ],
-        "exceptions":[
-            {
-                "start": "2021-11-14T00:00Z",
-                "end": "2022-01-31T00:00Z"
-            }
-        ],
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "3ziYdpzn",
         "added": "2021-08-15T00:00:00Z",
         "name": "Luxuria",
