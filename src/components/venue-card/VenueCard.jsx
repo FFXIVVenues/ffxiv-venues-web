@@ -15,7 +15,7 @@ class VenueCard extends VenueOpening {
                  onClick={ this._onVenueClick.bind(this) }
                  style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : { backgroundImage: `url("assets/default-banner.jpg")` } }>
 
-                { this.isNew() ? 
+                { this.props.venue.isNew() ? 
                     <div className="venue-card__new">new!</div> :
                     null
                 }

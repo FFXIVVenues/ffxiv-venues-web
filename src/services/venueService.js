@@ -1,22 +1,43 @@
-import venues from "../venues.json";
+import venues from "../venues";
+import { Venue } from "../model/venue";
+import { timeService } from "./timeService";
 
 class VenueService {
-            
+    
+    constructor() {
+        this._venuesCache = null;
+    }
+    
     getVenues() {
-        return venues;
+        if (this._venuesCache) 
+            return this._venuesCache;
+        return this._venuesCache = venues.map(v => new Venue(v));
     }
 
     getVenuesById() {
-        return venues.filter(i => arguments.filter(a => a.id === i).length);
+        return this.getVenues().filter(i => arguments.filter(a => a.id === i).length);
     }
 
-    getVenueTimes() {
+    getOpenVenues() {
+        const openVenues = [];
+        for (let venue of this.getVenues()) {
+            for (let time of venue.times) {
+                if (timeService.isOpen(time, venue.exceptions)) {
+                    openVenues.push({ venue, time });
+                    break;
+                }
+            }
+        }
+        return openVenues;
+    }
+
+    getVenueSchedule() {
         let venueViewModels = { 
             scheduled: [ [], [], [], [], [], [], [] ],
             unscheduled: []
         };
     
-        for (const venue of venues) {
+        for (const venue of this.getVenues()) {
             if (venue.times === undefined || venue.times.length === 0) {
                 venueViewModels.unscheduled.push(venue);
                 continue;
@@ -26,7 +47,6 @@ class VenueService {
                     venue,
                     time
                 };
-                // const position = time.day - this._currentDay < 0 ? time.day - this._currentDay + 7 : time.day - this._currentDay;
                 venueViewModels.scheduled[time.day].push(venueViewModel);
             }
         }

@@ -47,20 +47,16 @@ a {
   box-shadow: black 0 0 5px;
   align-items: center;
   padding: 0 30px;
-  height: 40px;
   /* font-family: "Hingashi Extended"; */
 }
 
 .aether-venues__heading img {
   height: 40px;
-  display: inline-block;
 }
 
 .aether-venues__heading h1 {
-  font-size: 3.5rem;
   display: inline-block;
   margin: 0;
-  margin-bottom: 20px;
 }
 
 .aether-venues__day {
@@ -79,13 +75,30 @@ a {
 }
 
 .aether-venues__made-by {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
 
-.aether-venues__made-by span {
-  color: red;
-  font-size: 1.5rem;
+
+.aether-venues__made-by-individual {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.aether-venues__made-by-individual img {
+  border-radius: 50%;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.aether-venues__made-by-details {
+  /* margin-top: 10px */
+}
+
+.aether-venues__made-by-individual .aether-venues__made-by-position {
+  font-size: .8em;
 }
 
 body.light {
