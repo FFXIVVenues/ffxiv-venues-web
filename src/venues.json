@@ -2668,5 +2668,35 @@
         "exceptions": [],
         "tags": [ "Casino", "Nightclub", "Courtesans", "Dancers", "Twitch DJ", "Bards", "Food", "Drink", "Tarot", "VIP" ],
         "contacts": [ "135533826783838208" ]
+    },
+    
+    {
+        "id": "TzHZW2Rni",
+        "added": "2022-02-13T00:00:00Z",
+        "name": "Miqo'fe Cafe",
+        "banner": "assets/banners/miqofe-cafe.jpg",
+        "description": [ 
+            "Miqo'fé is an LGBT+ owned café run by a tight knit staff. Our goal is to provide a comfortable, chill atmosphere for anyone to come in and hangout with some warm food and drinks."
+        ],
+        "location": "Adamantoise, Lavender Beds, Ward 17, Plot 37",
+        "discord": "",
+        "website": "https://sites.google.com/view/miqofe/menu",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Cafe", "Hosts", "Food", "Pillow", "Photography", "Drink" ],
+        "contacts": [ "319271011965206530" ]
     }
 ]
