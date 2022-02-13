@@ -443,43 +443,6 @@
         ]
     },
     {
-        "id": "jCgKtrei",
-        "added": "2021-08-15T00:00:00Z",
-        "name": "Cozy",
-        "description": [ "Cozy offers a quaint library to study and discuss with your fellow Eorzean scholars. Sit with a cup of doman tea while enjoying our live performances, food menu and our friendly staff catering to all your needs." ],
-        "banner": "assets/banners/cozy.jpg",
-        "location": "Siren, Lavender Beds, Ward 16, Plot 1",
-        "website": "https://cozyffxiv.carrd.co/",
-        "discord": "https://discord.gg/5VQuTYJGnm",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Cafe", "Food", "Drink", "Bards", "Library" ],
-        "contacts": [ "323387233832927235" ],
-        "exceptions":[
-            {
-                "start": "2021-11-14T00:00Z",
-                "end": "2022-01-31T00:00Z"
-            }
-        ],
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "3ziYdpzn",
         "added": "2021-08-15T00:00:00Z",
         "name": "Luxuria",
@@ -616,7 +579,7 @@
         "added": "2021-08-18T00:00:00Z",
         "name": "A Bookstore",
         "banner": "assets/banners/bookstore.jpg",
-        "tags":[ "Library", "Speakeasy", "Bards", "Food", "Drinks" ],
+        "tags":[ "Library", "Speakeasy", "Bards", "Food", "Drink" ],
         "contacts": [ "215075869360652288" ],
         "description": [ "Welcome to a bookstore! You appear to have stumbled into a random bookstore, with quiet librarians in a dark, warm cozy setting. Shelves line the wall, littered with books from different ages, varying in genres. Throughout your exploration of the small library, small noises can be heard faintly from beneath the floor but the librarians pay no attention to them. Suspiciously, an old window panel lays near the entrance, almost out of place as the librarians can be caught glancing at them every now and then." ],
         "location": "Cactuar, Mist, Ward 9, Plot 44",
@@ -2581,23 +2544,18 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2674,5 +2632,71 @@
         "exceptions": [],
         "tags": [ "Casino", "Food", "Drink", "Bards", "Open stage" ],
         "contacts": [ "134349700428988416" ]
+    },
+    {
+        "id": "gwvoxDO7c",
+        "added": "2022-02-11T00:00:00Z",
+        "name": "The Gold Roller",
+        "banner": "assets/banners/gold-roller.jpg",
+        "description": [ 
+            "The Gold Roller would like to welcome you to a premium casino and club experience! Our casino floor offers a variety of games such as slot dice, roulette, and blackjack. We also host a High Roller Bar for those who enjoy the finer things in life!",
+            "Join us on our lower floor for a night of dancing, tarot, our Rainbow Bar and our resident DJ.",
+            "Other services include: Photography, Courtesans, Personal Dances, High Roller Club Membership, In House Bard Band!"
+        ],
+        "location": "Siren, Shirogane, Ward 12, Plot 45",
+        "discord": "https://discord.gg/B2XUK7be",
+        "website": "https://goldroller.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Casino", "Nightclub", "Courtesans", "Dancers", "Twitch DJ", "Bards", "Food", "Drink", "Tarot", "VIP" ],
+        "contacts": [ "135533826783838208" ]
+    },
+    
+    {
+        "id": "TzHZW2Rni",
+        "added": "2022-02-13T00:00:00Z",
+        "name": "Miqo'fe Cafe",
+        "banner": "assets/banners/miqofe-cafe.jpg",
+        "description": [ 
+            "Miqo'fé is an LGBT+ owned café run by a tight knit staff. Our goal is to provide a comfortable, chill atmosphere for anyone to come in and hangout with some warm food and drinks."
+        ],
+        "location": "Adamantoise, Lavender Beds, Ward 17, Plot 37",
+        "discord": "",
+        "website": "https://sites.google.com/view/miqofe/menu",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Cafe", "Hosts", "Food", "Pillow", "Photography", "Drink" ],
+        "contacts": [ "319271011965206530" ]
     }
 ]
