@@ -18,7 +18,7 @@ class App extends React.Component {
       openVenues: venueService.getOpenVenues(),
       favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()),
       scheduledVenues: venueService.getVenueSchedule()
-    }
+    };
   }
 
   componentDidMount() {
@@ -53,7 +53,7 @@ class App extends React.Component {
     if (this.state.openVenues.length === 0)
       return <React.Fragment />
 
-    return <div className="aether-venues__opennow">
+    return <div className="aether-venues__venues aether-venues__opennow">
         <details open>
           <summary><h2>Open now</h2></summary>
           <VenueStrip venues={this.state.openVenues} />
@@ -69,7 +69,7 @@ class App extends React.Component {
       const venues = this.state.scheduledVenues.scheduled[i];
       render.push(
         <div className="aether-venues__day" key={i}>
-          <details open>
+          <details>
             <summary><h2>{currentDay === i ? "Today" : currentDay === i - 1 ? "Tomorrow" : days[i]}</h2></summary>
             <VenueStrip venues={venues} />
           </details>
@@ -118,11 +118,13 @@ class App extends React.Component {
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
           </div>
-          { this._renderFavoriteVenues() }
-          { this._renderOpenVenues() }
-          { this._renderNewestVenues() }
-          { this._renderScheduledVenues() }
-          { this._renderUnscheduledVenues() } 
+          <div className="aether-venues__list">
+            { this._renderFavoriteVenues() }
+            { this._renderOpenVenues() }
+            { this._renderNewestVenues() }
+            { this._renderScheduledVenues() }
+            { this._renderUnscheduledVenues() } 
+          </div>
           <div className="aether-venues__made-by">
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" alt=""/>
