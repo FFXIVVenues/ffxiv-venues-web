@@ -2251,7 +2251,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Bar", "Glambling", "Drink", "Courtesans", "Dancers", "Bards", "VIP" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Drink", "Courtesans", "Dancers", "Bards", "VIP" ],
         "contacts": [ "328009433802080268" ]
     },
     {
@@ -2694,5 +2694,39 @@
         "exceptions": [],
         "tags": [ "Cafe", "Food", "Drink", "Open stage", "Photography" ],
         "contacts": [ "227307380616986634" ]
+    },
+    {
+        "id": "UOdI2hVQo",
+        "added": "2022-02-14T00:00:00Z",
+        "name": "Noire",
+        "banner": "assets/banners/noire.jpg",
+        "description": [ 
+            "Noir is a high end night club brought to life by Lana Cakes, Megumin Diff, Julius Helstea, and Bell Waters. The club sits perched above the ocean, where you will spend your nights with us. We have many courts to choose from, drinks and food to order, and the ability to fill your gambling needs. We can't wait to see you here 😉"
+        ],
+        "location": "Faerie, Mist, Ward 21, Plot 59",
+        "discord": "https://discord.gg/8gvbEm6SZK",
+        "website": "https://clubnoir.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Nightclub", "Food", "Drink", "Bards", "Gambling", "Twitch DJ", "VIP", "Photography", "Courtesans" ],
+        "contacts": [ "210578573684244480" ]
     }
 ]
