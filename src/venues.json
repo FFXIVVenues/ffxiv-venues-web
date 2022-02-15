@@ -100,13 +100,14 @@
         "id": "AaZDrRD1",
         "added": "2021-08-16T00:00:00Z",
         "name": "Eden Hall Hostess Club",
+        "banner": "assets/banners/eden-hall.jpg",
         "description": [ "Modeled after a traditional hostess clubs, Eden Hall allow our hostess to allow you to relax after a long day, come in for a drink, and some great company." ],
         "location": "Siren, Goblet, Ward 5, Plot 44",
         "website": "https://www.edenhall.club/",
         "discord": "https://discord.gg/vstSnGHTg7",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Food", "Drink", "Host club" ],
+        "tags": [ "Maid cafe", "Food", "Drink", "Host club" ],
         "contacts": [ "689284462789394451" ],
         "times": [
             {
@@ -1393,26 +1394,6 @@
         ]
     },
     {
-        "id": "TuVchZqs3",
-        "added": "2021-10-15T00:00:00Z",
-        "name": "Gold Star Saloon",
-        "banner": "assets/banners/gold-star-saloon.jpg",
-        "description": [ "Gold Star Saloon is an immersive Western RP venue. The saloon offers a variety of gambling games, a full bar with libations and provisions, and events such as raffles and contests." ],
-        "location": "Midgardsormr, Mist, Ward 12, Sub Apartment 39",
-        "shard": "Topmast Subdivision",
-        "website": "https://gss.star-venues.com/",
-        "discord": "https://discord.gg/xjc3c6Xvq6",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "VbDmrqrMC",
         "added": "2021-10-15T00:00:00Z",
         "name": "Idiot Bar",
@@ -2103,7 +2084,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Den", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Photography", "Novel Services", "Triple Triad" ],
+        "tags": [ "Den", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Photography", "Triple Triad" ],
         "contacts": [ "814973773094060052" ]
     },
     {
