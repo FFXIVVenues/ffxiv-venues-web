@@ -1325,30 +1325,6 @@
         ]
     },
     {
-        "id": "fP0RhiRIq",
-        "added": "2021-10-15T00:00:00Z",
-        "name": "Shenanigans",
-        "banner": "assets/banners/shenanigans.jpg",
-        "description": [ "An exciting place come come eat, drink, dance, and/or gamble. Shenanigans is all about having fun however you find it." ],
-        "location": "Faerie, Mist, Ward 12, Plot 38",
-        "shard": "Mistgate Square Subdivision",
-        "discord": "https://discord.gg/GPVvqpNXcm",
-        "sfw": false,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "kJdUSdC0g",
         "added": "2021-10-15T00:00:00Z",
         "name": "Bella's",
