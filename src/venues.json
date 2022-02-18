@@ -685,17 +685,12 @@
             {
                 "day": 1,
                 "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
                 "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -2049,11 +2044,6 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 6,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
@@ -2262,12 +2252,12 @@
         "nsfw": false,
         "times": [
             {
-                "day": 4,
+                "day": 5,
                 "start": { "hour": 23, "minute": 55, "nextDay": false },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
-                "day": 5,
+                "day": 6,
                 "start": { "hour": 23, "minute": 55, "nextDay": false },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
@@ -2686,7 +2676,6 @@
         "tags": [ "Nightclub", "Food", "Drink", "Bards", "Gambling", "Twitch DJ", "VIP", "Photography", "Courtesans" ],
         "contacts": [ "210578573684244480" ]
     },
-    
     {
         "id": "ntcIdXhaJ",
         "added": "2022-02-14T00:00:00Z",
