@@ -19,7 +19,6 @@ body {
   background-color: var(--background-color);
 
   color: white;
-  margin-top: 50px;
 }
 
 a {
@@ -38,6 +37,11 @@ a {
 .aether-venues__heading {
   /* margin-left: 10px; */
   background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   border-bottom: black;
   box-shadow: black 0 0 5px;
   align-items: center;
@@ -54,8 +58,28 @@ a {
   margin: 0;
 }
 
+.aether-venues__tags {
+  margin-bottom: 20px;
+}
+
+.aether-venues__tag {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #111;
+  border: solid 1px gray;
+  padding: 5px 15px 7px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.aether-venues__tag--enabled {
+  background-color: var(--accent-color);
+}
+
 .aether-venues__list {
   margin-left: 330px;
+  margin-top: 100px;
   width: calc(100vw - 380px);
   max-width: 1500px;
 }
