@@ -2011,10 +2011,10 @@
         "name": "Bass Bumpers",
         "banner": "assets/banners/bass-bumpers.jpg",
         "description": [
-            "Bringing you a party experience you won't forget!"
+            "A Fun Social Night Club Environment you won't soon forget!"
         ],
         "location": "Sargatanas, Goblet, Ward 16, Plot 43",
-        "discord": "https://discord.gg/GRVUKFf6c6",
+        "discord": "https://discord.io/bassbumpers",
         "sfw": true,
         "nsfw": true,
         "tags": [ "Nightclub", "Drink", "Courtesans", "Twitch DJ" ],
@@ -2685,5 +2685,29 @@
         "exceptions": [],
         "tags": [ "Nightclub", "Food", "Drink", "Bards", "Gambling", "Twitch DJ", "VIP", "Photography", "Courtesans" ],
         "contacts": [ "210578573684244480" ]
+    },
+    
+    {
+        "id": "ntcIdXhaJ",
+        "added": "2022-02-14T00:00:00Z",
+        "name": "Hamburger Nina's",
+        "banner": "assets/banners/hamburger-nina.jpg",
+        "description": [ 
+            "Hamburger Nina's is Eorzea's most intimate yet flambouyant LGBTQ+ RP venue. Come in for drinks, food, and fun! Our bar and club has something for anyone looking for a night out, whether that be cozy or wild. ;)"
+        ],
+        "location": "Cactuar, Shirogane, Ward 24, Apartment 89",
+        "website": "https://hamburgerninas.carrd.co/#",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Nightclub", "Bar", "Food", "Drink", "Open Stage", "Pillow", "Courtesans", "Dancers" ],
+        "contacts": [ "650380751166242919" ]
     }
 ]
