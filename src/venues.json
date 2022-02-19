@@ -2179,7 +2179,9 @@
         "name": "The Syndicate",
         "banner": "assets/banners/syndicate.jpg",
         "description": [
-            ""
+            "Welcome to the Syndicate!",
+            "From our fully stocked bar to our gamblers retreat we have something for everyone. Supporting local bard bands and Twitch DJ's we keep the party alive. Looking to have a more intimate night? Our lovely experienced courtesans can give you an experience unlike any other.",
+            "Try your hand with any of our services and we promise you'll leave with a smile. "
         ],
         "location": "Gilgamesh, Shirogane, Ward 13, Plot 37",
         "discord": "https://discord.gg/the-syndicate",
@@ -2187,14 +2189,21 @@
         "nsfw": true,
         "times": [
             {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
                 "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [],
+        "exceptions": [ 
+            { "start": "2022-02-25T00:00Z", "end": "2022-02-27T00:00Z" }
+        ],
         "tags": [ "Nightclub", "Bar", "Gambling", "Drink", "Courtesans", "Dancers", "Bards", "VIP" ],
-        "contacts": [ "328009433802080268" ]
+        "contacts": [ "285265752368349196" ]
     },
     {
         "id": "TsyPu1wTW",
@@ -2766,29 +2775,52 @@
         "tags": [ "Nightclub", "Bar", "Tavern", "Hosts", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Soft-counselling", "Drink", "Photography", "Open stage" ],
         "contacts": [ "382372840445313024" ]
     },
-    
-{
-    "id": "TySzzvb4n",
-    "added": "2022-02-19T00:00:00Z",
-    "name": "Dewdrop Café",
-    "banner": "assets/banners/dewdrop-cafe.jpg",
-    "description": [ 
-        "A casual café to hang out in and have a good time! No need to order anything."
-    ],
-    "location": "Faerie, Lavender Beds, Ward 13 Sub, Apt 40",
-    "discord": "https://discord.gg/BSGER6k9cx",
-    "website": "https://bscafe.carrd.co/",
-    "sfw": true,
-    "nsfw": false,
-    "times": [ 
-        {
-            "day": 5,
-            "start": { "hour": 19, "minute": 0, "nextDay": false },
-            "end": { "hour": 21, "minute": 0, "nextDay": false }
-        }
-    ],
-    "exceptions": [ ],
-    "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
-    "contacts": [ "722161936816406531" ]
+    {
+        "id": "TySzzvb4n",
+        "added": "2022-02-19T00:00:00Z",
+        "name": "Dewdrop Café",
+        "banner": "assets/banners/dewdrop-cafe.jpg",
+        "description": [ 
+            "A casual café to hang out in and have a good time! No need to order anything."
+        ],
+        "location": "Faerie, Lavender Beds, Ward 13 Sub, Apt 40",
+        "discord": "https://discord.gg/BSGER6k9cx",
+        "website": "https://bscafe.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 5,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "722161936816406531" ]
+    },
+    {
+        "id": "TySzzvb4n",
+        "added": "2022-02-19T00:00:00Z",
+        "name": "Dewdrop Café",
+        "banner": "assets/banners/dewdrop-cafe.jpg",
+        "description": [ 
+            "A casual café to hang out in and have a good time! No need to order anything."
+        ],
+        "location": "Faerie, Lavender Beds, Ward 13 Sub, Apt 40",
+        "discord": "https://discord.gg/BSGER6k9cx",
+        "website": "https://bscafe.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 5,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "722161936816406531" ]
     }
 ]
