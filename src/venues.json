@@ -1239,7 +1239,7 @@
         "name": "The Snow Bunny Cafe",
         "banner": "assets/banners/the-snow-bunny-cafe.jpg",
         "description": [ " A small cozy cafe tucked away in the Lavender beds. The menu is focused on a variety of tea and pastries to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for lunch, you wont be disappointed!" ],
-        "location": "Gilgamesh, Lavender Beds, Ward 15, Apartment 39",
+        "location": "Gilgamesh, Lavender Beds, Ward 15, Apt 39",
         "shard": "Lilly Hills",
         "discord": "https://discord.gg/ckch8s4X7c",
         "website": "https://snowbunnycafe.carrd.co/",
@@ -1248,11 +1248,6 @@
         "tags":[ "Cafe", "Food", "Drink", "Open stage", "Bards" ],
         "contacts": [ "244551427052142592" ],
         "times": [
-            {
-                "day": 5,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
-            }
         ]
     },
     {
@@ -1655,7 +1650,7 @@
         "banner": "assets/banners/the-kitty.jpg",
         "description": [
             "The Kitty Cafe and Lounge is a SFW venue located in the heart of the Mist on Jenova.  Sporting a cozy cafe upstairs, with fine dining and a water garden downstairs, our establishment offers cuisine, commodore and conversation!",
-            "The owners Sava and Azerith met one fateful day outside of Sava's apartment building in Shiro.  As it turns out, we were neighbors!  We kept bumping into each other, and became friends.  Sava had dreams of owning a cafe, and when she told Azerith this, on a whim Azerith said \"Well, why don't we start one together?\"  Thus began this fun little project!"
+            "The owners Sava and Azerith met one fateful day outside of Sava's Apt building in Shiro.  As it turns out, we were neighbors!  We kept bumping into each other, and became friends.  Sava had dreams of owning a cafe, and when she told Azerith this, on a whim Azerith said \"Well, why don't we start one together?\"  Thus began this fun little project!"
         ],
         "location": "Jenova, Mist, Ward 23, Plot 12",
         "shard": "Mist Northeast",
@@ -2211,7 +2206,7 @@
             "Meals and Readings do not have a set price and are offered to be paid as you wish.",
             "All foods are sourced locally and prepared by hand in front of you."
         ],
-        "location": "Cactuar, Lavender Beds, Ward 20, Apartment 57",
+        "location": "Cactuar, Lavender Beds, Ward 20, Apt 57",
         "website": "https://underdark.carrd.co/",
         "discord": "https://discord.gg/6xZe5Dq4Cn",
         "sfw": true,
@@ -2376,7 +2371,7 @@
         "description": [
             "We all have our perspectives caused by different backgrounds, environments, and events in our life. Inveritas, so the \"The untruth\" or \"the lying things\" symbolize a place where the \"truth\" is nothing than a lie to the another. A Tavern for adventurers for their stories to tell, sit down, relax, and show their perspective. As truth is subjective, so is home. So come and feel at home on this long life journey."
         ],
-        "location": "Siren, Mist, Ward 5, Apartment 71",
+        "location": "Siren, Mist, Ward 5, Apt 71",
         "website": "https://inveritas.carrd.co/",
         "discord": "https://discord.gg/kMq9nF7r4z",
         "sfw": true,
@@ -2400,7 +2395,7 @@
         "description": [
             "A café in The Lavender Beds, with a staff dedicated to quality and a calming atmosphere."
         ],
-        "location": "Adamantoise, Lavender Beds, Ward 4, Apartment 61",
+        "location": "Adamantoise, Lavender Beds, Ward 4, Apt 61",
         "website": "https://bluemoonbistro.carrd.co/",
         "sfw": true,
         "nsfw": false,
@@ -2684,7 +2679,7 @@
         "description": [ 
             "Hamburger Nina's is Eorzea's most intimate yet flambouyant LGBTQ+ RP venue. Come in for drinks, food, and fun! Our bar and club has something for anyone looking for a night out, whether that be cozy or wild. ;)"
         ],
-        "location": "Cactuar, Shirogane, Ward 24, Apartment 89",
+        "location": "Cactuar, Shirogane, Ward 24, Apt 89",
         "website": "https://hamburgerninas.carrd.co/#",
         "sfw": true,
         "nsfw": true,
@@ -2708,7 +2703,7 @@
             "Warm cozy bakery with fresh baked goods offered in dine in or take out. Our staff always ready to serve you with their best smile. Our open bard stage welcomes anyone who wants to charm us with their melody.",
             "The Bakery was founded with the love of Tuya and Lanna and the desire to provide a cozy and relaxing atmosphere to travelers from every corner of the land. Allowing them to rest with the best apple pie in Eorzea. "
         ],
-        "location": "Cactuar, Lavander Beds, Ward 17, Apartment 58",
+        "location": "Cactuar, Lavander Beds, Ward 17, Apt 58",
         "website": "https://thebakersbakery.carrd.co/#",
         "discord": "https://discord.gg/ytFGHXq6kf",
         "sfw": true,
@@ -2770,5 +2765,30 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Tavern", "Hosts", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Soft-counselling", "Drink", "Photography", "Open stage" ],
         "contacts": [ "382372840445313024" ]
+    },
+    
+{
+    "id": "TySzzvb4n",
+    "added": "2022-02-19T00:00:00Z",
+    "name": "Dewdrop Café",
+    "banner": "assets/banners/dewdrop-cafe.jpg",
+    "description": [ 
+        "A casual café to hang out in and have a good time! No need to order anything."
+    ],
+    "location": "Faerie, Lavender Beds, Ward 13 Sub, Apt 40",
+    "discord": "https://discord.gg/BSGER6k9cx",
+    "website": "https://bscafe.carrd.co/",
+    "sfw": true,
+    "nsfw": false,
+    "times": [ 
+        {
+            "day": 5,
+            "start": { "hour": 19, "minute": 0, "nextDay": false },
+            "end": { "hour": 21, "minute": 0, "nextDay": false }
+        }
+    ],
+    "exceptions": [ ],
+    "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+    "contacts": [ "722161936816406531" ]
     }
 ]
