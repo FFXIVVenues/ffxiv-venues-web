@@ -79,9 +79,11 @@ a {
   margin-bottom: 60px;
 }
 
-.aether-venues__made-by span {
+span.heart {
   color: red;
   font-size: 1.5rem;
+  line-height: 1rem;
+  vertical-align: -3px;
 }
 
 body.light {

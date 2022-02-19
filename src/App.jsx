@@ -88,11 +88,17 @@ class App extends React.Component {
           <p className="aether-venues__definition">
             A venue is a place maintained by players for all RPers to come by and RP in. This includes taverns, shops, nightclubs, restaurants or even crazier environments like colosseums. They often include various RP "services" such as in-house photography, artists, tarot readings and courtesans. Venues must have a regularly scheduled opening time to be on this list. 
           </p>
+          <div className='notice'>
+            Meow! <br/><br/>
+            Usually people who want to be added on to Aether Venues message me on <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">my discord</a> and we work through it together, though I'm getting a lot of messages a day at the moment so if it works for you then please use <a target="_blank" rel="noreferrer" href="https://form.jotform.com/220493425516050">this friendly form</a> that'll take you through everything I need to get you added and I'll most likely message you and come and visit anyway. <span className='heart'>♥</span> <br/>
+            Venues already on the index should continue to message me for updates. <span className='heart'>♥</span> <br/><br/>
+            <span className='heart'>♥</span> you all, Kana.
+          </div>
           { this._renderFavourites() }
           { this._renderScheduledVenues() }
           { this._renderUnscheduledVenues() } 
           <div className="aether-venues__made-by">
-            Made with <span>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.
+            Made with <span className='heart'>♥</span> by <a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.
           </div>
         </div>
       </React.Fragment>
