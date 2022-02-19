@@ -2698,5 +2698,30 @@
         "exceptions": [],
         "tags": [ "Nightclub", "Bar", "Food", "Drink", "Open Stage", "Pillow", "Courtesans", "Dancers" ],
         "contacts": [ "650380751166242919" ]
+    },
+    {
+        "id": "QA8XklV3Y",
+        "added": "2022-02-19T00:00:00Z",
+        "name": "The Baker's Bakery",
+        "banner": "assets/banners/bakers-bakery.jpg",
+        "description": [ 
+            "Warm cozy bakery with fresh baked goods offered in dine in or take out. Our staff always ready to serve you with their best smile. Our open bard stage welcomes anyone who wants to charm us with their melody.",
+            "The Bakery was founded with the love of Tuya and Lanna and the desire to provide a cozy and relaxing atmosphere to travelers from every corner of the land. Allowing them to rest with the best apple pie in Eorzea. "
+        ],
+        "location": "Cactuar, Lavander Beds, Ward 17, Apartment 58",
+        "website": "https://thebakersbakery.carrd.co/#",
+        "discord": "https://discord.gg/ytFGHXq6kf",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 6, "minute": 0, "nextDay": false },
+                "end": { "hour": 9, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Cafe", "Food", "Drink", "Open Stage" ],
+        "contacts": [ "880594476295389205" ]
     }
 ]
