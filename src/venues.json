@@ -2716,8 +2716,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 0, "nextDay": false },
-                "end": { "hour": 9, "minute": 0, "nextDay": false }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
@@ -2740,5 +2740,35 @@
         "exceptions": [ ],
         "tags": [ "Cafe", "Food", "Drink", "Open Stage" ],
         "contacts": [ "207825381225529344" ]
+    },
+    {
+        "id": "nvPwppKhO",
+        "added": "2022-02-19T00:00:00Z",
+        "name": "The Naked Dive",
+        "banner": "assets/banners/naked-drive.jpg",
+        "description": [ 
+            "Welcome to the Naked Dive!",
+            "We're Aether's local Dive Bar that houses the BDSM community. People from all experience levels in BDSM are warmly welcomed as we continue to grow as a community and as an individual in knowledge, skills, and experiences. So grab a drink, take in the scenes and explore your wild side.",
+            "CHEAP DRINKS, RAD VIBES!"
+        ],
+        "location": "Jenova, Mist, Ward 14, Plot 9",
+        "discord": "https://discord.gg/YGNKqTyP7g",
+        "sfw": false,
+        "nsfw": true,
+        "times": [ 
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Tavern", "Hosts", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Soft-counselling", "Drink", "Photography", "Open stage" ],
+        "contacts": [ "382372840445313024" ]
     }
 ]
