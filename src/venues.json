@@ -2723,5 +2723,22 @@
         "exceptions": [],
         "tags": [ "Cafe", "Food", "Drink", "Open Stage" ],
         "contacts": [ "880594476295389205" ]
+    },
+    {
+        "id": "gsXuZDe2u",
+        "added": "2022-02-19T00:00:00Z",
+        "name": "The Canopy Cafe",
+        "banner": "assets/banners/canopy-cafe.jpg",
+        "description": [ 
+            "Coffee cups in the shade of leaves"
+        ],
+        "location": "Faerie, Mist, Ward 23, Plot 44",
+        "website": "https://thecanopycafe.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Food", "Drink", "Open Stage" ],
+        "contacts": [ "207825381225529344" ]
     }
 ]
