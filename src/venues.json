@@ -2467,6 +2467,16 @@
                 "day": 0,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
