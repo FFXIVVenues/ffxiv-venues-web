@@ -2893,5 +2893,36 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Gambling", "Hosts", "Dancers", "Pillow", "Bards", "Food", "Drink" ],
         "contacts": [ "278653203229442058" ]
+    },
+    {
+        "id": "ilSTcMddp",
+        "added": "2022-02-19T00:00:00Z",
+        "name": "The Loveless Bar",
+        "banner": "assets/banners/loveless-bar.jpg",
+        "description": [ 
+            "\"Infinite in mystery is the gift of the Goddess. We seek it thus, and take to the sky. Ripples form on the water's surface. The wandering soul knows no rest.\"",
+            " - Loveless ACT II",
+            "The Loveless Bar is a 18+ venue open Monday and Thursday 8pm-11pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun and get some good photos taken with our photographer! Test your luck with our trivia night event and win some great prizes starting from 50k gil or join our raffles for great items!"
+        ],
+        "location": "Adamantoise, Goblet, Plot 6, Ward 4",
+        "discord": "https://discord.gg/UGNzPEzf",
+        "website": "https://thelovelessbar.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Photography", "Triple Triad" ],
+        "contacts": [ "126699155899940865" ]
     }
 ]
