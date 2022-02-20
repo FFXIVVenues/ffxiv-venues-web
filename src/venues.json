@@ -2875,5 +2875,23 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Lounge", "Hosts", "Dancers", "Food", "Drink", "Photography", "VIP" ],
         "contacts": [ "710626446879490089" ]
+    },
+    {
+        "id": "fL7R6KFcx",
+        "added": "2022-02-19T00:00:00Z",
+        "name": "The White Dansim",
+        "banner": "assets/banners/white-dansim.jpg",
+        "description": [ 
+            ""
+        ],
+        "location": "Faerie, Goblet, Ward 22, Plot 45",
+        "discord": "https://discord.gg/pgDrwezt",
+        "website": "https://thewhitedansim.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Hosts", "Dancers", "Pillow", "Bards", "Food", "Drink" ],
+        "contacts": [ "278653203229442058" ]
     }
 ]
