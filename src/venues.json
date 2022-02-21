@@ -3027,5 +3027,34 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Gambling", "Dancers", "Twitch DJ", "Drink" ],
         "contacts": [ "109516787644628992", "117454078786797572" ]
+    },
+    {
+        "id": "FGKt4MuAT",
+        "added": "2022-02-21T00:00:00Z",
+        "name": "Kiki's Bath House",
+        "banner": "assets/banners/kikis-bath-house.jpg",
+        "description": [ 
+            "Come relax at Kiki's Bath House after a long night out... We have drinks, refreshments, lovely ladies, and of course, baths."
+        ],
+        "location": "Cactuar, Mist, Ward 14, Plot 11",
+        "website": "https://kikisbath.carrd.co/#",
+        "discord": "https://discord.gg/7YjMYX3BVR",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 3,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 30, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bath House", "Food", "Drink", "Open stage" ],
+        "contacts": [ "707716687402893452" ]
     }
 ]
