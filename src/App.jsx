@@ -79,7 +79,7 @@ class App extends React.Component {
         <ModalStage />
         <div className="aether-venues">
           <div className="aether-venues__banner-credit">
-            Photography by <a target="_blank" rel="noreferrer" href="https://here-xumm.carrd.co/">Here Xumm</a>, Siren.
+            Photography by <a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/">Here Xumm</a>, Siren.
           </div>
           <div className="aether-venues__heading">
             <img src="logo.png" alt="" />
