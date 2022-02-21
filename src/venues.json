@@ -1648,8 +1648,8 @@
         "added": "2021-11-07T00:00:00Z",
         "name": "Rumors",
         "banner": "assets/banners/rumors.jpg",
-        "description": [ "Rumors is an Electronic Nightclub nestled away in a corner of Lavender Beds. We cater to all guests and are an LGBTQ+ friendly venue. Join us for drinks, dancing, raffles or if you really feel like spreading RUMORS why not chat up one of our very talented courtesans? Let's have some fun tonight!" ],
-        "location": "Adamantoise, Goblet, Ward 1, Plot 4.",
+        "description": [ "Rumors is an Electronic Nightclub partying by the beach in Mist. We cater to all guests and are an LGBTQ+ friendly venue. Join us for drinks, dancing, raffles or if you really feel like spreading RUMORS why not chat up one of our very talented courtesans? Let's have some fun tonight!" ],
+        "location": "Adamantoise, Mist, Ward 5, Plot 45",
         "website": "https://i.imgur.com/Fr7iGk9.png",
         "discord": "https://discord.gg/TgNzzxEK5D",
         "sfw": true,
@@ -1657,15 +1657,17 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
-        ]
+        ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "Gambling" ],
+        "contacts": [ "214726490590412800" ]
     },
     {
         "id": "MUjzDk9v",
