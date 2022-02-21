@@ -2945,7 +2945,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP", "Triple Triad" ],
         "contacts": [ "123148622350123011" ]
     },
     {
@@ -2973,5 +2973,33 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Twitch DJ", "Bards", "Courtesans", "Drink", "Photography", "VIP" ],
         "contacts": [ "166373486724382720" ]
+    },
+    {
+        "id": "mCHk3BxRN",
+        "added": "2022-02-21T00:00:00Z",
+        "name": "The Chocobo Den",
+        "banner": "assets/banners/chocobo-den.jpg",
+        "description": [ 
+            "The Chocobo Den is a NSFW speakeasy venue located in the Brimming Heart of the Goblet, offering a more cozy and homey atmosphere than your typical nightclub venue. At the Den, every guest matters, and we have something for everyone. Stay beautiful, Eorzea, and kweh on!"
+        ],
+        "location": "Sargatanas, Goblet, Ward 20, Plot 48",
+        "discord": "https://discord.gg/tcd",
+        "sfw": true,
+        "nsfw": true,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple Triad" ],
+        "contacts": [ "132980996122345473" ]
     }
 ]
