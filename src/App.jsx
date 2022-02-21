@@ -11,14 +11,15 @@
 
 import React from 'react';
 import './App.css';
-import { VenueOpening } from "./components/venue-opening/VenueOpening";
+// import { VenueOpening } from "./components/venue-opening/VenueOpening";
 import { ModalStage } from "./components/modal-stage/ModalStage";
 import days from "./consts/days.json"
 import { venueService } from './services/venueService';
 import { timeService } from './services/timeService';
 import { favouritesService } from './services/favouritesService';
 import { VenueStrip } from './components/venue-strip/VenueStrip';
-import { bardsFilter, courtesanFilter, maidCafeFilter, openStageFilter } from "./filters/filters";
+import { propFilter, tagFilter, worldFilter } from "./filters/filters";
+import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
 
 class App extends React.Component {
 
@@ -26,14 +27,50 @@ class App extends React.Component {
     super();
     this._openVenuesIntervalHandle = null;
     this._destroyFavouritesObserver = null;
-    this._filters = [
-      { key: Symbol(), label: "Courtesans", filter: courtesanFilter },
-      { key: Symbol(), label: "Maid cafe / host club", filter: maidCafeFilter },
-      { key: Symbol(), label: "Open stage", filter: openStageFilter },
-      { key: Symbol(), label: "Bards", filter: bardsFilter }
+    this._worldFilters = [
+      { key: Symbol(), label: "Cactaur", filter: worldFilter("Cactaur") },
+      { key: Symbol(), label: "Adamantoise", filter: worldFilter("Adamantoise") },
+      { key: Symbol(), label: "Gilgamesh", filter: worldFilter("Gilgamesh") },
+      { key: Symbol(), label: "Jenova", filter: worldFilter("Jenova") },
+      { key: Symbol(), label: "Faerie", filter: worldFilter("Faerie") },
+      { key: Symbol(), label: "Siren", filter: worldFilter("Siren") },
+      { key: Symbol(), label: "Sargatanas", filter: worldFilter("Sargatanas") },
+      { key: Symbol(), label: "Midgardsormr", filter: worldFilter("Midgardsormr") },
     ];
+    this._typeFilters = [
+      { key: Symbol(), label: "Nightclub", filter: tagFilter("nightclub") },
+      { key: Symbol(), label: "Den", filter: tagFilter("den") },
+      { key: Symbol(), label: "Cafe", filter: tagFilter("cafe") },
+      { key: Symbol(), label: "Tavern", filter: tagFilter("tavern") },
+      { key: Symbol(), label: "Inn", filter: tagFilter("inn") },
+      { key: Symbol(), label: "Lounge", filter: tagFilter("lounge") },
+      { key: Symbol(), label: "Bath house", filter: tagFilter("bath house") },
+      { key: Symbol(), label: "Library", filter: tagFilter("library") },
+      { key: Symbol(), label: "Casino", filter: tagFilter("casino") },
+      { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") },
+      { key: Symbol(), label: "Fightclub", filter: tagFilter("fightclub") }
+    ];
+    this._featureFilters = [
+      { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
+      { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
+      { key: Symbol(), label: "Hosts", filter: tagFilter("hosts") },
+      { key: Symbol(), label: "Void venue", filter: tagFilter("void") },
+      { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
+      { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
+      { key: Symbol(), label: "Dancers", filter: tagFilter("dancers") },
+      { key: Symbol(), label: "Bards", filter: tagFilter("bards") },
+      { key: Symbol(), label: "Twitch DJ", filter: tagFilter("twitch dj") },
+      { key: Symbol(), label: "Tarot reading", filter: tagFilter("tarot") },
+      { key: Symbol(), label: "Pillow talk", filter: tagFilter("pillow") },
+      { key: Symbol(), label: "Novel services", filter: tagFilter("novel services") },
+      { key: Symbol(), label: "VIP", filter: tagFilter("vip") },
+      { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
+      { key: Symbol(), label: "IC RP Only", filter: tagFilter("rp only") }
+    ]
     this.state = {
-      enabledFilters: [],
+      enabledWorldFilter: null,
+      enabledTypeFilters: [],
+      enabledFeatureFilters: [],
       openVenues: venueService.getOpenVenues(),
       favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()),
       scheduledVenues: venueService.getVenueSchedule()
@@ -54,30 +91,45 @@ class App extends React.Component {
     if (this._destroyFavouritesObserver) this._destroyFavouritesObserver();
   }
 
-  toggleTag(symbol) {
-    const location = this.state.enabledFilters.indexOf(symbol);
-    const newEnabledFilters = [ ...this.state.enabledFilters ];
+  toggleTypeFilter(symbol) {
+    const location = this.state.enabledTypeFilters.indexOf(symbol);
+    const newEnabledFilters = [ ...this.state.enabledTypeFilters ];
     if (location === -1)
       newEnabledFilters.push(symbol);
     else 
       newEnabledFilters.splice(location, 1);
-    this.setState({ enabledFilters: newEnabledFilters });
+    this.setState({ enabledTypeFilters: newEnabledFilters });
+  }
+
+  toggleFeatureFilter(symbol) {
+    const location = this.state.enabledFeatureFilters.indexOf(symbol);
+    const newEnabledFilters = [ ...this.state.enabledFeatureFilters ];
+    if (location === -1)
+      newEnabledFilters.push(symbol);
+    else 
+      newEnabledFilters.splice(location, 1);
+    this.setState({ enabledFeatureFilters: newEnabledFilters });
   }
 
   runFilters(venues) {
     let currentVenues = venues;
-    for (let filter of this.state.enabledFilters) {
-      currentVenues = this._filters.find(f => f.key === filter).filter(currentVenues);
+    if (this.state.enabledWorldFilter !== null) {
+      currentVenues = this._worldFilters.find(f => f.key === this.state.enabledWorldFilter).filter(currentVenues);
+    }
+    for (let filter of this.state.enabledTypeFilters) {
+      currentVenues = this._typeFilters.find(f => f.key === filter).filter(currentVenues);
+    }
+    for (let filter of this.state.enabledFeatureFilters) {
+      currentVenues = this._featureFilters.find(f => f.key === filter).filter(currentVenues);
     }
     return currentVenues;
   }
 
   _renderFavoriteVenues() {
-    if (this.state.favouriteVenues.length === 0) {
-      return <React.Fragment></React.Fragment>
-    }
-
     const venues = this.runFilters(this.state.favouriteVenues);
+    if (venues.length === 0)
+      return <React.Fragment></React.Fragment>
+
     return (
       <div className="aether-venues__venues aether-venues__favourite-venues">
         <details open>
@@ -88,10 +140,10 @@ class App extends React.Component {
   }
 
   _renderOpenVenues() {
-    if (this.state.openVenues.length === 0)
+    const venues = this.runFilters(this.state.openVenues);
+    if (venues.length === 0)
       return <React.Fragment />
 
-    const venues = this.runFilters(this.state.openVenues);
     return <div className="aether-venues__venues aether-venues__opennow">
         <details open>
           <summary><h2>Open now</h2></summary>
@@ -106,6 +158,8 @@ class App extends React.Component {
 
     for (let i = currentDay, looped = false; !looped || i !== currentDay; (looped = true) && (i = ++i % 7)) {
       const venues = this.runFilters(this.state.scheduledVenues.scheduled[i]);
+      if (venues.length === 0)
+        continue;
       render.push(
         <div className="aether-venues__day" key={i}>
           <details open>
@@ -124,11 +178,11 @@ class App extends React.Component {
   }
 
   _renderUnscheduledVenues() {
-    if (this.state.scheduledVenues.unscheduled.length === 0) {
+    const venues = this.runFilters(this.state.scheduledVenues.unscheduled);
+    if (venues.length === 0) {
       return <React.Fragment></React.Fragment>
     }
 
-    const venues = this.runFilters(this.state.scheduledVenues.unscheduled);
     return (
       <div className="aether-venues__venues aether-venues__unscheduled-venues">
         <details open>
@@ -141,7 +195,10 @@ class App extends React.Component {
   _renderNewestVenues() {
     let newVenues = venueService.getVenues().filter(v => v.isNew());
     newVenues = this.runFilters(newVenues);
-    newVenues = newVenues.sort((a, b) => (b.added && new Date(b.added) || 0) - (a.added && new Date(a.added) || 0))
+    if (newVenues.length === 0)
+      return <React.Fragment></React.Fragment>
+
+    newVenues = newVenues.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
 
     return (
       <div className="aether-venues__venues aether-venues__new-venues">
@@ -152,19 +209,43 @@ class App extends React.Component {
       </div>)
   }
 
-  _renderTags() {
+  _renderFilters() {
     let newVenues = venueService.getVenues().filter(v => v.isNew());
-    newVenues = newVenues.sort((a, b) => (b.added && new Date(b.added) || 0) - (a.added && new Date(a.added) || 0))
+    newVenues = newVenues.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
 
     return (
-      <div className="aether-venues__tags">
-        { this._filters.map(f => 
-          <a className={"aether-venues__tag" + (this.state.enabledFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
-               onClick={() => this.toggleTag(f.key)}>
-            {f.label}
-          </a>
-        )}
-      </div>)
+      <React.Fragment>
+        <div className="aether-venues__tags">
+          <HorizontalScroll reverseScroll>
+            { this._worldFilters.map(f => 
+              <a key={f.label} className={"aether-venues__tag" + (this.state.enabledWorldFilter === f.key ? " aether-venues__tag--enabled" : "")}
+                  onClick={() => this.state.enabledWorldFilter === f.key ? this.setState({ enabledWorldFilter: null }) : this.setState({ enabledWorldFilter: f.key })}>
+                {f.label}
+              </a>
+            )}
+          </HorizontalScroll>
+        </div>
+        <div className="aether-venues__tags">
+          <HorizontalScroll reverseScroll>
+          { this._typeFilters.map(f => 
+            <a key={f.label} className={"aether-venues__tag" + (this.state.enabledTypeFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
+                onClick={() => this.toggleTypeFilter(f.key)}>
+              {f.label}
+            </a>
+          )}
+          </HorizontalScroll>
+        </div>
+        <div className="aether-venues__tags">
+          <HorizontalScroll reverseScroll>
+            { this._featureFilters.map(f => 
+              <a key={f.label} className={"aether-venues__tag" + (this.state.enabledFeatureFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
+                  onClick={() => this.toggleFeatureFilter(f.key)}>
+                {f.label}
+              </a>
+            )}
+          </HorizontalScroll>
+        </div>
+      </React.Fragment>)
   }
 
   render() {
@@ -176,7 +257,7 @@ class App extends React.Component {
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
           </div>
           <div className="aether-venues__list">
-            { this._renderTags() }
+            { this._renderFilters() }
             { this._renderFavoriteVenues() }
             { this._renderOpenVenues() }
             { this._renderNewestVenues() }
@@ -188,7 +269,7 @@ class App extends React.Component {
               <img src="https://img2.finalfantasyxiv.com/f/5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
                 <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
-                <div className="aether-venues__made-by-position">Developer, Venue Indexer for Aether</div>
+                <div className="aether-venues__made-by-position">Developer, Venue Indexer (Aether)</div>
               </div>
             </div>
             <div className="aether-venues__made-by-individual">

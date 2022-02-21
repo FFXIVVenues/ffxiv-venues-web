@@ -29,6 +29,21 @@
     height   : 100%;
 }
 
+
+.venue-strip__block:before {
+    content  : "";
+    position : absolute;
+    z-index  : 1;
+    left: 0;
+    top: 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to left, 
+                        rgba(255,255,255, 0), 
+                        var(--background-color));
+    width    : 20px;
+    height   : 100%;
+}
+
 .venue-strip__block .venue-card__block {
     margin-right: 20px;
 }
