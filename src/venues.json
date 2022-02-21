@@ -3001,5 +3001,31 @@
         "exceptions": [ ],
         "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple Triad" ],
         "contacts": [ "132980996122345473" ]
+    },
+    {
+        "id": "VaXL9ZWXe",
+        "added": "2022-02-21T00:00:00Z",
+        "name": "Milk Nightclub",
+        "banner": "assets/banners/milk-nightclub.jpg",
+        "description": [ 
+            "Milk is an 18+ nightclub with a variety of amenities.",
+            "Enjoy our high energy dance floor or feel free to relax in our many lounge areas.",
+            "If you are looking for more privacy, be sure to explore our many room options as well!"
+        ],
+        "location": "Cactuar, Shirogane, Ward 23, Plot 7",
+        "website": "https://milknightclub.carrd.co/",
+        "discord": "https://discord.gg/43UpqW6tQf",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Gambling", "Dancers", "Twitch DJ", "Drink" ],
+        "contacts": [ "109516787644628992", "117454078786797572" ]
     }
 ]
