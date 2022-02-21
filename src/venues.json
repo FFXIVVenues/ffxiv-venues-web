@@ -2780,30 +2780,6 @@
         "contacts": [ "722161936816406531" ]
     },
     {
-        "id": "TySzzvb4n",
-        "added": "2022-02-19T00:00:00Z",
-        "name": "Dewdrop Café",
-        "banner": "assets/banners/dewdrop-cafe.jpg",
-        "description": [ 
-            "A casual café to hang out in and have a good time! No need to order anything."
-        ],
-        "location": "Faerie, Lavender Beds, Ward 13 Sub, Apt 40",
-        "discord": "https://discord.gg/BSGER6k9cx",
-        "website": "https://bscafe.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ 
-            {
-                "day": 5,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
-        "contacts": [ "722161936816406531" ]
-    },
-    {
         "id": "ZUl42YYY7",
         "added": "2022-02-19T00:00:00Z",
         "name": "The Lucky Lounge",
@@ -2969,5 +2945,31 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP" ],
         "contacts": [ "123148622350123011" ]
+    },
+    {
+        "id": "Jx1K452IH",
+        "added": "2022-02-21T00:00:00Z",
+        "name": "Cats Meownge",
+        "banner": "assets/banners/cats-meownge.jpg",
+        "description": [ 
+            "The Cats Meownge was created for all Eorzeans to enjoy! From the social butterflies to those just looking to enjoy the scenery!",
+            "We pride ourselves on being a unique, delightful, and old fashioned venue themed around one of mans best friends, CATS.",
+            "Owned by Artyc Rose and Managed by Katsuki Bakugou, Skamos Firebrand, Felix Lock, & Jax Strife."
+        ],
+        "location": "Siren, Lavender Beds, Ward 21, Plot 6",
+        "discord": "https://discord.gg/7zRqj8rfB4",
+        "website": "https://catsmeowngexiv.carrd.co/#",
+        "sfw": true,
+        "nsfw": true,
+        "times": [ 
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Twitch DJ", "Bards", "Courtesans", "Drink", "Photography", "VIP" ],
+        "contacts": [ "166373486724382720" ]
     }
 ]
