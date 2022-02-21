@@ -2095,6 +2095,7 @@
         ],
         "location": "Cactuar, Goblet, Ward 13, Plot 57",
         "discord": "https://discord.gg/xExw8veQ3y",
+        "website": "https://baedomain.carrd.co/",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -2102,6 +2103,11 @@
                 "day": 3,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
@@ -2934,5 +2940,34 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Photography", "Triple Triad" ],
         "contacts": [ "126699155899940865" ]
+    },
+    {
+        "id": "ImmBkKsQP",
+        "added": "2022-02-21T00:00:00Z",
+        "name": "Celestial Body",
+        "banner": "assets/banners/celestial-body.jpg",
+        "description": [ 
+            "Find your home among the stars at Celestial Body, an 18+, LGBTQIA+ friendly nightclub catering to both SFW and NSFW roleplay. Our venue offers a variety of services - courtesans, tarot readings, photography, and gambling, to name a few - but what we truly pride ourselves on is our welcoming, lively atmosphere. Veterans and newcomers alike can find something special under our stars' glittering expanse!"
+        ],
+        "location": "Faerie, Shirogane, Ward 6, Plot 45",
+        "discord": "https://discord.gg/celestialbody",
+        "website": "https://celestialbodyfaerie.carrd.co/#",
+        "sfw": true,
+        "nsfw": true,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP" ],
+        "contacts": [ "123148622350123011" ]
     }
 ]
