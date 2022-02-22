@@ -3056,5 +3056,30 @@
         "exceptions": [ ],
         "tags": [ "Bath House", "Food", "Drink", "Open stage" ],
         "contacts": [ "707716687402893452" ]
+    },
+    {
+        "id": "Oz3cYJG5i",
+        "added": "2022-02-21T00:00:00Z",
+        "name": "Bottoms Up Nightclub",
+        "banner": "assets/banners/bottoms-up.jpg",
+        "description": [ 
+            "A premier Nightclub on Adamantoise. We welcome all and work to make a safe and inclusive space for Aether's LGBTQIA+ RP community.",
+            "We also open the first Sunday of every month for events, keep an eye out in our discord!"
+        ],
+        "location": "Adamantoise, Shirogane, Ward 24, Plot 16",
+        "website": "https://bottomsupnightlife.carrd.co/",
+        "discord": "https://discord.gg/TYzGNuZ8GH",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Food", "Dancers", "Drink", "Twitch DJ" ],
+        "contacts": [ "464673504831471617" ]
     }
 ]
