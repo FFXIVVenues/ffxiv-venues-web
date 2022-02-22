@@ -2456,7 +2456,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Void", "Bar", "Gambling", "Courts", "Food", "Drink", "VIP" ],
+        "tags": [ "Nightclub", "Void", "Bar", "Gambling", "Courtesans", "Food", "Drink", "VIP" ],
         "contacts": [ "896378556953800724" ]
     },
     {
@@ -2878,12 +2878,23 @@
         "description": [ 
             ""
         ],
-        "location": "Faerie, Goblet, Ward 22, Plot 45",
+        "location": "Siren, Goblet, Ward 24, Plot 38",
         "discord": "https://discord.gg/pgDrwezt",
         "website": "https://thewhitedansim.carrd.co/",
         "sfw": true,
         "nsfw": false,
-        "times": [ ],
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Gambling", "Hosts", "Dancers", "Pillow", "Bards", "Food", "Drink" ],
         "contacts": [ "278653203229442058" ]
@@ -3081,5 +3092,33 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Food", "Dancers", "Drink", "Twitch DJ" ],
         "contacts": [ "464673504831471617" ]
+    },
+    {
+        "id": "VDCZ9STBo",
+        "added": "2022-02-22T00:00:00Z",
+        "name": "Onamazu Sushi bar",
+        "banner": "assets/banners/onamazu.jpg",
+        "description": [ 
+            "Do you find yourself wanting to catch your breath from the frantic and restless pace of daily life?",
+            "Nestled in the lush island of Kugane, tucked away in an unmarked corner stands a small cottage retreat where you may easily find yourself spirited away.",
+            "Onamazu not only offers the distinct and savory taste of Hingashi's finest delicacies. ",
+            "Onamazu is also home, even to the most foreign stranger. Hide away and forget tomorrow if only for a night at Onamazu, and bask in the company of good people, who have also walked through its doors in hopes of laughing away their troubles, mending their pain, and meeting new friends. All while being enticed by beautiful courts, the deep lustre of gold at the gambling corner, and mouthwatering Far Eastern cuisine. ",
+            "Forget expectations and let yourself just be. "
+        ],
+        "location": "Siren, Shirogane, Ward 21, Plot 52",
+        "website": "https://onamazumenu.carrd.co/",
+        "discord": "https://discord.gg/cV5KSPUtBV",
+        "sfw": true,
+        "nsfw": true,
+        "times": [ 
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Den", "Food", "Drink", "Gambling", "Courtesans", "Open stage", "Triple triad" ],
+        "contacts": [ "596592081997266945" ]
     }
 ]
