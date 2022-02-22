@@ -3120,5 +3120,25 @@
         "exceptions": [ ],
         "tags": [ "Bar", "Den", "Food", "Drink", "Gambling", "Courtesans", "Open stage", "Triple triad" ],
         "contacts": [ "596592081997266945" ]
+    },
+    {
+        "id": "RN5JB6q1",
+        "added": "2022-08-08T00:00:00Z",
+        "name": "Seven Circles",
+        "description": [ "(+18) (LGBTQ+) Seven Circles nightclub prides itself on being a friendly and safe space for all walks of life. We feature a full selection of lovely dancers, live music, half priced special drinks, SFW and NSFW services for all your desires. Special additions include an in house photographer and artist! Come join us and sin the night away!" ],
+        "location": "Sargatanas, Mist, Ward 9, Plot 35",
+        "discord": "https://discord.gg/dXQQWe3ytr",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bards", "Drink", "Artists", "Photography", "Courtesans", "Tarot" ],
+        "contacts": [ "512828886200090644" ]
     }
 ]
