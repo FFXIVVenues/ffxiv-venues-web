@@ -2624,7 +2624,11 @@
         "nsfw": false,
         "times": [
             {
-                "day": 6,
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
                 "start": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
