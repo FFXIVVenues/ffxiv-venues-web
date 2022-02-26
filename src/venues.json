@@ -3248,5 +3248,40 @@
         "exceptions": [ ],
         "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple Triad" ],
         "contacts": [ "80380433325363200" ]
+    },
+    
+    {
+        "id": "GR4kpOArJ",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "The Birdhaus",
+        "banner": "assets/banners/the-birdhaus.jpg",
+        "description": [ 
+            "Welcome to The Birdhaus! We are a SFW, immersive roleplay noodle bar and cafe located on the top floor of Shirogane's bustling Kobai Goten district. Join us every Thursday, Friday and Saturday from 6pm-9pm Central for welcoming atmosphere, friendly faces, music and amazing Doman and Far East inspired dishes! We also offer raid consumables, master recipes and omnicrafting services if needed."
+        ],
+        "location": "Sargatanas, Shirogane, Ward 20, Apt 90",
+        "discord": "https://discord.gg/ghmNkY2bsP",
+        "website": "https://thebirdhaus.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "Novel Services" ],
+        "contacts": [ "296466601383821312" ]
     }
 ]
