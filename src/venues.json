@@ -3209,5 +3209,44 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Food", "Drink" ],
         "contacts": [ "198960159228297216" ]
+    },
+    {
+        "id": "eFWLf5tlc",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "The Kitty Kashpot",
+        "banner": "assets/banners/kitty-kashpot.jpg",
+        "description": [ 
+            "Midgardsormr's newest gambling attraction! A small little betting hole made for friends that we have decided to open to the public! Stop in and grab a drink at our Tabby Tavern or test your luck at the Katnip Kasino! ♥ We have plenty of lounge space and seating for you and all your friends!"
+        ],
+        "location": "Midgardsormr, Shirogane, Ward 24 Sub, Apt 46",
+        "discord": "https://discord.gg/kashpot",
+        "website": "https://kittykashpot.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple Triad" ],
+        "contacts": [ "80380433325363200" ]
     }
 ]
