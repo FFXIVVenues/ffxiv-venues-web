@@ -3187,57 +3187,27 @@
         "comments": [ "Novel service is partaking in or betting on chocobo races." ]
     },
     {
-        "id": "mtbqrIZx0",
-        "added": "2022-02-23T00:00:00Z",
-        "name": "The Step Cafe",
-        "banner": "assets/banners/step-cafe.jpg",
+        "id": "IyEqrduFX",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "Club Vamp",
+        "banner": "assets/banners/club-vamp.jpg",
         "description": [ 
-            "A relaxing pastel themed café with lots comfortable seating and a lovely outdoor patio to enjoy everything this small getaway in the Lavender Beds has to offer."
+            "Eorzea's spookiest LGBTQ+ NSFW dance club. Offering raffles, fully stocked bar, frighteningly fun staff and charming courtesans, and a crazy fun dance party with a blood pumping alternative dance playlist curated by Club Vamp staff."
         ],
-        "location": "Gilgamesh, Lavender Beds, Ward 11, Plot 59",
-        "discord": "https://discord.gg/V4777nPg7M",
-        "website": "https://thestepcafemenu.carrd.co/ ",
-        "sfw": true,
-        "nsfw": false,
+        "location": "Cactaur, Lavender Beds, Ward 1 Plot 53",
+        "discord": "https://discord.gg/67bU7xdu2w",
+        "website": "https://clubvamp.carrd.co/",
+        "sfw": false,
+        "nsfw": true,
         "times": [
-            {
-                "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
             {
                 "day": 6,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Cafe", "Maid cafe", "Food", "Drink" ],
-        "contacts": [ "83737822762110976" ]
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Food", "Drink" ],
+        "contacts": [ "198960159228297216" ]
     }
 ]
