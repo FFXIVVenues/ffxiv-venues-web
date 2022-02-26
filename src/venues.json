@@ -3249,7 +3249,6 @@
         "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple Triad" ],
         "contacts": [ "80380433325363200" ]
     },
-    
     {
         "id": "GR4kpOArJ",
         "added": "2022-02-26T00:00:00Z",
@@ -3283,5 +3282,37 @@
         "exceptions": [ ],
         "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "Novel Services" ],
         "contacts": [ "296466601383821312" ]
+    },
+    {
+        "id": "mHT67tXam",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "Club Envy",
+        "banner": "assets/banners/envy.jpg",
+        "description": [ 
+            "If you're looking for a place to enjoy great drinks, great people, and great fun, or just to relax at the end of your night, look no further, we're always ready to party the night away!",
+            "Drinks, Food, Courts, Professional Photographers, Online Casino Games, Great Music on a private stream, Dancers, and a raffle!",
+            "Envy Live stream will be featuring popular EDM and Dance music!",
+            "LGBTQ+ Owned and Operated."
+        ],
+        "location": "Siren, The Goblet, Ward 22, Plot 40",
+        "discord": "https://discord.gg/czKJaSqjKD",
+        "website": "https://3nvy.in/#home",
+        "sfw": false,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Pillow", "Food" ],
+        "contacts": [ "473614419130318848" ]
     }
 ]
