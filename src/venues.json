@@ -3312,7 +3312,38 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Pillow", "Food" ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Pillow", "Food", "Drink", "Photography", "VIP" ],
         "contacts": [ "473614419130318848" ]
+    },
+    {
+        "id": "LLtO2kPp1",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "Shonen",
+        "banner": "assets/banners/shonen.jpg",
+        "description": [ "Shonen is anew club in the Aether scene hoping to make a name for itself. When you visit the Shonen, you will experience an immersive nightclub experience with top-tier service, perks, music, and special events. Whether you'd like to come for the party, the drinks, or the live performances, we hope to make your weekends special! We do offer court services, but we are focused on relaxed vibes for all guests." ],
+        "location": "Sargatanas, Mist, Ward 11, Plot 45",
+        "discord": "https://discord.gg/sBa2kwcqV7",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Pillow", "Tarot", "Drink", "Photography", "VIP" ],
+        "contacts": [ "158281637031837696" ]
     }
 ]
