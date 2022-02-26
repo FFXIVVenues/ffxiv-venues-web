@@ -3137,7 +3137,7 @@
         "banner": "assets/banners/seven-circles.jpg",
         "description": [ "(+18) (LGBTQ+) Seven Circles nightclub prides itself on being a friendly and safe space for all walks of life. We feature a full selection of lovely dancers, live music, half priced special drinks, SFW and NSFW services for all your desires. Special additions include an in house photographer and artist! Come join us and sin the night away!" ],
         "location": "Sargatanas, Mist, Ward 9, Plot 35",
-        "discord": "https://discord.gg/dXQQWe3ytr",
+        "discord": "https://discord.gg/qPbzSUH5KA",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -3345,5 +3345,26 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Pillow", "Tarot", "Drink", "Photography", "VIP" ],
         "contacts": [ "158281637031837696" ]
+    },
+    {
+        "id": "K0TmBCK96",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "The Eagle",
+        "banner": "assets/banners/the-eagle.jpg",
+        "description": [ "The Eagle is Eorza's premier leather bar! 18+ and LGBT+ owned and operated!" ],
+        "location": "Faerie, Mist, Ward 20, Plot 22",
+        "discord": "https://discord.gg/QUQyY9QUMZ",
+        "sfw": false,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Dancers", "Food", "Drink" ],
+        "contacts": [ "426158301605265409" ]
     }
 ]
