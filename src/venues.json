@@ -3,10 +3,13 @@
         "id": "0wffp5RR",
         "added": "2021-08-08T00:00:00Z",
         "name": "The HIVE",
-        "description": [ "Dance club and bar." ],
+        "banner": "assets/banners/the-hive.jpg",
+        "description": [ 
+            "Welcome the HIVE, Honeybees! ♥️ We're one of Aether's oldest and most treasured 18+ nightclubs.",
+            "Tonight, enter into the honeycombe and get lost in the sweet aroma of a first class, night time experience complete with a fully stocked bar of honey delights, sweet dancers, lustful courtesans, and a casino almost as addictive as treats from the host, Honey Bee, herself."
+        ],
         "location": "Sargatanas, Lavender Beds, Ward 19, Plot 3",
         "discord": "https://discord.gg/thehive",
-        "website": "https://thehivexiv.carrd.co/",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -21,8 +24,9 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
-        "tags": [ "Nightclub", "Courtesans", "Hosts", "Food", "Drink" ],
-        "contacts": [ "312368934794035201" ]
+        "tags": [ "Nightclub", "Courtesans", "Dancers", "Food", "Pillow", "Drink", "Gambling", "Triple triad" ],
+        "contacts": [ "312368934794035201" ],
+        "comments": [ "Might be swapping Tuesday to Friday soon. Check back in soon."]
     },
     {
         "id": "uOjYdk2r",
@@ -965,9 +969,9 @@
         "name": "Last Stop",
         "banner": "assets/banners/last-stop.jpg",
         "description": [ "The last stop of the night before you retire to your slumber; full bar, saunas, an open stage and hint of chaos." ],
-        "location": "Adamantoise, Goblet, Ward 2, Plot 18",
+        "location": "Adamantoise, Goblet, Ward 3, Plot 42",
         "discord": "https://discord.gg/uPWdH9jcEn",
-        "website": "https://thelaststop.carrd.co/",
+        "website": "https://laststopvenue.carrd.co/",
         "sfw": true,
         "nsfw": false,
         "tags": [ "Nightclub", "Open stage", "Food", "Drink" ],
@@ -2365,6 +2369,7 @@
             }
         ],
         "exceptions": [],
+        "notices": [ "Inveritas will be 1.5 hours late opening tonight due to events in the real world! See you at 10:30 EST!" ],
         "tags": [ "Tavern", "Food", "Drink", "Open stage", "Novel services" ],
         "contacts": [ "515845380622254090", "82172138152263680"]
     },
@@ -2620,7 +2625,11 @@
         "nsfw": false,
         "times": [
             {
-                "day": 6,
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
                 "start": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
@@ -3123,11 +3132,12 @@
     },
     {
         "id": "RN5JB6q1",
-        "added": "2022-08-08T00:00:00Z",
+        "added": "2022-02-23T00:00:00Z",
         "name": "Seven Circles",
+        "banner": "assets/banners/seven-circles.jpg",
         "description": [ "(+18) (LGBTQ+) Seven Circles nightclub prides itself on being a friendly and safe space for all walks of life. We feature a full selection of lovely dancers, live music, half priced special drinks, SFW and NSFW services for all your desires. Special additions include an in house photographer and artist! Come join us and sin the night away!" ],
         "location": "Sargatanas, Mist, Ward 9, Plot 35",
-        "discord": "https://discord.gg/dXQQWe3ytr",
+        "discord": "https://discord.gg/qPbzSUH5KA",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -3140,5 +3150,221 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bards", "Drink", "Artists", "Photography", "Courtesans", "Tarot" ],
         "contacts": [ "512828886200090644" ]
+    },
+    {
+        "id": "FWGysuO1s",
+        "added": "2022-02-23T00:00:00Z",
+        "name": "Wishbone Race Cafe",
+        "banner": "assets/banners/wishbone.jpg",
+        "description": [ 
+            "Wishbone Race Cafe is a SFW Racing themed venue were visitors can either bet on races or race themselves to win prizes. However if racing isn't  your thing you could always relax in the bath or enjoy the fine food served by our lovely chocobolic hostess."
+        ],
+        "location": "Adamantoise, Shirogane, Ward 11, Plot 14",
+        "discord": "https://discord.gg/pbQcUU5tV6",
+        "website": "https://wishbone-menu.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Bar", "Gambling", "Hosts", "Food", "Photography", "Novel services" ],
+        "contacts": [ "602929815648993280" ],
+        "comments": [ "Novel service is partaking in or betting on chocobo races." ]
+    },
+    {
+        "id": "IyEqrduFX",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "Club Vamp",
+        "banner": "assets/banners/club-vamp.jpg",
+        "description": [ 
+            "Eorzea's spookiest LGBTQ+ NSFW dance club. Offering raffles, fully stocked bar, frighteningly fun staff and charming courtesans, and a crazy fun dance party with a blood pumping alternative dance playlist curated by Club Vamp staff."
+        ],
+        "location": "Cactaur, Lavender Beds, Ward 1 Plot 53",
+        "discord": "https://discord.gg/67bU7xdu2w",
+        "website": "https://clubvamp.carrd.co/",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Food", "Drink" ],
+        "contacts": [ "198960159228297216" ]
+    },
+    {
+        "id": "eFWLf5tlc",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "The Kitty Kashpot",
+        "banner": "assets/banners/kitty-kashpot.jpg",
+        "description": [ 
+            "Midgardsormr's newest gambling attraction! A small little betting hole made for friends that we have decided to open to the public! Stop in and grab a drink at our Tabby Tavern or test your luck at the Katnip Kasino! ♥ We have plenty of lounge space and seating for you and all your friends!"
+        ],
+        "location": "Midgardsormr, Shirogane, Ward 24 Sub, Apt 46",
+        "discord": "https://discord.gg/kashpot",
+        "website": "https://kittykashpot.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple Triad" ],
+        "contacts": [ "80380433325363200" ]
+    },
+    {
+        "id": "GR4kpOArJ",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "The Birdhaus",
+        "banner": "assets/banners/the-birdhaus.jpg",
+        "description": [ 
+            "Welcome to The Birdhaus! We are a SFW, immersive roleplay noodle bar and cafe located on the top floor of Shirogane's bustling Kobai Goten district. Join us every Thursday, Friday and Saturday from 6pm-9pm Central for welcoming atmosphere, friendly faces, music and amazing Doman and Far East inspired dishes! We also offer raid consumables, master recipes and omnicrafting services if needed."
+        ],
+        "location": "Sargatanas, Shirogane, Ward 20, Apt 90",
+        "discord": "https://discord.gg/ghmNkY2bsP",
+        "website": "https://thebirdhaus.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "Novel Services" ],
+        "contacts": [ "296466601383821312" ]
+    },
+    {
+        "id": "mHT67tXam",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "Club Envy",
+        "banner": "assets/banners/envy.jpg",
+        "description": [ 
+            "If you're looking for a place to enjoy great drinks, great people, and great fun, or just to relax at the end of your night, look no further, we're always ready to party the night away!",
+            "Drinks, Food, Courts, Professional Photographers, Online Casino Games, Great Music on a private stream, Dancers, and a raffle!",
+            "Envy Live stream will be featuring popular EDM and Dance music!",
+            "LGBTQ+ Owned and Operated."
+        ],
+        "location": "Siren, The Goblet, Ward 22, Plot 40",
+        "discord": "https://discord.gg/czKJaSqjKD",
+        "website": "https://3nvy.in/#home",
+        "sfw": false,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Pillow", "Food", "Drink", "Photography", "VIP" ],
+        "contacts": [ "473614419130318848" ]
+    },
+    {
+        "id": "LLtO2kPp1",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "Shonen",
+        "banner": "assets/banners/shonen.jpg",
+        "description": [ "Shonen is anew club in the Aether scene hoping to make a name for itself. When you visit the Shonen, you will experience an immersive nightclub experience with top-tier service, perks, music, and special events. Whether you'd like to come for the party, the drinks, or the live performances, we hope to make your weekends special! We do offer court services, but we are focused on relaxed vibes for all guests." ],
+        "location": "Sargatanas, Mist, Ward 11, Plot 45",
+        "discord": "https://discord.gg/sBa2kwcqV7",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Pillow", "Tarot", "Drink", "Photography", "VIP" ],
+        "contacts": [ "158281637031837696" ]
+    },
+    {
+        "id": "K0TmBCK96",
+        "added": "2022-02-26T00:00:00Z",
+        "name": "The Eagle",
+        "banner": "assets/banners/the-eagle.jpg",
+        "description": [ "The Eagle is Eorza's premier leather bar! 18+ and LGBT+ owned and operated!" ],
+        "location": "Faerie, Mist, Ward 20, Plot 22",
+        "discord": "https://discord.gg/QUQyY9QUMZ",
+        "sfw": false,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Dancers", "Food", "Drink" ],
+        "contacts": [ "426158301605265409" ]
     }
 ]
