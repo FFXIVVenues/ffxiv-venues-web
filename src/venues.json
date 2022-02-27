@@ -1467,6 +1467,7 @@
         "website": "https://attika.carrd.co/",
         "sfw": true,
         "nsfw": true,
+        "contacts": [ "215075869360652288" ],
         "times": [
             {
                 "day": 2,
@@ -1626,7 +1627,8 @@
         "discord": "https://discord.gg/R3b7UkjqfX",
         "sfw": true,
         "nsfw": false,
-        "times": []
+        "times": [],
+        "contacts": [ "479123418122551341" ]
     },
     {
         "id": "mTxgrqra6",
@@ -1689,7 +1691,7 @@
         "shard": "Eastern Shirogane Subdivision",
         "website": "https://heavenlyhearth.carrd.co/",
         "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Soft-counselling", "Food", "Drink", "Open stage",  "RP Only", "Novel services" ],
-        "contacts":["181202033808769024"],
+        "contacts":["110616879634059264", "181202033808769024"],
         "sfw": true,
         "nsfw": false,
         "comments":[ "Novel service is able to rent RP rooms.", "RP heavy venue; speachmarks via /em and OOC via brackets only." ],
@@ -2265,7 +2267,7 @@
         "times": [ ],
         "exceptions": [],
         "tags": [ "Lounge", "Food", "Drink", "Bards", "Open stage", "Novel services" ],
-        "contacts": [ "782368828755410984", "343424502241165312" ]
+        "contacts": [ "192497361149231105" ]
     },
     {
         "id": "lmTY1dkGV",
@@ -2543,7 +2545,7 @@
         ],
         "exceptions": [],
         "tags": [ "Casino", "Food", "Drink", "Bards", "Open stage" ],
-        "contacts": [ "134349700428988416" ]
+        "contacts": [ "231066803860799488" ]
     },
     {
         "id": "gwvoxDO7c",
@@ -2822,7 +2824,7 @@
         ],
         "exceptions": [ ],
         "tags": [ "Lounge", "Dancers", "Food", "Drink", "Triple triad", "VIP", "Open stage" ],
-        "contacts": [ "722161936816406531" ]
+        "contacts": [ "413915947880022026" ]
     },
     {
         "id": "LxbNTCRUR",
