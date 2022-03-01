@@ -3391,5 +3391,32 @@
         "exceptions": [ ],
         "tags": [ "Cafe", "Maid cafe", "Food", "Drink" ],
         "contacts": [ "83737822762110976" ]
+    },
+    {
+        "id": "HYmOJcAR2",
+        "added": "2022-03-01T00:00:00Z",
+        "name": "Somdaze Rest",
+        "banner": "assets/banners/somdaze-rest.jpg",
+        "description": [ 
+            "Just a casual (sfw) place to unwind after a long day of battling the evil eikons of our lands... and beyond. Have a meal or just a drink. Listen to bard performances or maybe you feel like dancing. If you need to learn what tomorrow holds, you will find Isooni, our tarot reader, at her divine spot in the southwest corner.  ",
+            "Need some meditation time? Visit the rooftop garden! You will find a koi pond among lush greenery and a hot tub. The visit is sure to soothe your weary soul.  ",
+            "All of Eoreza's bards are welcome to get some stage time. We have an open stage policy, with a house band to fill in the gaps.  ",
+            "We will strive to provide excellent service, good food, and a relaxed atmosphere. No gimmicks, no strings, no pressure."
+        ],
+        "location": "Adamantoise, Goblet, Ward 16, Plot 8",
+        "discord": "https://discord.gg/JrfYnB2suE",
+        "website": "https://somdazerest.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Tavern", "Hosts", "Void", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
+        "contacts": [ "291943612294627329" ]
     }
 ]
