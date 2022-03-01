@@ -3417,5 +3417,29 @@
         "exceptions": [ ],
         "tags": [ "Bar", "Tavern", "Hosts", "Void", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
         "contacts": [ "291943612294627329" ]
+    },
+    {
+        "id": "PnRebCcj6",
+        "added": "2022-03-01T00:00:00Z",
+        "name": "The Last Carrot",
+        "banner": "assets/banners/last-carrot.jpg",
+        "description": [ 
+            "The Last Carrot is the next level in the dining and bar experience. You won't have to wait long in our lavish seating area for a host to take you to your table. Or you can venture right on up to The Last Carrot bar and indulge yourself in the hoppiest of drinks. Sit back and relax to the in game music or tune in to our DJ rocking those LoFi beats to ease away your day."
+        ],
+        "location": "Cactuar, Mist, Ward 13, Plot 35",
+        "discord": "https://discord.gg/K4WU5zA4hn",
+        "website": "https://thelastcarrot.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
+                "end": { "hour": 2, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Bar", "Twitch DJ", "Food", "Drink" ],
+        "contacts": [ "65647381051346944" ]
     }
 ]
