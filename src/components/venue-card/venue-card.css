@@ -37,7 +37,7 @@
 
 .venue-card__new {
     float: right;
-    margin: 15px;
+    margin: 15px 15px 15px 0;
     background-color: darkorange;
     color: white;
     border-radius: 3px;
@@ -51,7 +51,7 @@
 
 
 .venue-card__open {
-    margin: 15px;
+    margin: 15px 15px 15px 0;
     float: right;
     background-color: var(--accent-color);
     color: white;

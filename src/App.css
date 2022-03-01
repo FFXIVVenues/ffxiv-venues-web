@@ -3,8 +3,13 @@
 	src: url("assets/HingashiExtended.ttf") format("truetype");
 }
 
+@font-face { 
+	font-family: 'Jupiter Pro';
+	src: url("assets/JupiterProBold.ttf") format("truetype");
+}
+
 :root {
-  font-size: 16px;
+  font-size: 15px;
   --background-color: rgb(221, 221, 221);
   --background-color: rgb(20, 20, 20);
   --accent-color: rgba(227, 120, 255);
@@ -35,7 +40,6 @@ a {
 }
 
 .aether-venues__heading {
-  /* margin-left: 10px; */
   background-color: var(--background-color);
   position: fixed;
   top: 0;
@@ -46,7 +50,6 @@ a {
   box-shadow: black 0 0 5px;
   align-items: center;
   padding: 10px 20px 5px;
-  /* font-family: "Hingashi Extended"; */
 }
 
 .aether-venues__heading img {
@@ -126,7 +129,7 @@ a {
 }
 
 .aether-venues__venues summary h2 {
-  font-family: "Hingashi Extended";
+  font-family: "Jupiter Pro";
   font-size: 1rem;
   text-transform: uppercase;
   display: inline-block;
@@ -137,10 +140,53 @@ a {
   max-width: 100%;
 }
 
-.aether-venues__made-by {
+.aether-venues__meta-panel {
   position: fixed;
   bottom: 20px;
   left: 20px;
+}
+
+.aether-venues__discord {
+  border-radius: 5px;
+  /* background-color: rgba(255, 255, 255, .6); */
+  /* color: #333; */
+  background-color: var(--background-color);
+  width: 20vh;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: .9rem;
+}
+
+.aether-venues__discord-cta {
+  display: flex;
+  align-items: center;
+}
+
+.aether-venues__discord svg {
+  float: left;
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  margin-right: 15px;
+  fill: white;
+}
+
+.aether-venues__discord-button {
+  border-radius: 5px;
+  display: block;
+  padding: 5px 15px;
+  border: dimgray 1px solid;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.aether-venues__discord-button:focus,
+.aether-venues__discord-button:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white
 }
 
 .aether-venues__made-by-individual {
@@ -164,7 +210,6 @@ a {
 }
 
 body.light {
-  /* background-image: url("assets/background-image-2.jpg"); */
   background-color: #B1B096;
   color: #333;
 }

@@ -1,12 +1,9 @@
 // TODO
-// Add all filters
-// Sort out padding on cards for text overflow
-// Fix over margin between "new" and "open" tags
-// Add favorite indicator
-// Add visited indicator
+// Add link to form
+// Add favorite indicator (using new SVG method)
+// Add visited indicator (using new SVG method)
 // Photo for painted rose
 // Add logo for Aether Entertainer
-// Revise font for strips headers
 // Add view mode switching
 
 import React from 'react';
@@ -20,6 +17,7 @@ import { favouritesService } from './services/favouritesService';
 import { VenueStrip } from './components/venue-strip/VenueStrip';
 import { propFilter, tagFilter, worldFilter } from "./filters/filters";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
+import {ReactComponent as DiscordIcon } from "./assets/discord-icon.svg";
 
 class App extends React.Component {
 
@@ -264,7 +262,11 @@ class App extends React.Component {
             { this._renderScheduledVenues() }
             { this._renderUnscheduledVenues() } 
           </div>
-          <div className="aether-venues__made-by">
+          <div className="aether-venues__meta-panel">
+            <div className="aether-venues__discord">
+              <div className="aether-venues__discord-cta"><DiscordIcon/> Looking for the home of FFXIV Venues?</div>
+              <a className="aether-venues__discord-button" target="_blank" rel="noreferrer" href="https://discord.gg/gTP65VYcMj">Join the discord!</a>
+            </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">

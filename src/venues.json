@@ -2022,7 +2022,6 @@
         "id": "MQcQMRw8R",
         "added": "2022-01-22T00:00:00Z",
         "name": "The Hideaway Cafe",
-        "banner": "assets/banners/the-hideaway-cafe.jpg",
         "description": [
             "So you've finally made it! Grab a drink! The show starts soon. Welcome to the Hideaway Cafe! A Corner venue meant for all venue workers to come, relax, and kick their feet up. Dueling piano Bards try to outwit each other each night, and drinks served in our Speakeasy set up are cold, and very fairly priced. So fill your cups and empty your heavy coffers after a long day's work, here at The Hideaway! Enjoy your escape."
         ],
@@ -2126,7 +2125,7 @@
         "contacts": [ "612024267298701323" ]
     },
     {
-        "id": "F5iS6rHNg",
+        "id": "YCd89KFH9",
         "added": "2022-01-22T00:00:00Z",
         "name": "Aetherlife",
         "banner": "assets/banners/aetherlife.jpg",
