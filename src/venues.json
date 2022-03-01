@@ -1993,7 +1993,6 @@
         "id": "MQcQMRw8R",
         "added": "2022-01-22T00:00:00Z",
         "name": "The Hideaway Cafe",
-        "banner": "assets/banners/the-hideaway-cafe.jpg",
         "description": [
             "So you've finally made it! Grab a drink! The show starts soon. Welcome to the Hideaway Cafe! A Corner venue meant for all venue workers to come, relax, and kick their feet up. Dueling piano Bards try to outwit each other each night, and drinks served in our Speakeasy set up are cold, and very fairly priced. So fill your cups and empty your heavy coffers after a long day's work, here at The Hideaway! Enjoy your escape."
         ],
@@ -2889,7 +2888,7 @@
             " - Loveless ACT II",
             "The Loveless Bar is a 18+ venue open Monday and Thursday 8pm-11pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun and get some good photos taken with our photographer! Test your luck with our trivia night event and win some great prizes starting from 50k gil or join our raffles for great items!"
         ],
-        "location": "Adamantoise, Goblet, Plot 6, Ward 4",
+        "location": "Adamantoise, Goblet, Ward 4, Plot 6",
         "discord": "https://discord.gg/UGNzPEzf",
         "website": "https://thelovelessbar.carrd.co/",
         "sfw": true,
