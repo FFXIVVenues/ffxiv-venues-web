@@ -3470,5 +3470,29 @@
         "exceptions": [ ],
         "tags": [ "Bar", "Speakeasy", "Gambling", "Twitch DJ", "Food", "Drink", "Photography", "Triple Triad", "IC RP only" ],
         "contacts": [ "184801631949291520" ]
+    },
+    {
+        "id": "kM7hO6hnX",
+        "added": "2022-03-02T00:00:00Z",
+        "name": "The Velvet Room",
+        "banner": "assets/banners/velvet-room.jpg",
+        "description": [ 
+            "The Velvet Room is an LGBTQIA+ friendly space where everyone is welcome & accepted. We are built on the belief that everyone deserves to feel safe, loved, and appreciated. TVR is a place where people can come to dance, mingle, relax, and party! We offer both SFW and NSFW services as well as host some of Aether's best DJs! Come visit us and you are sure to NOT be disappointed!"
+        ],
+        "location": "Faerie, Lavender Beds, Ward 8, Plot 28",
+        "discord": "https://discord.gg/TheVelvetRoomXIV",
+        "website": "https://thevelvetroom.club/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Hosts", "Courtesans", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "contacts": [ "707716687402893452", "399361042762694667", "946591595388620820" ]
     }
 ]
