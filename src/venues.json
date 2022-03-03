@@ -3517,5 +3517,28 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Void", "Bards", "Tarot", "Drink" ],
         "contacts": [ "545059660722339841" ]
+    },
+    {
+        "id": "cG4zlJCGP",
+        "added": "2022-03-03T00:00:00Z",
+        "name": "Cafe Musashi",
+        "banner": "assets/banners/musashi.jpg",
+        "description": [ 
+            "Named after our adorable mameshiba, Musashi, Café Musashi is run by a lovely couple. Located on a beach front, we provide a relaxing environment for our patrons and serve freshly made food! Our café is inspired from the show, Restaurant to Another World. Please do feel free to visit! We would love to have you."
+        ],
+        "location": "Sargantas, Mist, Ward 10, Plot 50",
+        "website": "https://cafemusashi.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Lounge", "Food", "Drink" ],
+        "contacts": [ "185231582020370433" ]
     }
 ]
