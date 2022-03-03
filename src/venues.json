@@ -3540,5 +3540,38 @@
         "exceptions": [ ],
         "tags": [ "Cafe", "Lounge", "Food", "Drink" ],
         "contacts": [ "185231582020370433" ]
+    },
+    {
+        "id": "ikus1KIo6",
+        "added": "2022-03-03T00:00:00Z",
+        "name": "CLUB DIABLO",
+        "banner": "assets/banners/diablo.jpg",
+        "description": [ 
+            "Welcome to Club Diablo!! Come and enjoy the Eorzean Night Life with us every Friday, Saturday, Sunday. Enjoy routinely scheduled Live DJs via Twitch stream, trained RP/ERP courts and dancers along with nightly raffles, a club casino and a fight club. Visiting with Friends or having special events? Feel free to check out our VIP Packages. Hope to see you soon!!"
+        ],
+        "location": "Adamantoise, Lavender Beds, Ward 18, Plot 3",
+        "discord": "https://discord.gg/pGBy85cNkC",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "contacts": [ "938192537175347240" ]
     }
 ]
