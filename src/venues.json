@@ -243,7 +243,9 @@
         "added": "2021-08-11T00:00:00Z",
         "name": "The Twilight Moon",
         "banner": "assets/banners/twilight-moon.jpg",
-        "description": [ "Fae inspired venue with Twilight Moon Quintet live music 3 nights a week! The Twilight Moon is the home of the Twilight Moon Quintet." ],
+        "description": [ 
+            "Fae inspired venue with live music from the Twilight Moon Quintet, and featuring an array of talent including DJs, bards, bands and macro-dancers! The Twilight Moon is the home of the Twilight Moon Quintet."
+         ],
         "location": "Faerie, Goblet, Ward 11, Plot 34",
         "website": "https://www.twilight-moon.net/",
         "discord": "https://discord.gg/Ru84CaU2fw",
@@ -254,13 +256,18 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1208,17 +1215,18 @@
     },
     {
         "id": "mKnEDYc6z",
-        "added": "2021-10-03T00:00:00Z",
-        "name": "The Snow Bunny Cafe",
-        "banner": "assets/banners/the-snow-bunny-cafe.jpg",
-        "description": [ " A small cozy cafe tucked away in the Lavender beds. The menu is focused on a variety of tea and pastries to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for lunch, you wont be disappointed!" ],
+        "added": "2022-03-03T00:00:00Z",
+        "name": "The Rose Petal",
+        "banner": "assets/banners/rose-petal.jpg",
+        "description": [ 
+            "A spritely nightclub tucked away in the Lavender beds. The menu is focused on a variety of tea and pastries to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for drinks, you wont be disappointed!" 
+        ],
         "location": "Gilgamesh, Lavender Beds, Ward 15, Apt 39",
         "shard": "Lilly Hills",
         "discord": "https://discord.gg/ckch8s4X7c",
-        "website": "https://snowbunnycafe.carrd.co/",
         "sfw": true,
         "nsfw": false,
-        "tags":[ "Cafe", "Food", "Drink", "Open stage", "Bards" ],
+        "tags":[ "Nightclub", "Lounge", "Drink", "Open stage", "Bards" ],
         "contacts": [ "244551427052142592" ],
         "times": [
         ]
