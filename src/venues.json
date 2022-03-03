@@ -3195,7 +3195,7 @@
         "location": "Midgardsormr, Shirogane, Ward 24 Sub, Apt 46",
         "discord": "https://discord.gg/kashpot",
         "website": "https://kittykashpot.carrd.co/",
-        "sfw": true,
+        "sfw": false,
         "nsfw": false,
         "times": [
             {
@@ -3494,5 +3494,28 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Hosts", "Courtesans", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
         "contacts": [ "707716687402893452", "399361042762694667", "946591595388620820" ]
+    },
+    {
+        "id": "cM0dzj4oK",
+        "added": "2022-03-03T00:00:00Z",
+        "name": "The Underworld",
+        "banner": "assets/banners/underworld.jpg",
+        "description": [ 
+            "We offer live music, drinks and a lounge experience to our guests! Lounge a while in our hot tub, or dance your cares away to our bard!"
+        ],
+        "location": "Jenova, Shirogane, Ward 2, Plot 33",
+        "discord": "https://discord.gg/jnteMY2cwK",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Void", "Bards", "Tarot", "Drink" ],
+        "contacts": [ "545059660722339841" ]
     }
 ]
