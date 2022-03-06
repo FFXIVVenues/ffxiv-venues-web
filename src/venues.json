@@ -405,8 +405,11 @@
         "website": "https://wanderers-wayrest.carrd.co/",
         "discord": "https://discord.gg/bQ5ukvHEfv",
         "sfw": true,
-        "nsfw": false,
-        "tags":[ "Bar", "Lounge", "Bath House", "Food", "Drink", "Novel" ],
+        "nsfw": true,
+        "tags":[ "Bar", "Lounge", "Bath House", "Food", "Drink", "Novel Services" ],
+        "comments": [
+            "Novelty is massages work up to ERP style massages"
+        ],
         "contacts":["755971008728400033"],
         "times": [
             {
@@ -3681,5 +3684,39 @@
         "exceptions": [ ],
         "tags": [ "Bar", "Lounge", "Gambling", "Artists", "Dancers", "Bards", "Tarot", "Food", "Drink", "Triple triad", "IC RP only" ],
         "contacts": [ "272837031799947265" ]
+    },
+    {
+        "id": "VJEFFD2CI",
+        "added": "2022-03-07T00:00:00Z",
+        "name": "The KAY",
+        "banner": "assets/banners/the-kay.jpg",
+        "description": [ 
+            "Enjoy your stay at The Kay! Sit back, relax and grab some snacks,, because we're here for a fun time, not a long time. Here to please your ears with gentle and kind conversation. (Brashness may apply)"
+        ],
+        "location": "Midgardsormr, Shirogane, Ward 22, Apt 52",
+        "website": "https://the-kay.carrd.co",
+        "discord": "",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 0,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Speakeasy", "Lounge", "Food", "Drink", "Open stage", "Triple triad" ],
+        "contacts": [ "179070146940370945" ]
     }
 ]
