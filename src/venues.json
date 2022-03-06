@@ -3594,7 +3594,7 @@
         ],
         "exceptions": [ ],
         "tags": [ "Tavern", "Bath House", "Dancers", "Bards", "Food", "Drink" ],
-        "contacts": [ "259559436077629460" ]
+        "contacts": [ "259559436077629460", "349693545315041280" ]
     },
     {
         "id": "fB63vhZAL",
@@ -3639,5 +3639,47 @@
         "exceptions": [ ],
         "tags": [ "Cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
         "contacts": [ "819541112813387816" ]
+    },
+    {
+        "id": "J15wuFq0F",
+        "added": "2022-03-06T00:00:00Z",
+        "name": "Petrichor Coffee-Bar",
+        "banner": "assets/banners/petrichor.jpg",
+        "description": [ 
+            "Petrichor Coffee-Bar is an all-inclusive and relaxing space for those looking for a wonderful time. It has a wonderful café aesthetic, and friendly staff that is available for all sorts of chat and aid. Our aim is to provide a pocket of tranquility to all Eorzeans."
+        ],
+        "location": "Jenova, Lavender Beds, Ward 23, Apt 68",
+        "website": "https://petrichorcoffee.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "contacts": [ "819541112813387816" ]
+    },
+    {
+        "id": "QkmNKsS2J",
+        "added": "2022-03-06T00:00:00Z",
+        "name": "VLVT DRMS",
+        "banner": "assets/banners/vlvtdrms.jpg",
+        "description": [ 
+            "VLVT DRMS is a safe for work dance venue and bar lounge, lavishly decorated with a cozy and warm atmosphere to both entice and relax even the weariest of wanderers. We strive to bring a safe, calming space into our wonderful community, hoping that each visit will leave you in the clouds! Whether you're looking to grab a few drinks, make pleasant conversation or dance the night away, there is a member of staff that is eager to spend their time dreaming with you. Come dream with us tonight!",
+            "To enter the venue use /doze next to the desk. To exit the venue jump on the floor lamp."
+        ],
+        "location": "Jenova, Lavender Beds, Ward 8, Plot 32",
+        "website": "https://vlvt-drms.carrd.co/",
+        "discord": "https://discord.gg/vlvtdrms",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Lounge", "Gambling", "Artists", "Dancers", "Bards", "Tarot", "Food", "Drink", "Triple triad", "IC RP only" ],
+        "contacts": [ "272837031799947265" ]
     }
 ]
