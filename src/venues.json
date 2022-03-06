@@ -3622,5 +3622,22 @@
         "exceptions": [ ],
         "tags": [ "Nightclub", "Lounge", "VIP" ],
         "contacts": [ "430528854659039234" ]
+    },
+    {
+        "id": "J15wuFq0F",
+        "added": "2022-03-06T00:00:00Z",
+        "name": "Petrichor Coffee-Bar",
+        "banner": "assets/banners/petrichor.jpg",
+        "description": [ 
+            "Petrichor Coffee-Bar is an all-inclusive and relaxing space for those looking for a wonderful time. It has a wonderful café aesthetic, and friendly staff that is available for all sorts of chat and aid. Our aim is to provide a pocket of tranquility to all Eorzeans."
+        ],
+        "location": "Jenova, Lavender Beds, Ward 23, Apt 68",
+        "website": "https://petrichorcoffee.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "contacts": [ "819541112813387816" ]
     }
 ]
