@@ -3718,5 +3718,33 @@
         "exceptions": [ ],
         "tags": [ "Speakeasy", "Lounge", "Food", "Drink", "Open stage", "Triple triad" ],
         "contacts": [ "179070146940370945" ]
+    },
+    {
+        "id": "fOWbpTEDs",
+        "added": "2022-03-07T00:00:00Z",
+        "name": "Desert's Refuge",
+        "banner": "assets/banners/deserts-refuge.jpg",
+        "description": [ 
+            "Desert's Refuge is a SFW, lore-heavy RP tavern located in Ul'dah where adventurers and other characters that find themselves in the desert city can visit to escape the unforgiving environment and meet other characters.",
+            "You find an unassuming poster advertising Desert's refuge amidst countless advertisements in Ul'dah promoting the most lavish of inn rooms for millions, cures for incurable diseases, and taverns with fees to even enter.",
+            "Thirsty? We have drinks.",
+            "Hungry? We have food.",
+            "Just want some shade from the sun? Sure. Come on in.",
+            "No Brass Blades!"
+        ],
+        "location": "Cactaur, Goblet, Ward 5, Apt 22",
+        "website": "https://desertsrefuge.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 4,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Tavern", "Food", "IC RP only" ],
+        "contacts": [ "251885815750328330" ]
     }
 ]
