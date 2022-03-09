@@ -3771,5 +3771,38 @@
         "notices": [ "This venue is open every OTHER Wednesday night. Please check the venue's Discord for opening."],
         "tags": [ "Cafe", "Food", "Drink", "Open stage", "Triple triad", "Novel Services" ],
         "contacts": [ "71365155983720448" ]
+    },
+    {
+        "id": "jEBLrVOx6",
+        "added": "2022-03-09T00:00:00Z",
+        "name": "The Enchanted Fae Cafe",
+        "banner": "assets/banners/enchanted-fae-cafe.jpg",
+        "description": [ 
+            "A cafe set in a faerie-inspired world of fantasy and wonder.",
+            "Come relax with a cup of coffee or tea, a pastry or desert, and prepare yourself for a world of enchantment.",
+            "This venue is open stage! Come show off your barding skills atop lovely waterfalls.",
+            "Food and drinks have no set price and are offered to be paid as you wish.",
+            "We have an extensive menu of delights for you to choose from! Come sate your sweet tooth with a confection or pastry and a fresh barista-made drink!"
+        ],
+        "location": "Sargatanas, Lavender Beds, Ward 14, Plot 48",
+        "website": "https://enchantedfaecafe.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "171068461181566976" ]
     }
 ]
