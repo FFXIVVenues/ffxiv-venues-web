@@ -36,7 +36,10 @@ button.venue-profile__visited-button--visited {
     color: #EEE;
     border: solid #009B80 1px;
     background-color: rgba(0, 155, 128, .9);
+}
 
+.favorite-icon {
+    margin-right: 7px;
 }
 
 .venue-profile__details {

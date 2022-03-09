@@ -16,7 +16,7 @@ body.modal-open .modal-stage {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, .7);
-    z-index: 1;
+    z-index: 100;
     animation: .3s fadeIn;
 }
 

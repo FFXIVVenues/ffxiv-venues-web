@@ -17,7 +17,8 @@ import { favouritesService } from './services/favouritesService';
 import { VenueStrip } from './components/venue-strip/VenueStrip';
 import { propFilter, tagFilter, worldFilter } from "./filters/filters";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
-import {ReactComponent as DiscordIcon } from "./assets/discord-icon.svg";
+import { ReactComponent as DiscordIcon } from "./assets/discord-icon.svg";
+
 
 class App extends React.Component {
 
@@ -208,9 +209,6 @@ class App extends React.Component {
   }
 
   _renderFilters() {
-    let newVenues = venueService.getVenues().filter(v => v.isNew());
-    newVenues = newVenues.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
-
     return (
       <React.Fragment>
         <div className="aether-venues__tags">

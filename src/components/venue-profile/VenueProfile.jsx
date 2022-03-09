@@ -1,13 +1,11 @@
 import React from "react";
 import { Time } from "../time/Time";
-// import { NsfwIcon } from "../icons/NsfwIcon";
-// import { SfwIcon } from "../icons/SfwIcon";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import { Notice } from "../notice/notice";
 import days from "../../consts/days.json";
 import discordIcon from "../../assets/discord-icon.svg";
-import favouriteIcon from "../../assets/favourite-icon.svg";
+import { FavoriteIcon } from "../../components/icons/FavoriteIcon";
 import notVisitedIcon from "../../assets/not-visited-icon.svg";
 import visitedIcon from "../../assets/visited-icon.svg";
 import webIcon from "../../assets/web-icon.svg";
@@ -57,7 +55,7 @@ class VenueProfile extends React.Component {
                         <button 
                             className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
                             onClick={this._onFavoriteClick}>
-                            <img className="venue-profile__favourite-icon" src={favouriteIcon} alt="" />
+                            <FavoriteIcon lit={this.state.isFavourite} />
                             Favorite venue
                         </button>
 
@@ -143,27 +141,6 @@ class VenueProfile extends React.Component {
                             </table>
                         </article>
                     }
-{/* 
-                    <div className="venue-profile__badge-container">
-                        <div className={"venue-profile__sfw" + (this.props.venue.sfw ? " sfw" : " not-sfw")}>
-                            { this.props.venue.sfw 
-                                ? <React.Fragment>
-                                    <SfwIcon />
-                                    <span>This venue is a SFW venue.</span>
-                                </React.Fragment>
-                                : <span>This venue is NOT a SFW venue.</span> 
-                            }
-                        </div>
-                        <div className={"venue-profile__nsfw" + (this.props.venue.nsfw ? " nsfw" : " not-nsfw")}>
-                            { this.props.venue.nsfw ? 
-                                <React.Fragment>
-                                    <NsfwIcon />
-                                    <span>This venue offers NSFW services.</span>
-                                </React.Fragment> :
-                                <span>This venue does NOT offer NSFW services.</span>
-                            }
-                        </div>
-                    </div> */}
 
                     { this.props.venue.photos &&
                         <div className="venue-profile_photos">
