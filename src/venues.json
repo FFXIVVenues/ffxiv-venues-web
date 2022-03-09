@@ -3746,5 +3746,30 @@
         "exceptions": [ ],
         "tags": [ "Bar", "Tavern", "Food", "IC RP only" ],
         "contacts": [ "251885815750328330" ]
+    },
+    {
+        "id": "fA3H1TBwz",
+        "added": "2022-03-09T00:00:00Z",
+        "name": "AE Café",
+        "banner": "assets/banners/ae-cafe.jpg",
+        "description": [ 
+            "A subsidiary of The Aether Entertainer, hoping to provide a comfortable place to read, relax, or chat with the press staff. The cafe' was created with the intent of promoting The Aether Entertainer press and the featured venues or individuals each publication. During opening events, we hand out the latest newspaper early and serve warm beverages and baked goods. Since the topics we cover are ever-changing, so too will be the themed events we host here!"
+        ],
+        "location": "Midgardsormr, Shirogane, Ward 5, Plot 40",
+        "website": "https://aecafe.crd.co/",
+        "discord": "https://discord.gg/CShwnBjUcR",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ "This venue is open every OTHER Wednesday night. Please check the venue's Discord for opening."],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage", "Triple triad", "Novel Services" ],
+        "contacts": [ "71365155983720448" ]
     }
 ]
