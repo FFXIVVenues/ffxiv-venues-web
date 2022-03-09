@@ -2446,7 +2446,7 @@
         "name": "Atlantis",
         "banner": "assets/banners/atlantis.jpg",
         "description": [ "An LGBTQ+ Friendly, All-Inclusive FF14 Venue! Come relax. get a drink, dance, and have fun with our courtesans~" ],
-        "location": "Adamantoise, Shirogane, Ward 19, Plot 7",
+        "location": "Jenova, Goblet, Ward 6, Plot 5",
         "discord": "https://discord.gg/DNYP7vqmdc",
         "website": "https://atlantisxiv.carrd.co/",
         "sfw": true,
@@ -2454,16 +2454,6 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
