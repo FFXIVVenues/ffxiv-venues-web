@@ -3794,5 +3794,36 @@
         "notices": [ ],
         "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
         "contacts": [ "171068461181566976" ]
+    },
+    {
+        "id": "M6x5JNhCA",
+        "added": "2022-03-09T00:00:00Z",
+        "name": "TeaTime Tea House",
+        "banner": "assets/banners/teatime-tea-house.jpg",
+        "description": [ 
+            "TeaTime is the coziest tea house with an open stage and a lovely green and natural wood aesthetic with purple highlights, we serve 4 different teas and snacks with free tea refills.",
+            "We have 3 Tea Maids who are always happy to help~!"
+        ],
+        "location": "Cactuar, Goblet, Ward 14, Plot 50",
+        "website": "https://teatimes.carrd.co/",
+        "discord": "https://discord.gg/qk78rvhXWD",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "458795862877798411" ]
     }
 ]
