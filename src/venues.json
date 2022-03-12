@@ -1709,18 +1709,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1834,13 +1829,11 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -2507,7 +2500,12 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
@@ -2673,7 +2671,7 @@
             "Warm cozy bakery with fresh baked goods offered in dine in or take out. Our staff always ready to serve you with their best smile. Our open bard stage welcomes anyone who wants to charm us with their melody.",
             "The Bakery was founded with the love of Tuya and Lanna and the desire to provide a cozy and relaxing atmosphere to travelers from every corner of the land. Allowing them to rest with the best apple pie in Eorzea. "
         ],
-        "location": "Cactuar, Lavander Beds, Ward 17, Apt 58",
+        "location": "Cactuar, Goblet, Ward 1, Plot 54",
         "website": "https://thebakersbakery.carrd.co/#",
         "discord": "https://discord.gg/ytFGHXq6kf",
         "sfw": true,
@@ -2686,7 +2684,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Cafe", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Cafe", "Food", "Drink", "Open Stage", "Photography" ],
         "contacts": [ "880594476295389205" ]
     },
     {
@@ -3286,32 +3284,6 @@
         "contacts": [ "473614419130318848" ]
     },
     {
-        "id": "LLtO2kPp1",
-        "added": "2022-02-26T00:00:00Z",
-        "name": "Shonen",
-        "banner": "assets/banners/shonen.jpg",
-        "description": [ "Shonen is anew club in the Aether scene hoping to make a name for itself. When you visit the Shonen, you will experience an immersive nightclub experience with top-tier service, perks, music, and special events. Whether you'd like to come for the party, the drinks, or the live performances, we hope to make your weekends special! We do offer court services, but we are focused on relaxed vibes for all guests." ],
-        "location": "Sargatanas, Mist, Ward 11, Plot 45",
-        "discord": "https://discord.gg/sBa2kwcqV7",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Pillow", "Tarot", "Drink", "Photography", "VIP" ],
-        "contacts": [ "158281637031837696" ]
-    },
-    {
         "id": "K0TmBCK96",
         "added": "2022-02-26T00:00:00Z",
         "name": "The Eagle",
@@ -3454,8 +3426,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
