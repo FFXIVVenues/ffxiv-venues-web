@@ -1502,25 +1502,6 @@
         ]
     },
     {
-        "id": "F22tVRBR7",
-        "added": "2021-10-22T00:00:00Z",
-        "name": "Constellations",
-        "banner": "assets/banners/constellations.jpg",
-        "description": [ "Constellations is one of Gilgamesh's most popular hang outs, you'll often find many of the community hanging here listening to live music, eating their world renound spaghetti and chatting silly stories. 😀 " ],
-        "location": "Gilgamesh, Mist, Ward 13, Plot 7",
-        "shard": "Mist East",
-        "website": "https://constellationsbar.carrd.co/",
-        "discord": "https://discord.com/invite/PNF2pMc",
-        "contacts":["193451555649748992"],
-        "tags":["Lounge", "Food", "Drink", "Open stage"],
-        "sfw": true,
-        "nsfw": false,
-        "notices":[
-            "This venue is usually open at the below times at the discretion of the owners, it is not a fixed schedule. Please check the discord's announcements channel or party finder before visiting. 😉"
-        ],
-        "times": []
-    },
-    {
         "id": "PRvqBG99q",
         "added": "2021-10-25T00:00:00Z",
         "name": "Cozy Catsual",
@@ -3797,5 +3778,43 @@
         "notices": [ ],
         "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
         "contacts": [ "458795862877798411" ]
+    },
+    {
+        "id": "eVDaws0nh",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "BlueBird",
+        "banner": "assets/banners/bluebird.jpg",
+        "description": [ 
+            "Sit and focus while enjoying the ambience of a rooftop lounge."
+        ],
+        "location": "Gilgamesh, Mist, Ward 13, Plot 8",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Lounge", "Void", "Bards", "Open stage" ],
+        "contacts": [ "193451555649748992" ]
+    },
+    {
+        "id": "oT7smIIzP",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "Spaget",
+        "banner": "assets/banners/spaget.jpg",
+        "description": [ ],
+        "location": "Gilgamesh, Mist, Ward 13, Plot 7",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Restaurant", "Void", "Food", "Drink", "Open stage" ],
+        "contacts": [ "193451555649748992" ]
     }
 ]
