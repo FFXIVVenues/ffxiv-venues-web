@@ -15,13 +15,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "tags": [ "Nightclub", "Courtesans", "Dancers", "Food", "Pillow", "Drink", "Gambling", "Triple triad" ],
@@ -43,18 +43,18 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "tags": [ "Nightclub", "Courtesans", "Dancers", "Tarot", "Pillow", "Food", "Drink", "VIP" ],
@@ -80,23 +80,23 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             }
         ]
     },
@@ -116,13 +116,13 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -140,13 +140,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 30, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 30, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -165,7 +165,7 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -183,13 +183,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -208,13 +208,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -233,8 +233,8 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -256,18 +256,18 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -286,13 +286,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -311,18 +311,18 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -346,18 +346,18 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -376,23 +376,23 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             },
             {
                 "day": 1,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             },
             {
                 "day": 5,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -415,15 +415,15 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 6, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
             }
         ]
     },
@@ -443,8 +443,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -464,13 +464,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -490,18 +490,18 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -521,8 +521,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -543,13 +543,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [
@@ -575,33 +575,33 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -621,13 +621,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -647,8 +647,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -668,13 +668,13 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -694,38 +694,38 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },          
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -745,13 +745,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "comments":[ "Novel because it's not really anything - it's a large pink room with beds and bath made purely for NSFW gathering and activities. Brothel is most likely the closest if we add a tag for that." ]
@@ -772,8 +772,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -792,28 +792,28 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -833,13 +833,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -859,8 +859,8 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [
@@ -886,13 +886,13 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -912,13 +912,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -938,8 +938,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -959,28 +959,28 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1000,13 +1000,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1026,23 +1026,23 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1061,8 +1061,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1084,8 +1084,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1097,13 +1097,14 @@
         "location": "Gilgamesh, Goblet, Ward 23, Plot 23",
         "shard": "Goblet Northeast",
         "discord": "https://discord.gg/b79zUgVgt4",
+        "contacts": [ "759836030403608587" ],
         "sfw": true,
         "nsfw": false,
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1127,18 +1128,18 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1159,13 +1160,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [
@@ -1191,8 +1192,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -1212,8 +1213,8 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -1250,8 +1251,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1269,8 +1270,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1289,13 +1290,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1319,28 +1320,28 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 1,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 3,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 4,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -1357,19 +1358,19 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1390,8 +1391,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1411,8 +1412,8 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 6, "minute": 30, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true },
+                "end": { "hour": 8, "minute": 30, "nextDay": true }
             }
         ]
     },
@@ -1431,8 +1432,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1452,11 +1453,11 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1492,13 +1493,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -1562,15 +1563,15 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1607,7 +1608,7 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1625,13 +1626,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "tags": [ "Nightclub", "Bar", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "Gambling" ],
@@ -1660,13 +1661,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1691,13 +1692,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1714,31 +1715,31 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1772,23 +1773,23 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1811,11 +1812,11 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1839,13 +1840,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -1869,38 +1870,38 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -1939,8 +1940,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -1962,13 +1963,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -1989,13 +1990,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2017,28 +2018,28 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2063,13 +2064,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2092,8 +2093,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2117,13 +2118,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ 
@@ -2150,18 +2151,18 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2236,23 +2237,23 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2273,8 +2274,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
@@ -2315,8 +2316,8 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2339,23 +2340,23 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2375,8 +2376,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2397,18 +2398,18 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2429,8 +2430,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2454,8 +2455,8 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 30, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 30, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2482,13 +2483,13 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2513,18 +2514,18 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2547,13 +2548,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
@@ -2576,11 +2577,11 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2603,18 +2604,18 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2636,8 +2637,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2661,8 +2662,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
@@ -2703,13 +2704,13 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2732,8 +2733,8 @@
         "times": [ 
             {
                 "day": 5,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
@@ -2756,18 +2757,18 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2790,15 +2791,15 @@
         "times": [ 
             {
                 "day": 0,
-                "start": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2821,8 +2822,8 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2845,13 +2846,13 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2876,13 +2877,13 @@
         "times": [ 
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2905,13 +2906,13 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2936,8 +2937,8 @@
         "times": [ 
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2959,13 +2960,13 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2990,8 +2991,8 @@
         "times": [ 
             {
                 "day": 3,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3014,13 +3015,13 @@
         "times": [ 
             {
                 "day": 3,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 30, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 30, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3044,8 +3045,8 @@
         "times": [ 
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3072,8 +3073,8 @@
         "times": [ 
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3093,8 +3094,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3117,18 +3118,18 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 0, "minute": 30, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 30, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 30, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 30, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 0, "minute": 30, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 30, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3152,8 +3153,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3176,23 +3177,23 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3215,18 +3216,18 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3252,13 +3253,13 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3278,8 +3279,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3302,38 +3303,38 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3359,8 +3360,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3383,8 +3384,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 30, "nextDay": true },
-                "end": { "hour": 3, "minute": 30, "nextDay": true }
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
+                "end": { "hour": 2, "minute": 30, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3408,8 +3409,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3432,8 +3433,8 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3455,8 +3456,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3479,8 +3480,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
@@ -3502,18 +3503,18 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3535,8 +3536,8 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3557,35 +3558,18 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
         "tags": [ "Nightclub", "Lounge", "VIP" ],
         "contacts": [ "430528854659039234" ]
-    },
-    {
-        "id": "J15wuFq0F",
-        "added": "2022-03-06T00:00:00Z",
-        "name": "Petrichor Coffee-Bar",
-        "banner": "assets/banners/petrichor.jpg",
-        "description": [ 
-            "Petrichor Coffee-Bar is an all-inclusive and relaxing space for those looking for a wonderful time. It has a wonderful café aesthetic, and friendly staff that is available for all sorts of chat and aid. Our aim is to provide a pocket of tranquility to all Eorzeans."
-        ],
-        "location": "Jenova, Lavender Beds, Ward 23, Apt 68",
-        "website": "https://petrichorcoffee.carrd.co/#",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ ],
-        "exceptions": [ ],
-        "tags": [ "Cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
-        "contacts": [ "819541112813387816" ]
     },
     {
         "id": "J15wuFq0F",
@@ -3621,8 +3605,8 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3639,24 +3623,23 @@
         ],
         "location": "Midgardsormr, Shirogane, Ward 22, Apt 52",
         "website": "https://the-kay.carrd.co",
-        "discord": "",
         "sfw": true,
         "nsfw": false,
         "times": [ 
             {
                 "day": 0,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3683,8 +3666,8 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
@@ -3707,8 +3690,8 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3735,13 +3718,13 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3766,13 +3749,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3806,11 +3789,13 @@
         "location": "Gilgamesh, Mist, Ward 13, Plot 7",
         "sfw": true,
         "nsfw": false,
+        "website": "https://spaget2112.crd.co/",
+        "discord": "https://discord.gg/RvscZDfd6m",
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
          ],
         "exceptions": [ ],
@@ -3832,18 +3817,18 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
          ],
         "exceptions": [ ],
@@ -3867,13 +3852,42 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
          ],
         "exceptions": [ ],
         "notices": [ ],
         "tags": [ "Nightclub", "Bar", "Courtesans", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Photography", "VIP" ],
         "contacts": [ "255053658570489857" ]
+    },
+    {
+        "id": "WR12JqNrn",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "Déjà Brew",
+        "banner": "assets/banners/deja-brew.jpg",
+        "description": [ 
+            "Déjà Brew is a couples cafe ran by Momoko Miki. We serve people who want to go out on a date with their loved ones, and supply dates to the ones alone~ No one walks out sad from Déjà Brew! You must be 18+ to indulge in any romantic activities",
+            "Gposes, dates, meals, VIP memberships, dungeon runs with our lovely staff, raffles, and more. We have wonderful guest appreciation events like guest of the month, who wins a month of free VIP which includes 1 free date a week with your fav staff member and free meals on the house once a day for you and your partner, raffles to run maps or content like mount farms or trials to bond with the Déjà Brew Crew!",
+            "We just want a wholesome loving community where everyone can feel loved. We enjoy making you smile, and want to do our best to make sure you leave Déjà Brew loved, that way your trip to Déjà Brew becomes Déjà Vu when you keep coming back for more!",
+            "Events included, like raffles to go on map runs with the Brew Crew for you and a date, mount farming, and movie nights! So come on down to Déjà Brew♥"
+        ],
+        "location": "Faerie, Shirogane, Ward 21, Plot 44",
+        "website": "https://dejabrewinfo.carrd.co/",
+        "discord": "https://discord.gg/dejabrew",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Pillow", "Photography", "Food", "Drink", "VIP", "Novel services" ],
+        "comments": [ "Novel because it provides a date if you don't have one." ],
+        "contacts": [ "908051521940373514" ]
     }
 ]
