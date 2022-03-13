@@ -372,6 +372,7 @@
         "sfw": true,
         "nsfw": false,
         "tags": [ "Cafe", "Food", "Drink" ],
+        "contacts": [ "351184886570287104" ],
         "times": [
             {
                 "day": 0,
@@ -3818,7 +3819,7 @@
         "contacts": [ "193451555649748992" ]
     },
     {
-        "id": "oT7smIIzP",
+        "id": "OdPJWtcbt",
         "added": "2022-03-13T00:00:00Z",
         "name": "Genie Bottle",
         "banner": "assets/banners/genie-bottle.jpg",
@@ -3849,5 +3850,30 @@
         "notices": [ ],
         "tags": [ "Nightclub", "Bar", "Dancers", "Bards", "Drink", "Open stage" ],
         "contacts": [ "488984824162418708" ]
+    },
+    {
+        "id": "jprZYhV4t",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "4S",
+        "banner": "assets/banners/4s.jpg",
+        "description": [ 
+            "Welcome to 4S a place where you can party till either you pass out or the DJ passes out!!! Come join us for a drink at our bar and enjoy one of our Seasonally named drinks. We have live DJs weekly as well as Game Masters on hand should you be feeling a bit lucky. We also have our lovely courtesans who would love to get you to know you." 
+        ],
+        "location": "Faerie, Goblet, Ward 22, Plot 19",
+        "website": "https://4seasons-ffxiv.carrd.co/#menu",
+        "discord": "https://discord.gg/4sofficial",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Photography", "VIP" ],
+        "contacts": [ "255053658570489857" ]
     }
 ]
