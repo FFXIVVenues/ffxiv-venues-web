@@ -3889,5 +3889,90 @@
         "tags": [ "Cafe", "Pillow", "Photography", "Food", "Drink", "VIP", "Novel services" ],
         "comments": [ "Novel because it provides a date if you don't have one." ],
         "contacts": [ "908051521940373514" ]
+    },
+    {
+        "id": "OzA00HMg8",
+        "added": "2022-03-14T00:00:00Z",
+        "name": "Yuukimura Teahouse",
+        "banner": "assets/banners/yuukimura-teahouse.jpg",
+        "description": [ 
+            "A small relaxing traditionally inspired teahouse, nestled in the heart of Limsa. Fresh beverages and sweets along with a serene atmosphere."
+        ],
+        "location": "Siren, Mist, Ward 13, Apt 75",
+        "website": "https://yuukimura-teahouse.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 16, "minute": 0, "nextDay": false }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Lounge", "Drink", "Open stage", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "390253819965210624" ]
+    },
+    {
+        "id": "jswap5LDf",
+        "added": "2022-03-14T00:00:00Z",
+        "name": "Dreaming Dodo Maid Cafe",
+        "banner": "assets/banners/dreaming-dodo.jpg",
+        "description": [ 
+            "The Dreaming Dodo is a SFW, RP friendly maid cafe with a laid back atmosphere. We have a number of maids and butlers, a variety of services, and live music to offer you a relaxing evening."
+        ],
+        "location": "Adamantoise, Goblet, Ward 22, Plot 37",
+        "website": "https://dreamingdodo.carrd.co/",
+        "discord": "https://discord.gg/S833brP",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Maid cafe", "Artists", "Bards", "Food", "Photography", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "155167628237733890" ]
+    },
+    {
+        "id": "U1wG2eW5T",
+        "added": "2022-03-14T00:00:00Z",
+        "name": "Tatsu Onsen",
+        "banner": "assets/banners/tatsu-onsen.jpg",
+        "description": [ 
+            "Tatsu Onsen is the largest shrine to Tatsugami! We value his views! As such we look to providing a place of comfort and fun! In this case we are a Bathhouse! We offer food and entertainment currently in the form of dances and cooking shows!"
+        ],
+        "location": "Migardsormr, Shirogane, Ward 4, Plot 47",
+        "website": "https://tatsuonsen.carrd.co/",
+        "discord": "https://discord.gg/5y2wqKwC5t",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Bath House", "Dancers", "Drink" ],
+        "comments": [  ],
+        "contacts": [ "260211568950771715" ]
     }
 ]
