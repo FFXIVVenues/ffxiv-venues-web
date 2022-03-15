@@ -3957,5 +3957,86 @@
         "tags": [ "Bar", "Bath House", "Dancers", "Drink" ],
         "comments": [  ],
         "contacts": [ "260211568950771715" ]
+    },
+    {
+        "id": "a7Yft4gnw",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "The Locker Room",
+        "banner": "assets/banners/locker-room.jpg",
+        "description": [ 
+            "A completely normal Locker Room, come on down and get changed in a place where privacy is definitely not guaranteed."
+        ],
+        "location": "Siren, Mist, Ward 1, Plot 11",
+        "website": "https://thelockerroom.carrd.co/#",
+        "discord": "https://discord.gg/udbytkwEQk",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Lounge", "Novel services", "IC RP only" ],
+        "comments": [ "I THINK the novel service is a sports talk show, based on the layout of the venue." ],
+        "contacts": [ "140213707589287936" ]
+    },
+    {
+        "id": "RRDJWwMuq",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "The Cat Girl Nightclub",
+        "banner": "assets/banners/cat-girl-nightclub.jpg",
+        "description": [ 
+            "CATS!",
+            "We've got courts, we've got dancers, we've got gamba and we've got drinks! What more could you need?!"
+        ],
+        "location": "Siren, Lavender Beds, Ward 16, Plot 42",
+        "website": "https://thecatgirlnightclub.carrd.co/",
+        "discord": "https://discord.gg/ujeB8aYm4E",
+        "sfw": false,
+        "nsfw": true,
+        "times": [ ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open stage", "VIP" ],
+        "comments": [ "" ],
+        "contacts": [ "204909380251025408" ]
+    },
+    {
+        "id": "Vdh9ZNxUx",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "Pogazu Pizza",
+        "banner": "assets/banners/pogazu-pizza.jpg",
+        "description": [ 
+            "Pogazu is the most unhinged (and longest running) pizza-related venue on Aether. Casual? pizza atmosphere where you can order quite literally anything on a pizza! Just don't ask for Namazu. The staff may serve you with a smile one moment, then threaten you with a flamethrower the next. It's the venue where everything's made up and the points don't matter!"
+        ],
+        "location": "Adamantoise, The Goblet, Ward 11, Plot 55",
+        "website": "https://pogazu.carrd.co/#",
+        "discord": "https://discord.gg/ZYq5yUsC5T",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Food", "Drink", "Open stage", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "81069060841811968" ]
     }
 ]
