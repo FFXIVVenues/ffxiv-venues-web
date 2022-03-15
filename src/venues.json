@@ -4038,5 +4038,35 @@
         "tags": [ "Bar", "Food", "Drink", "Open stage", "Triple triad" ],
         "comments": [  ],
         "contacts": [ "81069060841811968" ]
+    },
+    {
+        "id": "Q8XsLYauN",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "Black Rose",
+        "banner": "assets/banners/black-rose.jpg",
+        "description": [ 
+            "Its a cozy little party venue with live music gambling and nsfw availabilities. as of right now we are in a small but our next order of business is to obtain a large which is set in stone not just being hopeful."
+        ],
+        "location": "Jenova, Shirogane, Ward 22, Plot 25",
+        "discord": "https://discord.gg/7kXWmEySVc",
+        "sfw": true,
+        "nsfw": true,
+        "times": [ 
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Tavern", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography" ],
+        "comments": [  ],
+        "contacts": [ "137688798627758081" ]
     }
 ]
