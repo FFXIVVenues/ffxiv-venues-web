@@ -205,18 +205,7 @@
         "nsfw": true,
         "tags": [ "Bath House", "Food", "Drink", "Courtesans", "Bards" ],
         "contacts": [ "285136055416520704" ],
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": [ ]
     },
     {
         "id": "5RO5fjqO",
@@ -230,13 +219,7 @@
         "nsfw": true,
         "tags": [ "Bar", "Lounge", "Courtesans", "Void" ],
         "contacts": [ "285136055416520704" ],
-        "times": [ 
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": [ ]
     },
     {
         "id": "sI6UilnO",
