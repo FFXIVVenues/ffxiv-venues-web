@@ -1915,7 +1915,7 @@
             "A Fun Social Night Club Environment you won't soon forget!"
         ],
         "location": "Sargatanas, Goblet, Ward 16, Plot 43",
-        "discord": "https://discord.io/bassbumpers",
+        "discord": "https://discord.gg/G6WQBGXFcC",
         "sfw": true,
         "nsfw": true,
         "tags": [ "Nightclub", "Drink", "Courtesans", "Twitch DJ" ],
@@ -4068,5 +4068,23 @@
         "tags": [ "Bar", "Tavern", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography" ],
         "comments": [  ],
         "contacts": [ "137688798627758081" ]
+    },
+    {
+        "id": "dKkIMbmPO",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "Mrs. Dawn's Bath House",
+        "banner": "assets/banners/mrs-dawns-bath-house.jpg",
+        "description": [ 
+            "Come and relax, chat, and pull each others ears at Mrs. Dawn's peaceful bath house! Open most days either at noon EST, or the 6pm EST; just check the PF! ♥️"
+        ],
+        "location": "Siren, Mist, Ward 8, Apt 47",
+        "sfw": false,
+        "nsfw": true,
+        "times": [ ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bath house" ],
+        "comments": [  ],
+        "contacts": [ "872323861033680957" ]
     }
 ]
