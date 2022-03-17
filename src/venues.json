@@ -4117,5 +4117,35 @@
         "tags": [ "Bath house" ],
         "comments": [  ],
         "contacts": [ "872323861033680957" ]
+    },
+    {
+        "id": "E9afNjiH4",
+        "added": "2022-03-17T00:00:00Z",
+        "name": "Fiddlesticks' Funny Flat",
+        "banner": "assets/banners/fiddlesticks-funny-flat.jpg",
+        "description": [ 
+            "The Funny Flat is my humble Eorzean comedy club crashpad, where I occasionally host a refreshing smoothie bowl service featuring flavors in customized combinations! Adventurers can wander in freely expecting a bountiful blend of lively banter peppered with puns and punchlines, along with other light-hearted, fruit-filled fare. Spoony bards, poets and aspiring stand-up comedians are welcome to hone their craft in my colorful sitting room, and all are invited to drop in for a giggle."
+        ],
+        "location": "Faerie, Goblet, Ward 17 Sub, Apt 6",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://sites.google.com/view/funnyflat/home",
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 18, "minute": 0, "nextDay": false }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Bards", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "254069230780153867" ]
     }
 ]
