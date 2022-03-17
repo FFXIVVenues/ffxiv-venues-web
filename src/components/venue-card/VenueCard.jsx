@@ -4,6 +4,8 @@ import { Modal } from "../modal/Modal";
 import { Time } from "../time/Time";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { VenueOpening } from "../venue-opening/VenueOpening";
+import { FavoriteIcon } from "../icons/FavoriteIcon";
+import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
 
 class VenueCard extends VenueOpening {
 
@@ -15,10 +17,10 @@ class VenueCard extends VenueOpening {
                  onClick={ this._onVenueClick.bind(this) }
                  style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : { backgroundImage: `url("assets/default-banner.jpg")` } }>
 
-                { this.props.venue.isFavorite() ? 
-                    <div className="venue-card__new">new!</div> :
-                    null
-                }
+                <div className="venue-card__options">
+                    { this.props.venue.isFavorite() && <FavoriteIcon lit /> }
+                    { this.props.venue.isVisited() && <VisitedIcon /> }
+                </div>
 
                 { this.props.venue.isNew() ? 
                     <div className="venue-card__new">new!</div> :

@@ -30,9 +30,6 @@ a {
   color: inherit;
 }
 
-.app-root {
-}
-
 .aether-venues__banner-credit {
   font-size: small;
   margin-top: 10px;
@@ -54,6 +51,7 @@ a {
 
 .aether-venues__heading img {
   height: 40px;
+  margin: 2.5px;
 }
 
 .aether-venues__heading h1 {
@@ -61,12 +59,23 @@ a {
   margin: 0;
 }
 
+.aether-venues__colaborators {
+  display: inline-flex;
+  align-items: center;
+  color: gray;
+  vertical-align: middle;
+  float: right;
+}
+
+.aether-venues__colaborators img {
+  margin-left: 15px
+}
+
 .aether-venues__tags {
   margin-bottom: 20px;
   height: 36px;
   position: relative;
 }
-
 
 .aether-venues__tags:before {
   content  : "";
@@ -101,6 +110,8 @@ a {
   border-radius: 6px;
   background-color: #111;
   border: solid 1px #333;
+  color: white;
+  font-size: 1em;
   padding: 5px 15px 7px 15px;
   margin-right: 10px;
   cursor: pointer;
@@ -148,8 +159,6 @@ a {
 
 .aether-venues__discord {
   border-radius: 5px;
-  /* background-color: rgba(255, 255, 255, .6); */
-  /* color: #333; */
   background-color: var(--background-color);
   width: 20vh;
   padding: 15px;
@@ -201,30 +210,8 @@ a {
   margin-right: 10px;
 }
 
-.aether-venues__made-by-details {
-  /* margin-top: 10px */
-}
-
 .aether-venues__made-by-individual .aether-venues__made-by-position {
   font-size: .8em;
-}
-
-body.light {
-  background-color: #B1B096;
-  color: #333;
-}
-
-.light a {
-  color: #222;
-}
-
-.light .aether-venues__banner-credit {
-  text-shadow: none;
-}
-
-.light .aether-venues__heading, .light .aether-venues__definition {
-  color: #BBB;
-  text-shadow: 0px 0px 15px #888;
 }
 
 @media screen and (max-width: 615px) {
@@ -232,6 +219,5 @@ body.light {
   .aether-venues__heading { margin-bottom: 110px; flex-direction: column; align-items: flex-start; }
   .aether-venues__heading h1 { margin-left: 0; }
   .aether-venues__definition { margin-bottom: 20px; text-shadow: none; }
-  .light .aether-venues__definition { color: #333; }
   .aether-venues__venues { margin-right: 20px }
 }

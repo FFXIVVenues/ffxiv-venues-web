@@ -1,14 +1,10 @@
 // TODO
-// Add link to form
-// Add favorite indicator (using new SVG method)
-// Add visited indicator (using new SVG method)
-// Photo for painted rose
-// Add logo for Aether Entertainer
+// Fix horizontal scroll
 // Add view mode switching
+// New OG/Social Card and favicons
 
 import React from 'react';
 import './App.css';
-// import { VenueOpening } from "./components/venue-opening/VenueOpening";
 import { ModalStage } from "./components/modal-stage/ModalStage";
 import days from "./consts/days.json"
 import { venueService } from './services/venueService';
@@ -17,7 +13,8 @@ import { favouritesService } from './services/favouritesService';
 import { VenueStrip } from './components/venue-strip/VenueStrip';
 import { propFilter, tagFilter, worldFilter } from "./filters/filters";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
-import { ReactComponent as DiscordIcon } from "./assets/discord-icon.svg";
+import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
+import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 
 
 class App extends React.Component {
@@ -214,30 +211,30 @@ class App extends React.Component {
         <div className="aether-venues__tags">
           <HorizontalScroll reverseScroll>
             { this._worldFilters.map(f => 
-              <a key={f.label} className={"aether-venues__tag" + (this.state.enabledWorldFilter === f.key ? " aether-venues__tag--enabled" : "")}
+              <button key={f.label} className={"aether-venues__tag" + (this.state.enabledWorldFilter === f.key ? " aether-venues__tag--enabled" : "")}
                   onClick={() => this.state.enabledWorldFilter === f.key ? this.setState({ enabledWorldFilter: null }) : this.setState({ enabledWorldFilter: f.key })}>
                 {f.label}
-              </a>
+              </button>
             )}
           </HorizontalScroll>
         </div>
         <div className="aether-venues__tags">
           <HorizontalScroll reverseScroll>
           { this._typeFilters.map(f => 
-            <a key={f.label} className={"aether-venues__tag" + (this.state.enabledTypeFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
+            <button key={f.label} className={"aether-venues__tag" + (this.state.enabledTypeFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
                 onClick={() => this.toggleTypeFilter(f.key)}>
               {f.label}
-            </a>
+            </button>
           )}
           </HorizontalScroll>
         </div>
         <div className="aether-venues__tags">
           <HorizontalScroll reverseScroll>
             { this._featureFilters.map(f => 
-              <a key={f.label} className={"aether-venues__tag" + (this.state.enabledFeatureFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
+              <button key={f.label} className={"aether-venues__tag" + (this.state.enabledFeatureFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
                   onClick={() => this.toggleFeatureFilter(f.key)}>
                 {f.label}
-              </a>
+              </button>
             )}
           </HorizontalScroll>
         </div>
@@ -251,6 +248,10 @@ class App extends React.Component {
         <div className="aether-venues">
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
+            <div className="aether-venues__colaborators">
+              In colaboration with
+              <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noopener"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
+            </div>
           </div>
           <div className="aether-venues__list">
             { this._renderFilters() }
@@ -261,25 +262,50 @@ class App extends React.Component {
             { this._renderUnscheduledVenues() } 
           </div>
           <div className="aether-venues__meta-panel">
+          <div className="aether-venues__discord">
+              <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div>
+              <a className="aether-venues__discord-button" target="_blank" rel="noopener" href="https://form.jotform.com/220493425516050">Complete the form!</a>
+            </div>
             <div className="aether-venues__discord">
-              <div className="aether-venues__discord-cta"><DiscordIcon/> Looking for the home of FFXIV Venues?</div>
-              <a className="aether-venues__discord-button" target="_blank" rel="noreferrer" href="https://discord.gg/gTP65VYcMj">Join the discord!</a>
+              <div className="aether-venues__discord-cta"><DiscordIcon /> Looking for the home of FFXIV Venues?</div>
+              <a className="aether-venues__discord-button" target="_blank" rel="noopener" href="https://discord.gg/gTP65VYcMj">Join the discord!</a>
             </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
-                <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
                 <div className="aether-venues__made-by-position">Developer, Venue Indexer (Aether)</div>
               </div>
             </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/d6583919ef6756c46ee9cac82110041a_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
-                <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/">Here Xumm</a>, Siren.</div>
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://ada.xumm.ffxivphotography.com/">Here Xumm</a>, Siren.</div>
                 <div className="aether-venues__made-by-position">Venue Photographer</div>
               </div>
             </div>
-          </div>  
+            <div className="aether-venues__made-by-individual">
+              <img src="https://img2.finalfantasyxiv.com/f/87561ceb44aa7c85284e3e941f403394_ba22853447012a24cee115315d6a5bebfc0_96x96.jpg" alt=""/>
+              <div className="aether-venues__made-by-details">
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/99616043571380224">Ganymede Aqua</a>, Sargatanas.</div>
+                <div className="aether-venues__made-by-position">Community Administrator</div>
+              </div>
+            </div>
+            <div className="aether-venues__made-by-individual">
+              <img src="https://img2.finalfantasyxiv.com/f/8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0_96x96.jpg" alt=""/>
+              <div className="aether-venues__made-by-details">
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/880594476295389205">Lanna'baker Kha</a>, Cactuar.</div>
+                <div className="aether-venues__made-by-position">Community Administrator</div>
+              </div>
+            </div>
+            <div className="aether-venues__made-by-individual">
+              <img src="https://img2.finalfantasyxiv.com/f/639157419cc474330657cc764b33c9ea_1f5fd239b885860b7c2bfc72ad1d97effc0_96x96.jpg" alt=""/>
+              <div className="aether-venues__made-by-details">
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/227307380616986634">Axelle Lenoir</a>, Adamantoise.</div>
+                <div className="aether-venues__made-by-position">Community Administrator</div>
+              </div>
+            </div>
+          </div>
         </div>
       </React.Fragment>
     );

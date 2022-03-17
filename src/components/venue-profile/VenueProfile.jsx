@@ -4,11 +4,11 @@ import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import { Notice } from "../notice/notice";
 import days from "../../consts/days.json";
-import discordIcon from "../../assets/discord-icon.svg";
 import { FavoriteIcon } from "../../components/icons/FavoriteIcon";
-import notVisitedIcon from "../../assets/not-visited-icon.svg";
-import visitedIcon from "../../assets/visited-icon.svg";
-import webIcon from "../../assets/web-icon.svg";
+import { ReactComponent as NotVisitedIcon }  from "../../assets/icons/not-visited-icon.svg";
+import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
+import { ReactComponent as WebIcon } from "../../assets/icons/web-icon.svg";
+import { ReactComponent as DiscordIcon } from "../../assets/icons/discord-icon.svg";
 import { DateString } from "../date/Date";
 import "./venue-profile.css";
 
@@ -62,10 +62,7 @@ class VenueProfile extends React.Component {
                         <button 
                             className={"venue-profile__visited-button" + (this.state.isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
                             onClick={this._onVisitedClick}>
-                            { this.state.isVisited ? 
-                                <img className="venue-profile__visited-icon" src={visitedIcon} alt="" /> :
-                                <img className="venue-profile__visited-icon" src={notVisitedIcon} alt="" />
-                            }
+                            { this.state.isVisited ? <VisitedIcon /> : <NotVisitedIcon /> }
                             Visited
                         </button>
                     </div>
@@ -79,12 +76,12 @@ class VenueProfile extends React.Component {
                         </h2>                
                         { this.props.venue.website && 
                             <a className="venue-profile__website" target="_blank" rel="noreferrer" href={this.props.venue.website}>
-                                <img src={webIcon} alt="" />
+                                <WebIcon />
                             </a>
                         }
                         { this.props.venue.discord && 
                             <a className="venue-profile__discord" target="_blank" rel="noreferrer" href={this.props.venue.discord}>
-                                <img src={discordIcon} alt="" />
+                                <DiscordIcon />
                             </a>
                         }
                     </div>
