@@ -15,13 +15,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "tags": [ "Nightclub", "Courtesans", "Dancers", "Food", "Pillow", "Drink", "Gambling", "Triple triad" ],
@@ -43,18 +43,18 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "tags": [ "Nightclub", "Courtesans", "Dancers", "Tarot", "Pillow", "Food", "Drink", "VIP" ],
@@ -80,23 +80,23 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
             }
         ]
     },
@@ -116,13 +116,13 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -140,13 +140,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 30, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 30, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -165,38 +165,7 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "FcQP1E1F",
-        "added": "2021-08-08T00:00:00Z",
-        "name": "The Crypt",
-        "banner": "assets/banners/crypt.jpg",
-        "description": [ "Come to your eternal rest with us at The Crypt. Drinks, music, and prizes await beyond the cemetery gates!" ],
-        "location": "Gilgamesh, Lavender Beds, Ward 18, Plot 36",
-        "shard": "Lavender South Subdivision",
-        "discord": "https://discord.gg/h56U6qnQR8",
-        "sfw": true,
-        "nsfw": true,
-        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Courtesans", "Bards", "Food", "Drink", "Tarot" ],
-        "contacts": [ "833362821727125524" ],
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -214,13 +183,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -236,18 +205,7 @@
         "nsfw": true,
         "tags": [ "Bath House", "Food", "Drink", "Courtesans", "Bards" ],
         "contacts": [ "285136055416520704" ],
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": [ ]
     },
     {
         "id": "5RO5fjqO",
@@ -261,20 +219,16 @@
         "nsfw": true,
         "tags": [ "Bar", "Lounge", "Courtesans", "Void" ],
         "contacts": [ "285136055416520704" ],
-        "times": [ 
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": [ ]
     },
     {
         "id": "sI6UilnO",
         "added": "2021-08-11T00:00:00Z",
         "name": "The Twilight Moon",
         "banner": "assets/banners/twilight-moon.jpg",
-        "description": [ "Fae inspired venue with Twilight Moon Quintet live music 3 nights a week! The Twilight Moon is the home of the Twilight Moon Quintet." ],
+        "description": [ 
+            "Fae inspired venue with live music from the Twilight Moon Quintet, and featuring an array of talent including DJs, bards, bands and macro-dancers! The Twilight Moon is the home of the Twilight Moon Quintet."
+         ],
         "location": "Faerie, Goblet, Ward 11, Plot 34",
         "website": "https://www.twilight-moon.net/",
         "discord": "https://discord.gg/Ru84CaU2fw",
@@ -285,13 +239,18 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -310,13 +269,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -335,18 +294,18 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -370,18 +329,18 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -396,26 +355,27 @@
         "sfw": true,
         "nsfw": false,
         "tags": [ "Cafe", "Food", "Drink" ],
+        "contacts": [ "351184886570287104" ],
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             },
             {
                 "day": 1,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             },
             {
                 "day": 5,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 10, "minute": 0, "nextDay": false },
+                "end": { "hour": 14, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -429,21 +389,24 @@
         "website": "https://wanderers-wayrest.carrd.co/",
         "discord": "https://discord.gg/bQ5ukvHEfv",
         "sfw": true,
-        "nsfw": false,
-        "tags":[ "Bar", "Lounge", "Bath House", "Food", "Drink", "Novel" ],
+        "nsfw": true,
+        "tags":[ "Bar", "Lounge", "Bath House", "Food", "Drink", "Novel Services" ],
+        "comments": [
+            "Novelty is massages work up to ERP style massages"
+        ],
         "contacts":["755971008728400033"],
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 6, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true }
             }
         ]
     },
@@ -463,8 +426,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -484,13 +447,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -510,18 +473,18 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -541,8 +504,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -563,13 +526,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [
@@ -595,33 +558,33 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -641,13 +604,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -667,8 +630,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -688,13 +651,13 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -714,38 +677,38 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             },          
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 11, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -765,13 +728,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "comments":[ "Novel because it's not really anything - it's a large pink room with beds and bath made purely for NSFW gathering and activities. Brothel is most likely the closest if we add a tag for that." ]
@@ -792,8 +755,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -812,28 +775,28 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 8, "minute": 30, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -853,13 +816,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -879,8 +842,8 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [
@@ -906,13 +869,13 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -932,13 +895,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -958,8 +921,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -979,28 +942,28 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 13, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1020,13 +983,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1046,23 +1009,23 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1081,8 +1044,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1104,8 +1067,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1117,13 +1080,14 @@
         "location": "Gilgamesh, Goblet, Ward 23, Plot 23",
         "shard": "Goblet Northeast",
         "discord": "https://discord.gg/b79zUgVgt4",
+        "contacts": [ "759836030403608587" ],
         "sfw": true,
         "nsfw": false,
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1147,18 +1111,18 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1179,13 +1143,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [
@@ -1210,9 +1174,9 @@
         "nsfw": false,
         "times": [
             {
-                "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "day": 1,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -1232,24 +1196,25 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ]
     },
     {
         "id": "mKnEDYc6z",
-        "added": "2021-10-03T00:00:00Z",
-        "name": "The Snow Bunny Cafe",
-        "banner": "assets/banners/the-snow-bunny-cafe.jpg",
-        "description": [ " A small cozy cafe tucked away in the Lavender beds. The menu is focused on a variety of tea and pastries to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for lunch, you wont be disappointed!" ],
+        "added": "2022-03-03T00:00:00Z",
+        "name": "The Rose Petal",
+        "banner": "assets/banners/rose-petal.jpg",
+        "description": [ 
+            "A spritely nightclub tucked away in the Lavender beds. The menu is focused on a variety of cocktails to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for drinks, you wont be disappointed!" 
+        ],
         "location": "Gilgamesh, Lavender Beds, Ward 15, Apt 39",
         "shard": "Lilly Hills",
         "discord": "https://discord.gg/ckch8s4X7c",
-        "website": "https://snowbunnycafe.carrd.co/",
         "sfw": true,
         "nsfw": false,
-        "tags":[ "Cafe", "Food", "Drink", "Open stage", "Bards" ],
+        "tags":[ "Nightclub", "Lounge", "Drink", "Open stage", "Bards" ],
         "contacts": [ "244551427052142592" ],
         "times": [
         ]
@@ -1269,8 +1234,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1288,8 +1253,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1308,13 +1273,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1338,28 +1303,28 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 1,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 3,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             },
             {
                 "day": 4,
-                "start": { "hour": 14, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
             }
         ]
     },
@@ -1376,19 +1341,19 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1409,8 +1374,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1430,8 +1395,8 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 6, "minute": 30, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 30, "nextDay": true },
+                "end": { "hour": 8, "minute": 30, "nextDay": true }
             }
         ]
     },
@@ -1450,8 +1415,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1467,14 +1432,15 @@
         "website": "https://attika.carrd.co/",
         "sfw": true,
         "nsfw": true,
+        "contacts": [ "215075869360652288" ],
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1510,34 +1476,15 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ]
-    },
-    {
-        "id": "F22tVRBR7",
-        "added": "2021-10-22T00:00:00Z",
-        "name": "Constellations",
-        "banner": "assets/banners/constellations.jpg",
-        "description": [ "Constellations is one of Gilgamesh's most popular hang outs, you'll often find many of the community hanging here listening to live music, eating their world renound spaghetti and chatting silly stories. 😀 " ],
-        "location": "Gilgamesh, Mist, Ward 13, Plot 7",
-        "shard": "Mist East",
-        "website": "https://constellationsbar.carrd.co/",
-        "discord": "https://discord.com/invite/PNF2pMc",
-        "contacts":["193451555649748992"],
-        "tags":["Lounge", "Food", "Drink", "Open stage"],
-        "sfw": true,
-        "nsfw": false,
-        "notices":[
-            "This venue is usually open at the below times at the discretion of the owners, it is not a fixed schedule. Please check the discord's announcements channel or party finder before visiting. 😉"
-        ],
-        "times": []
     },
     {
         "id": "PRvqBG99q",
@@ -1599,15 +1546,15 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1626,7 +1573,8 @@
         "discord": "https://discord.gg/R3b7UkjqfX",
         "sfw": true,
         "nsfw": false,
-        "times": []
+        "times": [],
+        "contacts": [ "479123418122551341" ]
     },
     {
         "id": "mTxgrqra6",
@@ -1643,7 +1591,7 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1661,13 +1609,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "tags": [ "Nightclub", "Bar", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "Gambling" ],
@@ -1689,20 +1637,20 @@
         "shard": "Eastern Shirogane Subdivision",
         "website": "https://heavenlyhearth.carrd.co/",
         "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Food", "Drink", "Open stage",  "RP Only", "Novel services" ],
-        "contacts":["181202033808769024"],
+        "contacts":["110616879634059264", "181202033808769024"],
         "sfw": true,
         "nsfw": false,
         "comments":[ "Novel service is able to rent RP rooms.", "RP heavy venue; speachmarks via /em and OOC via brackets only." ],
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1727,18 +1675,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1755,31 +1698,31 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1813,23 +1756,23 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1852,13 +1795,11 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1882,13 +1823,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -1912,38 +1853,38 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -1974,7 +1915,7 @@
             "A Fun Social Night Club Environment you won't soon forget!"
         ],
         "location": "Sargatanas, Goblet, Ward 16, Plot 43",
-        "discord": "https://discord.io/bassbumpers",
+        "discord": "https://discord.gg/G6WQBGXFcC",
         "sfw": true,
         "nsfw": true,
         "tags": [ "Nightclub", "Drink", "Courtesans", "Twitch DJ" ],
@@ -1982,8 +1923,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": []
@@ -2005,13 +1946,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2032,13 +1973,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2060,28 +2001,28 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2106,18 +2047,13 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2140,8 +2076,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2165,13 +2101,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ 
@@ -2198,18 +2134,18 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2264,7 +2200,7 @@
         "times": [ ],
         "exceptions": [],
         "tags": [ "Lounge", "Food", "Drink", "Bards", "Open stage", "Novel services" ],
-        "contacts": [ "782368828755410984", "343424502241165312" ]
+        "contacts": [ "192497361149231105" ]
     },
     {
         "id": "lmTY1dkGV",
@@ -2284,23 +2220,23 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2321,8 +2257,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
@@ -2363,8 +2299,8 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2387,23 +2323,23 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2423,8 +2359,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2445,18 +2381,18 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2469,7 +2405,7 @@
         "name": "Atlantis",
         "banner": "assets/banners/atlantis.jpg",
         "description": [ "An LGBTQ+ Friendly, All-Inclusive FF14 Venue! Come relax. get a drink, dance, and have fun with our courtesans~" ],
-        "location": "Adamantoise, Shirogane, Ward 19, Plot 7",
+        "location": "Jenova, Goblet, Ward 6, Plot 5",
         "discord": "https://discord.gg/DNYP7vqmdc",
         "website": "https://atlantisxiv.carrd.co/",
         "sfw": true,
@@ -2477,18 +2413,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2512,8 +2438,8 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 30, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 30, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2538,11 +2464,20 @@
         "sfw": true,
         "nsfw": false,
         "times": [
-            
+            {
+                "day": 6,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
         ],
         "exceptions": [],
         "tags": [ "Casino", "Food", "Drink", "Bards", "Open stage" ],
-        "contacts": [ "134349700428988416" ]
+        "contacts": [ "231066803860799488" ]
     },
     {
         "id": "gwvoxDO7c",
@@ -2562,18 +2497,18 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2596,13 +2531,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
@@ -2625,11 +2560,11 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2652,18 +2587,18 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2685,8 +2620,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -2702,7 +2637,7 @@
             "Warm cozy bakery with fresh baked goods offered in dine in or take out. Our staff always ready to serve you with their best smile. Our open bard stage welcomes anyone who wants to charm us with their melody.",
             "The Bakery was founded with the love of Tuya and Lanna and the desire to provide a cozy and relaxing atmosphere to travelers from every corner of the land. Allowing them to rest with the best apple pie in Eorzea. "
         ],
-        "location": "Cactuar, Lavander Beds, Ward 17, Apt 58",
+        "location": "Cactuar, Goblet, Ward 1, Plot 54",
         "website": "https://thebakersbakery.carrd.co/#",
         "discord": "https://discord.gg/ytFGHXq6kf",
         "sfw": true,
@@ -2710,12 +2645,12 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [],
-        "tags": [ "Cafe", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Cafe", "Food", "Drink", "Open Stage", "Photography" ],
         "contacts": [ "880594476295389205" ]
     },
     {
@@ -2752,13 +2687,13 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2781,8 +2716,8 @@
         "times": [ 
             {
                 "day": 5,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 21, "minute": 0, "nextDay": false }
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
@@ -2805,23 +2740,23 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
         "tags": [ "Lounge", "Dancers", "Food", "Drink", "Triple triad", "VIP", "Open stage" ],
-        "contacts": [ "722161936816406531" ]
+        "contacts": [ "413915947880022026" ]
     },
     {
         "id": "LxbNTCRUR",
@@ -2839,15 +2774,15 @@
         "times": [ 
             {
                 "day": 0,
-                "start": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2870,8 +2805,8 @@
         "times": [ 
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2894,13 +2829,13 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2915,22 +2850,17 @@
         "description": [ 
             "\"Infinite in mystery is the gift of the Goddess. We seek it thus, and take to the sky. Ripples form on the water's surface. The wandering soul knows no rest.\"",
             " - Loveless ACT II",
-            "The Loveless Bar is a 18+ venue open Monday and Thursday 8pm-11pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun and get some good photos taken with our photographer! Test your luck with our trivia night event and win some great prizes starting from 50k gil or join our raffles for great items!"
+            "The Loveless Bar is a 18+ venue open Sunday 8pm-11pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun and get some good photos taken with our photographer! Test your luck with our trivia night event and win some great prizes starting from 50k gil or join our raffles for great items!"
         ],
-        "location": "Adamantoise, Goblet, Plot 6, Ward 4",
+        "location": "Adamantoise, Goblet, Ward 4, Plot 6",
         "discord": "https://discord.gg/UGNzPEzf",
         "website": "https://thelovelessbar.carrd.co/",
         "sfw": true,
         "nsfw": false,
         "times": [ 
             {
-                "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "day": 6,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
@@ -2954,13 +2884,13 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -2985,8 +2915,8 @@
         "times": [ 
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3008,13 +2938,13 @@
         "times": [ 
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3039,8 +2969,8 @@
         "times": [ 
             {
                 "day": 3,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3055,7 +2985,7 @@
         "description": [ 
             "Come relax at Kiki's Bath House after a long night out... We have drinks, refreshments, lovely ladies, and of course, baths."
         ],
-        "location": "Cactuar, Mist, Ward 14, Plot 11",
+        "location": "Cactaur, Goblet, Ward 16, Plot 57",
         "website": "https://kikisbath.carrd.co/#",
         "discord": "https://discord.gg/7YjMYX3BVR",
         "sfw": true,
@@ -3063,13 +2993,13 @@
         "times": [ 
             {
                 "day": 3,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 30, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 30, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 30, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3093,8 +3023,8 @@
         "times": [ 
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3121,8 +3051,8 @@
         "times": [ 
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3142,8 +3072,8 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3159,25 +3089,25 @@
             "Wishbone Race Cafe is a SFW Racing themed venue were visitors can either bet on races or race themselves to win prizes. However if racing isn't  your thing you could always relax in the bath or enjoy the fine food served by our lovely chocobolic hostess."
         ],
         "location": "Adamantoise, Shirogane, Ward 11, Plot 14",
-        "discord": "https://discord.gg/pbQcUU5tV6",
+        "discord": "https://discord.gg/enQfmC5xUQ",
         "website": "https://wishbone-menu.carrd.co/",
         "sfw": true,
         "nsfw": false,
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 0, "minute": 30, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 30, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 30, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 30, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 0, "minute": 30, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 30, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3201,8 +3131,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3215,33 +3145,33 @@
         "name": "The Kitty Kashpot",
         "banner": "assets/banners/kitty-kashpot.jpg",
         "description": [ 
-            "Midgardsormr's newest gambling attraction! A small little betting hole made for friends that we have decided to open to the public! Stop in and grab a drink at our Tabby Tavern or test your luck at the Katnip Kasino! ♥ We have plenty of lounge space and seating for you and all your friends!"
+            "Welcome to the Kitty Kashpot, a wonderful new home for all of your gambling needs. Built by friends, for friends, we pride ourselves on being the fairest gambling attraction on Aether! Come test your luck, bring your lapcats or your Lucky bunn and have a night you're sure not to forget!"
         ],
         "location": "Midgardsormr, Shirogane, Ward 24 Sub, Apt 46",
         "discord": "https://discord.gg/kashpot",
         "website": "https://kittykashpot.carrd.co/",
-        "sfw": true,
+        "sfw": false,
         "nsfw": false,
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3264,18 +3194,18 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3301,49 +3231,18 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Pillow", "Food", "Drink", "Photography", "VIP" ],
         "contacts": [ "473614419130318848" ]
-    },
-    {
-        "id": "LLtO2kPp1",
-        "added": "2022-02-26T00:00:00Z",
-        "name": "Shonen",
-        "banner": "assets/banners/shonen.jpg",
-        "description": [ "Shonen is anew club in the Aether scene hoping to make a name for itself. When you visit the Shonen, you will experience an immersive nightclub experience with top-tier service, perks, music, and special events. Whether you'd like to come for the party, the drinks, or the live performances, we hope to make your weekends special! We do offer court services, but we are focused on relaxed vibes for all guests." ],
-        "location": "Sargatanas, Mist, Ward 11, Plot 45",
-        "discord": "https://discord.gg/sBa2kwcqV7",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 6, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Pillow", "Tarot", "Drink", "Photography", "VIP" ],
-        "contacts": [ "158281637031837696" ]
     },
     {
         "id": "K0TmBCK96",
@@ -3358,12 +3257,865 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
         "tags": [ "Nightclub", "Bar", "Dancers", "Food", "Drink" ],
         "contacts": [ "426158301605265409" ]
+    },
+    {
+        "id": "mtbqrIZx0",
+        "added": "2022-02-23T00:00:00Z",
+        "name": "The Step Cafe",
+        "banner": "assets/banners/step-cafe.jpg",
+        "description": [ 
+            "A relaxing pastel themed café with lots comfortable seating and a lovely outdoor patio to enjoy everything this small getaway in the Lavender Beds has to offer."
+        ],
+        "location": "Gilgamesh, Lavender Beds, Ward 11, Plot 59",
+        "discord": "https://discord.gg/V4777nPg7M",
+        "website": "https://thestepcafemenu.carrd.co/ ",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Maid cafe", "Food", "Drink" ],
+        "contacts": [ "83737822762110976" ]
+    },
+    {
+        "id": "HYmOJcAR2",
+        "added": "2022-03-01T00:00:00Z",
+        "name": "Somdaze Rest",
+        "banner": "assets/banners/somdaze-rest.jpg",
+        "description": [ 
+            "Just a casual (sfw) place to unwind after a long day of battling the evil eikons of our lands... and beyond. Have a meal or just a drink. Listen to bard performances or maybe you feel like dancing. If you need to learn what tomorrow holds, you will find Isooni, our tarot reader, at her divine spot in the southwest corner.  ",
+            "Need some meditation time? Visit the rooftop garden! You will find a koi pond among lush greenery and a hot tub. The visit is sure to soothe your weary soul.  ",
+            "All of Eoreza's bards are welcome to get some stage time. We have an open stage policy, with a house band to fill in the gaps.  ",
+            "We will strive to provide excellent service, good food, and a relaxed atmosphere. No gimmicks, no strings, no pressure."
+        ],
+        "location": "Adamantoise, Goblet, Ward 16, Plot 8",
+        "discord": "https://discord.gg/JrfYnB2suE",
+        "website": "https://somdazerest.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Tavern", "Hosts", "Void", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
+        "contacts": [ "291943612294627329" ]
+    },
+    {
+        "id": "PnRebCcj6",
+        "added": "2022-03-01T00:00:00Z",
+        "name": "The Last Carrot",
+        "banner": "assets/banners/last-carrot.jpg",
+        "description": [ 
+            "The Last Carrot is the next level in the dining and bar experience. You won't have to wait long in our lavish seating area for a host to take you to your table. Or you can venture right on up to The Last Carrot bar and indulge yourself in the hoppiest of drinks. Sit back and relax to the in game music or tune in to our DJ rocking those LoFi beats to ease away your day."
+        ],
+        "location": "Cactuar, Mist, Ward 13, Plot 35",
+        "discord": "https://discord.gg/K4WU5zA4hn",
+        "website": "https://thelastcarrot.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
+                "end": { "hour": 2, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Bar", "Twitch DJ", "Food", "Drink" ],
+        "contacts": [ "65647381051346944" ]
+    },
+    {
+        "id": "Gkur25X8w",
+        "added": "2022-03-01T00:00:00Z",
+        "name": "The Vanaheim",
+        "banner": "assets/banners/vanaheim.jpg",
+        "description": [ 
+            "Somewhere near the intersection of Sexy Avenue and Groovy Street, there's a quaint hotel called \"The Vanaheim\". It's wood panels and leather, brass fixtures and fine art. The cocktails are craft, other vices are plentiful. All around you people of all walks and varieties smile and laugh, dance cheek-to-cheek, cheer their fortunes and share in lively banter. And filling every corner of the space is the most moving, eclectic, jazzy, and hip-swinging music you've ever heard. Pull up to the bar, warm yourself by the fire, or cut up the dance floor...the night is yours when you're at \"The Vanaheim\"! And oh, what a night it's going to be!",
+            "The Vanaheim is an 18+ RP-focused space offering specialty food and drink, gambling, themed event nights, richly-detailed roleplay, and a Live DJ (who interacts in-game!). We also host The Speakeasy Spa: a gorgeous bar and spa-bath aftervenue next-door in apartment #82. Ask about private rentals anytime!"
+        ],
+        "location": "Siren, The Mist, Ward 17, Apt 81",
+        "discord": "https://discord.gg/4CYXPM2GQ6",
+        "website": "https://thevanaheimbar.carrd.co",
+        "sfw": false,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Speakeasy", "Gambling", "Twitch DJ", "Food", "Drink", "Photography", "Triple Triad", "IC RP only" ],
+        "contacts": [ "184801631949291520" ]
+    },
+    {
+        "id": "kM7hO6hnX",
+        "added": "2022-03-02T00:00:00Z",
+        "name": "The Velvet Room",
+        "banner": "assets/banners/velvet-room.jpg",
+        "description": [ 
+            "The Velvet Room is an LGBTQIA+ friendly space where everyone is welcome & accepted. We are built on the belief that everyone deserves to feel safe, loved, and appreciated. TVR is a place where people can come to dance, mingle, relax, and party! We offer both SFW and NSFW services as well as host some of Aether's best DJs! Come visit us and you are sure to NOT be disappointed!"
+        ],
+        "location": "Faerie, Lavender Beds, Ward 8, Plot 28",
+        "discord": "https://discord.gg/TheVelvetRoomXIV",
+        "website": "https://thevelvetroom.club/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Hosts", "Courtesans", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "contacts": [ "707716687402893452", "399361042762694667", "946591595388620820" ]
+    },
+    {
+        "id": "cM0dzj4oK",
+        "added": "2022-03-03T00:00:00Z",
+        "name": "The Underworld",
+        "banner": "assets/banners/underworld.jpg",
+        "description": [ 
+            "We offer live music, drinks and a lounge experience to our guests! Lounge a while in our hot tub, or dance your cares away to our bard!"
+        ],
+        "location": "Jenova, Shirogane, Ward 2, Plot 33",
+        "discord": "https://discord.gg/jnteMY2cwK",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Bar", "Void", "Bards", "Tarot", "Drink" ],
+        "contacts": [ "545059660722339841" ]
+    },
+    {
+        "id": "cG4zlJCGP",
+        "added": "2022-03-03T00:00:00Z",
+        "name": "Cafe Musashi",
+        "banner": "assets/banners/musashi.jpg",
+        "description": [ 
+            "Named after our adorable mameshiba, Musashi, Café Musashi is run by a lovely couple. Located on a beach front, we provide a relaxing environment for our patrons and serve freshly made food! Our café is inspired from the show, Restaurant to Another World. Please do feel free to visit! We would love to have you."
+        ],
+        "location": "Sargantas, Mist, Ward 10, Plot 50",
+        "website": "https://cafemusashi.carrd.co/",
+        "discord": "https://discord.gg/WPZkm8X9tD",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Restaurant", "Cafe", "Lounge", "Food", "Drink" ],
+        "contacts": [ "185231582020370433" ]
+    },
+    {
+        "id": "ikus1KIo6",
+        "added": "2022-03-03T00:00:00Z",
+        "name": "CLUB DIABLO",
+        "banner": "assets/banners/diablo.jpg",
+        "description": [ 
+            "Welcome to Club Diablo!! Come and enjoy the Eorzean Night Life with us every Friday, Saturday, Sunday. Enjoy routinely scheduled Live DJs via Twitch stream, trained RP/ERP courts and dancers along with nightly raffles, a club casino and a fight club. Visiting with Friends or having special events? Feel free to check out our VIP Packages. Hope to see you soon!!"
+        ],
+        "location": "Adamantoise, Lavender Beds, Ward 18, Plot 3",
+        "discord": "https://discord.gg/pGBy85cNkC",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "contacts": [ "938192537175347240" ]
+    },
+    {
+        "id": "KWL5PIV0j",
+        "added": "2022-03-06T00:00:00Z",
+        "name": "Treehouse",
+        "banner": "assets/banners/treehouse.jpg",
+        "description": [ 
+            "Treehouse is a bar and bathhouse that offers a warm, welcoming, atmosphere for a fun, SFW RP experience. Live music is our specialty, and our stage always has a talented bard or band upon it!"
+        ],
+        "location": "Cactuar, Lavender Beds, Wards 13, Plot 30",
+        "discord": "https://discord.gg/sUm2GBq",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Tavern", "Bath House", "Dancers", "Bards", "Food", "Drink" ],
+        "contacts": [ "259559436077629460", "349693545315041280" ]
+    },
+    {
+        "id": "fB63vhZAL",
+        "added": "2022-03-06T00:00:00Z",
+        "name": "Club Emeraude",
+        "banner": "assets/banners/emeraude.jpg",
+        "description": [ 
+            "Welcome to Club Emeraude! Emeraude is a nightclub, bar, lounge, and sauna with lots comfortable seating and private enjoyment rooms with a lovely outdoor patio to enjoy everything a beachfront getaway the Mist has to offer."
+        ],
+        "location": "Midgardsormr, Mist, Ward 14, Plot 60",
+        "sfw": false,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Nightclub", "Lounge", "VIP" ],
+        "contacts": [ "430528854659039234" ]
+    },
+    {
+        "id": "J15wuFq0F",
+        "added": "2022-03-06T00:00:00Z",
+        "name": "Petrichor Coffee-Bar",
+        "banner": "assets/banners/petrichor.jpg",
+        "description": [ 
+            "Petrichor Coffee-Bar is an all-inclusive and relaxing space for those looking for a wonderful time. It has a wonderful café aesthetic, and friendly staff that is available for all sorts of chat and aid. Our aim is to provide a pocket of tranquility to all Eorzeans."
+        ],
+        "location": "Jenova, Lavender Beds, Ward 23, Apt 68",
+        "website": "https://petrichorcoffee.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "tags": [ "Cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "contacts": [ "819541112813387816" ]
+    },
+    {
+        "id": "QkmNKsS2J",
+        "added": "2022-03-06T00:00:00Z",
+        "name": "VLVT DRMS",
+        "banner": "assets/banners/vlvtdrms.jpg",
+        "description": [ 
+            "VLVT DRMS is a safe for work dance venue and bar lounge, lavishly decorated with a cozy and warm atmosphere to both entice and relax even the weariest of wanderers. We strive to bring a safe, calming space into our wonderful community, hoping that each visit will leave you in the clouds! Whether you're looking to grab a few drinks, make pleasant conversation or dance the night away, there is a member of staff that is eager to spend their time dreaming with you. Come dream with us tonight!",
+            "To enter the venue use /doze next to the desk. To exit the venue jump on the floor lamp."
+        ],
+        "location": "Jenova, Lavender Beds, Ward 8, Plot 32",
+        "website": "https://vlvt-drms.carrd.co/",
+        "discord": "https://discord.gg/vlvtdrms",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Lounge", "Gambling", "Artists", "Dancers", "Bards", "Tarot", "Food", "Drink", "Triple triad", "IC RP only" ],
+        "contacts": [ "272837031799947265" ]
+    },
+    {
+        "id": "VJEFFD2CI",
+        "added": "2022-03-07T00:00:00Z",
+        "name": "The KAY",
+        "banner": "assets/banners/the-kay.jpg",
+        "description": [ 
+            "Enjoy your stay at The Kay! Sit back, relax and grab some snacks,, because we're here for a fun time, not a long time. Here to please your ears with gentle and kind conversation. (Brashness may apply)"
+        ],
+        "location": "Midgardsormr, Shirogane, Ward 22, Apt 52",
+        "website": "https://the-kay.carrd.co",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 0,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Speakeasy", "Lounge", "Food", "Drink", "Open stage", "Triple triad" ],
+        "contacts": [ "179070146940370945" ]
+    },
+    {
+        "id": "fOWbpTEDs",
+        "added": "2022-03-07T00:00:00Z",
+        "name": "Desert's Refuge",
+        "banner": "assets/banners/deserts-refuge.jpg",
+        "description": [ 
+            "Desert's Refuge is a SFW, lore-heavy RP tavern located in Ul'dah where adventurers and other characters that find themselves in the desert city can visit to escape the unforgiving environment and meet other characters.",
+            "You find an unassuming poster advertising Desert's refuge amidst countless advertisements in Ul'dah promoting the most lavish of inn rooms for millions, cures for incurable diseases, and taverns with fees to even enter.",
+            "Thirsty? We have drinks.",
+            "Hungry? We have food.",
+            "Just want some shade from the sun? Sure. Come on in.",
+            "No Brass Blades!"
+        ],
+        "location": "Cactaur, Goblet, Ward 5, Apt 22",
+        "website": "https://desertsrefuge.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 4,
+                "start": { "hour": 18, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "tags": [ "Bar", "Tavern", "Food", "IC RP only" ],
+        "contacts": [ "251885815750328330" ]
+    },
+    {
+        "id": "fA3H1TBwz",
+        "added": "2022-03-09T00:00:00Z",
+        "name": "AE Café",
+        "banner": "assets/banners/ae-cafe.jpg",
+        "description": [ 
+            "A subsidiary of The Aether Entertainer, hoping to provide a comfortable place to read, relax, or chat with the press staff. The cafe' was created with the intent of promoting The Aether Entertainer press and the featured venues or individuals each publication. During opening events, we hand out the latest newspaper early and serve warm beverages and baked goods. Since the topics we cover are ever-changing, so too will be the themed events we host here!"
+        ],
+        "location": "Midgardsormr, Shirogane, Ward 5, Plot 40",
+        "website": "https://aecafe.crd.co/",
+        "discord": "https://discord.gg/CShwnBjUcR",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ "This venue is open every OTHER Wednesday night. Please check the venue's Discord for opening."],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage", "Triple triad", "Novel Services" ],
+        "contacts": [ "71365155983720448" ]
+    },
+    {
+        "id": "jEBLrVOx6",
+        "added": "2022-03-09T00:00:00Z",
+        "name": "The Enchanted Fae Cafe",
+        "banner": "assets/banners/enchanted-fae-cafe.jpg",
+        "description": [ 
+            "A cafe set in a faerie-inspired world of fantasy and wonder.",
+            "Come relax with a cup of coffee or tea, a pastry or desert, and prepare yourself for a world of enchantment.",
+            "This venue is open stage! Come show off your barding skills atop lovely waterfalls.",
+            "Food and drinks have no set price and are offered to be paid as you wish.",
+            "We have an extensive menu of delights for you to choose from! Come sate your sweet tooth with a confection or pastry and a fresh barista-made drink!"
+        ],
+        "location": "Sargatanas, Lavender Beds, Ward 14, Plot 48",
+        "website": "https://enchantedfaecafe.carrd.co/#",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "171068461181566976" ]
+    },
+    {
+        "id": "M6x5JNhCA",
+        "added": "2022-03-09T00:00:00Z",
+        "name": "TeaTime Tea House",
+        "banner": "assets/banners/teatime-tea-house.jpg",
+        "description": [ 
+            "TeaTime is the coziest tea house with an open stage and a lovely green and natural wood aesthetic with purple highlights, we serve 4 different teas and snacks with free tea refills.",
+            "We have 3 Tea Maids who are always happy to help~!"
+        ],
+        "location": "Cactuar, Goblet, Ward 14, Plot 50",
+        "website": "https://teatimes.carrd.co/",
+        "discord": "https://discord.gg/qk78rvhXWD",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "458795862877798411" ]
+    },
+    {
+        "id": "eVDaws0nh",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "BlueBird",
+        "banner": "assets/banners/bluebird.jpg",
+        "description": [ 
+            "Sit and focus while enjoying the ambience of a rooftop lounge."
+        ],
+        "location": "Gilgamesh, Mist, Ward 13, Plot 8",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Lounge", "Void", "Bards", "Open stage" ],
+        "contacts": [ "193451555649748992" ]
+    },
+    {
+        "id": "oT7smIIzP",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "Spaget",
+        "banner": "assets/banners/spaget.jpg",
+        "description": [ ],
+        "location": "Gilgamesh, Mist, Ward 13, Plot 7",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://spaget2112.crd.co/",
+        "discord": "https://discord.gg/RvscZDfd6m",
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Restaurant", "Void", "Food", "Drink", "Open stage" ],
+        "contacts": [ "193451555649748992" ]
+    },
+    {
+        "id": "OdPJWtcbt",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "Genie Bottle",
+        "banner": "assets/banners/genie-bottle.jpg",
+        "description": [ "We are a SFW club that has a calm and cozy atmosphere with fresh made drinks and friendly service." ],
+        "location": "Siren, Shirogane, Ward 19, Plot 32",
+        "website": "https://thegeniebottle.carrd.co/",
+        "discord": "https://discord.gg/zVvZY2kZMJ",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Nightclub", "Bar", "Dancers", "Bards", "Drink", "Open stage" ],
+        "contacts": [ "488984824162418708" ]
+    },
+    {
+        "id": "jprZYhV4t",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "4S",
+        "banner": "assets/banners/4s.jpg",
+        "description": [ 
+            "Welcome to 4S a place where you can party till either you pass out or the DJ passes out!!! Come join us for a drink at our bar and enjoy one of our Seasonally named drinks. We have live DJs weekly as well as Game Masters on hand should you be feeling a bit lucky. We also have our lovely courtesans who would love to get you to know you." 
+        ],
+        "location": "Faerie, Goblet, Ward 22, Plot 19",
+        "website": "https://4seasons-ffxiv.carrd.co/#menu",
+        "discord": "https://discord.gg/4sofficial",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Photography", "VIP" ],
+        "contacts": [ "255053658570489857" ]
+    },
+    {
+        "id": "WR12JqNrn",
+        "added": "2022-03-13T00:00:00Z",
+        "name": "Déjà Brew",
+        "banner": "assets/banners/deja-brew.jpg",
+        "description": [ 
+            "Déjà Brew is a couples cafe ran by Momoko Miki. We serve people who want to go out on a date with their loved ones, and supply dates to the ones alone~ No one walks out sad from Déjà Brew! You must be 18+ to indulge in any romantic activities",
+            "Gposes, dates, meals, VIP memberships, dungeon runs with our lovely staff, raffles, and more. We have wonderful guest appreciation events like guest of the month, who wins a month of free VIP which includes 1 free date a week with your fav staff member and free meals on the house once a day for you and your partner, raffles to run maps or content like mount farms or trials to bond with the Déjà Brew Crew!",
+            "We just want a wholesome loving community where everyone can feel loved. We enjoy making you smile, and want to do our best to make sure you leave Déjà Brew loved, that way your trip to Déjà Brew becomes Déjà Vu when you keep coming back for more!",
+            "Events included, like raffles to go on map runs with the Brew Crew for you and a date, mount farming, and movie nights! So come on down to Déjà Brew♥"
+        ],
+        "location": "Faerie, Shirogane, Ward 21, Plot 44",
+        "website": "https://dejabrewinfo.carrd.co/",
+        "discord": "https://discord.gg/dejabrew",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Pillow", "Photography", "Food", "Drink", "VIP", "Novel services" ],
+        "comments": [ "Novel because it provides a date if you don't have one." ],
+        "contacts": [ "908051521940373514" ]
+    },
+    {
+        "id": "OzA00HMg8",
+        "added": "2022-03-14T00:00:00Z",
+        "name": "Yuukimura Teahouse",
+        "banner": "assets/banners/yuukimura-teahouse.jpg",
+        "description": [ 
+            "A small relaxing traditionally inspired teahouse, nestled in the heart of Limsa. Fresh beverages and sweets along with a serene atmosphere."
+        ],
+        "location": "Siren, Mist, Ward 13, Apt 75",
+        "website": "https://yuukimura-teahouse.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 16, "minute": 0, "nextDay": false }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Cafe", "Lounge", "Drink", "Open stage", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "390253819965210624" ]
+    },
+    {
+        "id": "jswap5LDf",
+        "added": "2022-03-14T00:00:00Z",
+        "name": "Dreaming Dodo Maid Cafe",
+        "banner": "assets/banners/dreaming-dodo.jpg",
+        "description": [ 
+            "The Dreaming Dodo is a SFW, RP friendly maid cafe with a laid back atmosphere. We have a number of maids and butlers, a variety of services, and live music to offer you a relaxing evening."
+        ],
+        "location": "Adamantoise, Goblet, Ward 22, Plot 37",
+        "website": "https://dreamingdodo.carrd.co/",
+        "discord": "https://discord.gg/S833brP",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [ ],
+        "tags": [ "Maid cafe", "Artists", "Bards", "Food", "Photography", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "155167628237733890" ]
+    },
+    {
+        "id": "U1wG2eW5T",
+        "added": "2022-03-14T00:00:00Z",
+        "name": "Tatsu Onsen",
+        "banner": "assets/banners/tatsu-onsen.jpg",
+        "description": [ 
+            "Tatsu Onsen is the largest shrine to Tatsugami! We value his views! As such we look to providing a place of comfort and fun! In this case we are a Bathhouse! We offer food and entertainment currently in the form of dances and cooking shows!"
+        ],
+        "location": "Migardsormr, Shirogane, Ward 4, Plot 47",
+        "website": "https://tatsuonsen.carrd.co/",
+        "discord": "https://discord.gg/5y2wqKwC5t",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Bath House", "Dancers", "Drink" ],
+        "comments": [  ],
+        "contacts": [ "260211568950771715" ]
+    },
+    {
+        "id": "a7Yft4gnw",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "The Locker Room",
+        "banner": "assets/banners/locker-room.jpg",
+        "description": [ 
+            "A completely normal Locker Room, come on down and get changed in a place where privacy is definitely not guaranteed."
+        ],
+        "location": "Siren, Mist, Ward 1, Plot 11",
+        "website": "https://thelockerroom.carrd.co/#",
+        "discord": "https://discord.gg/udbytkwEQk",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Lounge", "Novel services", "IC RP only" ],
+        "comments": [ "I THINK the novel service is a sports talk show, based on the layout of the venue." ],
+        "contacts": [ "140213707589287936" ]
+    },
+    {
+        "id": "RRDJWwMuq",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "The Cat Girl Nightclub",
+        "banner": "assets/banners/cat-girl-nightclub.jpg",
+        "description": [ 
+            "CATS!",
+            "We've got courts, we've got dancers, we've got gamba and we've got drinks! What more could you need?!"
+        ],
+        "location": "Siren, Lavender Beds, Ward 16, Plot 42",
+        "website": "https://thecatgirlnightclub.carrd.co/",
+        "discord": "https://discord.gg/ujeB8aYm4E",
+        "sfw": false,
+        "nsfw": true,
+        "times": [ ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open stage", "VIP" ],
+        "comments": [ "" ],
+        "contacts": [ "204909380251025408" ]
+    },
+    {
+        "id": "Vdh9ZNxUx",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "Pogazu Pizza",
+        "banner": "assets/banners/pogazu-pizza.jpg",
+        "description": [ 
+            "Pogazu is the most unhinged (and longest running) pizza-related venue on Aether. Casual? pizza atmosphere where you can order quite literally anything on a pizza! Just don't ask for Namazu. The staff may serve you with a smile one moment, then threaten you with a flamethrower the next. It's the venue where everything's made up and the points don't matter!"
+        ],
+        "location": "Adamantoise, The Goblet, Ward 11, Plot 55",
+        "website": "https://pogazu.carrd.co/#",
+        "discord": "https://discord.gg/ZYq5yUsC5T",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ 
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Food", "Drink", "Open stage", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "81069060841811968" ]
+    },
+    {
+        "id": "Q8XsLYauN",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "Black Rose",
+        "banner": "assets/banners/black-rose.jpg",
+        "description": [ 
+            "Its a cozy little party venue with live music gambling and nsfw availabilities. as of right now we are in a small but our next order of business is to obtain a large which is set in stone not just being hopeful."
+        ],
+        "location": "Jenova, Shirogane, Ward 22, Plot 25",
+        "discord": "https://discord.gg/7kXWmEySVc",
+        "sfw": true,
+        "nsfw": true,
+        "times": [ 
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bar", "Tavern", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography" ],
+        "comments": [  ],
+        "contacts": [ "137688798627758081" ]
+    },
+    {
+        "id": "dKkIMbmPO",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "Mrs. Dawn's Bath House",
+        "banner": "assets/banners/mrs-dawns-bath-house.jpg",
+        "description": [ 
+            "Come and relax, chat, and pull each others ears at Mrs. Dawn's peaceful bath house! Open most days either at noon EST, or the 6pm EST; just check the PF! ♥️"
+        ],
+        "location": "Siren, Mist, Ward 8, Apt 47",
+        "sfw": false,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Bath house" ],
+        "comments": [  ],
+        "contacts": [ "872323861033680957" ]
     }
 ]
