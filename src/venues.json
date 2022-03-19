@@ -1211,6 +1211,7 @@
         ],
         "location": "Gilgamesh, Lavender Beds, Ward 15, Apt 39",
         "shard": "Lilly Hills",
+        "website": "https://rosepetalbar.carrd.co/",
         "discord": "https://discord.gg/ckch8s4X7c",
         "sfw": true,
         "nsfw": false,
@@ -2613,7 +2614,7 @@
         "description": [ 
             "Hamburger Nina's is Eorzea's most intimate yet flambouyant LGBTQ+ RP venue. Come in for drinks, food, and fun! Our bar and club has something for anyone looking for a night out, whether that be cozy or wild. ;)"
         ],
-        "location": "Cactuar, Shirogane, Ward 24, Apt 89",
+        "location": "Cactuar, Shirogane, Ward 24, Apt 81",
         "website": "https://hamburgerninas.carrd.co/#",
         "sfw": true,
         "nsfw": true,
@@ -3198,12 +3199,12 @@
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
-                "day": 4,
+                "day": 6,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
-                "day": 5,
+                "day": 0,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
@@ -4147,5 +4148,36 @@
         "tags": [ "Cafe", "Lounge", "Bards", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "254069230780153867" ]
+    },
+    {
+        "id": "KS3aoSeQb",
+        "added": "2022-03-19T00:00:00Z",
+        "name": "Purple Suit Casino and Lounge",
+        "banner": "assets/banners/purple-suit.jpg",
+        "description": [ 
+            "The Purple Suit Casino and Lounge is a brand new entertainment venue opening to all on the Aether Data Center. We do our best to strive and offer a welcoming venue with fantastic services, all to create an open atmosphere to all friends and strangers, to gather and enjoy some drinks, play some games, win some gil, and most importantly—have plenty of fun."
+        ],
+        "location": "Jenova, Shirogane, Ward 15 Sub, Apt 24",
+        "sfw": false,
+        "nsfw": false,
+        "website": "https://purplesuitffxiv.carrd.co/#",
+        "discord": "https://discord.gg/FzbRVQNzPR",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Lounge", "Casino", "Gambling", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "274391579274248193" ]
     }
 ]
