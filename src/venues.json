@@ -927,47 +927,6 @@
         ]
     },
     {
-        "id": "Hez4WL20",
-        "added": "2021-09-21T00:00:00Z",
-        "name": "Last Stop",
-        "banner": "assets/banners/last-stop.jpg",
-        "description": [ "The last stop of the night before you retire to your slumber; full bar, saunas, an open stage and hint of chaos." ],
-        "location": "Adamantoise, Goblet, Ward 3, Plot 42",
-        "discord": "https://discord.gg/uPWdH9jcEn",
-        "website": "https://laststopvenue.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Nightclub", "Open stage", "Food", "Drink" ],
-        "contacts": [ "227938971190034432" ],
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "fHjc6zh9",
         "added": "2021-09-21T00:00:00Z",
         "name": "Forgotten Sonata",
@@ -3621,7 +3580,13 @@
                 "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-03-19T00:00Z",
+                "end": "2022-04-03T00:00Z",
+                "hide": true
+            }
+        ],
         "tags": [ "Speakeasy", "Lounge", "Food", "Drink", "Open stage", "Triple triad" ],
         "contacts": [ "179070146940370945" ]
     },
@@ -4174,7 +4139,7 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
          ],
-        "exceptions": [  ],
+        "exceptions": [ ],
         "notices": [  ],
         "tags": [ "Lounge", "Casino", "Gambling", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
         "comments": [  ],

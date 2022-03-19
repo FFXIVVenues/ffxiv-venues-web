@@ -1,12 +1,19 @@
+import { timeService } from "./timeService";
 import venues from "../venues.json";
 
 class VenueService {
             
     getVenues() {
-        return venues;
+        return venues.filter(v => {
+            if (v.exceptions) {
+                const exception = timeService.getActiveException(v.exceptions);
+                if (exception != null && exception.hide) return false;
+            }
+            return true;
+        });
     }
 
-    getVenuesById() {
+    getVenueById() {
         return venues.filter(i => arguments.filter(a => a.id === i).length);
     }
 
@@ -17,6 +24,10 @@ class VenueService {
         };
     
         for (const venue of venues) {
+            if (venue.exceptions) {
+                const exception = timeService.getActiveException(venue.exceptions);
+                if (exception != null && exception.hide) continue;
+            }
             if (venue.times === undefined || venue.times.length === 0) {
                 venueViewModels.unscheduled.push(venue);
                 continue;
@@ -26,7 +37,7 @@ class VenueService {
                     venue,
                     time
                 };
-                // const position = time.day - this._currentDay < 0 ? time.day - this._currentDay + 7 : time.day - this._currentDay;
+
                 venueViewModels.scheduled[time.day].push(venueViewModel);
             }
         }
