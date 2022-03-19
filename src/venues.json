@@ -4144,5 +4144,30 @@
         "tags": [ "Lounge", "Casino", "Gambling", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "274391579274248193" ]
+    },
+    {
+        "id": "K1IYeAiv6",
+        "added": "2022-03-19T00:00:00Z",
+        "name": "La Veela",
+        "banner": "assets/banners/la-veela.jpg",
+        "description": [ 
+            "Tucked away on a scenic corner of the Goblet, La Veela lays in wait for you to come greet her! Enjoy a drink at the bar with our charismatic and loveable staff, gamble to your hearts content at the Blackjack table, dance until your feet go numb alongside our bard and dancers, maybe even find your destiny in the cards with our esteemed tarot reader! There is something for everyone here at La Veela and we can't wait to meet you."
+        ],
+        "location": "Siren, Goblet, Ward 4, Plot 40",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://laveela.carrd.co",
+        "discord": "https://discord.gg/4qWV7RSCxK",
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Casino", "Gambling", "Dancers", "Bards", "Tarot", "Drink", "Photography" ],
+        "comments": [  ],
+        "contacts": [ "119990195926859778" ]
     }
 ]
