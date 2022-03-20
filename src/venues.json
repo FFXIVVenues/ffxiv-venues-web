@@ -4182,7 +4182,7 @@
         "location": "Siren, Lavender Beds, Ward 10, Plot 44",
         "sfw": true,
         "nsfw": false,
-        "website": "https://thekatsmeow.carrd.co/ ",
+        "website": "https://thekatsmeow.carrd.co/",
         "discord": "https://discord.gg/Ch9xRP5KBn",
         "times": [
             {
@@ -4201,5 +4201,27 @@
         "tags": [ "Cafe", "Library", "Bards", "Tarot", "Soft-counselling", "Food", "Drink", "Open stage", "Novel Services", "Triple triad" ],
         "comments": [  ],
         "contacts": [ "289686307653812226" ]
+    },
+    {
+        "id": "YTXrS4LBa",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Seaside Sunrise Maid & Butler Cafe",
+        "banner": "assets/banners/seaside-sunrise.jpg",
+        "description": [ 
+            "Come be our Guest at Seaside Sunrise, depending on the month we have themed services our Maids & Butlers can provide!",
+            "We have various activities, entertainment, dishes, and collector cards!",
+            "Please, be our Guest!"
+        ],
+        "location": "Cactuar, Mist, Ward 19, Plot 35",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://ad-meliora-fc.carrd.co/",
+        "discord": "https://discord.gg/E7REmN5",
+        "times": [  ],
+        "exceptions": [ ],
+        "notices": [ "This venue opens once a month, primarily on a Saturday or Sunday at 5pm - 11pm CST. Please check the discord for this venue's next opening."  ],
+        "tags": [ "Cafe", "Maid cafe", "Hosts", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage", "Novel services", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "453762811546566657" ]
     }
 ]
