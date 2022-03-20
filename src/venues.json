@@ -4223,5 +4223,25 @@
         "tags": [ "Cafe", "Maid cafe", "Hosts", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage", "Novel services", "Triple triad" ],
         "comments": [  ],
         "contacts": [ "453762811546566657" ]
+    },
+    {
+        "id": "WZl3y22HL",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Captain's Quarters Pub & Lounge",
+        "banner": "assets/banners/captains-quarters.jpg",
+        "description": [ 
+            "The Captain's Quarters is a place where the Captain loves to hang his hat and drink to his heart's content before setting out on his next adventure! Providing live entertainment, surprise drinks, awesome menu, and various other services you might stay and become part of the crew!"
+        ],
+        "location": "Cactuar, Mist, Ward 19, Plot 35",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://ad-meliora-fc.carrd.co/",
+        "discord": "https://discord.gg/E7REmN5",
+        "times": [  ],
+        "exceptions": [ ],
+        "notices": [ "This venue opens once a month on Fridays and Saturdays at 7pm - 1am CST. Please check the discord for this venue's next opening."  ],
+        "tags": [ "Tavern", "Lounge", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "453762811546566657" ]
     }
 ]
