@@ -4170,5 +4170,36 @@
         "tags": [ "Bar", "Casino", "Gambling", "Dancers", "Bards", "Tarot", "Drink", "Photography" ],
         "comments": [  ],
         "contacts": [ "119990195926859778" ]
+    },
+    {
+        "id": "bJMcf5mVI",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "The Kat's Meow",
+        "banner": "assets/banners/kats-meow.jpg",
+        "description": [ 
+            "The Kat's Meow is a small cafe, for people looking for a quiet spot away from all the hustle and bustle of Eorzean life. We offer drinks (hot and cold), sweet treats, an open mic stage, a small library, and even tarot readings! Check out our menu, staff, and come in and see us!"
+        ],
+        "location": "Siren, Lavender Beds, Ward 10, Plot 44",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://thekatsmeow.carrd.co/ ",
+        "discord": "https://discord.gg/Ch9xRP5KBn",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 4, "minute": 30, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 4, "minute": 30, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Library", "Bards", "Tarot", "Soft-counselling", "Food", "Drink", "Open stage", "Novel Services", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "289686307653812226" ]
     }
 ]
