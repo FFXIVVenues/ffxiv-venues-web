@@ -59,6 +59,10 @@
     font-weight: bold;
 }
 
+.venue-card__options .favorite-icon.favorite-icon--lit path {
+    stroke: darkorange !important;
+    fill: darkorange !important;
+}
 
 .venue-card__open {
     margin: 15px 15px 15px 0;

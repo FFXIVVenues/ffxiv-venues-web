@@ -1,7 +1,7 @@
 // TODO
-// Fix horizontal scroll
+// Image optimization
 // Add view mode switching
-// New OG/Social Card and favicons
+// Mobile
 
 import React from 'react';
 import './App.css';
@@ -43,8 +43,7 @@ class App extends React.Component {
       { key: Symbol(), label: "Bath house", filter: tagFilter("bath house") },
       { key: Symbol(), label: "Library", filter: tagFilter("library") },
       { key: Symbol(), label: "Casino", filter: tagFilter("casino") },
-      { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") },
-      { key: Symbol(), label: "Fightclub", filter: tagFilter("fightclub") }
+      { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") }
     ];
     this._featureFilters = [
       { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },

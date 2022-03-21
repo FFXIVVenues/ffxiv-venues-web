@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
-import DOM from 'react-dom'
-import { Motion, spring, presets } from 'react-motion'
+import React, { Component } from 'react';
+import DOM from 'react-dom';
+import { Motion, spring, presets } from 'react-motion';
+import "./horizontal-scroll.css";
 
 class HorizontalScroll extends Component {
   constructor(props) {
@@ -45,6 +46,7 @@ class HorizontalScroll extends Component {
   }
 
   onScrollStart(e) {
+    if (!e.shiftKey) return;
     e.preventDefault()
     // If scrolling on x axis, change to y axis. Otherwise, just get the y deltas.
     // (Basically, this for Apple mice that allow horizontal scrolling by default)
@@ -112,39 +114,64 @@ class HorizontalScroll extends Component {
     this.calculate.timer = setTimeout(() => {
       // Calculate the bounds of the scroll area
       try {
-        let el = DOM.findDOMNode(this.hScrollParent)
-        let rect
-  
-        let max
-        let win
+        let el = DOM.findDOMNode(this.hScrollParent);
+        let rect, max, win;
 
         if (el) {
-          rect = el.getBoundingClientRect()
-          max = el.lastElementChild.scrollWidth
-          win = el.offsetWidth
+          rect = el.getBoundingClientRect();
+          max = el.lastElementChild.scrollWidth;
+          win = el.offsetWidth;
         }
   
         // Get the new animation values
-        var curr = this.state.animValues
+        var curr = this.state.animValues;
   
         // Establish the bounds. We do this every time b/c it might change.
-        var bounds = -(max - win)
+        var bounds = -(max - win);
   
         // Logic to hold everything in place
         if (curr >= 1) {
-          this.resetMin()
+          this.resetMin();
         } else if (curr <= bounds) {
           if (max > rect.width) {
-            var x = bounds + 1
-            this.resetMax(x)
+            var x = bounds + 1;
+            this.resetMax(x);
           } else {
-            this.resetMax(0)
+            this.resetMax(0);
           }
         }
       } catch (error) {
         console.log('ERROR FROM REACT-SCROLL-HORIZONTAL ON getBoundingClientRect()', error)
       }
     })
+  }
+
+  moveLeft() {
+    const el = DOM.findDOMNode(this.hScrollParent);
+    const rect = el.getBoundingClientRect();
+
+    const animationValue = this.state.animValues;
+    const newAnimationValue = animationValue + Math.floor(rect.width / 370)*370;
+
+    if (!this.caniscroll()) {
+      return;
+    }
+
+    window.requestAnimationFrame(() => { this.setState({ animValues: newAnimationValue }) })
+  }
+
+  moveRight() {
+    const el = DOM.findDOMNode(this.hScrollParent);
+    const rect = el.getBoundingClientRect();
+
+    var animationValue = this.state.animValues;
+    var newAnimationValue = animationValue - Math.floor(rect.width / 370)*370;
+
+    if (!this.caniscroll()) {
+      return;
+    }
+
+    window.requestAnimationFrame(() => { this.setState({ animValues: newAnimationValue }) })
   }
 
   resetMin() {
@@ -161,35 +188,43 @@ class HorizontalScroll extends Component {
     const springConfig = config || presets.noWobble
 
     // Styles
-    const styles = {
+    const containerStyles= {
       height: height || `100%`,
       width: width || `100%`,
+    };
+
+    const scrollerStyles = {
+      height: `100%`,
+      width: `calc(100%-40px)`,
+      marginLeft: `20px`,
+      marginRight: `20px`,
       overflow: `hidden`,
       position: `relative`,
       ...style
     }
 
     return (
-      <div
-        ref={r => {
-          this.hScrollParent = r
-        }}
-        style={styles}
-        className={`scroll-horizontal ${this.props.className || ''}`}
-      >
-        <Motion style={{ z: spring(this.state.animValues, springConfig) }}>
-          {({ z }) => {
-            const scrollingElementStyles = {
-              transform: `translate3d(${z}px, 0,0)`,
-              display: `inline-flex`,
-              height: `100%`,
-              position: `absolute`,
-              willChange: `transform`
-            }
+      <div className={`scroll-horizontal ${this.props.className || ''}`} style={containerStyles}>
+        <div onClick={this.moveLeft.bind(this)} className='arrow left'></div>
+        <div
+          ref={r => { this.hScrollParent = r }}
+          style={scrollerStyles}
+          className='scroll-parent'>
+          <Motion style={{ z: spring(this.state.animValues, springConfig) }}>
+            {({ z }) => {
+              const scrollingElementStyles = {
+                transform: `translate3d(${z}px, 0,0)`,
+                display: `inline-flex`,
+                height: `100%`,
+                position: `absolute`,
+                willChange: `transform`
+              }
 
-            return <div style={scrollingElementStyles} id='horizontal-scroll'>{children}</div>
-          }}
-        </Motion>
+              return <div style={scrollingElementStyles} id='horizontal-scroll'>{children}</div>
+            }}
+          </Motion>
+        </div>
+        <div onClick={this.moveRight.bind(this)} className='arrow right'></div>
       </div>
     )
   }

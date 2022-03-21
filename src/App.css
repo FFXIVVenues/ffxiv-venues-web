@@ -42,7 +42,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2;
   border-bottom: black;
   box-shadow: black 0 0 5px;
   align-items: center;
@@ -77,34 +77,6 @@ a {
   position: relative;
 }
 
-.aether-venues__tags:before {
-  content  : "";
-  position : absolute;
-  z-index  : 1;
-  left: 0;
-  top: 0;
-  pointer-events   : none;
-  background-image : linear-gradient(to left, 
-                      rgba(255,255,255, 0), 
-                      var(--background-color));
-  width    : 20px;
-  height   : 100%;
-}
-
-.aether-venues__tags:after {
-  content  : "";
-  position : absolute;
-  z-index  : 1;
-  right: 0;
-  top: 0;
-  pointer-events   : none;
-  background-image : linear-gradient(to right, 
-                      rgba(255,255,255, 0), 
-                      var(--background-color));
-  width    : 20px;
-  height   : 100%;
-}
-
 .aether-venues__tag {
   display: inline-block;
   border-radius: 6px;
@@ -119,10 +91,6 @@ a {
   width: max-content;
 }
 
-.aether-venues__tag:first-child {
-  margin-left: 20px;
-}
-
 .aether-venues__tag--enabled {
   background-color: var(--accent-color);
 }
@@ -132,7 +100,6 @@ a {
   margin-top: 100px;
   margin-bottom: 30px;
   width: calc(100vw - 380px);
-  max-width: 1500px;
 }
 
 .aether-venues__day {

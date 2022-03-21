@@ -1,0 +1,45 @@
+.scroll-parent {
+    padding: 0 10px;
+}
+
+.arrow {
+    position: absolute;
+    width: 10px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+    padding-right: 20px;
+    background-image : linear-gradient(to left, rgba(255,255,255, 0), var(--background-color) 25%);
+}
+
+.right {
+    right: 0;
+    padding-left: 20px;
+    background-image : linear-gradient(to right, rgba(255,255,255, 0), var(--background-color) 25%);
+}
+
+.arrow:before {
+    content: '';
+    border: solid lightgray;
+    border-width: 0 3px 3px 0;
+    display: block;
+    padding: 4px;
+}
+
+.left:before {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right:before {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
