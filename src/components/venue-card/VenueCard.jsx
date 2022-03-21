@@ -28,11 +28,12 @@ class VenueCard extends VenueOpening {
     setVisited(e) {
         visitedService.setVisited(this.props.venue.id);
         e.stopPropagation();
-        this.forceUpdate(); // this should be done via observer
+        this.forceUpdate(); 
+        // todo: this should be done via observer, with
     }
 
     render() {
-        return <div className={"venue-card " + (this.props.venue.id) + (this.state.isOpen ? " venue-card--open" : "") + (this.props.time ? "" : " venue-card--no-time")}>
+        return <div id={"venue-" + (this.props.venue.id)} className={"venue-card " + (this.props.venue.id) + (this.state.isOpen ? " venue-card--open" : "") + (this.props.time ? "" : " venue-card--no-time")}>
 
             <div className="venue-card__block" 
                  role="row" 

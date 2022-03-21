@@ -15,6 +15,7 @@ import { propFilter, tagFilter, worldFilter } from "./filters/filters";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
+import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
 
 
 class App extends React.Component {
@@ -248,7 +249,9 @@ class App extends React.Component {
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
             <div className="aether-venues__colaborators">
-              In colaboration with
+              In collaboration with
+              <a href="https://dote.carrd.co/" target="_blank" rel="noopener"><DoteLogo style={{height: "30px"}} /></a>
+              and 
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noopener"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>

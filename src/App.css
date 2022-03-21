@@ -49,9 +49,10 @@ a {
   padding: 10px 20px 5px;
 }
 
-.aether-venues__heading img {
-  height: 40px;
-  margin: 2.5px;
+.aether-venues__heading img,
+.aether-venues__heading svg {
+  height: 35px;
+  margin: 5px;
 }
 
 .aether-venues__heading h1 {
@@ -67,8 +68,15 @@ a {
   float: right;
 }
 
-.aether-venues__colaborators img {
-  margin-left: 15px
+.aether-venues__colaborators a {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.aether-venues__colaborators a:first-of-type {
+  margin-left: 10px;
+}
+.aether-venues__colaborators a:last-of-type {
+  margin-right: 0;
 }
 
 .aether-venues__tags {
