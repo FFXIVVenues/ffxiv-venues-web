@@ -670,7 +670,7 @@
         "location": "Sargatanas, Goblet, Ward 10, Plot 35",
         "website": "https://succubares.com/#",
         "discord": "https://discord.gg/succubares",
-        "contacts":[ "265695573527625731" ],
+        "contacts":[ "243182379584323584", "265695573527625731" ],
         "tags": [ "Bar", "Lounge", "Gambling", "Courtesans", "VIP", "Food", "Drink" ],
         "sfw": true,
         "nsfw": true,
@@ -4243,5 +4243,50 @@
         "tags": [ "Tavern", "Lounge", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage" ],
         "comments": [  ],
         "contacts": [ "453762811546566657", "109786690092007424" ]
+    },
+    {
+        "id": "Zp8rpaXJY",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Afterglow",
+        "banner": "assets/banners/afterglow.jpg",
+        "description": [ 
+            "Afterglow is a beautifully decorated nightclub and casino with stunning and unique private rooms available for rent both with or without court services. Afterglow staff, the Glowsquad, pride themselves on guest services and our goal is that every guest leaves our venue glowing. Our main stage plays host to our resident DJ, Blkdrvgon who also hosts Afterglow After Hourz on Saturday mornings from 2am."
+        ],
+        "location": "Siren, Mist, Ward 11, Plot 60",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://afterglowsiren.carrd.co/",
+        "discord": "https://discord.gg/afterglowxiv",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Artists","Courtesans", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Food", "Drink", "Photography" ],
+        "comments": [  ],
+        "contacts": [ "227941432541839361" ]
+    },
+    {
+        "id": "JBOr73DjF",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Kawaii Weeb Cafe",
+        "banner": "assets/banners/kawaii-weeb-cafe.jpg",
+        "description": [ 
+            "The Kawaii Weeb Cafe is a place to be kawaii. Only kawaii people are permitted to enter the kawaii space. We promise you will snack on kawaii foods, slurp up kawaii drinks, and enjoy kawaii music during your stay. All our staff are super kawaii, if they're not, you will be given all your kawaii money back. We hope you come and be kawaii with us. KAWAII.",
+            "Also we have a 2-way petting zoo."
+        ],
+        "location": "Sargatanas, Lavender Beds, Ward 16 Sub, Apt 27",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Personal Hosts", "Dancers", "Bards", "Soft-counselling", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "944060725670842368" ]
     }
 ]
