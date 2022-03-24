@@ -748,10 +748,10 @@
         "location": "Jenova, Mist, Ward 8, Plot 2",
         "website": "https://clubfoxbury.carrd.co/",
         "discord": "https://discord.gg/nCHgKeexN9",
-        "tags":[ "Nightclub", "Bar", "Dancers", "Courtesans", "Cuddling", "Food", "Drink", "Photography"],
+        "tags":[ "Nightclub", "Bar", "Dancers", "Cuddling", "Food", "Drink", "Photography"],
         "contacts":["297568652855607296"],
         "sfw": true,
-        "nsfw": true,
+        "nsfw": false,
         "times": [
             {
                 "day": 5,
@@ -2154,7 +2154,7 @@
             "When you're lost and don't know where to turn next, you arrive at the Crossroads.  Take your time to rest your feet, have a bite to eat, and enjoy in the fellow company of travelers.   Find a friend and then pick up where you left off, ready to discover where you're meant to explore next.",
             "This diner is designed for the first time RP'ers. Engaging you in 60-90 minute immersive RP dinner parties encouraging character development, introducing new people, and building friendships before discovering new venues to experience!"
         ],
-        "location": "Gilgamesh, Goblet, Ward 21, Plot 8",
+        "location": "Gilgamesh, Goblet, Ward 24, Plot 5",
         "discord": "https://discord.gg/Mub5P9h4t8",
         "sfw": true,
         "nsfw": false,
@@ -4197,7 +4197,7 @@
                 "end": { "hour": 4, "minute": 30, "nextDay": true }
             },
             {
-                "day": 2,
+                "day": 6,
                 "start": { "hour": 1, "minute": 30, "nextDay": true },
                 "end": { "hour": 4, "minute": 30, "nextDay": true }
             }
