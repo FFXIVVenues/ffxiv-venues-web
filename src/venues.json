@@ -859,7 +859,7 @@
         "name": "Playboy Mansion",
         "banner": "assets/banners/playboy-mansion.jpg",
         "description": [ "Welcome to PBM! The place where all of your appetites will be sated every Wednesday and Saturday night. The Playboy Mansion is a night-club with a fully-stocked bar, casino upstairs, and a host to a number of live twitch-DJ's and bands for your enjoyment. Looking for something more? Our extremely talented and beautiful staff are always available and eager to please! Don't miss out on an unforgettable experience and come join us for our next opening!" ],
-        "location": "Sargatanas, Lavender Beds, Ward 6, Plot 21",
+        "location": "Sargatanas, Shirogane, Ward 18, Plot 37",
         "website": "https://playboy-mansion.net/#",
         "discord": "https://discord.gg/pbm",
         "tags": [ "Nightclub", "Gambling", "Twitch DJ", "Photography", "Courtesans", "Cuddling", "VIP", "Dancers"],
@@ -4289,5 +4289,61 @@
         "tags": [ "Cafe", "Lounge", "Personal Hosts", "Dancers", "Bards", "Soft-counselling", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "944060725670842368" ]
+    },
+    {
+        "id": "TVxCdPLh2",
+        "added": "2022-03-24T00:00:00Z",
+        "name": "Sirens Song [Siren]",
+        "banner": "assets/banners/sirens-song-[siren].jpg",
+        "description": [ 
+            "A relaxing aquarium/underwater themed, trance music, nightclub and casino."
+        ],
+        "location": "Siren, Mist, Ward 2, Plot 1",
+        "sfw": true,
+        "nsfw": true,
+        "discord": "https://discord.gg/TBxJ9suSMU",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "674392893682745375" ]
+    },
+    {
+        "id": "WrYD3LsJM",
+        "added": "2022-03-24T00:00:00Z",
+        "name": "The Siren's Song [Ada]",
+        "banner": "assets/banners/sirens-song-[ada].jpg",
+        "description": [ 
+            "Allow our Sirens to cater to any and all needs, fantasies and lusts. We do it all, from the erotic to companionship, crafting and gathering assistance, and everything in between. Join us, and let my Sirens make your evening more delightful."
+        ],
+        "location": "Adamantoise, Lavender Beds, Ward 15, Plot 3",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://sirensongffxiv.carrd.co/",
+        "discord": "https://discord.gg/thesirenssong",
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Personal Hosts", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "234412817019699200" ]
     }
 ]
