@@ -3150,9 +3150,9 @@
         "name": "The Birdhaus",
         "banner": "assets/banners/the-birdhaus.jpg",
         "description": [ 
-            "Welcome to The Birdhaus! We are a SFW, immersive roleplay noodle bar and cafe located on the top floor of Shirogane's bustling Kobai Goten district. Join us every Thursday, Friday and Saturday from 6pm-9pm Central for welcoming atmosphere, friendly faces, music and amazing Doman and Far East inspired dishes! We also offer raid consumables, master recipes and omnicrafting services if needed."
+            "Welcome to The Birdhaus! We are a SFW, immersive roleplay noodle bar and cafe located in Limsa Lominsa's Mist residential district first ward at plot 58!  Join us every Sunday, Monday and Thursday from 6pm-9pm Central for welcoming atmosphere, friendly faces, music and amazing Doman and Far East inspired dishes! We also offer raid consumables, master recipes and omnicrafting services if needed."
         ],
-        "location": "Sargatanas, Shirogane, Ward 20, Apt 90",
+        "location": "Sargatanas, Mist, Ward 1, Plot 58",
         "discord": "https://discord.gg/ghmNkY2bsP",
         "website": "https://thebirdhaus.carrd.co/",
         "sfw": true,
@@ -4204,7 +4204,7 @@
          ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Cafe", "Library", "Bards", "Tarot", "Soft-counselling", "Food", "Drink", "Open stage", "Novel Services", "Triple triad" ],
+        "tags": [ "Cafe", "Library", "Bards", "Tarot", "Soft-counselling", "Food", "Drink", "Open stage", "Triple triad" ],
         "comments": [  ],
         "contacts": [ "289686307653812226" ]
     },
