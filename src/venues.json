@@ -4320,9 +4320,7 @@
         "added": "2022-03-24T00:00:00Z",
         "name": "The Siren's Song [Ada]",
         "banner": "assets/banners/sirens-song-[ada].jpg",
-        "description": [ 
-            "Allow our Sirens to cater to any and all needs, fantasies and lusts. We do it all, from the erotic to companionship, crafting and gathering assistance, and everything in between. Join us, and let my Sirens make your evening more delightful."
-        ],
+        "description": [ "Allow our Sirens to cater to any and all needs, fantasies and lusts. We do it all, from the erotic to companionship, crafting and gathering assistance, and everything in between. Join us, and let my Sirens make your evening more delightful." ],
         "location": "Adamantoise, Lavender Beds, Ward 15, Plot 3",
         "sfw": true,
         "nsfw": true,
@@ -4345,5 +4343,32 @@
         "tags": [ "Nightclub", "Casino", "Gambling", "Personal Hosts", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
         "comments": [  ],
         "contacts": [ "234412817019699200" ]
+    },
+    {
+        "id": "QhdtDm1p8",
+        "added": "2022-03-25T00:00:00Z",
+        "name": "Eri's Baking Company",
+        "banner": "assets/banners/eris-baking-company.jpg",
+        "description": [ "At Eri's we offer a small café experience with the calmness of a weekday night, and the comedy/unpredictability that is life itself, so when you walk into Eri's expect a relaxing atmosphere but don't be alarmed if suddenly people raid the venue and take the pastries, its just life 😁" ],
+        "location": "Midgardsormr, Goblet, Ward 19, Apt 23",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://eri-baking.carrd.co",
+        "discord": "https://discord.gg/GpMtD8FwTg",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "IC RP only" ],
+        "comments": [  ],
+        "contacts": [ "184178984689336322" ]
     }
 ]
