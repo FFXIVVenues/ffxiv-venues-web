@@ -1142,26 +1142,6 @@
         "exceptions": []
     },
     {
-        "id": "OqFimFvqC",
-        "added": "2021-10-03T00:00:00Z",
-        "name": "The Wallflower",
-        "banner": "assets/banners/the-wallflower.jpg",
-        "description": [ "The Wallflower is a quaint and cozy café located on Adamantoise. Come enjoy our commodities and weekly specials found on our discord. Future events in the works!" ],
-        "location": "Adamantoise, Lavender Beds, Ward 11, Plot 45",
-        "shard": "Amethyst Shallows Subdivision",
-        "discord": "https://discord.gg/6jNDAhjZmt",
-        "website": "https://the-wallflower.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
-            }
-        ]
-    },
-    {
         "id": "mKnEDYc6z",
         "added": "2022-03-03T00:00:00Z",
         "name": "The Rose Petal",
@@ -4370,5 +4350,52 @@
         "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "IC RP only" ],
         "comments": [  ],
         "contacts": [ "184178984689336322" ]
+    },
+    {
+        "id": "EnNXwKbEX",
+        "added": "2022-03-26T00:00:00Z",
+        "name": "The Frisky Kitten Cafe & Cabaret",
+        "banner": "assets/banners/frisky-kitten.jpg",
+        "description": [ "The Frisky Kitten is a beautifully decorated beachside cafe with a downstairs cabaret open stage and an upstairs spa/bathhouse. The atmosphere is warm and cozy with a hint of sophistication." ],
+        "location": "Siren, Mist, Ward 24, Plot 30",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://thefriskykitten.carrd.co/",
+        "discord": "https://discord.gg/afterglowxiv",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Bath house", "Gambling", "Pillow", "Bards", "Food", "Drink" ],
+        "comments": [  ],
+        "contacts": [ "227941432541839361" ]
     }
 ]
