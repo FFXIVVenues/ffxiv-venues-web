@@ -4266,7 +4266,7 @@
         "times": [ ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Cafe", "Lounge", "Personal Hosts", "Dancers", "Bards", "Soft-counselling", "Food", "Drink", "Open stage" ],
+        "tags": [ "Cafe", "Lounge", "Hosts", "Dancers", "Bards", "Soft-counselling", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "944060725670842368" ]
     },
@@ -4320,7 +4320,7 @@
         ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Nightclub", "Casino", "Gambling", "Personal Hosts", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Hosts", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
         "comments": [  ],
         "contacts": [ "234412817019699200" ]
     },
@@ -4397,5 +4397,38 @@
         "tags": [ "Cafe", "Bath house", "Gambling", "Pillow", "Bards", "Food", "Drink" ],
         "comments": [  ],
         "contacts": [ "227941432541839361" ]
+    },
+    {
+        "id": "Qea2wWAUv",
+        "added": "2022-03-26T00:00:00Z",
+        "name": "Impulse",
+        "banner": "assets/banners/impulse.jpg",
+        "description": [ "Welcome to impulse were an inclusive lgbtqia+ owned and operated venue. if you're looking for a place to enjoy great drinks, great people, GAMBA, or to just relax look no further. We are always ready to meet new friends and make connections. Open Wed/Thurs/Fri 8pm EST - 12am EST" ],
+        "location": "Sargatanas, Lavender Beds, Ward 13, Plot 13",
+        "sfw": true,
+        "nsfw": true,
+        "discord": "https://discord.gg/uatcExXc9g",
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Lounge", "Casino", "Gambling", "Hosts", "Courtesans", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "158281637031837696" ]
     }
 ]
