@@ -4430,5 +4430,34 @@
         "tags": [ "Lounge", "Casino", "Gambling", "Hosts", "Courtesans", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
         "comments": [  ],
         "contacts": [ "158281637031837696" ]
+    },
+    {
+        "id": "WerAvEjPL",
+        "added": "2022-03-26T00:00:00Z",
+        "name": "The Azure Oasis",
+        "banner": "assets/banners/azure-oasis.jpg",
+        "description": [ "The unrelenting Thanalan heat and fast paced Ul'dahn city life can wear down any adventurer whether they're local or from afar. Nestled on the rim of the Goblet, the Azure Oasis is a shining beacon to all who need a break and cool off a while. Our bar is stocked with our prized exotic waters from across the globe blended and brewed with equally as exotic herbs to give each drink a life and personality of it's own. Many local delicacies and a large selection of incense also graces our menu. If you're looking for a place to drift away and relax a while (aside from occasional staff hijinks) there's none better." ],
+        "location": "Gilgamesh, Goblet, Ward 5, Plot 53",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://azure-oasis.carrd.co/",
+        "discord": "https://discord.gg/xApVzkgZdA",
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Den", "Tavern", "Bards", "Food", "Drink", "Open stage", "Novel Services" ],
+        "comments": [  ],
+        "contacts": [ "372018960977231872" ]
     }
 ]
