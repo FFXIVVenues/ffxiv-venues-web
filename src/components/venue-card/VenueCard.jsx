@@ -37,8 +37,9 @@ class VenueCard extends VenueOpening {
 
             <div className="venue-card__block" 
                  role="row" 
-                 onClick={ this._onVenueClick.bind(this) }
-                 style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : { backgroundImage: `url("assets/default-banner.jpg")` } }>
+                 onClick={ this._onVenueClick.bind(this) }>
+
+                <img className="venue-card__photo" src={ this.props.venue.banner ? this.props.venue.banner : "assets/default-banner.jpg" } alt="" loading="lazy" />
 
                 <div className="venue-card__options">
                     <FavoriteIcon lit={this.props.venue.isFavorite()} onClick={e => this.toggleFavorite(e) } />

@@ -26,6 +26,10 @@
     background-image : linear-gradient(to right, rgba(255,255,255, 0), var(--background-color) 25%);
 }
 
+.arrow:hover:before, .arrow:focus:before {
+    border-color: var(--focus-color);
+}
+
 .arrow:before {
     content: '';
     border: solid lightgray;

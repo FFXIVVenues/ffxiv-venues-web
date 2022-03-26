@@ -250,9 +250,9 @@ class App extends React.Component {
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
             <div className="aether-venues__colaborators">
               In collaboration with
-              <a href="https://dote.carrd.co/" target="_blank" rel="noopener"><DoteLogo style={{height: "30px"}} /></a>
+              <a href="https://dote.carrd.co/" target="_blank" rel="noreferrer"><DoteLogo style={{height: "30px"}} /></a>
               and 
-              <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noopener"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
+              <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>
           <div className="aether-venues__list">
@@ -266,44 +266,44 @@ class App extends React.Component {
           <div className="aether-venues__meta-panel">
           <div className="aether-venues__discord">
               <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div>
-              <a className="aether-venues__discord-button" target="_blank" rel="noopener" href="https://form.jotform.com/220493425516050">Complete the form!</a>
+              <a className="aether-venues__discord-button" target="_blank" rel="noreferrer" href="https://form.jotform.com/220493425516050">Complete the form!</a>
             </div>
             <div className="aether-venues__discord">
               <div className="aether-venues__discord-cta"><DiscordIcon /> Looking for the home of FFXIV Venues?</div>
-              <a className="aether-venues__discord-button" target="_blank" rel="noopener" href="https://discord.gg/gTP65VYcMj">Join the discord!</a>
+              <a className="aether-venues__discord-button" target="_blank" rel="noreferrer" href="https://discord.gg/gTP65VYcMj">Join the discord!</a>
             </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
-                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
                 <div className="aether-venues__made-by-position">Developer, Venue Indexer (Aether)</div>
               </div>
             </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/d6583919ef6756c46ee9cac82110041a_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
-                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://ada.xumm.ffxivphotography.com/">Here Xumm</a>, Siren.</div>
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/">Here Xumm</a>, Siren.</div>
                 <div className="aether-venues__made-by-position">Venue Photographer</div>
               </div>
             </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/87561ceb44aa7c85284e3e941f403394_ba22853447012a24cee115315d6a5bebfc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
-                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/99616043571380224">Ganymede Aqua</a>, Sargatanas.</div>
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/99616043571380224">Ganymede Aqua</a>, Sargatanas.</div>
                 <div className="aether-venues__made-by-position">Community Administrator</div>
               </div>
             </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
-                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/880594476295389205">Lanna'baker Kha</a>, Cactuar.</div>
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/880594476295389205">Lanna'baker Kha</a>, Cactuar.</div>
                 <div className="aether-venues__made-by-position">Community Administrator</div>
               </div>
             </div>
             <div className="aether-venues__made-by-individual">
               <img src="https://img2.finalfantasyxiv.com/f/639157419cc474330657cc764b33c9ea_1f5fd239b885860b7c2bfc72ad1d97effc0_96x96.jpg" alt=""/>
               <div className="aether-venues__made-by-details">
-                <div className="aether-venues__made-by-name"><a target="_blank" rel="noopener" href="https://discordapp.com/users/227307380616986634">Axelle Lenoir</a>, Adamantoise.</div>
+                <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/227307380616986634">Axelle Lenoir</a>, Adamantoise.</div>
                 <div className="aether-venues__made-by-position">Community Administrator</div>
               </div>
             </div>

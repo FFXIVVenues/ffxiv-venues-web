@@ -10,8 +10,9 @@
 
 :root {
   font-size: 15px;
-  --background-color: rgb(221, 221, 221);
+  --foreground-color: rgb(221, 221, 221);
   --background-color: rgb(20, 20, 20);
+  --focus-color: rgba(228, 120, 255, 0.7);
   --accent-color: rgba(227, 120, 255);
 }
 
@@ -99,8 +100,12 @@ a {
   width: max-content;
 }
 
+.aether-venues__tag:hover {
+  background-color: var(--focus-color);
+}
+
 .aether-venues__tag--enabled {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color) !important;
 }
 
 .aether-venues__list {
@@ -120,6 +125,7 @@ a {
   text-transform: uppercase;
   display: inline-block;
   cursor: pointer;
+  margin-left: 10px
 }
 
 .aether-venues__scheduled-venues {
