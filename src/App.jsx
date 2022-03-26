@@ -250,7 +250,7 @@ class App extends React.Component {
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
             <div className="aether-venues__colaborators">
               In collaboration with
-              <a href="https://dote.carrd.co/" target="_blank" rel="noreferrer"><DoteLogo style={{height: "30px"}} /></a>
+              <a href="https://dotemag.carrd.co/" target="_blank" rel="noreferrer"><DoteLogo style={{height: "30px"}} /></a>
               and 
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
