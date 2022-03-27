@@ -3,6 +3,7 @@
 
 import React from 'react';
 import './App.css';
+import './Responsive.css';
 import { ModalStage } from "./components/modal-stage/ModalStage";
 import days from "./consts/days.json"
 import { venueService } from './services/venueService';
@@ -51,7 +52,7 @@ class App extends React.Component {
     this._featureFilters = [
       { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
       { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
-      { key: Symbol(), label: "Hosts", filter: tagFilter("hosts") },
+      // { key: Symbol(), label: "Hosts", filter: tagFilter("hosts") },
       { key: Symbol(), label: "Void venue", filter: tagFilter("void") },
       { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
       { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },

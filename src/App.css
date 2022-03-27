@@ -9,18 +9,20 @@
 }
 
 :root {
-  font-size: 15px;
   --foreground-color: rgb(221, 221, 221);
   --background-color: rgb(20, 20, 20);
-  --focus-color: rgba(228, 120, 255, 0.7);
+  --outline-color: rgb(60, 60, 60);
+  --focus-color: rgba(227, 120, 255, 0.5);
   --accent-color: rgba(227, 120, 255);
+
+  font-size: 15px;
 }
 
 body {
   background-image: url("assets/hero-strip.jpg");
   background-position-x: 000px;
   background-attachment: fixed;
-  background-size: auto 100vh;
+  background-size: 280px auto;
   background-repeat: no-repeat;
   background-color: var(--background-color);
 
@@ -66,22 +68,18 @@ a {
 .aether-venues__view-toggle {
   display: flex;
   margin-bottom: 3px;
-  border-radius: 5px;
-  border: solid 1px #333;
-  width: max-content;
-  overflow: hidden;
-  margin-left: 30px;
-  align-items: center;
 }
 
 .aether-venues__view-toggle button {
   padding: 8px;
   height: 30px;
+  width: 30px;
+  border: solid 1px var(--outline-color);
+  border-left-width: 0;
+  border-right-width: 0;
   display: block;
   background: unset;
-  border: none;
   width: fit-content;
-  border-right: solid 1px #333;
   cursor: pointer;
 }
 
@@ -93,8 +91,14 @@ a {
   background-color: var(--accent-color);
 }
 
+.aether-venues__view-toggle button:first-child {
+  border-left-width: 1px;
+  border-radius: 5px 0 0 5px;
+}
+
 .aether-venues__view-toggle button:last-child {
-  border-right: none;
+  border-right-width: 1px;
+  border-radius: 0 5px 5px 0;
 }
 
 .aether-venues__colaborators {
@@ -127,7 +131,7 @@ a {
   display: inline-block;
   border-radius: 6px;
   background-color: #111;
-  border: solid 1px #333;
+  border: solid 1px var(--outline-color);
   color: white;
   font-size: 1em;
   padding: 5px 15px 7px 15px;
@@ -146,10 +150,10 @@ a {
 }
 
 .aether-venues__list {
-  margin-left: 27.5vh;
-  margin-top: 100px;
+  margin-left: 300px;
+  margin-top: 90px;
   margin-bottom: 7.5vh;
-  width: calc(100vw - 380px);
+  width: calc(100vw - 340px);
 }
 
 .aether-venues__list--list-view .aether-venues__venues details {
@@ -193,8 +197,9 @@ a {
 .aether-venues__discord {
   border-radius: 5px;
   background-color: var(--background-color);
-  width: 20vh;
-  padding: 15px;
+  width: 240px;
+  padding: 12px;
+  box-sizing: border-box;
   margin-bottom: 20px;
   font-size: .9rem;
 }
@@ -224,7 +229,6 @@ a {
   margin-top: 15px;
 }
 
-.aether-venues__discord-button:focus,
 .aether-venues__discord-button:hover {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
@@ -247,10 +251,3 @@ a {
   font-size: .8em;
 }
 
-@media screen and (max-width: 615px) {
-  .aether-venues__day { padding-top: 20px; }
-  .aether-venues__heading { margin-bottom: 110px; flex-direction: column; align-items: flex-start; }
-  .aether-venues__heading h1 { margin-left: 0; }
-  .aether-venues__definition { margin-bottom: 20px; text-shadow: none; }
-  .aether-venues__venues { margin-right: 20px }
-}

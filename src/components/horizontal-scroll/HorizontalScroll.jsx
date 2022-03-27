@@ -151,7 +151,7 @@ class HorizontalScroll extends Component {
     const rect = el.getBoundingClientRect();
 
     const animationValue = this.state.animValues;
-    const newAnimationValue = animationValue + Math.floor(rect.width / 370)*370;
+    const newAnimationValue = animationValue + Math.max(Math.floor(rect.width / 370), 1)*370;
 
     if (!this.caniscroll()) {
       return;
@@ -165,7 +165,7 @@ class HorizontalScroll extends Component {
     const rect = el.getBoundingClientRect();
 
     var animationValue = this.state.animValues;
-    var newAnimationValue = animationValue - Math.floor(rect.width / 370)*370;
+    var newAnimationValue = animationValue - Math.max(Math.floor(rect.width / 370), 1)*370;
 
     if (!this.caniscroll()) {
       return;

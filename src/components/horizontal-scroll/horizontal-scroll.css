@@ -1,4 +1,4 @@
-.scroll-parent {
+.scroll-parent > * {
     padding: 0 10px;
 }
 
@@ -17,13 +17,13 @@
 .left {
     left: 0;
     padding-right: 20px;
-    background-image : linear-gradient(to left, rgba(255,255,255, 0), var(--background-color) 25%);
+    background-image : linear-gradient(to left, rgba(20, 20, 20, 0), var(--background-color) 25%);
 }
 
 .right {
     right: 0;
     padding-left: 20px;
-    background-image : linear-gradient(to right, rgba(255,255,255, 0), var(--background-color) 25%);
+    background-image : linear-gradient(to right, rgba(20, 20, 20, 0), var(--background-color) 25%);
 }
 
 .arrow:hover:before, .arrow:focus:before {
@@ -32,7 +32,7 @@
 
 .arrow:before {
     content: '';
-    border: solid rgb(90, 90, 90);
+    border: solid var(--outline-color);
     border-width: 0 3px 3px 0;
     display: block;
     padding: 4px;
