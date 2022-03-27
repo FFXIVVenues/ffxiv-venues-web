@@ -32,7 +32,7 @@
 
 .arrow:before {
     content: '';
-    border: solid lightgray;
+    border: solid rgb(90, 90, 90);
     border-width: 0 3px 3px 0;
     display: block;
     padding: 4px;

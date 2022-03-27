@@ -38,6 +38,7 @@ a {
 }
 
 .aether-venues__heading {
+  display: flex;
   background-color: var(--background-color);
   position: fixed;
   top: 0;
@@ -50,8 +51,9 @@ a {
   padding: 10px 20px 5px;
 }
 
-.aether-venues__heading img,
-.aether-venues__heading svg {
+.aether-venues__heading h1 img,
+.aether-venues__heading .aether-venues__colaborators img,
+.aether-venues__heading .aether-venues__colaborators svg {
   height: 35px;
   margin: 5px;
 }
@@ -61,12 +63,47 @@ a {
   margin: 0;
 }
 
+.aether-venues__view-toggle {
+  display: flex;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  border: solid 1px #333;
+  width: max-content;
+  overflow: hidden;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.aether-venues__view-toggle button {
+  padding: 8px;
+  height: 30px;
+  display: block;
+  background: unset;
+  border: none;
+  width: fit-content;
+  border-right: solid 1px #333;
+  cursor: pointer;
+}
+
+.aether-venues__view-toggle button:hover {
+  background-color: var(--focus-color);
+}
+
+.aether-venues__view-toggle button.active {
+  background-color: var(--accent-color);
+}
+
+.aether-venues__view-toggle button:last-child {
+  border-right: none;
+}
+
 .aether-venues__colaborators {
   display: inline-flex;
   align-items: center;
   color: gray;
   vertical-align: middle;
   float: right;
+  margin-left: auto;
 }
 
 .aether-venues__colaborators a {
@@ -111,12 +148,24 @@ a {
 .aether-venues__list {
   margin-left: 27.5vh;
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 7.5vh;
   width: calc(100vw - 380px);
 }
 
-.aether-venues__day {
-  padding-top: 20px; 
+.aether-venues__list--list-view .aether-venues__venues details {
+  margin-top: 30px
+}
+
+.aether-venues__venues summary {
+  cursor: pointer;
+}
+
+.aether-venues__venues summary::marker {
+  color: rgb(90, 90, 90);
+}
+
+.aether-venues__venues summary:hover::marker {
+  color: var(--accent-color);
 }
 
 .aether-venues__venues summary h2 {
@@ -124,8 +173,11 @@ a {
   font-size: 1rem;
   text-transform: uppercase;
   display: inline-block;
-  cursor: pointer;
   margin-left: 10px
+}
+
+.aether-venues__venues .venue-opening {
+  margin-left: 5px
 }
 
 .aether-venues__scheduled-venues {

@@ -1,6 +1,4 @@
 // TODO
-// Image optimization
-// Add view mode switching
 // Mobile
 
 import React from 'react';
@@ -11,17 +9,21 @@ import { venueService } from './services/venueService';
 import { timeService } from './services/timeService';
 import { favouritesService } from './services/favouritesService';
 import { VenueStrip } from './components/venue-strip/VenueStrip';
+import { VenueOpening } from './components/venue-opening/VenueOpening';
 import { propFilter, tagFilter, worldFilter } from "./filters/filters";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
+import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
+import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
 import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
-
 
 class App extends React.Component {
 
   constructor() {
     super();
+    this.switchToListView = this.switchToListView.bind(this);
+    this.switchToCardView = this.switchToCardView.bind(this);
     this._openVenuesIntervalHandle = null;
     this._destroyFavouritesObserver = null;
     this._worldFilters = [
@@ -69,7 +71,8 @@ class App extends React.Component {
       enabledFeatureFilters: [],
       openVenues: venueService.getOpenVenues(),
       favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()),
-      scheduledVenues: venueService.getVenueSchedule()
+      scheduledVenues: venueService.getVenueSchedule(),
+      listView: localStorage.getItem("aether-venues-view-setting") === 'list-view'
     };
   }
 
@@ -126,11 +129,16 @@ class App extends React.Component {
     if (venues.length === 0)
       return <React.Fragment></React.Fragment>
 
+    
+    
     return (
       <div className="aether-venues__venues aether-venues__favourite-venues">
         <details open>
           <summary><h2>Favorites</h2></summary>
-          <VenueStrip venues={venues} />
+          { this.state.listView ? 
+            venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
+            <VenueStrip venues={venues} />
+          }
         </details>
       </div>);
   }
@@ -143,7 +151,10 @@ class App extends React.Component {
     return <div className="aether-venues__venues aether-venues__opennow">
         <details open>
           <summary><h2>Open now</h2></summary>
-          <VenueStrip venues={venues} />
+          { this.state.listView ? 
+            venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
+            <VenueStrip venues={venues} />
+          }
         </details>
       </div>;
   }
@@ -160,7 +171,10 @@ class App extends React.Component {
         <div className="aether-venues__day" key={i}>
           <details open>
             <summary><h2>{currentDay === i ? "Today" : currentDay === i - 1 ? "Tomorrow" : days[i]}</h2></summary>
-            <VenueStrip venues={venues} />
+            { this.state.listView ? 
+              venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
+              <VenueStrip venues={venues} />
+            }
           </details>
         </div>
       )
@@ -183,24 +197,30 @@ class App extends React.Component {
       <div className="aether-venues__venues aether-venues__unscheduled-venues">
         <details open>
           <summary><h2>Unscheduled</h2></summary>
-          <VenueStrip venues={venues} />
+          { this.state.listView ? 
+              venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
+            <VenueStrip venues={venues} />
+          }
         </details>
       </div>);
   }
 
   _renderNewestVenues() {
-    let newVenues = venueService.getVenues().filter(v => v.isNew());
-    newVenues = this.runFilters(newVenues);
-    if (newVenues.length === 0)
+    let venues = venueService.getVenues().filter(v => v.isNew());
+    venues = this.runFilters(venues);
+    if (venues.length === 0)
       return <React.Fragment></React.Fragment>
 
-    newVenues = newVenues.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
+    venues = venues.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
 
     return (
       <div className="aether-venues__venues aether-venues__new-venues">
         <details open>
           <summary><h2>Newest</h2></summary>
-          <VenueStrip venues={newVenues} />
+          { this.state.listView ? 
+              venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
+            <VenueStrip venues={venues} />
+          }
         </details>
       </div>)
   }
@@ -240,6 +260,16 @@ class App extends React.Component {
         </div>
       </React.Fragment>)
   }
+  
+  switchToListView() {
+    localStorage.setItem("aether-venues-view-setting", "list-view");
+    this.setState({ listView: true })
+  }
+  
+  switchToCardView() {
+    localStorage.setItem("aether-venues-view-setting", "card-view");
+    this.setState({ listView: false })
+  }
 
   render() {
     return (
@@ -248,6 +278,10 @@ class App extends React.Component {
         <div className="aether-venues">
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
+            <div className="aether-venues__view-toggle">
+              <button onClick={this.switchToListView} className={this.state.listView ? `active` : undefined}><ListViewIcon /></button>
+              <button onClick={this.switchToCardView} className={this.state.listView ? undefined : `active`}><CardViewIcon /></button>
+            </div>
             <div className="aether-venues__colaborators">
               In collaboration with
               <a href="https://dotemag.carrd.co/" target="_blank" rel="noreferrer"><DoteLogo style={{height: "30px"}} /></a>
@@ -255,10 +289,10 @@ class App extends React.Component {
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>
-          <div className="aether-venues__list">
+          <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
             { this._renderFilters() }
             { this._renderFavoriteVenues() }
-            { this._renderOpenVenues() }
+            { !this.state.listView && this._renderOpenVenues() }
             { this._renderNewestVenues() }
             { this._renderScheduledVenues() }
             { this._renderUnscheduledVenues() } 

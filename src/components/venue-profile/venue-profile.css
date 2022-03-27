@@ -31,11 +31,18 @@
     margin-right: 10px
 }
 
+button.venue-profile__favourite-button:hover,
+button.venue-profile__visited-button:hover {
+    color: #EEE;
+    border: solid rgba(228, 120, 255, 0.4) 1px;
+    background-color: rgba(228, 120, 255, 0.5);
+}
+
 button.venue-profile__favourite-button--favourited,
 button.venue-profile__visited-button--visited {
     color: #EEE;
-    border: solid #009B80 1px;
-    background-color: rgba(0, 155, 128, .9);
+    border: solid rgba(227, 120, 255) 1px !important;
+    background-color: rgba(227, 120, 255, .8) !important;
 }
 
 .favorite-icon {
@@ -76,6 +83,11 @@ button.venue-profile__visited-button--visited {
 .venue-profile__website svg  {
     height: 20px;
     margin-left: 20px;
+}
+
+.venue-profile__discord:hover svg *,
+.venue-profile__website:hover svg * {
+    fill: var(--accent-color) !important
 }
 
 .venue-profile__location { margin-top: 0; margin-bottom: 30px; }
