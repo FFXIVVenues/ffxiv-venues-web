@@ -46,31 +46,30 @@ class HorizontalScroll extends Component {
   }
 
   onScrollStart(e) {
-    return;
-    if (!e.shiftKey) return;
-    e.preventDefault()
-    // If scrolling on x axis, change to y axis. Otherwise, just get the y deltas.
-    // (Basically, this for Apple mice that allow horizontal scrolling by default)
-    var rawData = e.deltaY ? e.deltaY : e.deltaX
-    var mouseY = Math.floor(rawData)
+    // if (!e.shiftKey) return;
+    // e.preventDefault()
+    // // If scrolling on x axis, change to y axis. Otherwise, just get the y deltas.
+    // // (Basically, this for Apple mice that allow horizontal scrolling by default)
+    // var rawData = e.deltaY ? e.deltaY : e.deltaX
+    // var mouseY = Math.floor(rawData)
 
-    // Bring in the existing animation values
-    var animationValue = this.state.animValues
-    var newAnimationValue = animationValue + mouseY
-    var newAnimationValueNegative = animationValue - mouseY
+    // // Bring in the existing animation values
+    // var animationValue = this.state.animValues
+    // var newAnimationValue = animationValue + mouseY
+    // var newAnimationValueNegative = animationValue - mouseY
 
-    if (!this.caniscroll()) {
-      return
-    }
+    // if (!this.caniscroll()) {
+    //   return
+    // }
 
-    var scrolling = () => {
-      this.props.reverseScroll
-        ? this.setState({ animValues: newAnimationValueNegative })
-        : this.setState({ animValues: newAnimationValue })
-    }
+    // var scrolling = () => {
+    //   this.props.reverseScroll
+    //     ? this.setState({ animValues: newAnimationValueNegative })
+    //     : this.setState({ animValues: newAnimationValue })
+    // }
 
-    // Begin Scrolling Animation
-    window.requestAnimationFrame(scrolling)
+    // // Begin Scrolling Animation
+    // window.requestAnimationFrame(scrolling)
   }
 
   shouldComponentUpdate(nextProps, nextState) {
