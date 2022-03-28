@@ -46,6 +46,7 @@ class HorizontalScroll extends Component {
   }
 
   onScrollStart(e) {
+    return;
     if (!e.shiftKey) return;
     e.preventDefault()
     // If scrolling on x axis, change to y axis. Otherwise, just get the y deltas.
@@ -223,3 +224,6 @@ class HorizontalScroll extends Component {
 }
 
 export { HorizontalScroll }
+
+// todo: Try to replace all this with:
+// https://www.codegrepper.com/code-examples/javascript/how+to+animate+scrollto+top

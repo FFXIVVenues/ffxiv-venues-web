@@ -4,7 +4,14 @@
     width: calc(100% - 40px);
     margin-left: 20px;
     margin-right: 20px;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scroll-horizontal__scroll-parent::-webkit-scrollbar {
+    display: none;
 }
 
 .scroll-horizontal__scroll-parent > * {
