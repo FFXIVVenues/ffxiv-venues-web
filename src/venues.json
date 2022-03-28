@@ -458,37 +458,6 @@
         ]
     },
     {
-        "id": "jquMZYKZ",
-        "added": "2021-08-15T00:00:00Z",
-        "name": "Club Pure",
-        "description": [ "In a playful mood? Want to break the rules of modern society? Come have your every wish granted at Club Pure! Pure is a nightclub, bar, lounge, sauna, and casino where you can let loose your inner sinner and embrace the moonlit night with a bevy of some of the most gorgeous flowers, all waiting to be plucked at your disposal." ],
-        "banner": "assets/banners/pure.jpg",
-        "location": "Jenova, Shirogane, Ward 13, Plot 46",
-        "website": "https://clubpure.carrd.co/",
-        "discord": "https://discord.gg/clubpure",
-        "tags":[ "Nightclub", "Bar", "Courtesans", "Dancers", "Food", "Drink" ],
-        "contacts": [ "742544264592097431" ],
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "tOMrDk0g",
         "added": "2021-08-16T00:00:00Z",
         "name": "The Anti",
@@ -4424,5 +4393,30 @@
         "tags": [ "Den", "Tavern", "Bards", "Food", "Drink", "Open stage", "Novel Services" ],
         "comments": [  ],
         "contacts": [ "372018960977231872" ]
+    },
+    {
+        "id": "gl2LeB7ME",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "V.I.T.R.I.O.L.",
+        "banner": "assets/banners/vitriol.jpg",
+        "description": [ "VITRIOL is a SFW +18, gothic/dark academia bar and lounge. We feature live music, occasional raffles and giveaways, and sometimes an open stage for wandering bards. We have dancers on staff, bartenders, and the occasional greeter. This is an RP casual venue, but RP is not required. Expected to be greeted when you walk downstairs, find a place to sit, and relax. Stay as long as you like~" ],
+        "location": "Faerie, Lavender Beds, Ward 5, Plot 27",
+        "sfw": true,
+        "nsfw":false ,
+        "website": "https://utsupra-sicinfra.carrd.co/",
+        "discord": "",
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Lounge", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "338528566549413898" ]
     }
+
 ]
