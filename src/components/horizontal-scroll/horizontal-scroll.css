@@ -1,8 +1,17 @@
-.scroll-parent > * {
+.scroll-horizontal__scroll-parent {
+    position: relative;
+    height: 100%;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.scroll-horizontal__scroll-parent > * {
     padding: 0 10px;
 }
 
-.arrow {
+.scroll-horizontal__arrow {
     position: absolute;
     width: 10px;
     top: 0;
@@ -14,23 +23,27 @@
     z-index: 1;
 }
 
-.left {
+.scroll-horizontal__arrow--left {
     left: 0;
+    padding-left: 10px;
+    margin-left: -10px;
     padding-right: 20px;
     background-image : linear-gradient(to left, rgba(20, 20, 20, 0), var(--background-color) 25%);
 }
 
-.right {
+.scroll-horizontal__arrow--right {
     right: 0;
+    padding-right: 10px;
+    margin-right: -10px;
     padding-left: 20px;
     background-image : linear-gradient(to right, rgba(20, 20, 20, 0), var(--background-color) 25%);
 }
 
-.arrow:hover:before, .arrow:focus:before {
+.scroll-horizontal__arrow:hover:before, .scroll-horizontal__arrow:focus:before {
     border-color: var(--focus-color);
 }
 
-.arrow:before {
+.scroll-horizontal__arrow:before {
     content: '';
     border: solid var(--outline-color);
     border-width: 0 3px 3px 0;
@@ -38,12 +51,12 @@
     padding: 4px;
 }
 
-.left:before {
+.scroll-horizontal__arrow--left:before {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
 
-.right:before {
+.scroll-horizontal__arrow--right:before {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }

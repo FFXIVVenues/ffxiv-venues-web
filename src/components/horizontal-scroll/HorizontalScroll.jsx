@@ -148,10 +148,11 @@ class HorizontalScroll extends Component {
 
   moveLeft() {
     const el = DOM.findDOMNode(this.hScrollParent);
+    const stepValue = el.firstChild.firstChild.getBoundingClientRect().width;
     const rect = el.getBoundingClientRect();
 
     const animationValue = this.state.animValues;
-    const newAnimationValue = animationValue + Math.max(Math.floor(rect.width / 370), 1)*370;
+    const newAnimationValue = animationValue + Math.max(Math.floor(rect.width / stepValue), 1)*stepValue;
 
     if (!this.caniscroll()) {
       return;
@@ -162,10 +163,11 @@ class HorizontalScroll extends Component {
 
   moveRight() {
     const el = DOM.findDOMNode(this.hScrollParent);
+    const stepValue = el.firstChild.firstChild.getBoundingClientRect().width;
     const rect = el.getBoundingClientRect();
 
     var animationValue = this.state.animValues;
-    var newAnimationValue = animationValue - Math.max(Math.floor(rect.width / 370), 1)*370;
+    var newAnimationValue = animationValue - Math.max(Math.floor(rect.width / stepValue), 1)*stepValue;
 
     if (!this.caniscroll()) {
       return;
@@ -193,23 +195,13 @@ class HorizontalScroll extends Component {
       width: width || `100%`,
     };
 
-    const scrollerStyles = {
-      height: `100%`,
-      width: `calc(100%-40px)`,
-      marginLeft: `20px`,
-      marginRight: `20px`,
-      overflow: `hidden`,
-      position: `relative`,
-      ...style
-    }
-
     return (
       <div className={`scroll-horizontal ${this.props.className || ''}`} style={containerStyles}>
-        <div onClick={this.moveLeft.bind(this)} className='arrow left'></div>
+        <div onClick={this.moveLeft.bind(this)} className='scroll-horizontal__arrow scroll-horizontal__arrow--left'></div>
         <div
           ref={r => { this.hScrollParent = r }}
-          style={scrollerStyles}
-          className='scroll-parent'>
+          style={style}
+          className='scroll-horizontal__scroll-parent'>
           <Motion style={{ z: spring(this.state.animValues, springConfig) }}>
             {({ z }) => {
               const scrollingElementStyles = {
@@ -224,7 +216,7 @@ class HorizontalScroll extends Component {
             }}
           </Motion>
         </div>
-        <div onClick={this.moveRight.bind(this)} className='arrow right'></div>
+        <div onClick={this.moveRight.bind(this)} className='scroll-horizontal__arrow scroll-horizontal__arrow--right'></div>
       </div>
     )
   }
