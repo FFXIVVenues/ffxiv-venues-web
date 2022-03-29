@@ -1341,7 +1341,7 @@
         "added": "2021-10-19T00:00:00Z",
         "name": "Flora and Fana",
         "banner": "assets/banners/flora-and-fana.jpg",
-        "description": [ "Greetings and welcome to the Flora & Fana Cafe. Glad to have you with us! Please feel free to take your ease in our lovely hot tub, sit with friends and grab a bite, play triple triad, or even perform on our open stage. Enjoy your stay!" ],
+        "description": [ "Greetings and welcome to the Flora & Fana Cafe. Glad to have you with us! Please feel free to take your ease in our lovely hot tub, sit with friends and grab a bite, play Triple triad, or even perform on our open stage. Enjoy your stay!" ],
         "location": "Jenova, Goblet, Ward 23, Plot 28",
         "shard": "Goblet Southeast",
         "website": "https://floraandfana.carrd.co/",
@@ -1831,7 +1831,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Den", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Photography", "Triple Triad" ],
+        "tags": [ "Den", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Photography", "Triple triad" ],
         "contacts": [ "814973773094060052" ]
     },
     {
@@ -2745,7 +2745,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Photography", "Triple Triad" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Photography", "Triple triad" ],
         "contacts": [ "126699155899940865" ]
     },
     {
@@ -2774,7 +2774,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP", "Triple Triad" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP", "Triple triad" ],
         "contacts": [ "123148622350123011" ]
     },
     {
@@ -2828,7 +2828,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple Triad" ],
+        "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple triad" ],
         "contacts": [ "132980996122345473" ]
     },
     {
@@ -3055,7 +3055,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple Triad" ],
+        "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple triad" ],
         "contacts": [ "80380433325363200" ]
     },
     {
@@ -3272,7 +3272,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Bar", "Speakeasy", "Gambling", "Twitch DJ", "Food", "Drink", "Photography", "Triple Triad", "IC RP only" ],
+        "tags": [ "Bar", "Speakeasy", "Gambling", "Twitch DJ", "Food", "Drink", "Photography", "Triple triad", "IC RP only" ],
         "contacts": [ "184801631949291520" ]
     },
     {
@@ -4473,5 +4473,29 @@
         "tags": [ "Bar", "Lougne", "Dancers", "Bards", "Twitch DJ", "Drink" ],
         "comments": [  ],
         "contacts": [ "554569287537524748" ]
+    },
+    {
+        "id": "Z9r1fwPzF",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "Big Boys Sushi Bar",
+        "banner": "assets/banners/big-boys-sushi-bar.jpg",
+        "description": [ "Derived from our Big Brother Goobbue's spirit of warmth & goofiness to coexist with plant life on them, the Big Boys Sushi Bar aims to create a symbiotic relationship with their patrons, much like the relationship with the moss and lichen growing atop a goobbue's head! We're a SFW cozy place with a splash of chaos to chill, get your fill, meet friends, and have fun! There's a wide selection of food and drinks available, friendly staff, relaxing bathhouse and a wild gambling master always ready for a death roll." ],
+        "location": "Jenova, Shirogane, Ward 14, Plot 52",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://bbsushibar.carrd.co/",
+        "discord": "https://discord.gg/Jn2zcr3fnF",
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Casino", "Gambling", "Artists", "Bards", "Food", "Drink", "Open stage", "Novel services", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "282322027883397121" ]
     }
 ]
