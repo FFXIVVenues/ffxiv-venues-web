@@ -4492,5 +4492,28 @@
         "tags": [ "Bar", "Casino", "Gambling", "Artists", "Bards", "Food", "Drink", "Open stage", "Novel services", "Triple triad" ],
         "comments": [  ],
         "contacts": [ "282322027883397121" ]
+    },
+    {
+        "id": "fC4ni90BU",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "Third Tarot",
+        "banner": "assets/banners/third-tarot.jpg",
+        "description": [ "Salutations! My name is Alex Alkett and I’m an apprentice tarot reader guiding others in a spiritual journey to elucidate any situational matter. My garden is an open and highly confidential space providing the utmost respectful experience. Offering premier tarot reading services, including three card spreads of multiple varieties and the Celtic Cross spread." ],
+        "location": "Siren, Lavender Beds, Ward 10, Apt 75",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://thirdtarot.carrd.co/",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Lounge", "Tarot" ],
+        "comments": [  ],
+        "contacts": [ "363492796042182657" ]
     }
 ]
