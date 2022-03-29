@@ -4417,6 +4417,37 @@
         "tags": [ "Bar", "Lounge", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "338528566549413898" ]
+    },
+    {
+        "id": "WuPAF2yI2",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "Cabaret de Fufu",
+        "banner": "assets/banners/cabaret-de-fufu.jpg",
+        "description": [ 
+            "Cabaret de Fufu will be a cabaret style comedy club / restaurant / bar / concert / open-mic night kinda joint. The theme changes every week! Guests will experience a night of performance and fine dining; only the finest at Cabaret de Fufu. While the cabaret may be small, it will be packed full of life and merriment.",
+            "There will also be special services some nights, such as a tarot card reader."
+         ],
+        "location": "Jenova, Goblet, Ward 22, Plot 44",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "159492084963737600" ]
     }
+
 
 ]
