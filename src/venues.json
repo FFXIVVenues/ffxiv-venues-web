@@ -2299,7 +2299,7 @@
     {
         "id": "FKRrQI0tM",
         "added": "2022-02-07T00:00:00Z",
-        "name": "The Maple Bear Medieval Tavern",
+        "name": "Maple Bear Tavern",
         "banner": "assets/banners/maple-bear.jpg",
         "description": [ 
             "The Maple Bear Tavern is a Medieval tavern-style RP venue ran by the esteemed Sunbear. It is an establishment proudly offering camaraderie, fine fare, music, and never-ending ale!" 
@@ -2307,7 +2307,7 @@
         "location": "Gilgamesh, Goblet, Ward 16, Plot 22",
         "shard": "Goblet East",
         "discord": "https://discord.gg/NE3sVBncMy",
-        "website": "https://themaplebear.carrd.co/#home",
+        "website": "https://maplebeartavern.carrd.co/",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -4428,6 +4428,8 @@
             "There will also be special services some nights, such as a tarot card reader."
          ],
         "location": "Jenova, Goblet, Ward 22, Plot 44",
+        "discord": "https://discord.gg/Et8fazBSta", 
+        "website": "https://www.cabaretdefufu.com/",
         "sfw": true,
         "nsfw": false,
         "times": [
