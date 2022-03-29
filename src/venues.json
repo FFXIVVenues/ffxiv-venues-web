@@ -4482,13 +4482,13 @@
         "discord": "https://discord.gg/Jn2zcr3fnF",
         "times": [
             {
-                "day": 2,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
-        "notices": [  ],
+        "notices": [ "This venue is open every OTHER Saturday night. Please check the venue's Discord for opening."],
         "tags": [ "Bar", "Casino", "Gambling", "Artists", "Bards", "Food", "Drink", "Open stage", "Novel services", "Triple triad" ],
         "comments": [  ],
         "contacts": [ "282322027883397121" ]
