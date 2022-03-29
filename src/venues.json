@@ -4104,11 +4104,6 @@
                 "day": 1,
                 "start": { "hour": 1, "minute": 30, "nextDay": true },
                 "end": { "hour": 4, "minute": 30, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 1, "minute": 30, "nextDay": true },
-                "end": { "hour": 4, "minute": 30, "nextDay": true }
             }
          ],
         "exceptions": [ ],
