@@ -4450,7 +4450,7 @@
         ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Bar", "Lougne", "Dancers", "Bards", "Twitch DJ", "Drink" ],
+        "tags": [ "Bar", "Lounge", "Dancers", "Bards", "Twitch DJ", "Drink" ],
         "comments": [  ],
         "contacts": [ "554569287537524748" ]
     },
@@ -4609,5 +4609,67 @@
         "tags": [ "Bar", "Tavern", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "220758604381159424" ]
+    },
+    {
+        "id": "SSvl00LqX",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "ILLUSION",
+        "banner": "assets/banners/illusion.jpg",
+        "description": [ "ILLUSION is an LGBTQIA+ 18+ venue which was made to make everyone feel welcomed from RP'ers to gamblers to people who miss clubbing IRL and want to get lit to some music and throw it back." ],
+        "location": "Faerie, Shirogane, Ward 16, Plot 43",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://illusionclub.carrd.co/",
+        "discord": "https://discord.gg/SyrJ95NvKm",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Twitch DJ" ],
+        "comments": [  ],
+        "contacts": [ "165255366383239169" ]
+    },
+    {
+        "id": "YkWfrGGkX",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "Ageha",
+        "banner": "assets/banners/ageha.jpg",
+        "description": [ "Ageha is a weekend nightclub and event space located in the heart of Shirogane. Featuring a fully stocked bar, hot tub, dance floor and casino, Ageha is sure to offer a night to remember. With both SFW and NSFW services offered, there's something to satisfy everyone! Stop by for an unforgettable evening and see what Ageha is truly all about. " ],
+        "location": "Jenova, Shirogane, Ward 13, Plot 43",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ 
+            {
+                "start": "2022-03-30T00:00Z",
+                "end": "2022-04-04T00:00Z",
+                "hide": true
+            }
+        ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Drink", "IC RP only" ],
+        "comments": [  ],
+        "contacts": [ "329059307142381569" ]
     }
 ]
