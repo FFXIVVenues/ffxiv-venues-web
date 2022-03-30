@@ -958,26 +958,6 @@
         ]
     },
     {
-        "id": "mUijKMwf",
-        "added": "2021-09-24T00:00:00Z",
-        "name": "The Nix",
-        "banner": "assets/banners/the-nix.jpg",
-        "description": [ "The home of the Nix dance troupe! A chill bar and night club with live music, dancers, gambling, courtesans, glamour contests, and various events throughout the weeks. Every night ends with a one-hour performance from the glamourous Nix troupe." ],
-        "location": "Adamantoise, Shirogane, Ward 23, Plot 60",
-        "discord": "https://discord.gg/NnJVd6sptt",
-        "tags":[ "Nightclub", "Dancers", "Bards", "Gambling", "Twitch DJ", "Courtesans"],
-        "contacts":["342507805229711362"],
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "fTO1840vM",
         "added": "2021-09-25T00:00:00Z",
         "name": "Berry's",
@@ -4563,5 +4543,32 @@
         "tags": [ "Casino", "Gambling", "Bards", "Food", "Drink", "Photography", "Novel services", "VIP" ],
         "comments": [  ],
         "contacts": [ "188887597769031680" ]
+    },
+    {
+        "id": "mUijKMwf",
+        "added": "2021-09-24T00:00:00Z",
+        "name": "Club Nix",
+        "banner": "assets/banners/the-nix.jpg",
+        "description": [ 
+            "Club Nix offers a wide variety of entertainment from Skilled NSFW Role Play Courtesans as well as equally talented SFW Role Play Dances, DJ's to Weekly Themed Contests & Raffles - we even have some of our own IN HOUSE entertainers like:",
+            "🕺 Performances by The Nix Troupe 🕺 Incredible Macro Dancing by a team of trained Dancers who put their all into the art of their performances; offering a wide variety of musical arrangements by Artists we all love! Be sure to tune in at https://cytu.be/r/TheNix", 
+            "🎼 Live Bard Performances by Kristlyn Brianne & the Twilight Moon Quintet 🎼  Ensemble group of bards supplying you with some of the sickest tunes to bee's knee's to before the night gets wild! They play a wide range of musical styles to suit everyone's music itch! www.twilight-moon.net"
+        ],
+        "location": "Adamantoise, Shirogane, Ward 23, Plot 60",
+        "sfw": true,
+        "nsfw": true,
+        "discord": "https://discord.gg/NnJVd6sptt",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "751217617242685490" ]
     }
 ]
