@@ -4539,5 +4539,23 @@
         "tags": [ "Maid cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "158410288238952449" ]
+    },
+    {
+        "id": "G8GWhfMw6",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "Hyakkaou Popoto Academy ",
+        "banner": "assets/banners/hyakkaou-popoto-academy.jpg",
+        "description": [ "HPA is a SFW casino themed as a school. Our goal is to provide a comfy atmosphere for those that enjoy gambling. Whether thats partaking in games in our classrooms or hanging out at the cafeteria. We strive to provide a wholesome environment to all of our guests." ],
+        "location": "Siren Mist Ward 1 Plot 44",
+        "sfw": true,
+        "nsfw": false,
+        "website": "",
+        "discord": "https://discord.gg/kV9p2SeuEv",
+        "times": [ ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Casino", "Gambling", "Bards", "Food", "Drink", "Photography", "Novel services", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "188887597769031680" ]
     }
 ]
