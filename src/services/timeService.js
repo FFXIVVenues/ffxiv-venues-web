@@ -44,16 +44,21 @@ class TimeService {
         }
     }
 
-    isOpen(time, exceptions) {
-        if (exceptions !== null && exceptions !== undefined && exceptions.length >= 0) {
-            for (let exception of exceptions) {
-                let exceptionStart = new Date(exception.start);
-                let exceptionEnd = new Date(exception.end);
-                let currentDate = new Date();
-                if (currentDate >= exceptionStart && currentDate <= exceptionEnd) {
-                    return false;
-                }
+    getActiveException(exceptions) {
+        for (let exception of exceptions) {
+            let exceptionStart = new Date(exception.start);
+            let exceptionEnd = new Date(exception.end);
+            let currentDate = new Date();
+            if (currentDate >= exceptionStart && currentDate <= exceptionEnd) {
+                return exception;
             }
+        }
+        return null;
+    }
+
+    isOpen(time, exceptions) {
+        if (exceptions !== null && exceptions !== undefined && exceptions.length >= 0 && this.getActiveException(exceptions)) {
+            return false;
         }
 
         let currentUtcDay = new Date().getUTCDay() - 1;

@@ -458,37 +458,6 @@
         ]
     },
     {
-        "id": "jquMZYKZ",
-        "added": "2021-08-15T00:00:00Z",
-        "name": "Club Pure",
-        "description": [ "In a playful mood? Want to break the rules of modern society? Come have your every wish granted at Club Pure! Pure is a nightclub, bar, lounge, sauna, and casino where you can let loose your inner sinner and embrace the moonlit night with a bevy of some of the most gorgeous flowers, all waiting to be plucked at your disposal." ],
-        "banner": "assets/banners/pure.jpg",
-        "location": "Jenova, Shirogane, Ward 13, Plot 46",
-        "website": "https://clubpure.carrd.co/",
-        "discord": "https://discord.gg/clubpure",
-        "tags":[ "Nightclub", "Bar", "Courtesans", "Dancers", "Food", "Drink" ],
-        "contacts": [ "742544264592097431" ],
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "tOMrDk0g",
         "added": "2021-08-16T00:00:00Z",
         "name": "The Anti",
@@ -670,7 +639,7 @@
         "location": "Sargatanas, Goblet, Ward 10, Plot 35",
         "website": "https://succubares.com/#",
         "discord": "https://discord.gg/succubares",
-        "contacts":[ "265695573527625731" ],
+        "contacts":[ "243182379584323584", "265695573527625731" ],
         "tags": [ "Bar", "Lounge", "Gambling", "Courtesans", "VIP", "Food", "Drink" ],
         "sfw": true,
         "nsfw": true,
@@ -748,10 +717,10 @@
         "location": "Jenova, Mist, Ward 8, Plot 2",
         "website": "https://clubfoxbury.carrd.co/",
         "discord": "https://discord.gg/nCHgKeexN9",
-        "tags":[ "Nightclub", "Bar", "Dancers", "Courtesans", "Cuddling", "Food", "Drink", "Photography"],
+        "tags":[ "Nightclub", "Bar", "Dancers", "Cuddling", "Food", "Drink", "Photography"],
         "contacts":["297568652855607296"],
         "sfw": true,
-        "nsfw": true,
+        "nsfw": false,
         "times": [
             {
                 "day": 5,
@@ -859,7 +828,7 @@
         "name": "Playboy Mansion",
         "banner": "assets/banners/playboy-mansion.jpg",
         "description": [ "Welcome to PBM! The place where all of your appetites will be sated every Wednesday and Saturday night. The Playboy Mansion is a night-club with a fully-stocked bar, casino upstairs, and a host to a number of live twitch-DJ's and bands for your enjoyment. Looking for something more? Our extremely talented and beautiful staff are always available and eager to please! Don't miss out on an unforgettable experience and come join us for our next opening!" ],
-        "location": "Sargatanas, Lavender Beds, Ward 6, Plot 21",
+        "location": "Sargatanas, Shirogane, Ward 18, Plot 37",
         "website": "https://playboy-mansion.net/#",
         "discord": "https://discord.gg/pbm",
         "tags": [ "Nightclub", "Gambling", "Twitch DJ", "Photography", "Courtesans", "Cuddling", "VIP", "Dancers"],
@@ -927,47 +896,6 @@
         ]
     },
     {
-        "id": "Hez4WL20",
-        "added": "2021-09-21T00:00:00Z",
-        "name": "Last Stop",
-        "banner": "assets/banners/last-stop.jpg",
-        "description": [ "The last stop of the night before you retire to your slumber; full bar, saunas, an open stage and hint of chaos." ],
-        "location": "Adamantoise, Goblet, Ward 3, Plot 42",
-        "discord": "https://discord.gg/uPWdH9jcEn",
-        "website": "https://laststopvenue.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Nightclub", "Open stage", "Food", "Drink" ],
-        "contacts": [ "227938971190034432" ],
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 7, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "fHjc6zh9",
         "added": "2021-09-21T00:00:00Z",
         "name": "Forgotten Sonata",
@@ -1030,37 +958,18 @@
         ]
     },
     {
-        "id": "mUijKMwf",
-        "added": "2021-09-24T00:00:00Z",
-        "name": "The Nix",
-        "banner": "assets/banners/the-nix.jpg",
-        "description": [ "The home of the Nix dance troupe! A chill bar and night club with live music, dancers, gambling, courtesans, glamour contests, and various events throughout the weeks. Every night ends with a one-hour performance from the glamourous Nix troupe." ],
-        "location": "Adamantoise, Shirogane, Ward 23, Plot 60",
-        "discord": "https://discord.gg/NnJVd6sptt",
-        "tags":[ "Nightclub", "Dancers", "Bards", "Gambling", "Twitch DJ", "Courtesans"],
-        "contacts":["342507805229711362"],
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "fTO1840vM",
         "added": "2021-09-25T00:00:00Z",
         "name": "Berry's",
         "banner": "assets/banners/berrys.jpg",
         "description": [
-            "Berry is that natural entertainer in your friend group - where no day is the same when you’re around them. Berry now brings you P.F. Berry’s – an oriental burger bistro! This isn’t any ordinary bistro however, it’s a venue you can only explain through having experienced it, and no week is the same. ",
+            "Berry is that natural entertainer in your friend group - where no day is the same when you’re around them. Berry now brings you Berry’s - a venue you can only explain through having experienced it, and no week is the same. ",
             "It’s very much the same eclectic, random, creative, and humorous personality you’ve come to know from the owner. ",
-            "So, come and relax on a Friday night with Berry, in a premium burger bar environment, complete with live music, an open stage, trivia, glam contests, and a new weekly talk show hosted by Berry herself with a new and interesting guest every time!"
+            "So, come and relax on a Friday night with Berry, in a premium burger bar environment, with our trivia and glam contests (and ofcourse live music and an open stage on the side)!"
         ],
         "location": "Midgardsormr, Goblet, Ward 19, Plot 7",
         "shard": "Goblet West",
+        "website": "https://berrysburgers.carrd.co/",
         "discord": "https://discord.gg/HGYREUwNAK",
         "sfw": true,
         "nsfw": false,
@@ -1068,7 +977,7 @@
             {
                 "day": 4,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -1087,41 +996,6 @@
             {
                 "day": 2,
                 "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "oi0dFvn1S",
-        "added": "2021-09-27T00:00:00Z",
-        "name": "The Monochrome Maiden",
-        "description": [ 
-            "~Where your desires are neither black nor white~",
-            "Come and enjoy all of the pleasantries we have to offer.. Craving a taste of the green fairy? We offer Absinthe, Matcha and many other drinks at our well stocked bar, complimented with alternative rock music at our stage. Entertainment is what you seek instead? We have a skilled casino able to play blackjack and deathroll at a moments notice! But of course, we do offer the more lustrous forms of entertainment with our well trained and screened courts! A solid price for top quality roleplay and some may even take photos of your encounter with them ♥ Please feel free to stop by our carrd and get to know us, we all love to make new friends!"
-        ],
-        "banner": "assets/banners/monochrome-maiden.jpg",
-        "location": "Adamantoise, Goblet, Ward 2, Plot 8",
-        "shard": "Goblet West",
-        "discord": "https://discord.gg/7Gp4psbyeg",
-        "website": "https://monochromemaiden.carrd.co/",
-        "tags": [ "Bar", "Bards", "Food", "Drink", "Gambling" ],
-        "contacts": [ "361999818769563658" ],
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
@@ -1182,26 +1056,6 @@
         "exceptions": []
     },
     {
-        "id": "OqFimFvqC",
-        "added": "2021-10-03T00:00:00Z",
-        "name": "The Wallflower",
-        "banner": "assets/banners/the-wallflower.jpg",
-        "description": [ "The Wallflower is a quaint and cozy café located on Adamantoise. Come enjoy our commodities and weekly specials found on our discord. Future events in the works!" ],
-        "location": "Adamantoise, Lavender Beds, Ward 11, Plot 45",
-        "shard": "Amethyst Shallows Subdivision",
-        "discord": "https://discord.gg/6jNDAhjZmt",
-        "website": "https://the-wallflower.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 19, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
-            }
-        ]
-    },
-    {
         "id": "mKnEDYc6z",
         "added": "2022-03-03T00:00:00Z",
         "name": "The Rose Petal",
@@ -1211,6 +1065,7 @@
         ],
         "location": "Gilgamesh, Lavender Beds, Ward 15, Apt 39",
         "shard": "Lilly Hills",
+        "website": "https://rosepetalbar.carrd.co/",
         "discord": "https://discord.gg/ckch8s4X7c",
         "sfw": true,
         "nsfw": false,
@@ -1466,7 +1321,7 @@
         "added": "2021-10-19T00:00:00Z",
         "name": "Flora and Fana",
         "banner": "assets/banners/flora-and-fana.jpg",
-        "description": [ "Greetings and welcome to the Flora & Fana Cafe. Glad to have you with us! Please feel free to take your ease in our lovely hot tub, sit with friends and grab a bite, play triple triad, or even perform on our open stage. Enjoy your stay!" ],
+        "description": [ "Greetings and welcome to the Flora & Fana Cafe. Glad to have you with us! Please feel free to take your ease in our lovely hot tub, sit with friends and grab a bite, play Triple triad, or even perform on our open stage. Enjoy your stay!" ],
         "location": "Jenova, Goblet, Ward 23, Plot 28",
         "shard": "Goblet Southeast",
         "website": "https://floraandfana.carrd.co/",
@@ -1919,7 +1774,7 @@
         "sfw": true,
         "nsfw": true,
         "tags": [ "Nightclub", "Drink", "Courtesans", "Twitch DJ" ],
-        "contacts": [ "704913420356419645" ],
+        "contacts": [ "704913420356419645", "631250810549960716" ],
         "times": [
             {
                 "day": 6,
@@ -1956,7 +1811,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Den", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Photography", "Triple Triad" ],
+        "tags": [ "Den", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Photography", "Triple triad" ],
         "contacts": [ "814973773094060052" ]
     },
     {
@@ -2193,7 +2048,7 @@
             "When you're lost and don't know where to turn next, you arrive at the Crossroads.  Take your time to rest your feet, have a bite to eat, and enjoy in the fellow company of travelers.   Find a friend and then pick up where you left off, ready to discover where you're meant to explore next.",
             "This diner is designed for the first time RP'ers. Engaging you in 60-90 minute immersive RP dinner parties encouraging character development, introducing new people, and building friendships before discovering new venues to experience!"
         ],
-        "location": "Gilgamesh, Goblet, Ward 21, Plot 8",
+        "location": "Gilgamesh, Goblet, Ward 24, Plot 5",
         "discord": "https://discord.gg/Mub5P9h4t8",
         "sfw": true,
         "nsfw": false,
@@ -2424,7 +2279,7 @@
     {
         "id": "FKRrQI0tM",
         "added": "2022-02-07T00:00:00Z",
-        "name": "The Maple Bear Medieval Tavern",
+        "name": "Maple Bear Tavern",
         "banner": "assets/banners/maple-bear.jpg",
         "description": [ 
             "The Maple Bear Tavern is a Medieval tavern-style RP venue ran by the esteemed Sunbear. It is an establishment proudly offering camaraderie, fine fare, music, and never-ending ale!" 
@@ -2432,7 +2287,7 @@
         "location": "Gilgamesh, Goblet, Ward 16, Plot 22",
         "shard": "Goblet East",
         "discord": "https://discord.gg/NE3sVBncMy",
-        "website": "https://themaplebear.carrd.co/#home",
+        "website": "https://maplebeartavern.carrd.co/",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -2613,7 +2468,7 @@
         "description": [ 
             "Hamburger Nina's is Eorzea's most intimate yet flambouyant LGBTQ+ RP venue. Come in for drinks, food, and fun! Our bar and club has something for anyone looking for a night out, whether that be cozy or wild. ;)"
         ],
-        "location": "Cactuar, Shirogane, Ward 24, Apt 89",
+        "location": "Cactuar, Shirogane, Ward 24, Apt 81",
         "website": "https://hamburgerninas.carrd.co/#",
         "sfw": true,
         "nsfw": true,
@@ -2849,8 +2704,8 @@
         "banner": "assets/banners/loveless-bar.jpg",
         "description": [ 
             "\"Infinite in mystery is the gift of the Goddess. We seek it thus, and take to the sky. Ripples form on the water's surface. The wandering soul knows no rest.\"",
-            " - Loveless ACT II",
-            "The Loveless Bar is a 18+ venue open Sunday 8pm-11pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun and get some good photos taken with our photographer! Test your luck with our trivia night event and win some great prizes starting from 50k gil or join our raffles for great items!"
+            "- Loveless ACT II",
+            "The Loveless Bar is a 18+ venue open on every Tuesday and Thursday 8pm-12pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun and get some good photos taken at our venue! Test your luck with our unique trivia night event and win some great prizes starting from 25k gil or join our raffles for great items!"
         ],
         "location": "Adamantoise, Goblet, Ward 4, Plot 6",
         "discord": "https://discord.gg/UGNzPEzf",
@@ -2859,13 +2714,18 @@
         "nsfw": false,
         "times": [ 
             {
-                "day": 6,
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Photography", "Triple Triad" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Photography", "Triple triad" ],
         "contacts": [ "126699155899940865" ]
     },
     {
@@ -2894,7 +2754,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP", "Triple Triad" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "VIP", "Triple triad" ],
         "contacts": [ "123148622350123011" ]
     },
     {
@@ -2948,7 +2808,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple Triad" ],
+        "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple triad" ],
         "contacts": [ "132980996122345473" ]
     },
     {
@@ -3175,7 +3035,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple Triad" ],
+        "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple triad" ],
         "contacts": [ "80380433325363200" ]
     },
     {
@@ -3184,9 +3044,9 @@
         "name": "The Birdhaus",
         "banner": "assets/banners/the-birdhaus.jpg",
         "description": [ 
-            "Welcome to The Birdhaus! We are a SFW, immersive roleplay noodle bar and cafe located on the top floor of Shirogane's bustling Kobai Goten district. Join us every Thursday, Friday and Saturday from 6pm-9pm Central for welcoming atmosphere, friendly faces, music and amazing Doman and Far East inspired dishes! We also offer raid consumables, master recipes and omnicrafting services if needed."
+            "Welcome to The Birdhaus! We are a SFW, immersive roleplay noodle bar and cafe located in Limsa Lominsa's Mist residential district first ward at plot 58!  Join us every Sunday, Monday and Thursday from 6pm-9pm Central for welcoming atmosphere, friendly faces, music and amazing Doman and Far East inspired dishes! We also offer raid consumables, master recipes and omnicrafting services if needed."
         ],
-        "location": "Sargatanas, Shirogane, Ward 20, Apt 90",
+        "location": "Sargatanas, Mist, Ward 1, Plot 58",
         "discord": "https://discord.gg/ghmNkY2bsP",
         "website": "https://thebirdhaus.carrd.co/",
         "sfw": true,
@@ -3198,12 +3058,12 @@
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
-                "day": 4,
+                "day": 6,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
-                "day": 5,
+                "day": 0,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
@@ -3392,7 +3252,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Bar", "Speakeasy", "Gambling", "Twitch DJ", "Food", "Drink", "Photography", "Triple Triad", "IC RP only" ],
+        "tags": [ "Bar", "Speakeasy", "Gambling", "Twitch DJ", "Food", "Drink", "Photography", "Triple triad", "IC RP only" ],
         "contacts": [ "184801631949291520" ]
     },
     {
@@ -3433,8 +3293,8 @@
         "nsfw": false,
         "times": [
             {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
@@ -3620,7 +3480,13 @@
                 "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-03-19T00:00Z",
+                "end": "2022-04-03T00:00Z",
+                "hide": true
+            }
+        ],
         "tags": [ "Speakeasy", "Lounge", "Food", "Drink", "Open stage", "Triple triad" ],
         "contacts": [ "179070146940370945" ]
     },
@@ -3726,14 +3592,9 @@
         "nsfw": false,
         "times": [
             {
-                "day": 5,
-                "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 6,
-                "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -4117,5 +3978,631 @@
         "tags": [ "Bath house" ],
         "comments": [  ],
         "contacts": [ "872323861033680957" ]
+    },
+    {
+        "id": "E9afNjiH4",
+        "added": "2022-03-17T00:00:00Z",
+        "name": "Fiddlesticks' Funny Flat",
+        "banner": "assets/banners/fiddlesticks-funny-flat.jpg",
+        "description": [ 
+            "The Funny Flat is my humble Eorzean comedy club crashpad, where I occasionally host a refreshing smoothie bowl service featuring flavors in customized combinations! Adventurers can wander in freely expecting a bountiful blend of lively banter peppered with puns and punchlines, along with other light-hearted, fruit-filled fare. Spoony bards, poets and aspiring stand-up comedians are welcome to hone their craft in my colorful sitting room, and all are invited to drop in for a giggle."
+        ],
+        "location": "Faerie, Goblet, Ward 17 Sub, Apt 6",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://sites.google.com/view/funnyflat/home",
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 18, "minute": 0, "nextDay": false }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Bards", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "254069230780153867" ]
+    },
+    {
+        "id": "KS3aoSeQb",
+        "added": "2022-03-19T00:00:00Z",
+        "name": "Purple Suit Casino and Lounge",
+        "banner": "assets/banners/purple-suit.jpg",
+        "description": [ 
+            "The Purple Suit Casino and Lounge is a brand new entertainment venue opening to all on the Aether Data Center. We do our best to strive and offer a welcoming venue with fantastic services, all to create an open atmosphere to all friends and strangers, to gather and enjoy some drinks, play some games, win some gil, and most importantly—have plenty of fun."
+        ],
+        "location": "Jenova, Shirogane, Ward 15 Sub, Apt 24",
+        "sfw": false,
+        "nsfw": false,
+        "website": "https://purplesuitffxiv.carrd.co/#",
+        "discord": "https://discord.gg/FzbRVQNzPR",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Lounge", "Casino", "Gambling", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "274391579274248193" ]
+    },
+    {
+        "id": "K1IYeAiv6",
+        "added": "2022-03-19T00:00:00Z",
+        "name": "La Veela",
+        "banner": "assets/banners/la-veela.jpg",
+        "description": [ 
+            "Tucked away on a scenic corner of the Goblet, La Veela lays in wait for you to come greet her! Enjoy a drink at the bar with our charismatic and loveable staff, gamble to your hearts content at the Blackjack table, dance until your feet go numb alongside our bard and dancers, maybe even find your destiny in the cards with our esteemed tarot reader! There is something for everyone here at La Veela and we can't wait to meet you."
+        ],
+        "location": "Siren, Goblet, Ward 4, Plot 40",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://laveela.carrd.co",
+        "discord": "https://discord.gg/4qWV7RSCxK",
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Casino", "Gambling", "Dancers", "Bards", "Tarot", "Drink", "Photography" ],
+        "comments": [  ],
+        "contacts": [ "119990195926859778" ]
+    },
+    {
+        "id": "bJMcf5mVI",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "The Kat's Meow",
+        "banner": "assets/banners/kats-meow.jpg",
+        "description": [ 
+            "The Kat's Meow is a small cafe, for people looking for a quiet spot away from all the hustle and bustle of Eorzean life. We offer drinks (hot and cold), sweet treats, an open mic stage, a small library, and even tarot readings! Check out our menu, staff, and come in and see us!"
+        ],
+        "location": "Siren, Lavender Beds, Ward 10, Plot 44",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://thekatsmeow.carrd.co/",
+        "discord": "https://discord.gg/Ch9xRP5KBn",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 4, "minute": 30, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Library", "Bards", "Tarot", "Soft-counselling", "Food", "Drink", "Open stage", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "289686307653812226" ]
+    },
+    {
+        "id": "YTXrS4LBa",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Seaside Sunrise Maid & Butler Cafe",
+        "banner": "assets/banners/seaside-sunrise.jpg",
+        "description": [ 
+            "Come be our Guest at Seaside Sunrise, depending on the month we have themed services our Maids & Butlers can provide!",
+            "We have various activities, entertainment, dishes, and collector cards!",
+            "Please, be our Guest!"
+        ],
+        "location": "Cactuar, Mist, Ward 19, Plot 35",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://ad-meliora-fc.carrd.co/",
+        "discord": "https://discord.gg/E7REmN5",
+        "times": [  ],
+        "exceptions": [ ],
+        "notices": [ "This venue opens once a month, primarily on a Saturday or Sunday at 5pm - 11pm CST. Please check the discord for this venue's next opening."  ],
+        "tags": [ "Cafe", "Maid cafe", "Hosts", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage", "Novel services", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "453762811546566657" ]
+    },
+    {
+        "id": "WZl3y22HL",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Captain's Quarters Pub & Lounge",
+        "banner": "assets/banners/captains-quarters.jpg",
+        "description": [ 
+            "The Captain's Quarters is a place where the Captain loves to hang his hat and drink to his heart's content before setting out on his next adventure! Providing live entertainment, surprise drinks, awesome menu, and various other services you might stay and become part of the crew!"
+        ],
+        "location": "Cactuar, Mist, Ward 19, Plot 35",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://ad-meliora-fc.carrd.co/",
+        "discord": "https://discord.gg/E7REmN5",
+        "times": [  ],
+        "exceptions": [ ],
+        "notices": [ "This venue opens once a month on Fridays and Saturdays at 7pm - 1am CST. Please check the discord for this venue's next opening."  ],
+        "tags": [ "Tavern", "Lounge", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "453762811546566657", "109786690092007424" ]
+    },
+    {
+        "id": "Zp8rpaXJY",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Afterglow",
+        "banner": "assets/banners/afterglow.jpg",
+        "description": [ 
+            "Afterglow is a beautifully decorated nightclub and casino with stunning and unique private rooms available for rent both with or without court services. Afterglow staff, the Glowsquad, pride themselves on guest services and our goal is that every guest leaves our venue glowing. Our main stage plays host to our resident DJ, Blkdrvgon who also hosts Afterglow After Hourz on Saturday mornings from 2am."
+        ],
+        "location": "Siren, Mist, Ward 11, Plot 60",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://afterglowsiren.carrd.co/",
+        "discord": "https://discord.gg/afterglowxiv",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Artists","Courtesans", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Food", "Drink", "Photography" ],
+        "comments": [  ],
+        "contacts": [ "227941432541839361" ]
+    },
+    {
+        "id": "JBOr73DjF",
+        "added": "2022-03-20T00:00:00Z",
+        "name": "Kawaii Weeb Cafe",
+        "banner": "assets/banners/kawaii-weeb-cafe.jpg",
+        "description": [ 
+            "The Kawaii Weeb Cafe is a place to be kawaii. Only kawaii people are permitted to enter the kawaii space. We promise you will snack on kawaii foods, slurp up kawaii drinks, and enjoy kawaii music during your stay. All our staff are super kawaii, if they're not, you will be given all your kawaii money back. We hope you come and be kawaii with us. KAWAII.",
+            "Also we have a 2-way petting zoo."
+        ],
+        "location": "Sargatanas, Lavender Beds, Ward 16 Sub, Apt 27",
+        "sfw": true,
+        "nsfw": false,
+        "times": [ ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Hosts", "Dancers", "Bards", "Soft-counselling", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "944060725670842368" ]
+    },
+    {
+        "id": "TVxCdPLh2",
+        "added": "2022-03-24T00:00:00Z",
+        "name": "Sirens Song [Siren]",
+        "banner": "assets/banners/sirens-song-[siren].jpg",
+        "description": [ 
+            "A relaxing aquarium/underwater themed, trance music, nightclub and casino."
+        ],
+        "location": "Siren, Mist, Ward 2, Plot 1",
+        "sfw": true,
+        "nsfw": true,
+        "discord": "https://discord.gg/TBxJ9suSMU",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "674392893682745375" ]
+    },
+    {
+        "id": "WrYD3LsJM",
+        "added": "2022-03-24T00:00:00Z",
+        "name": "The Siren's Song [Ada]",
+        "banner": "assets/banners/sirens-song-[ada].jpg",
+        "description": [ "Allow our Sirens to cater to any and all needs, fantasies and lusts. We do it all, from the erotic to companionship, crafting and gathering assistance, and everything in between. Join us, and let my Sirens make your evening more delightful." ],
+        "location": "Adamantoise, Lavender Beds, Ward 15, Plot 3",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://sirensongffxiv.carrd.co/",
+        "discord": "https://discord.gg/thesirenssong",
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Hosts", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "234412817019699200" ]
+    },
+    {
+        "id": "QhdtDm1p8",
+        "added": "2022-03-25T00:00:00Z",
+        "name": "Eri's Baking Company",
+        "banner": "assets/banners/eris-baking-company.jpg",
+        "description": [ "At Eri's we offer a small café experience with the calmness of a weekday night, and the comedy/unpredictability that is life itself, so when you walk into Eri's expect a relaxing atmosphere but don't be alarmed if suddenly people raid the venue and take the pastries, its just life 😁" ],
+        "location": "Midgardsormr, Goblet, Ward 19, Apt 23",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://eri-baking.carrd.co",
+        "discord": "https://discord.gg/GpMtD8FwTg",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "IC RP only" ],
+        "comments": [  ],
+        "contacts": [ "184178984689336322" ]
+    },
+    {
+        "id": "EnNXwKbEX",
+        "added": "2022-03-26T00:00:00Z",
+        "name": "The Frisky Kitten Cafe & Cabaret",
+        "banner": "assets/banners/frisky-kitten.jpg",
+        "description": [ "The Frisky Kitten is a beautifully decorated beachside cafe with a downstairs cabaret open stage and an upstairs spa/bathhouse. The atmosphere is warm and cozy with a hint of sophistication." ],
+        "location": "Siren, Mist, Ward 24, Plot 30",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://thefriskykitten.carrd.co/",
+        "discord": "https://discord.gg/afterglowxiv",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Bath house", "Gambling", "Pillow", "Bards", "Food", "Drink" ],
+        "comments": [  ],
+        "contacts": [ "227941432541839361" ]
+    },
+    {
+        "id": "Qea2wWAUv",
+        "added": "2022-03-26T00:00:00Z",
+        "name": "Impulse",
+        "banner": "assets/banners/impulse.jpg",
+        "description": [ "Welcome to impulse were an inclusive lgbtqia+ owned and operated venue. if you're looking for a place to enjoy great drinks, great people, GAMBA, or to just relax look no further. We are always ready to meet new friends and make connections. Open Wed/Thurs/Fri 8pm EST - 12am EST" ],
+        "location": "Sargatanas, Lavender Beds, Ward 13, Plot 13",
+        "sfw": true,
+        "nsfw": true,
+        "discord": "https://discord.gg/uatcExXc9g",
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Lounge", "Casino", "Gambling", "Hosts", "Courtesans", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "158281637031837696" ]
+    },
+    {
+        "id": "WerAvEjPL",
+        "added": "2022-03-26T00:00:00Z",
+        "name": "The Azure Oasis",
+        "banner": "assets/banners/azure-oasis.jpg",
+        "description": [ "The unrelenting Thanalan heat and fast paced Ul'dahn city life can wear down any adventurer whether they're local or from afar. Nestled on the rim of the Goblet, the Azure Oasis is a shining beacon to all who need a break and cool off a while. Our bar is stocked with our prized exotic waters from across the globe blended and brewed with equally as exotic herbs to give each drink a life and personality of it's own. Many local delicacies and a large selection of incense also graces our menu. If you're looking for a place to drift away and relax a while (aside from occasional staff hijinks) there's none better." ],
+        "location": "Gilgamesh, Goblet, Ward 5, Plot 53",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://azure-oasis.carrd.co/",
+        "discord": "https://discord.gg/xApVzkgZdA",
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Den", "Tavern", "Bards", "Food", "Drink", "Open stage", "Novel Services" ],
+        "comments": [  ],
+        "contacts": [ "372018960977231872" ]
+    },
+    {
+        "id": "gl2LeB7ME",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "V.I.T.R.I.O.L.",
+        "banner": "assets/banners/vitriol.jpg",
+        "description": [ "VITRIOL is a SFW +18, gothic/dark academia bar and lounge. We feature live music, occasional raffles and giveaways, and sometimes an open stage for wandering bards. We have dancers on staff, bartenders, and the occasional greeter. This is an RP casual venue, but RP is not required. Expected to be greeted when you walk downstairs, find a place to sit, and relax. Stay as long as you like~" ],
+        "location": "Faerie, Lavender Beds, Ward 5, Plot 27",
+        "sfw": true,
+        "nsfw":false ,
+        "website": "https://utsupra-sicinfra.carrd.co/",
+        "discord": "",
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Lounge", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "338528566549413898" ]
+    },
+    {
+        "id": "WuPAF2yI2",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "Cabaret de Fufu",
+        "banner": "assets/banners/cabaret-de-fufu.jpg",
+        "description": [ 
+            "Cabaret de Fufu will be a cabaret style comedy club / restaurant / bar / concert / open-mic night kinda joint. The theme changes every week! Guests will experience a night of performance and fine dining; only the finest at Cabaret de Fufu. While the cabaret may be small, it will be packed full of life and merriment.",
+            "There will also be special services some nights, such as a tarot card reader."
+         ],
+        "location": "Jenova, Goblet, Ward 22, Plot 44",
+        "discord": "https://discord.gg/Et8fazBSta", 
+        "website": "https://www.cabaretdefufu.com/",
+        "sfw": true,
+        "nsfw": false,
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "159492084963737600" ]
+    },
+    {
+        "id": "f33EtUoAX",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "The Wallflower Bar",
+        "banner": "assets/banners/wallflower-bar.jpg",
+        "description": [ "The Wallflower is a small dance club and bar. We offer Drinks, Dancers Music and occasional raffles and cosplay contests. A chill hole in the wall atmosphere to meet new people or hang out with your friends." ],
+        "location": "Cactuar, Shirogane, Ward 3, Plot 23",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://thewallflowerlounge.carrd.co/",
+        "discord": "https://discord.gg/YmH2c29C",
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Lougne", "Dancers", "Bards", "Twitch DJ", "Drink" ],
+        "comments": [  ],
+        "contacts": [ "554569287537524748" ]
+    },
+    {
+        "id": "Z9r1fwPzF",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "Big Boys Sushi Bar",
+        "banner": "assets/banners/big-boys-sushi-bar.jpg",
+        "description": [ "Derived from our Big Brother Goobbue's spirit of warmth & goofiness to coexist with plant life on them, the Big Boys Sushi Bar aims to create a symbiotic relationship with their patrons, much like the relationship with the moss and lichen growing atop a goobbue's head! We're a SFW cozy place with a splash of chaos to chill, get your fill, meet friends, and have fun! There's a wide selection of food and drinks available, friendly staff, relaxing bathhouse and a wild gambling master always ready for a death roll." ],
+        "location": "Jenova, Shirogane, Ward 14, Plot 52",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://bbsushibar.carrd.co/",
+        "discord": "https://discord.gg/Jn2zcr3fnF",
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ "This venue is open every OTHER Saturday night. Please check the venue's Discord for opening."],
+        "tags": [ "Bar", "Casino", "Gambling", "Artists", "Bards", "Food", "Drink", "Open stage", "Novel services", "Triple triad" ],
+        "comments": [  ],
+        "contacts": [ "282322027883397121" ]
+    },
+    {
+        "id": "fC4ni90BU",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "Third Tarot",
+        "banner": "assets/banners/third-tarot.jpg",
+        "description": [ "Salutations! My name is Alex Alkett and I’m an apprentice tarot reader guiding others in a spiritual journey to elucidate any situational matter. My garden is an open and highly confidential space providing the utmost respectful experience. Offering premier tarot reading services, including three card spreads of multiple varieties and the Celtic Cross spread." ],
+        "location": "Siren, Lavender Beds, Ward 10, Apt 75",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://thirdtarot.carrd.co/",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Lounge", "Tarot" ],
+        "comments": [  ],
+        "contacts": [ "363492796042182657" ]
+    },
+    {
+        "id": "ZtBL4un3v",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "Alie's Wanderful Maid Café",
+        "banner": "assets/banners/alies-wanderful-maid-cafe.jpg",
+        "description": [ "A cute café with a blend of eastern and western themes. Small, comfortable private rooms sit above a more open space that encourages mingling. Our cute maids are eager to ease your troubles and serve you delightful treats." ],
+        "location": "Siren, Lavender Beds, Ward 8, Plot 50",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://alieswanderland.carrd.co/#",
+        "discord": "https://discord.gg/BVaqs7367G",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Maid cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "158410288238952449" ]
+    },
+    {
+        "id": "G8GWhfMw6",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "Hyakkaou Popoto Academy ",
+        "banner": "assets/banners/hyakkaou-popoto-academy.jpg",
+        "description": [ "HPA is a SFW casino themed as a school. Our goal is to provide a comfy atmosphere for those that enjoy gambling. Whether thats partaking in games in our classrooms or hanging out at the cafeteria. We strive to provide a wholesome environment to all of our guests." ],
+        "location": "Siren Mist Ward 1 Plot 44",
+        "sfw": true,
+        "nsfw": false,
+        "website": "",
+        "discord": "https://discord.gg/kV9p2SeuEv",
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Casino", "Gambling", "Bards", "Food", "Drink", "Photography", "Novel services", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "188887597769031680" ]
+    },
+    {
+        "id": "mUijKMwf",
+        "added": "2021-09-24T00:00:00Z",
+        "name": "Club Nix",
+        "banner": "assets/banners/the-nix.jpg",
+        "description": [ 
+            "Club Nix offers a wide variety of entertainment from Skilled NSFW Role Play Courtesans as well as equally talented SFW Role Play Dances, DJ's to Weekly Themed Contests & Raffles - we even have some of our own IN HOUSE entertainers like:",
+            "🕺 Performances by The Nix Troupe 🕺 Incredible Macro Dancing by a team of trained Dancers who put their all into the art of their performances; offering a wide variety of musical arrangements by Artists we all love! Be sure to tune in at https://cytu.be/r/TheNix", 
+            "🎼 Live Bard Performances by Kristlyn Brianne & the Twilight Moon Quintet 🎼  Ensemble group of bards supplying you with some of the sickest tunes to bee's knee's to before the night gets wild! They play a wide range of musical styles to suit everyone's music itch! www.twilight-moon.net"
+        ],
+        "location": "Adamantoise, Shirogane, Ward 23, Plot 60",
+        "sfw": true,
+        "nsfw": true,
+        "discord": "https://discord.gg/NnJVd6sptt",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "751217617242685490" ]
+    },
+    {
+        "id": "FoOUSy6It",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "The Last Request",
+        "banner": "assets/banners/last-request.jpg",
+        "description": [ "'The Last Request' is an open RP Tavern for adventurers' from all walk are welcome to come and relax." ],
+        "location": "Cactuar, Mist, Ward 22, Plot 41",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://the-last-request.carrd.co/#",
+        "discord": "",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Tavern", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "220758604381159424" ]
     }
 ]

@@ -11,7 +11,13 @@ class VenueService {
     getVenues() {
         if (this._venuesCache) 
             return this._venuesCache;
-        return this._venuesCache = venues.map(v => new Venue(v));
+        return this._venuesCache = venues.filter(v => {
+            if (v.exceptions) {
+                const exception = timeService.getActiveException(v.exceptions);
+                if (exception != null && exception.hide) return false;
+            }
+            return true;
+        }).map(v => new Venue(v));
     }
 
     getVenuesById() {

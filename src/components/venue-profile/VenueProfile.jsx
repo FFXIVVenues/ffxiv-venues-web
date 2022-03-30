@@ -43,7 +43,11 @@ class VenueProfile extends React.Component {
     }
 
     render() {
-        
+        const exceptions = this.props.venue.exceptions && this.props.venue.exceptions.filter(e => {
+            const now = new Date();
+            const exceptionEnd = new Date(e.end);
+            return now < exceptionEnd;
+        });
 
         return (
             <div className="venue-profile">
@@ -122,7 +126,7 @@ class VenueProfile extends React.Component {
                         </React.Fragment>
                     }
 
-                    { (this.props.venue.exceptions && this.props.venue.exceptions.length > 0) && 
+                    { (exceptions && exceptions.length > 0) && 
                         <article className="venue-profile__exceptions">
                             <p>This venue will be closed at the following times:</p>
                             <table>
