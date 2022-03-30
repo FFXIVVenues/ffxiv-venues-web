@@ -4515,5 +4515,29 @@
         "tags": [ "Lounge", "Tarot" ],
         "comments": [  ],
         "contacts": [ "363492796042182657" ]
+    },
+    {
+        "id": "ZtBL4un3v",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "Alie's Wanderful Maid Café",
+        "banner": "assets/banners/alies-wanderful-maid-cafe.jpg",
+        "description": [ "A cute café with a blend of eastern and western themes. Small, comfortable private rooms sit above a more open space that encourages mingling. Our cute maids are eager to ease your troubles and serve you delightful treats." ],
+        "location": "Siren, Lavender Beds, Ward 8, Plot 50",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://alieswanderland.carrd.co/#",
+        "discord": "https://discord.gg/BVaqs7367G",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Maid cafe", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "158410288238952449" ]
     }
 ]
