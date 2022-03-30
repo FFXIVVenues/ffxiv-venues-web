@@ -4570,5 +4570,39 @@
         "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "VIP" ],
         "comments": [  ],
         "contacts": [ "751217617242685490" ]
+    },
+    {
+        "id": "FoOUSy6It",
+        "added": "2022-03-30T00:00:00Z",
+        "name": "The Last Request",
+        "banner": "assets/banners/last-request.jpg",
+        "description": [ "'The Last Request' is an open RP Tavern for adventurers' from all walk are welcome to come and relax." ],
+        "location": "Cactuar, Mist, Ward 22, Plot 41",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://the-last-request.carrd.co/#",
+        "discord": "",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Tavern", "Food", "Drink", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "220758604381159424" ]
     }
 ]
