@@ -4551,7 +4551,13 @@
         "nsfw": false,
         "website": "",
         "discord": "https://discord.gg/kV9p2SeuEv",
-        "times": [ ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+         ],
         "exceptions": [ ],
         "notices": [  ],
         "tags": [ "Casino", "Gambling", "Bards", "Food", "Drink", "Photography", "Novel services", "VIP" ],
