@@ -684,13 +684,17 @@
     {
         "id": "EuACRe7g",
         "added": "2021-08-30T00:00:00Z",
-        "name": "Love by Snu Snu Spa Motel",
+        "name": "Love by Snu Snu",
         "banner": "assets/banners/snu-snu.jpg",
-        "description": [ "Flower/Fairy based spa with private rooms for rent and massage parlor. Come relax and soak with receiving love and care form our carefully selected courtesans." ],
+        "description": [ 
+            "Love by Snu Snu Spa and Motel is a romantic and fairy themed bath house with curated private rooms available to rent. Hot tubs, showerbeds, love couches and feet soaking physical/metal therapy chairs are arranged for destressing and relaxing. Public bathroom with powder and make-up kits available for free use. ",
+            "Love by Snu Snu also has a separate small venue within it:",
+            "The Rubdown (Room 5 of venue): Nature themed massage parlor with 3 different services available from our massage therapist; Clothed Massage, Naked Massage and Table Shower. (open during venue hours)"
+        ],
         "location": "Siren, Goblet, Ward 6, Plot 14",
         "website": "https://lovebysnusnu.carrd.co/",
-        "discord": "https://discord.gg/hmDes997WY",
-        "tags": [ "Novel venue", "Courtesans" ],
+        "discord": "https://discord.gg/rkU6cqW75k",
+        "tags": [ "Inn", "Bath house", "Novel venue", "Courtesans", "Pillow", "Twitch DJ", "Food", "Drink" ],
         "contacts":["443245852731899906"],
         "sfw": false,
         "nsfw": true,
@@ -698,12 +702,12 @@
             {
                 "day": 0,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "comments":[ "Novel because it's not really anything - it's a large pink room with beds and bath made purely for NSFW gathering and activities. Brothel is most likely the closest if we add a tag for that." ]
