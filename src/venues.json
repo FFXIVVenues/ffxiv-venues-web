@@ -3804,7 +3804,7 @@
         "website": "https://tatsuonsen.carrd.co/",
         "discord": "https://discord.gg/5y2wqKwC5t",
         "sfw": true,
-        "nsfw": false,
+        "nsfw": true,
         "times": [
             {
                 "day": 4,
@@ -3819,7 +3819,7 @@
          ],
         "exceptions": [  ],
         "notices": [  ],
-        "tags": [ "Bar", "Bath House", "Dancers", "Drink" ],
+        "tags": [ "Bar", "Bath House", "Dancers", "Drink", "Courtesans" ],
         "comments": [  ],
         "contacts": [ "260211568950771715" ]
     },
