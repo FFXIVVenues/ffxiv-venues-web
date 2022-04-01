@@ -694,7 +694,7 @@
         "location": "Siren, Goblet, Ward 6, Plot 14",
         "website": "https://lovebysnusnu.carrd.co/",
         "discord": "https://discord.gg/rkU6cqW75k",
-        "tags": [ "Inn", "Bath house", "Novel venue", "Courtesans", "Pillow", "Twitch DJ", "Food", "Drink" ],
+        "tags": [ "Inn", "Bath house", "Courtesans", "Pillow", "Twitch DJ", "Food", "Drink" ],
         "contacts":["443245852731899906"],
         "sfw": false,
         "nsfw": true,
@@ -710,7 +710,7 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
-        "comments":[ "Novel because it's not really anything - it's a large pink room with beds and bath made purely for NSFW gathering and activities. Brothel is most likely the closest if we add a tag for that." ]
+        "comments":[  ]
     },
     {
         "id": "LnAwy1dH",
@@ -3011,7 +3011,7 @@
         "description": [ 
             "Welcome to the Kitty Kashpot, a wonderful new home for all of your gambling needs. Built by friends, for friends, we pride ourselves on being the fairest gambling attraction on Aether! Come test your luck, bring your lapcats or your Lucky bunn and have a night you're sure not to forget!"
         ],
-        "location": "Midgardsormr, Shirogane, Ward 24 Sub, Apt 46",
+        "location": "Adamantoise, Mist, Ward 23, Apt 76",
         "discord": "https://discord.gg/kashpot",
         "website": "https://kittykashpot.carrd.co/",
         "sfw": false,
