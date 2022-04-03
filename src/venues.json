@@ -1495,7 +1495,7 @@
         "location": "Cactuar, Shirogane, Ward 15, Plot 7",
         "shard": "Eastern Shirogane Subdivision",
         "website": "https://heavenlyhearth.carrd.co/",
-        "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Soft-counselling", "Food", "Drink", "Open stage",  "RP Only", "Novel services" ],
+        "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Soft-counselling", "Food", "Drink", "Open stage",  "IC RP only", "Novel services" ],
         "contacts":["110616879634059264", "181202033808769024"],
         "sfw": true,
         "nsfw": false,
@@ -2302,7 +2302,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Tavern", "Inn", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Open Stage", "RP only" ],
+        "tags": [ "Tavern", "Inn", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Open Stage", "IC RP only" ],
         "contacts": [ "134349700428988416" ]
     },
     {
@@ -3087,7 +3087,7 @@
             "Envy Live stream will be featuring popular EDM and Dance music!",
             "LGBTQ+ Owned and Operated."
         ],
-        "location": "Siren, The Goblet, Ward 22, Plot 40",
+        "location": "Siren, Mist, Ward 19, Plot 40",
         "discord": "https://discord.gg/czKJaSqjKD",
         "website": "https://3nvy.in/#home",
         "sfw": false,
@@ -4423,17 +4423,18 @@
         "nsfw": false,
         "times": [
             {
-                "day": 0,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 4,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-04-01T00:00Z",
+                "end": "2022-04-10T00:00Z",
+                "hide": true
+            }
+        ],
         "notices": [  ],
         "tags": [ "Cafe", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
         "comments": [  ],
@@ -4680,5 +4681,86 @@
         "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Drink", "IC RP only" ],
         "comments": [  ],
         "contacts": [ "329059307142381569" ]
+    },
+    {
+        "id": "TGszNLlne",
+        "added": "2022-04-03T00:00:00Z",
+        "name": "Duskrose Inn",
+        "banner": "assets/banners/duskrose-inn.jpg",
+        "description": [ "Duskrose Inn is a themed classic-style luxury inn. We strive for an atmosphere that's comforting and relaxing to either wind down for the night, or spend time with others in a calm environment. Listen to talented bards on our open stage, take a dip in our tubs, or spend some quality time in our private couples' or group rooms!" ],
+        "location": "Cactuar, Goblet, Ward 4, Plot 42",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://duskroseinn.carrd.co",
+        "discord": "https://discord.gg/m9U3cw9N3b",
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Inn", "Bath house", "Bards", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "164858612584415232" ]
+    },
+    {
+        "id": "L9izoccKF",
+        "added": "2022-04-03T00:00:00Z",
+        "name": "Broceliande",
+        "banner": "assets/banners/broceliande.jpg",
+        "description": [ "Broceliande is a quiet, immersive RP venue with a blend of Hingan and Gridanian aesthetics and a large menu. We encourage in-character conversation as much as possible. Most visitors come to unwind and have a little light character writing. The intent is to provide a relaxing environment for adult players to interact with other adults, and to facilitate the formation of connections with other immersive RPers so that they can form their own bonds and playgroups." ],
+        "location": "Sargatanas, Shirogane, Ward 15, Plot 27",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://broceliande.carrd.co/",
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Tavern", "Food", "RP only" ],
+        "comments": [  ],
+        "contacts": [ "216706903143743498" ]
+    },
+    {
+        "id": "mfebyxhy3",
+        "added": "2022-04-03T00:00:00Z",
+        "name": "Kokuryuu",
+        "banner": "assets/banners/kokuryuu.jpg",
+        "description": [ "An immersive Eastern-themed high-end restaurant and lounge focusing on cuisine from the Near and Far East. We offer light conversation and an elegant atmosphere to meet up with friends or make new ones as adventurers in Eorzea and beyond." ],
+        "location": "Cactuar, Lavender Beds, Ward 18, Plot 56",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://kokuryuu-ffxiv.carrd.co/#",
+        "discord": "",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Cafe", "Bar", "Food", "Drink", "IC RP only" ],
+        "comments": [  ],
+        "contacts": [ "227996440935268352" ]
     }
 ]
