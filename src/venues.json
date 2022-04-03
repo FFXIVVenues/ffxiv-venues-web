@@ -4762,5 +4762,49 @@
         "tags": [ "Cafe", "Bar", "Food", "Drink", "IC RP only" ],
         "comments": [  ],
         "contacts": [ "227996440935268352" ]
+    },
+    {
+        "id": "OlJX3Pxb1",
+        "added": "2022-04-03T00:00:00Z",
+        "name": "The Ethereal Star",
+        "banner": "assets/banners/the-ethereal-star.jpg",
+        "description": [ "We are open 1am to 6am eastern time every day with the exclusion of Monday Mornings and Thursday mornings." ],
+        "location": "Adamantoise, Goblet, Ward 6, Plot 55",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://theetherealstar.carrd.co/",
+        "discord": "https://discord.gg/azVdXvASpF",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Bath house", "Courtesans", "Pillow", "Food", "Drink", "Photography", "Open stage" ],
+        "comments": [  ],
+        "contacts": [ "119218568389853186" ]
     }
 ]
