@@ -2414,11 +2414,13 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
