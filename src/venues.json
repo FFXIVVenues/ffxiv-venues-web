@@ -4803,5 +4803,32 @@
         "tags": [ "Bar", "Bath house", "Courtesans", "Pillow", "Food", "Drink", "Photography", "Open stage" ],
         "comments": [  ],
         "contacts": [ "119218568389853186" ]
+    },
+    {
+        "id": "dGTcw4BZI",
+        "added": "2021-11-07Z",
+        "name": "Blessed Heaven",
+        "banner": "assets/banners/blessed-heaven.jpg",
+        "description": "Blessed Heaven is an 18+ softcore RP venue, that will offer a variety of services! we have lovely and welcoming staff ready to give you an unforgettable time. So, please come and enjoy your stay provided courtesy by the Bless Brother's. \\o/",
+        "location": "Adamantoise, Shirogane, Ward 9, Plot 31",
+        "discord": "https://discord.gg/NkxBzuSMRV",
+        "website": "https://blessedheaven.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "VIP", "Twitch DJ" ],
+        "contacts": [ "225019541585920000" ]
+
     }
 ]
