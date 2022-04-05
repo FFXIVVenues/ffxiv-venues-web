@@ -4654,8 +4654,10 @@
         "added": "2022-03-30T00:00:00Z",
         "name": "Euphoria",
         "banner": "assets/banners/euphoria.jpg",
-        "description": [ "Euphoria is a weekend nightclub and event space located in the heart of Shirogane. Featuring a fully stocked bar, hot tub, dance floor and casino, Euphoria is sure to offer a night to remember. With both SFW and NSFW services offered, there's something to satisfy everyone! Stop by for an unforgettable evening and see what Euphoria is truly all about. " ],
+        "description": [ "Euphoria is a weekend nightclub and event space located in the heart of Shirogane. Featuring a fully stocked bar, hot tub, dance floor and casino, we’re sure to offer a night to remember. With both SFW and NSFW services offered, there's something to satisfy everyone! Stop by for an unforgettable evening and enter a state of euphoria. " ],
         "location": "Jenova, Shirogane, Ward 13, Plot 43",
+        "discord": "https://discord.gg/smfRyacVFk",
+
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -4673,7 +4675,7 @@
             }
         ],
         "notices": [  ],
-        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Drink", "IC RP only" ],
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Twitch DJ", "VIP", "Open stage", "Drink", "IC RP only" ],
         "comments": [  ],
         "contacts": [ "329059307142381569" ]
     },
