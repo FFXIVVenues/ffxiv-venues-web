@@ -3038,7 +3038,7 @@
         ],
         "exceptions": [ ],
         "tags": [ "Tavern", "Casino", "Gambling", "Drink", "Photography", "Food", "Open stage", "Triple triad" ],
-        "contacts": [ "80380433325363200" ]
+        "contacts": [ "371867453875027995" ]
     },
     {
         "id": "GR4kpOArJ",
@@ -3312,7 +3312,7 @@
         "description": [ 
             "Named after our adorable mameshiba, Musashi, Café Musashi is run by a lovely couple. Located on a beach front, we provide a relaxing environment for our patrons and serve freshly made food! Our café is inspired from the show, Restaurant to Another World. Please do feel free to visit! We would love to have you."
         ],
-        "location": "Sargantas, Mist, Ward 10, Plot 50",
+        "location": "Sargatanas, Mist, Ward 10, Plot 50",
         "website": "https://cafemusashi.carrd.co/",
         "discord": "https://discord.gg/WPZkm8X9tD",
         "sfw": true,
@@ -4803,5 +4803,118 @@
         "tags": [ "Nightclub", "Casino", "Gambling", "VIP", "Twitch DJ" ],
         "contacts": [ "225019541585920000" ]
 
+    },
+    {
+        "id": "QfxXOl32f",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Wetflix",
+        "banner": "assets/banners/wetflix.jpg",
+        "description": [
+            "Wetflix Movie lounge with TVs (safely) installed on the edge of hot tubs so patrons can soak while watching movies, TV shows, twitch streams or YouTube videos.",
+            "(Wetflix is available to rent)" 
+        ],
+        "location": "Siren, Goblet, Ward 6, Plot 14",
+        "sfw": false,
+        "nsfw": false,
+        "discord": "https://discord.gg/rkU6cqW75k",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 3, "minute": 15, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bath house", "Food" ],
+        "comments": [  ],
+        "contacts": [ "443245852731899906" ]
+    },
+    {
+        "id": "NsjeufVXN",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Wet & Wild Spa Resort",
+        "banner": "assets/banners/wet-wild.jpg",
+        "description": [ "Rustic/Oriental themed bath house with full soak tubs (to /doze in), showerbeds, hot tubs to soak in and a watery dance floor and bar. Owner gives out free chocolates to every patron upon entry. Nail salon is available in venue for manicures and pedicures." ],
+        "location": "Siren, Goblet, Ward 16, Plot 23",
+        "sfw": false,
+        "nsfw": false,
+        "discord": "https://discord.gg/rkU6cqW75k",
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Bath house", "Food", "Drink", "Open Stage" ],
+        "comments": [  ],
+        "contacts": [ "443245852731899906" ]
+    },
+    {
+        "id": "JGS8gzXml",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Shonen",
+        "banner": "assets/banners/shonen.jpg",
+        "description": [ 
+            "We are the friendliest venue on Sargatanas! We pride ourselves on keeping an all welcoming and happy atmosphere! Shonen is a great place to meet new friends and enjoy fun new venue events! The venue is named after the Weekly Shōnen Jump magazine which introduced us to some of the greatest Anime to date! Much like the magazine has one of the longest-running communities, we hope to build an atmosphere around gathering those who are like minded and anime loving!",
+            "You can look forward to refreshing new venue events and activities like:",
+            "- Surprise maid service (starting at 20k)",
+            "- Glam competitions",
+            "- Gamba",
+            "- Trivia",
+            "- Themed anime nights",
+            "- SURPISE OPENINGS (with more surprises)",
+            "- 18+ services",
+            "- 24/7 anime bard performance (other then for special DJ anime nights)",
+            "We look forward to meeting everyone and hope you enjoy our venue as much as we do hosting for you!"
+         ],
+        "location": "Sargatanas, Mist, Ward 11, Plot 45",
+        "sfw": true,
+        "nsfw": true,
+        "website": "https://shonenclub.carrd.co/",
+        "discord": "https://discord.gg/shonenclub",
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open Stage", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "178734393655820288" ]
+    },
+    {
+        "id": "boY4o1m8e",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Ethereal Memories Photography",
+        "banner": "assets/banners/ethereal-memories-photography.jpg",
+        "description": [ "Ethereal Memories is the place where dreams are captured behind a lens and kept for eternity's moment. Please come and join us and put any side on display, they're all your best side. If by chance you wish for more than a memento of your time with us, please feel more than free to indulge in our array of fine food and drink, or perhaps our gaming table if the sweet taste of victory is more to your liking. For those who wish to leave it all behind, our dance floor is the best place to pretend nobody is watching. With our photo booths changing like the phases of the moon, we promise to always show you our best on display. May that you leave here with your spirits higher than the sky and walk evermore under the light of the stars." ],
+        "location": "Siren, Goblet, Ward 17, Plot 13",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://etherealmemories.carrd.co/#",
+        "discord": "https://discord.gg/etherealmemories",
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 9, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [ "This venue is open every OTHER Sunday night. Please check the venue's Discord for opening."],
+        "tags": [ "Bar", "Casino", "Gambling", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "204781328636444672" ]
     }
 ]
