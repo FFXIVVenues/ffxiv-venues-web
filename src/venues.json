@@ -4916,5 +4916,29 @@
         "tags": [ "Bar", "Casino", "Gambling", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
         "comments": [  ],
         "contacts": [ "204781328636444672" ]
+    },
+    {
+        "id": "cnYpCj6vF",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Champagne Room",
+        "banner": "assets/banners/champagne-room.jpg",
+        "description": [ "Champagne Room is Aether's most intimate dance lounge. CR offers a live pianist, premiere bard bands, courtesans, SFW dancers, gambling, and an extensive bar. Champagne Room was created as a mature and relaxing establishment to visit when you want to wind down from the other clubs." ],
+        "location": "Sargatanas, Shirogane, Ward 1, Plot 49",
+        "sfw": false,
+        "nsfw": true,
+        "website": "https://champagneroom.carrd.co/",
+        "discord": "http://discord.gg/champagneroom",
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Lounge", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Tarot", "Food", "Photography", "VIP" ],
+        "comments": [  ],
+        "contacts": [ "103077521154641920" ]
     }
 ]
