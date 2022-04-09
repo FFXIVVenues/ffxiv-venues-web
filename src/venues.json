@@ -4940,5 +4940,44 @@
         "tags": [ "Bar", "Lounge", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Tarot", "Food", "Photography", "VIP" ],
         "comments": [  ],
         "contacts": [ "103077521154641920" ]
+    },
+    {
+        "id": "ijAo5a2yw",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Kolat",
+        "banner": "assets/banners/kolat.jpg",
+        "description": [ 
+            "If venues had a soundtrack, Kolat's would be a mix of music’s past, present, and future with cuts of different genre's all blending in perfect harmony. Explore the Kolat Nightlife, see a Kolat Show, and dive into Kolat’s diverse entertainment offerings. With music and entertainment around every corner, friends and family can enjoy the sounds that make this club your nighttime destination.",
+            "What’s your pleasure? At Kolat, you will find an intoxicating variety games and denominations, friendly dealers and a stylishly exotic – yet always comfortable – atmosphere that will enhance every experience. Fast, hostess service makes it easier to concentrate on your next move. New to gambling? There’s no reason to be intimidated by the action… our gambits are happy to show you how each game works and soon, you’ll be playing like a pro.",
+            "Kolat gives way to many quality entertainers in a relaxing and exotic atmosphere that you could almost call home. The Aether LB locale packs the house with the steamiest entertainers in the land. In house is a VIP area, with a view of the large main stage. And let's not forget that the VIP packages offer quality entertainer discounts."
+        ],
+        "location": "Adamantoise, Lavender Beds, Ward 11, Plot 36",
+        "website": "https://clubkolat.com/",
+        "discord": "https://discord.gg/clubkolat",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ 
+            {
+                "start": "2022-04-09T00:00Z",
+                "end": "2022-05-10T00:00Z",
+                "hide": false
+            }
+        ],
+        "contacts": [ "878446882282688533" ],
+        "comments": [  ]
     }
 ]
