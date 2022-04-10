@@ -5030,5 +5030,28 @@
         "exceptions": [ ],
         "contacts": [ "284602678472998912" ],
         "comments": [  ]
+    },
+    {
+        "id": "j7i8Mwurn",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Seventh Gate",
+        "banner": "assets/banners/seventh-gate.jpg",
+        "description": [ "Aether’s alternative venue. Featuring Metal, Punk, Emo, and Rock music from live DJs. As well as a gambling, a fully stocked bar, courtesans, and a friendly staff." ],
+        "location": "Sargatanas, Goblet, Ward 3, Plot 38",
+        "discord": "https://discord.gg/jkdU3f9YnS",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "140286591695454208" ],
+        "comments": [  ]
     }
 ]
