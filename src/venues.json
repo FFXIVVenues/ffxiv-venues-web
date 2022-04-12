@@ -4630,12 +4630,11 @@
         "description": [ "Euphoria is a weekend nightclub and event space located in the heart of Shirogane. Featuring a fully stocked bar, hot tub, dance floor and casino, we’re sure to offer a night to remember. With both SFW and NSFW services offered, there's something to satisfy everyone! Stop by for an unforgettable evening and enter a state of euphoria. " ],
         "location": "Jenova, Shirogane, Ward 13, Plot 43",
         "discord": "https://discord.gg/smfRyacVFk",
-
         "sfw": true,
         "nsfw": false,
         "times": [
             {
-                "day": 5,
+                "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
@@ -4648,7 +4647,7 @@
             }
         ],
         "notices": [  ],
-        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Twitch DJ", "VIP", "Open stage", "Drink", "IC RP only" ],
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Dancers", "Bards", "Twitch DJ", "VIP", "Open stage", "Drink" ],
         "comments": [  ],
         "contacts": [ "329059307142381569" ]
     },
@@ -5052,6 +5051,59 @@
         ],
         "exceptions": [ ],
         "contacts": [ "140286591695454208" ],
+        "comments": [  ]
+    },
+    {
+        "id": "aontLaXPD",
+        "added": "2022-04-09T00:00:00Z",
+        "name": "Ink Nightclub",
+        "banner": "assets/banners/ink-nightclub.jpg",
+        "description": [ "Our exclusive nightclub experience offers some of the top live DJs on Aether, stacked VIP packages, giveaways and theme nights galore, and a full casino floor. High roller and learning nights are available for Blackjack on the regular. Customize your experience with our entertainers, photography, and tarot readings. Think of something you want and don't see it? Ask and we'll see what we can do to fulfill your wildest dreams." ],
+        "location": "Jenova, Mists, Ward 23, Plot 1",
+        "website": "https://inkvenues.carrd.co/",
+        "discord": "https://discord.gg/Qg6hXmPrzN",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "Novel services", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "897201514580410369" ],
+        "comments": [  ]
+    }, 
+    {
+        "id": "aontXRKjT",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "Ink Icehouse",
+        "banner": "assets/banners/ink-icehouse.jpg",
+        "description": [ "Enjoy a night out in our unique Icehouse. From trivia nights to battling bartenders, to chill beats, to elite gambling, the Icehouse has something for everyone. We have rooms available for rent, including a custom BDSM rental. Courts, tarot readings, and photography are also available. Let us be your home away from home." ],
+        "location": "Jenova, Lavender Beds, Ward 23, Plot 54",
+        "website": "https://inkvenues.carrd.co/",
+        "discord": "https://discord.gg/Qg6hXmPrzN",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Bar", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Tarot", "Drink", "Photography", "Open Stage", "Novel services", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "" ],
         "comments": [  ]
     }
 ]
