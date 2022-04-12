@@ -5233,5 +5233,35 @@
         "exceptions": [ ],
         "contacts": [ "237615040079855616" ],
         "comments": [  ]
+    },
+    {
+        "id": "PbMoqxdQN",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "The Kingdom",
+        "banner": "assets/banners/kingdom.jpg",
+        "description": [ "A venue that was made to give DJ’s a place to just cut loose and do whatever they’d like and it was also built and decorated by other DJ’s. Just a fun environment with minimal staff to just focus on music and fun." ],
+        "location": "Siren, Goblet, Ward 17, Plot 55",
+        "website": "https://thekingdomsmenu.carrd.co/",
+        "discord": "https://discord.gg/53fKkV9tuZ",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Lounge", "Twitch DJ" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "431503380066729986" ],
+        "comments": [  ]
     }
 ]
+
