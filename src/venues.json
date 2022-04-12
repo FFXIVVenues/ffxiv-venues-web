@@ -5325,6 +5325,35 @@
         "exceptions": [ ],
         "contacts": [ "851896542675861535" ],
         "comments": [  ]
+    },
+    {
+        "id": "cbaogRBWy",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "Requiem",
+        "banner": "assets/banners/requiem.jpg",
+        "description": [ "Come and sacrifice your sins here at Requiem and enjoy the greatest of all the 7 sins~! Currently we offer our sfw event, \"Sacrifice the Lala!\" It's just like amongus, but in ffxiv! Our NSFW event is \"Never Have I Ever\"! We have a high stakes and low stakes casino, offering Blackjack, Deathrolls and Satan's Dice!" ],
+        "location": "Adamantoise, Goblet, Ward 2, Plot 8 ",
+        "website": "https://sacrificeme.carrd.co/",
+        "discord": "https://discord.gg/ATp9mNGZNQ",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Casino", "Gambling", "Void", "Bards", "Food", "Drink", "Photography", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "397924599746134018" ],
+        "comments": [  ]
     }
 ]
 
