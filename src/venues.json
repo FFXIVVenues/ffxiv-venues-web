@@ -5175,5 +5175,39 @@
         ],
         "contacts": [ "259458647686381568" ],
         "comments": [  ]
+    },
+    {
+        "id": "bxDRVNWps",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "Ara Au'ra",
+        "banner": "assets/banners/ara-aura.jpg",
+        "description": [ "A quaint little friendly bar for all to come relax, have a drink and mingle with all." ],
+        "location": "Faerie, Lavender Bed, Ward 10, Plot 60",
+        "website": "https://araaurajazzbar.carrd.co/",
+        "discord": "https://discord.gg/jHqDWefFWw",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Lounge", "Food", "Drink", "Open Stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
 ]
