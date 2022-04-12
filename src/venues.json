@@ -5293,6 +5293,38 @@
         "exceptions": [ ],
         "contacts": [ "884888091922419793" ],
         "comments": [  ]
+    },
+    {
+        "id": "bPntCHHlX",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "Repose",
+        "banner": "assets/banners/repose.jpg",
+        "description": [ 
+            "A cozy little cafe in the hearts of the Lavender Beds.",
+            "Come and rest your weary soul with some snacks and drinks." 
+        ],
+        "location": "Faerie, Lavender Beds, Ward 4, Plot 52",
+        "website": "https://iriris-repose.carrd.co/",
+        "discord": "https://discord.gg/VSt7H5ek94",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 21, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "851896542675861535" ],
+        "comments": [  ]
     }
 ]
 
