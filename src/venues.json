@@ -2984,13 +2984,13 @@
         "name": "Club Vamp",
         "banner": "assets/banners/club-vamp.jpg",
         "description": [ 
-            "Eorzea's spookiest LGBTQ+ NSFW dance club. Offering raffles, fully stocked bar, frighteningly fun staff and charming courtesans, and a crazy fun dance party with a blood pumping alternative dance playlist curated by Club Vamp staff."
+            "Eorzea's spookiest LGBTQ+ NSFW dance club. Offering raffles, fully stocked bar, frighteningly fun staff, and a crazy fun dance party with a blood pumping alternative dance playlist curated by Club Vamp staff."
         ],
         "location": "Cactaur, Lavender Beds, Ward 1 Plot 53",
         "discord": "https://discord.gg/67bU7xdu2w",
         "website": "https://clubvamp.carrd.co/",
         "sfw": false,
-        "nsfw": true,
+        "nsfw": false,
         "times": [
             {
                 "day": 6,
@@ -2999,7 +2999,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Food", "Drink" ],
+        "tags": [ "Nightclub", "Bar", "Dancers", "Food", "Drink" ],
         "contacts": [ "198960159228297216" ]
     },
     {
