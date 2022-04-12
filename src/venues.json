@@ -5204,5 +5204,34 @@
         "exceptions": [ ],
         "contacts": [ "577680910028242955" ],
         "comments": [  ]
+    },
+    {
+        "id": "QFDVWRygq",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "Malefic",
+        "banner": "assets/banners/malefic.jpg",
+        "description": [ "A laid back club with high class flair, Malefic is the perfect spot to let loose a little and ramp up for the weekend. We offer wonderful court services, gambling, an open bar, and live music hosted by an in-house DJ specializing in alternative rock and metal genres. We also have several little hideaway nooks for private dances and offer high-stakes gambling for those looking for a bit more risk." ],
+        "location": "Jenova, Lavender Beds, Ward 8, Plot 57",
+        "website": "https://clubmalefic.carrd.co/",
+        "discord": "https://discord.gg/malefic",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "237615040079855616" ],
+        "comments": [  ]
     }
 ]
