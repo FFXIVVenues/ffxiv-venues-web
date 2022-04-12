@@ -1776,10 +1776,11 @@
             "A Fun Social Night Club Environment you won't soon forget!"
         ],
         "location": "Sargatanas, Goblet, Ward 16, Plot 43",
+        "website": "https://bassbumpers.carrd.co/",
         "discord": "https://discord.gg/G6WQBGXFcC",
-        "sfw": true,
+        "sfw": false,
         "nsfw": true,
-        "tags": [ "Nightclub", "Drink", "Courtesans", "Twitch DJ" ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Drink", "Open Stage", "VIP" ],
         "contacts": [ "704913420356419645", "631250810549960716" ],
         "times": [
             {
