@@ -5105,5 +5105,39 @@
         "exceptions": [ ],
         "contacts": [ "" ],
         "comments": [  ]
-    }
+    },
+    {
+        "id": "aKRvfRKPC",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "Otter by the Water",
+        "banner": "assets/banners/otter-by-the-water.jpg",
+        "description": [ "Otter by the Water is a café on Jenova... or, as we like to call it, a cAFKé! Whether you're looking to kill time in a queue, want a SFW place to roleplay, trying to take some cute /gposes in a cozy setting, or just need a place to chill, we've got you covered. We're located in the Mist housing district at Ward 7, Plot 4, close to the docks and Mist South aetheryte. Look for the odder otters decorating the exterior—you can't miss it!" ],
+        "location": "Jenova, Mist, Ward 7, Plot 4",
+        "website": "http://otter.crd.co",
+        "discord": "https://discord.gg/3WVtv6pMED",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Tavern", "Bards", "Food", "Drink", "Open stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "822861959467761684" ],
+        "comments": [  ]
+    }    
 ]
