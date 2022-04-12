@@ -5264,37 +5264,6 @@
         "comments": [  ]
     },
     {
-        "id": "KyCZKHu8L",
-        "added": "2022-04-12T00:00:00Z",
-        "name": "Tartarus",
-        "banner": "assets/banners/tartarus.jpg",
-        "description": [ "We are a Goth Nightclub and Community, during the night you can dance, drink or get naughty with us! And during the day you can talk, laugh and share with us!" ],
-        "location": "Adamantoise, Goblet, Ward 1, Plot 4",
-        "website": "https://tartarusffxiv.wixsite.com/tartarus",
-        "discord": "https://discord.gg/tartarus",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Nightclub", "Lounge", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink" ],
-        "notices": [  ],
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "contacts": [ "884888091922419793" ],
-        "comments": [  ]
-    },
-    {
         "id": "bPntCHHlX",
         "added": "2022-04-12T00:00:00Z",
         "name": "Repose",
@@ -5353,6 +5322,45 @@
         ],
         "exceptions": [ ],
         "contacts": [ "397924599746134018" ],
+        "comments": [  ]
+    },
+    {
+        "id": "NfF0AXBp0",
+        "added": "2022-04-12T00:00:00Z",
+        "name": "TARTARUS",
+        "banner": "assets/banners/tartarus.jpg",
+        "description": [ 
+            "TARTARUS is Aethers HOTTEST vampiric/goth night club and safe haven for the vampiric kind but.. if you are one of those mortals who always wanted to see the dark and wild side of our world, why not stop by?",
+            "We have a fully loaded bar with that of which you only will see upon entering our little realm. Need a hot night? Maybe a little love from our courts of the night, why not ask one?",
+            "Blood Raves, sacrifices? Yes... we have them. Care for some good music while you dance the night or your mortal life away? Leave it to our mistress and DJ Hilde and they will show you the rhythm of the night.",
+            "Beware the night or embrace it, the choice is yours."
+        ],
+        "location": "Adamantoise, Goblet, Ward 1, Plot 4",
+        "website": "https://tartarusffxiv.wixsite.com/tartarus",
+        "discord": "https://discord.gg/tartarus",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Lounge", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "884888091922419793", "315643774124556290" ],
         "comments": [  ]
     }
 ]
