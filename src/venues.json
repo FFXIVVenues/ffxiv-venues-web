@@ -4746,12 +4746,7 @@
         "discord": "https://discord.gg/azVdXvASpF",
         "times": [
             {
-                "day": 1,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
+                "day": 0,
                 "start": { "hour": 5, "minute": 0, "nextDay": true },
                 "end": { "hour": 10, "minute": 0, "nextDay": true }
             },
@@ -5207,7 +5202,7 @@
             }
         ],
         "exceptions": [ ],
-        "contacts": [ "" ],
+        "contacts": [ "577680910028242955" ],
         "comments": [  ]
     }
 ]
