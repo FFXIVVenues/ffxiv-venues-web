@@ -3555,7 +3555,8 @@
             "We have an extensive menu of delights for you to choose from! Come sate your sweet tooth with a confection or pastry and a fresh barista-made drink!"
         ],
         "location": "Sargatanas, Lavender Beds, Ward 14, Plot 48",
-        "website": "https://enchantedfaecafe.carrd.co/#",
+        "website": "https://enchantedfaecafe.crevado.com/",
+        "discord": "https://discord.gg/22JqBEG5fj",
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -3570,7 +3571,13 @@
                 "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-04-12T00:00Z",
+                "end": "2022-04-23T00:00Z",
+                "hide": true
+            }
+        ],
         "notices": [ ],
         "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
         "contacts": [ "171068461181566976" ]
