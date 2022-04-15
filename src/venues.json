@@ -1789,11 +1789,12 @@
     {
         "id": "GLNWX60Sj",
         "added": "2022-01-20T00:00:00Z",
-        "name": "The Kupo Den",
-        "banner": "assets/banners/kupo-den.jpg",
+        "name": "Eden's Corner",
+        "banner": "assets/banners/edens-corner.jpg",
         "description": [
-            "~ Welcome to The Kupo Den! ~",
-            "Find yourself entertained by our in-house bards who offer a lovely variety of songs to play, along side our in-house gambler who has a handful of different games you can test your luck at! Or perhaps you're searching for more personal delights~ you can find it all here at The Kupo Den! ~Kupo!"
+            "★ Welcome to  Eden's Corner! ★",
+            "Eden's Corner is a dark, floral Nightclub/Lounge that offers a variety of services such as a fully stocked bar, an in-house DJ, bards, a dancefloor and much more! We welcome all to an atmosphere where you can be yourself and let go~",
+            "Eden's Corner. Your home away from home :)"
         ],
         "location": "Faerie, Goblet, Ward 3, Plot 2",
         "discord": "https://discord.gg/tyYdrestJH",
@@ -1802,14 +1803,9 @@
         "nsfw": true,
         "times": [
             {
-                "day": 4,
+                "day": 0,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
