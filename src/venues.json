@@ -2404,18 +2404,7 @@
         "website": "https://lavenderlatteffxiv.uwu.ai/",
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ],
+        "times": [],
         "exceptions": [],
         "tags": [ "Cafe", "Food", "Drink", "Open stage", "Photography" ],
         "contacts": [ "227307380616986634" ]
