@@ -5261,10 +5261,10 @@
         "name": "Repose",
         "banner": "assets/banners/repose.jpg",
         "description": [ 
-            "A cozy little cafe in the hearts of the Lavender Beds.",
-            "Come and rest your weary soul with some snacks and drinks." 
+            "A cozy little cafe in the hearts of the Empyreum.",
+            "Come in and enjoy warm snacks and hot drinks."
         ],
-        "location": "Faerie, Lavender Beds, Ward 4, Plot 52",
+        "location": "Faerie, Empyreum, Ward 14, Plot 17",
         "website": "https://iriris-repose.carrd.co/",
         "discord": "https://discord.gg/VSt7H5ek94",
         "sfw": true,
