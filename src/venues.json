@@ -2047,7 +2047,7 @@
     {
         "id": "UQMJP84jw",
         "added": "2022-01-29T00:00:00Z",
-        "name": "Crossroads Lounge",
+        "name": "Crossroads Conversations",
         "banner": "assets/banners/crossroads-lounge.jpg",
         "description": [
             "When you're lost and don't know where to turn next, you arrive at the Crossroads.  Take your time to rest your feet, have a bite to eat, and enjoy in the fellow company of travelers.   Find a friend and then pick up where you left off, ready to discover where you're meant to explore next.",
@@ -2059,7 +2059,7 @@
         "nsfw": false,
         "times": [ ],
         "exceptions": [],
-        "tags": [ "Lounge", "Food", "Drink", "Bards", "Open stage", "Novel services" ],
+        "tags": [ "Lounge", "Host club", "Food", "Drink", "Bards", "Open stage", "IC RP only", "Novel services" ],
         "contacts": [ "192497361149231105" ]
     },
     {
