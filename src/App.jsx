@@ -73,7 +73,7 @@ class App extends React.Component {
       openVenues: venueService.getOpenVenues(),
       favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()),
       scheduledVenues: venueService.getVenueSchedule(),
-      listView: localStorage.getItem("aether-venues-view-setting") === 'list-view'
+      listView: localStorage.getItem("aether-venues-view-setting") !== 'card-view'
     };
   }
 
@@ -216,7 +216,7 @@ class App extends React.Component {
 
     return (
       <div className="aether-venues__venues aether-venues__new-venues">
-        <details open>
+        <details open={!this.state.listView}>
           <summary><h2>Newest</h2></summary>
           { this.state.listView ? 
               venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
