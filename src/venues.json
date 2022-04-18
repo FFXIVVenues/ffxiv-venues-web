@@ -1066,7 +1066,7 @@
         "description": [ 
             "A spritely nightclub tucked away in the Lavender beds. The menu is focused on a variety of cocktails to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for drinks, you wont be disappointed!" 
         ],
-        "location": "Gilgamesh, Lavender Beds, Ward 15, Apt 39",
+        "location": "Jenova, Empyreum, Ward 24, Plot 33",
         "shard": "Lilly Hills",
         "website": "https://rosepetalbar.carrd.co/",
         "discord": "https://discord.gg/ckch8s4X7c",
@@ -1075,6 +1075,11 @@
         "tags":[ "Nightclub", "Lounge", "Drink", "Open stage", "Bards" ],
         "contacts": [ "244551427052142592" ],
         "times": [
+            {
+                "day": 3,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
         ]
     },
     {
