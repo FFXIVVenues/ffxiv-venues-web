@@ -43,7 +43,8 @@
 
 .venue-profile__user-settings button svg {
     height: 15px;
-    margin-right: 10px
+    margin-right: 10px;
+    width: 15px;
 }
 
 button.venue-profile__favourite-button:hover,
