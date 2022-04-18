@@ -324,9 +324,9 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/87561ceb44aa7c85284e3e941f403394_ba22853447012a24cee115315d6a5bebfc0_96x96.jpg" alt=""/>
+                <img src="https://img2.finalfantasyxiv.com/f/adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/99616043571380224">Ganymede Aqua</a>, Sargatanas.</div>
+                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/99616043571380224">Uchu Jupiter</a>, Jenova.</div>
                   <div className="aether-venues__made-by-position">Community Administrator</div>
                 </div>
               </div>
