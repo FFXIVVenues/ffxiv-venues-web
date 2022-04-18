@@ -1,16 +1,14 @@
 import React from "react";
 import { Time } from "../time/Time";
-// import { NsfwIcon } from "../icons/NsfwIcon";
-// import { SfwIcon } from "../icons/SfwIcon";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import { Notice } from "../notice/notice";
 import days from "../../consts/days.json";
-import discordIcon from "../../assets/discord-icon.svg";
-import favouriteIcon from "../../assets/favourite-icon.svg";
-import notVisitedIcon from "../../assets/not-visited-icon.svg";
-import visitedIcon from "../../assets/visited-icon.svg";
-import webIcon from "../../assets/web-icon.svg";
+import { FavoriteIcon } from "../../components/icons/FavoriteIcon";
+import { ReactComponent as NotVisitedIcon }  from "../../assets/icons/not-visited-icon.svg";
+import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
+import { ReactComponent as WebIcon } from "../../assets/icons/web-icon.svg";
+import { ReactComponent as DiscordIcon } from "../../assets/icons/discord-icon.svg";
 import { DateString } from "../date/Date";
 import "./venue-profile.css";
 
@@ -53,68 +51,70 @@ class VenueProfile extends React.Component {
 
         return (
             <div className="venue-profile">
+                <div className="venue-profile__user-settings">
+                    <button 
+                        className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
+                        onClick={this._onFavoriteClick}>
+                        <FavoriteIcon lit={this.state.isFavourite} />
+                        Favorite venue
+                    </button>
+
+                    <button 
+                        className={"venue-profile__visited-button" + (this.state.isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
+                        onClick={this._onVisitedClick}>
+                        { this.state.isVisited ? <VisitedIcon /> : <NotVisitedIcon /> }
+                        Visited
+                    </button>
+                </div>
 
                 <div className="venue-profile__banner" 
                      style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null }>
-
-                    <div className="venue-profile__user-settings">
-                        <button 
-                            className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
-                            onClick={this._onFavoriteClick}>
-                            <img className="venue-profile__favourite-icon" src={favouriteIcon} alt="" />
-                            Favorite venue
-                        </button>
-
-                        <button 
-                            className={"venue-profile__visited-button" + (this.state.isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
-                            onClick={this._onVisitedClick}>
-                            { this.state.isVisited ? 
-                                <img className="venue-profile__visited-icon" src={visitedIcon} alt="" /> :
-                                <img className="venue-profile__visited-icon" src={notVisitedIcon} alt="" />
-                            }
-                            Visited
-                        </button>
-                    </div>
-                    
                 </div>
 
                 <div className="venue-profile__details">
+
                     <div className="venue-profile__heading">
                         <h2>
                             { this.props.venue.name }
                         </h2>                
-                        { this.props.venue.website && 
-                            <a className="venue-profile__website" target="_blank" rel="noreferrer" href={this.props.venue.website}>
-                                <img src={webIcon} alt="" />
-                            </a>
-                        }
-                        { this.props.venue.discord && 
-                            <a className="venue-profile__discord" target="_blank" rel="noreferrer" href={this.props.venue.discord}>
-                                <img src={discordIcon} alt="" />
-                            </a>
-                        }
                     </div>
 
                     <p className="venue-profile__location">
                         { this.props.venue.location }
                     </p>
 
-                    { this.props.venue.notices?.map(n => 
-                        <Notice summary={n} />
-                    )}
+                    { this.props.venue.website && 
+                        <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.website}>
+                            <WebIcon /> 
+                            <div>
+                                <div className="venue-profile__social-cta">Visit website</div>
+                                <div className="venue-profile__social-url">{this.props.venue.website}</div>
+                            </div>
+                        </a>
+                    }
+                    { this.props.venue.discord && 
+                        <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.discord}>
+                            <DiscordIcon /> 
+                            <div>
+                                <div className="venue-profile__social-cta">Join Discord</div>
+                                <div className="venue-profile__social-url">{this.props.venue.discord}</div>
+                            </div>
+                            
+                        </a>
+                    }
 
-                    <article className="venue-profile__description">
-                        { this.props.venue.description && 
-                            (
-                                Array.isArray(this.props.venue.description) ? 
-                                    this.props.venue.description.map(para => <p>{para}</p>) :
-                                    <p>{this.props.venue.description}</p>
-                            )
-                        }
-                    </article>
+                    { this.props.venue.description && this.props.venue.description.length > 0 && 
+                        <article className="venue-profile__description">
+                            { this.props.venue.description.map((para, i) => <p key={i}>{para}</p>) }
+                        </article>
+                    }
+
+                    { this.props.venue.notices?.map((n, i) => 
+                        <Notice summary={n} key={i} />
+                    )}
                     
                     { (this.props.venue.times && this.props.venue.times.length > 0) &&
-                        <React.Fragment>
+                        <div className="venue-profile__opening-times-wrapper">
                             <table className="venue-profile__opening-times">
                                 <tbody>
                                 { this.props.venue.times.map((t, i) => 
@@ -128,7 +128,7 @@ class VenueProfile extends React.Component {
                                 </tbody>
                             </table>
                             <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
-                        </React.Fragment>
+                        </div>
                     }
 
                     { (exceptions && exceptions.length > 0) && 
@@ -147,33 +147,20 @@ class VenueProfile extends React.Component {
                             </table>
                         </article>
                     }
-{/* 
-                    <div className="venue-profile__badge-container">
-                        <div className={"venue-profile__sfw" + (this.props.venue.sfw ? " sfw" : " not-sfw")}>
-                            { this.props.venue.sfw 
-                                ? <React.Fragment>
-                                    <SfwIcon />
-                                    <span>This venue is a SFW venue.</span>
-                                </React.Fragment>
-                                : <span>This venue is NOT a SFW venue.</span> 
-                            }
-                        </div>
-                        <div className={"venue-profile__nsfw" + (this.props.venue.nsfw ? " nsfw" : " not-nsfw")}>
-                            { this.props.venue.nsfw ? 
-                                <React.Fragment>
-                                    <NsfwIcon />
-                                    <span>This venue offers NSFW services.</span>
-                                </React.Fragment> :
-                                <span>This venue does NOT offer NSFW services.</span>
-                            }
-                        </div>
-                    </div> */}
 
                     { this.props.venue.photos &&
                         <div className="venue-profile_photos">
-                            {this.props.venue.images.map(i => 
-                                <img className="venue-profile__photo" src={i} alt={`Photograph of venue ${this.props.venue.name}.`} />
-                                )}
+                            {this.props.venue.images.map((src, i) => 
+                                <img className="venue-profile__photo" key={i} src={src} alt={`Photograph of venue ${this.props.venue.name}.`} />
+                            )}
+                        </div>
+                    }
+
+                    { this.props.venue.tags &&
+                        <div className="venue-profile_tags">
+                            {this.props.venue.tags.map((tag, i) => 
+                                <div className="venue-profile__tag" key={i}>{tag}</div>
+                            )}
                         </div>
                     }
 

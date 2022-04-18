@@ -1,3 +1,19 @@
 .light .next-day-icon {
     filter: invert();
 }
+
+
+.favorite-icon {
+    width: 1rem;
+}
+
+.favorite-icon path {
+    fill: transparent !important;
+    stroke-width: 25pt;
+    stroke: white;
+}
+
+.favorite-icon.favorite-icon--lit path {
+    fill: white !important;
+    stroke: white;
+}

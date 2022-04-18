@@ -16,18 +16,18 @@ body.modal-open .modal-stage {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, .7);
-
+    z-index: 100;
     animation: .3s fadeIn;
 }
 
 .modal-stage__modal {
     background-color: #222;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px black;
     border-radius: 5px;
-    overflow: hidden;
+    position: relative;
     width: 600px;
-
-    animation: .5s slideIn;
+    border: solid 1px #181818;
+    animation: .5s zoomIn;
 }
 
 @media screen and (max-width: 615px) {
@@ -38,15 +38,17 @@ body.modal-open .modal-stage {
         right: 0;
         width: auto;
         border-radius: 0;
+        border: none;
+        animation-name: slideIn;
     }
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 100; }
+@keyframes slideIn {
+    from { bottom: -100%; }
+    to { bottom: 0; }
 }
 
-@keyframes slideIn {
-    from { transform: translateY(20px); }
-    to { transform: translateY(0); }
+@keyframes zoomIn {
+    from { transform: scale(1.02); }
+    to { transform: scale(1); }
 }

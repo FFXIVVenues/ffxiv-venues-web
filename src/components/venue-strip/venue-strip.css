@@ -1,0 +1,14 @@
+.venue-strip__block {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.venue-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.venue-strip__block .venue-card__block {
+    margin-right: 20px;
+}

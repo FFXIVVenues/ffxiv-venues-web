@@ -2,8 +2,6 @@ import React from "react";
 import "./venue-opening.css";
 import { Modal } from "../modal/Modal";
 import { Time } from "../time/Time";
-// import { NsfwIcon } from "../icons/NsfwIcon";
-// import { SfwIcon } from "../icons/SfwIcon";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { timeService } from "../../services/timeService";
 
@@ -21,6 +19,12 @@ class VenueOpening extends React.Component {
 
     isOpen() {
         return this.props.time ? timeService.isOpen(this.props.time, this.props.venue.exceptions) : (this.props.venue.times.filter(t => timeService.isOpen(t, this.props.venue.exceptions)).length > 0)
+    }
+
+    isNew() {
+        const newIfAfter = new Date();
+        newIfAfter.setDate(newIfAfter.getDate() - 14);
+        return this.props.venue.added && new Date(this.props.venue.added) > newIfAfter;
     }
     
     componentDidMount() {
@@ -60,16 +64,12 @@ class VenueOpening extends React.Component {
                 }
                 <div className="venue-opening__cell venue-opening__name">
                     {this.props.venue.name}
-                    { this.props.venue.added && new Date(this.props.venue.added) > newIfAfter ? 
+                    { this.isNew() ? 
                         <span className="venue-opening__new">new!</span> :
                         null
                     }
                 </div>
                 <div className="venue-opening__cell venue-opening__location" >{this.props.venue.location}</div>
-                <div className="venue-opening__cell venue-opening__icons">
-                    {/* { this.props.venue.sfw && <SfwIcon /> } */}
-                    {/* { this.props.venue.nsfw && <NsfwIcon /> } */}
-                </div>
             </div>
             { this.state.openModal && 
                 <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>

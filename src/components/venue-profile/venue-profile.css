@@ -7,36 +7,63 @@
     height: 200px;
     width: 100%;
     padding-top: 0.05px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 15px black;
 }
 
 .venue-profile__user-settings {
-    margin: 10px
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+
+@media screen and (max-width: 615px) {
+    .venue-profile__user-settings {
+        left: 10px;
+    }
+
+    .venue-profile__banner {
+        border-radius: 0;
+    }
 }
 
 .venue-profile__user-settings button {
     margin-right: 10px;
     padding: 7px 8px;
     border: solid #222 1px;
-    background-color: rgba(20, 20, 20, .8);
+    background-color: #222;
     color: #BBB;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
+    width: fit-content;
 }
 
-.venue-profile__user-settings button img {
+.venue-profile__user-settings button svg {
     height: 15px;
-    margin-right: 10px
+    margin-right: 10px;
+    width: 15px;
+}
+
+button.venue-profile__favourite-button:hover,
+button.venue-profile__visited-button:hover {
+    color: #EEE;
+    border: solid var(--accent-color) 1px;
+    background-color: var(--accent-dark-color);
 }
 
 button.venue-profile__favourite-button--favourited,
 button.venue-profile__visited-button--visited {
     color: #EEE;
-    border: solid #009B80 1px;
-    background-color: rgba(0, 155, 128, .9);
+    border: solid var(--accent-color) 1px !important;
+    background-color: var(--accent-dark-color) !important;
+    box-shadow: 0 0 10px var(--accent-dark-color);
+}
 
+.favorite-icon {
+    margin-right: 7px;
 }
 
 .venue-profile__details {
@@ -56,54 +83,97 @@ button.venue-profile__visited-button--visited {
     font-size: 1.3rem;
     flex: 1;
     text-transform: uppercase;
+    font-family: "Jupiter Pro";
 }
 
 .venue-profile__description {
     text-align: justify;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;
 }
 
-.venue-profile__discord,
-.venue-profile__website {
-    float: right;
+.venue-profile__description p:first-of-type {
+    margin-top: 0;
+}
+.venue-profile__description p:last-of-type {
+    margin-bottom: 0;
+}
+
+.venue-profile__social {
     display: inline-flex;
     align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 3px 10px 5px 0px;
+    border: solid 1px transparent;
+    width: 220px;
 }
 
-.venue-profile__discord img,
-.venue-profile__website img  {
+.venue-profile__social:hover {
+    border: solid var(--accent-color) 1px;
+    background-color: var(--accent-dark-color);
+}
+
+.venue-profile__social svg  {
     height: 20px;
-    margin-left: 20px;
+    width: 40px;
+    margin-right: 5px
+}
+
+.venue-profile__social-url {
+    font-size: .7em;
+    color: rgba(255, 255, 255, 0.5);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 160px;
 }
 
 .venue-profile__location { margin-top: 0; margin-bottom: 30px; }
 
+.venue-profile__opening-times-wrapper {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;
+}
 
-.venue-profile__opening-times { margin-top: 30px; }
 .venue-profile__day { width: 100px }
 .venue-profile__start { width: 70px }
 .venue-profile__split { width: 25px; text-align: center; }
 .venue-profile__timezone-notice { margin-left: 107px; }
 
 
-.venue-profile__exceptions { margin-top: 30px; }
+.venue-profile__exceptions {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;     
+}
 
 .venue-profile__badge-container {
     margin-top: 30px
 }
 
-.venue-profile__badge-container .sfw-icon,
-.venue-profile__badge-container .nsfw-icon {
-    height: 25px;
-    margin-right: 15px;
+
+.venue-profile_tags {
+    margin-top: 30px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;
 }
 
-.venue-profile__sfw,
-.venue-profile__nsfw {
-    margin-right: 20px;
-    display: inline-flex;
-    align-items: center;
-}
-
-.not-nsfw, .not-sfw {
-    margin-left: 40px;
+.venue-profile__tag {
+    display: inline-block;
+    background-color: #222;
+    padding: 3px 10px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: fit-content;
 }

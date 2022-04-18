@@ -1,33 +1,49 @@
+import venues from "../venues";
+import { Venue } from "../model/venue";
 import { timeService } from "./timeService";
-import venues from "../venues.json";
 
 class VenueService {
-            
+    
+    constructor() {
+        this._venuesCache = null;
+    }
+    
     getVenues() {
-        return venues.filter(v => {
+        if (this._venuesCache) 
+            return this._venuesCache;
+        return this._venuesCache = venues.filter(v => {
             if (v.exceptions) {
                 const exception = timeService.getActiveException(v.exceptions);
                 if (exception != null && exception.hide) return false;
             }
             return true;
-        });
+        }).map(v => new Venue(v));
     }
 
-    getVenueById() {
-        return venues.filter(i => arguments.filter(a => a.id === i).length);
+    getVenuesById() {
+        return this.getVenues().filter(i => arguments.filter(a => a.id === i).length);
     }
 
-    getVenueTimes() {
+    getOpenVenues() {
+        const openVenues = [];
+        for (let venue of this.getVenues()) {
+            for (let time of venue.times) {
+                if (timeService.isOpen(time, venue.exceptions)) {
+                    openVenues.push({ venue, time });
+                    break;
+                }
+            }
+        }
+        return openVenues;
+    }
+
+    getVenueSchedule() {
         let venueViewModels = { 
             scheduled: [ [], [], [], [], [], [], [] ],
             unscheduled: []
         };
     
-        for (const venue of venues) {
-            if (venue.exceptions) {
-                const exception = timeService.getActiveException(venue.exceptions);
-                if (exception != null && exception.hide) continue;
-            }
+        for (const venue of this.getVenues()) {
             if (venue.times === undefined || venue.times.length === 0) {
                 venueViewModels.unscheduled.push(venue);
                 continue;
@@ -37,7 +53,6 @@ class VenueService {
                     venue,
                     time
                 };
-
                 venueViewModels.scheduled[time.day].push(venueViewModel);
             }
         }
