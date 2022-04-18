@@ -1,7 +1,7 @@
 .venue-opening { max-width: 100%;  }
 .venue-opening--open { color: #E378FF; text-shadow: 0 0 15px rgba(227, 120, 255, 0.7); font-weight: bolder; }
 
-.venue-opening__summary-row { display: inline-block; padding: 10px 20px; box-sizing: border-box; cursor: pointer; }
+.venue-opening__summary-row { width: 100%; display: inline-block; padding: 10px 20px; box-sizing: border-box; cursor: pointer; }
 .venue-opening__summary-row:hover { background-color: rgba(239, 67, 255, 0.075); cursor: pointer; }
 
 .venue-opening__cell { display: inline-block; }
@@ -9,12 +9,12 @@
 .venue-opening__start { width: 80px; }
 .venue-opening__time-split { width: 30px; }
 .venue-opening__end  { width: 90px; }
-.venue-opening__name { width: 260px; font-weight: bolder; text-overflow: ellipsis; }
+.venue-opening__name { width: 280px; font-weight: bolder; text-overflow: ellipsis; }
 .venue-opening__location { width: 340px; }
 .venue-opening__icons .sfw-icon { height: 15px; margin-right: 10px; }
 .venue-opening__icons .nsfw-icon { height: 15px; }
 
-.venue-opening--no-time .venue-opening__name { width: 460px; }
+.venue-opening--no-time .venue-opening__name { width: 300px; }
 
 .venue-opening__new { color: darkorange; font-size: .7rem; margin-left: 7px; vertical-align: top; }
 
@@ -46,23 +46,3 @@
 .venue-modal .venue-profile {
     margin-top: 0px;
 }
-
-/* @media screen and (max-width: 1070px) {
-    .venue-opening { max-width: 870px; }
-    .venue-opening__start { width: 110px; }
-    .venue-opening__time-split { display: none }
-    .venue-opening__end  { display: none }
-    .venue-opening--no-time .venue-opening__name { width: 410px; }
-}
-
-@media screen and (max-width: 970px) {
-    .venue-opening { max-width: 500px; }
-    .venue-opening__location  { display: none }
-}
-
-@media screen and (max-width: 570px) {
-    .venue-opening { max-width: 100%; }
-    .venue-opening--no-time .venue-opening__name, .venue-opening__name { width: auto }
-    .venue-opening__icons { display: none }
-    .venue-opening__summary-row { width: 100%; padding: 10px 20px }
-} */

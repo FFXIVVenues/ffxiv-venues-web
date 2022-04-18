@@ -94,15 +94,15 @@ class VenueProfile extends React.Component {
                         { this.props.venue.location }
                     </p>
 
-                    { this.props.venue.notices?.map(n => 
-                        <Notice summary={n} />
+                    { this.props.venue.notices?.map((n, i) => 
+                        <Notice summary={n} key={i} />
                     )}
 
                     <article className="venue-profile__description">
                         { this.props.venue.description && 
                             (
                                 Array.isArray(this.props.venue.description) ? 
-                                    this.props.venue.description.map(para => <p>{para}</p>) :
+                                    this.props.venue.description.map((para, i) => <p key={i}>{para}</p>) :
                                     <p>{this.props.venue.description}</p>
                             )
                         }
@@ -145,8 +145,8 @@ class VenueProfile extends React.Component {
 
                     { this.props.venue.photos &&
                         <div className="venue-profile_photos">
-                            {this.props.venue.images.map(i => 
-                                <img className="venue-profile__photo" src={i} alt={`Photograph of venue ${this.props.venue.name}.`} />
+                            {this.props.venue.images.map((src, i) => 
+                                <img className="venue-profile__photo" key={i} src={src} alt={`Photograph of venue ${this.props.venue.name}.`} />
                                 )}
                         </div>
                     }
