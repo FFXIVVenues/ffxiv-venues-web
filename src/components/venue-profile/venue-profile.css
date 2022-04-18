@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 615px) {
     .venue-profile__user-settings {
-        left: 5px;
+        left: 10px;
     }
 
     .venue-profile__banner {
@@ -87,6 +87,17 @@ button.venue-profile__visited-button--visited {
 
 .venue-profile__description {
     text-align: justify;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;
+}
+
+.venue-profile__description p:first-of-type {
+    margin-top: 0;
+}
+.venue-profile__description p:last-of-type {
+    margin-bottom: 0;
 }
 
 .venue-profile__social {
@@ -114,25 +125,54 @@ button.venue-profile__visited-button--visited {
 
 .venue-profile__social-url {
     font-size: .7em;
-    color: rgba(255, 255, 255, 0.5)
+    color: rgba(255, 255, 255, 0.5);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 160px;
 }
-
-/* .venue-profile__social:hover svg * {
-    fill: var(--accent-color) !important
-} */
 
 .venue-profile__location { margin-top: 0; margin-bottom: 30px; }
 
+.venue-profile__opening-times-wrapper {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;
+}
 
-.venue-profile__opening-times { margin-top: 30px; }
 .venue-profile__day { width: 100px }
 .venue-profile__start { width: 70px }
 .venue-profile__split { width: 25px; text-align: center; }
 .venue-profile__timezone-notice { margin-left: 107px; }
 
 
-.venue-profile__exceptions { margin-top: 30px; }
+.venue-profile__exceptions {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;     
+}
 
 .venue-profile__badge-container {
     margin-top: 30px
+}
+
+
+.venue-profile_tags {
+    margin-top: 30px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;
+}
+
+.venue-profile__tag {
+    display: inline-block;
+    background-color: #222;
+    padding: 3px 10px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: fit-content;
 }

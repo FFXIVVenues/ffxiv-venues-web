@@ -103,22 +103,18 @@ class VenueProfile extends React.Component {
                         </a>
                     }
 
-                    <article className="venue-profile__description">
-                        { this.props.venue.description && 
-                            (
-                                Array.isArray(this.props.venue.description) ? 
-                                this.props.venue.description.map((para, i) => <p key={i}>{para}</p>) :
-                                <p>{this.props.venue.description}</p>
-                                )
-                            }
-                    </article>
+                    { this.props.venue.description && this.props.venue.description.length > 0 && 
+                        <article className="venue-profile__description">
+                            { this.props.venue.description.map((para, i) => <p key={i}>{para}</p>) }
+                        </article>
+                    }
 
                     { this.props.venue.notices?.map((n, i) => 
                         <Notice summary={n} key={i} />
                     )}
                     
                     { (this.props.venue.times && this.props.venue.times.length > 0) &&
-                        <React.Fragment>
+                        <div className="venue-profile__opening-times-wrapper">
                             <table className="venue-profile__opening-times">
                                 <tbody>
                                 { this.props.venue.times.map((t, i) => 
@@ -132,7 +128,7 @@ class VenueProfile extends React.Component {
                                 </tbody>
                             </table>
                             <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
-                        </React.Fragment>
+                        </div>
                     }
 
                     { (exceptions && exceptions.length > 0) && 
@@ -156,7 +152,15 @@ class VenueProfile extends React.Component {
                         <div className="venue-profile_photos">
                             {this.props.venue.images.map((src, i) => 
                                 <img className="venue-profile__photo" key={i} src={src} alt={`Photograph of venue ${this.props.venue.name}.`} />
-                                )}
+                            )}
+                        </div>
+                    }
+
+                    { this.props.venue.tags &&
+                        <div className="venue-profile_tags">
+                            {this.props.venue.tags.map((tag, i) => 
+                                <div className="venue-profile__tag" key={i}>{tag}</div>
+                            )}
                         </div>
                     }
 

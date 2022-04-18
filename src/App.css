@@ -130,19 +130,19 @@ a {
 }
 
 .aether-venues__tags {
-  margin-bottom: 20px;
-  height: 36px;
+  margin-bottom: 15px;
+  height: 34px;
   position: relative;
 }
 
 .aether-venues__tag {
   display: inline-block;
-  border-radius: 6px;
+  border-radius: 5px;
   background-color: #111;
   border: solid 1px var(--outline-color);
   color: white;
   font-size: 1em;
-  padding: 3px 12px 4px 12px;
+  padding: 2px 10px 2px 10px;
   margin-right: 10px;
   cursor: pointer;
   user-select: none;
@@ -241,8 +241,8 @@ a {
 }
 
 .aether-venues__discord-button:hover {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  border: solid rgba(228, 120, 255) 1px;
+  background-color: var(--accent-dark-color);
   color: white
 }
 

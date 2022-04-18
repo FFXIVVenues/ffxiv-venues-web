@@ -5,8 +5,8 @@
     .aether-venues__colaborators { display: none; }
     .aether-venues__view-toggle { margin-left: auto; }
     .aether-venues__list { margin-left: 20px; width: calc(100vw - 60px); }
-    .aether-venues__meta-panel { position: relative; left: unset; bottom: unset; width: max-content; margin: 0 auto; margin-bottom: 75px }
-    .aether-venues__made-by-individual:first-of-type { margin-top: 75px }
+    .aether-venues__meta-panel { position: relative; left: unset; bottom: unset; width: max-content; margin: 0 auto; margin-bottom: 75px; display: flex; }
+    .aether-venues__discord-panels { margin-right: 50px; }
     .aether-venues__discord { min-width: 250px; border: solid 1px dimgray; }
 }
 
@@ -20,6 +20,11 @@
 @media screen and (max-width: 815px) {
     /* For list mode, remove locatioon time */
     .venue-opening__location  { display: none !important; }
+}
+
+@media screen and (max-width: 650px) {
+    .aether-venues__meta-panel { display: block; }
+    .aether-venues__discord-panels { margin-bottom: 50px; }
 }
 
 @media screen and (max-width: 475px) {

@@ -27,7 +27,7 @@ body.modal-open .modal-stage {
     position: relative;
     width: 600px;
     border: solid 1px #181818;
-    animation: .5s fadeIn;
+    animation: .5s zoomIn;
 }
 
 @media screen and (max-width: 615px) {
@@ -38,16 +38,17 @@ body.modal-open .modal-stage {
         right: 0;
         width: auto;
         border-radius: 0;
-        border: none
+        border: none;
+        animation-name: slideIn;
     }
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 100; }
+@keyframes slideIn {
+    from { bottom: -100%; }
+    to { bottom: 0; }
 }
 
-@keyframes slideIn {
-    from { transform: translateY(20px); }
-    to { transform: translateY(0); }
+@keyframes zoomIn {
+    from { transform: scale(1.02); }
+    to { transform: scale(1); }
 }

@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 615px) {
     .venue-modal__close-button {
-        right: 5px;
+        right: 10px;
     }
 }
 .venue-modal .venue-profile {
