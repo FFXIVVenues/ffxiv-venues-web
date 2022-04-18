@@ -2635,30 +2635,6 @@
         "contacts": [ "185091192113856513", "270932705246445568" ]
     },
     {
-        "id": "dQ5eipJJO",
-        "added": "2022-02-19T00:00:00Z",
-        "name": "OBLIVION Nightclub and Lounge",
-        "banner": "assets/banners/oblivion.jpg",
-        "description": [ 
-            "OBLIVION Nightclub and Lounge is a high-class nightclub. We offer a full bar and lounge area upstairs and a full dance floor with VIP seating downstairs. OBLIVION's staff focus on that immersive RP experience that will keep you enticed throughout the night. OBLIVION also has 2 VIP packages, a DJ stand, and it offers private venue packages - OBLIVION Nightclub and Lounge really is your all-in-one venue!"
-        ],
-        "location": "Faerie, Goblet, Ward 22, Plot 45",
-        "discord": "https://discord.gg/oblivion-nightclub",
-        "website": "https://fans.link/ClubOblivion",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ 
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Lounge", "Hosts", "Dancers", "Food", "Drink", "Photography", "VIP" ],
-        "contacts": [ "710626446879490089" ]
-    },
-    {
         "id": "fL7R6KFcx",
         "added": "2022-02-19T00:00:00Z",
         "name": "The White Dansim",
