@@ -49,8 +49,8 @@ button.venue-profile__visited-button--visited {
 .venue-profile__heading {
     display: flex;
     align-items: center;
-    
 }
+
 .venue-profile__heading h2 {
     margin: 0;
     font-size: 1.3rem;
