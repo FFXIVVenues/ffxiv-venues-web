@@ -51,62 +51,71 @@ class VenueProfile extends React.Component {
 
         return (
             <div className="venue-profile">
+                <div className="venue-profile__user-settings">
+                    <button 
+                        className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
+                        onClick={this._onFavoriteClick}>
+                        <FavoriteIcon lit={this.state.isFavourite} />
+                        Favorite venue
+                    </button>
+
+                    <button 
+                        className={"venue-profile__visited-button" + (this.state.isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
+                        onClick={this._onVisitedClick}>
+                        { this.state.isVisited ? <VisitedIcon /> : <NotVisitedIcon /> }
+                        Visited
+                    </button>
+                </div>
 
                 <div className="venue-profile__banner" 
                      style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null }>
-
-                    <div className="venue-profile__user-settings">
-                        <button 
-                            className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
-                            onClick={this._onFavoriteClick}>
-                            <FavoriteIcon lit={this.state.isFavourite} />
-                            Favorite venue
-                        </button>
-
-                        <button 
-                            className={"venue-profile__visited-button" + (this.state.isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
-                            onClick={this._onVisitedClick}>
-                            { this.state.isVisited ? <VisitedIcon /> : <NotVisitedIcon /> }
-                            Visited
-                        </button>
-                    </div>
-                    
                 </div>
 
                 <div className="venue-profile__details">
+
                     <div className="venue-profile__heading">
                         <h2>
                             { this.props.venue.name }
                         </h2>                
-                        { this.props.venue.website && 
-                            <a className="venue-profile__website" target="_blank" rel="noreferrer" href={this.props.venue.website}>
-                                <WebIcon />
-                            </a>
-                        }
-                        { this.props.venue.discord && 
-                            <a className="venue-profile__discord" target="_blank" rel="noreferrer" href={this.props.venue.discord}>
-                                <DiscordIcon />
-                            </a>
-                        }
                     </div>
 
                     <p className="venue-profile__location">
                         { this.props.venue.location }
                     </p>
 
-                    { this.props.venue.notices?.map((n, i) => 
-                        <Notice summary={n} key={i} />
-                    )}
+                    { this.props.venue.website && 
+                        <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.website}>
+                            <WebIcon /> 
+                            <div>
+                                <div className="venue-profile__social-cta">Visit website</div>
+                                <div className="venue-profile__social-url">{this.props.venue.website}</div>
+                            </div>
+                        </a>
+                    }
+                    { this.props.venue.discord && 
+                        <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.discord}>
+                            <DiscordIcon /> 
+                            <div>
+                                <div className="venue-profile__social-cta">Join Discord</div>
+                                <div className="venue-profile__social-url">{this.props.venue.discord}</div>
+                            </div>
+                            
+                        </a>
+                    }
 
                     <article className="venue-profile__description">
                         { this.props.venue.description && 
                             (
                                 Array.isArray(this.props.venue.description) ? 
-                                    this.props.venue.description.map((para, i) => <p key={i}>{para}</p>) :
-                                    <p>{this.props.venue.description}</p>
-                            )
-                        }
+                                this.props.venue.description.map((para, i) => <p key={i}>{para}</p>) :
+                                <p>{this.props.venue.description}</p>
+                                )
+                            }
                     </article>
+
+                    { this.props.venue.notices?.map((n, i) => 
+                        <Notice summary={n} key={i} />
+                    )}
                     
                     { (this.props.venue.times && this.props.venue.times.length > 0) &&
                         <React.Fragment>

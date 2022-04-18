@@ -24,18 +24,18 @@
     width: 30px; 
     height: 30px;
     background-color: #181818;
-    border-radius: 50%;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center; 
-    float: right;
-    margin: 10px 10px;
+    position: absolute;
+    right: 0;
+    top: -40px;
 }
-.venue-modal__close-button:hover {
-    background-color: #400;
-}
+.venue-modal__close-button:hover,
 .venue-modal__close-button:focus {
-    background-color: #200;
+    border: solid rgba(228, 120, 255) 1px;
+    background-color: var(--accent-dark-color)
 }
 
 .venue-modal__close-button img {
@@ -43,6 +43,11 @@
     height: 11px;
 }
 
+@media screen and (max-width: 615px) {
+    .venue-modal__close-button {
+        right: 5px;
+    }
+}
 .venue-modal .venue-profile {
     margin-top: 0px;
 }

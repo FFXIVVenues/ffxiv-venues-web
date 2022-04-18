@@ -7,23 +7,38 @@
     height: 200px;
     width: 100%;
     padding-top: 0.05px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 15px black;
 }
 
 .venue-profile__user-settings {
-    margin: 10px
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+
+@media screen and (max-width: 615px) {
+    .venue-profile__user-settings {
+        left: 5px;
+    }
+
+    .venue-profile__banner {
+        border-radius: 0;
+    }
 }
 
 .venue-profile__user-settings button {
     margin-right: 10px;
     padding: 7px 8px;
     border: solid #222 1px;
-    background-color: rgba(20, 20, 20, .8);
+    background-color: #222;
     color: #BBB;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
+    width: fit-content;
 }
 
 .venue-profile__user-settings button svg {
@@ -34,15 +49,16 @@
 button.venue-profile__favourite-button:hover,
 button.venue-profile__visited-button:hover {
     color: #EEE;
-    border: solid rgba(228, 120, 255, 0.4) 1px;
-    background-color: rgba(228, 120, 255, 0.5);
+    border: solid var(--accent-color) 1px;
+    background-color: var(--accent-dark-color);
 }
 
 button.venue-profile__favourite-button--favourited,
 button.venue-profile__visited-button--visited {
     color: #EEE;
-    border: solid rgba(227, 120, 255) 1px !important;
-    background-color: rgba(227, 120, 255, .8) !important;
+    border: solid var(--accent-color) 1px !important;
+    background-color: var(--accent-dark-color) !important;
+    box-shadow: 0 0 10px var(--accent-dark-color);
 }
 
 .favorite-icon {
@@ -66,29 +82,44 @@ button.venue-profile__visited-button--visited {
     font-size: 1.3rem;
     flex: 1;
     text-transform: uppercase;
+    font-family: "Jupiter Pro";
 }
 
 .venue-profile__description {
     text-align: justify;
 }
 
-.venue-profile__discord,
-.venue-profile__website {
-    float: right;
+.venue-profile__social {
     display: inline-flex;
     align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 3px 10px 5px 0px;
+    border: solid 1px transparent;
+    width: 220px;
 }
 
-.venue-profile__discord svg,
-.venue-profile__website svg  {
+.venue-profile__social:hover {
+    border: solid var(--accent-color) 1px;
+    background-color: var(--accent-dark-color);
+}
+
+.venue-profile__social svg  {
     height: 20px;
-    margin-left: 20px;
+    width: 40px;
+    margin-right: 5px
 }
 
-.venue-profile__discord:hover svg *,
-.venue-profile__website:hover svg * {
-    fill: var(--accent-color) !important
+.venue-profile__social-url {
+    font-size: .7em;
+    color: rgba(255, 255, 255, 0.5)
 }
+
+/* .venue-profile__social:hover svg * {
+    fill: var(--accent-color) !important
+} */
 
 .venue-profile__location { margin-top: 0; margin-bottom: 30px; }
 

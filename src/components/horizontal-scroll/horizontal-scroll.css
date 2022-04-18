@@ -47,7 +47,7 @@
 }
 
 .scroll-horizontal__arrow:hover:before, .scroll-horizontal__arrow:focus:before {
-    border-color: var(--focus-color);
+    border-color: var(--accent-dark-color);
 }
 
 .scroll-horizontal__arrow:before {

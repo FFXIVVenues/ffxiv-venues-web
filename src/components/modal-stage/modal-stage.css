@@ -22,12 +22,12 @@ body.modal-open .modal-stage {
 
 .modal-stage__modal {
     background-color: #222;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px black;
     border-radius: 5px;
-    overflow: hidden;
+    position: relative;
     width: 600px;
-
-    animation: .5s slideIn;
+    border: solid 1px #181818;
+    animation: .5s fadeIn;
 }
 
 @media screen and (max-width: 615px) {
@@ -38,6 +38,7 @@ body.modal-open .modal-stage {
         right: 0;
         width: auto;
         border-radius: 0;
+        border: none
     }
 }
 
