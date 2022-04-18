@@ -28,7 +28,7 @@ class App extends React.Component {
     this._openVenuesIntervalHandle = null;
     this._destroyFavouritesObserver = null;
     this._worldFilters = [
-      { key: Symbol(), label: "Cactaur", filter: worldFilter("Cactaur") },
+      { key: Symbol(), label: "Cactuar", filter: worldFilter("Cactuar") },
       { key: Symbol(), label: "Adamantoise", filter: worldFilter("Adamantoise") },
       { key: Symbol(), label: "Gilgamesh", filter: worldFilter("Gilgamesh") },
       { key: Symbol(), label: "Jenova", filter: worldFilter("Jenova") },
@@ -52,8 +52,7 @@ class App extends React.Component {
     this._featureFilters = [
       { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
       { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
-      // { key: Symbol(), label: "Hosts", filter: tagFilter("hosts") },
-      { key: Symbol(), label: "Void venue", filter: tagFilter("void") },
+      // { key: Symbol(), label: "Void venue", filter: tagFilter("void") },
       { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
       { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
       { key: Symbol(), label: "Dancers", filter: tagFilter("dancers") },
