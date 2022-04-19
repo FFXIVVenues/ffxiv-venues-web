@@ -5336,6 +5336,38 @@
         "exceptions": [ ],
         "contacts": [ "173651473266245633" ],
         "comments": [  ]
+    },
+    {
+        "id": "TTAiL3AaJ",
+        "added": "2022-04-19T00:00:00Z",
+        "name": "Sharlayan's Secret",
+        "banner": "assets/banners/sharlayans-secret.jpg",
+        "description": [ 
+            "A high class, luxury night club covered in marble and ivy, wide open spaces, and with a bright and clean style atmosphere! Features full 3 stories to utilize of the large sized house venue. Services we offer here at Sharlayan's Secret: ",
+            "Courtesans at your service, Dancers to hype the party, Live DJ's/Music streaming for your pleasure, VIP Perks/VIP area, Bar tenders to parch your thirst, future party hosting and Raffles/giveaways!" 
+        ],
+        "location": "Jenova, Empyreum, Ward 24, Plot 22",
+        "website": "https://sharlayanssecret.carrd.co/#",
+        "discord": "https://discord.gg/mcpqSb9VBT",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "159494593455325185" ],
+        "comments": [  ]
     }
 ]
 
