@@ -1853,7 +1853,7 @@
         "description": [
             "The Drunken Croak is a rustic tavern with friendly staff and a cozy atmosphere. Our goal is to create a welcoming community in which everybody can feel at home. The venue features a portrait artist, tarot readings, holiday events, a bath house and live music. Home of the best poutine in Eorzea. If comfy is your vibe, then make sure to pay us a visit!"
         ],
-        "location": "Adamantoise, Goblet, Ward 22, Plot 7",
+        "location": "Adamantoise, Lavender beds, Ward 22, Plot 1",
         "discord": "https://discord.gg/4ATX2UaQ",
         "website": "https://thedrunkencroak.carrd.co/",
         "sfw": true,
@@ -3624,35 +3624,6 @@
         "contacts": [ "488984824162418708" ]
     },
     {
-        "id": "WR12JqNrn",
-        "added": "2022-03-13T00:00:00Z",
-        "name": "Déjà Brew",
-        "banner": "assets/banners/deja-brew.jpg",
-        "description": [ 
-            "Déjà Brew is a couples cafe ran by Momoko Miki. We serve people who want to go out on a date with their loved ones, and supply dates to the ones alone~ No one walks out sad from Déjà Brew! You must be 18+ to indulge in any romantic activities",
-            "Gposes, dates, meals, VIP memberships, dungeon runs with our lovely staff, raffles, and more. We have wonderful guest appreciation events like guest of the month, who wins a month of free VIP which includes 1 free date a week with your fav staff member and free meals on the house once a day for you and your partner, raffles to run maps or content like mount farms or trials to bond with the Déjà Brew Crew!",
-            "We just want a wholesome loving community where everyone can feel loved. We enjoy making you smile, and want to do our best to make sure you leave Déjà Brew loved, that way your trip to Déjà Brew becomes Déjà Vu when you keep coming back for more!",
-            "Events included, like raffles to go on map runs with the Brew Crew for you and a date, mount farming, and movie nights! So come on down to Déjà Brew♥"
-        ],
-        "location": "Faerie, Shirogane, Ward 21, Plot 44",
-        "website": "https://dejabrewinfo.carrd.co/",
-        "discord": "https://discord.gg/dejabrew",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-         ],
-        "exceptions": [ ],
-        "notices": [ ],
-        "tags": [ "Cafe", "Pillow", "Photography", "Food", "Drink", "VIP", "Novel services" ],
-        "comments": [ "Novel because it provides a date if you don't have one." ],
-        "contacts": [ "908051521940373514" ]
-    },
-    {
         "id": "OzA00HMg8",
         "added": "2022-03-14T00:00:00Z",
         "name": "Yuukimura Teahouse",
@@ -4058,32 +4029,6 @@
         "contacts": [ "453762811546566657", "109786690092007424" ]
     },
     {
-        "id": "Zp8rpaXJY",
-        "added": "2022-03-20T00:00:00Z",
-        "name": "Afterglow",
-        "banner": "assets/banners/afterglow.jpg",
-        "description": [ 
-            "Afterglow is a beautifully decorated nightclub and casino with stunning and unique private rooms available for rent both with or without court services. Afterglow staff, the Glowsquad, pride themselves on guest services and our goal is that every guest leaves our venue glowing. Our main stage plays host to our resident DJ, Blkdrvgon who also hosts Afterglow After Hourz on Saturday mornings from 2am."
-        ],
-        "location": "Siren, Mist, Ward 11, Plot 60",
-        "sfw": true,
-        "nsfw": true,
-        "website": "https://afterglowsiren.carrd.co/",
-        "discord": "https://discord.gg/afterglowxiv",
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-         ],
-        "exceptions": [ ],
-        "notices": [  ],
-        "tags": [ "Nightclub", "Casino", "Gambling", "Artists","Courtesans", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Food", "Drink", "Photography" ],
-        "comments": [  ],
-        "contacts": [ "227941432541839361" ]
-    },
-    {
         "id": "JBOr73DjF",
         "added": "2022-03-20T00:00:00Z",
         "name": "Kawaii Weeb Cafe",
@@ -4198,7 +4143,7 @@
         "sfw": true,
         "nsfw": true,
         "website": "https://thefriskykitten.carrd.co/",
-        "discord": "https://discord.gg/afterglowxiv",
+        "discord": "https://discord.gg/friskykitten",
         "times": [
             {
                 "day": 0,
@@ -4353,30 +4298,6 @@
         "tags": [ "Cafe", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "159492084963737600" ]
-    },
-    {
-        "id": "f33EtUoAX",
-        "added": "2022-03-29T00:00:00Z",
-        "name": "The Wallflower Bar",
-        "banner": "assets/banners/wallflower-bar.jpg",
-        "description": [ "The Wallflower is a small dance club and bar. We offer Drinks, Dancers Music and occasional raffles and cosplay contests. A chill hole in the wall atmosphere to meet new people or hang out with your friends." ],
-        "location": "Cactuar, Shirogane, Ward 3, Plot 23",
-        "sfw": true,
-        "nsfw": false,
-        "website": "https://thewallflowerlounge.carrd.co/",
-        "discord": "https://discord.gg/YmH2c29C",
-        "times": [
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "notices": [  ],
-        "tags": [ "Bar", "Lounge", "Dancers", "Bards", "Twitch DJ", "Drink" ],
-        "comments": [  ],
-        "contacts": [ "554569287537524748" ]
     },
     {
         "id": "Z9r1fwPzF",
