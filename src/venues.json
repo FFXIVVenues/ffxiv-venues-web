@@ -1846,6 +1846,30 @@
         "contacts": [ "287716611161325578" ]
     },
     {
+        "id": "f33EtUoAX",
+        "added": "2022-03-29T00:00:00Z",
+        "name": "The Wallflower Bar",
+        "banner": "assets/banners/wallflower-bar.jpg",
+        "description": [ "The Wallflower is a small dance club and bar. We offer Drinks, Dancers Music and occasional raffles and cosplay contests. A chill hole in the wall atmosphere to meet new people or hang out with your friends." ],
+        "location": "Cactuar, Shirogane, Ward 3, Plot 23",
+        "sfw": true,
+        "nsfw": false,
+        "website": "https://thewallflowerlounge.carrd.co/",
+        "discord": "https://discord.gg/YmH2c29C",
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "notices": [  ],
+        "tags": [ "Bar", "Lounge", "Dancers", "Bards", "Twitch DJ", "Drink" ],
+        "comments": [  ],
+        "contacts": [ "554569287537524748" ]
+    },
+    {
         "id": "dxTwBumjz",
         "added": "2022-01-22T00:00:00Z",
         "name": "The Drunken Croak",
