@@ -5368,6 +5368,35 @@
         "exceptions": [ ],
         "contacts": [ "159494593455325185" ],
         "comments": [  ]
+    },
+    {
+        "id": "RsUVfzRsh",
+        "added": "2022-04-20T00:00:00Z",
+        "name": "Lali-ho Maid Cafe",
+        "banner": "assets/banners/laliho-maid-cafe.jpg",
+        "description": [ 
+            "The first Aether Lalafell Maid Cafe is like an adorable slice of cake~! It's sweet, bright and filled with goodies.",
+            "We have an extensive Menu with all the Maid Cafe perks! Moe Moe Dances, Janken and many other fun games to play.",
+            "We offer Talks and Custom Polaroids with our smol maids for you to enjoy with a Cuteness Sensory Overload~!",
+            "Our cute venue is bright and always cheery with lala maids sitting in only spots lalas could fit! Soft couches and sweet ambiance awaits with lots of cheek pinching lala laughs!"
+        ],
+        "location": "Cactuar, Empyreum, Ward 8, Plot 30",
+        "website": "https://lali-ho.carrd.co/",
+        "discord": "https://discord.gg/qk78rvhXWD",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Maid cafe", "Food", "Photography", "Open Stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "458795862877798411" ],
+        "comments": [  ]
     }
 ]
 
