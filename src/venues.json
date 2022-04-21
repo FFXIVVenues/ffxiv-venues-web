@@ -488,9 +488,9 @@
         "banner": "assets/banners/solstice-equinox.jpg",
         "location": "Sargatanas, Lavender Beds, Ward 16, Plot 28",
         "website": "https://solautumn.carrd.co/",
-        "discord": "https://discord.gg/CFavDn43JN",
-        "tags": [ "Nightclub", "Dancers", "Food", "Drink", "Bards", "Courtesans" ],
-        "contacts": [ "282419455525519371" ],
+        "discord": "https://discord.gg/thesolsticeequinox",
+        "tags": [ "Nightclub", "Bar", "Dancers", "Food", "Pillow", "Bards", "Twitch DJ", "Photography", "VIP", "Drink", "Bards", "Courtesans" ],
+        "contacts": [ "282419455525519371", "128195622648938496" ],
         "sfw": true,
         "nsfw": true,
         "notices": [],
@@ -506,12 +506,7 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [
-            {
-                "start": "2021-12-02T00:00Z",
-                "end": "2021-12-23T00:00Z"
-            }
-        ]
+        "exceptions": [ ]
     },
     {
         "id": "Rm7qlIRl",
@@ -4044,7 +4039,7 @@
     {
         "id": "TVxCdPLh2",
         "added": "2022-03-24T00:00:00Z",
-        "name": "Sirens Song [Siren]",
+        "name": "Siren's Aquapolis",
         "banner": "assets/banners/sirens-song-[siren].jpg",
         "description": [ 
             "A relaxing aquarium/underwater themed, trance music, nightclub and casino."
