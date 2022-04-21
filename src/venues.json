@@ -1059,7 +1059,7 @@
         "name": "The Rose Petal",
         "banner": "assets/banners/rose-petal.jpg",
         "description": [ 
-            "A spritely nightclub tucked away in the Lavender beds. The menu is focused on a variety of cocktails to compliment the welcoming atmosphere, and there's an open stage allowing any and all to perform. Stop by for drinks, you wont be disappointed!" 
+            "A laid back RP centered nightclub and lounge with a focus on creating a welcoming and social environment. Come and enjoy a night out at the Rose Petal!"
         ],
         "location": "Jenova, Empyreum, Ward 24, Plot 33",
         "shard": "Lilly Hills",
@@ -1850,7 +1850,7 @@
         "sfw": true,
         "nsfw": false,
         "website": "https://thewallflowerlounge.carrd.co/",
-        "discord": "https://discord.gg/YmH2c29C",
+        "discord": "https://discord.gg/AmJKW6mqtd",
         "times": [
             {
                 "day": 5,
