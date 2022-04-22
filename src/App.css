@@ -71,13 +71,17 @@ a {
   display: flex;
   margin-left: 20px;
   margin-bottom: 3px;
-  width: 60px;
+}
+
+.aether-venues__view-toggle button svg {
+  width: 13.5px;
+  height: 13.5px;
+  margin-right: 7px;
 }
 
 .aether-venues__view-toggle button {
-  padding: 8px;
+  padding: 10px;
   height: 30px;
-  width: 30px;
   margin: 0;
   border: solid 1px var(--outline-color);
   border-left-width: 0;
@@ -86,6 +90,9 @@ a {
   background: unset;
   width: fit-content;
   cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
 }
 
 .aether-venues__view-toggle button:hover {

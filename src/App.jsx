@@ -278,8 +278,8 @@ class App extends React.Component {
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
             <div className="aether-venues__view-toggle">
-              <button onClick={this.switchToListView} className={this.state.listView ? `active` : undefined}><ListViewIcon /></button>
-              <button onClick={this.switchToCardView} className={this.state.listView ? undefined : `active`}><CardViewIcon /></button>
+              <button onClick={this.switchToListView} className={this.state.listView ? `active` : undefined}><ListViewIcon /> List view</button>
+              <button onClick={this.switchToCardView} className={this.state.listView ? undefined : `active`}><CardViewIcon /> Card view</button>
             </div>
             <div className="aether-venues__colaborators">
               In collaboration with

@@ -37,6 +37,10 @@
     
     .venue-card__block { width: 330px !important; }
 
+    /* View toggle to icons only */
+    .aether-venues__view-toggle button { font-size: 0; }
+    .aether-venues__view-toggle button svg { margin: 0; }
+
     /* For list mode, name becomes fluid width */
     .venue-opening__summary-row { width: 100%; margin-left: -5px !important; padding: 10px 10px !important; }
     .venue-opening__start { width: 80px !important; }
