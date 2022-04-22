@@ -5405,8 +5405,33 @@
             }
         ],
         "exceptions": [ ],
-        "contacts": [ "" ],
+        "contacts": [ "116623525124505602" ],
+        "comments": [  ]
+    },
+    {
+        "id": "iFgWP3T5R",
+        "added": "2022-04-22T00:00:00Z",
+        "name": "The Green Ivy",
+        "banner": "assets/banners/green-ivy.jpg",
+        "description": [ "The Green Ivy is a Tavern and Bathhouse. We have a bar, 2 tubs to relax in, lofts to hang out on, and an open bard stage!" ],
+        "location": "Faerie, Lavender Beds, Ward 9 Sub, Apt 10",
+        "website": "https://thegreenivy.carrd.co/",
+        "discord": "https://discord.gg/Tv8BaTy4Na",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Bath house", "Bards", "Food", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "158709120914948096" ],
         "comments": [  ]
     }
+    
 ]
 
