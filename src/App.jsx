@@ -11,6 +11,7 @@ import { timeService } from './services/timeService';
 import { favouritesService } from './services/favouritesService';
 import { VenueStrip } from './components/venue-strip/VenueStrip';
 import { VenueOpening } from './components/venue-opening/VenueOpening';
+import { isMobile } from "react-device-detect";
 import { propFilter, tagFilter, worldFilter } from "./filters/filters";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
@@ -232,7 +233,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <div className="aether-venues__search">
-          <input autoFocus className="aether-venues__search-textbox" type="textbox" placeholder='Search venues' onChange={e => this.setState({ search: e.target.value.toLowerCase() })} />
+          <input autoFocus={!isMobile} className="aether-venues__search-textbox" type="textbox" placeholder='Search venues' onChange={e => this.setState({ search: e.target.value.toLowerCase() })} />
         </div>
         <div className="aether-venues__tags">
           <HorizontalScroll reverseScroll>
