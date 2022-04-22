@@ -62,7 +62,7 @@ class App extends React.Component {
       { key: Symbol(), label: "Novel services", filter: tagFilter("novel services") },
       { key: Symbol(), label: "VIP", filter: tagFilter("vip") },
       { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
-      { key: Symbol(), label: "IC RP Only", filter: tagFilter("rp only") }
+      { key: Symbol(), label: "IC RP Only", filter: tagFilter("ic rp only") }
     ]
     this.state = {
       enabledWorldFilter: null,
