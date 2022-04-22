@@ -5325,6 +5325,40 @@
         "exceptions": [ ],
         "contacts": [ "" ],
         "comments": [  ]
+    },
+    {
+        "id": "LkDnVdGkE",
+        "added": "2022-04-22T00:00:00Z",
+        "name": "Gaterio",
+        "banner": "assets/banners/gaterio.jpg",
+        "description": [ "Gaterio is an 18+ plus night club environment meant to allow people to bring out their baddest selves in a positive way. We want to have fun and vibe, bringing good music and company to the scene. Currently we sport a fully stocked bar with live Djs and in the future plan to add a casino element to the night club." ],
+        "location": "Midgardsormr, Shirogane, Ward 10, Plot 60",
+        "website": "https://gaterio.carrd.co/",
+        "discord": "https://discord.gg/sanguinemoon",
+        "sfw": false,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Bar", "Twitch DJ", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [
+            {
+                "start": "2022-04-22T00:00Z",
+                "end": "2022-05-05T00:00Z",
+                "hide": true
+            }
+        ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
     
 ]
