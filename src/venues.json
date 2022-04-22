@@ -4085,7 +4085,7 @@
     {
         "id": "WrYD3LsJM",
         "added": "2022-03-24T00:00:00Z",
-        "name": "The Siren's Song [Ada]",
+        "name": "The Siren's Song",
         "banner": "assets/banners/sirens-song-[ada].jpg",
         "description": [ "Allow our Sirens to cater to any and all needs, fantasies and lusts. We do it all, from the erotic to companionship, crafting and gathering assistance, and everything in between. Join us, and let my Sirens make your evening more delightful." ],
         "location": "Adamantoise, Lavender Beds, Ward 15, Plot 3",
@@ -4376,7 +4376,7 @@
         "name": "Hyakkaou Popoto Academy ",
         "banner": "assets/banners/hyakkaou-popoto-academy.jpg",
         "description": [ "HPA is a SFW casino themed as a school. Our goal is to provide a comfy atmosphere for those that enjoy gambling. Whether thats partaking in games in our classrooms or hanging out at the cafeteria. We strive to provide a wholesome environment to all of our guests." ],
-        "location": "Siren Mist Ward 1 Plot 44",
+        "location": "Siren, Mist, Ward 1, Plot 44",
         "sfw": true,
         "nsfw": false,
         "website": "",
