@@ -1548,41 +1548,15 @@
         "added": "2021-11-07T00:00:00Z",
         "name": "Brewed Dreams",
         "banner": "assets/banners/brewed-dreams.jpg",
-        "description": [ "Welcome to Brewed Dreams! Looking for a place to just relax/afk? Maybe grab a quick drink or bite to eat? Come hang with us we’d love to have you!" ],
+        "description": [ "Welcome to Brewed Dreams! A SFW cafe where we have relaxing chill vibes where we all just want to have fun with good convo! were afk friendly, open stage and love our coffee and tea! feel free to come by anytime were open or even if were not this is always a safe and relaxing place if you need a spot to chill and get away!" ],
         "location": "Faerie, Shirogane, Ward 1, Plot 13",
+        "website": "https://breweddreams.carrd.co",
         "discord": "https://discord.gg/cngMt5hRzm",
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
+        "contacts": [ "625569118283759626" ],
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": [ ]
     },
     {
         "id": "a4i7NOpez",
@@ -5318,6 +5292,40 @@
         "exceptions": [ ],
         "contacts": [ "458795862877798411" ],
         "comments": [  ]
+    },
+    {
+        "id": "ZHgS5ACMM",
+        "added": "2022-04-22T00:00:00Z",
+        "name": "KINGS Music Club",
+        "banner": "assets/banners/kings-music-club.jpg",
+        "description": [ "KINGS is a SFW/RP Classical and Jazz venue, with music of these genres being played live by the in-house band. KINGS was conceptualized with an emphasis on bringing people together, musicians and non musicians alike, and the club is mostly music focused. All refreshments are free of charge!" ],
+        "location": "Sargatanas, Empyreum, Ward 2, Plot 2",
+        "website": "https://kingsmenu.carrd.co/",
+        "discord": "https://discord.gg/2dH6wccMeu",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Lounge", "Bards", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 30, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
+    
 ]
 
