@@ -65,6 +65,7 @@ class App extends React.Component {
       { key: Symbol(), label: "IC RP Only", filter: tagFilter("ic rp only") }
     ]
     this.state = {
+      search: "",
       enabledWorldFilter: null,
       enabledTypeFilters: [],
       enabledFeatureFilters: [],
@@ -111,6 +112,9 @@ class App extends React.Component {
 
   runFilters(venues) {
     let currentVenues = venues;
+    if (this.state.search) {
+      currentVenues = currentVenues.filter(v => (v.name || v.venue.name).toLowerCase().indexOf(this.state.search) !== -1);
+    }
     if (this.state.enabledWorldFilter !== null) {
       currentVenues = this._worldFilters.find(f => f.key === this.state.enabledWorldFilter).filter(currentVenues);
     }
@@ -227,6 +231,9 @@ class App extends React.Component {
   _renderFilters() {
     return (
       <React.Fragment>
+        <div className="aether-venues__search">
+          <input autoFocus className="aether-venues__search-textbox" type="textbox" placeholder='Search venues' onChange={e => this.setState({ search: e.target.value.toLowerCase() })} />
+        </div>
         <div className="aether-venues__tags">
           <HorizontalScroll reverseScroll>
             { this._worldFilters.map(f => 

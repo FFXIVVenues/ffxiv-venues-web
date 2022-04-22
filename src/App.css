@@ -69,7 +69,7 @@ a {
 
 .aether-venues__view-toggle {
   display: flex;
-  margin-left: 20px;
+  margin-left: 145px;
   margin-bottom: 3px;
 }
 
@@ -134,6 +134,20 @@ a {
 }
 .aether-venues__colaborators a:last-of-type {
   margin-right: 0;
+}
+
+
+.aether-venues__search-textbox {
+  padding: 7.5px 10px;
+  font-size: 1.1em;
+  width: calc(100% - 70px);
+  max-width: 325px;
+  border: solid 1px var(--outline-color);
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  background-color: #111;
+  color: var(--foreground-color)
 }
 
 .aether-venues__tags {
