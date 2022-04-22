@@ -5383,6 +5383,30 @@
         "exceptions": [ ],
         "contacts": [ "148632262961790976" ],
         "comments": [  ]
+    },
+    {
+        "id": "f48UlAkT7",
+        "added": "2022-04-22T00:00:00Z",
+        "name": "Fever",
+        "banner": "assets/banners/fever.jpg",
+        "description": [ "Club Fever is an 18+, LGBTQ+ venue overlooking the beach in the Mists and the home venue of DeejaVou. Whether you're in for drinks, dancing, or even one of our talented courtesans, you're sure to find some kind of vice that suits your fancy here. Opening late on Saturday evenings, inside you'll find a stunning atmospheric design and vibe. Have you checked your temperature lately?" ],
+        "location": "Sargatanas, Mist, Ward 13, Plot 15",
+        "website": "https://i.imgur.com/qLshCBi.jpg",
+        "discord": "https://discord.gg/U5FCMtZs8S",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
 ]
 
