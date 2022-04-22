@@ -1853,7 +1853,7 @@
         "discord": "https://discord.gg/AmJKW6mqtd",
         "times": [
             {
-                "day": 5,
+                "day": 2,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
