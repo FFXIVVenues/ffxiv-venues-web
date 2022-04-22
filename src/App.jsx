@@ -52,7 +52,6 @@ class App extends React.Component {
     this._featureFilters = [
       { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
       { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
-      // { key: Symbol(), label: "Void venue", filter: tagFilter("void") },
       { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
       { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
       { key: Symbol(), label: "Dancers", filter: tagFilter("dancers") },
