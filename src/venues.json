@@ -5309,21 +5309,21 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 30, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 30, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 30, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 30, "nextDay": true }
             }
         ],
         "exceptions": [ ],
-        "contacts": [ "" ],
+        "contacts": [ "832003212604211200" ],
         "comments": [  ]
     },
     {
@@ -5357,9 +5357,32 @@
                 "hide": true
             }
         ],
-        "contacts": [ "" ],
+        "contacts": [ "231698195212795904" ],
+        "comments": [  ]
+    },
+    {
+        "id": "ZQqceWjxt",
+        "added": "2022-04-22T00:00:00Z",
+        "name": "Starling's Escape",
+        "banner": "assets/banners/starlings-escape.jpg",
+        "description": [ "Starling's Escape was made for people to relax and feel safe in our cafe. Seeing our guests happy is our sole purpose." ],
+        "location": "Faerie, Empyreum, Ward 21, Plot 38",
+        "website": "https://starlingsescape.carrd.co/",
+        "discord": "https://discord.gg/hs9aB9BtF8",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "148632262961790976" ],
         "comments": [  ]
     }
-    
 ]
 
