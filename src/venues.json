@@ -2728,15 +2728,21 @@
             {
                 "day": 2,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [
+            {
+                "start": "2022-04-01T00:00Z",
+                "end": "2022-04-29T00:00Z",
+                "hide": true
+            }
+        ],
         "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple triad" ],
         "contacts": [ "132980996122345473" ]
     },
