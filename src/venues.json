@@ -1839,50 +1839,6 @@
         "contacts": [ "554569287537524748" ]
     },
     {
-        "id": "dxTwBumjz",
-        "added": "2022-01-22T00:00:00Z",
-        "name": "The Drunken Croak",
-        "banner": "assets/banners/the-drunken-croak.jpg",
-        "description": [
-            "The Drunken Croak is a rustic tavern with friendly staff and a cozy atmosphere. Our goal is to create a welcoming community in which everybody can feel at home. The venue features a portrait artist, tarot readings, holiday events, a bath house and live music. Home of the best poutine in Eorzea. If comfy is your vibe, then make sure to pay us a visit!"
-        ],
-        "location": "Adamantoise, Lavender beds, Ward 22, Plot 1",
-        "discord": "https://discord.gg/4ATX2UaQ",
-        "website": "https://thedrunkencroak.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [],
-        "tags": [ "Bar", "Speakeasy", "Food", "Drink", "Artists", "Tarot", "Open stage", "Bath House" ],
-        "contacts": [ "612024267298701323" ]
-    },
-    {
         "id": "F5iS6rHNg",
         "added": "2022-01-22T00:00:00Z",
         "name": "Bae domain",
@@ -5431,6 +5387,30 @@
         ],
         "exceptions": [ ],
         "contacts": [ "158709120914948096" ],
+        "comments": [  ]
+    },
+    {
+        "id": "eQMcvxtRM",
+        "added": "2022-04-26T00:00:00Z",
+        "name": "The Boiler Room",
+        "banner": "assets/banners/boiler-room.jpg",
+        "description": [ "The Boiler Room, which used to be a small speakeasy nightclub hidden below a tavern, has now upgraded to a larger venue. The 2.0 version is a sleek, modern nightclub with a large dance floor and plenty of lounging space to relax with friends. The venue offers gambling, hostess service to have some pleasant company for the night as well as a live DJ. On most nights, you can tune in to DJ Paullyrot, a very talented DJ with over 30 years of experience behind the turntables. The Boiler Room is the perfect destination for late night entertainment and will host a party you won't forget." ],
+        "location": "Adamantoise, Lavender Beds, Ward 22, Plot 1",
+        "website": "https://boilerroom.carrd.co/",
+        "discord": "https://discord.gg/amaXdx6ZjP",
+        "sfw": false,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Artists", "Twitch DJ", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "612024267298701323" ],
         "comments": [  ]
     }
     
