@@ -1979,7 +1979,7 @@
             "Meals and Readings do not have a set price and are offered to be paid as you wish.",
             "All foods are sourced locally and prepared by hand in front of you."
         ],
-        "location": "Cactuar, Lavender Beds, Ward 20, Apt 57",
+        "location": "Adamantoise, Goblet, Ward 22, Plot 43",
         "website": "https://underdark.carrd.co/",
         "discord": "https://discord.gg/6xZe5Dq4Cn",
         "sfw": true,
@@ -1988,17 +1988,12 @@
             {
                 "day": 1,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
