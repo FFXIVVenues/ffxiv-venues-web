@@ -4778,7 +4778,7 @@
         "name": "Pinto's Art Cafe",
         "banner": "assets/banners/pintos-art-cafe.jpg",
         "description": [ "A cozy café with hired artists who draw character portraits live on Twitch during venue hours. The menu is a mix of comfort foods and coffees with some alcoholic options to suit the late-night hours." ],
-        "location": "Faerie, Goblet, Ward 8, Plot 16",
+        "location": "Faerie, Empyreum, Ward 8, Plot 13",
         "website": "https://pachome.carrd.co/",
         "discord": "https://discord.com/invite/54fAsvvaXY",
         "sfw": true,
@@ -5412,7 +5412,30 @@
         "exceptions": [ ],
         "contacts": [ "612024267298701323" ],
         "comments": [  ]
+    },
+    {
+        "id": "QvaDBVQHg",
+        "added": "2022-04-26T00:00:00Z",
+        "name": "The Bookend Lounge",
+        "banner": "assets/banners/booked-lounge.jpg",
+        "description": [ "The Bookend Lounge is a speakeasy bar fronting as a bookstore. We have an open stage, blackjack, and drinks aplenty. It's a great place to hang out and mingle with friends new and old. So come, take a look behind the shelves." ],
+        "location": "Adamantoise, Goblet, Ward 12, Plot 38",
+        "website": "https://bookendlounge.carrd.co/",
+        "discord": "https://discord.gg/qq8RPp3RJP",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Speakeasy", "Lounge", "Gambling", "Bards", "Drink", "Open Stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "166684145995481098" ],
+        "comments": [  ]
     }
-    
 ]
 
