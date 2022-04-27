@@ -4666,7 +4666,7 @@
         "sfw": true,
         "nsfw": true,
         "website": "https://shonenclub.carrd.co/",
-        "discord": "https://discord.gg/shonenclub",
+        "discord": "https://discord.gg/zTvrcChb8m",
         "times": [
             {
                 "day": 0,
@@ -4854,7 +4854,7 @@
         "description": [ "Our exclusive nightclub experience offers some of the top live DJs on Aether, stacked VIP packages, giveaways and theme nights galore, and a full casino floor. High roller and learning nights are available for Blackjack on the regular. Customize your experience with our entertainers, photography, and tarot readings. Think of something you want and don't see it? Ask and we'll see what we can do to fulfill your wildest dreams." ],
         "location": "Jenova, Mists, Ward 23, Plot 1",
         "website": "https://inkvenues.carrd.co/",
-        "discord": "https://discord.gg/Qg6hXmPrzN",
+        "discord": "https://discord.gg/vqudRZxX2q",
         "sfw": false,
         "nsfw": true,
         "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "Novel services", "VIP" ],
@@ -5435,6 +5435,40 @@
         ],
         "exceptions": [ ],
         "contacts": [ "166684145995481098" ],
+        "comments": [  ]
+    },
+    {
+        "id": "KEa1lWxiY",
+        "added": "2022-04-28T00:00:00Z",
+        "name": "Silver Retreat",
+        "banner": "assets/banners/silver-retreat.jpg",
+        "description": [ 
+            "Silver Trigger is a café and a venue all in one. We are a small community of people who would like to show off our bard music, dancers to go with the bard music, comedy, fashion and glam contests, with an announcer to show us off. The idea is to have a \"American's Got Talent\" feel for performers and venue-chasers to feel welcome and excited to see what we come up with next.",
+            "Our energy is well meet, calming, welcoming, enjoying, exciting, and above all happy.",
+            "The experiences have been great according to my housing book.",
+            "Guests should expect to feel welcome and excited to be with us, they can expect to have a beautiful performance in front of them while eating."
+         ],
+        "location": "Midgardsormr, Empyreum, Ward 1, Plot 4",
+        "website": "https://kaseyshirley12270.wixsite.com/silvertrigger",
+        "discord": "https://discord.gg/rGBFneUxfK",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Cafe", "Artists", "Dancers", "Bards", "Food", "Drink", "Photography", "Open Stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 19, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "289246026336829461" ],
         "comments": [  ]
     }
 ]
