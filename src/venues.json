@@ -3794,7 +3794,7 @@
             {
                 "day": 4,
                 "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": true }
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
@@ -4535,7 +4535,7 @@
         "added": "2022-04-03T00:00:00Z",
         "name": "The Ethereal Star",
         "banner": "assets/banners/the-ethereal-star.jpg",
-        "description": [ "We are open 1am to 6am eastern time every day with the exclusion of Monday Mornings and Thursday mornings." ],
+        "description": [  ],
         "location": "Adamantoise, Goblet, Ward 6, Plot 55",
         "sfw": true,
         "nsfw": true,
@@ -5469,6 +5469,24 @@
         ],
         "exceptions": [ ],
         "contacts": [ "289246026336829461" ],
+        "comments": [  ]
+    },
+    {
+        "id": "GqQPiLHLX",
+        "added": "2022-04-30T00:00:00Z",
+        "name": "Cafe Blackjack",
+        "banner": "assets/banners/cafe-blackjack.jpg",
+        "description": [ "Classy comfortable Cafe & Casino with an open bard stage. Starting with a soft opening on Monday night, May 2nd, Midnight - 3am. The Duplets will be performing live." ],
+        "location": "Jenova, Mist, Ward 15, Plot 2",
+        "website": "https://cafeblackjack.carrd.co/",
+        "discord": "https://discord.gg/FQMqAV9PKj",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Casino", "Gambling", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [  ],
+        "exceptions": [ ],
+        "contacts": [ "256908428780240897", "126714515558629376" ],
         "comments": [  ]
     }
 ]

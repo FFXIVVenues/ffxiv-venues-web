@@ -303,6 +303,7 @@ class App extends React.Component {
             { this._renderNewestVenues() }
             { this._renderScheduledVenues() }
             { this._renderUnscheduledVenues() } 
+            Made with ❤️ by Kana Ki.
           </div>
           <div className="aether-venues__meta-panel">
             <div className="aether-venues__discord-panels">
