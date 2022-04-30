@@ -2189,24 +2189,19 @@
         "nsfw": true,
         "times": [
             {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
         "tags": [ "Nightclub", "Void", "Bar", "Gambling", "Courtesans", "Food", "Drink", "VIP" ],
-        "contacts": [ "896378556953800724" ]
+        "contacts": [ "216704768381288448", "406997738488594443" ]
     },
     {
         "id": "gJIW0NYBh",
@@ -5489,6 +5484,78 @@
         "times": [  ],
         "exceptions": [ ],
         "contacts": [ "256908428780240897", "126714515558629376" ],
+        "comments": [  ]
+    },
+    {
+        "id": "TEnkRl400",
+        "added": "2022-04-30T04:00:00Z",
+        "name": "The Britannia",
+        "banner": "assets/banners/britannia.jpg",
+        "description": [ "A British pub hidden away in the heart of Faerie. The Britannia is made by Brits, run by Brits and is for Everyone. Come enjoy some classic pub food and drinks along side pleasant company and live music, we have an open stage for bards along with pleasant staff to chat with." ],
+        "location": "Faerie, Goblet, Ward 15 Sub, Apt 20",
+        "website": "https://the-britannia.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "259014695678115841" ],
+        "comments": [  ]
+    },
+    {
+        "id": "HYRBqGfKv",
+        "added": "2022-04-30T04:40:00Z",
+        "name": "Chef Cat's Cafe",
+        "banner": "assets/banners/chef-cats-cafe.jpg",
+        "description": [ "A small comfy apartment cafe with an open stage, where you can relax, have drinks or snacks, and listen to good music! We aim to make you feel cozy and welcomed :D" ],
+        "location": "Faerie, Lavender Beds, Ward 23, Apt 1",
+        "website": "https://chefcats.carrd.co/",
+        "discord": "https://discord.gg/RvbwRzNRKF",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "408641748601143297" ],
         "comments": [  ]
     }
 ]
