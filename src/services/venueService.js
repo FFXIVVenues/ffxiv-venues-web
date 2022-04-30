@@ -34,7 +34,7 @@ class VenueService {
                 }
             }
         }
-        return openVenues;
+        return openVenues.sort((one, another) => another.time.start.hour - one.time.start.hour);
     }
 
     getVenueSchedule() {
