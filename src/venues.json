@@ -5540,18 +5540,18 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             },
             {
                 "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 10, "minute": 0, "nextDay": true }
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
