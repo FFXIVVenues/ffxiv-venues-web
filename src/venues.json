@@ -2969,17 +2969,19 @@
         "name": "Club Envy",
         "banner": "assets/banners/envy.jpg",
         "description": [ 
-            "If you're looking for a place to enjoy great drinks, great people, and great fun, or just to relax at the end of your night, look no further, we're always ready to party the night away!",
-            "Drinks, Food, Courts, Professional Photographers, Online Casino Games, Great Music on a private stream, Dancers, and a raffle!",
-            "Envy Live stream will be featuring popular EDM and Dance music!",
-            "LGBTQ+ Owned and Operated."
+            "If you’re looking for a place to enjoy great drinks, great people, and great fun, or just to relax at the end of your night, look no further because Club Envy has you covered! We offer a variety of festivities including Drinks ♥ Live Music ♥ Casino GMs ♥ Dancers! Our lovely staff look forward to seeing you here!"
         ],
         "location": "Siren, Empyreum, Ward 21, Plot 12",
-        "discord": "https://discord.gg/czKJaSqjKD",
-        "website": "https://3nvy.in/#home",
-        "sfw": false,
+        "discord": "https://discord.gg/vqu7T4utVH",
+        "website": "https://www.3nvy.in/",
+        "sfw": true,
         "nsfw": false,
         "times": [
+            {
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
             {
                 "day": 2,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
@@ -2987,7 +2989,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Pillow", "Food", "Drink", "Photography", "VIP" ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Drink", "Photography" ],
         "contacts": [ "473614419130318848" ]
     },
     {
