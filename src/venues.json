@@ -2585,7 +2585,7 @@
         "description": [ 
             "\"Infinite in mystery is the gift of the Goddess. We seek it thus, and take to the sky. Ripples form on the water's surface. The wandering soul knows no rest.\"",
             "- Loveless ACT II",
-            "The Loveless Bar is a 18+ venue open on every Tuesday and Thursday 8pm-12pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun and get some good photos taken at our venue! Test your luck with our unique trivia night event and win some great prizes starting from 25k gil or join our raffles for great items!"
+            "The Loveless Bar is open on every Tuesday and Thursday 8pm-12pm EST! Enjoying fellow patrons and friendly employees, head downstairs for some unique drinks and dancing with our live music, join our gamble table to test your luck or have fun! Test your luck with our unique trivia night event and win some great prizes starting from 50k gil or join our raffles for great items!"
         ],
         "location": "Adamantoise, Goblet, Ward 4, Plot 6",
         "discord": "https://discord.gg/UGNzPEzf",
@@ -2595,17 +2595,17 @@
         "times": [ 
             {
                 "day": 1,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "start": { "hour": 0, "minute": 30, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Photography", "Triple triad" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Bards", "Twitch DJ", "Tarot", "Triple triad" ],
         "contacts": [ "126699155899940865" ]
     },
     {
