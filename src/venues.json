@@ -2673,6 +2673,7 @@
         ],
         "location": "Sargatanas, Goblet, Ward 20, Plot 48",
         "discord": "https://discord.gg/tcd",
+        "website": "https://tinyurl.com/ChocoDenMenu",
         "sfw": true,
         "nsfw": true,
         "times": [ 
@@ -4696,8 +4697,8 @@
         "times": [
             {
                 "day": 6,
-                "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
