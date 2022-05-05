@@ -4938,41 +4938,6 @@
         "comments": [  ]
     },
     {
-        "id": "Mf9IJpmy",
-        "added": "2022-04-12T00:00:00Z",
-        "name": "Waffle House Lounge",
-        "banner": "assets/banners/waffle-house.jpg",
-        "description": [ "Cafe and Lounge serving brunch and cocktails. Our rambunctious and chaotic servers are here to share our love of waffles and enjoy a good time with our patrons!" ],
-        "location": "Gilgamesh, Empyreum, Ward 5, Plot 30",
-        "website": "https://wafflehouselounge.carrd.co/",
-        "discord": "https://discord.gg/mgeNnCEbSM",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Cafe", "Lounge", "Food", "Drink" ],
-        "notices": [  ],
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 15, "minute": 0, "nextDay": false },
-                "end": { "hour": 19, "minute": 0, "nextDay": false }
-            }
-        ],
-        "exceptions": [ 
-            {
-                "start": "2022-04-12T00:00Z",
-                "end": "2022-04-17T00:00Z",
-                "hide": true
-            }
-        ],
-        "contacts": [ "259458647686381568" ],
-        "comments": [  ]
-    },
-    {
         "id": "bxDRVNWps",
         "added": "2022-04-12T00:00:00Z",
         "name": "Ara Au'ra",
