@@ -5586,6 +5586,50 @@
         "exceptions": [ ],
         "contacts": [ "189389234275221505" ],
         "comments": [  ]
+    },
+    {
+        "id": "mnmLrRfQT",
+        "added": "2022-05-05T01:50:00Z",
+        "name": "Wonderland",
+        "banner": "assets/banners/wonderland.jpg",
+        "description": [ "Wonderland is an Alice in Wonderland-themed Cafe. A magical place to chat, chill, or afk." ],
+        "location": "Faerie, Mists, Ward 23, Apt 69",
+        "website": "https://wonderland-downtherabbithole.carrd.co/",
+        "discord": "https://discord.gg/MZWeF3WYfW",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 22, "minute": 30, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "210541404558983169" ],
+        "comments": [  ]
     }
 ]
 
