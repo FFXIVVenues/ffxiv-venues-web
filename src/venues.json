@@ -5558,6 +5558,23 @@
         "exceptions": [ ],
         "contacts": [ "408641748601143297" ],
         "comments": [  ]
+    },
+    {
+        "id": "Q2W2JgJAC",
+        "added": "2022-05-05T01:30:00Z",
+        "name": "Moon River",
+        "banner": "assets/banners/moon-river.jpg",
+        "description": [ "For the weary wanderers, perhaps naught much else could soothe the soul like sipping on spirits amidst laughter and music under the calm of the stars. Should you find yourself seeking repose, it might prove worthwhile to leap once more, at journey’s end." ],
+        "location": "Gilgamesh, Lavender Beds, Ward 7, Plot 52",
+        "discord": "https://discord.gg/bPQDhpr",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Bar", "Void", "Food", "Drink", "Open Stage" ],
+        "notices": [  ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "189389234275221505" ],
+        "comments": [  ]
     }
 ]
 
