@@ -4048,7 +4048,13 @@
         "exceptions": [ ],
         "notices": [  ],
         "tags": [ "Nightclub", "Casino", "Gambling", "Hosts", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
-        "comments": [  ],
+        "comments": [ 
+            {
+                "start": "2022-04-12T00:00Z",
+                "end": "2022-05-12T00:00Z",
+                "hide": true
+            } 
+        ],
         "contacts": [ "234412817019699200" ]
     },
     {
