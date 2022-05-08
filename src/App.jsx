@@ -19,6 +19,7 @@ import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
 import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
 import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
+import { Notice } from './components/notice/notice';
 
 class App extends React.Component {
 
@@ -285,6 +286,7 @@ class App extends React.Component {
         <div className="aether-venues">
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
+            <Notice />
             <div className="aether-venues__view-toggle">
               <button onClick={this.switchToListView} className={this.state.listView ? `active` : undefined}><ListViewIcon /> List view</button>
               <button onClick={this.switchToCardView} className={this.state.listView ? undefined : `active`}><CardViewIcon /> Card view</button>
@@ -303,7 +305,7 @@ class App extends React.Component {
             { this._renderNewestVenues() }
             { this._renderScheduledVenues() }
             { this._renderUnscheduledVenues() } 
-            Made with ❤️ by Kana Ki.
+            <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
           </div>
           <div className="aether-venues__meta-panel">
             <div className="aether-venues__discord-panels">
