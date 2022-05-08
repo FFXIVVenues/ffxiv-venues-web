@@ -4545,7 +4545,7 @@
         "added": "2022-04-03T00:00:00Z",
         "name": "The Ethereal Star",
         "banner": "assets/banners/the-ethereal-star.jpg",
-        "description": [  ],
+        "description": [ "A relaxing and heavenly place to relax after a long night out." ],
         "location": "Adamantoise, Goblet, Ward 6, Plot 55",
         "sfw": true,
         "nsfw": true,
@@ -4553,7 +4553,7 @@
         "discord": "https://discord.gg/azVdXvASpF",
         "times": [
             {
-                "day": 0,
+                "day": 3,
                 "start": { "hour": 5, "minute": 0, "nextDay": true },
                 "end": { "hour": 10, "minute": 0, "nextDay": true }
             },
