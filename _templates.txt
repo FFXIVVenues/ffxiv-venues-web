@@ -1,0 +1,35 @@
+// New venue
+{
+    "id": "",
+    "added": "2022-05-XXT00:00:00Z",
+    "name": "",
+    "banner": "assets/banners/XXXXXXXXXXXXXXXX.jpg",
+    "description": [ "" ],
+    "location": "",
+    "website": "",
+    "discord": "",
+    "sfw": ,
+    "nsfw": ,
+    "tags": [  ],
+    "notices": [  ],
+    "times": [
+        {
+            "day": ,
+            "start": { "hour": , "minute": 0, "nextDay": true },
+            "end": { "hour": , "minute": 0, "nextDay": true }
+        }
+    ],
+    "exceptions": [ ],
+    "contacts": [ "" ],
+    "comments": [  ]
+}
+
+// Exception
+{
+    "start": "2022-04-12T00:00Z",
+    "end": "2022-04-17T00:00Z",
+    "hide": true
+}
+
+// Discord invite details
+https://discordapp.com/api/invite/MZWeF3WYfW
