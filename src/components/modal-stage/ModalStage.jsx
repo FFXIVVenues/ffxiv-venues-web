@@ -37,7 +37,9 @@ class ModalStage extends React.Component {
         return (
             <div className="modal-stage" onClick={this._onStageClick.bind(this)}>
                 { this.state.modals.map((m, i) => 
-                    <div key={i} className={"modal-stage__modal " + (m.className ? m.className : "") }>
+                    <div key={i} 
+                         className={"modal-stage__modal " + (m.className ? m.className : "") }
+                         style={m.style}>
                         { m.contents }
                     </div>
                 )}

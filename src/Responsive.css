@@ -25,6 +25,10 @@
 @media screen and (max-width: 650px) {
     .aether-venues__meta-panel { display: block; }
     .aether-venues__discord-panels { margin-bottom: 50px; }
+    
+    /* View toggle to icons only */
+    .aether-venues__view-toggle button { font-size: 0; }
+    .aether-venues__view-toggle button svg { margin: 0; }
 }
 
 @media screen and (max-width: 475px) {
@@ -40,9 +44,6 @@
     
     .venue-card__block { width: 330px !important; }
 
-    /* View toggle to icons only */
-    .aether-venues__view-toggle button { font-size: 0; }
-    .aether-venues__view-toggle button svg { margin: 0; }
 
     /* For list mode, name becomes fluid width */
     .venue-opening__summary-row { width: 100%; margin-left: -5px !important; padding: 10px 10px !important; }
