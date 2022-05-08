@@ -5654,7 +5654,29 @@
         "exceptions": [ ],
         "contacts": [ "638866548437680189" ],
         "comments": [  ]
+    },
+    {
+        "id": "aEL0ogWlY",
+        "added": "2022-05-09T00:00:00Z",
+        "name": "Faerie Social Events",
+        "banner": "assets/banners/faerie-social-events.jpg",
+        "description": [ 
+            "Welcome to the FSE!",
+            "TLDR: We are a group of nerds who host events.",
+            "Faerie Social Events was created to host events for all to join regardless of FC. We are excited to host a variety of events both in game and off, spanning a bunch of topics like Scribbl.io, Drinking Nights, DnD, and some old fashioned fun like Golf with Your Friends.",
+            "Our In Game Events are often surrounding holidays, and take the form of Celebrations of such. The events comprise of things like Hide and Seek, Trivia, Costume Contests, Musical Chairs and our most popular event type, Art Parties."
+        ],
+        "location": "Faerie, Empyrium, Ward 23, Plot 40",
+        "website": "https://www.faeriesocialevents.com/",
+        "discord": "https://discord.gg/S9s7yZnJ6u",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Speakeasy", "Artists", "Bards", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "118187376823500805" ],
+        "comments": [  ]
     }
-
 ]
 
