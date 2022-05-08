@@ -5601,6 +5601,33 @@
         "exceptions": [ ],
         "contacts": [ "210541404558983169" ],
         "comments": [  ]
+    },
+    {
+        "id": "HFRzyPhP",
+        "added": "2022-05-08T00:00:00Z",
+        "name": "Studio 31",
+        "banner": "assets/banners/studio31.jpg",
+        "description": [ 
+            "STUDIO 31 BRINGS THE DRINKS.",
+            "OUR DOWNSTAIRS, THE RED ROOM, BRINGS THE NIGHTLIFE.",
+            "FEATURING LIVE MUSIC EVERY WEEKEND FROM OUR IN HOUSE DJ, DJ ANONYMOUS."
+        ],
+        "location": "Adamantoise, Goblet, Ward 20, Plot 31",
+        "website": "https://studio31.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Dancers", "Twitch DJ", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "322397466630815744" ],
+        "comments": [  ]
     }
+
 ]
 
