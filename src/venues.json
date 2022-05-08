@@ -1792,6 +1792,7 @@
         "id": "MQcQMRw8R",
         "added": "2022-01-22T00:00:00Z",
         "name": "The Hideaway Cafe",
+        "banner": "assets/banners/hideaway-cafe.jpg",
         "description": [
             "So you've finally made it! Grab a drink! The show starts soon. Welcome to the Hideaway Cafe! A Corner venue meant for all venue workers to come, relax, and kick their feet up. Dueling piano Bards try to outwit each other each night, and drinks served in our Speakeasy set up are cold, and very fairly priced. So fill your cups and empty your heavy coffers after a long day's work, here at The Hideaway! Enjoy your escape."
         ],
@@ -1799,6 +1800,7 @@
         "discord": "https://discord.gg/wGYtHj2f",
         "sfw": true,
         "nsfw": false,
+        "tags": [ "Speakeasy", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open Stage" ],
         "times": [
             {
                 "day": 0,
@@ -5676,8 +5678,41 @@
         "notices": [  ],
         "times": [ ],
         "exceptions": [ ],
-        "contacts": [ "118187376823500805" ],
+        "contacts": [ "118187376823500805", "166695390672846848" ],
+        "comments": [  ]
+    },
+    {
+        "id": "foGHxmLNn",
+        "added": "2022-05-09T01:00:00Z",
+        "name": "The Iron Rose",
+        "banner": "assets/banners/iron-rose.jpg",
+        "description": [
+            "The Iron Rose is a kink / BDSM centric venue which seeks to provide a fun experience that both educates and elevates, straddling the line of different worlds drawn from the collective knowledge of our staff. Come on by and have a drink, or an entire encounter, so long as you remember consent reigns...",
+            "Needless to say, visiting us is an 18+ affair."
+        ],
+        "location": "Cactuar, Lavender Beds, Ward 10, Plot 60",
+        "website": "https://tinyurl.com/IRMenu423",
+        "discord": "https://discord.gg/DNVSwPv6S7",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Twitch DJ", "Food", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "475062463776292867", "135610486606528512" ],
         "comments": [  ]
     }
+    
 ]
 
