@@ -4539,7 +4539,7 @@
         "added": "2022-04-03T00:00:00Z",
         "name": "The Ethereal Star",
         "banner": "assets/banners/the-ethereal-star.jpg",
-        "description": [  ],
+        "description": [ "A relaxing and heavenly place to relax after a long night out." ],
         "location": "Adamantoise, Goblet, Ward 6, Plot 55",
         "sfw": true,
         "nsfw": true,
@@ -4547,7 +4547,7 @@
         "discord": "https://discord.gg/azVdXvASpF",
         "times": [
             {
-                "day": 0,
+                "day": 3,
                 "start": { "hour": 5, "minute": 0, "nextDay": true },
                 "end": { "hour": 10, "minute": 0, "nextDay": true }
             },
@@ -5626,6 +5626,33 @@
         ],
         "exceptions": [ ],
         "contacts": [ "322397466630815744" ],
+        "comments": [  ]
+    },
+    {
+        "id": "oVost7o0C",
+        "added": "2022-05-08T00:00:00Z",
+        "name": "ViVid: Host Club and Bar",
+        "banner": "assets/banners/vivid.jpg",
+        "description": [ 
+            "Come have a good time with the boyfriend, girlfriend, or partner of your choosing. Enjoy a night off of your adventures and let us help you relax for a time before going back out to the grind of saving the world!",
+            "We are an LGBTQ+, SFW, and 18+ club. Your safety and well-being is our primary concern. Whether it's just to relax or make new friends, we're here for you! Enjoy some music, pleasant conversation, and have our hosts recommend drinks to you! There's always something and someone here for you at ViVid!"
+         ],
+        "location": "Faerie, Empyreum, Ward 16, Apt 8",
+        "website": "https://vividhostclub.carrd.co/#",
+        "discord": "https://discord.gg/38r9ycfQ3A",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Maid cafe", "Bar", "Pillow", "Drink", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "638866548437680189" ],
         "comments": [  ]
     }
 
