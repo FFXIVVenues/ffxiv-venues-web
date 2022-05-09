@@ -5712,7 +5712,39 @@
         "exceptions": [ ],
         "contacts": [ "475062463776292867", "135610486606528512" ],
         "comments": [  ]
+    },
+    {
+        "id": "kNz4XUXAp",
+        "added": "2022-05-09T02:00:00Z",
+        "name": "Silver Lining Cafe",
+        "banner": "assets/banners/silver-lining.jpg",
+        "description": [ "Cozy cafe that is friendly to folks who wish to relax. Come and have fun with some RP or just as you are we welcome all!" ],
+        "location": "Cactuar, Lavender Beds, Ward 7, Plot 6, Room 2",
+        "website": "https://thesilverliningcafe.carrd.co/",
+        "discord": "https://discord.gg/kRqtEHJdrr",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Open Stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "100805036514230272" ],
+        "comments": [  ]
     }
-    
 ]
-
