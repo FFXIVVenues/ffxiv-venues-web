@@ -5746,5 +5746,29 @@
         "exceptions": [ ],
         "contacts": [ "100805036514230272" ],
         "comments": [  ]
+    },
+    {
+        "id": "lCQFIMlwr",
+        "added": "2022-05-09T01:30:00Z",
+        "name": "Frosthaven Tavern",
+        "banner": "assets/banners/frosthaven-tavern.jpg",
+        "description": [ "In the Middle of La Noscea, one can find a small frozen tavern. Covered in ice and snow, it is a cozy winter hideaway, where some of the coldest drinks in all of Eorzea can be found. Hangout with your friends while enjoying music, rare drinks and food. Come by and check us out !" ],
+        "location": "Adamantoise, Mist, Ward 4 Sub, Apt 14",
+        "website": "https://frost-haven.carrd.co/#home",
+        "discord": "https://discord.gg/BsMaReZf6w",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Tavern", "Bards", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "255073640331083781" ],
+        "comments": [  ]
     }
 ]
