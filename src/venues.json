@@ -5790,5 +5790,33 @@
             "Request 'Novel Services' tag but I can't see why it's Novel",
             "Clepsydra doesn't have a set schedule, but is often open on Friday, Saturday or Sunday at 8pm CST until 1am CST."
          ]
+    },
+    {
+        "id": "LwK5cDRV4",
+        "added": "2022-05-09T02:00:00Z",
+        "name": "The Hangout",
+        "banner": "assets/banners/hangout.jpg",
+        "description": [ "We're a bit of a jack of all trades, we run all forms of venue fun from RP Cafe, to a Twitch stream Rave to even some gambling in the fighting ring. our thing makes us stand out is we change the venue decoration based off the theme, and wont have the same theme 2 nights in a row." ],
+        "location": "Jenova, Mist, Ward 11, Plot 60",
+        "discord": "http://discord.com/FhHHERafyv",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Lounge", "Casino", "Gambling", "Void", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Tarot", "Food", "Drink", "Photography", "Open Stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "124348373435154432" ],
+        "comments": [  ]
     }
 ]
