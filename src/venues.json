@@ -5770,5 +5770,25 @@
         "exceptions": [ ],
         "contacts": [ "255073640331083781" ],
         "comments": [  ]
+    },
+    {
+        "id": "RM8tzmInn",
+        "added": "2022-05-09T01:30:00Z",
+        "name": "Clepsydra",
+        "banner": "assets/banners/clepsydra.jpg",
+        "description": [ "Tucked away amongst the ruins of the abandoned Sharlayan colony in the Dravanian Hinterlands, Clepsydra is a home turned place of healing for the body, mind and soul. From the sights, sounds and smells, relaxation is sure to come to those that seek a moment away from the world to rest and heal or simply regale the owner or friends with tales of exploration and exploits and woes. Owned and lived in by Usynthuv Adlais, any that visit would be greeted by the wayward Sharlayan and offered whatever she can provide that they desire; knowledge, tea, tinctures, wound care, general healing, massage, and anything else that visitors may need. Except food. There is only soup and it is not a good soup. Good for you, but beyond bland." ],
+        "location": "Cactuar, Goblet, Ward 14, Plot 19",
+        "website": "https://clepsydra-ffxiv.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bath house", "IC RP only"],
+        "notices": [  ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "188440359372587008" ],
+        "comments": [ 
+            "Request 'Novel Services' tag but I can't see why it's Novel",
+            "Clepsydra doesn't have a set schedule, but is often open on Friday, Saturday or Sunday at 8pm CST until 1am CST."
+         ]
     }
 ]
