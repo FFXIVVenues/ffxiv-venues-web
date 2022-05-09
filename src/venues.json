@@ -5654,6 +5654,33 @@
         "exceptions": [ ],
         "contacts": [ "638866548437680189" ],
         "comments": [  ]
+    },
+    {
+        "id": "XczjmBMW",
+        "added": "2022-05-09T00:00:00Z",
+        "name": "Fury's Fall",
+        "description": [
+            "Nightclub featuring themed nights such as emo night, jazz night, with gambling, dancing, drinks and food"
+                    ],
+        "banner": "assets/banners/furyfall.jpg",
+        "location": "Sargatanas, Empyreum, Ward 4, Plot 2",
+        "website": "https://furysfall.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Café", "Gambling", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "Open Stage" ],
+        "contacts": [ "188719006444683264" ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
     }
 
 ]
