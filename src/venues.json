@@ -1792,6 +1792,7 @@
         "id": "MQcQMRw8R",
         "added": "2022-01-22T00:00:00Z",
         "name": "The Hideaway Cafe",
+        "banner": "assets/banners/hideaway-cafe.jpg",
         "description": [
             "So you've finally made it! Grab a drink! The show starts soon. Welcome to the Hideaway Cafe! A Corner venue meant for all venue workers to come, relax, and kick their feet up. Dueling piano Bards try to outwit each other each night, and drinks served in our Speakeasy set up are cold, and very fairly priced. So fill your cups and empty your heavy coffers after a long day's work, here at The Hideaway! Enjoy your escape."
         ],
@@ -1799,6 +1800,7 @@
         "discord": "https://discord.gg/wGYtHj2f",
         "sfw": true,
         "nsfw": false,
+        "tags": [ "Speakeasy", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open Stage" ],
         "times": [
             {
                 "day": 0,
@@ -5656,6 +5658,168 @@
         "comments": [  ]
     },
     {
+        "id": "aEL0ogWlY",
+        "added": "2022-05-09T00:00:00Z",
+        "name": "Faerie Social Events",
+        "banner": "assets/banners/faerie-social-events.jpg",
+        "description": [ 
+            "Welcome to the FSE!",
+            "TLDR: We are a group of nerds who host events.",
+            "Faerie Social Events was created to host events for all to join regardless of FC. We are excited to host a variety of events both in game and off, spanning a bunch of topics like Scribbl.io, Drinking Nights, DnD, and some old fashioned fun like Golf with Your Friends.",
+            "Our In Game Events are often surrounding holidays, and take the form of Celebrations of such. The events comprise of things like Hide and Seek, Trivia, Costume Contests, Musical Chairs and our most popular event type, Art Parties.",
+            "We run events at 8:30pm on some Saturdays and some Thursdays. Please take a look at our discord or website to find when we are open!"
+        ],
+        "location": "Faerie, Empyrium, Ward 23, Plot 40",
+        "website": "https://www.faeriesocialevents.com/",
+        "discord": "https://discord.gg/S9s7yZnJ6u",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Speakeasy", "Artists", "Bards", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "118187376823500805", "166695390672846848" ],
+        "comments": [  ]
+    },
+    {
+        "id": "foGHxmLNn",
+        "added": "2022-05-09T01:00:00Z",
+        "name": "The Iron Rose",
+        "banner": "assets/banners/iron-rose.jpg",
+        "description": [
+            "The Iron Rose is a kink / BDSM centric venue which seeks to provide a fun experience that both educates and elevates, straddling the line of different worlds drawn from the collective knowledge of our staff. Come on by and have a drink, or an entire encounter, so long as you remember consent reigns...",
+            "Needless to say, visiting us is an 18+ affair."
+        ],
+        "location": "Cactuar, Lavender Beds, Ward 10, Plot 60",
+        "website": "https://tinyurl.com/IRMenu423",
+        "discord": "https://discord.gg/DNVSwPv6S7",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Twitch DJ", "Food", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "475062463776292867", "135610486606528512" ],
+        "comments": [  ]
+    },
+    {
+        "id": "kNz4XUXAp",
+        "added": "2022-05-09T02:00:00Z",
+        "name": "Silver Lining Cafe",
+        "banner": "assets/banners/silver-lining.jpg",
+        "description": [ "Cozy cafe that is friendly to folks who wish to relax. Come and have fun with some RP or just as you are we welcome all!" ],
+        "location": "Cactuar, Lavender Beds, Ward 7, Plot 6, Room 2",
+        "website": "https://thesilverliningcafe.carrd.co/",
+        "discord": "https://discord.gg/kRqtEHJdrr",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Open Stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 13, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "100805036514230272" ],
+        "comments": [  ]
+    },
+    {
+        "id": "lCQFIMlwr",
+        "added": "2022-05-09T01:30:00Z",
+        "name": "Frosthaven Tavern",
+        "banner": "assets/banners/frosthaven-tavern.jpg",
+        "description": [ "In the Middle of La Noscea, one can find a small frozen tavern. Covered in ice and snow, it is a cozy winter hideaway, where some of the coldest drinks in all of Eorzea can be found. Hangout with your friends while enjoying music, rare drinks and food. Come by and check us out !" ],
+        "location": "Adamantoise, Mist, Ward 4 Sub, Apt 14",
+        "website": "https://frost-haven.carrd.co/#home",
+        "discord": "https://discord.gg/BsMaReZf6w",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Tavern", "Bards", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "255073640331083781" ],
+        "comments": [  ]
+    },
+    {
+        "id": "RM8tzmInn",
+        "added": "2022-05-09T01:30:00Z",
+        "name": "Clepsydra",
+        "banner": "assets/banners/clepsydra.jpg",
+        "description": [ "Tucked away amongst the ruins of the abandoned Sharlayan colony in the Dravanian Hinterlands, Clepsydra is a home turned place of healing for the body, mind and soul. From the sights, sounds and smells, relaxation is sure to come to those that seek a moment away from the world to rest and heal or simply regale the owner or friends with tales of exploration and exploits and woes. Owned and lived in by Usynthuv Adlais, any that visit would be greeted by the wayward Sharlayan and offered whatever she can provide that they desire; knowledge, tea, tinctures, wound care, general healing, massage, and anything else that visitors may need. Except food. There is only soup and it is not a good soup. Good for you, but beyond bland." ],
+        "location": "Cactuar, Goblet, Ward 14, Plot 19",
+        "website": "https://clepsydra-ffxiv.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bath house", "IC RP only"],
+        "notices": [  ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "188440359372587008" ],
+        "comments": [ 
+            "Request 'Novel Services' tag but I can't see why it's Novel",
+            "Clepsydra doesn't have a set schedule, but is often open on Friday, Saturday or Sunday at 8pm CST until 1am CST."
+         ]
+    },
+    {
+        "id": "LwK5cDRV4",
+        "added": "2022-05-09T02:00:00Z",
+        "name": "The Hangout",
+        "banner": "assets/banners/hangout.jpg",
+        "description": [ "We're a bit of a jack of all trades, we run all forms of venue fun from RP Cafe, to a Twitch stream Rave to even some gambling in the fighting ring. our thing makes us stand out is we change the venue decoration based off the theme, and wont have the same theme 2 nights in a row." ],
+        "location": "Jenova, Mist, Ward 11, Plot 60",
+        "discord": "http://discord.com/FhHHERafyv",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Lounge", "Casino", "Gambling", "Void", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Tarot", "Food", "Drink", "Photography", "Open Stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "124348373435154432" ],
+        "comments": [  ]
+    },
+    {
         "id": "XczjmBMW",
         "added": "2022-05-09T00:00:00Z",
         "name": "Fury's Fall",
@@ -5672,7 +5836,7 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "start": { "hour": 1, "minute": 0, "nextDay": true},
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
@@ -5684,4 +5848,3 @@
     }
 
 ]
-
