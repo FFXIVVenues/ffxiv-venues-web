@@ -5845,6 +5845,75 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "WohYdNbf",
+        "added": "2022-05-12T00:00:00Z",
+        "name": "Odd Otter Tavern",
+        "description": [
+            "A wonderful and Immersive fantasy tavern with an aquatic twist! We feature Live music, Triple Triad, a Full-Service bar, naturally fed hot tubs & Fantastic courts!"
+                    ],
+        "banner": "assets/banners/oddottertavern.jpg",
+        "location": "Adamantoise, Goblet, Ward 5, Plot 55",
+        "discord": "https://discord.gg/EgFv6GcRxx",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Tavern", "Lounge", "Gambling", "Courtesans", "Bards", "Food", "Drink", "Photography", "Triple Triad" ],
+        "contacts": [ "166073630827085828" ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true},
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "sqTMubYr",
+        "added": "2022-05-12T00:00:00Z",
+        "name": "Mosaic Dreams",
+        "description": [
+            "Thavnairian inspired SFW loungue with themed side rooms for more relaxing areas to enjoy! We have door prizes, macro dancers, and give-a-ways/contest everyweek."
+                    ],
+        "banner": "assets/banners/mosaicdreams.jpg",
+        "location": "Adamantoise, Mist, Ward 9, Plot 36",
+        "website": "https://mosaicdreams.carrd.co",
+        "discord": "https://discord.gg/pqT6N9Z",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Lounge", "Dancers", "Food", "Drink", "Open Stage", "Triple Triad" ],
+        "contacts": [ "101023303765884928" ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true},
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ]
+    },
+    {
+        "id": "ZDNunrza",
+        "added": "2022-05-12T00:00:00Z",
+        "name": "The Desert Jewel",
+        "description": [
+            "Located in the bustling streets of Ul'Dah, The Desert Jewel offers a place for respite, good company, and immersive RP in the heart of the city."
+                    ],
+        "banner": "assets/banners/desertjewel.jpg",
+        "location": "Midgard, Goblet, Ward 20, Apt 18",
+        "website": "https://thedesertjewel.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Lounge", "Food", "Drink", "Open Stage" ],
+        "contacts": [ "154327188303249408" ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": false}
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": false}
+            }
+        ]
     }
-
 ]
