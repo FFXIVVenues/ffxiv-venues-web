@@ -4132,19 +4132,19 @@
         "added": "2022-03-26T00:00:00Z",
         "name": "Impulse",
         "banner": "assets/banners/impulse.jpg",
-        "description": [ "Welcome to impulse were an inclusive lgbtqia+ owned and operated venue. if you're looking for a place to enjoy great drinks, great people, GAMBA, or to just relax look no further. We are always ready to meet new friends and make connections. Open Wed/Thurs/Fri 8pm EST - 12am EST" ],
+        "description": [ "Welcome to impulse were an inclusive lgbtqia+ owned and operated venue. if you're looking for a place to enjoy great drinks, great people, GAMBA, or to just relax look no further. We are always ready to meet new friends and make connections. Open Tuesday and Wednesday 8pm EST - 12am EST" ],
         "location": "Sargatanas, Lavender Beds, Ward 13, Plot 13",
         "sfw": true,
         "nsfw": true,
         "discord": "https://discord.gg/uatcExXc9g",
         "times": [
             {
-                "day": 2,
+                "day": 1,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
-                "day": 3,
+                "day": 2,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
@@ -5886,7 +5886,7 @@
         "times": [
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true},
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ]
@@ -5897,7 +5897,7 @@
         "name": "The Desert Jewel",
         "description": [
             "Located in the bustling streets of Ul'Dah, The Desert Jewel offers a place for respite, good company, and immersive RP in the heart of the city."
-                    ],
+        ],
         "banner": "assets/banners/desertjewel.jpg",
         "location": "Midgard, Goblet, Ward 20, Apt 18",
         "website": "https://thedesertjewel.carrd.co/",
@@ -5908,11 +5908,11 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": false}
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": false}
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
     }
