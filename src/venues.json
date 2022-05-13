@@ -5915,5 +5915,30 @@
                 "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ]
+    },
+    {
+        "id": "dkHk8gWTz",
+        "added": "2022-05-13T00:00:00Z",
+        "name": "Star HQ",
+        "banner": "assets/banners/starhq.jpg",
+        "description": [ "Star HQ is a high-quality lounge and casino. Come dressed in your best formal attire and get ready to enter high-stakes games." ],
+        "location": "Midgardsormr, Empyreum, Ward 3, Plot 51",
+        "website": "https://star-hq.carrd.co/",
+        "discord": "https://discord.gg/starvenues",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Lounge", "Casino", "Gambling", "Bards", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
+    
 ]
