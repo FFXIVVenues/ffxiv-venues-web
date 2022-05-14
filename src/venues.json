@@ -5932,7 +5932,32 @@
         "exceptions": [ ],
         "contacts": [ "366715715992158218" ],
         "comments": [  ]
+    },
+    {
+        "id": "Fgho6RZSL",
+        "added": "2022-05-14T04:30:00Z",
+        "name": "The Juice Bar",
+        "banner": "assets/banners/juice-bar.jpg",
+        "description": [ "The sauciest speakeasy in Eorzea, catering to jazz vibes, elegant cocktails, delectable meals, live entertainment, dancers, live entertainment, and commissioned photography to commemorate the night at our lounge." ],
+        "location": "Faerie, Goblet, Ward 21, Plot 11",
+        "website": "https://faeriejuicebar.carrd.co/#",
+        "discord": "https://discord.gg/xNUmFFfyjX",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Bar", "Speakeasy", "Courtesans", "Dancers", "Pillow", "Bards", "Food", "Drink", "Photography", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "203319999450841108" ],
+        "comments": [  ]
     }
+    
     
     
 ]
