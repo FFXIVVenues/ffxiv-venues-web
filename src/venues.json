@@ -5914,6 +5914,25 @@
         "exceptions": [ ],
         "contacts": [ "104759300089503744" ],
         "comments": [  ]
+    },
+    {
+        "id": "IFsoQsHV9",
+        "added": "2022-05-14T04:00:00Z",
+        "name": "Echo",
+        "banner": "assets/banners/echo.jpg",
+        "description": [ "Open space +18 hotel/nightclub venue on ffxiv for events. Place is created in the mind of being an open space for basically anyone to self host their own events for free. If there ever comes a moment \"there is no place open right now but our group feels like partying on\", Echo is a place where you can take your party group to continue. Entrance floor has lobby bar setup with open stage for bard performers. In the basement there is a small nightclub setup with open stage for DJ performers. Venue will be looking for freelancers to work at the venue for the self host events and the events of the venue itself." ],
+        "location": "Gilgamesh, Goblet, Ward 4, Plot 47",
+        "website": "https://ffxivecho.carrd.co/",
+        "discord": "https://discord.gg/nkykDdMrYc",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Lounge", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Drink", "Open Stage" ],
+        "notices": [  ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "366715715992158218" ],
+        "comments": [  ]
     }
+    
     
 ]
