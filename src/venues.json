@@ -5915,5 +5915,45 @@
                 "start": { "hour": 2, "minute": 0, "nextDay": false}
             }
         ]
+    },
+    {
+        "id": "fDtVdoTS",
+        "added": "2022-05-14T00:00:00Z",
+        "name": "Casa Del Soul",
+        "banner": "assets/banners/casadelsoul.jpg",
+        "description": [ "Casa Del Soul is a hip new place to vibe and have fun! Music! Casino! Theme Nights!",
+                         " 'Guest' Services! Dancing and the best staff in Eorzea! Come by for a drink, a friend, or a place to have a blast!" ],
+        "location": "Sargatanas, Empyreum, Ward 15, Plot 42",
+        "website": "https://casa-del-soul-menu.carrd.co/",
+        "discord": "https://discord.gg/SRRbajRddW",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "857359680212959272" ],
+        "comments": [  ]
     }
 ]
