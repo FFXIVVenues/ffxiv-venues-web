@@ -111,7 +111,7 @@
         "discord": "https://discord.gg/vstSnGHTg7",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Maid cafe", "Food", "Drink", "Host club" ],
+        "tags": [ "Maid cafe", "Food", "Drink" ],
         "contacts": [ "689284462789394451" ],
         "times": [
             {
@@ -199,13 +199,13 @@
         "id": "HT60SIpK",
         "added": "2021-08-09T00:00:00Z",
         "name": "Memory's End Tactus Anyder",
-        "description": [ "SFW Public, NSFW Private Bath House. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. " ],
+        "description": [ "SFW Public, NSFW Private Bath house. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. " ],
         "location": "Jenova, Mist, Ward 24, Plot 15",
         "website": "https://memorysend.wixsite.com/anyder",
         "discord": "https://discord.io/anyder",
         "sfw": true,
         "nsfw": true,
-        "tags": [ "Bath House", "Food", "Drink", "Courtesans", "Bards" ],
+        "tags": [ "Bath house", "Food", "Drink", "Courtesans", "Bards" ],
         "contacts": [ "285136055416520704" ],
         "times": [ ]
     },
@@ -392,7 +392,7 @@
         "discord": "https://discord.gg/bQ5ukvHEfv",
         "sfw": true,
         "nsfw": true,
-        "tags":[ "Bar", "Lounge", "Bath House", "Food", "Drink", "Novel Services" ],
+        "tags":[ "Bar", "Lounge", "Bath house", "Food", "Drink", "Novel services" ],
         "comments": [
             "Novelty is massages work up to ERP style massages"
         ],
@@ -713,7 +713,7 @@
         "location": "Jenova, Mist, Ward 8, Plot 2",
         "website": "https://clubfoxbury.carrd.co/",
         "discord": "https://discord.gg/nCHgKeexN9",
-        "tags":[ "Nightclub", "Bar", "Dancers", "Cuddling", "Food", "Drink", "Photography"],
+        "tags":[ "Nightclub", "Bar", "Dancers", "Pillow", "Food", "Drink", "Photography"],
         "contacts":["297568652855607296"],
         "sfw": true,
         "nsfw": false,
@@ -774,7 +774,7 @@
         "location": "Jenova, Goblet, Ward 2, Plot 55",
         "website": "https://chocokisses.carrd.co/",
         "discord": "https://discord.gg/QkEXHWVA7J",
-        "tags": [ "Cafe", "Maid cafe", "Photography", "Hosts", "Bar", "Food", "Drink", "Novel Services", "Bards" ],
+        "tags": [ "Cafe", "Maid cafe", "Photography", "Bar", "Food", "Drink", "Novel services", "Bards" ],
         "contacts":["864366760966225921", "755529644526010451"],
         "sfw": true,
         "nsfw": false,
@@ -827,7 +827,7 @@
         "location": "Sargatanas, Shirogane, Ward 18, Plot 37",
         "website": "https://playboy-mansion.net/#",
         "discord": "https://discord.gg/pbm",
-        "tags": [ "Nightclub", "Gambling", "Twitch DJ", "Photography", "Courtesans", "Cuddling", "VIP", "Dancers"],
+        "tags": [ "Nightclub", "Gambling", "Twitch DJ", "Photography", "Courtesans", "Pillow", "VIP", "Dancers"],
         "contacts":[ "377876638228021258" ],
         "sfw": true,
         "nsfw": true,
@@ -1125,7 +1125,7 @@
         "location": "Faerie, Mist, Ward 2, Plot 43",
         "shard": "Central Mist Subdivision",
         "website": "https://moodlift.carrd.co/",
-        "tags": ["Cafe", "Food", "Drink", "Cuddling"],
+        "tags": ["Cafe", "Food", "Drink", "Pillow"],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1225,7 +1225,7 @@
         "shard": "Mist Northwest Subdivision",
         "website": "https://thegoldenkettle.carrd.co/",
         "discord": "https://discord.gg/EsNQTSSDbx",
-        "tags": [ "Cafe", "Food", "Drink", "Bath House" ],
+        "tags": [ "Cafe", "Food", "Drink", "Bath house" ],
         "contacts":[ "328782330741260288" ],
         "sfw": true,
         "nsfw": false,
@@ -1312,7 +1312,7 @@
             "Check Party Finder on the weekends to see if we're open or message Jack Anders @ Cactuar for appointments."
         ],
         "location": "Cactuar, Mist, Ward 24, Plot 22",
-        "tags": [ "Novel venue", "Novel services" ],
+        "tags": [ "Novel services", "Novel services" ],
         "contacts": [ "95248969935884288" ],
         "shard": "Mist Southeast",
         "sfw": true,
@@ -1397,7 +1397,7 @@
         "shard": "Goblet West",
         "website": "https://thelaundry.carrd.co/",
         "discord": "https://discord.gg/gBk4NH8rXA",
-        "tags":["Novel venue", "Food", "Drink"],
+        "tags":["Novel services", "Food", "Drink"],
         "contacts":["246808682501767169"],
         "sfw": false,
         "nsfw": true,
@@ -1494,7 +1494,7 @@
         "location": "Cactuar, Shirogane, Ward 15, Plot 7",
         "shard": "Eastern Shirogane Subdivision",
         "website": "https://heavenlyhearth.carrd.co/",
-        "tags":["Tavern", "Hosts" , "Bards", "Pillow", "Food", "Drink", "Open stage",  "IC RP only", "Novel services" ],
+        "tags":["Tavern", "Bards", "Pillow", "Food", "Drink", "Open stage",  "IC RP only", "Novel services" ],
         "contacts":["110616879634059264", "181202033808769024"],
         "sfw": true,
         "nsfw": false,
@@ -1751,7 +1751,7 @@
         "discord": "https://discord.gg/G6WQBGXFcC",
         "sfw": false,
         "nsfw": true,
-        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Drink", "Open Stage", "VIP" ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Drink", "Open stage", "VIP" ],
         "contacts": [ "704913420356419645", "631250810549960716" ],
         "times": [
             {
@@ -1800,7 +1800,7 @@
         "discord": "https://discord.gg/wGYtHj2f",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Speakeasy", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Speakeasy", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
         "times": [
             {
                 "day": 0,
@@ -1892,7 +1892,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Cuddling", "Twitch DJ", "VIP" ],
+        "tags": [ "Nightclub", "Artists", "Drink", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "VIP" ],
         "contacts": [ "215335306344267778" ]
     },
     {
@@ -1933,7 +1933,7 @@
         "name": "The Underdark",
         "banner": "assets/banners/underdark.jpg",
         "description": [
-            "SFW Tavern and Sauna with an Open Stage and a Dark Ambient Atmosphere. AFK Friendly, Stay as long as you'd like.",
+            "SFW Tavern and Sauna with an Open stage and a Dark Ambient Atmosphere. AFK Friendly, Stay as long as you'd like.",
             "Meals and Readings do not have a set price and are offered to be paid as you wish.",
             "All foods are sourced locally and prepared by hand in front of you."
         ],
@@ -2005,7 +2005,7 @@
         "nsfw": false,
         "times": [ ],
         "exceptions": [],
-        "tags": [ "Lounge", "Host club", "Food", "Drink", "Bards", "Open stage", "IC RP only", "Novel services" ],
+        "tags": [ "Lounge", "Food", "Drink", "Bards", "Open stage", "IC RP only", "Novel services" ],
         "contacts": [ "192497361149231105" ]
     },
     {
@@ -2046,7 +2046,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Cafe", "Maid cafe", "Host club", "Food", "Drink", "Bards", "Photography" ],
+        "tags": [ "Cafe", "Maid cafe", "Food", "Drink", "Bards", "Photography" ],
         "contacts": [ "254434244288315392" ]
     },
     {
@@ -2243,7 +2243,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Tavern", "Inn", "Courtesans", "Dancers", "Gambling", "Bards", "Food", "Drink", "Open Stage", "IC RP only" ],
+        "tags": [ "Tavern", "Inn", "Courtesans", "Dancers", "Gambling", "Bards", "Food", "Drink", "Open stage", "IC RP only" ],
         "contacts": [ "134349700428988416" ]
     },
     {
@@ -2341,7 +2341,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Cafe", "Hosts", "Food", "Pillow", "Photography", "Drink" ],
+        "tags": [ "Cafe", "Food", "Pillow", "Photography", "Drink" ],
         "contacts": [ "319271011965206530" ]
     },    
     {
@@ -2427,7 +2427,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Bar", "Food", "Drink", "Open Stage", "Pillow", "Courtesans", "Dancers" ],
+        "tags": [ "Nightclub", "Bar", "Food", "Drink", "Open stage", "Pillow", "Courtesans", "Dancers" ],
         "contacts": [ "650380751166242919" ]
     },
     {
@@ -2446,7 +2446,7 @@
         "nsfw": false,
         "times": [],
         "exceptions": [],
-        "tags": [ "Cafe", "Food", "Drink", "Open Stage", "Photography" ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage", "Photography" ],
         "contacts": [ "880594476295389205" ]
     },
     {
@@ -2463,7 +2463,7 @@
         "nsfw": false,
         "times": [ ],
         "exceptions": [ ],
-        "tags": [ "Cafe", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
         "contacts": [ "207825381225529344" ]
     },
     {
@@ -2581,7 +2581,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Hosts", "Dancers", "Pillow", "Bards", "Food", "Drink" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Bards", "Food", "Drink" ],
         "contacts": [ "278653203229442058" ]
     },
     {
@@ -2751,7 +2751,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Bath House", "Food", "Drink", "Open stage" ],
+        "tags": [ "Bath house", "Food", "Drink", "Open stage" ],
         "contacts": [ "707716687402893452" ]
     },
     {
@@ -2859,7 +2859,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Cafe", "Bar", "Gambling", "Hosts", "Food", "Photography", "Novel services" ],
+        "tags": [ "Cafe", "Bar", "Gambling", "Food", "Photography", "Novel services" ],
         "contacts": [ "602929815648993280" ],
         "comments": [ "Novel service is partaking in or betting on chocobo races." ]
     },
@@ -2957,7 +2957,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "Novel Services" ],
+        "tags": [ "Cafe", "Lounge", "Food", "Drink", "Open stage", "Novel services" ],
         "contacts": [ "296466601383821312" ]
     },
     {
@@ -3073,7 +3073,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Bar", "Tavern", "Hosts", "Void", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
+        "tags": [ "Bar", "Tavern", "Void", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
         "contacts": [ "291943612294627329" ]
     },
     {
@@ -3146,7 +3146,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Hosts", "Courtesans", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
         "contacts": [ "707716687402893452", "399361042762694667", "946591595388620820" ]
     },
     {
@@ -3249,7 +3249,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Tavern", "Bath House", "Dancers", "Bards", "Food", "Drink" ],
+        "tags": [ "Tavern", "Bath house", "Dancers", "Bards", "Food", "Drink" ],
         "contacts": [ "259559436077629460", "349693545315041280" ]
     },
     {
@@ -3411,7 +3411,7 @@
         ],
         "exceptions": [ ],
         "notices": [ "This venue is open every OTHER Wednesday night. Please check the venue's Discord for opening."],
-        "tags": [ "Cafe", "Food", "Drink", "Open stage", "Triple triad", "Novel Services" ],
+        "tags": [ "Cafe", "Food", "Drink", "Open stage", "Triple triad", "Novel services" ],
         "contacts": [ "71365155983720448" ]
     },
     {
@@ -3608,7 +3608,7 @@
          ],
         "exceptions": [  ],
         "notices": [  ],
-        "tags": [ "Bar", "Bath House", "Dancers", "Drink", "Courtesans" ],
+        "tags": [ "Bar", "Bath house", "Dancers", "Drink", "Courtesans" ],
         "comments": [  ],
         "contacts": [ "260211568950771715" ]
     },
@@ -3726,7 +3726,7 @@
     {
         "id": "dKkIMbmPO",
         "added": "2022-03-15T00:00:00Z",
-        "name": "Mrs. Dawn's Bath House",
+        "name": "Mrs. Dawn's Bath house",
         "banner": "assets/banners/mrs-dawns-bath-house.jpg",
         "description": [ 
             "Come and relax, chat, and pull each others ears at Mrs. Dawn's peaceful bath house! Open most days either at noon EST, or the 6pm EST; just check the PF! ♥️"
@@ -3882,7 +3882,7 @@
         "times": [  ],
         "exceptions": [ ],
         "notices": [ "This venue opens once a month, primarily on a Saturday or Sunday at 5pm - 11pm CST. Please check the discord for this venue's next opening."  ],
-        "tags": [ "Cafe", "Maid cafe", "Hosts", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage", "Novel services", "Triple triad" ],
+        "tags": [ "Cafe", "Maid cafe", "Bards", "Tarot", "Food", "Drink", "Photography", "Open stage", "Novel services", "Triple triad" ],
         "comments": [  ],
         "contacts": [ "453762811546566657" ]
     },
@@ -3921,7 +3921,7 @@
         "times": [ ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Cafe", "Lounge", "Hosts", "Dancers", "Bards", "Soft-counselling", "Food", "Drink", "Open stage" ],
+        "tags": [ "Cafe", "Lounge", "Dancers", "Bards", "Soft-counselling", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "944060725670842368" ]
     },
@@ -3952,7 +3952,7 @@
             }
         ],
         "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Tavern", "Hosts", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Soft-counselling", "Drink", "Photography", "Open stage" ],
+        "tags": [ "Nightclub", "Bar", "Tavern", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Soft-counselling", "Drink", "Photography", "Open stage" ],
         "contacts": [ "382372840445313024" ]
     },
     {
@@ -4011,7 +4011,7 @@
         ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Nightclub", "Casino", "Gambling", "Hosts", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
         "comments": [ ],
         "contacts": [ "234412817019699200" ]
     },
@@ -4113,7 +4113,7 @@
         ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Lounge", "Casino", "Gambling", "Hosts", "Courtesans", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "tags": [ "Lounge", "Casino", "Gambling", "Courtesans", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
         "comments": [  ],
         "contacts": [ "158281637031837696" ]
     },
@@ -4142,7 +4142,7 @@
         ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Den", "Tavern", "Bards", "Food", "Drink", "Open stage", "Novel Services" ],
+        "tags": [ "Den", "Tavern", "Bards", "Food", "Drink", "Open stage", "Novel services" ],
         "comments": [  ],
         "contacts": [ "372018960977231872" ]
     },
@@ -4608,7 +4608,7 @@
         ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Bar", "Bath house", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Bar", "Bath house", "Food", "Drink", "Open stage" ],
         "comments": [  ],
         "contacts": [ "443245852731899906" ]
     },
@@ -4649,7 +4649,7 @@
         ],
         "exceptions": [ ],
         "notices": [  ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open Stage", "VIP" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open stage", "VIP" ],
         "comments": [  ],
         "contacts": [ "178734393655820288" ]
     },
@@ -4854,7 +4854,7 @@
         "discord": "https://discord.gg/Qg6hXmPrzN",
         "sfw": false,
         "nsfw": true,
-        "tags": [ "Bar", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Tarot", "Drink", "Photography", "Open Stage", "Novel services", "VIP" ],
+        "tags": [ "Bar", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Tarot", "Drink", "Photography", "Open stage", "Novel services", "VIP" ],
         "notices": [  ],
         "times": [
             {
@@ -4912,7 +4912,7 @@
         "discord": "https://discord.gg/jHqDWefFWw",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Bar", "Lounge", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Bar", "Lounge", "Food", "Drink", "Open stage" ],
         "notices": [  ],
         "times": [
             {
@@ -5172,7 +5172,7 @@
         "discord": "https://discord.gg/qk78rvhXWD",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Maid cafe", "Food", "Photography", "Open Stage" ],
+        "tags": [ "Maid cafe", "Food", "Photography", "Open stage" ],
         "notices": [  ],
         "times": [
             {
@@ -5370,7 +5370,7 @@
         "discord": "https://discord.gg/qq8RPp3RJP",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Speakeasy", "Lounge", "Gambling", "Bards", "Drink", "Open Stage" ],
+        "tags": [ "Speakeasy", "Lounge", "Gambling", "Bards", "Drink", "Open stage" ],
         "notices": [  ],
         "times": [
             {
@@ -5399,7 +5399,7 @@
         "discord": "https://discord.gg/rGBFneUxfK",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Nightclub", "Cafe", "Artists", "Dancers", "Bards", "Food", "Drink", "Photography", "Open Stage" ],
+        "tags": [ "Nightclub", "Cafe", "Artists", "Dancers", "Bards", "Food", "Drink", "Photography", "Open stage" ],
         "notices": [  ],
         "times": [
             {
@@ -5517,7 +5517,7 @@
         "discord": "https://discord.gg/bPQDhpr",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Cafe", "Bar", "Void", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Cafe", "Bar", "Void", "Food", "Drink", "Open stage" ],
         "notices": [  ],
         "times": [ ],
         "exceptions": [ ],
@@ -5688,7 +5688,7 @@
         "discord": "https://discord.gg/kRqtEHJdrr",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Cafe", "Open Stage" ],
+        "tags": [ "Cafe", "Open stage" ],
         "notices": [  ],
         "times": [
             {
@@ -5751,7 +5751,7 @@
         "exceptions": [ ],
         "contacts": [ "188440359372587008" ],
         "comments": [ 
-            "Request 'Novel Services' tag but I can't see why it's Novel",
+            "Request 'Novel services' tag but I can't see why it's Novel",
             "Clepsydra doesn't have a set schedule, but is often open on Friday, Saturday or Sunday at 8pm CST until 1am CST."
          ]
     },
@@ -5765,7 +5765,7 @@
         "discord": "http://discord.com/FhHHERafyv",
         "sfw": true,
         "nsfw": true,
-        "tags": [ "Lounge", "Casino", "Gambling", "Void", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Tarot", "Food", "Drink", "Photography", "Open Stage", "Triple triad" ],
+        "tags": [ "Lounge", "Casino", "Gambling", "Void", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Tarot", "Food", "Drink", "Photography", "Open stage", "Triple triad" ],
         "notices": [  ],
         "times": [
             {
@@ -5795,7 +5795,7 @@
         "website": "https://furysfall.carrd.co/",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Nightclub", "Café", "Gambling", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "Open Stage" ],
+        "tags": [ "Nightclub", "Cafe", "Gambling", "Dancers", "Twitch DJ", "Food", "Drink", "Photography", "Open stage" ],
         "contacts": [ "188719006444683264" ],
         "times": [
             {
@@ -5815,14 +5815,14 @@
         "added": "2022-05-12T00:00:00Z",
         "name": "Odd Otter Tavern",
         "description": [
-            "A wonderful and Immersive fantasy tavern with an aquatic twist! We feature Live music, Triple Triad, a Full-Service bar, naturally fed hot tubs & Fantastic courts!"
+            "A wonderful and Immersive fantasy tavern with an aquatic twist! We feature Live music, Triple triad, a Full-Service bar, naturally fed hot tubs & Fantastic courts!"
                     ],
         "banner": "assets/banners/oddottertavern.jpg",
         "location": "Adamantoise, Goblet, Ward 5, Plot 55",
         "discord": "https://discord.gg/EgFv6GcRxx",
         "sfw": false,
         "nsfw": true,
-        "tags": [ "Tavern", "Lounge", "Gambling", "Courtesans", "Bards", "Food", "Drink", "Photography", "Triple Triad" ],
+        "tags": [ "Tavern", "Lounge", "Gambling", "Courtesans", "Bards", "Food", "Drink", "Photography", "Triple triad" ],
         "contacts": [ "166073630827085828" ],
         "times": [
             {
@@ -5845,7 +5845,7 @@
         "discord": "https://discord.gg/pqT6N9Z",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Lounge", "Dancers", "Food", "Drink", "Open Stage", "Triple Triad" ],
+        "tags": [ "Lounge", "Dancers", "Food", "Drink", "Open stage", "Triple triad" ],
         "contacts": [ "101023303765884928" ],
         "times": [
             {
@@ -5867,7 +5867,7 @@
         "website": "https://thedesertjewel.carrd.co/",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Bar", "Lounge", "Food", "Drink", "Open Stage" ],
+        "tags": [ "Bar", "Lounge", "Food", "Drink", "Open stage" ],
         "contacts": [ "154327188303249408" ],
         "times": [
             {
