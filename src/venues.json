@@ -2685,7 +2685,7 @@
         "nsfw": true,
         "times": [ 
             {
-                "day": 2,
+                "day": 5,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
@@ -2695,13 +2695,7 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [
-            {
-                "start": "2022-04-01T00:00Z",
-                "end": "2022-04-29T00:00Z",
-                "hide": true
-            }
-        ],
+        "exceptions": [],
         "tags": [ "Den", "Photography", "Courtesans", "Bards", "Open stage", "Food", "Drink", "VIP", "Triple triad" ],
         "contacts": [ "132980996122345473" ]
     },
