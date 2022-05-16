@@ -20,8 +20,8 @@ class VenueService {
         }).map(v => new Venue(v));
     }
 
-    getVenuesById() {
-        return this.getVenues().filter(i => arguments.filter(a => a.id === i).length);
+    getVenueById(id) {
+        return this.getVenues().find(v => v.id === id);
     }
 
     getOpenVenues() {

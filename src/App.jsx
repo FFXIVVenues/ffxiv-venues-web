@@ -13,6 +13,8 @@ import { VenueStrip } from './components/venue-strip/VenueStrip';
 import { VenueOpening } from './components/venue-opening/VenueOpening';
 import { isMobile } from "react-device-detect";
 import { propFilter, tagFilter, worldFilter } from "./filters/filters";
+import { Modal } from "./components/modal/Modal";
+import { VenueProfile } from "./components/venue-profile/VenueProfile";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
@@ -66,8 +68,11 @@ class App extends React.Component {
       { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
       { key: Symbol(), label: "IC RP Only", filter: tagFilter("ic rp only") }
     ]
+    const requestedVenueId = window.location.hash.substring(1);
+    const requestedVenue = venueService.getVenueById(requestedVenueId);
     this.state = {
       search: "",
+      requestedVenue: requestedVenue,
       enabledWorldFilter: null,
       enabledTypeFilters: [],
       enabledFeatureFilters: [],
@@ -363,6 +368,12 @@ class App extends React.Component {
               </div>
             </div>
           </div>
+          { this.state.requestedVenue && 
+              <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>
+                  <button className="venue-modal__close-button" onClick={_ => this.setState({ requestedVenue: null })}><img src="assets/cross.svg" alt="" /></button>
+                  <VenueProfile venue={this.state.requestedVenue} />
+              </Modal>
+          }
         </div>
       </React.Fragment>
     );
