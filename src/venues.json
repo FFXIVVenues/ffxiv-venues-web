@@ -15,13 +15,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "tags": [ "Nightclub", "Courtesans", "Dancers", "Food", "Pillow", "Drink", "Gambling", "Triple triad" ],
@@ -37,7 +37,7 @@
         "location": "Adamantoise, Mist, Ward 22, Plot 30",
         "shard": "Mist Southeast",
         "discord": "https://discord.gg/thenestxiv",
-        "website": "https://imgur.com/gallery/yehcE7l",
+        "website": "https://thenestxiv.carrd.co/#",
         "sfw": true,
         "nsfw": true,
         "times": [
@@ -140,12 +140,7 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 30, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "start": { "hour": 2, "minute": 30, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
@@ -155,7 +150,7 @@
         "added": "2021-08-08T00:00:00Z",
         "name": "The Drunken Moogle",
         "description": [ "Need a place to chill and relax after a long day of grinding? Want a hot supper, or a stiff drink? Look no further than the Drunken Moogle! Food, Drinks, Music, Events, & Much More!" ],
-        "location": "Faerie, Goblet, Ward 21, Plot 8",
+        "location": "Faerie, Empyreum, Ward 3, Plot 12",
         "website": "https://drunkenmoogle.carrd.co/",
         "discord": "https://discord.gg/WdJEVHUBPu",
         "sfw": true,
@@ -166,6 +161,13 @@
             {
                 "day": 6,
                 "start": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [
+            {
+                "start": "2022-05-16T00:00Z",
+                "end": "2022-05-30T00:00Z",
+                "hide": true
             }
         ]
     },
@@ -194,34 +196,6 @@
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
-    },
-    {
-        "id": "HT60SIpK",
-        "added": "2021-08-09T00:00:00Z",
-        "name": "Memory's End Tactus Anyder",
-        "description": [ "SFW Public, NSFW Private Bath house. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. " ],
-        "location": "Jenova, Mist, Ward 24, Plot 15",
-        "website": "https://memorysend.wixsite.com/anyder",
-        "discord": "https://discord.io/anyder",
-        "sfw": true,
-        "nsfw": true,
-        "tags": [ "Bath house", "Food", "Drink", "Courtesans", "Bards" ],
-        "contacts": [ "285136055416520704" ],
-        "times": [ ]
-    },
-    {
-        "id": "5RO5fjqO",
-        "added": "2021-08-09T00:00:00Z",
-        "name": "Memory's End Osculum Anyder",
-        "description": [ "NSFW Brothel, Bar, & Lounge. This Complex was built to cater to all the roleplay needs of the community, and as such, on behalf of staff, consider this your home as much as ours. " ],
-        "location": "Jenova, Goblet, Ward 23, Plot 42",
-        "website": "https://memorysend.wixsite.com/anyder",
-        "discord": "https://discord.io/Anyder",
-        "sfw": false,
-        "nsfw": true,
-        "tags": [ "Bar", "Lounge", "Courtesans", "Void" ],
-        "contacts": [ "285136055416520704" ],
-        "times": [ ]
     },
     {
         "id": "sI6UilnO",
@@ -267,7 +241,7 @@
         "sfw": true,
         "nsfw": false,
         "tags":[ "Lounge", "Cafe", "Drink", "Bards", "Artists" ],
-        "contacts":[ "121960744081293312" ],
+        "contacts":[ "878446882282688533" ],
         "times": [
             {
                 "day": 0,
@@ -396,19 +370,19 @@
         "comments": [
             "Novelty is massages work up to ERP style massages"
         ],
-        "contacts":["755971008728400033"],
+        "contacts":["282628584898560001", "755971008728400033"],
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 5, "minute": 30, "nextDay": true }
+                "start": { "hour": 6, "minute": 30, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 30, "nextDay": true }
+                "start": { "hour": 6, "minute": 30, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 5, "minute": 30, "nextDay": true }
+                "start": { "hour": 6, "minute": 30, "nextDay": true }
             }
         ]
     },
@@ -428,8 +402,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -563,7 +537,7 @@
         "location": "Jenova, Lavender Beds, Ward 23, Plot 58",
         "shard": "Lavender Northeast Subdivision",
         "discord": "https://discord.gg/redmoon",
-        "tags": [ "Nightclub", "Courtesans", "Bards", "VIP", "Photography", "Food", "Drink" ],
+        "tags": [ "Nightclub", "Courtesans", "Twitch DJ", "VIP", "Photography", "Food", "Drink" ],
         "contacts": [ "387440138587996181" ],
         "sfw": true,
         "nsfw": true,
