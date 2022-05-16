@@ -42,6 +42,14 @@ class VenueProfile extends React.Component {
         });
     }
 
+    componentDidMount() {
+        window.location.hash = this.props.venue.id;
+    }
+
+    componentWillUnmount() {
+        window.location.hash = "";
+    }
+
     render() {
         const exceptions = this.props.venue.exceptions && this.props.venue.exceptions.filter(e => {
             const now = new Date();
