@@ -299,9 +299,6 @@
         "nsfw": true,
         "tags": [ "Lounge", "Bar", "Photography", "Gambling", "" ],
         "contacts": [ "288888311043588106" ],
-        "notices": [
-            "Monday and Thursday every week. Saturday every other week. "
-        ],
         "times": [
             {
                 "day": 0,
@@ -312,11 +309,6 @@
                 "day": 3,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ]
     },
