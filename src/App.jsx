@@ -79,7 +79,7 @@ class App extends React.Component {
       openVenues: venueService.getOpenVenues(),
       favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()),
       scheduledVenues: venueService.getVenueSchedule(),
-      listView: localStorage.getItem("aether-venues-view-setting") !== 'card-view'
+      listView: localStorage.getItem("aether-venues-view-setting") === 'list-view'
     };
   }
 
