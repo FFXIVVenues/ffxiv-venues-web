@@ -4734,9 +4734,9 @@
         "name": "Ink Nightclub",
         "banner": "assets/banners/ink-nightclub.jpg",
         "description": [ "Our exclusive nightclub experience offers some of the top live DJs on Aether, stacked VIP packages, giveaways and theme nights galore, and a full casino floor. High roller and learning nights are available for Blackjack on the regular. Customize your experience with our entertainers, photography, and tarot readings. Think of something you want and don't see it? Ask and we'll see what we can do to fulfill your wildest dreams." ],
-        "location": "Jenova, Mists, Ward 23, Plot 1",
+        "location": "Sargatanas, Lavender Beds, Ward 6, Plot 21",
         "website": "https://inkvenues.carrd.co/",
-        "discord": "https://discord.gg/vqudRZxX2q",
+        "discord": "https://discord.gg/inkvenues",
         "sfw": false,
         "nsfw": true,
         "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Tarot", "Drink", "Photography", "Novel services", "VIP" ],
@@ -4744,8 +4744,8 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
