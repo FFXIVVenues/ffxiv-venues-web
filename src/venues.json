@@ -669,6 +669,13 @@
                 "start": { "hour": 21, "minute": 0, "nextDay": false },
                 "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
+        ],
+        "exceptions": [
+            {
+                "start": "2022-05-18T00:00Z",
+                "end": "2022-05-24T00:00Z",
+                "hide": true
+            }
         ]
     },
     {
