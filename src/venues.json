@@ -1626,23 +1626,6 @@
         "exceptions": []
     },
     {
-        "id": "E6gRBvUwr",
-        "added": "2022-01-14T00:00:00Z",
-        "name": "Pixieberry Cafe",
-        "banner": "assets/banners/pixieberry.jpg",
-        "description": [
-            "Pixie themed cafe with tarot readings and a hangout spot!"
-        ],
-        "location": "Sargatanas, Lavender Beds, Ward 23, Plot 55",
-        "website": "https://pixieberrycafe.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Cafe", "Open stage", "Bards", "Tarot", "Food", "Drink" ],
-        "contacts": [ "156907568386670593" ],
-        "times": [],
-        "exceptions": []
-    },
-    {
         "id": "LYqi7z8LN",
         "added": "2022-01-20T00:00:00Z",
         "name": "Bass Bumpers",
