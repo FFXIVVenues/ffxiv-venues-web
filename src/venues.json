@@ -2339,40 +2339,6 @@
         "contacts": [ "207825381225529344" ]
     },
     {
-        "id": "ZUl42YYY7",
-        "added": "2022-02-19T00:00:00Z",
-        "name": "The Lucky Lounge",
-        "banner": "assets/banners/lucky-lounge.jpg",
-        "description": [ 
-            "Satisfy your desire for luxury at the Lucky Lounge. Tantalize your taste buds with fine dining, or feast your eyes on our angelic pole dancers. Relax in our hot tub, or the upscale balcony. If you want something a little more intimate, ask about our private dance menu. Many and more delights await you at the Lucky Lounge."
-        ],
-        "location": "Cactuar, Lavendar Beds, Ward 17, Plot 5, Room 3",
-        "discord": "https://discord.gg/Y9YcEY8nQ9",
-        "website": "https://luckylounge.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ 
-            {
-                "day": 4,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Lounge", "Dancers", "Food", "Drink", "Triple triad", "VIP", "Open stage" ],
-        "contacts": [ "413915947880022026" ]
-    },
-    {
         "id": "LxbNTCRUR",
         "added": "2022-02-19T00:00:00Z",
         "name": "Sanctus Musica",
