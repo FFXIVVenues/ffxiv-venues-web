@@ -5756,5 +5756,29 @@
         "exceptions": [ ],
         "contacts": [ "463050841222545413" ],
         "comments": [  ]
+    },
+    {
+        "id": "el7wd1ohJ",
+        "added": "2022-05-19T01:00:00Z",
+        "name": "Tart's Treats",
+        "banner": "assets/banners/tarts-treats.jpg",
+        "description": [ "(SFW RP) A sweet little café owned and run by the lalafellin T'art family!" ],
+        "location": "Siren, Mist, Ward 11,Plot 52",
+        "website": "https://tarts-treats.carrd.co/",
+        "discord": "https://discord.gg/Hfz6e3eJNy",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Restaurant", "Bards", "Food", "Open stage", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "278344843783307267" ],
+        "comments": [  ]
     }
 ]
