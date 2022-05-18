@@ -5872,7 +5872,7 @@
         "discord": "https://discord.gg/nkykDdMrYc",
         "sfw": false,
         "nsfw": true,
-        "tags": [ "Nightclub", "Lounge", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Drink", "Open Stage" ],
+        "tags": [ "Nightclub", "Lounge", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Drink", "Open stage" ],
         "notices": [  ],
         "times": [ ],
         "exceptions": [ ],
@@ -5901,6 +5901,33 @@
         ],
         "exceptions": [ ],
         "contacts": [ "203319999450841108" ],
+        "comments": [  ]
+    },
+    {
+        "id": "KJQUEd1oN",
+        "added": "2022-05-18T00:00:00Z",
+        "name": "O7Nights Bar & Dance",
+        "banner": "assets/banners/o7nights.jpg",
+        "description": [ 
+            "O7Nights Bar & Dance is a roleplay club, with a bar setting within the MMORPG Final Fantasy XIV. It is owned by player Juzo Mohjahro of the Aether Datacenter and Midgardsormr Server. It stands as one of the many venues which players can socialize and find a nightlife without leaving home. This venue prioritizes on spreading a contagiously positive atmosphere, 'Being o7,' by accepting and educating new but brave role-players, while indulging veterans with authentic and thoughtful interactions. While upfront providing a relaxed bar setting, this venue has many moments that escalate the energy, between octet bard performances by Raevyn Koneko, regular appearances from wildly outgoing bar regulars and Juzo making drinks just right from his Specialty Menu. On nights where players both want to rest their feet, or get them moving, Juzo and his patrons are there, Making Midgardsormr a little More o7.",
+            "Anecdote left by Karilan Black of Crossroads Conversations of Gilgamesh: \"SFW Not your average nightclub; Juzo takes connections and party life to a wholesome level with thrills and chills, depending on what drinks are being mixed upstairs. Fit for literally any level of RP, o7 Nights welcomes you the way adventurers welcome each other at the start of any encounter, and you are sure to find company here who will guide you through every step to learn how to RP effectively and comfortably. Share a drink with a new friend, or dance the night away downstairs. Either way, you'll leave with good vibes.\""
+         ],
+        "location": "Midgardsormr, Goblet, Ward 20, Plot 28",
+        "website": "https://o7nights.carrd.co",
+        "discord": "https://discord.gg/rmaZmTkMZ6",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Lounge", "Bards", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "463050841222545413" ],
         "comments": [  ]
     }
 ]
