@@ -2339,30 +2339,6 @@
         "contacts": [ "207825381225529344" ]
     },
     {
-        "id": "TySzzvb4n",
-        "added": "2022-02-19T00:00:00Z",
-        "name": "Dewdrop Café",
-        "banner": "assets/banners/dewdrop-cafe.jpg",
-        "description": [ 
-            "A casual café to hang out in and have a good time! No need to order anything."
-        ],
-        "location": "Faerie, Lavender Beds, Ward 13 Sub, Apt 40",
-        "discord": "https://discord.gg/BSGER6k9cx",
-        "website": "https://bscafe.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ 
-            {
-                "day": 5,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
-        "contacts": [ "722161936816406531" ]
-    },
-    {
         "id": "ZUl42YYY7",
         "added": "2022-02-19T00:00:00Z",
         "name": "The Lucky Lounge",
