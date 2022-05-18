@@ -210,7 +210,7 @@
         "discord": "https://discord.gg/Ru84CaU2fw",
         "sfw": true,
         "nsfw": false,
-        "tags": [ "Drink", "Bards", "Bar" ],
+        "tags": [ "Nightclub", "Twitch DJ", "Dancers", "Drink", "Bards", "Bar" ],
         "contacts": [ "153017123038429185" ],
         "times": [
             {
@@ -283,6 +283,13 @@
                 "day": 5,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [
+            {
+                "start": "2022-05-17T00:00Z",
+                "end": "2022-05-31T00:00Z",
+                "hide": true
             }
         ]
     },
@@ -1808,7 +1815,7 @@
         ],
         "exceptions": [],
         "tags": [ "Nightclub", "Courtesans", "Dancers", "Twitch DJ", "Pillow", "Open stage", "VIP" ],
-        "contacts": [ "612024267298701323" ]
+        "contacts": [ "712746587687747595" ]
     },
     {
         "id": "YCd89KFH9",
@@ -3119,7 +3126,7 @@
             "Welcome to Club Diablo!! Come and enjoy the Eorzean Night Life with us every Friday, Saturday, Sunday. Enjoy routinely scheduled Live DJs via Twitch stream, trained RP/ERP courts and dancers along with nightly raffles, a club casino and a fight club. Visiting with Friends or having special events? Feel free to check out our VIP Packages. Hope to see you soon!!"
         ],
         "location": "Adamantoise, Lavender Beds, Ward 18, Plot 3",
-        "discord": "https://discord.gg/pGBy85cNkC",
+        "discord": "https://discord.gg/diabl0",
         "sfw": true,
         "nsfw": true,
         "times": [
