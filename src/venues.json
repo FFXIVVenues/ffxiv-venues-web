@@ -2247,35 +2247,35 @@
     {
         "id": "UOdI2hVQo",
         "added": "2022-02-14T00:00:00Z",
-        "name": "Noire",
-        "banner": "assets/banners/noire.jpg",
+        "name": "Ambrosia",
+        "banner": "assets/banners/ambrosia.jpg",
         "description": [ 
-            "Noir is a high end night club brought to life by Lana Cakes, Megumin Diff, Julius Helstea, and Bell Waters. The club sits perched above the ocean, where you will spend your nights with us. We have many courts to choose from, drinks and food to order, and the ability to fill your gambling needs. We can't wait to see you here 😉"
+            "Welcome to Ambrosia, your new favorite nightclub, gambling, and special time hotspot. Located on the beautiful beaches of Shirogane, the club welcomes you and your friends to spend the night with us as you watch the sunset"
         ],
-        "location": "Faerie, Mist, Ward 21, Plot 59",
-        "discord": "https://discord.gg/8gvbEm6SZK",
-        "website": "https://clubnoir.carrd.co/",
-        "sfw": true,
+        "location": "Faerie, Shirogane, Ward 1, Plot 19",
+        "discord": "https://discord.com/invite/8gvbEm6SZK",
+        "website": "https://clubambrosia.carrd.co/",
+        "sfw": false,
         "nsfw": true,
         "times": [
             {
-                "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 2,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Food", "Drink", "Bards", "Gambling", "Twitch DJ", "VIP", "Photography", "Courtesans" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open Stage", "VIP" ],
         "contacts": [ "210578573684244480" ]
     },
     {
