@@ -1399,12 +1399,7 @@
         "discord": "https://discord.gg/c3sjedwEwE",
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ]
+        "times": []
     },
     {
         "id": "InVgG7fdp",
@@ -1510,20 +1505,6 @@
         "contacts": [ "625569118283759626" ],
         "sfw": true,
         "nsfw": false,
-        "times": [ ]
-    },
-    {
-        "id": "a4i7NOpez",
-        "added": "2021-11-15T00:00:00Z",
-        "name": "Vibe Check",
-        "banner": "assets/banners/vibe-check.jpg",
-        "description": [ "Vibe Check is a nice, relaxing pub tucked away in Midgard. Open for both a good time and a long time, you can come here and pick up a few drinks to start your night, or stop off at the end and settle up with a relaxing herb or two. Check it out the next time you decide you'd like to forget your worries and just settle down for a bit!" ],
-        "location": "Midgardsormr, Mist, Ward 12, Plot 43",
-        "discord": "https://discord.gg/7JVhGMM6tN",
-        "website": "https://vibecheck.star-venues.com/",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Bar", "Food", "Drink", "Open stage" ],
         "times": [ ]
     },
     {
