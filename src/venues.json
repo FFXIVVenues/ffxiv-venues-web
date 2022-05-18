@@ -1571,37 +1571,6 @@
         ]
     },
     {
-        "id": "IrM6lOJj3",
-        "added": "2021-11-22T00:00:00Z",
-        "name": "The King's Bounty Cabaret",
-        "banner": "assets/banners/kings-bounty.jpg",
-        "description": [
-            "In the Kingdom of Troia, a place most Eorzeans have never heard of, let alone been to, sits a pub only accessible to those with a writ of membership.  This place is the King's Bounty Pub, and it has withstood the test of time.  Uniquely adorned with three thrones upon its stage, this pub has entertained with vivacious shows and beautiful women for generations.",
-            "Nearby the Kingdom of Troia is another virtually unheard of Kingdom to Eorzeans:  The Kingdom of Baron.  It is from this kingdom our proprietor hails from.  After spending nearly five years in Eorzea for reasons all his own, he has also built a venue similar to the pub he remembers from his homeland.",
-            "Enter The King's Bounty Cabaret.  Our goal is to entertain the masses by providing an upscale establishment, top notch entertainment, and the best staff to be found on all of Aether.  Come vibe with our DJ, see live performances, dance with your friends, try our signature drink, or perhaps spend some quality time with some of our more specialized associates.  Be treated like royalty when under our roof, but remember to act the part of a dignified and benevolent ruler.  We look forward to serving you!"
-        ],
-        "location": "Cactuar, Mist, Ward 11, Plot 35",
-        "discord": "https://discord.gg/7Qx7mnb45e",
-        "website": "https://www.kingsbountycabaret.com/",
-        "sfw": true,
-        "nsfw": true,
-        "tags": [ "Nightclub", "Photography", "Gambling", "Pillow", "Courtesans", "Tarot", "Dancers", "Food", "Drink"],
-        "contacts": [ "164211224727257089" ],
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": []
-    },
-    {
         "id": "nmLVfMzrJ",
         "added": "2022-01-03T00:00:00Z",
         "name": "Beelzebabes Den",
