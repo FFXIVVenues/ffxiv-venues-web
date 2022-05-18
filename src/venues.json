@@ -2339,37 +2339,6 @@
         "contacts": [ "207825381225529344" ]
     },
     {
-        "id": "LxbNTCRUR",
-        "added": "2022-02-19T00:00:00Z",
-        "name": "Sanctus Musica",
-        "banner": "assets/banners/sanctus-musica.jpg",
-        "description": [ 
-            "Aether's most upscale live music venue owned and operated by the band Purrfection."
-        ],
-        "location": "Jenova, Lavender Bed, Ward 17, Plot 5",
-        "discord": "https://discord.gg/X7fBcbAc6X",
-        "website": "https://purrfection-venue.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ 
-            {
-                "day": 0,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Casino", "Gambling", "Artists", "Food", "Drink", "Photography", "Open stage" ],
-        "contacts": [ "185091192113856513", "270932705246445568" ]
-    },
-    {
         "id": "fL7R6KFcx",
         "added": "2022-02-19T00:00:00Z",
         "name": "The White Dansim",
