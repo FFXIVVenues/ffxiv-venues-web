@@ -660,7 +660,7 @@
         "website": "https://clubfoxbury.carrd.co/",
         "discord": "https://discord.gg/nCHgKeexN9",
         "tags":[ "Nightclub", "Bar", "Dancers", "Bards", "Pillow", "Food", "Drink", "Photography"],
-        "contacts":["297568652855607296"],
+        "contacts":[ "297568652855607296" ],
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -2291,7 +2291,7 @@
         "contacts": [ "319271011965206530" ]
     },    
     {
-        "id": "TzHZW2Rni",
+        "id": "c14iWryws",
         "added": "2022-02-14T00:00:00Z",
         "name": "Lavender Latte Cafe",
         "banner": "assets/banners/lavender-latte.jpg",
