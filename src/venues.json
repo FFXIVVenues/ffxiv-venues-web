@@ -2093,22 +2093,6 @@
         "contacts": [ "216704768381288448", "406997738488594443" ]
     },
     {
-        "id": "gJIW0NYBh",
-        "added": "2022-02-03T00:00:00Z",
-        "name": "Atlantis",
-        "banner": "assets/banners/atlantis.jpg",
-        "description": [ "An LGBTQ+ Friendly, All-Inclusive FF14 Venue! Come relax. get a drink, dance, and have fun with our courtesans~" ],
-        "location": "Jenova, Goblet, Ward 6, Plot 5",
-        "discord": "https://discord.gg/DNYP7vqmdc",
-        "website": "https://atlantisxiv.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ ],
-        "exceptions": [],
-        "tags": [ "Lounge", "Courtesans", "Dancers", "Bards", "Food", "Drink" ],
-        "contacts": [ "712464990551932989" ]
-    },
-    {
         "id": "FKRrQI0tM",
         "added": "2022-02-07T00:00:00Z",
         "name": "Maple Bear Tavern",
