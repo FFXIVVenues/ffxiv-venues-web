@@ -4027,17 +4027,17 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 6,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
