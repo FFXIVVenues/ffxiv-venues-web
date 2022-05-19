@@ -4623,7 +4623,7 @@
             }
         ],
         "exceptions": [ ],
-        "contacts": [ "" ],
+        "contacts": [ "897201514580410369" ],
         "comments": [  ]
     },
     {
@@ -5808,6 +5808,42 @@
         ],
         "exceptions": [ ],
         "contacts": [ "157371855093628928" ],
+        "comments": [  ]
+    },
+    {
+        "id": "MiQGGRJFq",
+        "added": "2022-05-19T02:00:00Z",
+        "name": "Branches of Yggdrasil",
+        "banner": "assets/banners/branches-of-yggdrasil.jpg",
+        "description": [ 
+            "Branches of Yggdrasil is a welcoming and relaxing atmosphere. We strive to make sure that all are welcomed. That the roleplay have a nice get away from huge crowds or a place to relax after a long adventure!"
+        ],
+        "location": "Jenova, Mist, Ward 7, Plot 37",
+        "website": "https://branchesofyggdrasill.ju.mp/",
+        "discord": "https://discord.gg/fkAcp9phHm",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Bar", "Bath house", "Courtesans", "Bards", "Food", "Drink", "Open stage", "VIP", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 0,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "96148608113471488" ],
         "comments": [  ]
     }
 ]
