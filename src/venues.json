@@ -2338,35 +2338,6 @@
         "contacts": [ "207825381225529344" ]
     },
     {
-        "id": "fL7R6KFcx",
-        "added": "2022-02-19T00:00:00Z",
-        "name": "The White Dansim",
-        "banner": "assets/banners/white-dansim.jpg",
-        "description": [ 
-            ""
-        ],
-        "location": "Siren, Goblet, Ward 24, Plot 38",
-        "discord": "https://discord.gg/pgDrwezt",
-        "website": "https://thewhitedansim.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ 
-            {
-                "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Dancers", "Pillow", "Bards", "Food", "Drink" ],
-        "contacts": [ "278653203229442058" ]
-    },
-    {
         "id": "ilSTcMddp",
         "added": "2022-02-19T00:00:00Z",
         "name": "The Loveless Bar",
