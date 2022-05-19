@@ -679,46 +679,6 @@
         ]
     },
     {
-        "id": "V3HlveUz",
-        "added": "2021-09-05T00:00:00Z",
-        "name": "Sugar Rush",
-        "banner": "assets/banners/sugarrush.jpg",
-        "description": [ "Join us for sweet treats, live music and the comfiest experience you'll find!" ],
-        "location": "Jenova, Lavender Beds, Ward 23, Plot 35",
-        "shard": "Lavender South Subdivision",
-        "website": "https://sugar-ru.sh/",
-        "discord": "http://discord.sugar-ru.sh/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 7, "minute": 30, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 7, "minute": 30, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 7, "minute": 30, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 7, "minute": 30, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 7, "minute": 30, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "iQSQFxC1",
         "added": "2021-09-09T00:00:00Z",
         "name": "ChocoKisses",
@@ -5716,8 +5676,8 @@
         "name": "DICE",
         "banner": "assets/banners/dice.jpg",
         "description": [ 
-            "DICE is a KPOP performance group that hosts a SFW club, providing a social space and experience found nowhere else in Eorzea. Upon entry, guests will be able to enjoy a masterful display of interior designing by one of Aether's most talented housing designers. The furnishing arrangement found within DICE provides seven various group seating areas to accommodate groups of guests, excluding the bar itself. While waiting for performances to begin, guests and fans alike can peruse the house menu from our custom domain with signature refreshments made by all Idols and Staff. Throughout the entirety of the night, the house DJ will be providing an upbeat set of KPOP music to provide just the right ambiance one would expect when walking through the doors of DICE.",
-            "All services and refreshments provided by the house are at absolutely no expense, as we thrive on expressing and sharing creativity above all else within the venue. DICE welcomes guests and fans alike to enjoy the shows presented by its Idols, the social showmanship of its Support Staff, and the pleasant company of their peers."
+            "DICE is a KPOP performance group that hosts a SFW club, providing a social space and experience found nowhere else in Eorzea. While waiting for performances to begin, guests and fans alike can peruse the house menu from our custom domain with signature refreshments made by all Idols and Staff. Throughout the entirety of the night, the house DJ will be providing an upbeat set of KPOP music to provide just the right ambiance one would expect when walking through the doors of DICE.",
+            "All services and refreshments provided by the house are... on the house! Ultimately, your experience matters most to us, so we welcome all guests, fans, and friends alike to enjoy the shows presented by our Idols, the social showmanship of the Support Staff, and the pleasant company of their peers."
         ],
         "location": "Cactuar, Goblet, Ward 19, Plot 8",
         "website": "https://www.club-dice.com/",
