@@ -5078,7 +5078,7 @@
         "added": "2022-04-30T00:00:00Z",
         "name": "Cafe Blackjack",
         "banner": "assets/banners/cafe-blackjack.jpg",
-        "description": [ "Classy comfortable Cafe & Casino with an open bard stage. Starting with a soft opening on Monday night, May 2nd, Midnight - 3am. The Duplets will be performing live." ],
+        "description": [ "Classy comfortable Cafe & Casino with an open bard stage. Starting with a soft opening on Monday night, May 2nd, Midnight - 3am. The Four Seasons will be performing live." ],
         "location": "Jenova, Mist, Ward 15, Plot 2",
         "website": "https://cafeblackjack.carrd.co/",
         "discord": "https://discord.gg/FQMqAV9PKj",
@@ -5086,7 +5086,18 @@
         "nsfw": false,
         "tags": [ "Cafe", "Casino", "Gambling", "Bards", "Food", "Drink", "Open stage" ],
         "notices": [  ],
-        "times": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
         "exceptions": [ ],
         "contacts": [ "256908428780240897", "126714515558629376" ],
         "comments": [  ]
