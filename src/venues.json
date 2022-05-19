@@ -3855,7 +3855,7 @@
         "location": "Sargatanas, Lavender Beds, Ward 13, Plot 13",
         "sfw": true,
         "nsfw": true,
-        "discord": "https://discord.gg/uatcExXc9g",
+        "discord": "https://discord.gg/r2sP8Hj8MM",
         "times": [
             {
                 "day": 1,
@@ -5759,7 +5759,7 @@
     },
     {
         "id": "el7wd1ohJ",
-        "added": "2022-05-19T01:00:00Z",
+        "added": "2022-05-19T00:50:00Z",
         "name": "Tart's Treats",
         "banner": "assets/banners/tarts-treats.jpg",
         "description": [ "(SFW RP) A sweet little café owned and run by the lalafellin T'art family!" ],
@@ -5779,6 +5779,33 @@
         ],
         "exceptions": [ ],
         "contacts": [ "278344843783307267" ],
+        "comments": [  ]
+    },
+    {
+        "id": "IaCitJALO",
+        "added": "2022-05-19T01:00:00Z",
+        "name": "DICE",
+        "banner": "assets/banners/dice.jpg",
+        "description": [ 
+            "DICE is a KPOP performance group that hosts a SFW club, providing a social space and experience found nowhere else in Eorzea. Upon entry, guests will be able to enjoy a masterful display of interior designing by one of Aether's most talented housing designers. The furnishing arrangement found within DICE provides seven various group seating areas to accommodate groups of guests, excluding the bar itself. While waiting for performances to begin, guests and fans alike can peruse the house menu from our custom domain with signature refreshments made by all Idols and Staff. Throughout the entirety of the night, the house DJ will be providing an upbeat set of KPOP music to provide just the right ambiance one would expect when walking through the doors of DICE.",
+            "All services and refreshments provided by the house are at absolutely no expense, as we thrive on expressing and sharing creativity above all else within the venue. DICE welcomes guests and fans alike to enjoy the shows presented by its Idols, the social showmanship of its Support Staff, and the pleasant company of their peers."
+        ],
+        "location": "Cactuar, Goblet, Ward 19, Plot 8",
+        "website": "https://www.club-dice.com/",
+        "discord": "https://discord.gg/PdEdJppPXV",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Lounge", "Dancers", "Twitch DJ", "Food", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "157371855093628928" ],
         "comments": [  ]
     }
 ]
