@@ -3859,39 +3859,6 @@
         "contacts": [ "338528566549413898" ]
     },
     {
-        "id": "WuPAF2yI2",
-        "added": "2022-03-29T00:00:00Z",
-        "name": "Cabaret de Fufu",
-        "banner": "assets/banners/cabaret-de-fufu.jpg",
-        "description": [ 
-            "Cabaret de Fufu will be a cabaret style comedy club / restaurant / bar / concert / open-mic night kinda joint. The theme changes every week! Guests will experience a night of performance and fine dining; only the finest at Cabaret de Fufu. While the cabaret may be small, it will be packed full of life and merriment.",
-            "There will also be special services some nights, such as a tarot card reader."
-         ],
-        "location": "Jenova, Goblet, Ward 22, Plot 44",
-        "discord": "https://discord.gg/Et8fazBSta", 
-        "website": "https://www.cabaretdefufu.com/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ 
-            {
-                "start": "2022-04-01T00:00Z",
-                "end": "2022-04-10T00:00Z",
-                "hide": true
-            }
-        ],
-        "notices": [  ],
-        "tags": [ "Cafe", "Lounge", "Bards", "Tarot", "Food", "Drink", "Open stage" ],
-        "comments": [  ],
-        "contacts": [ "159492084963737600" ]
-    },
-    {
         "id": "Z9r1fwPzF",
         "added": "2022-03-29T00:00:00Z",
         "name": "Big Boys Sushi Bar",
