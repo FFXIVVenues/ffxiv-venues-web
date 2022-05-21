@@ -4068,13 +4068,8 @@
         "discord": "https://discord.gg/m9U3cw9N3b",
         "times": [
             {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
