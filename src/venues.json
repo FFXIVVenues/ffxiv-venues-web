@@ -3712,11 +3712,11 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
