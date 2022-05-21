@@ -2235,7 +2235,7 @@
             }
         ],
         "exceptions": [],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open Stage", "VIP" ],
+        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open stage", "VIP" ],
         "contacts": [ "210578573684244480" ]
     },
     {
@@ -5688,6 +5688,35 @@
         ],
         "exceptions": [ ],
         "contacts": [ "96148608113471488" ],
+        "comments": [  ]
+    },
+    {
+        "id": "olIC0lMyG",
+        "added": "2022-05-21T19:08:00Z",
+        "name": "EQUILIBRIUM",
+        "banner": "assets/banners/equilibrium.jpg",
+        "description": [ "Seeking balance? Look no further than EQUILIBRIUM! Open every Tuesday and Friday, we offer a chill setting on Tuesdays and a different performance/theme every Friday. Our bar is fully stocked and our gambling table is always hopping. Come check us out!" ],
+        "location": "Cactuar, Empyreum, Ward 2, Plot 28",
+        "website": "https://equilibriumffxiv.carrd.co/",
+        "discord": "https://discord.gg/372Dsmvavk",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Bar", "Gambling", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "227876479059361793" ],
         "comments": [  ]
     }
 ]
