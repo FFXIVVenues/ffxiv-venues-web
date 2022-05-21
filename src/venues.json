@@ -3892,13 +3892,7 @@
         "sfw": true,
         "nsfw": false,
         "website": "https://thirdtarot.carrd.co/",
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
-            }
-        ],
+        "times": [ ],
         "exceptions": [ ],
         "notices": [  ],
         "tags": [ "Lounge", "Tarot" ],
