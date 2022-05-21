@@ -5692,7 +5692,7 @@
     },
     {
         "id": "olIC0lMyG",
-        "added": "2022-05-21T19:08:00Z",
+        "added": "2022-05-21T18:08:00Z",
         "name": "EQUILIBRIUM",
         "banner": "assets/banners/equilibrium.jpg",
         "description": [ "Seeking balance? Look no further than EQUILIBRIUM! Open every Tuesday and Friday, we offer a chill setting on Tuesdays and a different performance/theme every Friday. Our bar is fully stocked and our gambling table is always hopping. Come check us out!" ],
@@ -5721,7 +5721,7 @@
     },
     {
         "id": "HMcLiJ4CB",
-        "added": "2022-05-21T19:43:00Z",
+        "added": "2022-05-21T18:43:00Z",
         "name": "Club Evergreen",
         "banner": "assets/banners/club-evergreen.jpg",
         "description": [ "A meme-friendly venue for players who wish to clown around. We're laid back: pull out your minions, talk how you want (no strict RP dialogue format), and run around ALL parts of the club (no VIP restricted access)." ],
@@ -5746,6 +5746,66 @@
         ],
         "exceptions": [ ],
         "contacts": [ "397226236201402371" ],
+        "comments": [  ]
+    },
+    {
+        "id": "Yclf2F0f0",
+        "added": "2022-05-21T19:51:00Z",
+        "name": "Sandglass Cafe",
+        "banner": "assets/banners/sandglass-cafe.jpg",
+        "description": [ 
+            "The Sandglass Cafe is a small back-alley shop where adventurers, book enthusiasts, and lovers of romance novels of all kinds to hang their hats, enjoy some treats and company in a relaxing environment. This venue is SFW and beginner-friendly for RP learning. ",
+            "We also run Sketch Night on the first opening of every month where the venue owner (Meia) will be sketching guests who visit the establishment and stream the process on Twitch."
+        ],
+        "location": "Siren, Lavender Beds, Ward 22, Apt 7",
+        "website": "https://sandglasscafe.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Artists", "Food", "Drink", "Open stage", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "224694838442852353" ],
+        "comments": [  ]
+    },
+    {
+        "id": "V879DHP7r",
+        "added": "2022-05-21T20:51:00Z",
+        "name": "The Snow Lily",
+        "banner": "assets/banners/snow-lily.jpg",
+        "description": [ "18+ Venue, split into both nightclub on mondays and cozy cafe on other days. A place to have fun and to relax." ],
+        "location": "Siren, Mist, Ward 7, Plot 1",
+        "website": "https://snow-lily-official.carrd.co/",
+        "discord": "https://www.discord.gg/wNcPwZeYQu",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Cafe", "Dancers", "Food", "Drink", "Photography", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 20, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "208659263030034432" ],
         "comments": [  ]
     }
 ]
