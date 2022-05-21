@@ -5718,5 +5718,34 @@
         "exceptions": [ ],
         "contacts": [ "227876479059361793" ],
         "comments": [  ]
+    },
+    {
+        "id": "HMcLiJ4CB",
+        "added": "2022-05-21T19:43:00Z",
+        "name": "Club Evergreen",
+        "banner": "assets/banners/club-evergreen.jpg",
+        "description": [ "A meme-friendly venue for players who wish to clown around. We're laid back: pull out your minions, talk how you want (no strict RP dialogue format), and run around ALL parts of the club (no VIP restricted access)." ],
+        "location": "Jenova, Empyreum, Ward 3, Plot 12",
+        "website": "https://clubevergreen.carrd.co/",
+        "discord": "https://discord.gg/MWJHkqbMn8",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Bar", "Dancers", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "397226236201402371" ],
+        "comments": [  ]
     }
 ]
