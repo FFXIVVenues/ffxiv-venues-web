@@ -2264,7 +2264,7 @@
     {
         "id": "QA8XklV3Y",
         "added": "2022-02-19T00:00:00Z",
-        "name": "The Baker's Bakery",
+        "name": "Cafe Mi-Lanna",
         "banner": "assets/banners/bakers-bakery.jpg",
         "description": [ 
             "Warm cozy bakery with fresh baked goods offered in dine in or take out. Our staff always ready to serve you with their best smile. Our open bard stage welcomes anyone who wants to charm us with their melody.",
@@ -2276,7 +2276,13 @@
         "sfw": true,
         "nsfw": false,
         "times": [],
-        "exceptions": [],
+        "exceptions": [
+            {
+                "start": "2022-05-22T20:00Z",
+                "end": "2022-06-05T00:00Z",
+                "hide": true
+            }
+        ],
         "tags": [ "Cafe", "Food", "Drink", "Open stage", "Photography" ],
         "contacts": [ "880594476295389205" ]
     },
