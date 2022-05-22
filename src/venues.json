@@ -5868,5 +5868,34 @@
         "exceptions": [ ],
         "contacts": [ "477189863645380628" ],
         "comments": [  ]
+    },
+    {
+        "id": "J0Kv51gtR",
+        "added": "2022-05-22T03:25:00Z",
+        "name": "Lover's Lounge",
+        "banner": "assets/banners/lovers-lounge.jpg",
+        "description": [ "Dance listening to some hot tunes from our own DJ Lunabrea, indulge in one of our dancers or courts for some sfw or some nsfw fun. We have a fully stocked bar with signature drinks from our skilled bartenders! We even have an on-staff photographer for your SFW (and not so safe!!!!)" ],
+        "location": "Cactuar, Empyreum, Ward 13, Plot 51",
+        "website": "https://loverslounge.carrd.co/",
+        "discord": "https://discord.gg/rs6jhASKfE",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bath house", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "446825748741881866" ],
+        "comments": [  ]
     }
 ]
