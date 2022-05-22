@@ -4737,7 +4737,8 @@
         "banner": "assets/banners/sharlayans-secret.jpg",
         "description": [ 
             "A high class, luxury night club covered in marble and ivy, wide open spaces, and with a bright and clean style atmosphere! Features full 3 stories to utilize of the large sized house venue. Services we offer here at Sharlayan's Secret: ",
-            "Courtesans at your service, Dancers to hype the party, Live DJ's/Music streaming for your pleasure, VIP Perks/VIP area, Bar tenders to parch your thirst, future party hosting and Raffles/giveaways!" 
+            "Courtesans at your service, Dancers to hype the party, Live DJ's/Music streaming for your pleasure, VIP Perks/VIP area, Bar tenders to parch your thirst, future party hosting and Raffles/giveaways!",
+            "Twitch DJ: DJ Memoria Ephemeral"
         ],
         "location": "Jenova, Empyreum, Ward 24, Plot 22",
         "website": "https://sharlayanssecret.carrd.co/#",
@@ -5023,7 +5024,9 @@
         "added": "2022-04-30T00:00:00Z",
         "name": "Cafe Blackjack",
         "banner": "assets/banners/cafe-blackjack.jpg",
-        "description": [ "Classy comfortable Cafe & Casino with an open bard stage. Starting with a soft opening on Monday night, May 2nd, Midnight - 3am. The Four Seasons will be performing live." ],
+        "description": [ 
+            "Cafe Blackjack is an upscale establishment located on the hills of Mist. We offer our clientele a selection of different tax-free games, such as blackjack and slots. We also have a full service bar and café, featuring a cozy fireplace that we invite you to curl up in front of if you need a break. On our main stage bard performances are provided for your enjoyment by “The Four Seasons.'' Listen to their set from one of our dining tables, or watch them from above on our second floor balcony. No matter what type of evening you are looking for, our staff strives to ensure that guests have a memorable and comfortable experience. We look forward to having you with us!"
+        ],
         "location": "Jenova, Mist, Ward 15, Plot 2",
         "website": "https://cafeblackjack.carrd.co/",
         "discord": "https://discord.gg/FQMqAV9PKj",
@@ -5813,7 +5816,7 @@
         "added": "2022-05-21T21:24:00Z",
         "name": "Stardust",
         "banner": "assets/banners/stardust.jpg",
-        "description": [ "Fun star themed night club with gambling, drinks and awesome music" ],
+        "description": [ "Fun star themed night club with gambling, drinks and awesome music." ],
         "location": "Jenova, Empyreum, Ward 8, Plot 30",
         "website": "https://stardustnightclub.carrd.co/",
         "discord": "https://discord.gg/aDE74gyj",
@@ -5834,7 +5837,36 @@
             }
         ],
         "exceptions": [ ],
-        "contacts": [ "" ],
+        "contacts": [ "226837019337293824" ],
+        "comments": [  ]
+    },
+    {
+        "id": "YH99t99pI",
+        "added": "2022-05-22T02:45:00Z",
+        "name": "The Sunless Sea",
+        "banner": "assets/banners/sunless-sea.jpg",
+        "description": [ "18+ RP friendly, lala friendly, Late night bar." ],
+        "location": "Sargatanas, Shirogane, Ward 23, Plot 19",
+        "website": "https://sunless-sea-club.carrd.co/",
+        "discord": "https://discord.gg/xtJF9SrAfB",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Dancers", "Bards", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "477189863645380628" ],
         "comments": [  ]
     }
 ]
