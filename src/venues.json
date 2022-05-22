@@ -5807,5 +5807,34 @@
         "exceptions": [ ],
         "contacts": [ "208659263030034432" ],
         "comments": [  ]
+    },
+    {
+        "id": "akWutoOjn",
+        "added": "2022-05-21T21:24:00Z",
+        "name": "Stardust",
+        "banner": "assets/banners/stardust.jpg",
+        "description": [ "Fun star themed night club with gambling, drinks and awesome music" ],
+        "location": "Jenova, Empyreum, Ward 8, Plot 30",
+        "website": "https://stardustnightclub.carrd.co/",
+        "discord": "https://discord.gg/aDE74gyj",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
 ]
