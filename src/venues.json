@@ -5901,5 +5901,35 @@
         "exceptions": [ ],
         "contacts": [ "446825748741881866" ],
         "comments": [  ]
+    },
+    {
+        "id": "HsC2oTcic",
+        "added": "2022-05-26T19:27:00Z",
+        "name": "Parallels",
+        "banner": "assets/banners/parallels.jpg",
+        "description": [ "LGBTQ+, Kink, and BDSM friendly club with drinks and gambling~" ],
+        "location": "Faerie, Empyreum, Ward 7, Plot 60",
+        "website": "https://parallels-venue.carrd.co/",
+        "discord": "https://discord.gg/N2QXcBD3S3",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Pillow", "Bards", "Food", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "449758895779479562" ],
+        "comments": [  ]
     }
+    
 ]
