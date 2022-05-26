@@ -5930,6 +5930,39 @@
         "exceptions": [ ],
         "contacts": [ "449758895779479562" ],
         "comments": [  ]
+    },
+    {
+        "id": "dXYvJTVDj",
+        "added": "2022-05-26T20:20:00Z",
+        "name": "Shadowsong",
+        "banner": "assets/banners/shadowsong.jpg",
+        "description": [ 
+            "[RP/NSFW-18+] Club with Gamba, Drinks, & DJ!",
+            "Grab a drink, sit back and relax or show off your moves on the dance floor!"
+        ],
+        "location": "Faerie, Mist, Ward 21, Plot 59",
+        "website": "https://shadowsong.carrd.co",
+        "discord": "https://discord.gg/shadowsong",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Drink", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 8, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 8, "minute": 0, "nextDay": true },
+                "end": { "hour": 12, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "128697977228230656" ],
+        "comments": [  ]
     }
+    
     
 ]
