@@ -3117,46 +3117,6 @@
         "contacts": [ "171068461181566976" ]
     },
     {
-        "id": "eVDaws0nh",
-        "added": "2022-03-13T00:00:00Z",
-        "name": "BlueBird",
-        "banner": "assets/banners/bluebird.jpg",
-        "description": [ 
-            "Sit and focus while enjoying the ambience of a rooftop lounge."
-        ],
-        "location": "Gilgamesh, Mist, Ward 13, Plot 8",
-        "sfw": true,
-        "nsfw": false,
-        "times": [ ],
-        "exceptions": [ ],
-        "notices": [ ],
-        "tags": [ "Lounge", "Void", "Bards", "Open stage" ],
-        "contacts": [ "193451555649748992" ]
-    },
-    {
-        "id": "oT7smIIzP",
-        "added": "2022-03-13T00:00:00Z",
-        "name": "Spaget",
-        "banner": "assets/banners/spaget.jpg",
-        "description": [ ],
-        "location": "Gilgamesh, Mist, Ward 13, Plot 7",
-        "sfw": true,
-        "nsfw": false,
-        "website": "https://spaget2112.crd.co/",
-        "discord": "https://discord.gg/RvscZDfd6m",
-        "times": [
-            {
-                "day": 6,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-         ],
-        "exceptions": [ ],
-        "notices": [ ],
-        "tags": [ "Restaurant", "Void", "Food", "Drink", "Open stage" ],
-        "contacts": [ "193451555649748992" ]
-    },
-    {
         "id": "OdPJWtcbt",
         "added": "2022-03-13T00:00:00Z",
         "name": "Genie Bottle",
@@ -5933,7 +5893,60 @@
         "exceptions": [ ],
         "contacts": [ "128697977228230656" ],
         "comments": [  ]
+    },
+    {
+        "id": "PTe8mdF6F",
+        "added": "2022-05-27T22:57:00Z",
+        "name": "Fire & Ice",
+        "banner": "assets/banners/fire-and-ice.jpg",
+        "description": [ "Fire & Ice! Designed with two contrasting themes under one roof! Each side represents Fire and Ice respectively. Get cozy and warm up amidst our frosty themed Ice side, or relax amongst the comforting flames of our Fire side. Open for all events, including Glamour competitions, Trivia night, Barding performances, and DJ events. We look forward to seeing you at Fire & Ice!" ],
+        "location": "Cactuar, Empyrean, Ward 5, Plot 54",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Drink", "Open stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "412782566542934027" ],
+        "comments": [  ]
     }
+    
     
     
 ]
