@@ -2652,35 +2652,6 @@
         "contacts": [ "296466601383821312" ]
     },
     {
-        "id": "mHT67tXam",
-        "added": "2022-02-26T00:00:00Z",
-        "name": "Club Envy",
-        "banner": "assets/banners/envy.jpg",
-        "description": [ 
-            "If you’re looking for a place to enjoy great drinks, great people, and great fun, or just to relax at the end of your night, look no further because Club Envy has you covered! We offer a variety of festivities including Drinks ♥ Live Music ♥ Casino GMs ♥ Dancers! Our lovely staff look forward to seeing you here!"
-        ],
-        "location": "Siren, Empyreum, Ward 21, Plot 12",
-        "discord": "https://discord.gg/vqu7T4utVH",
-        "website": "https://www.3nvy.in/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Drink", "Photography" ],
-        "contacts": [ "473614419130318848" ]
-    },
-    {
         "id": "K0TmBCK96",
         "added": "2022-02-26T00:00:00Z",
         "name": "The Eagle",
@@ -5184,7 +5155,7 @@
             "Come have a good time with the boyfriend, girlfriend, or partner of your choosing. Enjoy a night off of your adventures and let us help you relax for a time before going back out to the grind of saving the world!",
             "We are an LGBTQ+, SFW, and 18+ club. Your safety and well-being is our primary concern. Whether it's just to relax or make new friends, we're here for you! Enjoy some music, pleasant conversation, and have our hosts recommend drinks to you! There's always something and someone here for you at ViVid!"
          ],
-        "location": "Faerie, Empyreum, Ward 16, Apt 8",
+        "location": "Faerie, Empyreum, Ward 16, Plot 11",
         "website": "https://vividhostclub.carrd.co/#",
         "discord": "https://discord.gg/38r9ycfQ3A",
         "sfw": true,
