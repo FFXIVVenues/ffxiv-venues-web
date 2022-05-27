@@ -5950,13 +5950,13 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 8, "minute": 0, "nextDay": false },
+                "end": { "hour": 12, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 8, "minute": 0, "nextDay": true },
-                "end": { "hour": 12, "minute": 0, "nextDay": true }
+                "start": { "hour": 8, "minute": 0, "nextDay": false },
+                "end": { "hour": 12, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
