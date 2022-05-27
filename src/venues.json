@@ -5972,5 +5972,39 @@
         "exceptions": [ ],
         "contacts": [ "" ],
         "comments": [  ]
+    },
+    {
+        "id": "dtYLFGa6w",
+        "added": "2022-05-27T23:42:00Z",
+        "name": "Sami's Smol Cafe",
+        "banner": "assets/banners/samis-smol-cafe.jpg",
+        "description": [ "Its a smol cafe ^^ I am the only one that runs it! I have a open bard stage so any one can play on it at any time!! ♥" ],
+        "location": "Adamantoise, Mist, Ward 14, Plot 13",
+        "website": "https://samismolcafe.carrd.co/",
+        "discord": "https://discord.gg/UybDSejMxD",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Dancers", "Bards", "Food", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 3, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 3, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "662959561895968779" ],
+        "comments": [  ]
     }
 ]
