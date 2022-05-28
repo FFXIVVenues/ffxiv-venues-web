@@ -6183,5 +6183,29 @@
         "exceptions": [ ],
         "contacts": [ "679222083972104232" ],
         "comments": [  ]
+    },
+    {
+        "id": "iUly40KTG",
+        "added": "2022-05-28T02:00:00Z",
+        "name": "Carina's Heart",
+        "banner": "assets/banners/carinas-heart.jpg",
+        "description": [ "With a focus on the arts, Carina's Heart is a lounge that serves food and drinks with an emphasis on live music. Every Friday night we will either have the house band or guest performers put on a great show! Come for the drinks and stay for the music!" ],
+        "location": "Gilgamesh, Empyreum, Ward 23, Plot 43",
+        "website": "https://carinasheart.carrd.co",
+        "discord": "https://discord.gg/wKt7nmhJhm",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Lounge", "Bards", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "80617060391989248" ],
+        "comments": [  ]
     }
 ]
