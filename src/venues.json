@@ -6087,5 +6087,34 @@
         "exceptions": [ ],
         "contacts": [ "559424846472151066" ],
         "comments": [  ]
+    },
+    {
+        "id": "SGjXRQYou",
+        "added": "2022-05-28T01:20:00Z",
+        "name": "Hidden Hotsprings",
+        "banner": "assets/banners/hidden-hotsprings.jpg",
+        "description": [ "The Hidden Hotsprings is a relaxing late-night venue to wind down from the club scene. Relax in one of our Hotsprings, engage in conversation, and make friends." ],
+        "location": "Gilgamesh, Empypreum, Ward 17, Plot 56",
+        "website": "https://hiddenhotsprings.carrd.co/#",
+        "discord": "https://discord.gg/gg5jJQnjPs",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Bar", "Bath house", "Gambling", "Courtesans", "Bards", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "176533575758381056" ],
+        "comments": [  ]
     }
 ]
