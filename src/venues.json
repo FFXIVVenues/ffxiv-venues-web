@@ -5732,8 +5732,8 @@
         "website": "https://sunless-sea-club.carrd.co/",
         "discord": "https://discord.gg/xtJF9SrAfB",
         "sfw": true,
-        "nsfw": false,
-        "tags": [ "Bar", "Dancers", "Bards", "Drink", "Open stage" ],
+        "nsfw": true,
+        "tags": [ "Bar", "Dancers", "Courtesans", "Gambling", "Bards", "Drink", "Open stage" ],
         "notices": [  ],
         "times": [
             {
