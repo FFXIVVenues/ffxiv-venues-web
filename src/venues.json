@@ -1897,8 +1897,7 @@
         "added": "2022-01-30T00:00:00Z",
         "name": "Kari's Botanical Garden",
         "banner": "assets/banners/karis-botanical.jpg",
-        "description": [
-        ],
+        "description": [],
         "location": "Jenova, Goblet, Ward 14, Plot 55, Room 7",
         "website": "https://botanicalcafe.carrd.co/",
         "sfw": true,
