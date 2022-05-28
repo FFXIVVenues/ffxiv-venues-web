@@ -6116,5 +6116,43 @@
         "exceptions": [ ],
         "contacts": [ "176533575758381056" ],
         "comments": [  ]
+    },
+    {
+        "id": "FZeiOo5Zu",
+        "added": "2022-05-28T01:25:00Z",
+        "name": "The Tengille Tavern",
+        "banner": "assets/banners/tengille-tavern.jpg",
+        "description": [ "Located at Empyreum's Ingleside tower, we are an SFW establishment on Jenova offering our patrons both immersive and casual RP. Tucked away inside this cozy nook, you'll find good food and drink, good conversation, and a friendly, relaxed atmosphere. In addition to our tavern services, we also offer an open stage and an in-house portrait artist (when advertised). Thanks for giving us a look, and we hope to see you soon!" ],
+        "location": "Jenova, Empyreum, Ward 1, Apt 42",
+        "website": "https://tengilletavern.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Tavern", "Artists", "Food", "Drink", "Open stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 11, "minute": 0, "nextDay": false },
+                "end": { "hour": 13, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 11, "minute": 0, "nextDay": false },
+                "end": { "hour": 13, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 11, "minute": 0, "nextDay": false },
+                "end": { "hour": 13, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 11, "minute": 0, "nextDay": false },
+                "end": { "hour": 13, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "146804703227805698" ],
+        "comments": [  ]
     }
 ]
