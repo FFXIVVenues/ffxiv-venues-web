@@ -5912,8 +5912,8 @@
         "times": [
             {
                 "day": 5,
-                "start": { "hour": 5, "minute": 0, "nextDay": true },
-                "end": { "hour": 9, "minute": 0, "nextDay": true }
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
