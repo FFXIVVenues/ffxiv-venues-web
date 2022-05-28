@@ -73,6 +73,14 @@ button.venue-profile__visited-button--visited {
     overflow-y: auto;
 }
 
+.venue-profile__notice {
+    margin: 10px 0px 20px 0;
+    padding: 10px;
+    border: solid 1px var(--accent-color);
+    background-color: var(--accent-dark-color);
+    border-radius: 5px;
+}
+
 .venue-profile__heading {
     display: flex;
     align-items: center;

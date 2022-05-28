@@ -2,7 +2,6 @@ import React from "react";
 import { Time } from "../time/Time";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
-import { Notice } from "../notice/notice";
 import days from "../../consts/days.json";
 import { FavoriteIcon } from "../../components/icons/FavoriteIcon";
 import { ReactComponent as NotVisitedIcon }  from "../../assets/icons/not-visited-icon.svg";
@@ -81,6 +80,12 @@ class VenueProfile extends React.Component {
 
                 <div className="venue-profile__details">
 
+                    { this.props.venue.notices?.map((n, i) => 
+                        <div className="venue-profile__notice" key={i}>
+                            {n}
+                        </div>
+                    )}
+
                     <div className="venue-profile__heading">
                         <h2>
                             { this.props.venue.name }
@@ -90,7 +95,7 @@ class VenueProfile extends React.Component {
                     <p className="venue-profile__location">
                         { this.props.venue.location }
                     </p>
-
+                    
                     { this.props.venue.website && 
                         <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.website}>
                             <WebIcon /> 
@@ -117,10 +122,6 @@ class VenueProfile extends React.Component {
                         </article>
                     }
 
-                    { this.props.venue.notices?.map((n, i) => 
-                        <Notice summary={n} key={i} />
-                    )}
-                    
                     { (this.props.venue.times && this.props.venue.times.length > 0) &&
                         <div className="venue-profile__opening-times-wrapper">
                             <table className="venue-profile__opening-times">

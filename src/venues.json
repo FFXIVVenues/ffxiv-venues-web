@@ -5985,10 +5985,15 @@
         "sfw": true,
         "nsfw": false,
         "tags": [ "Cafe", "Dancers", "Bards", "Food", "Drink", "Photography" ],
-        "notices": [  ],
+        "notices": [ "This venue opens Monday, Wednesday, Friday one week, and Tuesday, Thursday, Saturday the next, alternating. Please check their discord to check if this venue is open before visiting." ],
         "times": [
             {
                 "day": 0,
+                "start": { "hour": 3, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 1,
                 "start": { "hour": 3, "minute": 30, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
@@ -5998,7 +6003,17 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
+                "day": 3,
+                "start": { "hour": 3, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
                 "day": 4,
+                "start": { "hour": 3, "minute": 30, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
                 "start": { "hour": 3, "minute": 30, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
@@ -6054,6 +6069,23 @@
         ],
         "exceptions": [ ],
         "contacts": [ "280214487800217610" ],
+        "comments": [  ]
+    },
+    {
+        "id": "a5CYhyd70",
+        "added": "2022-05-28T00:50:00Z",
+        "name": "The Helix Nebula",
+        "banner": "assets/banners/helix-nebula.jpg",
+        "description": [ "We are an LGBTQIA+ speakeasy club, spread by word of mouth and not set to a schedule. We tend to book once a month on a Monday evening to vibe and relax in an inclusive environment." ],
+        "location": "Adamantoise, Lavender Beds, Ward 19, Plot 5",
+        "website": "https://www.thehelixnebula.net",
+        "sfw": false,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Speakeasy", "Twitch DJ" ],
+        "notices": [  ],
+        "times": [],
+        "exceptions": [ ],
+        "contacts": [ "559424846472151066" ],
         "comments": [  ]
     }
 ]
