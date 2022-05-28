@@ -6137,13 +6137,13 @@
             },
             {
                 "day": 1,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 13, "minute": 0, "nextDay": false }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 11, "minute": 0, "nextDay": false },
-                "end": { "hour": 13, "minute": 0, "nextDay": false }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
@@ -6153,6 +6153,35 @@
         ],
         "exceptions": [ ],
         "contacts": [ "146804703227805698" ],
+        "comments": [  ]
+    },
+    {
+        "id": "ltSa9dRAV",
+        "added": "2022-05-28T01:30:00Z",
+        "name": "The Lockewood Tavern",
+        "banner": "assets/banners/lockewood-tavern.jpg",
+        "description": [ "Adventuring takes a toll, do you need a safe place to doff your heavy armor, and a cold drink? Well good news! The Lockewood Tavern will be open for drinks, supper, music, and quests to help you unwind after a long day of adventuring. Come swing by for a cold pint by the fire, relax, and enjoy some live music, and maybe go on a quest or three, for an immersive in game experience. Join our discord for RP, event nights, giveaways, and some regular updates!" ],
+        "location": "Midgardsormr, Mist, Ward 4, Plot 25",
+        "website": "https://lockewoodtavern.carrd.co/",
+        "discord": "https://discord.gg/lockewood",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Tavern", "Bards", "Tarot", "Food", "Drink", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "679222083972104232" ],
         "comments": [  ]
     }
 ]
