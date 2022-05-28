@@ -1903,13 +1903,7 @@
         "website": "https://botanicalcafe.carrd.co/",
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 6,
-                "start": { "hour": 18, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            }
-        ],
+        "times": [],
         "exceptions": [],
         "tags": [ "Cafe", "Food", "Drink", "Open stage" ],
         "contacts": [ "746942655644172388" ]
