@@ -3654,53 +3654,6 @@
         "contacts": [ "184178984689336322" ]
     },
     {
-        "id": "EnNXwKbEX",
-        "added": "2022-03-26T00:00:00Z",
-        "name": "The Frisky Kitten Cafe & Cabaret",
-        "banner": "assets/banners/frisky-kitten.jpg",
-        "description": [ "The Frisky Kitten is a beautifully decorated beachside cafe with a downstairs cabaret open stage and an upstairs spa/bathhouse. The atmosphere is warm and cozy with a hint of sophistication." ],
-        "location": "Siren, Mist, Ward 24, Plot 30",
-        "sfw": true,
-        "nsfw": true,
-        "website": "https://thefriskykitten.carrd.co/",
-        "discord": "https://discord.gg/friskykitten",
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "notices": [  ],
-        "tags": [ "Cafe", "Bath house", "Gambling", "Pillow", "Bards", "Food", "Drink" ],
-        "comments": [  ],
-        "contacts": [ "227941432541839361" ]
-    },
-    {
         "id": "Qea2wWAUv",
         "added": "2022-03-26T00:00:00Z",
         "name": "Impulse",
