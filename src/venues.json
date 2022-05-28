@@ -6006,5 +6006,54 @@
         "exceptions": [ ],
         "contacts": [ "662959561895968779" ],
         "comments": [  ]
+    },
+    {
+        "id": "KdBhUQ7We",
+        "added": "2022-05-27T23:50:00Z",
+        "name": "The Warden's Garden",
+        "banner": "assets/banners/wardens-garden.jpg",
+        "description": [ "Flowers are the jewels of the world, reminders that the journey is worth it. Florists at the Warden's Garden defend those ideals while providing a safe for work space for crafters and peace seekers. Stop by and pick up some flowers, corsages, and wristbands all tailored to you and yours. Or, find your peace under the Warden's sun-kissed shield with a nice cup of your favorite crafter tea, syrup, or draught. No matter your want or need know that in the garden, you are loved and of that you can be certain." ],
+        "location": "Siren, Lavender Beds, Ward 22, Apt 8",
+        "website": "https://wardensgarden.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Lounge", "Drink", "Photography", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "554044288594608128" ],
+        "comments": [  ]
+    },
+    {
+        "id": "GbhcqKT8w",
+        "added": "2022-05-27T23:56:00Z",
+        "name": "The Night Club",
+        "banner": "assets/banners/the-night-club.jpg",
+        "description": [ 
+            "An exclusive and luxury club experience.The Nightclub is where the stress of daily life will simply melt away with live music, drinks, people, conversations, atmosphere and an array of services. Aside from the main floors, there are five different private venues open for guests to experience be it taking pictures with friends or just finding somewhere to have downtime away from the crowds.",
+            "The Nightclub also has two in-house streamers who create a fun mix of music every week for guests to enjoy alongside occasionally offering their artistic services for giveaways and custom art guests can receive of their characters. The Nightclub aims to provide Siren with another fun venue to relax away the long hours of work and stress, so come on down and dance the night away!"
+        ],
+        "location": "Siren, Mist, Ward 5, Plot 58",
+        "website": "https://nsr-nightclub.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Bar", "Artists", "Dancers", "Twitch DJ", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "280214487800217610" ],
+        "comments": [  ]
     }
 ]
