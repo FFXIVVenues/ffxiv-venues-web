@@ -6204,7 +6204,13 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [
+            {
+                "start": "2022-05-28T00:00Z",
+                "end": "2022-05-29T00:00Z",
+                "hide": true
+            }
+        ],
         "contacts": [ "80617060391989248" ],
         "comments": [  ]
     }
