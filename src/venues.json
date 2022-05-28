@@ -3736,7 +3736,7 @@
             {
                 "day": 6,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
