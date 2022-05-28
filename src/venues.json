@@ -6213,5 +6213,30 @@
         ],
         "contacts": [ "80617060391989248" ],
         "comments": [  ]
+    },
+    {
+        "id": "WAYlD2fL7",
+        "added": "2022-05-28T02:26:00Z",
+        "name": "MYSTIQUE",
+        "banner": "assets/banners/mystique.jpg",
+        "description": [ "MYSTIQUE is a privately owned LGBTQ+ bathhouse and eatery dedicated to rejuvenate your mind, body and spirit." ],
+        "location": "Cactuar, Shirogane, Ward 4, Plot 8 ",
+        "website": "https://mystiquehome.carrd.co/",
+        "discord": "https://discord.gg/7PT2tfcCSw",
+        "sfw": false,
+        "nsfw": false,
+        "tags": [ "Restaurant", "Bath house", "Food", "Drink" ],
+        "notices": [ ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "314586813450682369" ],
+        "comments": [  ]
     }
+    
 ]
