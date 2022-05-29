@@ -6184,6 +6184,44 @@
         "exceptions": [ ],
         "contacts": [ "314586813450682369" ],
         "comments": [  ]
+    },
+    {
+        "id": "evZwgzHgM",
+        "added": "2022-05-29T03:09:00Z",
+        "name": "Lunalis",
+        "banner": "assets/banners/lunalis.jpg",
+        "description": [ 
+            "We are a Japanese-Inspired Nightclub and Bar Venue. We draw heavy inspiration from the moon and modern japanese interior design. You can see our inspiration in areas like our stage, the stars we have scattered around, our main color scheme, and more.",
+            "We are a semi-new venue. We were previously known as Eastern Paradise but, that doesn't have much of a ring to it, does it? We all made the decision to rebrand into Lunalis, along with completely stripping and redecorating the venue 3 times! And spending lots of money on new furnishing. ",
+            "We hope our efforts are visible to you, and that our little venue is a wonderful experience! ",
+            "So, come visit Lunalis, and bathe under the Moonlight with us!"
+         ],
+        "location": "Faerie, Goblet, Ward 21, Plot 35",
+        "website": "https://lunalis.carrd.co/",
+        "discord": "https://discord.gg/wX2krccr5U",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Nightclub", "Food", "Drink", "Dancers", "Bards", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "82345866706292736", "862162888713175041" ],
+        "comments": [  ]
     }
-    
 ]
