@@ -1031,31 +1031,6 @@
         ]
     },
     {
-        "id": "GZYlZUamp",
-        "added": "2021-10-13T00:00:00Z",
-        "name": "Moodlift Cuddle Corner",
-        "banner": "assets/banners/moodlift-cuddle-corner.jpg",
-        "description": [ "The Moodlift Cuddle Corner is the late night, ultra-romantic, home of warm and soft things. Like stepping inside a marshmellow. Soft, cozy, sweet." ],
-        "location": "Faerie, Mist, Ward 2, Plot 43",
-        "shard": "Central Mist Subdivision",
-        "website": "https://moodlift.carrd.co/",
-        "tags": ["Cafe", "Food", "Drink", "Pillow"],
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "kJdUSdC0g",
         "added": "2021-10-15T00:00:00Z",
         "name": "Bella's",
