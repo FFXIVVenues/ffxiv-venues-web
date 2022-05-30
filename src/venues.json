@@ -811,7 +811,11 @@
         "added": "2021-09-21T00:00:00Z",
         "name": "Forgotten Sonata",
         "banner": "assets/banners/forgotten-sonata.jpg",
-        "description": [ "Welcome to Forgotten Sonata! With a relaxing atmosphere, wonderful live music, and a fully stocked bar, we look forward to getting to serve and know all our current (and potential) patrons! Feel free to stop by for our photobooth partner, Misty Shores, and nightly raffle for different prizes each night!" ],
+        "description": [ 
+            "Forgotten Sonata is a strictly SFW venue, made for weary wanderers, and adventurers alike, to sit back, relax, and enjoy your time with us to the fullest extent.",
+            "Opened in September 2021, we have helped to provide a small hub for the building of a variety of new relationships and affiliations. The community has always needed a place to help unwind and be yourself at, free from any judgements. We intend to do whatever we possibly can to make sure that this is one of those places you feel that way at, and absolutely encourage you to RP to your hearts desire.",
+            "Whether you are new to the RP scene, or a veteran, you will always have a saved spot with us."
+        ],
         "location": "Midgardsormr, Shirogane, Ward 22, Plot 39",
         "website": "https://forgottensonata.carrd.co/",
         "discord": "https://discord.gg/H4kNsmMReH",
@@ -820,11 +824,6 @@
         "sfw": true,
         "nsfw": false,
         "times": [
-            {
-                "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
             {
                 "day": 6,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
