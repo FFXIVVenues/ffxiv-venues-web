@@ -1072,6 +1072,7 @@
         "location": "Siren, Goblet, Ward 24, Plot 25",
         "shard": "Goblet East",
         "website": "https://idiotbar.carrd.co/",
+        "discord": "https://discord.com/invite/skuMNaw9rZ",
         "sfw": true,
         "nsfw": false,
         "times": [
@@ -1080,7 +1081,7 @@
                 "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
-                "day": 1,
+                "day": 4,
                 "start": { "hour": 7, "minute": 0, "nextDay": true }
             },
             {
