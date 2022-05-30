@@ -926,18 +926,7 @@
         "contacts": [ "320135049435676672" ],
         "sfw": true,
         "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ],
+        "times": [],
         "exceptions": [
             {
                 "start": "2021-12-01T00:00Z",
