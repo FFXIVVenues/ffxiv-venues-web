@@ -2334,9 +2334,9 @@
         "name": "Cats Meownge",
         "banner": "assets/banners/cats-meownge.jpg",
         "description": [ 
-            "The Cats Meownge was created for all Eorzeans to enjoy! From the social butterflies to those just looking to enjoy the scenery!",
-            "We pride ourselves on being a unique, delightful, and old fashioned venue themed around one of mans best friends, CATS.",
-            "Owned by Artyc Rose and Managed by Katsuki Bakugou, Skamos Firebrand, Felix Lock, & Jax Strife."
+            "For those looking to have fun, gamble, dance, or more.",
+            "A modern atmosphere & killer dance floor, we provide an exclusive and unique experience for all Eorzeans looking to spend the night with us.",
+            "From the hype of the DJs to our Bottle Service we're sure to provide an experience for any and all who wish to purrr their night away."
         ],
         "location": "Siren, Lavender Beds, Ward 21, Plot 6",
         "discord": "https://discord.gg/7zRqj8rfB4",
@@ -2345,9 +2345,14 @@
         "nsfw": true,
         "times": [ 
             {
-                "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
+                "day": 0,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
