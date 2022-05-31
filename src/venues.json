@@ -3179,7 +3179,7 @@
         "description": [ 
             "Tatsu Onsen is the largest shrine to Tatsugami! We value his views! As such we look to providing a place of comfort and fun! In this case we are a Bathhouse! We offer food and entertainment currently in the form of dances and cooking shows!"
         ],
-        "location": "Migardsormr, Mist, Ward 10, Plot 17",
+        "location": "Migardsormr, Empyreum, Ward 4, Plot 38",
         "website": "https://tatsuonsen.carrd.co/",
         "discord": "https://discord.gg/5y2wqKwC5t",
         "sfw": true,
@@ -3196,7 +3196,13 @@
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
          ],
-        "exceptions": [  ],
+        "exceptions": [ 
+            {
+                "start": "2022-05-31T00:00Z",
+                "end": "2022-06-14T00:00Z",
+                "hide": true
+            }
+        ],
         "notices": [  ],
         "tags": [ "Bar", "Bath house", "Dancers", "Drink", "Courtesans" ],
         "comments": [  ],
@@ -5730,6 +5736,11 @@
         "notices": [  ],
         "times": [
             {
+                "day": 0,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
                 "day": 2,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
@@ -5738,6 +5749,11 @@
                 "day": 5,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
