@@ -3645,7 +3645,7 @@
         "name": "Impulse",
         "banner": "assets/banners/impulse.jpg",
         "description": [ "Welcome to impulse were an inclusive lgbtqia+ owned and operated venue. if you're looking for a place to enjoy great drinks, great people, GAMBA, or to just relax look no further. We are always ready to meet new friends and make connections. Open Tuesday and Wednesday 8pm EST - 12am EST" ],
-        "location": "Sargatanas, Lavender Beds, Ward 13, Plot 13",
+        "location": "Sargatanas, Lavender Beds, Ward 9, Plot 60",
         "sfw": true,
         "nsfw": true,
         "discord": "https://discord.gg/r2sP8Hj8MM",
@@ -3661,7 +3661,13 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-05-31T00:00Z",
+                "end": "2022-06-14T00:00Z",
+                "hide": true
+            }            
+        ],
         "notices": [  ],
         "tags": [ "Lounge", "Casino", "Gambling", "Hosts", "Twitch DJ", "Drink", "Photography", "VIP" ],
         "comments": [  ],
