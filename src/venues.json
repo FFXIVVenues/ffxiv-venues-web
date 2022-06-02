@@ -5438,7 +5438,7 @@
             }
         ],
         "exceptions": [ ],
-        "contacts": [ "203319999450841108" ],
+        "contacts": [ "180853388949323777", "203319999450841108" ],
         "comments": [  ]
     },
     {
@@ -6118,7 +6118,13 @@
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-06-01T00:00Z",
+                "end": "2022-06-04T00:00Z",
+                "hide": true
+            }            
+        ],
         "contacts": [ "679222083972104232" ],
         "comments": [  ]
     },
