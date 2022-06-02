@@ -4668,17 +4668,7 @@
         "nsfw": false,
         "tags": [ "Bar", "Lounge", "Bards", "Food", "Drink" ],
         "notices": [  ],
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 2, "minute": 30, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ],
+        "times": [],
         "exceptions": [ ],
         "contacts": [ "832003212604211200" ],
         "comments": [  ]
