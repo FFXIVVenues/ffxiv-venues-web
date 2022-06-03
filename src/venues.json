@@ -6347,7 +6347,37 @@
         "exceptions": [ ],
         "contacts": [ "627291439143059486" ],
         "comments": [  ]
+    },
+    {
+        "id": "kWA6vuT0Y",
+        "added": "2022-06-03T18:45:00Z",
+        "name": "Spicy Lanterns",
+        "banner": "assets/banners/spicy-lanterns.jpg",
+        "description": [ 
+            "We are a new Othardian theme fusion restaurant offering our guests the most immersive dining experience as well as the best tasting dishes around! Each dish comes with its own unique tabletop item for that extra immersiveness, and food role play is strongly encouraged here!",
+            "We also house an open stage so we welcome all bards to play their tunes for us~"
+        ],
+        "location": "Sargatanas, Empyreum, Ward 9, Plot 8",
+        "website": "https://spicylanterns.carrd.co/#menu",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Restaurant", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "451463103670910978" ],
+        "comments": [  ]
     }
-    
     
 ]
