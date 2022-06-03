@@ -6230,5 +6230,35 @@
             }
         ],
         "contacts": [ "185091192113856513" ]
+    },
+    {
+        "id": "IZZJ2Wjje",
+        "added": "2022-06-03T17:36:00Z",
+        "name": "The Weary Wanderer",
+        "banner": "assets/banners/weary-wanderer.jpg",
+        "description": [ 
+            "Looking for a place to relax after a long week of adventuring? Stop by The Weary Wanderer! We offer an unparalleled fairytale environment where you’ll be questioning whether or not you’ve fallen asleep!",
+            "We have a menu filled to the brim with HQ items that are sure to satisfy your adventuring needs. There’s a little something for everyone, even new adventurers who are strapped for Gil~",
+            "Want pictures to help remember this night forever? Our resident Photographer, Candi, will take your photo for free, but tips are highly encouraged!",
+            "Close your eyes and become enveloped by the enchanting music of our resident Bard, Malaika, who will play you music so enticing you’ll be embraced by an everlasting daydream~",
+            "Above all, find yourself in the company of a safe and welcoming environment for peoples of all creeds. The Weary Wanderer is your home away from home, so kick back, have a drink, share a story or two, and make new friends and memories that could last a lifetime~"
+         ],
+        "location": "Faerie, Empyreum, Ward 12, Plot 52",
+        "website": "https://ww-menu.carrd.co/",
+        "discord": "https://discord.gg/K722rK9udh",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Lounge", "Dancers", "Bards", "Food", "Drink", "Photography", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "595893938297110538" ],
+        "comments": [  ]
     }
 ]
