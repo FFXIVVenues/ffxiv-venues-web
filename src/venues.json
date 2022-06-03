@@ -2605,19 +2605,14 @@
         "nsfw": false,
         "times": [
             {
-                "day": 4,
+                "day": 1,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             },
             {
-                "day": 6,
+                "day": 3,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 0,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
