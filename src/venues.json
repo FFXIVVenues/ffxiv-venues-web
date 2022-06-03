@@ -6260,5 +6260,37 @@
         "exceptions": [ ],
         "contacts": [ "595893938297110538" ],
         "comments": [  ]
+    },
+    {
+        "id": "WqULH6CYv",
+        "added": "2022-06-03T17:47:00Z",
+        "name": "Onion Knights Lodge",
+        "banner": "assets/banners/onion-knights-lodge.jpg",
+        "description": [
+            "A Onion Knight theme tavern. If you're weary or battle worn, come seek out the Onion Sworn.", 
+            "Onion Knights (blue or black helms) eat and drink free!" 
+        ],
+        "location": "Midgardsormr, Lavender Beds, Ward 20, Plot 40",
+        "website": "https://onightknightslodge.carrd.co/#three",
+        "discord": "https://discord.gg/JD9dAaBA5S",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "120022731558223873" ],
+        "comments": [  ]
     }
 ]
