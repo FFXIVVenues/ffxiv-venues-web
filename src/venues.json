@@ -2876,13 +2876,7 @@
         "discord": "https://discord.gg/sUm2GBq",
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ],
+        "times": [],
         "exceptions": [ ],
         "tags": [ "Tavern", "Bath house", "Dancers", "Bards", "Food", "Drink" ],
         "contacts": [ "259559436077629460", "349693545315041280" ]
