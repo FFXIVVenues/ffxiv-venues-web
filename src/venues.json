@@ -1584,7 +1584,7 @@
             "Eden's Corner is a dark, floral Nightclub/Lounge that offers a variety of services such as a fully stocked bar, an in-house DJ, bards, a dancefloor and much more! We welcome all to an atmosphere where you can be yourself and let go~",
             "Eden's Corner. Your home away from home :)"
         ],
-        "location": "Faerie, Goblet, Ward 3, Plot 2",
+        "location": "Faerie, Empyreum, Ward 10, Plot 8",
         "discord": "https://discord.gg/tyYdrestJH",
         "website": "https://ecofficialmenu.carrd.co/",
         "sfw": true,
@@ -2605,19 +2605,14 @@
         "nsfw": false,
         "times": [
             {
-                "day": 4,
+                "day": 1,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             },
             {
-                "day": 6,
+                "day": 3,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 0,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 2, "minute": 0, "nextDay": true }
+                "end": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -3215,7 +3210,7 @@
         "description": [ 
             "A completely normal Locker Room, come on down and get changed in a place where privacy is definitely not guaranteed."
         ],
-        "location": "Siren, Mist, Ward 1, Plot 11",
+        "location": "Siren, Goblet, Ward 23, Plot 55",
         "website": "https://thelockerroom.carrd.co/#",
         "discord": "https://discord.gg/udbytkwEQk",
         "sfw": true,
@@ -6200,9 +6195,9 @@
             "Additionally, we hope to offer our friends, as well as the Aether barding community at large open access to my former project, the band formerly known as Purrfection's full (original) music catalog, along with instrument combos, in the small hopes of giving a piece back that you have all given to us via your support over the past year.",
             "The Faculty and EMI will be hosting regular public gatherings, starting with our weekly open mic night on our one of a kind main stage, every Thursday evening in our student lounge and concert hall, downstairs at the main campus. We look forward to cultivating the growth of the Aether barding scene with each and every one of you."
         ],
-        "location": "Adamantoise, Shirogane, Ward 11, Plot 24 ",
+        "location": "Adamantoise, Shirogane, Ward 11, Plot 24",
         "website": "https://emi.ju.mp/",
-        "discord": "discord.gg/eorzeanmusicinstitute",
+        "discord": "https://discord.gg/eorzeanmusicinstitute",
         "sfw": true,
         "nsfw": false,
         "tags": [ "Bar", "Lounge", "Gambling", "Artists", "Bards", "Twitch DJ", "Drink", "Photography", "Open stage" ],
@@ -6214,5 +6209,177 @@
             }
         ],
         "contacts": [ "185091192113856513" ]
+    },
+    {
+        "id": "IZZJ2Wjje",
+        "added": "2022-06-03T17:36:00Z",
+        "name": "The Weary Wanderer",
+        "banner": "assets/banners/weary-wanderer.jpg",
+        "description": [ 
+            "Looking for a place to relax after a long week of adventuring? Stop by The Weary Wanderer! We offer an unparalleled fairytale environment where you’ll be questioning whether or not you’ve fallen asleep!",
+            "We have a menu filled to the brim with HQ items that are sure to satisfy your adventuring needs. There’s a little something for everyone, even new adventurers who are strapped for Gil~",
+            "Want pictures to help remember this night forever? Our resident Photographer, Candi, will take your photo for free, but tips are highly encouraged!",
+            "Close your eyes and become enveloped by the enchanting music of our resident Bard, Malaika, who will play you music so enticing you’ll be embraced by an everlasting daydream~",
+            "Above all, find yourself in the company of a safe and welcoming environment for peoples of all creeds. The Weary Wanderer is your home away from home, so kick back, have a drink, share a story or two, and make new friends and memories that could last a lifetime~"
+         ],
+        "location": "Faerie, Empyreum, Ward 12, Plot 52",
+        "website": "https://ww-menu.carrd.co/",
+        "discord": "https://discord.gg/K722rK9udh",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Lounge", "Dancers", "Bards", "Food", "Drink", "Photography", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "595893938297110538" ],
+        "comments": [  ]
+    },
+    {
+        "id": "WqULH6CYv",
+        "added": "2022-06-03T17:47:00Z",
+        "name": "Onion Knights Lodge",
+        "banner": "assets/banners/onion-knights-lodge.jpg",
+        "description": [
+            "A Onion Knight theme tavern. If you're weary or battle worn, come seek out the Onion Sworn.", 
+            "Onion Knights (blue or black helms) eat and drink free!" 
+        ],
+        "location": "Midgardsormr, Lavender Beds, Ward 20, Plot 40",
+        "website": "https://onightknightslodge.carrd.co/#three",
+        "discord": "https://discord.gg/JD9dAaBA5S",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "120022731558223873" ],
+        "comments": [  ]
+    },
+    {
+        "id": "HQELYgdEZ",
+        "added": "2022-06-03T17:57:00Z",
+        "name": "Moist Manor",
+        "banner": "assets/banners/moist-manor.jpg",
+        "description": [ "Looking to play out your most realistic RP experiences? Want to just dance? Looking for rentable designer rooms? We've got everything to wet your taste buds~" ],
+        "location": "Faerie, Empyreum, Ward 9, Plot 18",
+        "website": "https://moistmanor.carrd.co",
+        "discord": "https://discord.gg/kxayHwdHUY",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Casino", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Food", "Drink", "Photography", "Open stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "191367818418192384" ],
+        "comments": [  ]
+    },
+    {
+        "id": "HsDMfTkIR",
+        "added": "2022-06-03T00:00:00Z",
+        "name": "The Moist Tip",
+        "banner": "assets/banners/moist-tip.jpg",
+        "description": [
+            "This evening, enter our walls and open wide for the ♥️  ❖【The Moist Tip】❖ ♥️ !!",
+            "The [18+] HOTTEST PINK and POPPIN' nightclub venue on Gilgamesh that's so moist, it'll leave you DRIPPING in GIL and DANK DRINKS! Slip into our judgment-free, welcoming to all humble abode and treat yourself to a fully loaded bar, gambling, and dancing!"
+        ],
+        "location": "Gilgamesh, Goblet, Ward 4, Plot 60",
+        "website": "https://tmtvenuemenu.carrd.co/",
+        "discord": "https://discord.gg/fYYX25d9UN",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Lounge", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Drink", "Open stage", "Novel services", "VIP" ],
+        "notices": [  ],
+        "times": [  ],
+        "exceptions": [ ],
+        "contacts": [ "627291439143059486" ],
+        "comments": [  ]
+    },
+    {
+        "id": "kWA6vuT0Y",
+        "added": "2022-06-03T18:45:00Z",
+        "name": "Spicy Lanterns",
+        "banner": "assets/banners/spicy-lanterns.jpg",
+        "description": [ 
+            "We are a new Othardian theme fusion restaurant offering our guests the most immersive dining experience as well as the best tasting dishes around! Each dish comes with its own unique tabletop item for that extra immersiveness, and food role play is strongly encouraged here!",
+            "We also house an open stage so we welcome all bards to play their tunes for us~"
+        ],
+        "location": "Sargatanas, Empyreum, Ward 9, Plot 8",
+        "website": "https://spicylanterns.carrd.co/#menu",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Restaurant", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "451463103670910978" ],
+        "comments": [  ]
+    },
+    {
+        "id": "URa4JUqh8",
+        "added": "2022-06-03T20:20:00Z",
+        "name": "Bar Minstrel",
+        "banner": "assets/banners/bar-minstrel.jpg",
+        "description": [ "Inspired by the Tokyo bar scene, this small but ambient back alley venue is sure to delight couples, wanderers, and bar-crawlers! Our drinks are inspired from izakayas from Omoide Yokochō, Roppongi, and Shinjuku. We boast one of the few Lalafell accessible bars in Jenova so you'll find yourself delighting in appropriately sized furnishings!" ],
+        "location": "Jenova, Shirogane, Ward 18, Plot 19, Room 26",
+        "website": "https://namazucrew.carrd.co/#barminstrel",
+        "discord": "https://discord.gg/9S4fn7cKCc",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Artists", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "110532973996052480" ],
+        "comments": [  ]
     }
 ]
