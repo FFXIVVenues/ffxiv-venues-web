@@ -5637,23 +5637,7 @@
         "nsfw": false,
         "tags": [ "Nightclub", "Cafe", "Dancers", "Food", "Drink", "Photography", "Open stage" ],
         "notices": [  ],
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 20, "minute": 0, "nextDay": false },
-                "end": { "hour": 23, "minute": 0, "nextDay": false }
-            }
-        ],
+        "times": [  ],
         "exceptions": [ ],
         "contacts": [ "208659263030034432" ],
         "comments": [  ]
