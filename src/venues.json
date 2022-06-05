@@ -4319,9 +4319,9 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
@@ -4336,7 +4336,7 @@
         "description": [
              "Enjoy a night out in our unique Icehouse. From trivia nights to battling bartenders, to chill beats, to elite gambling, the Icehouse has something for everyone. We have rooms available for rent, including a custom BDSM rental. Courts, tarot readings, and photography are also available. Let us be your home away from home." 
         ],
-        "location": "Jenova, Lavender Beds, Ward 23, Plot 54",
+        "location": "Jenova, Mist, Ward 2, Plot 37",
         "website": "https://inkvenues.carrd.co/",
         "discord": "https://discord.gg/inkvenues",
         "sfw": false,
