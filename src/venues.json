@@ -3315,60 +3315,6 @@
         "contacts": [ "137688798627758081" ]
     },
     {
-        "id": "dKkIMbmPO",
-        "added": "2022-03-15T00:00:00Z",
-        "name": "Mrs. Dawn's Bath house",
-        "banner": "assets/banners/mrs-dawns-bath-house.jpg",
-        "description": [ 
-            "Come and relax, chat, and pull each others ears at Mrs. Dawn's peaceful bath house! Open most days either at noon EST, or the 6pm EST; just check the PF! ♥️"
-        ],
-        "location": "Cactuar, Shirogane, Ward 7 Sub, Apt 63",
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 1,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 22, "minute": 0, "nextDay": false },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-         ],
-        "exceptions": [  ],
-        "notices": [  ],
-        "tags": [ "Bath house" ],
-        "comments": [  ],
-        "contacts": [ "872323861033680957" ]
-    },
-    {
         "id": "E9afNjiH4",
         "added": "2022-03-17T00:00:00Z",
         "name": "Fiddlesticks' Funny Flat",
