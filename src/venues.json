@@ -6444,5 +6444,23 @@
         "exceptions": [ ],
         "contacts": [ "536516091510521856" ],
         "comments": [  ]
+    },
+    {
+        "id": "doBKrQ7BJ",
+        "added": "2022-06-09T22:26:00Z",
+        "name": "The Dawn Tavern",
+        "banner": "assets/banners/dawn-tavern.jpg",
+        "description": [ "I am a tavern in a small house that is AFK friendly, LGBTQ+ friendly and I try to go for a cozy environment." ],
+        "location": "Adamantoise, Empyreum, Ward 1, Plot 9",
+        "website": "https://thedawntavern.carrd.co/",
+        "discord": "https://discord.gg/7nSM8RG8dP",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "83221323773382656" ],
+        "comments": [  ]
     }
 ]
