@@ -6533,5 +6533,31 @@
         "exceptions": [ ],
         "contacts": [ "191765595094515712" ],
         "comments": [  ]
+    },
+    {
+        "id": "QrEdrL5BM",
+        "added": "2022-06-09T23:02:00Z",
+        "name": "Copycat Records Cafe",
+        "banner": "assets/banners/copycat-records-cafe.jpg",
+        "description": [ "A small café on Adamantoise with live vinyl records streamed as entertainment. The Cafe is music oriented, with a relaxing and laid back atmosphere. The venue is RP and AFK friendly, whether people want to come in and meet new friends, or if they wanna come in just vibe out to music, all is welcome!" ],
+        "location": "Adamantoise, Empyreum, Ward 12, Plot 18",
+        "website": "https://cafe.wisznia.org",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Lounge", "Twitch DJ", "Food" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 18, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 18, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "219305309301243924" ],
+        "comments": [  ]
     }
 ]
