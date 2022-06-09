@@ -6553,5 +6553,33 @@
         "exceptions": [ ],
         "contacts": [ "260211568950771715" ],
         "comments": [  ]
+    },
+    {
+        "id": "QuZyAvzZz",
+        "added": "2022-06-09T23:31:00Z",
+        "name": "Marigold",
+        "banner": "assets/banners/marigold.jpg",
+        "description": [
+            "♥ The Marigold is a restaurant and flower shop in one ♥",
+            "It's the best place for high-qaulity popoto based food!",
+            "Plus, all those beautiful flowers and corsages ♥"
+        ],
+        "location": "Cactuar, Goblet, Ward 14, Plot 57",
+        "website": "https://marigold-rest.carrd.co/",
+        "discord": "https://discord.gg/2ctfrHHj3J",
+        "sfw": false,
+        "nsfw": false,
+        "tags": [ "Cafe", "Restaurant", "Void", "Food", "Drink", "Open stage", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 4, "minute": 30, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "200035701193048064" ],
+        "comments": [  ]
     }
 ]
