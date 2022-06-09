@@ -6318,5 +6318,60 @@
         "exceptions": [ ],
         "contacts": [ "110532973996052480" ],
         "comments": [  ]
+    },
+    {
+        "id": "dKkIMbmPO",
+        "added": "2022-03-15T00:00:00Z",
+        "name": "Miss Dawn's Maid cafe and Spa",
+        "banner": "assets/banners/mrs-dawns-bath-house.jpg",
+        "description": [ 
+            "A nice cozy spot of eorzea. we can give you hugs, headpats, kisses, and drinks. all your cute dreams might be able to come true here. whether it be hot tub parties, or cute little dates. we might be able to serve you just right. love ya~"
+        ],
+        "location": "Siren, Mist, Ward 13, Plot 1",
+        "website": "https://dawnscafeandspa.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Maid cafe", "Bath house", "Artists", "Food", "Drink", "Photography" ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
+            }
+         ],
+        "exceptions": [  ],
+        "notices": [  ],
+        "comments": [  ],
+        "contacts": [ "872323861033680957" ]
     }
 ]
