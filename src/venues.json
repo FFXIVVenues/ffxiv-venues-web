@@ -693,6 +693,13 @@
         "contacts":["864366760966225921", "755529644526010451"],
         "sfw": true,
         "nsfw": false,
+        "exceptions": [
+            {
+                "start": "2022-06-09T00:00Z",
+                "end": "2022-06-12T00:00Z",
+                "hide": false
+            }
+        ],
         "times": [
             {
                 "day": 3,
