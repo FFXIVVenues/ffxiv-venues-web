@@ -6373,5 +6373,33 @@
         "notices": [  ],
         "comments": [  ],
         "contacts": [ "872323861033680957" ]
+    },
+    {
+        "id": "Lqun8QxSC",
+        "added": "2022-06-09T21:48:00Z",
+        "name": "Red Star",
+        "banner": "assets/banners/red-star.jpg",
+        "description": [ "Welcome to Red Star Sushi & Seafood, Modern, Dim Lit Far Eastern Apartment, Open Stage & Hot tubs. Enjoy!" ],
+        "location": "Adamantoise, Shirogane, Ward 24 Sub, Apt 90",
+        "website": "https://redstarsushi.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Restaurant", "Lounge", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "748452477921132607" ],
+        "comments": [  ]
     }
 ]

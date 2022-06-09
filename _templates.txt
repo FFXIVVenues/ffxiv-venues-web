@@ -1,7 +1,7 @@
 // New venue
 {
     "id": "",
-    "added": "2022-06-XXT00:00:00Z",
+    "added": "2022-06-09T21:00:00Z",
     "name": "",
     "banner": "assets/banners/XXXXXXXXXXXXXXXX.jpg",
     "description": [ "" ],
