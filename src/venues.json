@@ -3133,43 +3133,6 @@
         "contacts": [ "155167628237733890" ]
     },
     {
-        "id": "U1wG2eW5T",
-        "added": "2022-03-14T00:00:00Z",
-        "name": "Tatsu Onsen",
-        "banner": "assets/banners/tatsu-onsen.jpg",
-        "description": [ 
-            "Tatsu Onsen is the largest shrine to Tatsugami! We value his views! As such we look to providing a place of comfort and fun! In this case we are a Bathhouse! We offer food and entertainment currently in the form of dances and cooking shows!"
-        ],
-        "location": "Migardsormr, Empyreum, Ward 4, Plot 38",
-        "website": "https://tatsuonsen.carrd.co/",
-        "discord": "https://discord.gg/5y2wqKwC5t",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-         ],
-        "exceptions": [ 
-            {
-                "start": "2022-05-31T00:00Z",
-                "end": "2022-06-14T00:00Z",
-                "hide": true
-            }
-        ],
-        "notices": [  ],
-        "tags": [ "Bar", "Bath house", "Dancers", "Drink", "Courtesans" ],
-        "comments": [  ],
-        "contacts": [ "260211568950771715" ]
-    },
-    {
         "id": "a7Yft4gnw",
         "added": "2022-03-15T00:00:00Z",
         "name": "The Locker Room",
@@ -6507,7 +6470,7 @@
         "description": [ 
             "Whitewillow is a cozy basement cafe hidden away underneath a small tavern.",
             "Enjoy a hot drink while you read in our private library, or turn your attention to the open stage as you feast on a good meal. We're open late nights for those of you seeking a place to wind down after a hard day's work, and middays for those of you wanting a quick refresher in between quests."
-         ],
+        ],
         "location": "Faerie, Lavender Beds, Ward 3, Plot 43",
         "website": "https://whitewillowcafe.carrd.co/",
         "discord": "https://discord.gg/eFGhyEvf8s",
@@ -6565,6 +6528,30 @@
         ],
         "exceptions": [ ],
         "contacts": [ "219305309301243924" ],
+        "comments": [  ]
+    },
+    {
+        "id": "MbtJvIa6d",
+        "added": "2022-06-09T23:18:00Z",
+        "name": "The Boar & Dragon",
+        "banner": "assets/banners/boar-and-dragon.jpg",
+        "description": [ "Part of Kugane and Ishgards cultural exchange! A shrine to Tatsugami watched over by the Lords of the Boar! Tatsugami is the dragon god of relaxation and indulgence. The Lords of the Boar are a group of knights that follow the way of the Boar, live free and ferociously!" ],
+        "location": "Midgardsomr, Empyreum, Ward 4, Plot 38",
+        "website": "https://boardragon.carrd.co/",
+        "discord": "https://discord.gg/5y2wqKwC5t",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Tavern", "Bath house", "Courtesans", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "260211568950771715" ],
         "comments": [  ]
     }
 ]
