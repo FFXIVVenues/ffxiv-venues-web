@@ -6462,5 +6462,34 @@
         "exceptions": [ ],
         "contacts": [ "83221323773382656" ],
         "comments": [  ]
+    },
+    {
+        "id": "VGNiURCyW",
+        "added": "2022-06-09T22:44:00Z",
+        "name": "Narnes & Boble",
+        "banner": "assets/banners/narnes-and-boble.jpg",
+        "description": [ "A cozy, immersive bookstore and cafe." ],
+        "location": "Sargatanas, Empyreum, Ward 4 Plot 30",
+        "website": "https://narnesnboble.carrd.co/",
+        "discord": "https://discord.gg/zuRN6n63Ad",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Library", "Food", "Drink", "IC RP only"  ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 4, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "191445845764210688" ],
+        "comments": [  ]
     }
 ]
