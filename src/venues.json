@@ -6491,5 +6491,47 @@
         "exceptions": [ ],
         "contacts": [ "191445845764210688" ],
         "comments": [  ]
+    },
+    {
+        "id": "bYmwjlB4V",
+        "added": "2022-06-09T22:58:00Z",
+        "name": "Whitewillow Café",
+        "banner": "assets/banners/whitewillow-cafe.jpg",
+        "description": [ 
+            "Whitewillow is a cozy basement cafe hidden away underneath a small tavern.",
+            "Enjoy a hot drink while you read in our private library, or turn your attention to the open stage as you feast on a good meal. We're open late nights for those of you seeking a place to wind down after a hard day's work, and middays for those of you wanting a quick refresher in between quests."
+         ],
+        "location": "Faerie, Lavender Beds, Ward 3, Plot 43",
+        "website": "https://whitewillowcafe.carrd.co/",
+        "discord": "https://discord.gg/eFGhyEvf8s",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Library", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "191765595094515712" ],
+        "comments": [  ]
     }
 ]
