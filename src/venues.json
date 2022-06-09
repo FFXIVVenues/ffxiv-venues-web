@@ -6519,12 +6519,12 @@
             {
                 "day": 1,
                 "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             },
             {
                 "day": 2,
                 "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
+                "end": { "hour": 23, "minute": 0, "nextDay": false }
             },
             {
                 "day": 4,
