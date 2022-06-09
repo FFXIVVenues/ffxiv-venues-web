@@ -6401,5 +6401,48 @@
         "exceptions": [ ],
         "contacts": [ "748452477921132607" ],
         "comments": [  ]
+    },
+    {
+        "id": "YnPE8vbwE",
+        "added": "2022-06-09T21:51:00Z",
+        "name": "Moonlight's Cafe",
+        "banner": "assets/banners/moonlights-cafe.jpg",
+        "description": [ "Cozy cafe with nice coffee to warm you up and a delicious sandwich to go with it, Come in and enjoy the music and vibes of the cafe." ],
+        "location": "Cactuar, Lavender Beds, Ward 22, Apt 15",
+        "website": "https://moonlightcafe.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 16, "minute": 30, "nextDay": false },
+                "end": { "hour": 20, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 1,
+                "start": { "hour": 16, "minute": 30, "nextDay": false },
+                "end": { "hour": 20, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 16, "minute": 30, "nextDay": false },
+                "end": { "hour": 20, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 16, "minute": 30, "nextDay": false },
+                "end": { "hour": 20, "minute": 30, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 16, "minute": 30, "nextDay": false },
+                "end": { "hour": 20, "minute": 30, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "536516091510521856" ],
+        "comments": [  ]
     }
 ]
