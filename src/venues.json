@@ -4865,7 +4865,7 @@
         "notices": [  ],
         "times": [
             {
-                "day": 5,
+                "day": 0,
                 "start": { "hour": 1, "minute": 0, "nextDay": true }
             }
         ],
