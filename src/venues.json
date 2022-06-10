@@ -2145,36 +2145,6 @@
         "exceptions": [],
         "tags": [ "Cafe", "Food", "Pillow", "Photography", "Drink" ],
         "contacts": [ "319271011965206530" ]
-    },    
-    {
-        "id": "c14iWryws",
-        "added": "2022-02-14T00:00:00Z",
-        "name": "Lavender Latte Cafe",
-        "banner": "assets/banners/lavender-latte.jpg",
-        "description": [ 
-            "Lavender Latte provides a relaxing experience in our loungelike cafe featuring sweet treats hot tea and occasional live acts on our stage. Everyone is welcome at Lavender Latte. ",
-            "Lavender Latte is a \"Mature\" SFW venue and we try our best to keep our atmosphere safe for people to hang out without feeling too restricted."
-        ],
-        "location": "Adamantoise, Empyreum, Ward 8, Plot 2",
-        "discord": "https://discord.gg/DvRcVuNwmW",
-        "website": "https://lavenderlatteffxiv.uwu.ai/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [],
-        "tags": [ "Cafe", "Food", "Drink", "Open stage", "Photography" ],
-        "contacts": [ "227307380616986634", "634102832865214525" ]
     },
     {
         "id": "UOdI2hVQo",
