@@ -3270,18 +3270,7 @@
         "nsfw": false,
         "website": "https://purplesuitffxiv.carrd.co/#",
         "discord": "https://discord.gg/FzbRVQNzPR",
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-         ],
+        "times": [],
         "exceptions": [ ],
         "notices": [  ],
         "tags": [ "Lounge", "Casino", "Gambling", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
