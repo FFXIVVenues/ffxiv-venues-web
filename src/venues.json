@@ -2844,23 +2844,6 @@
         "contacts": [ "938192537175347240" ]
     },
     {
-        "id": "KWL5PIV0j",
-        "added": "2022-03-06T00:00:00Z",
-        "name": "Treehouse",
-        "banner": "assets/banners/treehouse.jpg",
-        "description": [ 
-            "Treehouse is a bar and bathhouse that offers a warm, welcoming, atmosphere for a fun, SFW RP experience. Live music is our specialty, and our stage always has a talented bard or band upon it!"
-        ],
-        "location": "Cactuar, Lavender Beds, Wards 13, Plot 30",
-        "discord": "https://discord.gg/sUm2GBq",
-        "sfw": true,
-        "nsfw": false,
-        "times": [],
-        "exceptions": [ ],
-        "tags": [ "Tavern", "Bath house", "Dancers", "Bards", "Food", "Drink" ],
-        "contacts": [ "259559436077629460", "349693545315041280" ]
-    },
-    {
         "id": "fB63vhZAL",
         "added": "2022-03-06T00:00:00Z",
         "name": "Club Emeraude",
