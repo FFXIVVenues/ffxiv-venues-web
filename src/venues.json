@@ -3033,13 +3033,7 @@
         "discord": "https://discord.gg/S833brP",
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-         ],
+        "times": [],
         "exceptions": [ ],
         "notices": [ ],
         "tags": [ "Maid cafe", "Artists", "Bards", "Food", "Photography", "Triple triad" ],
