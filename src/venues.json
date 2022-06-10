@@ -3059,16 +3059,7 @@
         "discord": "https://discord.gg/udbytkwEQk",
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 0, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 0, "minute": 0, "nextDay": true }
-            }
-         ],
+        "times": [],
         "exceptions": [  ],
         "notices": [  ],
         "tags": [ "Bar", "Lounge", "Novel services" ],
