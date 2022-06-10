@@ -4804,19 +4804,19 @@
         "notices": [  ],
         "times": [
             {
-                "day": 0,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
-            },
-            {
                 "day": 2,
                 "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             },
             {
                 "day": 4,
                 "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 22, "minute": 0, "nextDay": false }
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 17, "minute": 0, "nextDay": false },
+                "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [
