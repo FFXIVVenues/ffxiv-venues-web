@@ -163,6 +163,10 @@ button.venue-profile__visited-button--visited {
     margin-top: 20px;     
 }
 
+.venue-profile__exceptions table {
+    margin-top: 10px;
+}
+
 .venue-profile__badge-container {
     margin-top: 30px
 }

@@ -75,7 +75,11 @@ class VenueProfile extends React.Component {
                 </div>
 
                 <div className="venue-profile__banner" 
-                     style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null }>
+                     style={ { 
+                         backgroundImage: this.props.venue.banner ? 
+                                            `url("${this.props.venue.banner}")` :
+                                            `url("assets/default-banner.jpg")`,
+                        } }>
                 </div>
 
                 <div className="venue-profile__details">
@@ -142,7 +146,7 @@ class VenueProfile extends React.Component {
 
                     { (exceptions && exceptions.length > 0) && 
                         <article className="venue-profile__exceptions">
-                            <p>This venue will be closed at the following times:</p>
+                            This venue will be closed at the following times:
                             <table>
                                 { this.props.venue.exceptions.map((e, i) => {
                                     const exceptionStart = new Date(e.start);
