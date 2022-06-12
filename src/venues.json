@@ -1679,6 +1679,11 @@
                 "day": 3,
                 "start": { "hour": 0, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [],
@@ -6508,7 +6513,7 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [],
+        "exceptions": [ ],
         "contacts": [ "814723430624395274" ],
         "comments": [  ]
     }
