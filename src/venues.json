@@ -5062,7 +5062,7 @@
             },
             {
                 "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
+                "start": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
     },
