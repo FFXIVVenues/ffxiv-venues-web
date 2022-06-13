@@ -1124,27 +1124,6 @@
         ]
     },
     {
-        "id": "mlfivayiz",
-        "added": "2021-11-07T00:00:00Z",
-        "name": "Tabby's",
-        "banner": "assets/banners/tabbys-pirate-pub.jpg",
-        "description": [ "Tabby's is your one stop fits all solution to having a good time with your friends! There are 3 floors dedicated to providing you with different hangout spots including a reading room, bath house, cozy attic and downstairs venue with gamblin, drinks, music and more! Come make yourself at home!" ],
-        "location": "Midgardsormr, Goblet, Ward 2, Plot 41",
-        "shard": "Wildflower Stalls Subdivision",
-        "discord": "https://discord.gg/xjc3c6Xvq6",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Den", "Bar", "Bath house", "Library", "Food", "Drink", "Bards", "Gambling" ],
-        "contacts":["113480178256072704"],
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 5, "minute": 30, "nextDay": true },
-                "end": { "hour": 8, "minute": 30, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "TzUVDwxaD",
         "added": "2021-10-16T00:00:00Z",
         "name": "Trionfi",
