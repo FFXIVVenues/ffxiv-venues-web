@@ -5087,22 +5087,18 @@
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             },
             {
-                "day": 2,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
                 "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
                 "start": { "hour": 2, "minute": 0, "nextDay": true },
                 "end": { "hour": 6, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-06-13T00:00Z",
+                "end": "2022-06-20T00:00Z",
+                "hide": true
+            }
+        ],
         "contacts": [ "857359680212959272" ],
         "comments": [  ]
     },
