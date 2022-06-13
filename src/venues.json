@@ -2725,15 +2725,19 @@
             "The Velvet Room is an LGBTQIA+ friendly space where everyone is welcome & accepted. We are built on the belief that everyone deserves to feel safe, loved, and appreciated. TVR is a place where people can come to dance, mingle, relax, and party! We offer both SFW and NSFW services as well as host some of Aether's best DJs! Come visit us and you are sure to NOT be disappointed!"
         ],
         "location": "Faerie, Lavender Beds, Ward 8, Plot 28",
-        "discord": "https://discord.gg/TheVelvetRoomXIV",
         "website": "https://thevelvetroom.club/",
         "sfw": true,
         "nsfw": true,
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
