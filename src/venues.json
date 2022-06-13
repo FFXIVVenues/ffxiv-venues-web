@@ -5042,29 +5042,6 @@
         ]
     },
     {
-        "id": "sqTMubYr",
-        "added": "2022-05-12T00:00:00Z",
-        "name": "Mosaic Dreams",
-        "description": [
-            "Thavnairian inspired SFW loungue with themed side rooms for more relaxing areas to enjoy! We have door prizes, macro dancers, and give-a-ways/contest everyweek."
-                    ],
-        "banner": "assets/banners/mosaicdreams.jpg",
-        "location": "Adamantoise, Mist, Ward 9, Plot 36",
-        "website": "https://mosaicdreams.carrd.co",
-        "discord": "https://discord.gg/pqT6N9Z",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Lounge", "Dancers", "Food", "Drink", "Open stage", "Triple triad" ],
-        "contacts": [ "101023303765884928" ],
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "ZDNunrza",
         "added": "2022-05-12T00:00:00Z",
         "name": "The Desert Jewel",
