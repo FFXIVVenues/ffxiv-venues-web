@@ -6446,5 +6446,31 @@
         "exceptions": [ ],
         "contacts": [ "200035701193048064" ],
         "comments": [  ]
+    },
+    {
+        "id": "de2Vt8AJ0",
+        "added": "2022-06-14T22:50:00Z",
+        "name": "The Cupboard: Tea Room & Parlor",
+        "banner": "assets/banners/cupboard.jpg",
+        "description": [ 
+            "Offering comforting refreshments with cozy surrounds for conversation aplenty - our menu changes for each week's open hours, so be sure to see if your favorites are featured this time around.",
+            "With periodic events, weekly open hours, and rental and hosting services available, we hope you find whatever it is you're looking for in a corner of The Cupboard."
+        ],
+        "location": "Faerie, Empyreum, Ward 7, Plot 18, Room 2",
+        "website": "https://teacupboard.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 16, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "292865874753486850" ],
+        "comments": [  ]
     }
 ]
