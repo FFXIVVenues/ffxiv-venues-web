@@ -6472,5 +6472,26 @@
         "exceptions": [ ],
         "contacts": [ "292865874753486850" ],
         "comments": [  ]
+    },
+    {
+        "id": "lnAVSwLhf",
+        "added": "2022-06-14T23:10:00Z",
+        "name": "Restorative Therapy",
+        "banner": "assets/banners/restorative-therapy.jpg",
+        "description": [ 
+            "Healing starts here",
+            "Restorative therapy aims to help warriors of light overcome their struggles to build a better future for themselves and those around them."
+        ],
+        "location": "Midgardsormr, Empyreum, Ward 3, Plot 58",
+        "website": "https://restorative-therapy.carrd.co/#",
+        "discord": "https://discordapp.com/users/952228031521493062",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Novel services", "VIP" ],
+        "notices": [ "Open by appointment only." ],
+        "times": [ ],
+        "exceptions": [ ],
+        "contacts": [ "952228031521493062" ],
+        "comments": [  ]
     }
 ]
