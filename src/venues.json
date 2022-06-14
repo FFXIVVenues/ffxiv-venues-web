@@ -6158,8 +6158,8 @@
     {
         "id": "dKkIMbmPO",
         "added": "2022-03-15T00:00:00Z",
-        "name": "Miss Dawn's Maid cafe and Spa",
-        "banner": "assets/banners/mrs-dawns-bath-house.jpg",
+        "name": "Miss Dawn's Maid Cafe and Spa",
+        "banner": "assets/banners/miss-dawns-maid-cafe.jpg",
         "description": [ 
             "A nice cozy spot of eorzea. we can give you hugs, headpats, kisses, and drinks. all your cute dreams might be able to come true here. whether it be hot tub parties, or cute little dates. we might be able to serve you just right. love ya~"
         ],
@@ -6445,32 +6445,6 @@
         ],
         "exceptions": [ ],
         "contacts": [ "200035701193048064" ],
-        "comments": [  ]
-    },
-    {
-        "id": "K4W4Xdg65",
-        "added": "2022-06-10T23:13:00Z",
-        "name": "Club Heartless",
-        "description": [ "A new unique nightclub experience staffed with only the best Bards! Step into a dimly lit hall, and be transported through a stormy window to the familiar void of Club Heartless. /doze at the window, and step into your heart!" ],
-        "location": "Jenova, Shirogane, Ward 11, Plot 54",
-        "sfw": true,
-        "nsfw": true,
-        "tags": [ "Speakeasy", "Gambling", "Void", "Bards", "Photography", "Open stage", "Food", "Drink", "Dancers" ],
-        "notices": [  ],
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "contacts": [ "814723430624395274" ],
         "comments": [  ]
     }
 ]
