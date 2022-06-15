@@ -6555,5 +6555,35 @@
         "exceptions": [ ],
         "contacts": [ "289686307653812226" ],
         "comments": [  ]
+    },
+    {
+        "id": "jReUzZqU7",
+        "added": "2022-06-15T01:45:00Z",
+        "name": "Kittenz",
+        "banner": "assets/banners/kittenz.jpg",
+        "description": [ 
+            "Welcome to Kittenz Striple Club, and yes, it is exactly what you think it is. We offer a variety of fun options from our menu, delicious drinks, and of course our signature Striple Triad. Relax in a fun and NSFW focused environment to chase away the night!",
+            "Established: Jan 15, 2021"
+        ],
+        "location": "Cactuar, Lavender Beds, Ward 24, Plot 35",
+        "website": "https://kittenz-venue.carrd.co/",
+        "discord": "https://discord.gg/bBJk6BvSAT",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Lounge", "Courtesans", "Dancers", "Bards", "Drink", "Open stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 15, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 15, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "391318826819780618" ],
+        "comments": [  ]
     }
 ]
