@@ -6575,11 +6575,11 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 3, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 15, "minute": 0, "nextDay": false }
+                "start": { "hour": 3, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
