@@ -1792,7 +1792,7 @@
         "contacts": [ "175918747524136961" ]
     },
     {
-        "id": "lgEUnz5N6",
+        "id": "TEh0zJyAq",
         "added": "2022-01-30T00:00:00Z",
         "name": "Inveritas. A place far and near.",
         "banner": "assets/banners/inveritas.jpg",
@@ -2639,66 +2639,6 @@
         "exceptions": [ ],
         "tags": [ "Restaurant", "Cafe", "Lounge", "Food", "Drink" ],
         "contacts": [ "185231582020370433" ]
-    },
-    {
-        "id": "ikus1KIo6",
-        "added": "2022-03-03T00:00:00Z",
-        "name": "CLUB DIABLO",
-        "banner": "assets/banners/diablo.jpg",
-        "description": [ 
-            "Welcome to Club Diablo!! Come and enjoy the Eorzean Night Life with us every Friday, Saturday, Sunday. Enjoy routinely scheduled Live DJs via Twitch stream, trained RP/ERP courts and dancers along with nightly raffles, a club casino and a fight club. Visiting with Friends or having special events? Feel free to check out our VIP Packages. Hope to see you soon!!"
-        ],
-        "location": "Adamantoise, Lavender Beds, Ward 18, Plot 3",
-        "discord": "https://discord.gg/diabl0",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Casino", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Food", "Drink", "Photography", "VIP" ],
-        "contacts": [ "938192537175347240" ]
-    },
-    {
-        "id": "fB63vhZAL",
-        "added": "2022-03-06T00:00:00Z",
-        "name": "Club Emeraude",
-        "banner": "assets/banners/emeraude.jpg",
-        "description": [ 
-            "Welcome to Club Emeraude! Emeraude is a nightclub, bar, lounge, and sauna with lots comfortable seating and private enjoyment rooms with a lovely outdoor patio to enjoy everything a beachfront getaway the Mist has to offer."
-        ],
-        "location": "Midgardsormr, Mist, Ward 14, Plot 60",
-        "sfw": false,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Nightclub", "Lounge", "VIP" ],
-        "contacts": [ "430528854659039234" ]
     },
     {
         "id": "J15wuFq0F",
