@@ -6585,5 +6585,22 @@
         "exceptions": [ ],
         "contacts": [ "391318826819780618" ],
         "comments": [  ]
+    },
+    {
+        "id": "a9qzFBP0G",
+        "added": "2022-06-15T02:00:00Z",
+        "name": "The King of Cups",
+        "banner": "assets/banners/king-of-cups.jpg",
+        "description": [ "A pop-up tea & tarot cafe offering a custom menu and in character tarot readings." ],
+        "location": "Gilgamesh, Shirogane, Ward 23, Apt 85",
+        "website": "https://kingofcups.carrd.co/#menu",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Tarot", "Drink" ],
+        "notices": [  ],
+        "times": [],
+        "exceptions": [ ],
+        "contacts": [ "102415402314776576" ],
+        "comments": [  ]
     }
 ]
