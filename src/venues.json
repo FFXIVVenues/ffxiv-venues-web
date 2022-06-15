@@ -70,7 +70,7 @@
             "Every 50k bid towards a fighter, win or lose, will count as ONE entry into our raffle. We raffle off a custom weapon every night with 1-2 additional prizes, favoring mounts."
         ],
         "banner": "assets/banners/vibe-fight-club.jpg",
-        "location": "Adamantoise, Goblet, Ward 20, Plot 43",
+        "location": "Sargatanas, Goblet, Ward 12, Plot 42",
         "shard": "The Sultana's Breath Subdivision",
         "discord": "https://discord.gg/g7WwcFavsA",
         "sfw": true,
@@ -80,23 +80,28 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 30, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 30, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 30, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 30, "nextDay": true }
+                "start": { "hour": 6, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 30, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 10, "minute": 30, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 30, "nextDay": true }
+                "start": { "hour": 7, "minute": 30, "nextDay": true },
+                "end": { "hour": 10, "minute": 0, "nextDay": true }
             }
         ]
     },
@@ -529,27 +534,6 @@
         ]
     },
     {
-        "id": "X1FfI99z",
-        "added": "2021-08-29T00:00:00Z",
-        "name": "Full Moon",
-        "banner": "assets/banners/full-moon.jpg",
-        "description": [ "Aether's premier lottery clubhouse offers BIG JACKPOTS every Saturday Night! Are you feeling lucky? Full Moon offers a variety of \"fun activities\", including those which appeal to the more sinful patron and whether it's a refreshing Mentor Mojito or a playful Bahamut Bellini, Full Moon offers high quality beverages for you to indulge in." ],
-        "location": "Sargatanas, Mist, Ward 16, Plot 2",
-        "website": "https://fullmoonclub.carrd.co/",
-        "discord": "https://discord.gg/QJdRzg2BX8",
-        "tags":[ "Nightclub", "Bards", "Dancers", "Courtesans", "Photography", "Drink" ],
-        "contacts":["110918345263427584"],
-        "sfw": false,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 5,
-                "start": { "hour": 0, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "A2Fhj74w",
         "added": "2021-08-29T00:00:00Z",
         "name": "Silver Garden",
@@ -793,27 +777,6 @@
         ]
     },
     {
-        "id": "ZEW2D63c",
-        "added": "2021-09-18T00:00:00Z",
-        "name": "NeXus",
-        "banner": "assets/banners/nexus.jpg",
-        "description": [ "Welcome to Nexus, we strive for excellence in customer service. We offer a variety of services and entertaintment ranging from Live Music, Tarot Readings, Talented Sketch's, Geisha's and a Full Service Bar. We hope you enjoy your stay with us and look forward to meeting you! Feel free to contact us for events and all your needs!" ],
-        "location": "Adamantoise, Shirogane, Ward 10, Plot 16",
-        "website": "https://nexus-ffxiv.carrd.co/",
-        "discord": "https://discord.gg/5QXS36RrUZ",
-        "sfw": true,
-        "nsfw": true,
-        "tags":["Nightclub", "Bar", "Drink", "Tarot", "Artists","Courtesans", "Bards", "VIP"],
-        "contacts":["625169410927230989"],
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 8, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
         "id": "fHjc6zh9",
         "added": "2021-09-21T00:00:00Z",
         "name": "Forgotten Sonata",
@@ -983,26 +946,6 @@
             {
                 "day": 3,
                 "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ]
-    },
-    {
-        "id": "jkT1nLx3k",
-        "added": "2021-10-10T00:00:00Z",
-        "name": "Bliss Boba Cafe",
-        "banner": "assets/banners/bliss-boba-cafe.jpg",
-        "description": [ "Bliss Boba Cafe is home for avid connoisseurs of pearly delights. Come rest your weary feet at our shop and partake in some delectable drinks, delicate pastries, and soothing music. Our special menu also includes a personalized piece of artwork corresponding with their order for our customers!" ],
-        "location": "Adamantoise, Mist, Ward 23, Plot 5",
-        "shard": "The Topmast",
-        "discord": "https://discord.gg/blisscult",
-        "website": "https://blissboba.carrd.co/",
-        "sfw": true,
-        "nsfw": false,
-        "times": [
-            {
-                "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ]
@@ -3296,10 +3239,14 @@
     {
         "id": "TVxCdPLh2",
         "added": "2022-03-24T00:00:00Z",
-        "name": "Siren's Aquapolis",
+        "name": "Sirens' Aquapolis",
         "banner": "assets/banners/sirens-song-[siren].jpg",
         "description": [ 
-            "A relaxing aquarium/underwater themed, trance music, nightclub and casino."
+            "A relaxing aquatic-themed venue focused on gambling & dancing in a magical aquatic setting! Our house DJ, photographer, game master and sirens will sure provide you with entertainment for the entire night! Grab our fantastically themed drinks to start the night off and see where the waves take you...",
+            "Here upon the waves’ break, happy hear and joy we make.",
+            "With glistening treasure of gold, all manner of stories are told.",
+            "In our tender song you’ll stay, all night like long to eb and sway.",
+            "Surrounded in splendor so marvelous, keep desire alive in our Sirens’ Aquapolis"
         ],
         "location": "Siren, Mist, Ward 2, Plot 1",
         "sfw": true,
