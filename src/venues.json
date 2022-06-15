@@ -698,33 +698,6 @@
         ]
     },
     {
-        "id": "QmqHKi3O",
-        "added": "2021-09-16T00:00:00Z",
-        "name": "Duality",
-        "banner": "assets/banners/duality.jpg",
-        "description": [ "Come on in and choose your style for the night! With our upstairs for your modern clubby night! And downstairs for your jazzy and classy night! Upstairs is an open stage. If no one is there, show us what you got!" ],
-        "location": "Siren, Lavender Beds, Ward 5, Plot 30",
-        "website": "https://dualityffxiv.carrd.co/#",
-        "discord": "https://discord.gg/waGTkDGJnU",
-        "tags": [ "Nightclub", "Dancers", "Courtesans", "VIP", "Bards" ],
-        "contacts": ["387399909994659842"],
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
-                "end": { "hour": 3, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [
-            {
-                "start": "2021-12-01T00:00Z",
-                "end": "2022-02-28T00:00Z"
-            }
-        ]
-    },
-    {
         "id": "ScGjPYug",
         "added": "2021-09-16T00:00:00Z",
         "name": "Playboy Mansion",
@@ -1151,22 +1124,6 @@
                 "end": { "hour": 20, "minute": 0, "nextDay": false }
             }
         ]
-    },
-    {
-        "id": "PRvqBG99q",
-        "added": "2021-10-25T00:00:00Z",
-        "name": "Cozy Catsual",
-        "banner": "assets/banners/cozy-catsual.jpg",
-        "description": [ "A small cafe on the beach front of Shirogane, for those looking to relax and enjoy the moment. Feel free to come by and chat. Food and Drinks are served here." ],
-        "location": "Cactuar, Shirogane, Ward 24, Plot 51",
-        "shard": "Northern Shirogane Subdivison",
-        "website": "https://cozycatsual.carrd.co/",
-        "discord": "https://discord.gg/pf2R6W52Rv",
-        "tags":[ "Cafe", "Bath house", "Food", "Drink" ],
-        "contacts":["90703004650467328"],
-        "sfw": true,
-        "nsfw": false,
-        "times": []
     },
     {
         "id": "ohfr7Tjap",
@@ -3827,13 +3784,13 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 6, "minute": 0, "nextDay": true }
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
