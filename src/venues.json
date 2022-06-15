@@ -5928,7 +5928,13 @@
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [
+            {
+                "start": "2022-06-15T00:00Z",
+                "end": "2022-06-24T00:00Z",
+                "hide": true
+            }
+        ],
         "contacts": [ "82345866706292736", "862162888713175041" ],
         "comments": [  ]
     },
@@ -6492,6 +6498,30 @@
         "times": [ ],
         "exceptions": [ ],
         "contacts": [ "952228031521493062" ],
+        "comments": [  ]
+    },
+    {
+        "id": "lEpPwbiW6",
+        "added": "2022-06-14T23:52:00Z",
+        "name": "Momma Luca's",
+        "banner": "assets/banners/momma-lucas.jpg",
+        "description": [ "A LGBTQIA+ friendly café in the cold winter of the Empyreum's winter, our focus is warming you up, body and soul, with warm drinks, sweet desserts, and friendly service. Allow us to become your family away from family, and bring a little joy to a cold winters night. We have raffles at the first of every month, photography services, crafting services, live entertainment, and giveaways, and are always looking to guest suggestions for expansion!" ],
+        "location": "Gilgamesh, Empyreum, Ward 19, Plot 38",
+        "website": "https://ffxivmommalucas.carrd.co",
+        "discord": "https://discord.gg/8xDwUvT5h2",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Bards", "Food", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 1, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "166245853370122240" ],
         "comments": [  ]
     }
 ]
