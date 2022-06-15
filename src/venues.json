@@ -6505,7 +6505,7 @@
         "added": "2022-06-14T23:52:00Z",
         "name": "Momma Luca's",
         "banner": "assets/banners/momma-lucas.jpg",
-        "description": [ "A LGBTQIA+ friendly café in the cold winter of the Empyreum's winter, our focus is warming you up, body and soul, with warm drinks, sweet desserts, and friendly service. Allow us to become your family away from family, and bring a little joy to a cold winters night. We have raffles at the first of every month, photography services, crafting services, live entertainment, and giveaways, and are always looking to guest suggestions for expansion!" ],
+        "description": [ "A LGBTQIA+ friendly café in the cold winter of the Empyreum, our focus is warming you up, body and soul, with warm drinks, sweet desserts, and friendly service. Allow us to become your family away from family, and bring a little joy to a cold winters night. We have raffles on the first of every month, photography services, crafting services, live entertainment, and giveaways, and are always looking for guest suggestions towards greater expansion!" ],
         "location": "Gilgamesh, Empyreum, Ward 19, Plot 38",
         "website": "https://ffxivmommalucas.carrd.co",
         "discord": "https://discord.gg/8xDwUvT5h2",
@@ -6522,6 +6522,38 @@
         ],
         "exceptions": [ ],
         "contacts": [ "166245853370122240" ],
+        "comments": [  ]
+    },
+    {
+        "id": "bJMcf5mVI",
+        "added": "2022-06-15T00:37:00Z",
+        "name": "The Kat's Meow",
+        "banner": "assets/banners/kats-meow.jpg",
+        "description": [ 
+            "The Kat's Meow is now open, and ready to offer our services to people looking for... something more in life. Guidance, long lost information, or maybe even a helping hand in finding your path, we will do our best to help you find what you need, like:",
+            "- Our library of books and tomes features tons of information, stories, legends, and countless other things that will be sure to satisfy your needs.",
+            "- Our divination services will help you find answers and advice to all your biggest wonders and worries.",
+            "- Our potions and tinctures will help you achieve whatever it is you will, and provide the right tincture for the right ailment or need.",
+            "- Our trinkets, lockets, sigils, and spell jars can be made for any need, unless morally objectionable.",
+            "- Our homemade teas and treats are a wonderful way to treat your self after a long day of adventuring.",
+            "(Disclaimer: All items are RP only, we don't actually trade items or accept actual gil, except for tips if you enjoy our services.)"
+        ],
+        "location": "Siren, Lavender Beds, Ward 10, Plot 44",
+        "website": "https://thekatsmeow.carrd.co/",
+        "discord": "https://discord.gg/X8zb28ykEe",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Cafe", "Library", "Bards", "Tarot", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 30, "nextDay": true },
+                "end": { "hour": 4, "minute": 30, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "289686307653812226" ],
         "comments": [  ]
     }
 ]
