@@ -2405,34 +2405,6 @@
         "contacts": [ "707716687402893452" ]
     },
     {
-        "id": "VDCZ9STBo",
-        "added": "2022-02-22T00:00:00Z",
-        "name": "Onamazu Sushi bar",
-        "banner": "assets/banners/onamazu.jpg",
-        "description": [ 
-            "Do you find yourself wanting to catch your breath from the frantic and restless pace of daily life?",
-            "Nestled in the lush island of Kugane, tucked away in an unmarked corner stands a small cottage retreat where you may easily find yourself spirited away.",
-            "Onamazu not only offers the distinct and savory taste of Hingashi's finest delicacies. ",
-            "Onamazu is also home, even to the most foreign stranger. Hide away and forget tomorrow if only for a night at Onamazu, and bask in the company of good people, who have also walked through its doors in hopes of laughing away their troubles, mending their pain, and meeting new friends. All while being enticed by beautiful courts, the deep lustre of gold at the gambling corner, and mouthwatering Far Eastern cuisine. ",
-            "Forget expectations and let yourself just be. "
-        ],
-        "location": "Siren, Shirogane, Ward 21, Plot 52",
-        "website": "https://onamazumenu.carrd.co/",
-        "discord": "https://discord.gg/cV5KSPUtBV",
-        "sfw": true,
-        "nsfw": true,
-        "times": [ 
-            {
-                "day": 5,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "tags": [ "Bar", "Den", "Food", "Drink", "Gambling", "Courtesans", "Open stage", "Triple triad" ],
-        "contacts": [ "596592081997266945" ]
-    },
-    {
         "id": "RN5JB6q1",
         "added": "2022-02-23T00:00:00Z",
         "name": "Seven Circles",
@@ -2854,7 +2826,7 @@
             "VLVT DRMS is a safe for work dance venue and bar lounge, lavishly decorated with a cozy and warm atmosphere to both entice and relax even the weariest of wanderers. We strive to bring a safe, calming space into our wonderful community, hoping that each visit will leave you in the clouds! Whether you're looking to grab a few drinks, make pleasant conversation or dance the night away, there is a member of staff that is eager to spend their time dreaming with you. Come dream with us tonight!",
             "To enter the venue use /doze next to the desk. To exit the venue jump on the floor lamp."
         ],
-        "location": "Jenova, Lavender Beds, Ward 8, Plot 32",
+        "location": "Jenova, Goblet, Ward 7, Plot 36",
         "website": "https://vlvt-drms.carrd.co/",
         "discord": "https://discord.gg/vlvtdrms",
         "sfw": true,
