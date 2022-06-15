@@ -3521,7 +3521,9 @@
         "added": "2022-03-30T00:00:00Z",
         "name": "ILLUSION",
         "banner": "assets/banners/illusion.jpg",
-        "description": [ "ILLUSION is an LGBTQIA+ 18+ venue which was made to make everyone feel welcomed from RP'ers to gamblers to people who miss clubbing IRL and want to get lit to some music and throw it back." ],
+        "description": [ 
+            "ILLUSION is an 18+ venue who's core principles are to protect and uplift both the LGBTQIA+ and the BIPOC communities. We provide live dj's, a gambling experience, adult roleplay services, and an atmosphere where people feel welcomed with open arms." 
+        ],
         "location": "Faerie, Shirogane, Ward 16, Plot 43",
         "sfw": true,
         "nsfw": true,
