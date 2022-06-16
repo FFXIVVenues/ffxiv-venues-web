@@ -2065,29 +2065,6 @@
         "contacts": [ "210578573684244480" ]
     },
     {
-        "id": "ntcIdXhaJ",
-        "added": "2022-02-14T00:00:00Z",
-        "name": "Hamburger Nina's",
-        "banner": "assets/banners/hamburger-nina.jpg",
-        "description": [ 
-            "Hamburger Nina's is Eorzea's most intimate yet flambouyant LGBTQ+ RP venue. Come in for drinks, food, and fun! Our bar and club has something for anyone looking for a night out, whether that be cozy or wild. ;)"
-        ],
-        "location": "Cactuar, Shirogane, Ward 24, Apt 81",
-        "website": "https://hamburgerninas.carrd.co/#",
-        "sfw": true,
-        "nsfw": true,
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 2, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [],
-        "tags": [ "Nightclub", "Bar", "Food", "Drink", "Open stage", "Pillow", "Courtesans", "Dancers" ],
-        "contacts": [ "650380751166242919" ]
-    },
-    {
         "id": "QA8XklV3Y",
         "added": "2022-05-26T00:00:00Z",
         "name": "Cafe Mi-Lanna",
