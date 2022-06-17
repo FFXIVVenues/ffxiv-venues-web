@@ -6514,6 +6514,30 @@
         "exceptions": [ ],
         "contacts": [ "204823176960540672" ],
         "comments": [  ]
+    },
+    {
+        "id": "AmuerxHib",
+        "added": "2022-06-09T21:00:00Z",
+        "name": "SONG Lounge",
+        "banner": "assets/banners/songlounge.jpg",
+        "description": [ "Welcome to SONG Lounge! We have live DJs, colorful cocktails, immersive hosts, top-tier gambling, and relaxing tubs! Jump in the elevator to be brought into our one-of-a-kind lounge." ],
+        "location": "Cactuar, Mist, Ward 22, Plot 32",
+        "website": "https://song-lounge.carrd.co/#",
+        "discord": "https://discord.gg/K4emkg9pz6",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Bar", "Lounge", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 6, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "707716687402893452", "90703004650467328" ],
+        "comments": [  ]
     }
 
 ]
