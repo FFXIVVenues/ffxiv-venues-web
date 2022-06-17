@@ -6456,5 +6456,34 @@
         "exceptions": [ ],
         "contacts": [ "981743808301662259" ],
         "comments": [  ]
+    },
+    {
+        "id": "KhcUmYjqJ",
+        "added": "2022-06-17T21:00:00Z",
+        "name": "The SNEK Den",
+        "banner": "assets/banners/thesnekden.jpg",
+        "description": [ "A rogue's based tavern focused on adventure RP and character lore and story." ],
+        "location": "Siren, Goblet, Ward 9, Apt 20",
+        "website": "https://snek-den.carrd.co/#",
+        "discord": "https://discord.gg/gZ9bvxaRUu",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Lounge", "Bards", "Food", "Drink", "Photography", "Open stage", "IC RP only"],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 19, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "277343691650367489" ],
+        "comments": [  ]
     }
 ]
