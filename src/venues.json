@@ -6404,5 +6404,23 @@
         "exceptions": [ ],
         "contacts": [ "102415402314776576" ],
         "comments": [  ]
+    },
+    {
+        "id": "iJWhhkakW",
+        "added": "2022-06-17T21:00:00Z",
+        "name": "The Odder Path",
+        "banner": "assets/banners/theodderpath.jpg",
+        "description": [ "The Odder path is a free venue meant to feel like a mid range price restaurant, not apple bees quality, but not fine dining either. Like a place people would have a nice birthday dinner in because it's better than apple bees but it's not so expensive that it would break their bank. Services at the moment include dining in the lower floor, and a small bar near the entrance of the plot, but eventually once I get more funds I eventually plan on getting a bard to play music." ],
+        "location": "Sargatanas, Shirogane, Ward 20, Plot 56",
+        "website": "https://theodderpath.carrd.co/",
+        "discord": "https://discord.gg/xdTrZsPXz5",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Restaurant", "Food", "Open stage", "IC RP only"],
+        "notices": [  ],
+        "times": [],
+        "exceptions": [ ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
 ]
