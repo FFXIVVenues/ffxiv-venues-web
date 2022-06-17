@@ -6420,7 +6420,41 @@
         "notices": [  ],
         "times": [],
         "exceptions": [ ],
-        "contacts": [ "" ],
+        "contacts": [ "160145689685262336" ],
+        "comments": [  ]
+    },
+    {
+        "id": "uVNZcHVZV",
+        "added": "2022-06-17T21:00:00Z",
+        "name": "Affluence",
+        "banner": "assets/banners/affluence.jpg",
+        "description": [ "Tell me, have you been to Affluence? The fabled golden bungirls? The sacred Viera of the luxury club scene? Do you know aught of its present state of affairs? ...I thought not. Even of your little Eorzea, you know precious little. All of which is to say: expand your horizons. Go forth and seek discovery. As the bearer of Azem's crystal, you may consider your duty to see at least that much." ],
+        "location": "Cactuar, Empyreum, Ward 3, Plot 30",
+        "website": "https://affluence.carrd.co",
+        "discord": "https://discord.gg/UwYJtuCXaD",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Lounge", "Dancers", "Food", "Drink", "Photography", "Open stage", "Novel services", "VIP", "Triple triad"],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 9, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "981743808301662259" ],
         "comments": [  ]
     }
 ]
