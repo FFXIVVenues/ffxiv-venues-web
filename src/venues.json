@@ -6473,17 +6473,47 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 15, "minute": 0, "nextDay": false },
-                "end": { "hour": 19, "minute": 0, "nextDay": false }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             },
             {
                 "day": 2,
-                "start": { "hour": 15, "minute": 0, "nextDay": false },
-                "end": { "hour": 19, "minute": 0, "nextDay": false }
+                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
         "contacts": [ "277343691650367489" ],
         "comments": [  ]
+    },
+    {
+        "id": "BguPCZBEG",
+        "added": "2022-06-17T21:00:00Z",
+        "name": "Rhotano Vale",
+        "banner": "assets/banners/rhotanovale.jpg",
+        "description": [ "A colorful cafe at the edge of a chilly Ishgard, Rhotano Vale is meant to create warm memories and comfortable vibes. ...With a side-helping of antics, of course." ],
+        "location": "Adamantoise, Empyreum, Ward 16, Plot 56",
+        "website": "https://rhotanovale.carrd.co/",
+        "discord": "https://discord.gg/bpc8BDArMc",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Artists", "Bards", "Tarot", "Food", "Open stage", "IC RP only" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 3, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "204823176960540672" ],
+        "comments": [  ]
     }
+
 ]
