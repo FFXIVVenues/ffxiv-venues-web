@@ -890,13 +890,7 @@
         "contacts":["72900120101793792"],
         "sfw": true,
         "nsfw": false,
-        "times": [
-            {
-                "day": 1,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            }
-        ],
+        "times": [],
         "exceptions": []
     },
     {
