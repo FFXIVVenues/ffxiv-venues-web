@@ -6538,6 +6538,40 @@
         "exceptions": [ ],
         "contacts": [ "707716687402893452", "90703004650467328" ],
         "comments": [  ]
+    },
+    {
+        "id": "XaFHDjRkz",
+        "added": "2022-06-09T21:00:00Z",
+        "name": "The Evil Eye",
+        "banner": "assets/banners/evileye.jpg",
+        "description": [ "The Evil Eye is a cultish speakeasy where members and guests from all over come over to worship our ancient deity! With our luxurious rust covered benches and floors, anybody with their right mind would sit and relax here with their friends and family! Joining together to dance, drink, or gamble the night away, The Evil Eye has a wide variety of services to fulfill anybody's needs!" ],
+        "location": "Cactuar, Shirogane, Ward 2, Plot 43",
+        "website": "https://theevileye.carrd.co/#",
+        "discord": "discord.gg/Jpw59Cpme4",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Bar", "Speakeasy", "Gambling", "Courtesans", "Dancers", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "455599293445963786" ],
+        "comments": [  ]
     }
 
 ]
