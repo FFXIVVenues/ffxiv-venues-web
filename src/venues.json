@@ -2460,23 +2460,23 @@
         "times": [
             {
                 "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 18, "minute": 0, "nextDay": false }
             },
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 18, "minute": 0, "nextDay": false }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 18, "minute": 0, "nextDay": false }
             },
             {
                 "day": 6,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 18, "minute": 0, "nextDay": false }
             }
         ],
         "exceptions": [ ],
