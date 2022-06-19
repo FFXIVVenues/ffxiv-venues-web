@@ -1184,7 +1184,7 @@
             "The Kitty Cafe and Lounge is a SFW venue located in the heart of the Mist on Jenova.  Sporting a cozy cafe upstairs, with fine dining and a water garden downstairs, our establishment offers cuisine, commodore and conversation!",
             "The owners Sava and Azerith met one fateful day outside of Sava's Apt building in Shiro.  As it turns out, we were neighbors!  We kept bumping into each other, and became friends.  Sava had dreams of owning a cafe, and when she told Azerith this, on a whim Azerith said \"Well, why don't we start one together?\"  Thus began this fun little project!"
         ],
-        "location": "Jenova, Mist, Ward 23, Plot 12",
+        "location": "Saragatanas, Goblet, Ward 9, Plot 41",
         "shard": "Mist Northeast",
         "website": "https://thekittycafe.carrd.co/",
         "discord": "https://discord.gg/R3b7UkjqfX",
@@ -6117,13 +6117,13 @@
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 30, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 30, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 30, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 30, "nextDay": true }
             }
         ],
         "exceptions": [ ],
