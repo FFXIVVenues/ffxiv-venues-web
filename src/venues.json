@@ -6566,6 +6566,29 @@
         "exceptions": [ ],
         "contacts": [ "455599293445963786" ],
         "comments": [  ]
+    },
+    {
+        "id": "uxyFDDeEt",
+        "added": "2022-06-20T21:00:00Z",
+        "name": "Golden Age",
+        "banner": "assets/banners/goldenage.jpg",
+        "description": [ "Escape from the drama of daily life, and immerse yourself in a golden age of luxury. Enjoy the thrill of gambling in our dealer room, or explore our legendary club downstairs. Golden Age offers a wide variety of services for the discerning patron." ],
+        "location": "Cactuar, Goblet, Ward 14, Plot 35",
+        "website": "https://goldenage.crd.co/#",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Casino", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Photography", "VIP" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 5,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "470018429357785108" ],
+        "comments": [  ]
     }
 
 ]
