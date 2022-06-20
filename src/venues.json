@@ -6589,6 +6589,33 @@
         "exceptions": [ ],
         "contacts": [ "470018429357785108" ],
         "comments": [  ]
+    },
+    {
+        "id": "qwvTESaVS",
+        "added": "2022-06-09T21:00:00Z",
+        "name": "The Hingashi Underground",
+        "banner": "assets/banners/thehingashiunderground.jpg",
+        "description": [ 
+            "Come drink your night away in this shady bar tucked away in the back alleys of Kugane. The Hingashi Underground is a place for free spirits and indecorous behaviour, and promises to keep you entertained with a relaxed roleplaying experience.",
+            "This grunge-themed venue is host to a variety of amenities including a stocked bar, triple triad matches and rock-genre bard music."
+        ],
+        "location": "Siren, Shirogane, Ward 9, Apt 52",
+        "website": "https://hingashiunderground.carrd.co/",
+        "discord": "discord.gg/3vdVBP4XYc",
+        "sfw": false,
+        "nsfw": true,
+        "tags": [ "Bar", "Speakeasy", "Gambling", "Bards", "Drink", "Photography", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 21, "minute": 0, "nextDay": false },
+                "end": { "hour": 0, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "318852030217191424" ],
+        "comments": [  ]
     }
 
 ]
