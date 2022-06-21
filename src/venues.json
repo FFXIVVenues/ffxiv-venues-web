@@ -6616,6 +6616,29 @@
         "exceptions": [ ],
         "contacts": [ "318852030217191424" ],
         "comments": [  ]
+    },
+    {
+        "id": "EqfKXVLnc",
+        "added": "2022-06-21T21:00:00Z",
+        "name": "The Tom Cat",
+        "banner": "assets/banners/tomcat.jpg",
+        "description": [ "The Tom Cat is proud to serve as the best little gay club in all Eorzea. We are LGBTIA+ friendly and offer a range of services including themed refreshments, raffles and giveaways, live Bard and DJ entertainment and Court companionship." ],
+        "location": "Siren, Goblet, Ward 17, Plot 44",
+        "website": "https://thetomcat.carrd.co/",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Nightclub", "Bar", "Courtesans", "Dancers", "Bards", "Twitch DJ", "Food", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 3,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "689272444753805358" ],
+        "comments": [  ]
     }
 
 ]
