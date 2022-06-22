@@ -6656,6 +6656,30 @@
         "exceptions": [ ],
         "contacts": [ "716527905861140570" ],
         "comments": [  ]
+    },
+    {
+        "id": "ySFwQdMey",
+        "added": "2022-06-22T21:00:00Z",
+        "name": "The Red Hideout",
+        "banner": "assets/banners/redhideout.jpg",
+        "description": [ "Little social bar venue within an FC house, very light on RP but it is welcomed" ],
+        "location": "Gilgamesh, Lavender Beds, Ward 24, Plot 28, Room 55",
+        "website": "https://redhideout.carrd.co",
+        "discord": "https://discord.gg/95zvchweMp",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Bar", "Drink", "Restaurant", "Bards", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "111955830458322944" ],
+        "comments": [  ]
     }
 
 ]
