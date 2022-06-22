@@ -6680,6 +6680,23 @@
         "exceptions": [ ],
         "contacts": [ "111955830458322944" ],
         "comments": [  ]
+    },
+    {
+        "id": "wMVnBoBVg",
+        "added": "2022-06-22T21:00:00Z",
+        "name": "Lohcho Lounge",
+        "banner": "assets/banners/lohcholounge.jpg",
+        "description": [ "Cozy tavern feel, friendly conversations and an open stage" ],
+        "location": "Adamantoise, Empyreum, Ward 18 Sub, Apt 5",
+        "website": "https://lohcholounge.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Tavern", "Lounge", "Food", "Drink", "Open stage" ],
+        "notices": [ "This venue is often open in the evenings (Easter Time). Check Party Finder." ],
+        "times": [],
+        "exceptions": [ ],
+        "contacts": [ "448448207379234826" ],
+        "comments": [  ]
     }
 
 ]
