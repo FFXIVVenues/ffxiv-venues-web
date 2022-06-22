@@ -6638,6 +6638,24 @@
         "exceptions": [ ],
         "contacts": [ "689272444753805358" ],
         "comments": [  ]
+    },
+    {
+        "id": "ppvwsKwvF",
+        "added": "2022-06-22T21:00:00Z",
+        "name": "Lune Cafe",
+        "banner": "assets/banners/lunecafe.jpg",
+        "description": [ " An Ishgardian Cafe nestled in the newly restored Empyreum. Featuring Comforting and Hearty Foods, Maids, Butlers, a Bard, Fortune Teller, and Portrait Sketch Artist. Our goal is to give our guests a comfy (SFW) experience." ],
+        "location": "Midgardsormr, Empyreum, Ward 5, Plot 52",
+        "website": "https://lunecafe.uwu.ai/",
+        "discord": "https://discord.com/BmenpzfY8x",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Artists", "Bards", "Tarot", "Food", "Drink", "VIP" ],
+        "notices": [ "This venue is open every first Friday of the month. 9PM to 12AM EST" ],
+        "times": [],
+        "exceptions": [ ],
+        "contacts": [ "716527905861140570" ],
+        "comments": [  ]
     }
 
 ]
