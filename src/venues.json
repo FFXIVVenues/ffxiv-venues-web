@@ -4511,46 +4511,6 @@
         "comments": [  ]
     },
     {
-        "id": "HYRBqGfKv",
-        "added": "2022-04-30T04:40:00Z",
-        "name": "Chef Cat's Cafe",
-        "banner": "assets/banners/chef-cats-cafe.jpg",
-        "description": [ "A small comfy apartment cafe with an open stage, where you can relax, have drinks or snacks, and listen to good music! We aim to make you feel cozy and welcomed :D" ],
-        "location": "Faerie, Empyreum, Ward 24, Plot 22",
-        "website": "https://chefcats.carrd.co/",
-        "discord": "https://discord.gg/RvbwRzNRKF",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Cafe", "Bards", "Food", "Drink", "Open stage" ],
-        "notices": [  ],
-        "times": [
-            {
-                "day": 2,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 4,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            },
-            {
-                "day": 6,
-                "start": { "hour": 17, "minute": 0, "nextDay": false },
-                "end": { "hour": 20, "minute": 0, "nextDay": false }
-            }
-        ],
-        "exceptions": [
-            {
-                "start": "2022-05-18T00:00Z",
-                "end": "2022-05-30T00:00Z",
-                "hide": true
-            }
-        ],
-        "contacts": [ "408641748601143297" ],
-        "comments": [  ]
-    },
-    {
         "id": "Q2W2JgJAC",
         "added": "2022-05-05T01:30:00Z",
         "name": "Moon River",
