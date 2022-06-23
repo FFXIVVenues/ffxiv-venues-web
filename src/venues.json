@@ -6656,6 +6656,39 @@
         "exceptions": [],
         "tags": [ "Casino", "Nightclub", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Bards", "Food", "Drink", "Tarot", "VIP" ],
         "contacts": [ "135533826783838208" ]
+    },
+    {
+        "id": "meYFRhifQ",
+        "added": "2022-06-23T21:00:00Z",
+        "name": "The Killing Floor",
+        "banner": "assets/banners/thekillingfloor.jpg",
+        "description": [ "The Killing Floor, a non-profit Goth / Metal nigthclub that is centered around the guest experience and 'having a blast' every night that they're open." ],
+        "location": "Sargatanas, Mist, Ward 9, Plot 1",
+        "discord": "https://discord.gg/9V8PpfTgK3",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Bar", "Twitch DJ", "Drink" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 1,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "212105382632488960" ],
+        "comments": [  ]
     }
 
 ]
