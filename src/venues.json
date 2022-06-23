@@ -6621,6 +6621,41 @@
         "exceptions": [ ],
         "contacts": [ "448448207379234826" ],
         "comments": [  ]
+    },
+    {
+        "id": "gwvoxDO7c",
+        "added": "2022-02-11T00:00:00Z",
+        "name": "The Gold Roller",
+        "banner": "assets/banners/gold-roller.jpg",
+        "description": [ 
+            "The Gold Roller would like to welcome you to a premium casino and club experience! Our casino floor offers a variety of games such as slot dice, roulette, and blackjack. We also host a High Roller Bar for those who enjoy the finer things in life!",
+            "Join us on our lower floor for a night of dancing, tarot, our Rainbow Bar and our resident DJ.",
+            "Other services include: Photography, Courtesans, Personal Dances, High Roller Club Membership, In House Bard Band!"
+        ],
+        "location": "Siren, Shirogane, Ward 12, Plot 45",
+        "discord": "https://discord.gg/thegoldroller",
+        "sfw": true,
+        "nsfw": true,
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [],
+        "tags": [ "Casino", "Nightclub", "Gambling", "Courtesans", "Dancers", "Twitch DJ", "Bards", "Food", "Drink", "Tarot", "VIP" ],
+        "contacts": [ "135533826783838208" ]
     }
 
 ]
