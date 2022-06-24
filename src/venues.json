@@ -6664,6 +6664,7 @@
         "banner": "assets/banners/thekillingfloor.jpg",
         "description": [ "The Killing Floor, a non-profit Goth / Metal nigthclub that is centered around the guest experience and 'having a blast' every night that they're open." ],
         "location": "Sargatanas, Mist, Ward 9, Plot 1",
+        "website": "https://thekillingfloor.carrd.co/",
         "discord": "https://discord.gg/9V8PpfTgK3",
         "sfw": true,
         "nsfw": false,
@@ -6672,6 +6673,11 @@
         "times": [
             {
                 "day": 1,
+                "start": { "hour": 3, "minute": 0, "nextDay": true },
+                "end": { "hour": 7, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 2,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
