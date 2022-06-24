@@ -5658,32 +5658,6 @@
         "comments": [  ]
     },
     {
-        "id": "Smyn8pCET",
-        "added": "2022-06-02T00:00:00Z",
-        "name": "Eorzean Music Institute",
-        "banner": "assets/banners/eorzianmusicinstitute.jpg",
-        "description": [ 
-            "Welcome to the Eorzean Music Institute. We are a not for profit bard academy, located at our lovely beachfront campus in Shirogane 11-24 on Adamantoise. The mission of the faculty and institute is to cultivate the music and bard scene in Eorzea through offering 100% free workshops throughout the month with our in-house band and Faculty giving expert on site instruction, going over all facets of making and playing music within the context of FFXIV. Once again, we are NOT a business entity, rather a center for higher learning. Donations are accepted but certainly not expected for any and all activities at EMI.", 
-            "Classes will be on offer for any and all interested bards to hone their existing skills, or to learn from scratch, all skill levels and experience are welcome at EMI. So come join us, and enjoy the substantial array of top end amenities already on offer at our brand new campus. ",
-            "Additionally, we hope to offer our friends, as well as the Aether barding community at large open access to my former project, the band formerly known as Purrfection's full (original) music catalog, along with instrument combos, in the small hopes of giving a piece back that you have all given to us via your support over the past year.",
-            "The Faculty and EMI will be hosting regular public gatherings, starting with our weekly open mic night on our one of a kind main stage, every Thursday evening in our student lounge and concert hall, downstairs at the main campus. We look forward to cultivating the growth of the Aether barding scene with each and every one of you."
-        ],
-        "location": "Adamantoise, Shirogane, Ward 11, Plot 24",
-        "website": "https://emi.ju.mp/",
-        "discord": "https://discord.gg/eorzeanmusicinstitute",
-        "sfw": true,
-        "nsfw": false,
-        "tags": [ "Bar", "Lounge", "Gambling", "Artists", "Bards", "Twitch DJ", "Drink", "Photography", "Open stage" ],
-        "notices": [  ],
-        "times": [
-            {
-                "day": 3,
-                "start": { "hour": 2, "minute": 0, "nextDay": true }
-            }
-        ],
-        "contacts": [ "185091192113856513" ]
-    },
-    {
         "id": "IZZJ2Wjje",
         "added": "2022-06-03T17:36:00Z",
         "name": "The Weary Wanderer",
@@ -6664,7 +6638,6 @@
         "banner": "assets/banners/thekillingfloor.jpg",
         "description": [ "The Killing Floor, a non-profit Goth / Metal nigthclub that is centered around the guest experience and 'having a blast' every night that they're open." ],
         "location": "Sargatanas, Mist, Ward 9, Plot 1",
-        "website": "https://thekillingfloor.carrd.co/",
         "discord": "https://discord.gg/9V8PpfTgK3",
         "sfw": true,
         "nsfw": false,
@@ -6673,11 +6646,6 @@
         "times": [
             {
                 "day": 1,
-                "start": { "hour": 3, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 2,
                 "start": { "hour": 3, "minute": 0, "nextDay": true },
                 "end": { "hour": 7, "minute": 0, "nextDay": true }
             },
