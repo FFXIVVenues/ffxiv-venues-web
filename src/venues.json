@@ -6683,6 +6683,23 @@
         "exceptions": [ ],
         "contacts": [ "229172207438397440" ],
         "comments": [  ]
+    },
+    {
+        "id": "oqgKPNKq",
+        "added": "2022-06-25T21:00:00Z",
+        "name": "The Sleepy Knight",
+        "banner": "assets/banners/sleepyknight.jpg",
+        "description": [ "I’m a small diner that offers a relaxing atmosphere. If I have the music unlocked I’ll gladly change it to it. I’m a wandering knight so my diner is reflected in my journeys." ],
+        "location": "Midgardsormr, Goblet, Ward 24, Apt 58",
+        "website": "https://thesleepyknight.carrd.co/",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Restaurant", "Tavern", "Food", "Drink", "Open stage", "Triple triad" ],
+        "notices": [ "Open semi daily around 12PM-2PM and then again at 6PM-7PM Central Time. Check Party Finder" ],
+        "times": [],
+        "exceptions": [ ],
+        "contacts": [ "838045883189690408" ],
+        "comments": [  ]
     }
 
 ]
