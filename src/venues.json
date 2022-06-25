@@ -6639,6 +6639,50 @@
         "exceptions": [ ],
         "contacts": [ "212105382632488960" ],
         "comments": [  ]
+    },
+    {
+        "id": "EAWdQTbB",
+        "added": "2022-06-25T21:00:00Z",
+        "name": "The Wolfs Respite",
+        "banner": "assets/banners/thewolfrespite.jpg",
+        "description": [ 
+            "We at the wolfs respite to give you a nice late night place to kick off your shoes relax and unwind from your crazy adventures saving the world as as know.",
+            "We also have an extensive an library; you are free to grab a book do some research or just read a steamy romance. If we do not happen to have a book you want please feel free to let us know and we will do our best to have it for you on your next visit." 
+        ],
+        "location": "Siren, Goblet, Ward 2, Plot 51",
+        "website": "https://thewolfsrespite.com/",
+        "discord": "https://discord.gg/CqHnYfYnvd ",
+        "sfw": true,
+        "nsfw": true,
+        "tags": [ "Cafe", "Library", "Courtesans", "Pillow", "Bards", "Drink", "Open stage", "VIP" ],
+
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 9, "minute": 30, "nextDay": false },
+                "end": { "hour": 12, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 2,
+                "start": { "hour": 9, "minute": 30, "nextDay": false },
+                "end": { "hour": 12, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 7, "minute": 30, "nextDay": false },
+                "end": { "hour": 12, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 7, "minute": 30, "nextDay": false },
+                "end": { "hour": 12, "minute": 0, "nextDay": false }
+            }
+
+        ],
+        "exceptions": [ ],
+        "contacts": [ "229172207438397440" ],
+        "comments": [  ]
     }
 
 ]
