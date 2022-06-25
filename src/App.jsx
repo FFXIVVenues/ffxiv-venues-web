@@ -13,6 +13,8 @@ import { VenueStrip } from './components/venue-strip/VenueStrip';
 import { VenueOpening } from './components/venue-opening/VenueOpening';
 import { isMobile } from "react-device-detect";
 import { propFilter, tagFilter, worldFilter } from "./filters/filters";
+import { Modal } from "./components/modal/Modal";
+import { VenueProfile } from "./components/venue-profile/VenueProfile";
 import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
@@ -66,15 +68,18 @@ class App extends React.Component {
       { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
       { key: Symbol(), label: "IC RP Only", filter: tagFilter("ic rp only") }
     ]
+    const requestedVenueId = window.location.hash.substring(1);
+    const requestedVenue = venueService.getVenueById(requestedVenueId);
     this.state = {
       search: "",
+      requestedVenue: requestedVenue,
       enabledWorldFilter: null,
       enabledTypeFilters: [],
       enabledFeatureFilters: [],
       openVenues: venueService.getOpenVenues(),
       favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()),
       scheduledVenues: venueService.getVenueSchedule(),
-      listView: localStorage.getItem("aether-venues-view-setting") !== 'card-view'
+      listView: localStorage.getItem("aether-venues-view-setting") === 'list-view'
     };
   }
 
@@ -327,6 +332,13 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
+                <img src="https://img2.finalfantasyxiv.com/f/6adbef94cc3fa361f6a047330a0b9a44_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
+                <div className="aether-venues__made-by-details">
+                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/252142384303833088">Sumi Satsuo</a>, Jenova.</div>
+                  <div className="aether-venues__made-by-position">Venue Indexer (Aether)</div>
+                </div>
+              </div>
+              <div className="aether-venues__made-by-individual">
                 <img src="https://img2.finalfantasyxiv.com/f/d6583919ef6756c46ee9cac82110041a_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
                   <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/">Here Xumm</a>, Siren.</div>
@@ -348,10 +360,10 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/639157419cc474330657cc764b33c9ea_1f5fd239b885860b7c2bfc72ad1d97effc0_96x96.jpg" alt=""/>
+                <img src="https://img2.finalfantasyxiv.com/f/777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/227307380616986634">Axelle Lenoir</a>, Adamantoise.</div>
-                  <div className="aether-venues__made-by-position">Community Administrator</div>
+                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/158410288238952449">Alitzia Kiryu</a>, Siren.</div>
+                  <div className="aether-venues__made-by-position">Community Moderator</div>
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
@@ -363,6 +375,12 @@ class App extends React.Component {
               </div>
             </div>
           </div>
+          { this.state.requestedVenue && 
+              <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>
+                  <button className="venue-modal__close-button" onClick={_ => this.setState({ requestedVenue: null })}><img src="assets/cross.svg" alt="" /></button>
+                  <VenueProfile venue={this.state.requestedVenue} />
+              </Modal>
+          }
         </div>
       </React.Fragment>
     );

@@ -2,7 +2,6 @@ import React from "react";
 import { Time } from "../time/Time";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
-import { Notice } from "../notice/notice";
 import days from "../../consts/days.json";
 import { FavoriteIcon } from "../../components/icons/FavoriteIcon";
 import { ReactComponent as NotVisitedIcon }  from "../../assets/icons/not-visited-icon.svg";
@@ -42,6 +41,14 @@ class VenueProfile extends React.Component {
         });
     }
 
+    componentDidMount() {
+        window.location.hash = this.props.venue.id;
+    }
+
+    componentWillUnmount() {
+        window.location.hash = "";
+    }
+
     render() {
         const exceptions = this.props.venue.exceptions && this.props.venue.exceptions.filter(e => {
             const now = new Date();
@@ -68,10 +75,20 @@ class VenueProfile extends React.Component {
                 </div>
 
                 <div className="venue-profile__banner" 
-                     style={ this.props.venue.banner ? { backgroundImage: `url("${this.props.venue.banner}")` } : null }>
+                     style={ { 
+                         backgroundImage: this.props.venue.banner ? 
+                                            `url("${this.props.venue.banner}")` :
+                                            `url("assets/default-banner.jpg")`,
+                        } }>
                 </div>
 
                 <div className="venue-profile__details">
+
+                    { this.props.venue.notices?.map((n, i) => 
+                        <div className="venue-profile__notice" key={i}>
+                            {n}
+                        </div>
+                    )}
 
                     <div className="venue-profile__heading">
                         <h2>
@@ -82,7 +99,7 @@ class VenueProfile extends React.Component {
                     <p className="venue-profile__location">
                         { this.props.venue.location }
                     </p>
-
+                    
                     { this.props.venue.website && 
                         <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.website}>
                             <WebIcon /> 
@@ -109,10 +126,6 @@ class VenueProfile extends React.Component {
                         </article>
                     }
 
-                    { this.props.venue.notices?.map((n, i) => 
-                        <Notice summary={n} key={i} />
-                    )}
-                    
                     { (this.props.venue.times && this.props.venue.times.length > 0) &&
                         <div className="venue-profile__opening-times-wrapper">
                             <table className="venue-profile__opening-times">
@@ -133,7 +146,7 @@ class VenueProfile extends React.Component {
 
                     { (exceptions && exceptions.length > 0) && 
                         <article className="venue-profile__exceptions">
-                            <p>This venue will be closed at the following times:</p>
+                            This venue will be closed at the following times:
                             <table>
                                 { this.props.venue.exceptions.map((e, i) => {
                                     const exceptionStart = new Date(e.start);
