@@ -2788,7 +2788,18 @@
         "discord": "https://discord.gg/udbytkwEQk",
         "sfw": true,
         "nsfw": false,
-        "times": [],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 22, "minute": 0, "nextDay": false },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
         "exceptions": [  ],
         "notices": [  ],
         "tags": [ "Bar", "Lounge", "Novel services" ],
