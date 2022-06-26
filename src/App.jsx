@@ -341,7 +341,7 @@ class App extends React.Component {
               <div className="aether-venues__made-by-individual">
                 <img src="https://img2.finalfantasyxiv.com/f/d6583919ef6756c46ee9cac82110041a_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/">Here Xumm</a>, Siren.</div>
+                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/">Ada Xumm</a>, Siren.</div>
                   <div className="aether-venues__made-by-position">Venue Photographer</div>
                 </div>
               </div>
