@@ -5109,7 +5109,7 @@
         "description": [ "Fun star themed night club with gambling, drinks and awesome music." ],
         "location": "Jenova, Empyreum, Ward 8, Plot 30",
         "website": "https://stardustnightclub.carrd.co/",
-        "discord": "https://discord.gg/aDE74gyj",
+        "discord": "https://discord.gg/nUuX6UsrxD",
         "sfw": true,
         "nsfw": true,
         "tags": [ "Nightclub", "Bar", "Gambling", "Courtesans", "Dancers", "Pillow", "Twitch DJ", "Food", "Drink", "Open stage" ],
@@ -5117,13 +5117,13 @@
         "times": [
             {
                 "day": 4,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
                 "day": 5,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 4, "minute": 0, "nextDay": true }
+                "start": { "hour": 2, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
