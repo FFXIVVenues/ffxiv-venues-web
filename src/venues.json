@@ -5464,18 +5464,18 @@
         "discord": "https://discord.gg/gg5jJQnjPs",
         "sfw": true,
         "nsfw": true,
-        "tags": [ "Bar", "Bath house", "Gambling", "Courtesans", "Bards", "Drink", "Open stage" ],
+        "tags": [ "Bar", "Bath house", "Drink", "Open stage" ],
         "notices": [  ],
         "times": [
             {
                 "day": 2,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             },
             {
                 "day": 4,
-                "start": { "hour": 4, "minute": 0, "nextDay": true },
-                "end": { "hour": 7, "minute": 0, "nextDay": true }
+                "start": { "hour": 5, "minute": 0, "nextDay": true },
+                "end": { "hour": 8, "minute": 0, "nextDay": true }
             }
         ],
         "exceptions": [ ],
