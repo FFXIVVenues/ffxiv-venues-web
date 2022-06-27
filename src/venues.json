@@ -4457,7 +4457,13 @@
                 "end": { "hour": 0, "minute": 0, "nextDay": true }
             }
         ],
-        "exceptions": [ ],
+        "exceptions": [ 
+            {
+                "start": "2022-06-26T00:00Z",
+                "end": "2022-07-11T00:00Z",
+                "hide": true
+            }
+        ],
         "contacts": [ "259014695678115841" ],
         "comments": [  ]
     },
