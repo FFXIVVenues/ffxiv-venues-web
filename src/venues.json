@@ -6711,6 +6711,41 @@
         "exceptions": [ ],
         "contacts": [ "838045883189690408" ],
         "comments": [  ]
+    },
+    {
+        "id": "VmfNocwV",
+        "added": "2022-06-27T21:00:00Z",
+        "name": "Cenote Wyvern",
+        "banner": "assets/banners/cenotewyvern.jpg",
+        "description": [ "Cenote Wyvern is an SFW RP and social venue/community focused on encouraging genuine connections between players and/or characters. At are venue we offer a free bar, a wide variety of music between our Lofi bot, house bot, and house DJ, and we have community specialists always looking to engage with our guests to ensure they have the best social experience and encourage them to escape their comfort zone and interact with another guest. For all intents and purposes, we are a non-profit venue outside of our small-scale gambling options for RP in amounts no greater than 50k. We do NOT do Raffles, Giveaways, or large-scale gambling, as we believe these opportunities detract from social experiences between guests." ],
+        "location": "Midgardsormr, Goblet, Ward 7 Sub, Plot 35 ",
+        "website": "",
+        "discord": "https://discord.gg/d9zam9GdHb",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Bar", "Gambling", "Twitch DJ", "Food", "Drink", "Open stage", "Triple triad" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 4,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ 
+            {
+                "start": "2022-06-27T00:00Z",
+                "end": "2022-07-13T00:00Z",
+                "hide": false
+            }
+        ],
+        "contacts": [ "530835375451799553" ],
+        "comments": [  ]
     }
 
 ]
