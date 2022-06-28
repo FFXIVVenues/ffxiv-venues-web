@@ -363,7 +363,7 @@ class App extends React.Component {
                 <img src="https://img2.finalfantasyxiv.com/f/777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
                   <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/158410288238952449">Alitzia Kiryu</a>, Siren.</div>
-                  <div className="aether-venues__made-by-position">Community Moderator</div>
+                  <div className="aether-venues__made-by-position">Community Administrator</div>
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
