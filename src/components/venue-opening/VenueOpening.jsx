@@ -3,22 +3,17 @@ import "./venue-opening.css";
 import { Modal } from "../modal/Modal";
 import { Time } from "../time/Time";
 import { VenueProfile } from "../venue-profile/VenueProfile";
-import { timeService } from "../../services/timeService";
+import { Location } from "../location/Location";
 
 class VenueOpening extends React.Component {
 
     constructor(props) {
         super();
-        this.props = props;
         this.state = {
-            isOpen: this.isOpen()
+            openModal: false
         };
-        this._checkInterval = null;
+        this.props = props;
         this._onEscPressed = this._onEscPressed.bind(this);
-    }
-
-    isOpen() {
-        return this.props.time ? timeService.isOpen(this.props.time, this.props.venue.exceptions) : (this.props.venue.times.filter(t => timeService.isOpen(t, this.props.venue.exceptions)).length > 0)
     }
 
     isNew() {
@@ -27,14 +22,6 @@ class VenueOpening extends React.Component {
         return this.props.venue.added && new Date(this.props.venue.added) > newIfAfter;
     }
     
-    componentDidMount() {
-        this._checkInterval = setInterval(() => this.setState({ isOpen: this.isOpen() }), 6000);
-    }
-
-    componentWillUnmount() {
-        this._checkInterval !== null && clearInterval(this._checkInterval);
-    }
-
     _onVenueClick() {
         this.setState({ openModal: true });
         document.onkeyup = this._onEscPressed;
@@ -53,7 +40,7 @@ class VenueOpening extends React.Component {
         const newIfAfter = new Date();
         newIfAfter.setDate(newIfAfter.getDate() - 14);
 
-        return <div className={"venue-opening " + (this.props.venue.id) + (this.state.isOpen ? " venue-opening--open" : "") + (this.props.time ? "" : " venue-opening--no-time")}>
+        return <div className={"venue-opening " + (this.props.venue.id) + (this.props.venue.open ? " venue-opening--open" : "") + (this.props.time ? "" : " venue-opening--no-time")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
                 {this.props.time && 
                     <React.Fragment>
@@ -69,7 +56,7 @@ class VenueOpening extends React.Component {
                         null
                     }
                 </div>
-                <div className="venue-opening__cell venue-opening__location" >{this.props.venue.location}</div>
+                <div className="venue-opening__cell venue-opening__location" ><Location location={this.props.venue.location} /></div>
             </div>
             { this.state.openModal && 
                 <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>

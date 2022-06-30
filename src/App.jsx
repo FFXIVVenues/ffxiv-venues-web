@@ -1,27 +1,17 @@
-// TODO
-// Mobile
-
 import React from 'react';
 import './App.css';
 import './Responsive.css';
 import { ModalStage } from "./components/modal-stage/ModalStage";
-import days from "./consts/days.json"
 import { venueService } from './services/venueService';
-import { timeService } from './services/timeService';
-import { favouritesService } from './services/favouritesService';
-import { VenueStrip } from './components/venue-strip/VenueStrip';
-import { VenueOpening } from './components/venue-opening/VenueOpening';
-import { isMobile } from "react-device-detect";
-import { propFilter, tagFilter, worldFilter } from "./filters/filters";
 import { Modal } from "./components/modal/Modal";
 import { VenueProfile } from "./components/venue-profile/VenueProfile";
-import { HorizontalScroll } from './components/horizontal-scroll/HorizontalScroll';
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
 import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
 import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
 import { Notice } from './components/notice/notice';
+import { VenueList } from './components/venue-list/VenueList';
 
 class App extends React.Component {
 
@@ -29,251 +19,17 @@ class App extends React.Component {
     super();
     this.switchToListView = this.switchToListView.bind(this);
     this.switchToCardView = this.switchToCardView.bind(this);
-    this._openVenuesIntervalHandle = null;
-    this._destroyFavouritesObserver = null;
-    this._worldFilters = [
-      { key: Symbol(), label: "Cactuar", filter: worldFilter("Cactuar") },
-      { key: Symbol(), label: "Adamantoise", filter: worldFilter("Adamantoise") },
-      { key: Symbol(), label: "Gilgamesh", filter: worldFilter("Gilgamesh") },
-      { key: Symbol(), label: "Jenova", filter: worldFilter("Jenova") },
-      { key: Symbol(), label: "Faerie", filter: worldFilter("Faerie") },
-      { key: Symbol(), label: "Siren", filter: worldFilter("Siren") },
-      { key: Symbol(), label: "Sargatanas", filter: worldFilter("Sargatanas") },
-      { key: Symbol(), label: "Midgardsormr", filter: worldFilter("Midgardsormr") },
-    ];
-    this._typeFilters = [
-      { key: Symbol(), label: "Nightclub", filter: tagFilter("nightclub") },
-      { key: Symbol(), label: "Den", filter: tagFilter("den") },
-      { key: Symbol(), label: "Cafe", filter: tagFilter("cafe") },
-      { key: Symbol(), label: "Tavern", filter: tagFilter("tavern") },
-      { key: Symbol(), label: "Inn", filter: tagFilter("inn") },
-      { key: Symbol(), label: "Lounge", filter: tagFilter("lounge") },
-      { key: Symbol(), label: "Bath house", filter: tagFilter("bath house") },
-      { key: Symbol(), label: "Library", filter: tagFilter("library") },
-      { key: Symbol(), label: "Casino", filter: tagFilter("casino") },
-      { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") }
-    ];
-    this._featureFilters = [
-      { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
-      { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
-      { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
-      { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
-      { key: Symbol(), label: "Dancers", filter: tagFilter("dancers") },
-      { key: Symbol(), label: "Bards", filter: tagFilter("bards") },
-      { key: Symbol(), label: "Twitch DJ", filter: tagFilter("twitch dj") },
-      { key: Symbol(), label: "Tarot reading", filter: tagFilter("tarot") },
-      { key: Symbol(), label: "Pillow talk", filter: tagFilter("pillow") },
-      { key: Symbol(), label: "Novel services", filter: tagFilter("novel services") },
-      { key: Symbol(), label: "VIP", filter: tagFilter("vip") },
-      { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
-      { key: Symbol(), label: "IC RP Only", filter: tagFilter("ic rp only") }
-    ]
-    const requestedVenueId = window.location.hash.substring(1);
-    const requestedVenue = venueService.getVenueById(requestedVenueId);
     this.state = {
-      search: "",
-      requestedVenue: requestedVenue,
-      enabledWorldFilter: null,
-      enabledTypeFilters: [],
-      enabledFeatureFilters: [],
-      openVenues: venueService.getOpenVenues(),
-      favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()),
-      scheduledVenues: venueService.getVenueSchedule(),
+      requestedVenue: null,
       listView: localStorage.getItem("aether-venues-view-setting") === 'list-view'
     };
   }
 
   componentDidMount() {
-    this._openVenuesIntervalHandle = setInterval(_ => 
-      this.setState({ openVenues: venueService.getOpenVenues() })
-    , 60000);
-    this._destroyFavouritesObserver = favouritesService.observe(_ => 
-      this.setState({ favouriteVenues: venueService.getVenues().filter(v => v.isFavorite()) })
-    );
+    const requestedVenueId = window.location.hash.substring(1);
+    venueService.getVenueById(requestedVenueId).then(v => this.setState({ requestedVenue: v }));
   }
-
-  componentWillUnmount() {
-    if (this._openVenuesIntervalHandle) clearInterval(this._openVenuesIntervalHandle);
-    if (this._destroyFavouritesObserver) this._destroyFavouritesObserver();
-  }
-
-  toggleTypeFilter(symbol) {
-    const location = this.state.enabledTypeFilters.indexOf(symbol);
-    const newEnabledFilters = [ ...this.state.enabledTypeFilters ];
-    if (location === -1)
-      newEnabledFilters.push(symbol);
-    else 
-      newEnabledFilters.splice(location, 1);
-    this.setState({ enabledTypeFilters: newEnabledFilters });
-  }
-
-  toggleFeatureFilter(symbol) {
-    const location = this.state.enabledFeatureFilters.indexOf(symbol);
-    const newEnabledFilters = [ ...this.state.enabledFeatureFilters ];
-    if (location === -1)
-      newEnabledFilters.push(symbol);
-    else 
-      newEnabledFilters.splice(location, 1);
-    this.setState({ enabledFeatureFilters: newEnabledFilters });
-  }
-
-  runFilters(venues) {
-    let currentVenues = venues;
-    if (this.state.search) {
-      currentVenues = currentVenues.filter(v => (v.name || v.venue.name).toLowerCase().indexOf(this.state.search) !== -1);
-    }
-    if (this.state.enabledWorldFilter !== null) {
-      currentVenues = this._worldFilters.find(f => f.key === this.state.enabledWorldFilter).filter(currentVenues);
-    }
-    for (let filter of this.state.enabledTypeFilters) {
-      currentVenues = this._typeFilters.find(f => f.key === filter).filter(currentVenues);
-    }
-    for (let filter of this.state.enabledFeatureFilters) {
-      currentVenues = this._featureFilters.find(f => f.key === filter).filter(currentVenues);
-    }
-    return currentVenues;
-  }
-
-  _renderFavoriteVenues() {
-    const venues = this.runFilters(this.state.favouriteVenues);
-    if (venues.length === 0)
-      return <React.Fragment></React.Fragment>
-
-    
-    
-    return (
-      <div className="aether-venues__venues aether-venues__favourite-venues">
-        <details open>
-          <summary><h2>Favorites</h2></summary>
-          { this.state.listView ? 
-            venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
-            <VenueStrip venues={venues} />
-          }
-        </details>
-      </div>);
-  }
-
-  _renderOpenVenues() {
-    const venues = this.runFilters(this.state.openVenues);
-    if (venues.length === 0)
-      return <React.Fragment />
-
-    return <div className="aether-venues__venues aether-venues__opennow">
-        <details open>
-          <summary><h2>Open now</h2></summary>
-          { this.state.listView ? 
-            venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
-            <VenueStrip venues={venues} />
-          }
-        </details>
-      </div>;
-  }
-
-  _renderScheduledVenues() {
-    const render = [];
-    const currentDay = timeService.getLocalDay();
-
-    for (let i = currentDay, looped = false; !looped || i !== currentDay; (looped = true) && (i = ++i % 7)) {
-      const venues = this.runFilters(this.state.scheduledVenues.scheduled[i]);
-      if (venues.length === 0)
-        continue;
-      render.push(
-        <div className="aether-venues__day" key={i}>
-          <details open>
-            <summary><h2>{currentDay === i ? "Today" : currentDay === i - 1 ? "Tomorrow" : days[i]}</h2></summary>
-            { this.state.listView ? 
-              venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
-              <VenueStrip venues={venues} />
-            }
-          </details>
-        </div>
-      )
-    }
-
-    return (
-      <div className="aether-venues__venues aether-venues__scheduled-venues">
-        { render }
-      </div>
-    );
-  }
-
-  _renderUnscheduledVenues() {
-    const venues = this.runFilters(this.state.scheduledVenues.unscheduled);
-    if (venues.length === 0) {
-      return <React.Fragment></React.Fragment>
-    }
-
-    return (
-      <div className="aether-venues__venues aether-venues__unscheduled-venues">
-        <details open>
-          <summary><h2>Unscheduled</h2></summary>
-          { this.state.listView ? 
-              venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
-            <VenueStrip venues={venues} />
-          }
-        </details>
-      </div>);
-  }
-
-  _renderNewestVenues() {
-    let venues = venueService.getVenues().filter(v => v.isNew());
-    venues = this.runFilters(venues);
-    if (venues.length === 0)
-      return <React.Fragment></React.Fragment>
-
-    venues = venues.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
-
-    return (
-      <div className="aether-venues__venues aether-venues__new-venues">
-        <details open={!this.state.listView}>
-          <summary><h2>Newest</h2></summary>
-          { this.state.listView ? 
-              venues.map((v) => <VenueOpening venue={v.venue || v} time={v.time} key={(v.venue || v).id} /> ) :
-            <VenueStrip venues={venues} />
-          }
-        </details>
-      </div>)
-  }
-
-  _renderFilters() {
-    return (
-      <React.Fragment>
-        <div className="aether-venues__search">
-          <input autoFocus={!isMobile} className="aether-venues__search-textbox" type="textbox" placeholder='Search venues' onChange={e => this.setState({ search: e.target.value.toLowerCase() })} />
-        </div>
-        <div className="aether-venues__tags">
-          <HorizontalScroll reverseScroll>
-            { this._worldFilters.map(f => 
-              <button key={f.label} className={"aether-venues__tag" + (this.state.enabledWorldFilter === f.key ? " aether-venues__tag--enabled" : "")}
-                  onClick={() => this.state.enabledWorldFilter === f.key ? this.setState({ enabledWorldFilter: null }) : this.setState({ enabledWorldFilter: f.key })}>
-                {f.label}
-              </button>
-            )}
-          </HorizontalScroll>
-        </div>
-        <div className="aether-venues__tags">
-          <HorizontalScroll reverseScroll>
-          { this._typeFilters.map(f => 
-            <button key={f.label} className={"aether-venues__tag" + (this.state.enabledTypeFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
-                onClick={() => this.toggleTypeFilter(f.key)}>
-              {f.label}
-            </button>
-          )}
-          </HorizontalScroll>
-        </div>
-        <div className="aether-venues__tags">
-          <HorizontalScroll reverseScroll>
-            { this._featureFilters.map(f => 
-              <button key={f.label} className={"aether-venues__tag" + (this.state.enabledFeatureFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
-                  onClick={() => this.toggleFeatureFilter(f.key)}>
-                {f.label}
-              </button>
-            )}
-          </HorizontalScroll>
-        </div>
-      </React.Fragment>)
-  }
-  
+ 
   switchToListView() {
     localStorage.setItem("aether-venues-view-setting", "list-view");
     this.setState({ listView: true })
@@ -304,12 +60,7 @@ class App extends React.Component {
             </div>
           </div>
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
-            { this._renderFilters() }
-            { this._renderFavoriteVenues() }
-            { !this.state.listView && this._renderOpenVenues() }
-            { this._renderNewestVenues() }
-            { this._renderScheduledVenues() }
-            { this._renderUnscheduledVenues() } 
+            <VenueList listView={this.state.listView} />
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
           </div>
           <div className="aether-venues__meta-panel">

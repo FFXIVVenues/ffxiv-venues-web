@@ -10,6 +10,7 @@ import { ReactComponent as WebIcon } from "../../assets/icons/web-icon.svg";
 import { ReactComponent as DiscordIcon } from "../../assets/icons/discord-icon.svg";
 import { DateString } from "../date/Date";
 import "./venue-profile.css";
+import { Location } from "../location/Location";
 
 class VenueProfile extends React.Component {
 
@@ -50,9 +51,9 @@ class VenueProfile extends React.Component {
     }
 
     render() {
-        const exceptions = this.props.venue.exceptions && this.props.venue.exceptions.filter(e => {
+        const override = this.props.venue.openOverides && this.props.venue.openOverides.filter(o => {
             const now = new Date();
-            const exceptionEnd = new Date(e.end);
+            const exceptionEnd = new Date(o.end);
             return now < exceptionEnd;
         });
 
@@ -76,17 +77,15 @@ class VenueProfile extends React.Component {
 
                 <div className="venue-profile__banner" 
                      style={ { 
-                         backgroundImage: this.props.venue.banner ? 
-                                            `url("${this.props.venue.banner}")` :
-                                            `url("assets/default-banner.jpg")`,
+                         backgroundImage: `url(${process.env.REACT_APP_LINQEM_API_ROOT}/venue/${this.props.venue.id}/media)`
                         } }>
                 </div>
 
                 <div className="venue-profile__details">
 
-                    { this.props.venue.notices?.map((n, i) => 
+                    { this.props.venue.notices?.filter(n => n.isNow).map((n, i) => 
                         <div className="venue-profile__notice" key={i}>
-                            {n}
+                            {n.message}
                         </div>
                     )}
 
@@ -97,7 +96,7 @@ class VenueProfile extends React.Component {
                     </div>
 
                     <p className="venue-profile__location">
-                        { this.props.venue.location }
+                        <Location location={this.props.venue.location} />
                     </p>
                     
                     { this.props.venue.website && 
@@ -126,12 +125,12 @@ class VenueProfile extends React.Component {
                         </article>
                     }
 
-                    { (this.props.venue.times && this.props.venue.times.length > 0) &&
+                    { (this.props.venue.openings && this.props.venue.openings.length > 0) &&
                         <div className="venue-profile__opening-times-wrapper">
                             <table className="venue-profile__opening-times">
                                 <tbody>
-                                { this.props.venue.times.map((t, i) => 
-                                    <tr key={i}>
+                                { this.props.venue.openings.map((t, i) => 
+                                    <tr key={i} className={`venue-profile__opening-time ${t.isNow ? "venue-profile__opening-time--active" : ""}`}>
                                         <td className="venue-profile__day"><strong>{days[t.day]}</strong></td> 
                                         <td className="venue-profile__start"><Time time={t.start} day={t.day} format24={false} /></td>
                                         <td className="venue-profile__split">{ t.end && <React.Fragment>-</React.Fragment> }</td>
@@ -144,29 +143,21 @@ class VenueProfile extends React.Component {
                         </div>
                     }
 
-                    { (exceptions && exceptions.length > 0) && 
+                    { (override && override.length > 0) && 
                         <article className="venue-profile__exceptions">
                             This venue will be closed at the following times:
                             <table>
-                                { this.props.venue.exceptions.map((e, i) => {
-                                    const exceptionStart = new Date(e.start);
-                                    const exceptionEnd = new Date(e.end);
+                                { this.props.venue.openOverides.filter(o => !o.open).map((o, i) => {
+                                    const overrideStart = new Date(o.start);
+                                    const overrideEnd = new Date(o.end);
                                     return (<tr key={i}>
-                                        <td><DateString date={exceptionStart} /></td>
+                                        <td><DateString date={overrideStart} /></td>
                                         <td className="venue-profile__split">{ <React.Fragment>-</React.Fragment> }</td>
-                                        <td><DateString date={exceptionEnd} /></td>
+                                        <td><DateString date={overrideEnd} /></td>
                                     </tr>);
                                 })}
                             </table>
                         </article>
-                    }
-
-                    { this.props.venue.photos &&
-                        <div className="venue-profile_photos">
-                            {this.props.venue.images.map((src, i) => 
-                                <img className="venue-profile__photo" key={i} src={src} alt={`Photograph of venue ${this.props.venue.name}.`} />
-                            )}
-                        </div>
                     }
 
                     { this.props.venue.tags &&

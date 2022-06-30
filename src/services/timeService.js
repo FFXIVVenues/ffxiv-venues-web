@@ -10,6 +10,7 @@ class TimeService {
     }
 
     convertToLocalTime(time) {
+        if (time.utc) time = time.utc;
         const currentTimezoneOffset = new Date().getTimezoneOffset() / -60;
 
         const utcHour = time.hour;
@@ -56,41 +57,41 @@ class TimeService {
         return null;
     }
 
-    isOpen(time, exceptions) {
-        if (exceptions !== null && exceptions !== undefined && exceptions.length >= 0 && this.getActiveException(exceptions)) {
-            return false;
-        }
+    // isOpen(time, exceptions) {
+    //     if (exceptions !== null && exceptions !== undefined && exceptions.length >= 0 && this.getActiveException(exceptions)) {
+    //         return false;
+    //     }
 
-        let currentUtcDay = new Date().getUTCDay() - 1;
-        if (currentUtcDay === -1) currentUtcDay = 6;
-        const currentUtcHour = new Date().getUTCHours();
-        const currentUtcMinute = new Date().getUTCMinutes();
+    //     let currentUtcDay = new Date().getUTCDay() - 1;
+    //     if (currentUtcDay === -1) currentUtcDay = 6;
+    //     const currentUtcHour = new Date().getUTCHours();
+    //     const currentUtcMinute = new Date().getUTCMinutes();
 
-        // Assume venue is open for 2 hours
-        const endTime = time.end || timeService.addHours(time.start, 2);
+    //     // Assume venue is open for 2 hours
+    //     const endTime = time.end || timeService.addHours(time.start, 2);
 
-        let startTimeDay = time.start.nextDay ? time.day + 1 : time.day;
-        startTimeDay = startTimeDay === 7 ? 0 : startTimeDay;
-        const dayAfterVenueStart = (startTimeDay + 1 === 7 ? 0 : startTimeDay + 1);
+    //     let startTimeDay = time.start.nextDay ? time.day + 1 : time.day;
+    //     startTimeDay = startTimeDay === 7 ? 0 : startTimeDay;
+    //     const dayAfterVenueStart = (startTimeDay + 1 === 7 ? 0 : startTimeDay + 1);
 
-        const pastOpeningTime = (currentUtcHour === time.start.hour && 
-                                currentUtcMinute >= time.start.minute) ||
-                                currentUtcHour > time.start.hour;
-        const pastOpening = currentUtcDay === dayAfterVenueStart ||
-                            (currentUtcDay === startTimeDay && pastOpeningTime);
+    //     const pastOpeningTime = (currentUtcHour === time.start.hour && 
+    //                             currentUtcMinute >= time.start.minute) ||
+    //                             currentUtcHour > time.start.hour;
+    //     const pastOpening = currentUtcDay === dayAfterVenueStart ||
+    //                         (currentUtcDay === startTimeDay && pastOpeningTime);
                             
-        let endTimeDay = endTime.nextDay ? time.day + 1 : time.day;
-        endTimeDay = endTimeDay === 7 ? 0 : endTimeDay;
-        const dayBeforeVenueEnd = (endTimeDay - 1 === -1 ? 6 : endTimeDay - 1);
+    //     let endTimeDay = endTime.nextDay ? time.day + 1 : time.day;
+    //     endTimeDay = endTimeDay === 7 ? 0 : endTimeDay;
+    //     const dayBeforeVenueEnd = (endTimeDay - 1 === -1 ? 6 : endTimeDay - 1);
 
-        const beforeClosingTime = (currentUtcHour === endTime.hour && 
-                                    currentUtcMinute < endTime.minute) ||
-                                    currentUtcHour < endTime.hour;
-        const beforeClosing = currentUtcDay === dayBeforeVenueEnd ||
-                              (currentUtcDay === endTimeDay && beforeClosingTime);
+    //     const beforeClosingTime = (currentUtcHour === endTime.hour && 
+    //                                 currentUtcMinute < endTime.minute) ||
+    //                                 currentUtcHour < endTime.hour;
+    //     const beforeClosing = currentUtcDay === dayBeforeVenueEnd ||
+    //                           (currentUtcDay === endTimeDay && beforeClosingTime);
 
-        return pastOpening && beforeClosing;
-    }
+    //     return pastOpening && beforeClosing;
+    // }
 
 }
 

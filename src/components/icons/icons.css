@@ -17,3 +17,17 @@
     fill: white !important;
     stroke: white;
 }
+
+.loading-icon {
+    width: 2em;
+    animation: spin linear 1s infinite;
+}
+
+@keyframes spin {
+    from {
+       transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(359deg); 
+    }
+}

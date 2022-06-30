@@ -9,6 +9,7 @@ import { VenueOpening } from "../venue-opening/VenueOpening";
 import { FavoriteIcon } from "../icons/FavoriteIcon";
 import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
 import { ReactComponent as UnvisitedIcon } from "../../assets/icons/not-visited-icon.svg";
+import { Location } from "../location/Location";
 
 class VenueCard extends VenueOpening {
 
@@ -29,17 +30,16 @@ class VenueCard extends VenueOpening {
         visitedService.setVisited(this.props.venue.id);
         e.stopPropagation();
         this.forceUpdate(); 
-        // todo: this should be done via observer, with
     }
 
     render() {
-        return <div id={"venue-" + (this.props.venue.id)} className={"venue-card " + (this.props.venue.id) + (this.state.isOpen ? " venue-card--open" : "") + (this.props.time ? "" : " venue-card--no-time")}>
+        return <div id={"venue-" + (this.props.venue.id)} className={"venue-card " + (this.props.venue.id) + (this.props.venue.open ? " venue-card--open" : "") + (this.props.time ? "" : " venue-card--no-time")}>
 
             <div className="venue-card__block" 
                  role="row" 
                  onClick={ this._onVenueClick.bind(this) }>
 
-                <img className="venue-card__photo" src={ this.props.venue.banner ? this.props.venue.banner : "assets/default-banner.jpg" } alt="" loading="lazy" />
+                <img className="venue-card__photo" src={ `${process.env.REACT_APP_LINQEM_API_ROOT}/venue/${this.props.venue.id}/media` } alt="" loading="lazy" />
 
                 <div className="venue-card__options">
                     <FavoriteIcon lit={this.props.venue.isFavorite()} onClick={e => this.toggleFavorite(e) } />
@@ -53,7 +53,7 @@ class VenueCard extends VenueOpening {
                     null
                 }
 
-                { this.state.isOpen ? 
+                { this.props.venue.open ? 
                     <div className="venue-card__open">Open now!</div> :
                     null
                 }
@@ -63,15 +63,17 @@ class VenueCard extends VenueOpening {
                         { this.props.venue.name }
                     </div>
 
-                    { this.props.time && 
+                    { this.props.opening && 
                         <div className="venue-card__time">
-                            <div className="venue-card__start"><Time time={this.props.time.start} day={this.props.time.day} format24={false} /></div>
-                            <div className="venue-card__time-split">{this.props.time.end && <React.Fragment>-</React.Fragment>}</div>
-                            <div className="venue-card__end">{this.props.time.end && <Time time={this.props.time.end} day={this.props.time.day} format24={false} /> }</div>
+                            <div className="venue-card__start"><Time time={this.props.opening.start} day={this.props.opening.day} format24={false} /></div>
+                            <div className="venue-card__time-split">{this.props.opening.end && <React.Fragment>-</React.Fragment>}</div>
+                            <div className="venue-card__end">{this.props.opening.end && <Time time={this.props.opening.end} day={this.props.opening.day} format24={false} /> }</div>
                         </div>
                     }
 
-                    <div className="venue-card__location">{this.props.venue.location}</div>
+                    <div className="venue-card__location">
+                        <Location location={this.props.venue.location} />
+                    </div>
                 </div>
             </div>
             { this.state.openModal && 

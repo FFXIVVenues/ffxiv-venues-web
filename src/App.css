@@ -197,6 +197,10 @@ a {
   margin-top: 30px
 }
 
+.aether-venues__venues .loading-icon {
+  margin: 15px 0 150px 30px;
+}
+
 .aether-venues__made-by {
   display: block;
   margin-top: 80px;

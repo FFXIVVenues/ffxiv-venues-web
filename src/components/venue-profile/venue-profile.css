@@ -75,7 +75,7 @@ button.venue-profile__visited-button--visited {
 
 .venue-profile__notice {
     margin: 10px 0px 20px 0;
-    padding: 10px;
+    padding: 10px 15px;
     border: solid 1px var(--accent-color);
     background-color: var(--accent-dark-color);
     border-radius: 5px;
@@ -148,6 +148,11 @@ button.venue-profile__visited-button--visited {
     border-radius: 5px;
     background-color: #1A1A1A;
     margin-top: 20px;
+}
+
+.venue-profile__opening-time--active {
+    color: var(--accent-color);
+    font-weight: bold;
 }
 
 .venue-profile__day { width: 100px }

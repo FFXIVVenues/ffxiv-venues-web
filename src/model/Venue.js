@@ -1,10 +1,14 @@
 import { favouritesService } from "../services/favouritesService";
 import { visitedService } from "../services/visitedService";
+import { Location } from "./Location";
+import { Opening } from "./Opening";
 
 class Venue {
 
     constructor(props) {
         Object.assign(this, props);
+        this.location = new Location(this.location);
+        this.openings = this.openings.map(o => new Opening(o));
     }
 
     isFavorite() {
@@ -22,6 +26,5 @@ class Venue {
     }
 
 }
-
 
 export { Venue };
