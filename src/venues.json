@@ -6783,6 +6783,30 @@
          ],
         "contacts": [ "828455856583868476" ],
         "comments": [  ]
+    },
+    {
+        "id": "vEHARbsV",
+        "added": "2022-06-30T21:00:00Z",
+        "name": "Club Ley Lines",
+        "banner": "assets/banners/leylines.jpg",
+        "description": [ "We're here to have fun through dancing, drinks, and gambling! Our vibe harkens back to the 80's in Miami when the club scene was king! Enjoy a care-free night with us hanging with friends or looking to meet someone special!" ],
+        "location": "Jenova, Shirogane, Ward 3, Plot 7",
+        "website": "https://clubleylines.carrd.co/",
+        "discord": "https://discord.gg/leylines",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Nightclub", "Casino", "Gambling", "Dancers", "Twitch DJ", "Drink", "Photography" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "" ],
+        "comments": [  ]
     }
 
 ]
