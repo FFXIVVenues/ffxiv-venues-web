@@ -6419,6 +6419,11 @@
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
             },
             {
+                "day": 5,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
+                "end": { "hour": 5, "minute": 0, "nextDay": true }
+            },
+            {
                 "day": 6,
                 "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 5, "minute": 0, "nextDay": true }
