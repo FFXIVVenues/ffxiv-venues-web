@@ -6471,14 +6471,8 @@
         "sfw": false,
         "nsfw": true,
         "tags": [ "Bar", "Speakeasy", "Gambling", "Bards", "Drink", "Photography", "Triple triad" ],
-        "notices": [  ],
-        "times": [
-            {
-                "day": 4,
-                "start": { "hour": 21, "minute": 0, "nextDay": false },
-                "end": { "hour": 0, "minute": 0, "nextDay": true }
-            }
-        ],
+        "notices": [],
+        "times": [],
         "exceptions": [ ],
         "contacts": [ "318852030217191424" ],
         "comments": [  ]
