@@ -6729,6 +6729,60 @@
         ],
         "contacts": [ "530835375451799553" ],
         "comments": [  ]
+    },
+    {
+        "id": "NjHudsPW",
+        "added": "2022-06-30T21:00:00Z",
+        "name": "Nophica's Spring",
+        "banner": "assets/banners/nophicaspring.jpg",
+        "description": [ "Nophica's Spring is a beautiful garden cafe located on the second floor of Snowsteep Boutique. Relax and grab a drink while you wait for the live shows featured weekly at nearby Chobo Revue Theater!" ],
+        "location": "Jenova, Empyreum, Ward 4, Plot 56",
+        "website": "https://nophicas-spring.carrd.co/",
+        "discord": "https://discord.com/invite/PvE3D47KSE",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Lounge", "Artists", "Bards", "Food", "Drink", "Open stage" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 2,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 2, "minute": 0, "nextDay": true }
+            }
+        ],
+        "exceptions": [ ],
+        "contacts": [ "972416830419394560" ],
+        "comments": [  ]
+    },
+    {
+        "id": "ttABVBDC",
+        "added": "2022-06-30T21:00:00Z",
+        "name": "Candy Cane Lane Bakery",
+        "banner": "assets/banners/candycanelanebakery.jpg",
+        "description": [ "We are a bakery that makes delicious and yummy food. We are located in the goblet in a yummy and cute gingerbread house. Haurchefant will meet you at the gate to welcome you and our maids will feed you and have amazing conversations. We welcome all adventures to our humble little bakery." ],
+        "location": "Jenova, Goblet, Ward 16, Plot 60",
+        "website": "",
+        "discord": "https://discord.gg/X4wkgxK46B",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Maid cafe", "Food", "Drink", "Photography" ],
+        "notices": [ ],
+        "times": [
+            {
+                "day": 6,
+                "start": { "hour": 15, "minute": 0, "nextDay": false },
+                "end": { "hour": 17, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [
+            {
+                "start": "2022-06-30T00:00Z",
+                "end": "2022-07-15T00:00Z",
+                "hide": false
+            }
+         ],
+        "contacts": [ "828455856583868476" ],
+        "comments": [  ]
     }
 
 ]
