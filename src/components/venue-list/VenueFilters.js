@@ -25,7 +25,8 @@ export const regionFilter = (region) => (venues) => venues.filter(v => {
                     || venue.location.dataCenter === "Mana";
         case "EU":
             return venue.location.dataCenter === "Chaos" 
-                    || venue.location.dataCenter === "Light";
+                    || venue.location.dataCenter === "Light"
+                    || venue.location.dataCenter === "Phantom";
         case "OC":
             return venue.location.dataCenter === "Materia";
         default:

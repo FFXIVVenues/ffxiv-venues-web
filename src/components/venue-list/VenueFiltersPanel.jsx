@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { isMobile } from "react-device-detect";
-import { propFilter, tagFilter, worldFilter } from "./VenueFilters";
+import { propFilter, tagFilter, worldFilter, dataCenterFilter } from "./VenueFilters";
 import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll"
 
 // const regionFilters = [
@@ -9,17 +9,17 @@ import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll"
 //   { key: Symbol(), label: "Europe", filter: regionFilter("EU") },
 //   { key: Symbol(), label: "Oceania", filter: regionFilter("OC") }
 // ];
-// const dataCenterFilters = [
-//   { key: Symbol(), label: "Aether", filter: dataCenterFilter("Aether") },
-//   { key: Symbol(), label: "Primal", filter: dataCenterFilter("Primal") },
-//   { key: Symbol(), label: "Crystal", filter: dataCenterFilter("Crystal") },
-//   { key: Symbol(), label: "Elemental", filter: dataCenterFilter("Elemental") },
-//   { key: Symbol(), label: "Gaia", filter: dataCenterFilter("Gaia") },
-//   { key: Symbol(), label: "Mana", filter: dataCenterFilter("Mana") },
-//   { key: Symbol(), label: "Chaos", filter: dataCenterFilter("Chaos") },
-//   { key: Symbol(), label: "Light", filter: dataCenterFilter("Light") },
-//   { key: Symbol(), label: "Materia", filter: dataCenterFilter("Materia") },
-// ];
+const dataCenterFilters = [
+  { key: Symbol(), label: "Aether", filter: dataCenterFilter("Aether") },
+  { key: Symbol(), label: "Primal", filter: dataCenterFilter("Primal") },
+  { key: Symbol(), label: "Crystal", filter: dataCenterFilter("Crystal") }
+  // { key: Symbol(), label: "Elemental", filter: dataCenterFilter("Elemental") },
+  // { key: Symbol(), label: "Gaia", filter: dataCenterFilter("Gaia") },
+  // { key: Symbol(), label: "Mana", filter: dataCenterFilter("Mana") },
+  // { key: Symbol(), label: "Chaos", filter: dataCenterFilter("Chaos") },
+  // { key: Symbol(), label: "Light", filter: dataCenterFilter("Light") },
+  // { key: Symbol(), label: "Materia", filter: dataCenterFilter("Materia") },
+];
 const worldFilters = [
   { key: Symbol(), label: "Cactuar", filter: worldFilter("Cactuar") },
   { key: Symbol(), label: "Adamantoise", filter: worldFilter("Adamantoise") },
@@ -29,6 +29,26 @@ const worldFilters = [
   { key: Symbol(), label: "Siren", filter: worldFilter("Siren") },
   { key: Symbol(), label: "Sargatanas", filter: worldFilter("Sargatanas") },
   { key: Symbol(), label: "Midgardsormr", filter: worldFilter("Midgardsormr") },
+
+  { key: Symbol(), label: "Behemoth", filter: worldFilter("Behemoth") },
+  { key: Symbol(), label: "Excalibur", filter: worldFilter("Excalibur") },
+  { key: Symbol(), label: "Exodus", filter: worldFilter("Exodus") },
+  { key: Symbol(), label: "Famfrit", filter: worldFilter("Famfrit") },
+  { key: Symbol(), label: "Hyperion", filter: worldFilter("Hyperion") },
+  { key: Symbol(), label: "Lamia", filter: worldFilter("Lamia") },
+  { key: Symbol(), label: "Leviathan", filter: worldFilter("Leviathan") },
+  { key: Symbol(), label: "Ultros", filter: worldFilter("Ultros") },
+
+  { key: Symbol(), label: "Balmung", filter: worldFilter("Balmung") },
+  { key: Symbol(), label: "Brynhildr", filter: worldFilter("Brynhildr") },
+  { key: Symbol(), label: "Coeurl", filter: worldFilter("Coeurl") },
+  { key: Symbol(), label: "Diabolos", filter: worldFilter("Diabolos") },
+  { key: Symbol(), label: "Goblin", filter: worldFilter("Goblin") },
+  { key: Symbol(), label: "Malboro", filter: worldFilter("Malboro") },
+  { key: Symbol(), label: "Mateus", filter: worldFilter("Mateus") },
+  { key: Symbol(), label: "Zalera", filter: worldFilter("Zalera") },
+
+
 ];
 const typeFilters = [
   { key: Symbol(), label: "Nightclub", filter: tagFilter("nightclub") },
@@ -70,7 +90,8 @@ const toggle = (symbol, arr) => {
 
 export function VenueFiltersPanel(props) {
 
-  const { onSearch, onWorldFilterUpdated, onTypeFilterUpdated, onFeatureFilterUpdated } = props;
+  const { onSearch, onDataCenterFilterUpdated, onWorldFilterUpdated, onTypeFilterUpdated, onFeatureFilterUpdated } = props;
+  const [ enabledDataCenterFilter, setEnabledDataCenterFilter ] = useState(null);
   const [ enabledWorldFilter, setEnabledWorldFilter ] = useState(null);
   const [ enabledTypeFilters, setEnabledTypeFilters ] = useState([]);
   const [ enabledFeatureFilters, setEnabledFeatureFilters ] = useState([]);
@@ -82,22 +103,53 @@ export function VenueFiltersPanel(props) {
 
     <div className="aether-venues__tags">
       <HorizontalScroll reverseScroll>
-      { worldFilters.map(f => 
-
+      { dataCenterFilters.map(f => 
         //todo: Change these to FFXIV Venues Button component?
+        <button key={f.label} className={"aether-venues__tag" + (enabledDataCenterFilter === f.key ? " aether-venues__tag--enabled" : "")}
+            onClick={() => {
+              const newVal = enabledDataCenterFilter === f.key ? null : f.key;
+              setEnabledDataCenterFilter(newVal);
+              setEnabledWorldFilter(null);
+              if (onDataCenterFilterUpdated) {
+                if (newVal == null)
+                  onDataCenterFilterUpdated(null);
+                else {
+                  const filter = dataCenterFilters.find(f => f.key === newVal);
+                  onDataCenterFilterUpdated(filter);
+                }
+              }
+              if (newVal !== null && onWorldFilterUpdated) 
+                onWorldFilterUpdated(null);             
+              }
+            }>
+          {f.label}
+        </button>
+      )}
+      </HorizontalScroll>
+    </div>
 
+    <div className="aether-venues__tags">
+      <HorizontalScroll reverseScroll>
+      { worldFilters.map(f => 
+        //todo: Change these to FFXIV Venues Button component?
         <button key={f.label} className={"aether-venues__tag" + (enabledWorldFilter === f.key ? " aether-venues__tag--enabled" : "")}
             onClick={() => {
               const newVal = enabledWorldFilter === f.key ? null : f.key;
               setEnabledWorldFilter(newVal);
-              if (!onWorldFilterUpdated) return;
-              if (newVal == null) {
-                onWorldFilterUpdated(null);
-                return;
+              setEnabledDataCenterFilter(null);
+              if (onWorldFilterUpdated !== null) {
+                if (newVal == null) {
+                  onWorldFilterUpdated(null);
+                } else {
+                  const filter = worldFilters.find(f => f.key === newVal);
+                  onWorldFilterUpdated(filter);
+                }
               }
-              const filter = worldFilters.find(f => f.key === newVal);
-              onWorldFilterUpdated(filter);
-            }}>
+              if (newVal !== null && onDataCenterFilterUpdated) {
+                onDataCenterFilterUpdated(null);             
+              }
+            }
+          }>
           {f.label}
         </button>
       )}

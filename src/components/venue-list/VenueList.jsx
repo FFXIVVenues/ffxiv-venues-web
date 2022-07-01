@@ -16,6 +16,7 @@ export function VenueList(props) {
 
   // filter states
   const [ search, setSearch ] = useState(null);
+  const [ dataCenterFilter, setDataCenterFilter ] = useState(null);
   const [ worldFilter, setWorldFilter ] = useState(null);
   const [ typeFilters, setTypeFilters ] = useState([]);
   const [ featureFilters, setFeatureFilters ] = useState([]);
@@ -47,8 +48,10 @@ export function VenueList(props) {
     let currentVenues = venues;
     if (search)
       currentVenues = currentVenues.filter(v => (v.name || v.venue.name).toLowerCase().indexOf(search.toLowerCase()) !== -1);
+    if (dataCenterFilter !== null)
+      currentVenues = dataCenterFilter.filter(currentVenues);
     if (worldFilter !== null)
-      currentVenues = worldFilter.filter(currentVenues)
+      currentVenues = worldFilter.filter(currentVenues);
     for (let filter of typeFilters)
       currentVenues = filter.filter(currentVenues);
     for (let filter of featureFilters) 
@@ -104,6 +107,7 @@ export function VenueList(props) {
 
   return <>
     <VenueFiltersPanel onSearch={s => setSearch(s)} 
+                  onDataCenterFilterUpdated={setDataCenterFilter} 
                   onWorldFilterUpdated={setWorldFilter} 
                   onTypeFilterUpdated={setTypeFilters} 
                   onFeatureFilterUpdated={setFeatureFilters} />

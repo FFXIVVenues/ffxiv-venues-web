@@ -11,7 +11,7 @@ class VenueService {
         if (this._fetchPromise)
             return this._fetchPromise;
 
-        const venuesUrl = process.env.REACT_APP_LINQEM_API_ROOT + "/venue";
+        const venuesUrl = process.env.REACT_APP_FFXIV_VENUES_API_ROOT + "/venue";
         return this._fetchPromise = fetch(venuesUrl)
             .then(response => 
                 response.json())
@@ -28,7 +28,7 @@ class VenueService {
         const venues = await this.getVenues();
         return venues.filter(v => v.open)
                      .map(v => ({ venue: v, opening: v.openings.find(o => o.isNow)}))
-                     .sort((one, another) => (another.opening ? another.opening.start.hour : 0) - (one.opening ? one.opening.start.hour : 0));
+                     .sort((one, another) => (one.opening ? one.opening.start.hour : 0) - (another.opening ? another.opening.start.hour : 0));
     }
 
     async getVenueSchedule() {
