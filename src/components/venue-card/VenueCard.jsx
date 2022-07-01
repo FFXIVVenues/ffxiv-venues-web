@@ -39,7 +39,7 @@ class VenueCard extends VenueOpening {
                  role="row" 
                  onClick={ this._onVenueClick.bind(this) }>
 
-                <img className="venue-card__photo" src={ `${process.env.REACT_APP_LINQEM_API_ROOT}/venue/${this.props.venue.id}/media` } alt="" loading="lazy" />
+                <img className="venue-card__photo" src={ `${process.env.REACT_APP_FFXIV_VENUES_API_ROOT}/venue/${this.props.venue.id}/media` } alt="" loading="lazy" />
 
                 <div className="venue-card__options">
                     <FavoriteIcon lit={this.props.venue.isFavorite()} onClick={e => this.toggleFavorite(e) } />
