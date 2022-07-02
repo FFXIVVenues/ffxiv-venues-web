@@ -28,7 +28,7 @@ class VenueService {
         const venues = await this.getVenues();
         return venues.filter(v => v.open)
                      .map(v => ({ venue: v, opening: v.openings.find(o => o.isNow)}))
-                     .sort((one, another) => (one.opening ? one.opening.start.hour : 0) - (another.opening ? another.opening.start.hour : 0));
+                     .sort((one, another) => (another.opening ? another.opening.start.hour : 0) - (one.opening ? one.opening.start.hour : 0));
     }
 
     async getVenueSchedule() {
