@@ -6776,6 +6776,57 @@
         "exceptions": [ ],
         "contacts": [ "" ],
         "comments": [  ]
+    },
+    {
+        "id": "cCWmQJJfT",
+        "added": "2022-07-02T15:16:00Z",
+        "name": "Sureli Sisters Cafe",
+        "banner": "assets/banners/sureli-sisters-cafe.jpg",
+        "description": [ 
+            "A cafe that endevours to ensure a cozy and calm atmosphere."
+        ],
+        "location": "Adamantoise, Mist, Ward 1, Plot 54",
+        "website": "https://surelisisterscafe.carrd.co/",
+        "discord": "https://discord.gg/NMRgCueStY",
+        "sfw": true,
+        "nsfw": false,
+        "tags": [ "Cafe", "Food", "Drink", "Bards" ],
+        "notices": [  ],
+        "times": [
+            {
+                "day": 0,
+                "start": { "hour": 12, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 3,
+                "start": { "hour": 12, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 4,
+                "start": { "hour": 12, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 5,
+                "start": { "hour": 12, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 12, "minute": 0, "nextDay": false },
+                "end": { "hour": 16, "minute": 0, "nextDay": false }
+            }
+        ],
+        "exceptions": [ 
+            {
+                "start": "2022-07-01T00:00Z",
+                "end": "2022-07-18T00:00Z",
+                "hide": true
+            }
+        ],
+        "contacts": [ "133818568327430144", "446825748741881866" ],
+        "comments": [  ]
     }
-
 ]
