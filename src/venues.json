@@ -1466,13 +1466,18 @@
         ],
         "location": "Faerie, Empyreum, Ward 10, Plot 8",
         "discord": "https://discord.gg/tyYdrestJH",
-        "website": "https://ecofficialmenu.carrd.co/",
+        "website": "https://officialedenscorner.carrd.co/",
         "sfw": true,
         "nsfw": true,
         "times": [
             {
-                "day": 0,
-                "start": { "hour": 23, "minute": 0, "nextDay": false },
+                "day": 1,
+                "start": { "hour": 0, "minute": 0, "nextDay": true },
+                "end": { "hour": 4, "minute": 0, "nextDay": true }
+            },
+            {
+                "day": 6,
+                "start": { "hour": 1, "minute": 0, "nextDay": true },
                 "end": { "hour": 4, "minute": 0, "nextDay": true }
             }
         ],
