@@ -10,7 +10,7 @@
 .venue-opening__time-split { width: 30px; }
 .venue-opening__end  { width: 90px; }
 .venue-opening__name { width: 280px; font-weight: bolder; text-overflow: ellipsis; }
-.venue-opening__location { width: 340px; }
+.venue-opening__location { width: 360px; }
 .venue-opening__icons .sfw-icon { height: 15px; margin-right: 10px; }
 .venue-opening__icons .nsfw-icon { height: 15px; }
 

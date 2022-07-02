@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { isMobile } from "react-device-detect";
 import { propFilter, tagFilter, worldFilter, dataCenterFilter } from "./VenueFilters";
-import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll"
+import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll";
 
 // const regionFilters = [
 //   { key: Symbol(), label: "North America", filter: regionFilter("NA") },

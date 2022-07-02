@@ -1,0 +1,8 @@
+@keyframes sweep {
+    from {
+        margin-left: -100%
+    }
+    to {
+        margin-left: 100%
+    }
+}

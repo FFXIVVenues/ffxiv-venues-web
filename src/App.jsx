@@ -11,7 +11,7 @@ import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.sv
 import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
 import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
 import { Notice } from './components/notice/notice';
-import { VenueList } from './components/venue-list/VenueList';
+import { VenueDirectory } from './components/venue-directory/VenueDirectory';
 
 class App extends React.Component {
 
@@ -60,7 +60,7 @@ class App extends React.Component {
             </div>
           </div>
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
-            <VenueList listView={this.state.listView} />
+            <VenueDirectory listView={this.state.listView} />
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
           </div>
           <div className="aether-venues__meta-panel">
