@@ -3639,47 +3639,6 @@
         "contacts": [ "443245852731899906" ]
     },
     {
-        "id": "JGS8gzXml",
-        "added": "2022-04-09T00:00:00Z",
-        "name": "Shonen",
-        "banner": "assets/banners/shonen.jpg",
-        "description": [ 
-            "We are the friendliest venue on Sargatanas! We pride ourselves on keeping an all welcoming and happy atmosphere! Shonen is a great place to meet new friends and enjoy fun new venue events! The venue is named after the Weekly Shōnen Jump magazine which introduced us to some of the greatest Anime to date! Much like the magazine has one of the longest-running communities, we hope to build an atmosphere around gathering those who are like minded and anime loving!",
-            "You can look forward to refreshing new venue events and activities like:",
-            "- Surprise maid service (starting at 20k)",
-            "- Glam competitions",
-            "- Gamba",
-            "- Trivia",
-            "- Themed anime nights",
-            "- SURPISE OPENINGS (with more surprises)",
-            "- 18+ services",
-            "- 24/7 anime bard performance (other then for special DJ anime nights)",
-            "We look forward to meeting everyone and hope you enjoy our venue as much as we do hosting for you!"
-         ],
-        "location": "Sargatanas, Mist, Ward 11, Plot 45",
-        "sfw": true,
-        "nsfw": true,
-        "website": "https://shonenclub.carrd.co/",
-        "discord": "https://discord.gg/zTvrcChb8m",
-        "times": [
-            {
-                "day": 0,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            },
-            {
-                "day": 3,
-                "start": { "hour": 1, "minute": 0, "nextDay": true },
-                "end": { "hour": 5, "minute": 0, "nextDay": true }
-            }
-        ],
-        "exceptions": [ ],
-        "notices": [  ],
-        "tags": [ "Nightclub", "Bar", "Gambling", "Artists", "Courtesans", "Dancers", "Pillow", "Bards", "Twitch DJ", "Food", "Drink", "Photography", "Open stage", "VIP" ],
-        "comments": [  ],
-        "contacts": [ "178734393655820288" ]
-    },
-    {
         "id": "boY4o1m8e",
         "added": "2022-04-09T00:00:00Z",
         "name": "Ethereal Memories Photography",
