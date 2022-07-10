@@ -52,10 +52,10 @@ class VenueService {
         }
     
         venueViewModels.scheduled = venueViewModels.scheduled.map(day => day.sort((a, b) => {
-            let aStartTime = (a.opening.start.hour * 100) + a.opening.start.minute;
-            if (a.opening.start.nextDay) aStartTime += 2400;
-            let bStartTime = (b.opening.start.hour * 100) + b.opening.start.minute;
-            if (b.opening.start.nextDay) bStartTime += 2400;
+            let aStartTime = (a.opening.start.utc.hour * 100) + a.opening.start.utc.minute;
+            if (a.opening.start.utc.nextDay) aStartTime += 2400;
+            let bStartTime = (b.opening.start.utc.hour * 100) + b.opening.start.utc.minute;
+            if (b.opening.start.utc.nextDay) bStartTime += 2400;
             return aStartTime - bStartTime;
         }));
 
