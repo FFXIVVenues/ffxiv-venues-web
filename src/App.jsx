@@ -79,21 +79,35 @@ class App extends React.Component {
                 <img src="https://img2.finalfantasyxiv.com/f/5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
                   <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
-                  <div className="aether-venues__made-by-position">Developer, Venue Indexer (Aether)</div>
+                  <div className="aether-venues__made-by-position">Developer, Venue Indexer</div>
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
                 <img src="https://img2.finalfantasyxiv.com/f/6adbef94cc3fa361f6a047330a0b9a44_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
                   <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/252142384303833088">Sumi Satsuo</a>, Jenova.</div>
-                  <div className="aether-venues__made-by-position">Venue Indexer (Aether)</div>
+                  <div className="aether-venues__made-by-position">Venue Indexer</div>
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
                 <img src="https://img2.finalfantasyxiv.com/f/d6583919ef6756c46ee9cac82110041a_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
                   <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/">Ada Xumm</a>, Siren.</div>
-                  <div className="aether-venues__made-by-position">Venue Photographer</div>
+                  <div className="aether-venues__made-by-position">Index Photographer</div>
+                </div>
+              </div>
+              <div className="aether-venues__made-by-individual">
+                <img src="https://img2.finalfantasyxiv.com/f/325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
+                <div className="aether-venues__made-by-details">
+                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/870413151676551178">Kaeda Destrian</a>, Jenova.</div>
+                  <div className="aether-venues__made-by-position">Community Engagement Lead</div>
+                </div>
+              </div>
+              <div className="aether-venues__made-by-individual">
+                <img src="https://img2.finalfantasyxiv.com/f/ddc5f0aa93f8277ff8c20e89cf029707_745baffc465480ed372e274d50318290fc0_96x96.jpg" alt=""/>
+                <div className="aether-venues__made-by-details">
+                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/53259864956211200">Calico Tyata</a>, Excalibur.</div>
+                  <div className="aether-venues__made-by-position">Community Engagement</div>
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
@@ -115,13 +129,6 @@ class App extends React.Component {
                 <div className="aether-venues__made-by-details">
                   <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/158410288238952449">Alitzia Kiryu</a>, Siren.</div>
                   <div className="aether-venues__made-by-position">Community Administrator</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/870413151676551178">Kaeda Destrian</a>, Jenova.</div>
-                  <div className="aether-venues__made-by-position">Community Engagement</div>
                 </div>
               </div>
             </div>
