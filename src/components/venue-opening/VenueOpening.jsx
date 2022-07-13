@@ -40,13 +40,16 @@ class VenueOpening extends React.Component {
         const newIfAfter = new Date();
         newIfAfter.setDate(newIfAfter.getDate() - 14);
 
-        return <div className={"venue-opening " + (this.props.venue.id) + (this.props.venue.open ? " venue-opening--open" : "") + (this.props.time ? "" : " venue-opening--no-time")}>
+        return <div className={"venue-opening " + 
+                                (this.props.venue.id) + 
+                                ((this.props.opening ? this.props.opening.isNow : this.props.venue.open) ? " venue-opening--open" : "") + 
+                                (this.props.time ? "" : " venue-opening--no-time")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
-                {this.props.time && 
+                {this.props.opening && 
                     <React.Fragment>
-                        <div className="venue-opening__cell venue-opening__start"><Time time={this.props.time.start} day={this.props.time.day} format24={false} /></div>
-                        <div className="venue-opening__cell venue-opening__time-split">{this.props.time.end && <React.Fragment>-</React.Fragment>}</div>
-                        <div className="venue-opening__cell venue-opening__end">{this.props.time.end && <Time time={this.props.time.end} day={this.props.time.day} format24={false} /> }</div>
+                        <div className="venue-opening__cell venue-opening__start"><Time time={this.props.opening.start} day={this.props.opening.day} format24={false} /></div>
+                        <div className="venue-opening__cell venue-opening__time-split">{this.props.opening.end && <React.Fragment>-</React.Fragment>}</div>
+                        <div className="venue-opening__cell venue-opening__end">{this.props.opening.end && <Time time={this.props.opening.end} day={this.props.opening.day} format24={false} /> }</div>
                     </React.Fragment>
                 }
                 <div className="venue-opening__cell venue-opening__name">

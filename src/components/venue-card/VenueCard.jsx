@@ -33,7 +33,10 @@ class VenueCard extends VenueOpening {
     }
 
     render() {
-        return <div id={"venue-" + (this.props.venue.id)} className={"venue-card " + (this.props.venue.id) + (this.props.venue.open ? " venue-card--open" : "") + (this.props.time ? "" : " venue-card--no-time")}>
+        return <div id={"venue-" + (this.props.venue.id)} className={"venue-card " + 
+                                                                    (this.props.venue.id) + 
+                                                                    (this.props.venue.open ? " venue-card--open" : "") + 
+                                                                    (this.props.opening ? "" : " venue-card--no-time")}>
 
             <div className="venue-card__block" 
                  role="row" 
