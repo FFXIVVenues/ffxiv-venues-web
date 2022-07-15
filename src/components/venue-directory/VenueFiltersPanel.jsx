@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { isMobile } from "react-device-detect";
-import { propFilter, tagFilter, worldFilter, dataCenterFilter } from "./VenueFilters";
+import { /*propFilter,*/ tagFilter, worldFilter, dataCenterFilter } from "./VenueFilters";
 import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll";
 
 // const regionFilters = [
@@ -20,6 +20,7 @@ const dataCenterFilters = [
   // { key: Symbol(), label: "Light", filter: dataCenterFilter("Light") },
   // { key: Symbol(), label: "Materia", filter: dataCenterFilter("Materia") },
 ];
+
 const worldFilters = [
   { key: Symbol(), label: "Cactuar", filter: worldFilter("Cactuar") },
   { key: Symbol(), label: "Adamantoise", filter: worldFilter("Adamantoise") },
@@ -47,9 +48,8 @@ const worldFilters = [
   { key: Symbol(), label: "Malboro", filter: worldFilter("Malboro") },
   { key: Symbol(), label: "Mateus", filter: worldFilter("Mateus") },
   { key: Symbol(), label: "Zalera", filter: worldFilter("Zalera") },
-
-
 ];
+
 const typeFilters = [
   { key: Symbol(), label: "Nightclub", filter: tagFilter("nightclub") },
   { key: Symbol(), label: "Den", filter: tagFilter("den") },
@@ -62,17 +62,18 @@ const typeFilters = [
   { key: Symbol(), label: "Casino", filter: tagFilter("casino") },
   { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") }
 ];
+
 const featureFilters = [
-  { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
+  // { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
   { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
   { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
-  { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
+  // { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
   { key: Symbol(), label: "Dancers", filter: tagFilter("dancers") },
   { key: Symbol(), label: "Bards", filter: tagFilter("bards") },
   { key: Symbol(), label: "Twitch DJ", filter: tagFilter("twitch dj") },
   { key: Symbol(), label: "Tarot reading", filter: tagFilter("tarot") },
   { key: Symbol(), label: "Pillow talk", filter: tagFilter("pillow") },
-  { key: Symbol(), label: "Novel services", filter: tagFilter("novel services") },
+  { key: Symbol(), label: "Unique services", filter: tagFilter("novel services") },
   { key: Symbol(), label: "VIP", filter: tagFilter("vip") },
   { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
   { key: Symbol(), label: "IC RP Only", filter: tagFilter("ic rp only") }
