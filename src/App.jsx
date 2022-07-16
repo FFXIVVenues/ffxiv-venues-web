@@ -140,6 +140,7 @@ class App extends React.Component {
               </Modal>
           }
         </div>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/220493425516050"></script>
       </React.Fragment>
     );
   }

@@ -58,9 +58,10 @@ const typeFilters = [
   { key: Symbol(), label: "Inn", filter: tagFilter("inn") },
   { key: Symbol(), label: "Lounge", filter: tagFilter("lounge") },
   { key: Symbol(), label: "Bath house", filter: tagFilter("bath house") },
-  { key: Symbol(), label: "Library", filter: tagFilter("library") },
+  { key: Symbol(), label: "Auction house", filter: tagFilter("auction house") },
   { key: Symbol(), label: "Casino", filter: tagFilter("casino") },
-  { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") }
+  { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") },
+  { key: Symbol(), label: "Other", filter: tagFilter("other") }
 ];
 
 const featureFilters = [
