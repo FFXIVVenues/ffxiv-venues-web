@@ -93,7 +93,14 @@ class App extends React.Component {
                 <img src="https://img2.finalfantasyxiv.com/f/d6583919ef6756c46ee9cac82110041a_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
                 <div className="aether-venues__made-by-details">
                   <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/#sfwo">Ada Xumm</a>, Siren.</div>
-                  <div className="aether-venues__made-by-position">Index Photographer</div>
+                  <div className="aether-venues__made-by-position">Index Photography Lead</div>
+                </div>
+              </div>
+              <div className="aether-venues__made-by-individual">
+                <img src="https://img2.finalfantasyxiv.com/f/d4c7e12554774822191999bc9eb9a860_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
+                <div className="aether-venues__made-by-details">
+                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/713047627285004352">Kenta Jin</a>, Jenova.</div>
+                  <div className="aether-venues__made-by-position">Index Photography</div>
                 </div>
               </div>
               <div className="aether-venues__made-by-individual">
