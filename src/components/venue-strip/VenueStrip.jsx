@@ -8,7 +8,7 @@ export function VenueStrip(props) {
         <HorizontalScroll reverseScroll>
             { props.venues === null || props.venues === undefined
             ? [ ...Array(Math.floor(Math.random() * 3) + 1)].map((_, i) => <Loading key={i} />)
-            : props.venues.map((v) => <VenueCard venue={v.venue || v} opening={v.opening} key={(v.venue || v).id} /> )}
+            : props.venues.map((v) => <VenueCard venue={v.venue || v} opening={v.opening} key={(v.venue || v).id + (v.opening ? v.opening.start.hour : "")} /> )}
         </HorizontalScroll>
     </div>
 }
