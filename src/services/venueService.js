@@ -1,5 +1,6 @@
 // import venues from "../venues";
 import { Venue } from "../model/Venue";
+import { timeService } from "./timeService";
 
 class VenueService {
     
@@ -27,8 +28,13 @@ class VenueService {
     async getOpenVenues() {
         const venues = await this.getVenues();
         return venues.filter(v => v.open)
-                     .map(v => ({ venue: v, opening: v.openings.find(o => o.isNow)}))
-                     .sort((one, another) => (another.opening ? another.opening.start.hour : 0) - (one.opening ? one.opening.start.hour : 0));
+                     .map(v => ({ venue: v, opening: v.openings.find(o => o.isNow), override: v.openOverrides.find(o => o.isNow)}))
+                     .sort((one, another) => {
+                        var oneOverride = one.override && new Date(one.override.start);
+                        var anotherOverride = another.override && new Date(another.override.start);
+                         return ((another.opening ? another.opening.day * 24 : (anotherOverride.getUTCDay() - 1 < 0 ? 6 : anotherOverride.getUTCDay() - 1) * 24) + (another.opening ? another.opening.start.utc.nextDay ? 24 : 0 : 0) + (another.opening ? another.opening.start.utc.hour : anotherOverride.getUTCHours()) + (another.override ? anotherOverride.getUTCMinutes() / 60 : 0)) 
+                         - ((one.opening ? one.opening.day * 24 : (oneOverride.getUTCDay() - 1 < 0 ? 6 : oneOverride.getUTCDay() - 1) * 24) + (one.opening ? one.opening.start.utc.nextDay ? 24 : 0 : 0) + (one.opening ? one.opening.start.utc.hour : oneOverride.getUTCHours()) + (one.override ? oneOverride.getUTCMinutes() / 60 : 0))
+                     });
     }
 
     async getVenueSchedule() {
