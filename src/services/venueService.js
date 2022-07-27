@@ -1,6 +1,4 @@
-// import venues from "../venues";
 import { Venue } from "../model/Venue";
-import { timeService } from "./timeService";
 
 class VenueService {
     
