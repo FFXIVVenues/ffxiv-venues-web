@@ -285,20 +285,3 @@ a {
   background-color: var(--accent-dark-color);
   color: white
 }
-
-.aether-venues__made-by-individual {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.aether-venues__made-by-individual img {
-  border-radius: 50%;
-  height: 32px;
-  margin-right: 10px;
-}
-
-.aether-venues__made-by-individual .aether-venues__made-by-position {
-  font-size: .8em;
-}
-

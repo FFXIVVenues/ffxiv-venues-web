@@ -5,13 +5,14 @@ import { ModalStage } from "./components/modal-stage/ModalStage";
 import { venueService } from './services/venueService';
 import { Modal } from "./components/modal/Modal";
 import { VenueProfile } from "./components/venue-profile/VenueProfile";
+import { Notice } from './components/notice/notice';
+import { VenueDirectory } from './components/venue-directory/VenueDirectory';
+import { StaffList } from './components/staff-list/StaffList'
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
 import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
 import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
-import { Notice } from './components/notice/notice';
-import { VenueDirectory } from './components/venue-directory/VenueDirectory';
 
 class App extends React.Component {
 
@@ -74,71 +75,8 @@ class App extends React.Component {
                 <a className="aether-venues__discord-button" target="_blank" rel="noreferrer" href="https://discord.gg/gTP65VYcMj">Join the discord!</a>
               </div>
             </div>
-            <div className="aether-venues__individuals">
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/236852510688542720">Kana Ki</a>, Gilgamesh.</div>
-                  <div className="aether-venues__made-by-position">Developer, Venue Indexer</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/6adbef94cc3fa361f6a047330a0b9a44_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/252142384303833088">Sumi Satsuo</a>, Jenova.</div>
-                  <div className="aether-venues__made-by-position">Venue Indexer</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/d6583919ef6756c46ee9cac82110041a_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://ada.xumm.ffxivphotography.com/#sfwo">Ada Xumm</a>, Siren.</div>
-                  <div className="aether-venues__made-by-position">Index Photography Lead</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/d4c7e12554774822191999bc9eb9a860_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/713047627285004352">Kenta Jin</a>, Jenova.</div>
-                  <div className="aether-venues__made-by-position">Index Photography</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/870413151676551178">Kaeda Destrian</a>, Jenova.</div>
-                  <div className="aether-venues__made-by-position">Community Engagement Lead</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/ddc5f0aa93f8277ff8c20e89cf029707_745baffc465480ed372e274d50318290fc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/53259864956211200">Calico Tyata</a>, Excalibur.</div>
-                  <div className="aether-venues__made-by-position">Community Engagement</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/99616043571380224">Uchu Jupiter</a>, Jenova.</div>
-                  <div className="aether-venues__made-by-position">Community Administrator</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/880594476295389205">Lanna'baker Kha</a>, Cactuar.</div>
-                  <div className="aether-venues__made-by-position">Community Administrator</div>
-                </div>
-              </div>
-              <div className="aether-venues__made-by-individual">
-                <img src="https://img2.finalfantasyxiv.com/f/777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0_96x96.jpg" alt=""/>
-                <div className="aether-venues__made-by-details">
-                  <div className="aether-venues__made-by-name"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/158410288238952449">Alitzia Kiryu</a>, Siren.</div>
-                  <div className="aether-venues__made-by-position">Community Administrator</div>
-                </div>
-              </div>
-            </div>
+            <StaffList className="aether-venues__staff-list--collapsible" collapsible={true} />
+            <StaffList className="aether-venues__staff-list--not-collapsible" collapsible={false} />
           </div>
           { this.state.requestedVenue && 
               <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>
@@ -147,7 +85,6 @@ class App extends React.Component {
               </Modal>
           }
         </div>
-        <script type="text/javascript" src="https://form.jotform.com/jsform/220493425516050"></script>
       </React.Fragment>
     );
   }

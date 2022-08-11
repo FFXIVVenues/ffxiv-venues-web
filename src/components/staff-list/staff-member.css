@@ -1,0 +1,15 @@
+.staff-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.staff-member img {
+    border-radius: 50%;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.staff-member__role {
+    font-size: .8em;
+}

@@ -1,0 +1,15 @@
+.staff-list {
+    background-color: var(--background-color);
+    border-radius: 5px;
+    
+    padding: 10px 15px;
+}
+
+.staff-list .staff-list__summary {
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.staff-list .staff-list__details[open] .staff-list__summary {
+    margin-bottom: 20px;
+}
