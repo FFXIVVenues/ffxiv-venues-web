@@ -13,6 +13,8 @@ import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
 import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
 import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
+import { NewVenueGuidance } from './components/new-venue-guidance/NewVenueGuidance';
+import { Button } from './components/button/Button';
 
 class App extends React.Component {
 
@@ -67,12 +69,12 @@ class App extends React.Component {
           <div className="aether-venues__meta-panel">
             <div className="aether-venues__discord-panels">
               <div className="aether-venues__discord">
-                <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div>
-                <a className="aether-venues__discord-button" target="_blank" rel="noreferrer" href="https://form.jotform.com/220493425516050">Complete the form!</a>
+                <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div> 
+                <Button className="aether-venues__discord-button" onClick={_ => this.setState({ showNewVenueModal: true })} style={{ width: "100%" }}>Add your venue! 🥰</Button>
               </div>
               <div className="aether-venues__discord">
                 <div className="aether-venues__discord-cta"><DiscordIcon /> Looking for the home of FFXIV Venues?</div>
-                <a className="aether-venues__discord-button" target="_blank" rel="noreferrer" href="https://discord.gg/gTP65VYcMj">Join the discord!</a>
+                <Button className="aether-venues__discord-button" href="https://discord.gg/gTP65VYcMj" style={{ width: "100%" }}>Join the discord!</Button>
               </div>
             </div>
             <StaffList className="aether-venues__staff-list--collapsible" collapsible={true} />
@@ -80,8 +82,14 @@ class App extends React.Component {
           </div>
           { this.state.requestedVenue && 
               <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>
-                  <button className="venue-modal__close-button" onClick={_ => this.setState({ requestedVenue: null })}><img src="assets/cross.svg" alt="" /></button>
-                  <VenueProfile venue={this.state.requestedVenue} />
+                <button className="venue-modal__close-button" onClick={_ => this.setState({ requestedVenue: null })}><img src="assets/cross.svg" alt="" /></button>
+                <VenueProfile venue={this.state.requestedVenue} />
+              </Modal>
+          }
+          { this.state.showNewVenueModal &&
+              <Modal className="new-venue-modal" onStageClick={_ => this.setState({ showNewVenueModel: true })}>
+                <button className="venue-modal__close-button" onClick={_ => this.setState({ showNewVenueModal: false })}><img src="assets/cross.svg" alt="" /></button>
+                <NewVenueGuidance />
               </Modal>
           }
         </div>

@@ -285,3 +285,13 @@ a {
   background-color: var(--accent-dark-color);
   color: white
 }
+
+.modal-stage__modal.new-venue-modal {
+  width: 800px;
+}
+
+@media screen and (max-width: 615px) {
+  .modal-stage__modal.new-venue-modal {
+    width: 100%;
+  }
+}

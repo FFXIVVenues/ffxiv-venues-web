@@ -1,0 +1,92 @@
+.new-venue-guidance {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.new-venue-guidance__button {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.new-venue-guidance__guidance {
+    margin: 0 20px
+}
+
+.new-venue-guidance__guidance p {
+    margin-bottom: 40px;
+}
+
+.new-venue-guidance__guidance ol {
+    padding-left: 30px;
+}
+
+.new-venue-guidance__veni-guidance {
+    flex: 1 1;
+}
+
+.new-venue-guidance__spine {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-venue-guidance__spine-line {
+    flex: 1;
+    border-left: solid 1px;
+    width: 0px;
+    margin: 10px;
+}
+
+.new-venue-guidance__spine-text {
+    font-weight: bold;
+}
+
+.new-venue-guidance__form-guidance {
+    flex: 1 1;
+}
+
+.new-venue-guidance__button {
+    display: block;
+    width: fit-content;
+    margin: 5px 0 20px;
+}
+
+.new-venue-guidance__veni-img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("veni.jpg");
+    background-size: contain;
+    margin-bottom: -12px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 615px) {
+    .new-venue-guidance{
+        flex-direction: column;
+    }
+
+    .new-venue-guidance__guidance ol {
+        padding-left: 15px;
+    }
+
+    .new-venue-guidance__spine {
+        width: 100%;
+        flex-direction: row;
+        margin: 25px 0;
+    }
+    
+    .new-venue-guidance__spine-line {
+        flex: 1;
+        border-bottom: solid 1px;
+        margin: 0 20px;
+    }
+    
+    .new-venue-guidance__spine-text {
+        font-weight: bold;
+    }
+}

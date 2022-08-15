@@ -12,6 +12,7 @@ function Button(props) {
         borderRadius: 5,             
         color: "white",
         cursor: "pointer",
+        textDecoration: "none",
         ...props.style
     };
 
@@ -25,15 +26,31 @@ function Button(props) {
         }
     }
 
-    return <button
+    return (
+        props.href ? 
+            <a  className={props.className}
                 onMouseEnter={_ => setFocused(true) }
                 onFocus={_ => setFocused(true) }
                 onMouseLeave={_ => setFocused(false) }
                 onBlur  ={_ => setFocused(false) }
                 onClick={props.onClick}
-                style={style}>
-        {props.children}
-    </button>
+                href={props.href}
+                style={style}
+                target="_blank" 
+                rel="noreferrer">
+                {props.children}
+            </a> 
+        :
+            <button className={props.className}
+                    onMouseEnter={_ => setFocused(true) }
+                    onFocus={_ => setFocused(true) }
+                    onMouseLeave={_ => setFocused(false) }
+                    onBlur  ={_ => setFocused(false) }
+                    onClick={props.onClick}
+                    style={style}>
+                {props.children}
+            </button>
+    );
 }
 
 export {Button };
