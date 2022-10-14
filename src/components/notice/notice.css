@@ -1,39 +1,18 @@
-.aether-venues__notice-button {
-    background-color: transparent;
-    color: white;
-    padding: 4px 6px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 7px 10px;
-    font-size: .9em;
-    font-weight: bold;
-    cursor: pointer;
-    border: solid 1px var(--accent-color);
-    background-color: var(--accent-dark-color) !important;
-    box-shadow: 0 0 10px var(--accent-dark-color);
-}
-
 .notice {
-    /* margin-top: 30px; */
-    margin-bottom: 30px;
+    margin-top: 68px;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px var(--accent-dark-color);
     padding: 10px 15px;
     background-color: var(--accent-dark-color);
-    border: solid 1px var(--accent-color);
     color: #ddd;
-    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: -70px;
+    text-align: center;
 }
 
 .notice a {
     color: #222;
 }
 
-.notice__summary {
-    cursor: pointer;
-    font-weight: bolder;
-}
-
-@media screen and (max-width: 615px) {
-    .notice {
-        margin-top: 30px;
-    }
-}

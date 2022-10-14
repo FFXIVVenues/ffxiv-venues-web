@@ -7,6 +7,7 @@ import { timeService } from "../../services/timeService";
 import { VenueStrip } from "../venue-strip/VenueStrip";
 import { VenueList } from "../venue-list/VenueList";
 import days from "../../consts/days.json";
+import "./venue-directory.css"
 
 const isLoadedButNoResult = (venues) => 
   venues !== undefined && venues !== null && venues.length === 0;
@@ -107,6 +108,7 @@ export function VenueDirectory(props) {
     )
   }
 
+
   return <>
     <VenueFiltersPanel onSearch={s => setSearch(s)}
                        onRegionFilterUpdated={setRegionFilter}
@@ -114,6 +116,13 @@ export function VenueDirectory(props) {
                        onWorldFilterUpdated={setWorldFilter}
                        onTypeFilterUpdated={setTypeFilters}
                        onFeatureFilterUpdated={setFeatureFilters} />
+
+
+    { isLoadedButNoResult(filteredUnscheduled) && scheduledVenuesRender.length === 0 &&
+        <div className="venue-directory__none-found">
+          We're sowwy. 😞 <strong>We didn't find any venues for that search or combination of tags.</strong> <br/>We're indexing hundreds of venues per month! So, check back later or ask the community in <a href="https://discord.gg/gTP65VYcMj">our discord</a>!
+        </div>
+    }
     
     { /* Favorites */ }
     { isLoadingOrLoadedWithResults(filteredFavorites) && 
