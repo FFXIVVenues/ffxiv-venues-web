@@ -16,19 +16,21 @@ export const regionFilter = (region) => (venues) => venues.filter(v => {
     const venue = (v.venue || v);
     switch (region) {
         case "NA":
-            return venue.location.dataCenter === "Aether" 
+            return     venue.location.dataCenter === "Aether"
+                    || venue.location.dataCenter === "Crystal"
                     || venue.location.dataCenter === "Primal"
-                    || venue.location.dataCenter === "Crystal";
+                    || venue.location.dataCenter === "Dynamis";
         case "JP":
-            return venue.location.dataCenter === "Elemental" 
+            return     venue.location.dataCenter === "Elemental"
                     || venue.location.dataCenter === "Gaia"
-                    || venue.location.dataCenter === "Mana";
+                    || venue.location.dataCenter === "Mana"
+                    || venue.location.dataCenter === "Meteor";
         case "EU":
-            return venue.location.dataCenter === "Chaos" 
+            return     venue.location.dataCenter === "Chaos"
                     || venue.location.dataCenter === "Light"
-                    || venue.location.dataCenter === "Phantom";
+                    ;
         case "OC":
-            return venue.location.dataCenter === "Materia";
+            return     venue.location.dataCenter === "Materia";
         default:
             return false;
     }

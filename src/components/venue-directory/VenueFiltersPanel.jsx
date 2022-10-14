@@ -1,23 +1,26 @@
 import { useState } from "react";
 import { isMobile } from "react-device-detect";
-import { /*propFilter,*/ tagFilter, worldFilter, dataCenterFilter } from "./VenueFilters";
+import { /*propFilter,*/ tagFilter, worldFilter, dataCenterFilter, regionFilter } from "./VenueFilters";
 import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll";
+import "./filter-panel.css";
 
-// const regionFilters = [
-//   { key: Symbol(), label: "North America", filter: regionFilter("NA") },
-//   { key: Symbol(), label: "Japan", filter: regionFilter("JP") },
-//   { key: Symbol(), label: "Europe", filter: regionFilter("EU") },
-//   { key: Symbol(), label: "Oceania", filter: regionFilter("OC") }
-// ];
+const regionFilters = [
+  { key: Symbol(), label: "North America", filter: regionFilter("NA") },
+  { key: Symbol(), label: "🥳 Europe", filter: regionFilter("EU") },
+  // { key: Symbol(), label: "Japan", filter: regionFilter("JP") },
+  // { key: Symbol(), label: "Oceania", filter: regionFilter("OC") }
+];
+
 const dataCenterFilters = [
   { key: Symbol(), label: "Aether", filter: dataCenterFilter("Aether") },
   { key: Symbol(), label: "Primal", filter: dataCenterFilter("Primal") },
-  { key: Symbol(), label: "Crystal", filter: dataCenterFilter("Crystal") }
+  { key: Symbol(), label: "Crystal", filter: dataCenterFilter("Crystal") },
+  { key: Symbol(), label: "Dynamis", filter: dataCenterFilter("Dynamis") },
   // { key: Symbol(), label: "Elemental", filter: dataCenterFilter("Elemental") },
   // { key: Symbol(), label: "Gaia", filter: dataCenterFilter("Gaia") },
   // { key: Symbol(), label: "Mana", filter: dataCenterFilter("Mana") },
-  // { key: Symbol(), label: "Chaos", filter: dataCenterFilter("Chaos") },
-  // { key: Symbol(), label: "Light", filter: dataCenterFilter("Light") },
+  { key: Symbol(), label: "Chaos", filter: dataCenterFilter("Chaos") },
+  { key: Symbol(), label: "Light", filter: dataCenterFilter("Light") }
   // { key: Symbol(), label: "Materia", filter: dataCenterFilter("Materia") },
 ];
 
@@ -48,6 +51,25 @@ const worldFilters = [
   { key: Symbol(), label: "Malboro", filter: worldFilter("Malboro") },
   { key: Symbol(), label: "Mateus", filter: worldFilter("Mateus") },
   { key: Symbol(), label: "Zalera", filter: worldFilter("Zalera") },
+
+  { key: Symbol(), label: "Halicarnassus", filter: worldFilter("Halicarnassus") },
+  { key: Symbol(), label: "Maduin", filter: worldFilter("Maduin") },
+  { key: Symbol(), label: "Marilith", filter: worldFilter("Marilith") },
+  { key: Symbol(), label: "Seraph", filter: worldFilter("Seraph") },
+
+  { key: Symbol(), label: "Cerberus", filter: worldFilter("Cerberus") },
+  { key: Symbol(), label: "Louisoix", filter: worldFilter("Louisoix") },
+  { key: Symbol(), label: "Moogle", filter: worldFilter("Moogle") },
+  { key: Symbol(), label: "Omega", filter: worldFilter("Omega") },
+  { key: Symbol(), label: "Ragnarok", filter: worldFilter("Ragnarok") },
+  { key: Symbol(), label: "Spriggan", filter: worldFilter("Spriggan") },
+
+  { key: Symbol(), label: "Lich", filter: worldFilter("Lich") },
+  { key: Symbol(), label: "Odin", filter: worldFilter("Odin") },
+  { key: Symbol(), label: "Phoenix", filter: worldFilter("Phoenix") },
+  { key: Symbol(), label: "Shiva", filter: worldFilter("Shiva") },
+  { key: Symbol(), label: "Twintania", filter: worldFilter("Twintania") },
+  { key: Symbol(), label: "Zodiark", filter: worldFilter("Zodiark") }
 ];
 
 const typeFilters = [
@@ -92,7 +114,8 @@ const toggle = (symbol, arr) => {
 
 export function VenueFiltersPanel(props) {
 
-  const { onSearch, onDataCenterFilterUpdated, onWorldFilterUpdated, onTypeFilterUpdated, onFeatureFilterUpdated } = props;
+  const { onSearch, onRegionFilterUpdated, onDataCenterFilterUpdated, onWorldFilterUpdated, onTypeFilterUpdated, onFeatureFilterUpdated } = props;
+  const [ enabledRegionFilter, setEnabledRegionFilter ] = useState(null);
   const [ enabledDataCenterFilter, setEnabledDataCenterFilter ] = useState(null);
   const [ enabledWorldFilter, setEnabledWorldFilter ] = useState(null);
   const [ enabledTypeFilters, setEnabledTypeFilters ] = useState([]);
@@ -103,7 +126,37 @@ export function VenueFiltersPanel(props) {
       <input autoFocus={!isMobile} className="aether-venues__search-textbox" type="textbox" placeholder='Search venues' onChange={e => onSearch(e.target.value) } />
     </div>
 
-    <div className="aether-venues__tags">
+    <div className="venue-filters__region-filter aether-venues__tags">
+      <HorizontalScroll reverseScroll>
+        { regionFilters.map(f =>
+            //todo: Change these to FFXIV Venues Button component?
+            <button key={f.label} className={"aether-venues__tag" + (enabledRegionFilter === f.key ? " aether-venues__tag--enabled" : "")}
+                    onClick={() => {
+                      const newVal = enabledRegionFilter === f.key ? null : f.key;
+                      setEnabledRegionFilter(newVal);
+                      setEnabledDataCenterFilter(null);
+                      setEnabledWorldFilter(null);
+                      if (onRegionFilterUpdated) {
+                        if (newVal == null)
+                          onRegionFilterUpdated(null);
+                        else {
+                          const filter = regionFilters.find(f => f.key === newVal);
+                          onRegionFilterUpdated(filter);
+                        }
+                      }
+                      if (newVal !== null && onWorldFilterUpdated)
+                        onWorldFilterUpdated(null);
+                      if (newVal !== null && onDataCenterFilterUpdated)
+                        onDataCenterFilterUpdated(null);
+                    }
+                    }>
+              {f.label}
+            </button>
+        )}
+      </HorizontalScroll>
+    </div>
+
+    <div className="venue-filters__data-center-filter aether-venues__tags">
       <HorizontalScroll reverseScroll>
       { dataCenterFilters.map(f => 
         //todo: Change these to FFXIV Venues Button component?
@@ -111,6 +164,7 @@ export function VenueFiltersPanel(props) {
             onClick={() => {
               const newVal = enabledDataCenterFilter === f.key ? null : f.key;
               setEnabledDataCenterFilter(newVal);
+              setEnabledRegionFilter(null);
               setEnabledWorldFilter(null);
               if (onDataCenterFilterUpdated) {
                 if (newVal == null)
@@ -120,6 +174,8 @@ export function VenueFiltersPanel(props) {
                   onDataCenterFilterUpdated(filter);
                 }
               }
+              if (newVal !== null && onRegionFilterUpdated)
+                onRegionFilterUpdated(null);
               if (newVal !== null && onWorldFilterUpdated) 
                 onWorldFilterUpdated(null);             
               }
@@ -130,7 +186,7 @@ export function VenueFiltersPanel(props) {
       </HorizontalScroll>
     </div>
 
-    <div className="aether-venues__tags">
+    <div className="venue-filters__world-filter aether-venues__tags">
       <HorizontalScroll reverseScroll>
       { worldFilters.map(f => 
         //todo: Change these to FFXIV Venues Button component?
@@ -138,6 +194,7 @@ export function VenueFiltersPanel(props) {
             onClick={() => {
               const newVal = enabledWorldFilter === f.key ? null : f.key;
               setEnabledWorldFilter(newVal);
+              setEnabledRegionFilter(null);
               setEnabledDataCenterFilter(null);
               if (onWorldFilterUpdated !== null) {
                 if (newVal == null) {
@@ -147,6 +204,8 @@ export function VenueFiltersPanel(props) {
                   onWorldFilterUpdated(filter);
                 }
               }
+              if (newVal !== null && onRegionFilterUpdated)
+                onRegionFilterUpdated(null);
               if (newVal !== null && onDataCenterFilterUpdated) {
                 onDataCenterFilterUpdated(null);             
               }
@@ -158,7 +217,7 @@ export function VenueFiltersPanel(props) {
       </HorizontalScroll>
     </div>
 
-    <div className="aether-venues__tags">
+    <div className="venue-filters__type-filter aether-venues__tags">
       <HorizontalScroll reverseScroll>
       { typeFilters.map(f => 
         <button key={f.label} className={"aether-venues__tag" + (enabledTypeFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}
@@ -175,7 +234,7 @@ export function VenueFiltersPanel(props) {
       </HorizontalScroll>
     </div>
 
-    <div className="aether-venues__tags">
+    <div className="venue-filters__feature-filter aether-venues__tags">
         <HorizontalScroll reverseScroll>
         { featureFilters.map(f => 
             <button key={f.label} className={"aether-venues__tag" + (enabledFeatureFilters.indexOf(f.key) !== -1 ? " aether-venues__tag--enabled" : "")}

@@ -19,6 +19,7 @@ export function VenueDirectory(props) {
 
   // filter states
   const [ search, setSearch ] = useState(null);
+  const [ regionFilter, setRegionFilter ] = useState(null);
   const [ dataCenterFilter, setDataCenterFilter ] = useState(null);
   const [ worldFilter, setWorldFilter ] = useState(null);
   const [ typeFilters, setTypeFilters ] = useState([]);
@@ -51,6 +52,8 @@ export function VenueDirectory(props) {
     let currentVenues = venues;
     if (search)
       currentVenues = currentVenues.filter(v => (v.name || v.venue.name).toLowerCase().indexOf(search.toLowerCase()) !== -1);
+    if (regionFilter !== null)
+      currentVenues = regionFilter.filter(currentVenues);
     if (dataCenterFilter !== null)
       currentVenues = dataCenterFilter.filter(currentVenues);
     if (worldFilter !== null)
@@ -105,11 +108,12 @@ export function VenueDirectory(props) {
   }
 
   return <>
-    <VenueFiltersPanel onSearch={s => setSearch(s)} 
-                  onDataCenterFilterUpdated={setDataCenterFilter} 
-                  onWorldFilterUpdated={setWorldFilter} 
-                  onTypeFilterUpdated={setTypeFilters} 
-                  onFeatureFilterUpdated={setFeatureFilters} />
+    <VenueFiltersPanel onSearch={s => setSearch(s)}
+                       onRegionFilterUpdated={setRegionFilter}
+                       onDataCenterFilterUpdated={setDataCenterFilter}
+                       onWorldFilterUpdated={setWorldFilter}
+                       onTypeFilterUpdated={setTypeFilters}
+                       onFeatureFilterUpdated={setFeatureFilters} />
     
     { /* Favorites */ }
     { isLoadingOrLoadedWithResults(filteredFavorites) && 
