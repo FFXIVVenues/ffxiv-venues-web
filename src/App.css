@@ -207,6 +207,19 @@ a {
   margin-left: 30px;
 }
 
+.aether-venues__patreons{
+  display: block;
+  margin-left: 30px;
+}
+
+.aether-venues__patreons img {
+  border-radius: 50%;
+  height: 32px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+
 .aether-venues__venues summary {
   cursor: pointer;
 }
