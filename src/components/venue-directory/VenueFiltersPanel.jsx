@@ -61,12 +61,16 @@ const worldFilters = [
   { key: Symbol(), label: "Louisoix", filter: worldFilter("Louisoix") },
   { key: Symbol(), label: "Moogle", filter: worldFilter("Moogle") },
   { key: Symbol(), label: "Omega", filter: worldFilter("Omega") },
+  { key: Symbol(), label: "Phantom", filter: worldFilter("Phantom") },
   { key: Symbol(), label: "Ragnarok", filter: worldFilter("Ragnarok") },
+  { key: Symbol(), label: "Sagittarius", filter: worldFilter("Sagittarius") },
   { key: Symbol(), label: "Spriggan", filter: worldFilter("Spriggan") },
 
+  { key: Symbol(), label: "Alpha", filter: worldFilter("Alpha") },
   { key: Symbol(), label: "Lich", filter: worldFilter("Lich") },
   { key: Symbol(), label: "Odin", filter: worldFilter("Odin") },
   { key: Symbol(), label: "Phoenix", filter: worldFilter("Phoenix") },
+  { key: Symbol(), label: "Raiden", filter: worldFilter("Raiden") },
   { key: Symbol(), label: "Shiva", filter: worldFilter("Shiva") },
   { key: Symbol(), label: "Twintania", filter: worldFilter("Twintania") },
   { key: Symbol(), label: "Zodiark", filter: worldFilter("Zodiark") }
