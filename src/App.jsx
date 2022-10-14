@@ -65,7 +65,7 @@ class App extends React.Component {
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
             <VenueDirectory listView={this.state.listView} />
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
-            <span className="aether-venues__patreons">Supported by our Patreons ❤️. 
+            <span className="aether-venues__patreons">Supported by our Patrons ❤️
               <img src={`https://img2.finalfantasyxiv.com/f/63cdf881f6443d20084d006afdba7b87_745baffc465480ed372e274d50318290fc0_96x96.jpg`} alt=""/> 
               <a target="_blank" rel="noreferrer" href="https://na.finalfantasyxiv.com/lodestone/character/38338653/">Autumn Dream</a> (Excalibur).
             </span>
