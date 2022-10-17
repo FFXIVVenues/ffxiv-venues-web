@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { isMobile } from "react-device-detect";
-import { /*propFilter,*/ tagFilter, worldFilter, dataCenterFilter, regionFilter } from "./VenueFilters";
+import { propFilter, tagFilter, worldFilter, dataCenterFilter, regionFilter } from "./VenueFilters";
 import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll";
 import "./filter-panel.css";
 
@@ -84,26 +84,32 @@ const typeFilters = [
   { key: Symbol(), label: "Inn", filter: tagFilter("inn") },
   { key: Symbol(), label: "Lounge", filter: tagFilter("lounge") },
   { key: Symbol(), label: "Bath house", filter: tagFilter("bath house") },
-  { key: Symbol(), label: "Auction house", filter: tagFilter("auction house") },
+  { key: Symbol(), label: "Restaurant", filter: tagFilter("restaurant") },
+  { key: Symbol(), label: "Fight club", filter: tagFilter("fightclub") },
+  { key: Symbol(), label: "Shows and Performances", filter: tagFilter("shows and performances") },
   { key: Symbol(), label: "Casino", filter: tagFilter("casino") },
+  { key: Symbol(), label: "Shop", filter: tagFilter("shop") },
   { key: Symbol(), label: "Maid cafe / host club", filter: tagFilter("maid cafe", "host club") },
   { key: Symbol(), label: "Other", filter: tagFilter("other") }
 ];
 
 const featureFilters = [
-  // { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
+  { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
   { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
   { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
-  // { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
   { key: Symbol(), label: "Dancers", filter: tagFilter("dancers") },
   { key: Symbol(), label: "Bards", filter: tagFilter("bards") },
   { key: Symbol(), label: "Twitch DJ", filter: tagFilter("twitch dj") },
-  { key: Symbol(), label: "Tarot reading", filter: tagFilter("tarot") },
+  { key: Symbol(), label: "Tarot", filter: tagFilter("tarot") },
   { key: Symbol(), label: "Pillow talk", filter: tagFilter("pillow") },
-  { key: Symbol(), label: "Unique services", filter: tagFilter("novel services") },
-  { key: Symbol(), label: "VIP", filter: tagFilter("vip") },
+  { key: Symbol(), label: "Photography", filter: tagFilter("photography") },
+  { key: Symbol(), label: "Open stage", filter: tagFilter("open stage") },
+  { key: Symbol(), label: "Stylists", filter: tagFilter("stylists") },
+  { key: Symbol(), label: "Performances", filter: tagFilter("performances") },
+  { key: Symbol(), label: "VIP available", filter: tagFilter("vip") },
   { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
-  { key: Symbol(), label: "IC RP Only", filter: tagFilter("ic rp only") }
+  { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
+  { key: Symbol(), label: "RP Heavily Encouraged", filter: tagFilter("rp heavy", "ic rp only") }
 ];
 
 const toggle = (symbol, arr) => {

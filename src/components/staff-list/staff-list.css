@@ -5,6 +5,11 @@
     padding: 10px 15px;
 }
 
+.staff-list .staff-list__content {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
 .staff-list .staff-list__summary {
     cursor: pointer;
     font-size: .9rem;
