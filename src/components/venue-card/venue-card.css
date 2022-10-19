@@ -19,10 +19,9 @@
 
 .venue-card__photo {
     position: absolute;
-    margin-left: -262.5px;
     left: 50%;
+    transform: translateX(-50%);
     z-index: -1;
-    width: 525px;
     height: 100%;
     opacity: .8;
 }

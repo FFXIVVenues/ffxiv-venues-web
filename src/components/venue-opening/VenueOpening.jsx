@@ -59,7 +59,7 @@ class VenueOpening extends React.Component {
                         null
                     }
                 </div>
-                <div className="venue-opening__cell venue-opening__location" ><Location location={this.props.venue.location} /></div>
+                <div className="venue-opening__cell venue-opening__location" ><Location location={this.props.venue.location} shorten /></div>
             </div>
             { this.state.openModal && 
                 <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>

@@ -1,10 +1,4 @@
 .venue-profile__banner {
-    background-image: url("../../assets/default-banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    height: 200px;
     width: 100%;
     padding-top: 0.05px;
     border-radius: 5px 5px 0 0;

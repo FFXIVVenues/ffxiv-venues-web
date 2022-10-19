@@ -75,7 +75,7 @@ class VenueCard extends VenueOpening {
                     }
 
                     <div className="venue-card__location">
-                        <Location location={this.props.venue.location} />
+                        <Location location={this.props.venue.location} shorten />
                     </div>
                 </div>
             </div>
