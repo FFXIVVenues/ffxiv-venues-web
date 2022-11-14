@@ -68,9 +68,11 @@ class App extends React.Component {
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
             <span className="aether-venues__patreons">Supported by our Patrons ❤️
               <img src={`https://img2.finalfantasyxiv.com/f/63cdf881f6443d20084d006afdba7b87_745baffc465480ed372e274d50318290fc0_96x96.jpg`} alt=""/> 
-              <a target="_blank" rel="noreferrer" href="https://na.finalfantasyxiv.com/lodestone/character/38338653/">Autumn Dream</a> (Excalibur), and
+              <a target="_blank" rel="noreferrer" href="https://na.finalfantasyxiv.com/lodestone/character/38338653/">Autumn Dream</a> (Excalibur),
               <img src={`https://img2.finalfantasyxiv.com/f/28b7a4b12553495d9217cae3bfa68acb_8106f857613f8fb994b0be37b26ff4bafc0_96x96.jpg`} alt=""/>
-              <a target="_blank" rel="noreferrer" href="https://eu.finalfantasyxiv.com/lodestone/character/42596715/">Ophelia Stormslayer</a> (Zalera).
+              <a target="_blank" rel="noreferrer" href="https://eu.finalfantasyxiv.com/lodestone/character/42596715/">Ophelia Stormslayer</a> (Zalera), and
+              <img src={`https://img2.finalfantasyxiv.com/f/5f070152baf12ac5d75ce1d657bb1d86_5c8ecfbc673e1287a9b5e85423fe1657fc0_96x96.jpg`} alt=""/>
+              <a target="_blank" rel="noreferrer" href="https://na.finalfantasyxiv.com/lodestone/character/33428822/">Legiana Skywrath</a> (Midgardsormr).
             </span>
           </div>
           <div className="aether-venues__meta-panel">
