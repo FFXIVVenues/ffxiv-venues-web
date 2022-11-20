@@ -42,7 +42,7 @@ class VenueOpening extends React.Component {
 
         return <div className={"venue-opening " + 
                                 (this.props.venue.id) + 
-                                ((this.props.opening ? this.props.opening.isNow : this.props.venue.open) ? " venue-opening--open" : "") + 
+                                (this.props.venue.open ? " venue-opening--open" : "") +
                                 (this.props.time ? "" : " venue-opening--no-time")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
                 {this.props.opening && 
