@@ -43,11 +43,11 @@ class VenueProfile extends React.Component {
     }
 
     componentDidMount() {
-        window.location.hash = this.props.venue.id;
+        window.history.pushState(null,null,'#' + this.props.venue.id);
     }
 
     componentWillUnmount() {
-        window.location.hash = "";
+        window.history.pushState(null,null,"#");
     }
 
     render() {

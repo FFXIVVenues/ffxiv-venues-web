@@ -33,7 +33,7 @@ class VenueOpening extends React.Component {
 
     _onCloseClick() {
         this.setState({ openModal: false });
-        document.onkeyup = null;
+        // document.onkeyup = null;
     }
 
     render() {

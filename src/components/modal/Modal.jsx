@@ -3,8 +3,8 @@ import React from "react";
 
 class Modal extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this._destroyModal = null;
     }
 

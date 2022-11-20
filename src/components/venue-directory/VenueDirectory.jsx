@@ -32,21 +32,25 @@ export function VenueDirectory(props) {
   const [ newest, setNewest ] = useState(null);
   const [ scheduled, setScheduled ] = useState(null);
 
-  useEffect(_ => (async () => {
-    const venues = await venueService.getVenues();
-    setFavorites(venues.filter(v => v.isFavorite()));
-    setNewest(venues.filter(v => v.isNew()));
-    const openVenues = await venueService.getOpenVenues();
-    setOpen(openVenues);
-    const scheduledVenues = await venueService.getVenueSchedule();
-    setScheduled(scheduledVenues);
-  })(), [ ]);
+  useEffect(_ => {
+    (async () => {
+      const venues = await venueService.getVenues();
+      setFavorites(venues.filter(v => v.isFavorite()));
+      setNewest(venues.filter(v => v.isNew()));
+      const openVenues = await venueService.getOpenVenues();
+      setOpen(openVenues);
+      const scheduledVenues = await venueService.getVenueSchedule();
+      setScheduled(scheduledVenues);
+    })();
+  }, [ ]);
 
-  useEffect(_ => (async () => {
-    const destroyFavoritesObserver = favouritesService.observe(async _ => 
-      setFavorites((await venueService.getVenues()).filter(v => v.isFavorite())));
-    return destroyFavoritesObserver;
-  })(), []);
+  useEffect(_ => {
+    (async () => {
+      const destroyFavoritesObserver = favouritesService.observe(async _ =>
+          setFavorites((await venueService.getVenues()).filter(v => v.isFavorite())));
+      return destroyFavoritesObserver;
+    })()
+  }, []);
 
   const filter = (venues) => {
     if (venues === null) return null;
