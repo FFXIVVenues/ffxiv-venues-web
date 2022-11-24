@@ -11,6 +11,7 @@ export function StaffList(props) {
         <StaffMember name="Sage Loxley" world="Alpha" role="Photographer (EU)" photoId="7132ecbc2feed2a3e3a32eb5d5be73e2_6132295fcf5570fb8b0a944ef322a598fc0"  discordId="111641778477641728" />
         <StaffMember name="Kaeda Destrian" world="Jenova" role="Community Engagement Lead" photoId="325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="870413151676551178" />
         <StaffMember name="Vyreia Sun" world="Alpha" role="Community Engagement (EU)" photoId="b6fa1d8be651040362cd747ade3c87d9_6132295fcf5570fb8b0a944ef322a598fc0" discordId="283375712851853312" />
+        <StaffMember name="Monsieur Zahmo'wo" world="Jenova" role="Event Coordinator" photoId="4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0" discordId="786407181804896257" />
         <StaffMember name="Lanna'baker Kha" world="Cactuar" role="Administration Lead" photoId="8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0"  discordId="880594476295389205" />
         <StaffMember name="Uchu Jupiter" world="Jenova" role="Senior Administrator" photoId="adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="99616043571380224" />
         <StaffMember name="Alitzia Kiryu" world="Siren" role="Senior Administrator" photoId="777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0"  discordId="158410288238952449" />
