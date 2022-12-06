@@ -16,7 +16,6 @@ export function StaffList(props) {
         <StaffMember name="Uchu Jupiter" world="Jenova" role="Senior Administrator" photoId="adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="99616043571380224" />
         <StaffMember name="Alitzia Kiryu" world="Siren" role="Senior Administrator" photoId="777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0"  discordId="158410288238952449" />
         <StaffMember name="Aruna Valkyria" world="Cactuar" role="Administrator" photoId="4095422299d95965ea3e401de871219a_96ab1df8877c1f8ba6a89a39cccfd437fc0"  discordId="391318826819780618" />
-        <StaffMember name="Nyrissa Shalkour" world="Siren" role="Junior Administrator" photoId="85426b556cc77349fd17df5b85ba9f14_58a84e851e55175d22158ca97af58a1ffc0"  discordId="328782330741260288" />
     </>;
     return <div className={`staff-list ${props.className || ''}`}>
         {
