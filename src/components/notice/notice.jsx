@@ -1,28 +1,34 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Modal } from "../modal/Modal";
 import { Button } from "../button/Button";
-import banner from "./banner.jpg";
+import banner from "./banner.png";
 import "./notice.css";
 
 function Notice() {
     const [modalActive, setModalActive] = useState(false);
 
     return (<div className='notice' onClick={_ => setModalActive(!modalActive)}>
-        <strong>Welcome Europe!</strong> FFXIV Venues is now in Europe, and we're hard at work discovering all the venues Europe has to offer. 💖
+        <strong>Burgundy Gives Back</strong> is currently live! A 12-hour charity event for Trans Lifeline.
         { modalActive &&
             <Modal onStageClick={_ => setModalActive(false)}
                    style={{
                         textAlign: "center",
+                       width: 800,
+                       fontSize: 0
                    }}>
-                <img alt="FFXIV Venues is now in Europe" src={banner} style={{
-                    borderTopLeftRadius: 5,
-                    borderTopRightRadius: 5,
-                    width: "100%",
-                }}/>
-                <p style={{ padding: "15px 30px" }}><strong>All your venue are belong to us!</strong></p>
-                <p style={{ padding: "0 30px 0 30px", textAlign: "justify" }}><strong>FFXIV Venues</strong> has been growing it's venue discovery platform for over a year and the community support has been amazing, we couldn't have gotten this far without them. Now, after much coverage - *blushies* - and community demand, we've skipped over the pond and we're ready to dive in to everything Europe has to offer and share it with everyone. 💖</p>
-                <p style={{ padding: "0 30px 15px 30px", textAlign: "justify" }}>If you haven't met us yet, please come and introduce yourselves in our community's discord. We can't wait to meet you all. 🥰</p>
-                <Button style={{ marginBottom: 30 }} onClick={_ => setModalActive(false)}>Okay!</Button>
+                <Button className="venue-modal__close-button"
+                        style={{ backgroundColor: "#181818", border: "none"}}
+                        onClick={_=> setModalActive(false)}>
+                    <img src="assets/cross.svg" alt="" />
+                </Button>
+                <a href="https://burgundygivesback.com/">
+                    <img alt="FFXIV Venues is now in Europe" src={banner} style={{
+                        borderTopLeftRadius: 5,
+                        borderTopRightRadius: 5,
+                        width: "100%",
+                        margin: 0
+                    }}/>
+                </a>
             </Modal>
         }
     </div>)

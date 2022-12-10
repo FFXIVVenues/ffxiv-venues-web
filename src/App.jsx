@@ -5,7 +5,7 @@ import { ModalStage } from "./components/modal-stage/ModalStage";
 import { venueService } from './services/venueService';
 import { Modal } from "./components/modal/Modal";
 import { VenueProfile } from "./components/venue-profile/VenueProfile";
-// import { Notice } from './components/notice/notice';
+import { Notice } from './components/notice/notice';
 import { VenueDirectory } from './components/venue-directory/VenueDirectory';
 import { StaffList } from './components/staff-list/StaffList'
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
@@ -62,7 +62,7 @@ class App extends React.Component {
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>
-          {/*<Notice />*/}
+          <Notice />
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
             <VenueDirectory listView={this.state.listView} />
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>

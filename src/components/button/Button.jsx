@@ -4,8 +4,8 @@ function Button(props) {
     const [ buttonFocused, setFocused ] = useState(false);
 
     let style = {
-        padding: 8,
-        minWidth: 80,
+        padding: "8px",
+        // minWidth: 80,
         border: "dimgray 1px solid",
         backgroundColor: "transparent",
         boxSizing: "border-box",
@@ -13,6 +13,8 @@ function Button(props) {
         color: "white",
         cursor: "pointer",
         textDecoration: "none",
+        fontSize: "1em",
+        display: "inline-block",
         ...props.style
     };
 
