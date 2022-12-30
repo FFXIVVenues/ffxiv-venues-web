@@ -7,10 +7,8 @@ export function StaffList(props) {
         <StaffMember name="Sumi Satsuo" world="Jenova" role="Engineer" photoId="6adbef94cc3fa361f6a047330a0b9a44_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="252142384303833088" />
         <StaffMember name="Allegro Vivo" world="Midgardsormr" role="Junior Engineer" photoId="82105c3e79b2a512772d26e56fcc8105_5c8ecfbc673e1287a9b5e85423fe1657fc0"  discordId="265695573527625731" />
         <StaffMember name="Ada Xumm" world="Coeurl" role="Photography Lead" photoId="d6583919ef6756c46ee9cac82110041a_284358f8eb4efc9095914e46798c6ab3fc0"  link="https://ada.xumm.ffxivphotography.com/#sfwo" />
-        <StaffMember name="Kenta Jin" world="Jenova" role="Photographer (NA)" photoId="d4c7e12554774822191999bc9eb9a860_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="713047627285004352" />
         <StaffMember name="Sage Loxley" world="Alpha" role="Photographer (EU)" photoId="7132ecbc2feed2a3e3a32eb5d5be73e2_6132295fcf5570fb8b0a944ef322a598fc0"  discordId="111641778477641728" />
         <StaffMember name="Kaeda Destrian" world="Jenova" role="Community Engagement Lead" photoId="325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="870413151676551178" />
-        <StaffMember name="Vyreia Sun" world="Alpha" role="Community Engagement (EU)" photoId="b6fa1d8be651040362cd747ade3c87d9_6132295fcf5570fb8b0a944ef322a598fc0" discordId="283375712851853312" />
         <StaffMember name="Monsieur Zahmo'wo" world="Jenova" role="Event Coordinator" photoId="4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0" discordId="786407181804896257" />
         <StaffMember name="Lanna'baker Kha" world="Cactuar" role="Administration Lead" photoId="8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0"  discordId="880594476295389205" />
         <StaffMember name="Uchu Jupiter" world="Jenova" role="Senior Administrator" photoId="adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="99616043571380224" />
