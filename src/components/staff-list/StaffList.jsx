@@ -8,6 +8,7 @@ export function StaffList(props) {
         <StaffMember name="Allegro Vivo" world="Midgardsormr" role="Junior Engineer" photoId="82105c3e79b2a512772d26e56fcc8105_5c8ecfbc673e1287a9b5e85423fe1657fc0"  discordId="265695573527625731" />
         <StaffMember name="Ada Xumm" world="Coeurl" role="Photography Lead" photoId="d6583919ef6756c46ee9cac82110041a_284358f8eb4efc9095914e46798c6ab3fc0"  link="https://ada.xumm.ffxivphotography.com/#sfwo" />
         <StaffMember name="Sage Loxley" world="Alpha" role="Photographer (EU)" photoId="7132ecbc2feed2a3e3a32eb5d5be73e2_6132295fcf5570fb8b0a944ef322a598fc0"  discordId="111641778477641728" />
+        <StaffMember name="Vix Solanine" world="Leviathan" role="Photographer (NA)" photoId="7ebe3d3ddadcd9ef4f5bb8358b5b6028_a91aae52cff9ef65932db06b150ffd47fc0"  discordId="894592805689774080" />
         <StaffMember name="Kaeda Destrian" world="Jenova" role="Community Engagement Lead" photoId="325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0"  discordId="870413151676551178" />
         <StaffMember name="Monsieur Zahmo'wo" world="Jenova" role="Event Coordinator" photoId="4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0" discordId="786407181804896257" />
         <StaffMember name="Lanna'baker Kha" world="Cactuar" role="Administration Lead" photoId="8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0"  discordId="880594476295389205" />
