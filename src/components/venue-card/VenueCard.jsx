@@ -9,6 +9,7 @@ import { VenueOpening } from "../venue-opening/VenueOpening";
 import { FavoriteIcon } from "../icons/FavoriteIcon";
 import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
 import { ReactComponent as UnvisitedIcon } from "../../assets/icons/not-visited-icon.svg";
+import defaultImage from "./default-banner.jpg";
 import { Location } from "../location/Location";
 
 class VenueCard extends VenueOpening {
@@ -42,8 +43,9 @@ class VenueCard extends VenueOpening {
                  role="row" 
                  onClick={ this._onVenueClick.bind(this) }>
 
-                { this.props.venue.bannerUri &&
-                    <img className="venue-card__photo" src={this.props.venue.bannerUri} alt="" loading="lazy" />
+                { this.props.venue.bannerUri
+                    ? <img className="venue-card__photo" src={this.props.venue.bannerUri} alt="" loading="lazy" />
+                    : <img className="venue-card__photo" src={defaultImage} alt="" loading="lazy" />
                 }
 
                 <div className="venue-card__options">
