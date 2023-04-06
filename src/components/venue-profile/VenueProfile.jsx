@@ -75,9 +75,9 @@ class VenueProfile extends React.Component {
                     </button>
                 </div>
 
-                <img className="venue-profile__banner"
-                     src={`${process.env.REACT_APP_FFXIV_VENUES_API_ROOT}/venue/${this.props.venue.id}/media`}
-                     alt=""/>
+                { this.props.venue.bannerUri &&
+                    <img className="venue-profile__banner" src={this.props.venue.bannerUri} alt="" />
+                }
 
                 <div className="venue-profile__details">
 
