@@ -3,7 +3,7 @@ import "./notice.css";
 
 function Notice() {
     return (<div className='notice'>
-        <strong>Card View is currently disabled</strong> while we work to mitigate an attack. Send us love please 😢.
+        We're working to mitigate a DDOS attack, some services may be unavailable at times. Send us love please 😢.
     </div>)
 }
 

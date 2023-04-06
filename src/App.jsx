@@ -62,7 +62,7 @@ class App extends React.Component {
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>
-          <Notice />
+          {/*<Notice />*/}
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
             <VenueDirectory listView={this.state.listView} />
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>

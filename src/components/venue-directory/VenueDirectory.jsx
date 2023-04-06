@@ -17,7 +17,6 @@ const isLoadingOrLoadedWithResults = (venues) => !isLoadedButNoResult(venues);
 export function VenueDirectory(props) {
   
   let { listView } = props;
-  listView = true;
 
   // filter states
   const [ search, setSearch ] = useState(null);
