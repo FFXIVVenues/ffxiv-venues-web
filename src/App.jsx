@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './Responsive.css';
 import { ModalStage } from "./components/modal-stage/ModalStage";
-import { venueService } from './services/venueService';
+import { venueService } from './services/venues/venueService';
 import { Modal } from "./components/modal/Modal";
 import { VenueProfile } from "./components/venue-profile/VenueProfile";
 import { Notice } from './components/notice/notice';

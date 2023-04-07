@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { VenueFiltersPanel } from "./VenueFiltersPanel";
-import { venueService } from "../../services/venueService";
+import { venueService } from "../../services/venues/venueService";
 import { favouritesService } from "../../services/favouritesService";
 import { timeService } from "../../services/timeService";
 import { VenueStrip } from "../venue-strip/VenueStrip";
