@@ -3,7 +3,6 @@ import React from "react";
 class DateString extends React.Component {
 
     render() {
-        
         return <React.Fragment>
             {DateString.days[this.props.date.getDay()]}, {DateString.months[this.props.date.getMonth()]} {this.props.date.getDate()} &nbsp;
             { this.props.format24 
