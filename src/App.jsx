@@ -5,7 +5,6 @@ import { ModalStage } from "./components/modal-stage/ModalStage";
 import { venueService } from './services/venues/venueService';
 import { Modal } from "./components/modal/Modal";
 import { VenueProfile } from "./components/venue-profile/VenueProfile";
-import { Notice } from './components/notice/notice';
 import { VenueDirectory } from './components/venue-directory/VenueDirectory';
 import { PersonList } from './components/person-list/PersonList';
 import { staff, patrons} from "./components/person-list/PeopleLists";
