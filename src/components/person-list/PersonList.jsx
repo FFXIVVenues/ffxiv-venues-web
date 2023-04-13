@@ -1,5 +1,5 @@
 import { Person } from "./Person";
-import "./staff-list.css";
+import "./person-list.css";
 import React from "react";
 
 // todo Can be abstracted more to a generic accordion
@@ -14,10 +14,16 @@ export function PersonList(props) {
                     <summary className="staff-list__summary">{props.heading}</summary>
                     <div className="staff-list__content">
                         {list}
+                        {props.footer && <div className="staff-list__footer">
+                            {props.footer}
+                        </div>}
                     </div>
                 </details> 
             : 
-            <>{list}</>
+            <>
+                <h3>{props.heading}</h3>
+                {list}
+            </>
         }
     </div>
 }

@@ -1,4 +1,4 @@
-import "./staff-member.css";
+import "./person.css";
 
 export function Person(props) {
     return  <div className="staff-member">

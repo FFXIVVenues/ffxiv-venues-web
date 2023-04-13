@@ -7,7 +7,7 @@
 
 .staff-list .staff-list__content {
     max-height: 300px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .staff-list .staff-list__summary {
@@ -26,4 +26,9 @@
 
 .staff-list__patrons {
     display: block;
+}
+
+.staff-list__footer {
+    margin-top: 25px;
+    margin-bottom: 10px
 }

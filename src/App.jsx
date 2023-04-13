@@ -76,10 +76,12 @@ class App extends React.Component {
                 <Button className="aether-venues__discord-button" href="https://discord.gg/gTP65VYcMj" style={{ width: "100%" }}>Join the discord!</Button>
               </div>
             </div>
-            <PersonList className="aether-venues__staff-list aether-venues__staff-list--collapsible" heading="Meet the staff" people={staff} collapsible={true} />
-            <PersonList className="aether-venues__staff-list aether-venues__staff-list--not-collapsible" heading="Meet the staff" people={staff} collapsible={false} />
-            <PersonList className="aether-venues__patron-list aether-venues__patron-list--collapsible" heading="Meet our patrons" people={patrons} collapsible={true} />
-            <PersonList className="aether-venues__patron-list aether-venues__patron-list--not-collapsible" heading="Meet our patrons" people={patrons} collapsible={false} />
+            <div className="aether-venues__people-lists">
+              <PersonList className="aether-venues__staff-list aether-venues__staff-list--collapsible" heading="Meet the staff" people={staff} collapsible={true} />
+              <PersonList className="aether-venues__staff-list aether-venues__staff-list--not-collapsible" heading="Meet the staff" people={staff} collapsible={false} />
+              <PersonList className="aether-venues__patron-list aether-venues__patron-list--collapsible" heading="Meet our patrons" people={patrons} footer={<a href="https://www.patreon.com/ffxivvenues" target="_blank" rel="noreferrer">Become a patron!</a>} collapsible={true} />
+              <PersonList className="aether-venues__patron-list aether-venues__patron-list--not-collapsible" heading="Meet our patrons" people={patrons} footer={<a href="https://www.patreon.com/ffxivvenues" target="_blank" rel="noreferrer">Become a patron!</a>} collapsible={false} />
+            </div>
           </div>
           { this.state.requestedVenue &&
               <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>

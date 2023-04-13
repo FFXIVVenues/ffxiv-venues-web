@@ -6,7 +6,7 @@ import "./filter-panel.css";
 
 const regionFilters = [
   { key: Symbol(), label: "North America", filter: regionFilter("NA") },
-  { key: Symbol(), label: "🥳 Europe", filter: regionFilter("EU") },
+  { key: Symbol(), label: "Europe", filter: regionFilter("EU") },
   // { key: Symbol(), label: "Japan", filter: regionFilter("JP") },
   // { key: Symbol(), label: "Oceania", filter: regionFilter("OC") }
 ];
