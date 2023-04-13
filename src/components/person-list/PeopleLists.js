@@ -1,5 +1,3 @@
-import React from "react";
-
 export const staff = [
     { name: "Kana Ki", world: "Gilgamesh", role: "Engineering Lead", photoId: "5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0" , discordId: "236852510688542720" },
     { name: "Sumi Satsuo", world: "Jenova", role: ".NET Engineer", photoId: "6adbef94cc3fa361f6a047330a0b9a44_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "252142384303833088" },
