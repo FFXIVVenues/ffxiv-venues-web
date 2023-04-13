@@ -7,7 +7,8 @@ import { Modal } from "./components/modal/Modal";
 import { VenueProfile } from "./components/venue-profile/VenueProfile";
 import { Notice } from './components/notice/notice';
 import { VenueDirectory } from './components/venue-directory/VenueDirectory';
-import { StaffList } from './components/staff-list/StaffList'
+import { PersonList } from './components/person-list/PersonList';
+import { staff, patrons} from "./components/person-list/PeopleLists";
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
@@ -62,18 +63,8 @@ class App extends React.Component {
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>
-          <Notice />
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
             <VenueDirectory listView={this.state.listView} />
-            <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
-            <span className="aether-venues__patreons">Supported by our Patrons ❤️
-              <img src={`https://img2.finalfantasyxiv.com/f/63cdf881f6443d20084d006afdba7b87_745baffc465480ed372e274d50318290fc0_96x96.jpg`} alt=""/> 
-              <a target="_blank" rel="noreferrer" href="https://na.finalfantasyxiv.com/lodestone/character/38338653/">Autumn Dream</a> (Excalibur),
-              <img src={`https://img2.finalfantasyxiv.com/f/28b7a4b12553495d9217cae3bfa68acb_8106f857613f8fb994b0be37b26ff4bafc0_96x96.jpg`} alt=""/>
-              <a target="_blank" rel="noreferrer" href="https://eu.finalfantasyxiv.com/lodestone/character/42596715/">Ophelia Stormslayer</a> (Zalera), and
-              <img src={`https://img2.finalfantasyxiv.com/f/5f070152baf12ac5d75ce1d657bb1d86_5c8ecfbc673e1287a9b5e85423fe1657fc0_96x96.jpg`} alt=""/>
-              <a target="_blank" rel="noreferrer" href="https://na.finalfantasyxiv.com/lodestone/character/33428822/">Legiana Skywrath</a> (Midgardsormr).
-            </span>
           </div>
           <div className="aether-venues__meta-panel">
             <div className="aether-venues__discord-panels">
@@ -86,8 +77,10 @@ class App extends React.Component {
                 <Button className="aether-venues__discord-button" href="https://discord.gg/gTP65VYcMj" style={{ width: "100%" }}>Join the discord!</Button>
               </div>
             </div>
-            <StaffList className="aether-venues__staff-list--collapsible" collapsible={true} />
-            <StaffList className="aether-venues__staff-list--not-collapsible" collapsible={false} />
+            <PersonList className="aether-venues__staff-list aether-venues__staff-list--collapsible" heading="Meet the staff" people={staff} collapsible={true} />
+            <PersonList className="aether-venues__staff-list aether-venues__staff-list--not-collapsible" heading="Meet the staff" people={staff} collapsible={false} />
+            <PersonList className="aether-venues__patron-list aether-venues__patron-list--collapsible" heading="Meet our patrons" people={patrons} collapsible={true} />
+            <PersonList className="aether-venues__patron-list aether-venues__patron-list--not-collapsible" heading="Meet our patrons" people={patrons} collapsible={false} />
           </div>
           { this.state.requestedVenue &&
               <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>

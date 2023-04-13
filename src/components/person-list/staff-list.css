@@ -18,3 +18,12 @@
 .staff-list .staff-list__details[open] .staff-list__summary {
     margin-bottom: 20px;
 }
+
+.staff-list__patron-header {
+    font-size: .9rem;
+    margin: 20px 0;
+}
+
+.staff-list__patrons {
+    display: block;
+}

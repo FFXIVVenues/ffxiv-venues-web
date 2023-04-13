@@ -201,23 +201,8 @@ a {
   margin: 15px 0 150px 30px;
 }
 
-.aether-venues__made-by {
-  display: block;
-  margin-top: 80px;
-  margin-left: 30px;
-}
-
-.aether-venues__patreons{
-  display: block;
-  margin-left: 30px;
-}
-
-.aether-venues__patreons img {
-  border-radius: 50%;
-  height: 32px;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: -10px;
+.aether-venues__patron-list {
+  margin-top: 20px
 }
 
 .aether-venues__venues summary {
