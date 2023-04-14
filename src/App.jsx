@@ -12,7 +12,6 @@ import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
 import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
-import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
 import { NewVenueGuidance } from './components/new-venue-guidance/NewVenueGuidance';
 import { Button } from './components/button/Button';
 
@@ -32,12 +31,12 @@ class App extends React.Component {
     const requestedVenueId = window.location.hash.substring(1);
     venueService.getVenueById(requestedVenueId).then(v => this.setState({ requestedVenue: v }));
   }
- 
+
   switchToListView() {
     localStorage.setItem("aether-venues-view-setting", "list-view");
     this.setState({ listView: true })
   }
-  
+
   switchToCardView() {
     localStorage.setItem("aether-venues-view-setting", "card-view");
     this.setState({ listView: false })
@@ -57,8 +56,6 @@ class App extends React.Component {
             </div>
             <div className="aether-venues__colaborators">
               In collaboration with
-              <a href="https://dotemag.carrd.co/" target="_blank" rel="noreferrer"><DoteLogo style={{height: "30px"}} /></a>
-              and 
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>
@@ -68,7 +65,7 @@ class App extends React.Component {
           <div className="aether-venues__meta-panel">
             <div className="aether-venues__discord-panels">
               <div className="aether-venues__discord">
-                <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div> 
+                <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div>
                 <Button className="aether-venues__discord-button" onClick={_ => this.setState({ showNewVenueModal: true })} style={{ width: "100%" }}>Add your venue! 🥰</Button>
               </div>
               <div className="aether-venues__discord">
