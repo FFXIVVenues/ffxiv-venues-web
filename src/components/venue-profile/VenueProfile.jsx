@@ -11,6 +11,9 @@ import { ReactComponent as DiscordIcon } from "../../assets/icons/discord-icon.s
 import { DateString } from "../date/Date";
 import "./venue-profile.css";
 import { Location } from "../location/Location";
+import { stripHtml } from "string-strip-html";
+const { textVide } = require('text-vide');
+
 
 class VenueProfile extends React.Component {
 
@@ -36,7 +39,7 @@ class VenueProfile extends React.Component {
     _onFavoriteClick() {
         if (this.state.isFavourite) favouritesService.removeFavourite(this.props.venue.id)
         else favouritesService.setFavourite(this.props.venue.id);
-        
+
         this.setState({
             isFavourite: !this.state.isFavourite
         });
@@ -57,17 +60,18 @@ class VenueProfile extends React.Component {
             return now < exceptionEnd;
         });
 
+        console.log(this.props.venue.description)
         return (
             <div className="venue-profile">
                 <div className="venue-profile__user-settings">
-                    <button 
+                    <button
                         className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
                         onClick={this._onFavoriteClick}>
                         <FavoriteIcon lit={this.state.isFavourite} />
                         Favorite venue
                     </button>
 
-                    <button 
+                    <button
                         className={"venue-profile__visited-button" + (this.state.isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
                         onClick={this._onVisitedClick}>
                         { this.state.isVisited ? <VisitedIcon /> : <NotVisitedIcon /> }
@@ -81,7 +85,7 @@ class VenueProfile extends React.Component {
 
                 <div className="venue-profile__details">
 
-                    { this.props.venue.notices?.filter(n => n.isNow).map((n, i) => 
+                    { this.props.venue.notices?.filter(n => n.isNow).map((n, i) =>
                         <div className="venue-profile__notice" key={i}>
                             {n.message}
                         </div>
@@ -90,36 +94,43 @@ class VenueProfile extends React.Component {
                     <div className="venue-profile__heading">
                         <h2>
                             { this.props.venue.name }
-                        </h2>                
+                        </h2>
                     </div>
 
                     <p className="venue-profile__location">
                         <Location location={this.props.venue.location} />
                     </p>
-                    
-                    { this.props.venue.website && 
+
+                    { this.props.venue.website &&
                         <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.website}>
-                            <WebIcon /> 
+                            <WebIcon />
                             <div>
                                 <div className="venue-profile__social-cta">Visit website</div>
                                 <div className="venue-profile__social-url">{this.props.venue.website}</div>
                             </div>
                         </a>
                     }
-                    { this.props.venue.discord && 
+                    { this.props.venue.discord &&
                         <a className="venue-profile__social" target="_blank" rel="noreferrer" href={this.props.venue.discord}>
-                            <DiscordIcon /> 
+                            <DiscordIcon />
                             <div>
                                 <div className="venue-profile__social-cta">Join Discord</div>
                                 <div className="venue-profile__social-url">{this.props.venue.discord}</div>
                             </div>
-                            
+
                         </a>
                     }
 
-                    { this.props.venue.description && this.props.venue.description.length > 0 && 
+                    { this.props.venue.description && this.props.venue.description.length > 0 &&
                         <article className="venue-profile__description">
-                            { this.props.venue.description.map((para, i) => <p key={i}>{para}</p>) }
+                            { this.props.venue.description.map((para, i) => {
+                                const strippedPara = stripHtml(para).result;
+                                const bionicPara = textVide(strippedPara, { ignoreHtmlTag: false });
+                                return (
+                                    <p key={i} dangerouslySetInnerHTML={{__html: bionicPara}}></p>
+                                );
+                            })}
+
                         </article>
                     }
 
@@ -127,9 +138,9 @@ class VenueProfile extends React.Component {
                         <div className="venue-profile__opening-times-wrapper">
                             <table className="venue-profile__opening-times">
                                 <tbody>
-                                { this.props.venue.openings.map((t, i) => 
+                                { this.props.venue.openings.map((t, i) =>
                                     <tr key={i} className={`venue-profile__opening-time ${t.isNow ? "venue-profile__opening-time--active" : ""}`}>
-                                        <td className="venue-profile__day"><strong>{days[t.day]}</strong></td> 
+                                        <td className="venue-profile__day"><strong>{days[t.day]}</strong></td>
                                         <td className="venue-profile__start"><Time time={t.start} day={t.day} format24={false} /></td>
                                         <td className="venue-profile__split">{ t.end && <React.Fragment>-</React.Fragment> }</td>
                                         <td className="venue-profile__end">{ t.end && <Time time={t.end} day={t.day} format24={false} /> }</td>
@@ -141,7 +152,7 @@ class VenueProfile extends React.Component {
                         </div>
                     }
 
-                    { (override && override.length > 0) && 
+                    { (override && override.length > 0) &&
                         <article className="venue-profile__exceptions">
                             This venue will be closed at the following times:
                             <table>
@@ -160,14 +171,14 @@ class VenueProfile extends React.Component {
 
                     { this.props.venue.tags &&
                         <div className="venue-profile_tags">
-                            {this.props.venue.tags.map((tag, i) => 
+                            {this.props.venue.tags.map((tag, i) =>
                                 <div className="venue-profile__tag" key={i}>{tag}</div>
                             )}
                         </div>
                     }
 
                 </div>
-                
+
             </div>)
     }
 
