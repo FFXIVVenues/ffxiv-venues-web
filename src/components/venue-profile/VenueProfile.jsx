@@ -12,7 +12,7 @@ import { DateString } from "../date/Date";
 import "./venue-profile.css";
 import { Location } from "../location/Location";
 import { stripHtml } from "string-strip-html";
-const { textVide } = require('text-vide');
+import { textVide } from "text-vide";
 
 
 class VenueProfile extends React.Component {
