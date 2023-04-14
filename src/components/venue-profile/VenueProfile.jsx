@@ -60,7 +60,6 @@ class VenueProfile extends React.Component {
             return now < exceptionEnd;
         });
 
-        console.log(this.props.venue.description)
         return (
             <div className="venue-profile">
                 <div className="venue-profile__user-settings">
