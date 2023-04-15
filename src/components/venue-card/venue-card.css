@@ -4,7 +4,7 @@
     border-radius: 5px;
     box-sizing: border-box;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -37,7 +37,6 @@
     width: 100%;
     text-shadow: 0 0 5px black;
     box-sizing: border-box;
-    /* background-color: rgba(0, 0, 0, .5); */
 }
 
 .venue-card__options {
@@ -52,7 +51,7 @@
 }
 
 .venue-card__name {
-    font-size: 1.5rem;
+    font-size: 1.3em;
     font-weight: bolder;
 }
 
@@ -89,8 +88,13 @@
     font-weight: bold;
 }
 
+.venue-card__time {
+    font-size: .95em;
+}
+
 .venue-card__time .venue-card__start {
     display: inline-block;
+
 }
 .venue-card__time .venue-card__time-split {
     display: inline-block;
@@ -99,6 +103,11 @@
 .venue-card__time .venue-card__end {
     display: inline-block;
 }
+
+.venue-card__location {
+    font-size: .95em;
+}
+
 
 @keyframes slideInFromRight {
     from {

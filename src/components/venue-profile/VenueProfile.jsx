@@ -124,12 +124,11 @@ class VenueProfile extends React.Component {
                         <article className="venue-profile__description">
                             { this.props.venue.description.map((para, i) => {
                                 const strippedPara = stripHtml(para).result;
-                                const bionicPara = textVide(strippedPara, { ignoreHtmlTag: false });
+                                const bionicPara = textVide(strippedPara, { ignoreHtmlTag: false, fixationPoint: 4 });
                                 return (
                                     <p key={i} dangerouslySetInnerHTML={{__html: bionicPara}}></p>
                                 );
                             })}
-
                         </article>
                     }
 

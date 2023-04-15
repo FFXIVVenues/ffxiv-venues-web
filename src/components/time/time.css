@@ -1,1 +1,10 @@
-.next-day-icon { display: inline-block; height: 10px; margin: -5px 0 5px 5px; }
+.time-component {
+    display: inline-block;
+    width: max-content;
+}
+
+.next-day-icon {
+    display: inline-block;
+    height: 10px;
+    margin: -5px 0 5px 5px;
+}
