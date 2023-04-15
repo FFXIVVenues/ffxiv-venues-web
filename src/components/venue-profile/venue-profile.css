@@ -89,6 +89,7 @@ button.venue-profile__visited-button--visited {
 }
 
 .venue-profile__description {
+    font-family: 'Segoe UI Light';
     text-align: justify;
     padding: 10px 15px;
     border-radius: 5px;
@@ -187,4 +188,5 @@ button.venue-profile__visited-button--visited {
     margin-right: 5px;
     margin-top: 5px;
     width: fit-content;
+    font-size: 0.9em;
 }
