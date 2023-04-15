@@ -1,7 +1,7 @@
 export const staff = [
     { name: "Kana Ki", world: "Gilgamesh", role: "Engineering Lead", photoId: "5370f299860d4771c8454e6dd5057ddc_b937560c841465f7c4bc8eb47ea7948afc0" , discordId: "236852510688542720" },
     { name: "Sumi Satsuo", world: "Jenova", role: ".NET Engineer", photoId: "6adbef94cc3fa361f6a047330a0b9a44_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "252142384303833088" },
-    { name: "Madame Akahime", world: "Jenova", role: "React Engineer", photoId: "117ac0f2238aac7e46c0284dc6ffeaa7_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "159859092603535360" },
+    { name: "Madame Akehime", world: "Jenova", role: "React Engineer", photoId: "117ac0f2238aac7e46c0284dc6ffeaa7_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "159859092603535360" },
     { name: "Klyhia Moni", world: "Moogle", role: ".NET Engineer", photoId: "caf8839602db852c205fff52c76e5921_d7a9d5f85a29d6278ec1c7adc2c8d242fc0" , discordId: "133149295732850688" },
     { name: "Allegro Vivo", world: "Midgardsormr", role: "Discord Engineer", photoId: "82105c3e79b2a512772d26e56fcc8105_5c8ecfbc673e1287a9b5e85423fe1657fc0" , discordId: "265695573527625731" },
     { name: "Melon Lalamelon", world: "Exodus", role: "Analyst", photoId: "9b078a929243eeee8f05ce29bdafd267_0cdf051c93865faa15cbc5cd3d2b69fbfc0", discordId: "319646984040480769" },
