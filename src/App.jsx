@@ -5,14 +5,13 @@ import { ModalStage } from "./components/modal-stage/ModalStage";
 import { venueService } from './services/venues/venueService';
 import { Modal } from "./components/modal/Modal";
 import { VenueProfile } from "./components/venue-profile/VenueProfile";
-import { Notice } from './components/notice/notice';
 import { VenueDirectory } from './components/venue-directory/VenueDirectory';
-import { StaffList } from './components/staff-list/StaffList'
+import { PersonList } from './components/person-list/PersonList';
+import { staff, patrons} from "./components/person-list/PeopleLists";
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
-import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
-import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
-import { ReactComponent as DoteLogo } from "./assets/logos/dote.svg";
+// import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
+// import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
 import { NewVenueGuidance } from './components/new-venue-guidance/NewVenueGuidance';
 import { Button } from './components/button/Button';
 
@@ -32,12 +31,12 @@ class App extends React.Component {
     const requestedVenueId = window.location.hash.substring(1);
     venueService.getVenueById(requestedVenueId).then(v => this.setState({ requestedVenue: v }));
   }
- 
+
   switchToListView() {
     localStorage.setItem("aether-venues-view-setting", "list-view");
     this.setState({ listView: true })
   }
-  
+
   switchToCardView() {
     localStorage.setItem("aether-venues-view-setting", "card-view");
     this.setState({ listView: false })
@@ -57,12 +56,9 @@ class App extends React.Component {
             {/*</div>*/}
             <div className="aether-venues__colaborators">
               In collaboration with
-              <a href="https://dotemag.carrd.co/" target="_blank" rel="noreferrer"><DoteLogo style={{height: "30px"}} /></a>
-              and 
               <a href="https://aetherentertainer.carrd.co/" target="_blank" rel="noreferrer"><img src="aether-entertainer.png" alt="Aether Entertainer Gazette" /></a>
             </div>
           </div>
-          <Notice />
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
             <VenueDirectory listView={true} />
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
@@ -78,7 +74,7 @@ class App extends React.Component {
           <div className="aether-venues__meta-panel">
             <div className="aether-venues__discord-panels">
               <div className="aether-venues__discord">
-                <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div> 
+                <div className="aether-venues__discord-cta"><NewVenue /> Looking to add your venue to the index?</div>
                 <Button className="aether-venues__discord-button" onClick={_ => this.setState({ showNewVenueModal: true })} style={{ width: "100%" }}>Add your venue! 🥰</Button>
               </div>
               <div className="aether-venues__discord">
@@ -86,8 +82,12 @@ class App extends React.Component {
                 <Button className="aether-venues__discord-button" href="https://discord.gg/gTP65VYcMj" style={{ width: "100%" }}>Join the discord!</Button>
               </div>
             </div>
-            <StaffList className="aether-venues__staff-list--collapsible" collapsible={true} />
-            <StaffList className="aether-venues__staff-list--not-collapsible" collapsible={false} />
+            <div className="aether-venues__people-lists">
+              <PersonList className="aether-venues__staff-list aether-venues__staff-list--collapsible" heading="Meet the staff" people={staff} collapsible={true} />
+              <PersonList className="aether-venues__staff-list aether-venues__staff-list--not-collapsible" heading="Meet the staff" people={staff} collapsible={false} />
+              <PersonList className="aether-venues__patron-list aether-venues__patron-list--collapsible" heading="Meet our patrons" people={patrons} footer={<a href="https://www.patreon.com/ffxivvenues" target="_blank" rel="noreferrer">Become a patron!</a>} collapsible={true} />
+              <PersonList className="aether-venues__patron-list aether-venues__patron-list--not-collapsible" heading="Meet our patrons" people={patrons} footer={<a href="https://www.patreon.com/ffxivvenues" target="_blank" rel="noreferrer">Become a patron!</a>} collapsible={false} />
+            </div>
           </div>
           { this.state.requestedVenue &&
               <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>

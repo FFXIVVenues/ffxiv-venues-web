@@ -1,6 +1,6 @@
-import "./staff-member.css";
+import "./person.css";
 
-export function StaffMember(props) {
+export function Person(props) {
     return  <div className="staff-member">
                 <img src={`https://img2.finalfantasyxiv.com/f/${props.photoId}_96x96.jpg`} alt=""/>
                 <div className="staff-member__details">

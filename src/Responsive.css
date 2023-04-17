@@ -2,6 +2,8 @@
 @media screen and (min-width: 1245px) {
     .aether-venues__staff-list--collapsible { display: block; }
     .aether-venues__staff-list--not-collapsible {  display: none; }
+    .aether-venues__patron-list--collapsible { display: block; }
+    .aether-venues__patron-list--not-collapsible {  display: none; }
 }
 
 @media screen and (max-width: 1245px) {
@@ -15,6 +17,8 @@
     .aether-venues__discord { min-width: 250px; border: solid 1px dimgray; }
     .aether-venues__staff-list--collapsible { display: none; }
     .aether-venues__staff-list--not-collapsible {  display: block; }
+    .aether-venues__patron-list--collapsible { display: none; }
+    .aether-venues__patron-list--not-collapsible {  display: block; }
 }
 
 @media screen and (max-width: 925px) {
