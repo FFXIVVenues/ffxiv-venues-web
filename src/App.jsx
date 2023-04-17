@@ -51,10 +51,10 @@ class App extends React.Component {
           <div className="aether-venues__heading">
             <h1><img src="full-logo.png" alt="FFXIV Venues" /></h1>
 
-            <div className="aether-venues__view-toggle">
-              <button onClick={this.switchToListView} className={this.state.listView ? `active` : undefined}><ListViewIcon /> List view</button>
-              <button onClick={this.switchToCardView} className={this.state.listView ? undefined : `active`}><CardViewIcon /> Card view</button>
-            </div>
+            {/*<div className="aether-venues__view-toggle">*/}
+            {/*  <button onClick={this.switchToListView} className={this.state.listView ? `active` : undefined}><ListViewIcon /> List view</button>*/}
+            {/*  <button onClick={this.switchToCardView} className={this.state.listView ? undefined : `active`}><CardViewIcon /> Card view</button>*/}
+            {/*</div>*/}
             <div className="aether-venues__colaborators">
               In collaboration with
               <a href="https://dotemag.carrd.co/" target="_blank" rel="noreferrer"><DoteLogo style={{height: "30px"}} /></a>
@@ -64,7 +64,7 @@ class App extends React.Component {
           </div>
           <Notice />
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
-            <VenueDirectory listView={this.state.listView} />
+            <VenueDirectory listView={true} />
             <span className="aether-venues__made-by">Made with ❤️ by Kana Ki.</span>
             <span className="aether-venues__patreons">Supported by our Patrons ❤️
               <img src={`https://img2.finalfantasyxiv.com/f/63cdf881f6443d20084d006afdba7b87_745baffc465480ed372e274d50318290fc0_96x96.jpg`} alt=""/> 
