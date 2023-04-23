@@ -3,7 +3,7 @@ import "./notice.css";
 
 function Notice() {
     return (<div className='notice'>
-        We're working to mitigate a DDOS attack, some services may be unavailable at times. Send us love please 😢.
+        We're aware of an issue regarding banners not rendering for users using uBlock Origin and we're working on the fix.
     </div>)
 }
 

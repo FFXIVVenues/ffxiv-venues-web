@@ -11,12 +11,14 @@ export function NewVenueGuidance()  {
                     <li>
                         <div className="new-venue-guidance__join-discord-step">
                             Join Veni's home; the FFXIV Venues discord!
+                            <br/>
                             <Button className="new-venue-guidance__button" href="https://discord.gg/gTP65VYcMj">Join the discord!</Button>
                         </div>
                     </li>
                     <li>
                         <div className="new-venue-guidance__join-discord-step">
-                            Then simply direct message Veni asking to <strong>Create a venue</strong> or type <strong>/create</strong>! 
+                            Then simply direct message Veni asking to <strong>Create a venue</strong> or type <strong>/create</strong>!
+                            <br/>
                             <Button className="new-venue-guidance__button" href="https://discordapp.com/users/906248123951775774">Meet Veni Ki!</Button>
                         </div>
                     </li>
@@ -34,12 +36,14 @@ export function NewVenueGuidance()  {
                     <li>
                         <div className="new-venue-guidance__join-discord-step">
                             Tell us about your venue via a short form!
+                            <br/>
                             <Button className="new-venue-guidance__button" href="https://form.jotform.com/220493425516050">Complete the form!</Button>
                         </div>
                     </li>
                     <li>
                         <div className="new-venue-guidance__join-discord-step">
                             Join the home of FFXIV Venues!
+                            <br/>
                             <Button className="new-venue-guidance__button" href="https://discord.gg/gTP65VYcMj">Join the discord!</Button>
                         </div>
                     </li>
