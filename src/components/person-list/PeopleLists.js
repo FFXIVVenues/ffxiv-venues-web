@@ -8,13 +8,14 @@ export const staff = [
     { name: "Ada Xumm", world: "Coeurl", role: "Photography Lead", photoId: "d6583919ef6756c46ee9cac82110041a_284358f8eb4efc9095914e46798c6ab3fc0", link: "https://ada.xumm.ffxivphotography.com/#sfwo" },
     { name: "Vix Solanine", world: "Leviathan", role: "Photographer (NA)", photoId: "7ebe3d3ddadcd9ef4f5bb8358b5b6028_a91aae52cff9ef65932db06b150ffd47fc0" , discordId: "894592805689774080" },
     { name: "Amatsu Kuwashima", world: "Phoenix", role: "Photographer (EU)", photoId: "b62177d1065ce573cb3eb75ee6e928d0_5047bc596a4bab2dc7f7c120bb22dec5fc0", link: "https://amatsupng.crd.co/#" },
-    { name: "Kaeda Destrian", world: "Jenova", role: "Community Engagement Lead", photoId: "325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "870413151676551178" },
-    { name: "Monsieur Zahmo'wo", world: "Jenova", role: "Community Engagement (NA)", photoId: "4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0", discordId: "786407181804896257" },
-    { name: "Kestra Alsta", world: "Louisoix", role: "Community Engagement (EU)", photoId: "706f605b80cf4ff5cd858a7a60bda6da_0a122616f3718d3f45cab10fd8fc1604fc0", discordId: "811738117761400853" },
-    { name: "Lanna'baker Kha", world: "Cactuar", role: "Administration Lead", photoId: "8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0" , discordId: "880594476295389205" },
-    { name: "Uchu Jupiter", world: "Jenova", role: "Senior Administrator", photoId: "adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "99616043571380224" },
-    { name: "Alitzia Kiryu", world: "Siren", role: "Senior Administrator", photoId: "777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0" , discordId: "158410288238952449" },
-    { name: "Aruna Valkyria", world: "Cactuar", role: "Administrator", photoId: "4095422299d95965ea3e401de871219a_96ab1df8877c1f8ba6a89a39cccfd437fc0" , discordId: "391318826819780618" }
+    { name: "Kaeda Destrian", world: "Jenova", role: "CE Lead", photoId: "325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "870413151676551178" },
+    { name: "Monsieur Zahmo'wo", world: "Jenova", role: "CE (NA)", photoId: "4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0", discordId: "786407181804896257" },
+    { name: "Kestra Alsta", world: "Louisoix", role: "CE (EU)", photoId: "706f605b80cf4ff5cd858a7a60bda6da_0a122616f3718d3f45cab10fd8fc1604fc0", discordId: "811738117761400853" },
+    { name: "Lanna'baker Kha", world: "Cactuar", role: "Moderation Lead", photoId: "8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0" , discordId: "880594476295389205" },
+    { name: "Uchu Jupiter", world: "Jenova", role: "Senior Moderator", photoId: "adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "99616043571380224" },
+    { name: "Alitzia Kiryu", world: "Siren", role: "Senior Moderator", photoId: "777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0" , discordId: "158410288238952449" },
+    { name: "Aruna Valkyria", world: "Cactuar", role: "Moderator", photoId: "4095422299d95965ea3e401de871219a_96ab1df8877c1f8ba6a89a39cccfd437fc0" , discordId: "391318826819780618" },
+    { name: "Chewi", world: "", role: "Junior Moderator", photoId: "" , discordId: "481029686856646657" }
 ];
 
 export const patrons = [
