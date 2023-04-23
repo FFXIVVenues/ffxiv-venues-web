@@ -11,8 +11,8 @@ import { ReactComponent as DiscordIcon } from "../../assets/icons/discord-icon.s
 import { DateString } from "../date/Date";
 import "./venue-profile.css";
 import { Location } from "../location/Location";
-import { stripHtml } from "string-strip-html";
-import { textVide } from "text-vide";
+// import { stripHtml } from "string-strip-html";
+// import { textVide } from "text-vide";
 
 
 class VenueProfile extends React.Component {
@@ -123,10 +123,11 @@ class VenueProfile extends React.Component {
                     { this.props.venue.description && this.props.venue.description.length > 0 &&
                         <article className="venue-profile__description">
                             { this.props.venue.description.map((para, i) => {
-                                const strippedPara = stripHtml(para).result;
-                                const bionicPara = textVide(strippedPara, { ignoreHtmlTag: false, fixationPoint: 4 });
+                                // const strippedPara = stripHtml(para).result;
+                                // const bionicPara = textVide(strippedPara, { ignoreHtmlTag: false, fixationPoint: 4 });
                                 return (
-                                    <p key={i} dangerouslySetInnerHTML={{__html: bionicPara}}></p>
+                                    // <p key={i} dangerouslySetInnerHTML={{__html: bionicPara}}></p>
+                                    <p key={i}>{para}</p>
                                 );
                             })}
                         </article>
