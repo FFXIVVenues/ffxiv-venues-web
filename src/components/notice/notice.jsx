@@ -3,7 +3,7 @@ import "./notice.css";
 
 function Notice() {
     return (<div className='notice'>
-        We're aware of an issue regarding banners not rendering for users using uBlock Origin and we're working on the fix.
+        The issue with uBlock Origin blocking ads has been resolved. Sorry for inconvenience, sepeku have been scheduled.
     </div>)
 }
 
