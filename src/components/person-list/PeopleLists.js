@@ -22,4 +22,5 @@ export const patrons = [
     { name: "Autumn Dream", world: "Excalibur", role: null, photoId: "63cdf881f6443d20084d006afdba7b87_745baffc465480ed372e274d50318290fc0" , link: "https://na.finalfantasyxiv.com/lodestone/character/38338653" },
     { name: "Ophelia Stormslayer", world: "Zalera", role: null, photoId: "28b7a4b12553495d9217cae3bfa68acb_8106f857613f8fb994b0be37b26ff4bafc0" , link: "https://eu.finalfantasyxiv.com/lodestone/character/42596715" },
     { name: "Croissant Shiraki", world: "Faerie", role: null, photoId: "63cdf881f6443d20084d006afdba7b87_745baffc465480ed372e274d50318290fc0" , link: "https://na.finalfantasyxiv.com/lodestone/character/26754912" },
+    { name: "Zapper G'ato", world: "Malboro", role: null, photoId: "476f1ad4d0d563fce386cd78915666db_2e97c13fdd593d15d543093f8a37b6f0fc0" , link: "https://eu.finalfantasyxiv.com/lodestone/character/41229917" },
 ];
