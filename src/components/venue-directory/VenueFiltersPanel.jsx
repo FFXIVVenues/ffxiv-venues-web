@@ -105,6 +105,7 @@ const featureFilters = [
   { key: Symbol(), label: "Photography", filter: tagFilter("photography") },
   { key: Symbol(), label: "Open stage", filter: tagFilter("open stage") },
   { key: Symbol(), label: "Stylists", filter: tagFilter("stylists") },
+  { key: Symbol(), label: "LGBTQIA+ focused", filter: tagFilter("LGBTQIA+") },
   { key: Symbol(), label: "Performances", filter: tagFilter("performances") },
   { key: Symbol(), label: "VIP available", filter: tagFilter("vip") },
   { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
