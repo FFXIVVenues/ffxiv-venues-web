@@ -7,9 +7,10 @@ import "./time.css";
 class Time extends React.Component {
 
     render() {
-        const localTime = timeService.convertToLocalTime(this.props.time);
+        const iso = this.props.time.localIsoString;
+        const localTime = this.props.time.twelvehourTime;
         
-        return (<time className="time-component" dateTime={`${localTime.utcHour.toString().padStart(2, "0")}:${localTime.minute.toString().padStart(2, "0")}Z`}>
+        return (<time className="time-component" dateTime={iso}>
             { this.props.format24 
                 ? <React.Fragment>{localTime.hour.toString().padStart(2, "0")}:{localTime.minute.toString().padStart(2, "0")}</React.Fragment> 
                 : <React.Fragment>
