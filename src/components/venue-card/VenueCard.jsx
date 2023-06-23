@@ -39,8 +39,8 @@ class VenueCard extends VenueOpening {
                                                                     (this.props.venue.open ? " venue-card--open" : "") + 
                                                                     (this.props.opening ? "" : " venue-card--no-time")}>
 
-            <div className="venue-card__block" 
-                 role="row" 
+            <div className="venue-card__block"
+                 role="row"
                  onClick={ this._onVenueClick.bind(this) }>
 
                 { this.props.venue.bannerUri
@@ -50,40 +50,40 @@ class VenueCard extends VenueOpening {
 
                 <div className="venue-card__options">
                     <FavoriteIcon lit={this.props.venue.isFavorite()} onClick={e => this.toggleFavorite(e) } />
-                    { this.props.venue.isVisited() ? 
-                        <VisitedIcon onClick={e => this.removeVisited(e)} /> : 
+                    { this.props.venue.isVisited() ?
+                        <VisitedIcon onClick={e => this.removeVisited(e)} /> :
                         <UnvisitedIcon onClick={e => this.setVisited(e)} /> }
                 </div>
 
-                { this.props.venue.isNew() ? 
-                    <div className="venue-card__new">new!</div> :
-                    null
-                }
+                {/*{ this.props.venue.isNew() ? */}
+                {/*    <div className="venue-card__new">new!</div> :*/}
+                {/*    null*/}
+                {/*}*/}
 
-                { this.props.venue.open ? 
-                    <div className="venue-card__open">Open now!</div> :
-                    null
-                }
+                {/*{ this.props.venue.open ? */}
+                {/*    <div className="venue-card__open">Open now!</div> :*/}
+                {/*    null*/}
+                {/*}*/}
 
-                <div className="venue-card__summary">
-                    <div className="venue-card__name">
-                        { this.props.venue.name }
-                    </div>
+                {/*<div className="venue-card__summary">*/}
+                {/*    <div className="venue-card__name">*/}
+                {/*        { this.props.venue.name }*/}
+                {/*    </div>*/}
 
-                    { this.props.opening && 
-                        <div className="venue-card__time">
-                            <div className="venue-card__start"><Time time={this.props.opening.start} day={this.props.opening.day} format24={false} /></div>
-                            <div className="venue-card__time-split">{this.props.opening.end && <React.Fragment>-</React.Fragment>}</div>
-                            <div className="venue-card__end">{this.props.opening.end && <Time time={this.props.opening.end} day={this.props.opening.day} format24={false} /> }</div>
-                        </div>
-                    }
+                {/*    { this.props.opening && */}
+                {/*        <div className="venue-card__time">*/}
+                {/*            <div className="venue-card__start"><Time time={this.props.opening.local.start} day={this.props.opening.local.day} format24={false} /></div>*/}
+                {/*            <div className="venue-card__time-split">{this.props.opening.local.end && <React.Fragment>-</React.Fragment>}</div>*/}
+                {/*            <div className="venue-card__end">{this.props.opening.local.end && <Time time={this.props.opening.local.end} day={this.props.opening.local.day} format24={false} /> }</div>*/}
+                {/*        </div>*/}
+                {/*    }*/}
 
-                    <div className="venue-card__location">
-                        <Location location={this.props.venue.location} shorten />
-                    </div>
-                </div>
+                {/*    <div className="venue-card__location">*/}
+                {/*        <Location location={this.props.venue.location} shorten />*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
-            { this.state.openModal && 
+            { this.state.openModal &&
                 <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>
                     <button className="venue-modal__close-button" onClick={this._onCloseClick.bind(this)}><img src="assets/cross.svg" alt="" /></button>
                     <VenueProfile venue={this.props.venue} />

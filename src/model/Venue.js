@@ -2,6 +2,7 @@ import { favouritesService } from "../services/favouritesService";
 import { visitedService } from "../services/visitedService";
 import { Location } from "./Location";
 import { Opening } from "./Opening";
+import { OpenOverride } from "./OpenOverride"
 
 class Venue {
 
@@ -9,6 +10,7 @@ class Venue {
         Object.assign(this, props);
         this.location = new Location(this.location);
         this.openings = this.openings.map(o => new Opening(o));
+        this.openOverrides = this.openOverrides.map(o => new OpenOverride(o));
     }
 
     isFavorite() {
