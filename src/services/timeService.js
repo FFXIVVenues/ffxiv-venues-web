@@ -1,5 +1,3 @@
-const previousDayIfBeforeHour = 12;
-
 class TimeService {
 
     constructor() {
@@ -8,10 +6,8 @@ class TimeService {
     }
 
     getLocalDay() {
-        const utcDay = new Date().getUTCDay();
-        let currentDay = new Date().getUTCHours() < previousDayIfBeforeHour ? utcDay - 2 : utcDay - 1;
-        if (currentDay < 0) currentDay += 7;
-        return currentDay;
+        const day = new Date().getUTCDay() - 1;
+        return day < 0 ? day + 7 : day;
     }
 
     _getTimeZoneOffset(timeZone = 'UTC') {
@@ -42,13 +38,14 @@ class TimeService {
         // Check if start time moves to the next day
         if (localOpening.start.hour >= 24 && !localOpening.start.nextDay) {
             localOpening.start.hour %= 24;
-            localOpening.start.nextDay = true;
+            localOpening.day = (localOpening.day + 1) % 7;
         } else if (localOpening.start.hour < 0 && localOpening.start.nextDay) {
             localOpening.start.hour = 24 + (localOpening.start.hour % 24);
             localOpening.start.nextDay = false;
         } else if (localOpening.start.hour >= 24 && localOpening.start.nextDay) {
             localOpening.start.hour %= 24;
-            localOpening.day = (localOpening.day + 1) % 7;
+            localOpening.day = (localOpening.day + 2) % 7;
+            localOpening.start.nextDay = false;
         } else if (localOpening.start.hour < 0 && !localOpening.start.nextDay) {
             localOpening.start.hour = 24 + (localOpening.start.hour % 24);
             localOpening.day = (localOpening.day + 6) % 7;
@@ -65,11 +62,13 @@ class TimeService {
         // Check if end time moves to the next day
         if (localOpening.end.hour >= 24) {
             localOpening.end.hour %= 24;
-            localOpening.end.nextDay = true;
         } else if (localOpening.end.hour < 0) {
             localOpening.end.hour = 24 + (localOpening.end.hour % 24);
-            localOpening.end.nextDay = false;
         }
+
+        localOpening.end.nextDay = localOpening.end.hour !== localOpening.start.hour ?
+          localOpening.end.hour < localOpening.start.hour :
+          localOpening.end.minute < localOpening.start.minute;
 
         return localOpening;
     }
