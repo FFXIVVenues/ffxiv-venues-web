@@ -1,9 +1,11 @@
-import { DateTime } from "luxon";
-import {Time} from "../model/Time";
-
 const previousDayIfBeforeHour = 12;
 
 class TimeService {
+
+    constructor() {
+        this._currentTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        this._offsetCache = [];
+    }
 
     getLocalDay() {
         const utcDay = new Date().getUTCDay();
@@ -12,16 +14,24 @@ class TimeService {
         return currentDay;
     }
 
+    _getTimeZoneOffset(timeZone = 'UTC') {
+        const cache = this._offsetCache[timeZone];
+        if (cache)
+            return cache;
+        const date = new Date();
+        const srcDate = new Date(date.toLocaleString('en-US', { timeZone }));
+        const localDate = new Date(date.toLocaleString('en-US'));
+        return this._offsetCache[timeZone] = (localDate.getTime() - srcDate.getTime()) / 6e4;
+    }
+
     convertToLocalOpening(opening) {
-        const sourceTimeZone = DateTime.local().setZone(opening.start.timeZone);
-        const currentTimeZone = DateTime.local();
-        const timezoneOffset = currentTimeZone.offset - sourceTimeZone.offset;
+        const timezoneOffset = this._getTimeZoneOffset(opening.start.timeZone);
 
         // if (opening.utc) opening = opening.utc;
         let localOpening = {
             ...opening,
-            start: { ...opening.start, timeZone: currentTimeZone.zoneName },
-            end: opening.end ? { ...opening.end, timeZone: currentTimeZone.zoneName } : null
+            start: { ...opening.start, timeZone: this._currentTimeZone },
+            end: opening.end ? { ...opening.end, timeZone: this._currentTimeZone } : null
         }
 
         // Adjust the start time
@@ -44,7 +54,6 @@ class TimeService {
             localOpening.day = (localOpening.day + 6) % 7;
         }
 
-        localOpening.start = new Time(localOpening.start);
         if (!localOpening.end)
             return localOpening;
 
@@ -62,7 +71,6 @@ class TimeService {
             localOpening.end.nextDay = false;
         }
 
-        localOpening.end = new Time(localOpening.end);
         return localOpening;
     }
 
@@ -75,7 +83,7 @@ class TimeService {
     }
 
     convertToIsoTime(time) {
-        return DateTime.fromObject({ hour: time.hour, minute: time.minute }, { zone: time.timeZone }).toISOTime();
+        return `T${time.hour.toString().padStart(2, "0")}:${time.minute.toString().padStart(2, "0")}`;
     }
 
     convertToLocalTime(time) {

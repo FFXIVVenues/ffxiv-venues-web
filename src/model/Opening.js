@@ -1,13 +1,11 @@
 import { timeService } from "../services/timeService";
-import { Time } from "./Time";
 
 class Opening {
 
     constructor(props) {
         Object.assign(this, props);
-        this.start = new Time(this.start);
-        this.end = new Time(this.end);
         this.ranking = this._getRanking();
+        // todo: Data currently contains timeZone ID's that are not IANA, so use UTC
         this.local = timeService.convertToLocalOpening(this.utc);
     }
 
