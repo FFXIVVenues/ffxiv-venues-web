@@ -56,7 +56,7 @@ class VenueService {
                     venue,
                     opening
                 };
-                venueViewModels.scheduled[opening.day].push(venueViewModel);
+                venueViewModels.scheduled[opening.local.day].push(venueViewModel);
             }
         }
     

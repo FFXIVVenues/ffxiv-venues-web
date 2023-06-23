@@ -8,18 +8,18 @@ class Time extends React.Component {
 
     render() {
         const iso = timeService.convertToIsoTime(this.props.time);
-        const localTime = timeService.convertTo12HourTime(this.props.time);
+        const twelveHour = timeService.convertTo12HourTime(this.props.time);
         
         return (<time className="time-component" dateTime={iso}>
             { this.props.format24 
-                ? <React.Fragment>{localTime.hour.toString().padStart(2, "0")}:{localTime.minute.toString().padStart(2, "0")}</React.Fragment> 
+                ? <React.Fragment>{this.props.time.hour.toString().padStart(2, "0")}:{this.props.time.minute.toString().padStart(2, "0")}</React.Fragment>
                 : <React.Fragment>
-                    { (localTime.hour > 12 ? localTime.hour - 12 : localTime.hour)}:{localTime.minute.toString().padStart(2, "0") }
-                    { localTime.hour >= 12 ? "pm": "am" }
+                    { twelveHour.hour}:{twelveHour.minute.toString().padStart(2, "0") }
+                    { twelveHour.pm ? "pm": "am" }
                 </React.Fragment>
             }
             <span>
-                {localTime.nextDay && 
+                {this.props.time.nextDay &&
                     <NextDayIcon alt={`Past midnight; ${days[this.props.day + 1 > 6 ? 0 : this.props.day + 1]} morning.`} /> }
             </span>
         </time>);
