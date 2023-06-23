@@ -7,8 +7,8 @@ import "./time.css";
 class Time extends React.Component {
 
     render() {
-        const iso = this.props.time.localIsoString;
-        const localTime = this.props.time.twelvehourTime;
+        const iso = timeService.convertToIsoTime(this.props.time);
+        const localTime = timeService.convertTo12HourTime(this.props.time);
         
         return (<time className="time-component" dateTime={iso}>
             { this.props.format24 
