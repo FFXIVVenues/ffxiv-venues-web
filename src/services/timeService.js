@@ -1,12 +1,88 @@
-const previousDayIfBeforeHour = 12;
-
 class TimeService {
 
+    constructor() {
+        this._currentTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        this._offsetCache = [];
+    }
+
     getLocalDay() {
-        const utcDay = new Date().getUTCDay();
-        let currentDay = new Date().getUTCHours() < previousDayIfBeforeHour ? utcDay - 2 : utcDay - 1;
-        if (currentDay < 0) currentDay += 7;
-        return currentDay;
+        const day = new Date().getUTCDay() - 1;
+        return day < 0 ? day + 7 : day;
+    }
+
+    _getTimeZoneOffset(timeZone = 'UTC') {
+        const cache = this._offsetCache[timeZone];
+        if (cache)
+            return cache;
+        const date = new Date();
+        const srcDate = new Date(date.toLocaleString('en-US', { timeZone }));
+        const localDate = new Date(date.toLocaleString('en-US'));
+        return this._offsetCache[timeZone] = (localDate.getTime() - srcDate.getTime()) / 6e4;
+    }
+
+    convertToLocalOpening(opening) {
+        const timezoneOffset = this._getTimeZoneOffset(opening.start.timeZone);
+
+        // if (opening.utc) opening = opening.utc;
+        let localOpening = {
+            ...opening,
+            start: { ...opening.start, timeZone: this._currentTimeZone },
+            end: opening.end ? { ...opening.end, timeZone: this._currentTimeZone } : null
+        }
+
+        // Adjust the start time
+        localOpening.start.minute += timezoneOffset;
+        localOpening.start.hour += Math.floor(localOpening.start.minute / 60);
+        localOpening.start.minute = localOpening.start.minute % 60;
+
+        // Check if start time moves to the next day
+        if (localOpening.start.hour >= 24 && !localOpening.start.nextDay) {
+            localOpening.start.hour %= 24;
+            localOpening.day = (localOpening.day + 1) % 7;
+        } else if (localOpening.start.hour < 0 && localOpening.start.nextDay) {
+            localOpening.start.hour = 24 + (localOpening.start.hour % 24);
+            localOpening.start.nextDay = false;
+        } else if (localOpening.start.hour >= 24 && localOpening.start.nextDay) {
+            localOpening.start.hour %= 24;
+            localOpening.day = (localOpening.day + 2) % 7;
+            localOpening.start.nextDay = false;
+        } else if (localOpening.start.hour < 0 && !localOpening.start.nextDay) {
+            localOpening.start.hour = 24 + (localOpening.start.hour % 24);
+            localOpening.day = (localOpening.day + 6) % 7;
+        }
+
+        if (!localOpening.end)
+            return localOpening;
+
+        // Adjust the end time
+        localOpening.end.minute += timezoneOffset;
+        localOpening.end.hour += Math.floor(localOpening.end.minute / 60);
+        localOpening.end.minute = localOpening.end.minute % 60;
+
+        // Check if end time moves to the next day
+        if (localOpening.end.hour >= 24) {
+            localOpening.end.hour %= 24;
+        } else if (localOpening.end.hour < 0) {
+            localOpening.end.hour = 24 + (localOpening.end.hour % 24);
+        }
+
+        localOpening.end.nextDay = localOpening.end.hour !== localOpening.start.hour ?
+          localOpening.end.hour < localOpening.start.hour :
+          localOpening.end.minute < localOpening.start.minute;
+
+        return localOpening;
+    }
+
+    convertTo12HourTime(time) {
+        return {
+            ...time,
+            hour: time.hour > 12 ? time.hour - 12 : time.hour,
+            pm: time.hour > 12
+        }
+    }
+
+    convertToIsoTime(time) {
+        return `T${time.hour.toString().padStart(2, "0")}:${time.minute.toString().padStart(2, "0")}`;
     }
 
     convertToLocalTime(time) {
@@ -33,65 +109,6 @@ class TimeService {
             nextDay
         };
     }
-
-    addHours(time, hours) {
-        const willBeNextDay = time.hour + hours > 23;
-        const newHour = willBeNextDay ? time.hour - (24 - hours) : time.hour + hours;
-        const nextDay = time.nextDay || willBeNextDay;
-        return {
-            ...time,
-            hour: newHour,
-            nextDay
-        }
-    }
-
-    getActiveException(exceptions) {
-        for (let exception of exceptions) {
-            let exceptionStart = new Date(exception.start);
-            let exceptionEnd = new Date(exception.end);
-            let currentDate = new Date();
-            if (currentDate >= exceptionStart && currentDate <= exceptionEnd) {
-                return exception;
-            }
-        }
-        return null;
-    }
-
-    // isOpen(time, exceptions) {
-    //     if (exceptions !== null && exceptions !== undefined && exceptions.length >= 0 && this.getActiveException(exceptions)) {
-    //         return false;
-    //     }
-
-    //     let currentUtcDay = new Date().getUTCDay() - 1;
-    //     if (currentUtcDay === -1) currentUtcDay = 6;
-    //     const currentUtcHour = new Date().getUTCHours();
-    //     const currentUtcMinute = new Date().getUTCMinutes();
-
-    //     // Assume venue is open for 2 hours
-    //     const endTime = time.end || timeService.addHours(time.start, 2);
-
-    //     let startTimeDay = time.start.nextDay ? time.day + 1 : time.day;
-    //     startTimeDay = startTimeDay === 7 ? 0 : startTimeDay;
-    //     const dayAfterVenueStart = (startTimeDay + 1 === 7 ? 0 : startTimeDay + 1);
-
-    //     const pastOpeningTime = (currentUtcHour === time.start.hour && 
-    //                             currentUtcMinute >= time.start.minute) ||
-    //                             currentUtcHour > time.start.hour;
-    //     const pastOpening = currentUtcDay === dayAfterVenueStart ||
-    //                         (currentUtcDay === startTimeDay && pastOpeningTime);
-                            
-    //     let endTimeDay = endTime.nextDay ? time.day + 1 : time.day;
-    //     endTimeDay = endTimeDay === 7 ? 0 : endTimeDay;
-    //     const dayBeforeVenueEnd = (endTimeDay - 1 === -1 ? 6 : endTimeDay - 1);
-
-    //     const beforeClosingTime = (currentUtcHour === endTime.hour && 
-    //                                 currentUtcMinute < endTime.minute) ||
-    //                                 currentUtcHour < endTime.hour;
-    //     const beforeClosing = currentUtcDay === dayBeforeVenueEnd ||
-    //                           (currentUtcDay === endTimeDay && beforeClosingTime);
-
-    //     return pastOpening && beforeClosing;
-    // }
 
 }
 

@@ -139,10 +139,10 @@ class VenueProfile extends React.Component {
                                 <tbody>
                                 { this.props.venue.openings.map((t, i) =>
                                     <tr key={i} className={`venue-profile__opening-time ${t.isNow ? "venue-profile__opening-time--active" : ""}`}>
-                                        <td className="venue-profile__day"><strong>{days[t.day]}</strong></td>
-                                        <td className="venue-profile__start"><Time time={t.start} day={t.day} format24={false} /></td>
-                                        <td className="venue-profile__split">{ t.end && <React.Fragment>-</React.Fragment> }</td>
-                                        <td className="venue-profile__end">{ t.end && <Time time={t.end} day={t.day} format24={false} /> }</td>
+                                        <td className="venue-profile__day"><strong>{days[t.local.day]}</strong></td>
+                                        <td className="venue-profile__start"><Time time={t.local.start} day={t.local.day} format24={false} /></td>
+                                        <td className="venue-profile__split">{ t.local.end && <React.Fragment>-</React.Fragment> }</td>
+                                        <td className="venue-profile__end">{ t.local.end && <Time time={t.local.end} day={t.local.day} format24={false} /> }</td>
                                     </tr>
                                 )}
                                 </tbody>
@@ -155,15 +155,13 @@ class VenueProfile extends React.Component {
                         <article className="venue-profile__exceptions">
                             This venue will be closed at the following times:
                             <table>
-                                { this.props.venue.openOverides.filter(o => !o.open).map((o, i) => {
-                                    const overrideStart = new Date(o.start);
-                                    const overrideEnd = new Date(o.end);
-                                    return (<tr key={i}>
-                                        <td><DateString date={overrideStart} /></td>
+                                { this.props.venue.openOverides.filter(o => !o.open).map((o, i) =>
+                                    <tr key={i}>
+                                        <td><DateString date={o.start} /></td>
                                         <td className="venue-profile__split">{ <React.Fragment>-</React.Fragment> }</td>
-                                        <td><DateString date={overrideEnd} /></td>
-                                    </tr>);
-                                })}
+                                        <td><DateString date={o.end} /></td>
+                                    </tr>
+                                )}
                             </table>
                         </article>
                     }

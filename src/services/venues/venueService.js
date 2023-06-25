@@ -20,6 +20,7 @@ class VenueService {
                 .then(response => response.json())
                 .then(venues => venues.map(v => new Venue(v)))
                 .then(resolve)
+                .catch(reject)
                 .catch(_ => resolve(offlineVenues.map(v => new Venue(v))))
                 .catch(reject);
         });
@@ -34,12 +35,9 @@ class VenueService {
         const venues = await this.getVenues();
         return venues.filter(v => v.open)
                      .map(v => ({ venue: v, opening: v.openings.find(o => o.isNow), override: v.openOverrides.find(o => o.isNow)}))
-                     .sort((one, another) => {
-                        var oneOverride = one.override && new Date(one.override.start);
-                        var anotherOverride = another.override && new Date(another.override.start);
-                         return ((another.opening ? another.opening.day * 24 : (anotherOverride.getUTCDay() - 1 < 0 ? 6 : anotherOverride.getUTCDay() - 1) * 24) + (another.opening ? another.opening.start.utc.nextDay ? 24 : 0 : 0) + (another.opening ? another.opening.start.utc.hour : anotherOverride.getUTCHours()) + (another.override ? anotherOverride.getUTCMinutes() / 60 : 0)) 
-                         - ((one.opening ? one.opening.day * 24 : (oneOverride.getUTCDay() - 1 < 0 ? 6 : oneOverride.getUTCDay() - 1) * 24) + (one.opening ? one.opening.start.utc.nextDay ? 24 : 0 : 0) + (one.opening ? one.opening.start.utc.hour : oneOverride.getUTCHours()) + (one.override ? oneOverride.getUTCMinutes() / 60 : 0))
-                     });
+                     .sort((one, another) =>
+                         (another.opening ? another.opening.ranking : another.override.ranking)
+                         - (one.opening ? one.opening.ranking : one.override.ranking));
     }
 
     async getVenueSchedule() {
@@ -58,17 +56,12 @@ class VenueService {
                     venue,
                     opening
                 };
-                venueViewModels.scheduled[opening.day].push(venueViewModel);
+                venueViewModels.scheduled[opening.local.day].push(venueViewModel);
             }
         }
     
-        venueViewModels.scheduled = venueViewModels.scheduled.map(day => day.sort((a, b) => {
-            let aStartTime = (a.opening.start.utc.hour * 100) + a.opening.start.utc.minute;
-            if (a.opening.start.utc.nextDay) aStartTime += 2400;
-            let bStartTime = (b.opening.start.utc.hour * 100) + b.opening.start.utc.minute;
-            if (b.opening.start.utc.nextDay) bStartTime += 2400;
-            return aStartTime - bStartTime;
-        }));
+        venueViewModels.scheduled = venueViewModels.scheduled.map(day =>
+          day.sort((a, b) => a.opening.ranking - b.opening.ranking));
 
         return venueViewModels;
     }
