@@ -103,7 +103,7 @@ export function VenueDirectory(props) {
     scheduledVenuesRender.push(
       <div className="aether-venues__day" key={i}>
         <details open>
-          <summary><h2>{currentDay === i ? "Today" : currentDay === i - 1 ? "Tomorrow" : days[i]}</h2></summary>
+          <summary><h2>{currentDay === i ? `Today (${days[i]})` : currentDay === i - 1 ? `Tomorrow (${days[i]})` : days[i]}</h2></summary>
           { listView 
             ? <VenueList venues={filteredScheduled} />
             : <VenueStrip venues={filteredScheduled} /> }

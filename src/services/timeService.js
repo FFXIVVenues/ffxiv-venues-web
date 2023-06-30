@@ -6,7 +6,7 @@ class TimeService {
     }
 
     getLocalDay() {
-        const day = new Date().getUTCDay() - 1;
+        const day = new Date().getDay() - 1;
         return day < 0 ? day + 7 : day;
     }
 
