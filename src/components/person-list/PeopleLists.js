@@ -5,7 +5,6 @@ export const staff = [
     { name: "Klyhia Moni", world: "Moogle", role: ".NET Engineer", photoId: "caf8839602db852c205fff52c76e5921_d7a9d5f85a29d6278ec1c7adc2c8d242fc0" , discordId: "133149295732850688" },
     { name: "Allegro Vivo", world: "Midgardsormr", role: "Discord Engineer", photoId: "82105c3e79b2a512772d26e56fcc8105_5c8ecfbc673e1287a9b5e85423fe1657fc0" , discordId: "265695573527625731" },
     { name: "Melon Lalamelon", world: "Exodus", role: "Junior JS Engineer", photoId: "9b078a929243eeee8f05ce29bdafd267_0cdf051c93865faa15cbc5cd3d2b69fbfc0", discordId: "319646984040480769" },
-    { name: "Ada Xumm", world: "Coeurl", role: "Photography Lead", photoId: "d6583919ef6756c46ee9cac82110041a_284358f8eb4efc9095914e46798c6ab3fc0", link: "https://ada.xumm.ffxivphotography.com/#sfwo" },
     { name: "Vix Solanine", world: "Leviathan", role: "Photographer (NA)", photoId: "7ebe3d3ddadcd9ef4f5bb8358b5b6028_a91aae52cff9ef65932db06b150ffd47fc0" , discordId: "894592805689774080" },
     { name: "Amatsu Kuwashima", world: "Phoenix", role: "Photographer (EU)", photoId: "b62177d1065ce573cb3eb75ee6e928d0_5047bc596a4bab2dc7f7c120bb22dec5fc0", link: "https://amatsupng.crd.co/#" },
     { name: "Kaeda Destrian", world: "Jenova", role: "CE Lead", photoId: "325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "870413151676551178" },
@@ -14,7 +13,6 @@ export const staff = [
     { name: "Lanna'baker Kha", world: "Cactuar", role: "Moderation Lead", photoId: "8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0" , discordId: "880594476295389205" },
     { name: "Uchu Jupiter", world: "Jenova", role: "Senior Moderator", photoId: "adb90390ac9bdd5a39a042dd5676c8c9_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "99616043571380224" },
     { name: "Alitzia Kiryu", world: "Siren", role: "Senior Moderator", photoId: "777dba0957855f16eba5fe0b902c0c37_58a84e851e55175d22158ca97af58a1ffc0" , discordId: "158410288238952449" },
-    { name: "Aruna Valkyria", world: "Cactuar", role: "Moderator", photoId: "4095422299d95965ea3e401de871219a_96ab1df8877c1f8ba6a89a39cccfd437fc0" , discordId: "391318826819780618" },
     { name: "Chewi", world: "", role: "Junior Moderator", photoId: "" , discordId: "481029686856646657" }
 ];
 
