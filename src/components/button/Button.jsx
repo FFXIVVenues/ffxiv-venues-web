@@ -5,6 +5,7 @@ function Button(props) {
 
     let style = {
         padding: "8px",
+        height: "fit-content",
         // minWidth: 80,
         border: "dimgray 1px solid",
         backgroundColor: "transparent",
@@ -15,6 +16,7 @@ function Button(props) {
         textDecoration: "none",
         fontSize: "1em",
         display: "inline-block",
+        textAlign: "center",
         ...props.style
     };
 
