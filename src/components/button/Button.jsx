@@ -16,6 +16,7 @@ function Button(props) {
         textDecoration: "none",
         fontSize: "1em",
         display: "inline-block",
+        textAlign: "center",
         ...props.style
     };
 
