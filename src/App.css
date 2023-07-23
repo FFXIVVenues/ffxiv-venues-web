@@ -21,7 +21,7 @@
 }
 
 body {
-  background-image: url("assets/hero-strip.jpg");
+  background-image: url("../public/hero-strip/hero-strip-0.jpg");
   background-position-x: 000px;
   background-attachment: fixed;
   background-size: 280px auto;
