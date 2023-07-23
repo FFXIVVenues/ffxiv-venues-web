@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./notice.css";
 import {Modal} from "../modal/Modal";
 import {Button} from "../button/Button";
@@ -7,6 +7,10 @@ import banner from "./banner.jpg";
 
 function Notice() {
     const [modalActive, setModalActive] = useState(false);
+    useEffect(() => {
+        if (window.location.hash.indexOf("notice") !== -1)
+            setModalActive(true);
+    }, []);
     return (<div className='notice' onClick={_ => setModalActive(true)}>
         Going to Las Vegas? You could go to a real FFXIV venue; Club Burzum is hosting the FFXIV FanFest After Party!
         { modalActive &&
