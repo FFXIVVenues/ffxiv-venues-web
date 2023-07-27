@@ -17,7 +17,7 @@
 
   --scroll-bar-width: calc(100vw - 100%);
 
-  --hero-image: url("../public/hero-strip/hero-strip-0.jpg");
+  --hero-image: url("assets/default-strip.jpg");
 
   font-size: 16px;
 }
