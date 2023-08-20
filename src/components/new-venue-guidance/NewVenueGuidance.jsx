@@ -26,7 +26,7 @@ export function NewVenueGuidance()  {
             </div>
             <div className="new-venue-guidance__spine"></div>
             <div className="new-venue-guidance__guidance new-venue-guidance__discord-guidance">
-                <p>It's important to stay in the FFXIV Venues discord server so Veni can reach you and maintain your venue on the site. Free free to mute the server if you prefer. 🥰</p>
+                <p>It's important to stay in the FFXIV Venues discord server so Veni can reach you and maintain your venue on the site. Feel free to mute the server if you prefer. 🥰</p>
                 <p>If you have any questions or need help, just make a Venue ticket in the discord or send a direct message to <a href="https://discordapp.com/users/236852510688542720">Kana Ki</a>.</p>
             </div>
         </div>
