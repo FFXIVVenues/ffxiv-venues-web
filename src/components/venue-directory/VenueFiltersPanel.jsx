@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { isMobile } from "react-device-detect";
-import { propFilter, tagFilter, worldFilter, dataCenterFilter, regionFilter } from "./VenueFilters";
+import {propFilter, tagFilter, worldFilter, dataCenterFilter, regionFilter, propNotNull} from "./VenueFilters";
 import { HorizontalScroll } from "../horizontal-scroll/HorizontalScroll";
 import "./filter-panel.css";
 
@@ -94,6 +94,7 @@ const typeFilters = [
 ];
 
 const featureFilters = [
+  { key: Symbol(), label: "Has SyncShell", filter: propNotNull("mareCode") },
   { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
   { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
   { key: Symbol(), label: "Artists", filter: tagFilter("artists") },

@@ -166,7 +166,20 @@ class VenueProfile extends React.Component {
                         </article>
                     }
 
-                    { this.props.venue.tags &&
+                    { this.props.venue.mareCode &&
+                      <div className="venue-profile_syncshell">
+                          <div className="venue-profile_syncshell-id">
+                            <span className="venue-profile_syncshell-label">SyncShell ID</span>
+                            <span className="venue-profile_syncshell-value">{this.props.venue.mareCode}</span>
+                          </div>
+                          <div className="venue-profile_syncshell-password">
+                            <span className="venue-profile_syncshell-label">SyncShell Password</span>
+                            <span className="venue-profile_syncshell-value">{this.props.venue.marePassword}</span>
+                          </div>
+                      </div>
+                    }
+
+                    { this.props.venue.tags && this.props.venue.length &&
                         <div className="venue-profile_tags">
                             {this.props.venue.tags.map((tag, i) =>
                                 <div className="venue-profile__tag" key={i}>{tag}</div>

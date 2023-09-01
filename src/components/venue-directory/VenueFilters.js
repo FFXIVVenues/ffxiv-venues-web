@@ -47,3 +47,8 @@ export const worldFilter = (world) => (venues) => venues.filter(v => {
 export const propFilter = (prop, value) => (venues) => venues.filter(v => {
     return (v.venue || v)[prop] === value;
 });
+
+export const propNotNull = (prop) => (venues) => venues.filter(v => {
+    const propValue = (v.venue || v)[prop];
+    return propValue !== null && propValue !== undefined;
+});

@@ -170,6 +170,19 @@ button.venue-profile__visited-button--visited {
     margin-top: 30px
 }
 
+.venue-profile_syncshell {
+    margin-top: 30px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin-top: 20px;
+}
+
+.venue-profile_syncshell-label {
+    display: inline-block;
+    width: 175px;
+    font-weight: bold;
+}
 
 .venue-profile_tags {
     margin-top: 30px;
