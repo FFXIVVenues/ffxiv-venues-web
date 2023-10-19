@@ -13,7 +13,7 @@ function Notice() {
 
     return <div className='notice' onClick={_ => setModalActive(true)}>
 
-        A FFXIV Venues staff member needs help and we're asking for your support. ♥
+        ♥ We're asking for your support. Event starts in 2 hours.
 
         { modalActive &&
         <Modal onStageClick={_ => setModalActive(false)} style={{ width: 550 }}>
