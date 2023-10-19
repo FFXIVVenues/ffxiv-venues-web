@@ -13,7 +13,7 @@ function Notice() {
 
     return <div className='notice' onClick={_ => setModalActive(true)}>
 
-        ♥ We're asking for your support. Event starts in a few minutes.
+        ♥ We're asking for your support. Event in progress!
 
         { modalActive &&
         <Modal onStageClick={_ => setModalActive(false)} style={{ width: 550 }}>
