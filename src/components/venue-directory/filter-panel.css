@@ -1,5 +1,5 @@
 .venue-filters__region-filter {
-    width: 280px;
+    width: 355px;
     display: inline-block;
     margin-right: 60px;
 }
@@ -7,5 +7,5 @@
 .venue-filters__data-center-filter {
     display: inline-block;
     width: 100%;
-    max-width: 510px;
+    max-width: 610px;
 }

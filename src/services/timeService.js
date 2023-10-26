@@ -33,7 +33,7 @@ class TimeService {
         // Adjust the start time
         localOpening.start.minute += timezoneOffset;
         localOpening.start.hour += Math.floor(localOpening.start.minute / 60);
-        localOpening.start.minute = localOpening.start.minute % 60;
+        localOpening.start.minute = Math.abs(localOpening.start.minute % 60);
 
         // Check if start time moves to the next day
         if (localOpening.start.hour >= 24 && !localOpening.start.nextDay) {
@@ -57,7 +57,7 @@ class TimeService {
         // Adjust the end time
         localOpening.end.minute += timezoneOffset;
         localOpening.end.hour += Math.floor(localOpening.end.minute / 60);
-        localOpening.end.minute = localOpening.end.minute % 60;
+        localOpening.end.minute = Math.abs(localOpening.end.minute % 60);
 
         // Check if end time moves to the next day
         if (localOpening.end.hour >= 24) {
