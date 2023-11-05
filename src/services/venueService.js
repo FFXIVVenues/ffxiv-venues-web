@@ -1,5 +1,4 @@
-import { Venue } from "../../model/Venue";
-import offlineVenues from "./venues.json";
+import { Venue } from "../model/Venue";
 
 class VenueService {
     
@@ -9,19 +8,11 @@ class VenueService {
     
     getVenues() {
         const venuesUrl = process.env.REACT_APP_FFXIV_VENUES_API_ROOT + "/venue";
-        AbortSignal.timeout ??= function timeout(ms) {
-            const ctrl = new AbortController()
-            setTimeout(() => ctrl.abort("timeout"), ms)
-            return ctrl.signal
-        }
-
         return this._fetchPromise ??= new Promise((resolve, reject) => {
-            fetch(venuesUrl, { signal: AbortSignal.timeout(5000) })
+            fetch(venuesUrl)
                 .then(response => response.json())
                 .then(venues => venues.map(v => new Venue(v)))
                 .then(resolve)
-                .catch(reject)
-                .catch(_ => resolve(offlineVenues.map(v => new Venue(v))))
                 .catch(reject);
         });
     }

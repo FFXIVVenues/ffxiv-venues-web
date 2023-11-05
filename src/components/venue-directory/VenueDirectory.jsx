@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { VenueFiltersPanel } from "./VenueFiltersPanel";
-import { venueService } from "../../services/venues/venueService";
+import { venueService } from "../../services/venueService";
 import { favouritesService } from "../../services/favouritesService";
 import { timeService } from "../../services/timeService";
 import { VenueStrip } from "../venue-strip/VenueStrip";
@@ -31,10 +31,17 @@ export function VenueDirectory(props) {
   const [ open, setOpen ] = useState(null);
   const [ newest, setNewest ] = useState(null);
   const [ scheduled, setScheduled ] = useState(null);
+  const [ error, setError ] = useState(null);
 
   useEffect(_ => {
     (async () => {
-      const venues = await venueService.getVenues();
+      let venues = [];
+      try {
+        venues = await venueService.getVenues();
+      } catch (e) {
+        setError(e);
+        return;
+      }
       setFavorites(venues.filter(v => v.isFavorite()));
       setNewest(venues.filter(v => v.isNew()));
       const openVenues = await venueService.getOpenVenues();
@@ -112,6 +119,32 @@ export function VenueDirectory(props) {
     )
   }
 
+  if (error)
+    return <>
+      <VenueFiltersPanel onSearch={s => setSearch(s)}
+                         onRegionFilterUpdated={setRegionFilter}
+                         onDataCenterFilterUpdated={setDataCenterFilter}
+                         onWorldFilterUpdated={setWorldFilter}
+                         onTypeFilterUpdated={setTypeFilters}
+                         onFeatureFilterUpdated={setFeatureFilters} />
+      <div className="venue-directory__none-found">
+        😱 We couldn't load the venues! {error.message}
+      </div>
+    </>
+
+  if (isLoadedButNoResult(filteredUnscheduled))
+    return <>
+      <VenueFiltersPanel onSearch={s => setSearch(s)}
+                         onRegionFilterUpdated={setRegionFilter}
+                         onDataCenterFilterUpdated={setDataCenterFilter}
+                         onWorldFilterUpdated={setWorldFilter}
+                         onTypeFilterUpdated={setTypeFilters}
+                         onFeatureFilterUpdated={setFeatureFilters} />
+
+      <div className="venue-directory__none-found">
+        😞 No results for that search or combination of tags.
+      </div>
+    </>
 
   return <>
     <VenueFiltersPanel onSearch={s => setSearch(s)}
@@ -122,14 +155,8 @@ export function VenueDirectory(props) {
                        onFeatureFilterUpdated={setFeatureFilters} />
 
 
-    { isLoadedButNoResult(filteredUnscheduled) && scheduledVenuesRender.length === 0 &&
-        <div className="venue-directory__none-found">
-          We're sowwy. 😞 <strong>We didn't find any venues for that search or combination of tags.</strong> <br/>We're indexing hundreds of venues per month! So, check back later or ask the community in <a href="https://discord.gg/gTP65VYcMj">our discord</a>!
-        </div>
-    }
-    
     { /* Favorites */ }
-    { isLoadingOrLoadedWithResults(filteredFavorites) && 
+    { isLoadingOrLoadedWithResults(filteredFavorites) &&
     <div className="aether-venues__venues aether-venues__favourite-venues">
       <details open>
         <summary><h2>Favorites</h2></summary>
