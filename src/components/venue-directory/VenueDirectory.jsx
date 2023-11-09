@@ -132,7 +132,7 @@ export function VenueDirectory(props) {
       </div>
     </>
 
-  if (isLoadedButNoResult(filteredUnscheduled))
+  if (!scheduledVenuesRender && isLoadedButNoResult(filteredUnscheduled))
     return <>
       <VenueFiltersPanel onSearch={s => setSearch(s)}
                          onRegionFilterUpdated={setRegionFilter}
