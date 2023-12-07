@@ -12,9 +12,13 @@ export const staff = [
     { name: "Kestra Alsta", world: "Louisoix", role: "CE (EU)", photoId: "706f605b80cf4ff5cd858a7a60bda6da_0a122616f3718d3f45cab10fd8fc1604fc0", discordId: "811738117761400853" },
     { name: "Dalnariel Doh", world: "Sophia", role: "CE (OCE)", photoId: "bac6010da3d2ef72b6e2eb845264e7fd_ba15a18cd3a8fb567e39053022515eb6fc0", discordId: "176021916354740224" },
 
-    { name: "Monsieur Zahmo'wo", world: "Jenova", role: "Event Lead & CE (NA)", photoId: "4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0", discordId: "786407181804896257" },
     { name: "Onika Kneiz", world: "Ultros", role: "Event Lead", photoId: "937aa1134de8ee8584f2df592d0a7a45_c514cdcdb619439df97d906d4434ccc6fc0", discordId: "160844140022726657" },
     { name: "Whisper Blackvell", world: "Malboro", role: "Event Planner", photoId: "e97f726e42a71f690c871fe17df25cd7_2e97c13fdd593d15d543093f8a37b6f0fc0", discordId: "1061075402728165446" },
+    { name: "Synful Eternity", world: "Siren", role: "Event Planner", photoId: "658a056af8d957878d2b2e6353862b58_58a84e851e55175d22158ca97af58a1ffc0", discordId: "1074782288652537867" },
+    
+    { name: "Monsieur Zahmo'wo", world: "Jenova", role: "Event Lead & CE (NA)", photoId: "4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0", discordId: "786407181804896257" },
+    { name: "Misia Kitami", world: "Mateus", role: "Event Planner", photoId: "24be815c6321d7c8bfc033a4e33d2d81_f0c52cc66e124fc2e641d7c21ab2ce79fc0", discordId: "145983848650375169" },
+    { name: "Kristlyn Brianne", world: "Faerie", role: "Event Planner", photoId: "83f39b3a53676756a1ed67ee7f61e0c4_0e336ff6ad415f47233f0aaf127feac0fc0", discordId: "153017123038429185" },
     { name: "G'raha Tia''", world: "Sargatanas", role: "Event Planner", photoId: "ef9fc27410b6c5afb9fbb8b8444b4442_ba22853447012a24cee115315d6a5bebfc0", discordId: "194621026871541760" },
 
     { name: "Lanna'baker Kha", world: "Cactuar", role: "Moderation Lead", photoId: "8eb07e14239fb47e9535cf6f0bfdc9ba_96ab1df8877c1f8ba6a89a39cccfd437fc0" , discordId: "880594476295389205" },
