@@ -1,16 +1,16 @@
 import { favouritesService } from "../services/favouritesService";
 import { visitedService } from "../services/visitedService";
 import { Location } from "./Location";
-import { Opening } from "./Opening";
-import { OpenOverride } from "./OpenOverride"
+import { Schedule } from "./Schedule";
+import { ScheduleOverride } from "./ScheduleOverride"
 
 class Venue {
 
     constructor(props) {
         Object.assign(this, props);
         this.location = new Location(this.location);
-        this.openings = this.openings.map(o => new Opening(o));
-        this.openOverrides = this.openOverrides.map(o => new OpenOverride(o));
+        this.schedule = this.schedule.map(o => new Schedule(o));
+        this.scheduleOverrides = this.scheduleOverrides.map(o => new ScheduleOverride(o));
     }
 
     isFavorite() {

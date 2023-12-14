@@ -85,14 +85,12 @@ button.venue-profile__visited-button--visited {
     font-size: 1.3rem;
     flex: 1;
     text-transform: uppercase;
+    /*font-weight: bolder;*/
     font-family: "Jupiter Pro";
 }
 
 .venue-profile__description {
     text-align: justify;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #1A1A1A;
     margin-top: 20px;
 }
 
@@ -137,11 +135,42 @@ button.venue-profile__visited-button--visited {
 
 .venue-profile__location { margin-top: 0; margin-bottom: 30px; }
 
-.venue-profile__opening-times-wrapper {
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #1A1A1A;
+.venue-profile__schedule {
     margin-top: 20px;
+}
+
+.venue-profile__schedule-block {
+    margin-bottom: 3px;
+    background-color: var(--background-color);
+}
+
+.venue-profile__schedule-block:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.venue-profile__schedule-block:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.venue-profile__schedule-summary {
+    margin-top: 20px;
+    padding: 10px 17px 12px 17px;
+}
+
+.venue-profile__schedule-summary--active {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.venue-profile__override {
+    padding: 10px 15px;
+    background-color: var(--background-color)
+}
+
+.venue-profile__schedule-wrapper {
+    padding: 10px 15px 12px 15px;
 }
 
 .venue-profile__opening-time--active {
@@ -149,20 +178,20 @@ button.venue-profile__visited-button--visited {
     font-weight: bold;
 }
 
-.venue-profile__day { width: 100px }
+.venue-profile__day { width: 160px }
 .venue-profile__start { width: 70px }
 .venue-profile__split { width: 25px; text-align: center; }
-.venue-profile__timezone-notice { margin-left: 107px; }
+.venue-profile__next {
+    font-size: small;
+    padding-left: 0px;
+}
+.venue-profile__timezone-notice { margin-left: 3px; }
 
-
-.venue-profile__exceptions {
+.venue-profile__schedule-exceptions {
     padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #1A1A1A;
-    margin-top: 20px;     
 }
 
-.venue-profile__exceptions table {
+.venue-profile__schedule-exceptions table {
     margin-top: 10px;
 }
 
@@ -171,11 +200,8 @@ button.venue-profile__visited-button--visited {
 }
 
 .venue-profile_syncshell {
-    margin-top: 30px;
-    padding: 5px 10px 10px 10px;
+    margin-top: 15px;
     border-radius: 5px;
-    background-color: #1A1A1A;
-    margin-top: 20px;
 }
 
 .venue-profile_syncshell-label {
@@ -184,17 +210,19 @@ button.venue-profile__visited-button--visited {
     font-weight: bold;
 }
 
+.venue-profile_syncshell-value {
+    display: inline-block;
+    user-select: all;
+}
+
 .venue-profile_tags {
-    margin-top: 30px;
-    padding: 5px 10px 10px 10px;
+    margin-top: 15px;
     border-radius: 5px;
-    background-color: #1A1A1A;
-    margin-top: 20px;
 }
 
 .venue-profile__tag {
     display: inline-block;
-    background-color: #222;
+    background-color: var(--outline-color);
     padding: 3px 10px 5px;
     border-radius: 5px;
     margin-right: 5px;

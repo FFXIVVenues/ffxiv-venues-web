@@ -1,10 +1,8 @@
 import React from "react";
-import days from "../../consts/days.json";
 import { timeService } from "../../services/timeService";
-import { NextDayIcon } from "../icons/NextDayIcon";
-import "./time.css";
+import "./schedule-string.css";
 
-class Time extends React.Component {
+class ScheduleString extends React.Component {
 
     render() {
         const iso = timeService.convertToIsoTime(this.props.time);
@@ -18,13 +16,9 @@ class Time extends React.Component {
                     { twelveHour.pm ? "pm": "am" }
                 </React.Fragment>
             }
-            <span>
-                {this.props.time.nextDay &&
-                    <NextDayIcon alt={`Past midnight; ${days[this.props.day + 1 > 6 ? 0 : this.props.day + 1]} morning.`} /> }
-            </span>
         </time>);
     }
 
 }
 
-export { Time }
+export { ScheduleString }

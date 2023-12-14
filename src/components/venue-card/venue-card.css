@@ -88,6 +88,11 @@
     font-weight: bold;
 }
 
+.venue-card__date {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 .venue-card__time {
     font-size: .95em;
 }

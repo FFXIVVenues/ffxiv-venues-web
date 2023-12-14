@@ -80,6 +80,7 @@ export function VenueDirectory(props) {
   let filteredFavorites, 
       filteredOpen,
       filteredNewest,
+      filteredFuture,
       filteredUnscheduled,
       scheduledVenuesRender;
 
@@ -96,6 +97,7 @@ export function VenueDirectory(props) {
   }
 
   if (scheduled !== null) {
+    filteredFuture = filter(scheduled.future);
     filteredUnscheduled = filter(scheduled.unscheduled);
   }
 
@@ -119,14 +121,16 @@ export function VenueDirectory(props) {
     )
   }
 
+  const filterPanel = <VenueFiltersPanel onSearch={s => setSearch(s)}
+                                         onRegionFilterUpdated={setRegionFilter}
+                                         onDataCenterFilterUpdated={setDataCenterFilter}
+                                         onWorldFilterUpdated={setWorldFilter}
+                                         onTypeFilterUpdated={setTypeFilters}
+                                         onFeatureFilterUpdated={setFeatureFilters} />;
+
   if (error)
     return <>
-      <VenueFiltersPanel onSearch={s => setSearch(s)}
-                         onRegionFilterUpdated={setRegionFilter}
-                         onDataCenterFilterUpdated={setDataCenterFilter}
-                         onWorldFilterUpdated={setWorldFilter}
-                         onTypeFilterUpdated={setTypeFilters}
-                         onFeatureFilterUpdated={setFeatureFilters} />
+      {filterPanel}
       <div className="venue-directory__none-found">
         😱 We couldn't load the venues! {error.message}
       </div>
@@ -134,26 +138,14 @@ export function VenueDirectory(props) {
 
   if (!scheduledVenuesRender && isLoadedButNoResult(filteredUnscheduled))
     return <>
-      <VenueFiltersPanel onSearch={s => setSearch(s)}
-                         onRegionFilterUpdated={setRegionFilter}
-                         onDataCenterFilterUpdated={setDataCenterFilter}
-                         onWorldFilterUpdated={setWorldFilter}
-                         onTypeFilterUpdated={setTypeFilters}
-                         onFeatureFilterUpdated={setFeatureFilters} />
-
+      {filterPanel}
       <div className="venue-directory__none-found">
         😞 No results for that search or combination of tags.
       </div>
     </>
 
   return <>
-    <VenueFiltersPanel onSearch={s => setSearch(s)}
-                       onRegionFilterUpdated={setRegionFilter}
-                       onDataCenterFilterUpdated={setDataCenterFilter}
-                       onWorldFilterUpdated={setWorldFilter}
-                       onTypeFilterUpdated={setTypeFilters}
-                       onFeatureFilterUpdated={setFeatureFilters} />
-
+    {filterPanel}
 
     { /* Favorites */ }
     { isLoadingOrLoadedWithResults(filteredFavorites) &&
@@ -194,6 +186,18 @@ export function VenueDirectory(props) {
     <div className="aether-venues__venues aether-venues__scheduled-venues">
       { scheduledVenuesRender }
     </div>
+
+    { /* Future venues */ }
+    { isLoadingOrLoadedWithResults(filteredFuture) &&
+      <div className="aether-venues__venues aether-venues__future-venues">
+        <details open>
+          <summary><h2>Future openings</h2></summary>
+          { listView
+            ? <VenueList venues={filteredFuture} />
+            : <VenueStrip venues={filteredFuture} />
+          }
+        </details>
+      </div> }
 
     { /* Unscheduled */ }
     { isLoadingOrLoadedWithResults(filteredUnscheduled) && 

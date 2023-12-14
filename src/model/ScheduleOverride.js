@@ -1,4 +1,4 @@
-class OpenOverride {
+class ScheduleOverride {
 
     constructor(props) {
         Object.assign(this, props);
@@ -16,4 +16,4 @@ class OpenOverride {
 
 }
 
-export { OpenOverride };
+export { ScheduleOverride };

@@ -1,11 +1,15 @@
 import { timeService } from "../services/timeService";
 
-class Opening {
+class Schedule {
 
     constructor(props) {
         Object.assign(this, props);
         this.ranking = this._getRanking();
         this.local = timeService.convertToLocalOpening(this);
+        this.nextOpening =  {
+            start: new Date(this.nextOpening.start),
+            end: new Date(this.nextOpening.end)
+        };
     }
 
     _getRanking() {
@@ -16,4 +20,4 @@ class Opening {
 
 }
 
-export { Opening };
+export { Schedule };

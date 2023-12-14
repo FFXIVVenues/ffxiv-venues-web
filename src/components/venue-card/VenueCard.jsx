@@ -1,7 +1,7 @@
 import React from "react";
 import "./venue-card.css";
 import { Modal } from "../modal/Modal";
-import { Time } from "../time/Time";
+import { ScheduleString } from "../schedule-string/ScheduleString";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import { VenueProfile } from "../venue-profile/VenueProfile";
@@ -11,6 +11,8 @@ import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.s
 import { ReactComponent as UnvisitedIcon } from "../../assets/icons/not-visited-icon.svg";
 import defaultImage from "./default-banner.jpg";
 import { Location } from "../location/Location";
+import {DateString} from "../date-string/DateString";
+import {TimeString} from "../time-string/TimeString";
 
 class VenueCard extends VenueOpening {
 
@@ -72,9 +74,20 @@ class VenueCard extends VenueOpening {
 
                     { this.props.opening &&
                         <div className="venue-card__time">
-                            <div className="venue-card__start"><Time time={this.props.opening.local.start} day={this.props.opening.local.day} format24={false} /></div>
-                            <div className="venue-card__time-split">{this.props.opening.local.end && <React.Fragment>-</React.Fragment>}</div>
-                            <div className="venue-card__end">{this.props.opening.local.end && <Time time={this.props.opening.local.end} day={this.props.opening.local.day} format24={false} /> }</div>
+                            {
+                                this.props.opening.isWithinWeek === false
+                                  ? <div className="venue-card__next_opening">
+                                      <div className="venue-card__date"><DateString date={this.props.opening.nextOpening.start} /></div>
+                                      <div className="venue-card__start"><TimeString date={this.props.opening.nextOpening.start} format24={false} /></div>
+                                      <div className="venue-card__time-split"><React.Fragment>-</React.Fragment></div>
+                                      <div className="venue-card__end"><TimeString date={this.props.opening.nextOpening.end} format24={false} /></div>
+                                  </div>
+                                  : <>
+                                      <div className="venue-card__start"><ScheduleString time={this.props.opening.local.start} day={this.props.opening.local.day} format24={false} /></div>
+                                      <div className="venue-card__time-split">{this.props.opening.local.end && <React.Fragment>-</React.Fragment>}</div>
+                                      <div className="venue-card__end">{this.props.opening.local.end && <ScheduleString time={this.props.opening.local.end} day={this.props.opening.local.day} format24={false} /> }</div>
+                                  </>
+                            }
                         </div>
                     }
 

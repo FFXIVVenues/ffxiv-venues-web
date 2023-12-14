@@ -25,7 +25,7 @@ class VenueService {
     async getOpenVenues() {
         const venues = await this.getVenues();
         return venues.filter(v => v.open)
-                     .map(v => ({ venue: v, opening: v.openings.find(o => o.isNow), override: v.openOverrides.find(o => o.isNow)}))
+                     .map(v => ({ venue: v, opening: v.schedule.find(o => o.isNow), override: v.scheduleOverrides.find(o => o.isNow)}))
                      .sort((one, another) =>
                          (another.opening ? another.opening.ranking : another.override.ranking)
                          - (one.opening ? one.opening.ranking : one.override.ranking));
@@ -34,19 +34,24 @@ class VenueService {
     async getVenueSchedule() {
         let venueViewModels = { 
             scheduled: [ [], [], [], [], [], [], [] ],
+            future: [],
             unscheduled: []
         };
     
         for (const venue of await this.getVenues()) {
-            if (venue.openings === undefined || venue.openings.length === 0) {
+            if (venue.schedule === undefined || venue.schedule.length === 0) {
                 venueViewModels.unscheduled.push(venue);
                 continue;
             }
-            for (const opening of venue.openings) {
+            for (const opening of venue.schedule) {
                 const venueViewModel = {
                     venue,
                     opening
                 };
+                if (opening.isWithinWeek === false) {
+                    venueViewModels.future.push(venueViewModel);
+                    continue;
+                }
                 venueViewModels.scheduled[opening.local.day].push(venueViewModel);
             }
         }
