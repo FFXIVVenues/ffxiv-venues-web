@@ -11,9 +11,15 @@ class Venue {
         this.location = new Location(this.location);
         this.schedule = this.schedule.map(o => new Schedule(o));
         this.scheduleOverrides = this.scheduleOverrides.map(o => new ScheduleOverride(o));
+        if (this.resolution)
+            this.resolution = {
+                ...this.resolution,
+                start: new Date(this.resolution.start),
+                end: new Date(this.resolution.end)
+            }
     }
 
-    isFavorite() {
+    isFavourite() {
         return favouritesService.getFavourites().indexOf(this.id) !== -1;
     }
 

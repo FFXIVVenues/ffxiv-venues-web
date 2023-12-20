@@ -22,42 +22,39 @@ class VenueService {
         return venues.find(v => v.id === id);
     }
 
-    async getOpenVenues() {
-        const venues = await this.getVenues();
-        return venues.filter(v => v.open)
-                     .map(v => ({ venue: v, opening: v.schedule.find(o => o.isNow), override: v.scheduleOverrides.find(o => o.isNow)}))
-                     .sort((one, another) =>
-                         (another.opening ? another.opening.ranking : another.override.ranking)
-                         - (one.opening ? one.opening.ranking : one.override.ranking));
-    }
-
     async getVenueSchedule() {
-        let venueViewModels = { 
+        let venueViewModels = {
+            favourites: [],
+            newest: [],
+            open: [],
             scheduled: [ [], [], [], [], [], [], [] ],
             future: [],
             unscheduled: []
         };
     
         for (const venue of await this.getVenues()) {
+            if (venue.isFavourite())
+                venueViewModels.favourites.push({ venue });
+            if (venue.isNew())
+                venueViewModels.newest.push({ venue });
+            if (venue.resolution?.isNow)
+                venueViewModels.open.push({ venue });
             if (venue.schedule === undefined || venue.schedule.length === 0) {
-                venueViewModels.unscheduled.push(venue);
+                venueViewModels.unscheduled.push({ venue });
                 continue;
             }
             for (const opening of venue.schedule) {
-                const venueViewModel = {
-                    venue,
-                    opening
-                };
-                if (opening.isWithinWeek === false) {
+                const venueViewModel = { venue, opening };
+                if (opening.resolution?.isWithinWeek === false) {
                     venueViewModels.future.push(venueViewModel);
                     continue;
                 }
-                venueViewModels.scheduled[opening.local.day].push(venueViewModel);
+                venueViewModels.scheduled[(opening.resolution.start.getDay()+6)%7].push(venueViewModel);
             }
         }
-    
-        venueViewModels.scheduled = venueViewModels.scheduled.map(day =>
-          day.sort((a, b) => a.opening.ranking - b.opening.ranking));
+
+        venueViewModels.open = venueViewModels.open.sort((one, another) => another.venue.resolution.start - one.venue.resolution.start);
+        venueViewModels.scheduled = venueViewModels.scheduled.map(day => day.sort((one, another) => one.opening.resolution.start - another.opening.resolution.start));
 
         return venueViewModels;
     }

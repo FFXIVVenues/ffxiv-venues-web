@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Profiler} from "react";
 import { useEffect, useState } from "react";
 import { VenueFiltersPanel } from "./VenueFiltersPanel";
 import { venueService } from "../../services/venueService";
@@ -15,7 +15,6 @@ const isLoadedButNoResult = (venues) =>
 const isLoadingOrLoadedWithResults = (venues) => !isLoadedButNoResult(venues);
 
 export function VenueDirectory(props) {
-  
   let { listView } = props;
 
   // filter states
@@ -27,35 +26,22 @@ export function VenueDirectory(props) {
   const [ featureFilters, setFeatureFilters ] = useState([]);
 
   // venue states
-  const [ favorites, setFavorites ] = useState(null);
-  const [ open, setOpen ] = useState(null);
-  const [ newest, setNewest ] = useState(null);
-  const [ scheduled, setScheduled ] = useState(null);
+  const [ venues, setVenues ] = useState(null);
   const [ error, setError ] = useState(null);
 
   useEffect(_ => {
     (async () => {
-      let venues = [];
       try {
-        venues = await venueService.getVenues();
+        setVenues(await venueService.getVenueSchedule());
       } catch (e) {
         setError(e);
-        return;
       }
-      setFavorites(venues.filter(v => v.isFavorite()));
-      setNewest(venues.filter(v => v.isNew()));
-      const openVenues = await venueService.getOpenVenues();
-      setOpen(openVenues);
-      const scheduledVenues = await venueService.getVenueSchedule();
-      setScheduled(scheduledVenues);
     })();
   }, [ ]);
 
   useEffect(_ => {
     (async () => {
-      const destroyFavoritesObserver = favouritesService.observe(async _ =>
-          setFavorites((await venueService.getVenues()).filter(v => v.isFavorite())));
-      return destroyFavoritesObserver;
+      return favouritesService.observe(async _ => setVenues(await venueService.getVenueSchedule()));
     })()
   }, []);
 
@@ -81,43 +67,35 @@ export function VenueDirectory(props) {
       filteredOpen,
       filteredNewest,
       filteredFuture,
-      filteredUnscheduled,
-      scheduledVenuesRender;
+      filteredUnscheduled;
 
-  if (favorites !== null) {
-    filteredFavorites = filter(favorites);
+  if (venues !== null) {
+    filteredFavorites = filter(venues.favourites);
+    filteredOpen = filter(venues.open);
+    filteredNewest = filter(venues.newest).sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
+    filteredFuture = filter(venues.future);
+    filteredUnscheduled = filter(venues.unscheduled);
   }
 
-  if (open !== null) {
-    filteredOpen = filter(open);
-  }
-
-  if (newest !== null) {
-    filteredNewest = filter(newest).sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0))
-  }
-
-  if (scheduled !== null) {
-    filteredFuture = filter(scheduled.future);
-    filteredUnscheduled = filter(scheduled.unscheduled);
-  }
-
-  scheduledVenuesRender = [];
+  const scheduledVenuesRender = [];
   const currentDay = timeService.getLocalDay();
   for (let i = currentDay, looped = false; !looped || i !== currentDay; (looped = true) && (i = ++i % 7)) {
     let filteredScheduled;
-    if (scheduled !== null)
-      filteredScheduled = filter(scheduled.scheduled[i]);
+    if (venues !== null)
+      filteredScheduled = filter(venues.scheduled[i]);
     if (isLoadedButNoResult(filteredScheduled))
       continue;
     scheduledVenuesRender.push(
-      <div className="aether-venues__day" key={i}>
-        <details open>
-          <summary><h2>{currentDay === i ? `Today (${days[i]})` : currentDay === i - 1 ? `Tomorrow (${days[i]})` : days[i]}</h2></summary>
-          { listView 
-            ? <VenueList venues={filteredScheduled} />
-            : <VenueStrip venues={filteredScheduled} /> }
-        </details>
-      </div>
+      <Profiler id={`venue-directory__scheduled-day-${i}`} onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)} key={i}>
+        <div className="aether-venues__day" key={i}>
+          <details open>
+            <summary><h2>{currentDay === i ? `Today (${days[i]})` : currentDay === i - 1 ? `Tomorrow (${days[i]})` : days[i]}</h2></summary>
+            { listView
+              ? <VenueList venues={filteredScheduled} />
+              : <VenueStrip venues={filteredScheduled} /> }
+          </details>
+        </div>
+      </Profiler>
     )
   }
 
@@ -144,71 +122,84 @@ export function VenueDirectory(props) {
       </div>
     </>
 
-  return <>
+  return <Profiler id="VenueDirectory" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
     {filterPanel}
 
     { /* Favorites */ }
     { isLoadingOrLoadedWithResults(filteredFavorites) &&
-    <div className="aether-venues__venues aether-venues__favourite-venues">
-      <details open>
-        <summary><h2>Favorites</h2></summary>
-        { listView 
-          ? <VenueList venues={filteredFavorites} />
-          : <VenueStrip venues={filteredFavorites} /> }
-      </details>
-    </div> }
+      <Profiler id="venue-directory__favourites" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="aether-venues__venues aether-venues__favourite-venues">
+          <details open>
+            <summary><h2>Favorites</h2></summary>
+            { listView
+              ? <VenueList venues={filteredFavorites} />
+              : <VenueStrip venues={filteredFavorites} /> }
+          </details>
+        </div>
+      </Profiler>}
 
     { /* Open */ }
-    { isLoadingOrLoadedWithResults(filteredOpen) && 
-    <div className="aether-venues__venues aether-venues__opennow">
-      <details open>
-        <summary><h2>Open now</h2></summary>
-        { listView 
-          ? <VenueList venues={filteredOpen} />
-          : <VenueStrip venues={filteredOpen} />
-        }
-      </details>
-    </div> }
+    { isLoadingOrLoadedWithResults(filteredOpen) &&
+      <Profiler id="venue-directory__open" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="aether-venues__venues aether-venues__opennow">
+          <details open>
+            <summary><h2>Open now</h2></summary>
+            { listView
+              ? <VenueList venues={filteredOpen} />
+              : <VenueStrip venues={filteredOpen} />
+            }
+          </details>
+        </div>
+      </Profiler>}
 
     { /* Newest */ }
-    { isLoadingOrLoadedWithResults(filteredNewest) && 
-    <div className="aether-venues__venues aether-venues__new-venues">
-      <details open={!listView}>
-        <summary><h2>Newest</h2></summary>
-        { listView 
-          ? <VenueList venues={filteredNewest} />
-          : <VenueStrip venues={filteredNewest} />
-        }
-      </details>
-    </div> }
+    { isLoadingOrLoadedWithResults(filteredNewest) &&
+      <Profiler id="venue-directory__new" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="aether-venues__venues aether-venues__new-venues">
+          <details open={!listView}>
+            <summary><h2>Newest</h2></summary>
+            { listView
+              ? <VenueList venues={filteredNewest} />
+              : <VenueStrip venues={filteredNewest} />
+            }
+          </details>
+        </div>
+      </Profiler>}
 
     { /* Scheduled */ }
-    <div className="aether-venues__venues aether-venues__scheduled-venues">
-      { scheduledVenuesRender }
-    </div>
+    <Profiler id="venue-directory__scheduled" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+      <div className="aether-venues__venues aether-venues__scheduled-venues">
+        { scheduledVenuesRender }
+      </div>
+    </Profiler>
 
     { /* Future venues */ }
     { isLoadingOrLoadedWithResults(filteredFuture) &&
-      <div className="aether-venues__venues aether-venues__future-venues">
-        <details open>
-          <summary><h2>Future openings</h2></summary>
-          { listView
-            ? <VenueList venues={filteredFuture} />
-            : <VenueStrip venues={filteredFuture} />
-          }
-        </details>
-      </div> }
+      <Profiler id="venue-directory__future" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="aether-venues__venues aether-venues__future-venues">
+          <details open>
+            <summary><h2>Future openings</h2></summary>
+            { listView
+              ? <VenueList venues={filteredFuture} />
+              : <VenueStrip venues={filteredFuture} />
+            }
+          </details>
+        </div>
+      </Profiler>}
 
     { /* Unscheduled */ }
-    { isLoadingOrLoadedWithResults(filteredUnscheduled) && 
-    <div className="aether-venues__venues aether-venues__unscheduled-venues">
-      <details open>
-        <summary><h2>Unscheduled</h2></summary>
-        { listView 
-          ? <VenueList venues={filteredUnscheduled} />
-          : <VenueStrip venues={filteredUnscheduled} />
-        }
-      </details>
-    </div> }
-  </>
+    { isLoadingOrLoadedWithResults(filteredUnscheduled) &&
+      <Profiler id="venue-directory__unscheduled" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="aether-venues__venues aether-venues__unscheduled-venues">
+          <details open>
+            <summary><h2>Unscheduled</h2></summary>
+            { listView
+              ? <VenueList venues={filteredUnscheduled} />
+              : <VenueStrip venues={filteredUnscheduled} />
+            }
+          </details>
+        </div>
+      </Profiler>}
+
+  </Profiler>
 }

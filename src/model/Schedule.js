@@ -4,18 +4,11 @@ class Schedule {
 
     constructor(props) {
         Object.assign(this, props);
-        this.ranking = this._getRanking();
-        this.local = timeService.convertToLocalOpening(this);
-        this.nextOpening =  {
-            start: new Date(this.nextOpening.start),
-            end: new Date(this.nextOpening.end)
+        this.resolution =  {
+            ...this.resolution,
+            start: new Date(this.resolution.start),
+            end: new Date(this.resolution.end)
         };
-    }
-
-    _getRanking() {
-        let hours = this.utc.day * 24 + this.utc.start.hour;
-        let minutes = hours * 60 + this.utc.start.minute;
-        return minutes;
     }
 
 }
