@@ -1,6 +1,5 @@
 import React from "react";
 import { Modal } from "../modal/Modal";
-import { ScheduleString } from "../schedule-string/ScheduleString";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { Location } from "../location/Location";
 import "./venue-listing.css";

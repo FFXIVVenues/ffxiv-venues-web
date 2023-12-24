@@ -1,5 +1,3 @@
-import { timeService } from "../services/timeService";
-
 class Schedule {
 
     constructor(props) {
