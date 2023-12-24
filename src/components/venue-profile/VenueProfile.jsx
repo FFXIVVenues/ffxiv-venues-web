@@ -9,9 +9,9 @@ import { ReactComponent as WebIcon } from "../../assets/icons/web-icon.svg";
 import { ReactComponent as DiscordIcon } from "../../assets/icons/discord-icon.svg";
 import { DateString } from "../date-string/DateString";
 import { TimeString } from "../time-string/TimeString";
-import "./venue-profile.css";
 import { Location } from "../location/Location";
-import {nth} from "../date-string/Nth";
+import { nth } from "../date-string/Nth";
+import "./venue-profile.css";
 
 class VenueProfile extends React.Component {
 
