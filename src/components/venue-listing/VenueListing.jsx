@@ -1,11 +1,13 @@
 import React from "react";
-import "./venue-opening.css";
 import { Modal } from "../modal/Modal";
 import { ScheduleString } from "../schedule-string/ScheduleString";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { Location } from "../location/Location";
+import "./venue-listing.css";
+import {DateString} from "../date-string/DateString";
+import {TimeString} from "../time-string/TimeString";
 
-class VenueOpening extends React.Component {
+class VenueListing extends React.Component {
 
     constructor(props) {
         super();
@@ -16,12 +18,6 @@ class VenueOpening extends React.Component {
         this._onEscPressed = this._onEscPressed.bind(this);
     }
 
-    isNew() {
-        const newIfAfter = new Date();
-        newIfAfter.setDate(newIfAfter.getDate() - 14);
-        return this.props.venue.added && new Date(this.props.venue.added) > newIfAfter;
-    }
-    
     _onVenueClick() {
         this.setState({ openModal: true });
         document.onkeyup = this._onEscPressed;
@@ -33,28 +29,29 @@ class VenueOpening extends React.Component {
 
     _onCloseClick() {
         this.setState({ openModal: false });
-        // document.onkeyup = null;
     }
 
     render() {
-        const newIfAfter = new Date();
-        newIfAfter.setDate(newIfAfter.getDate() - 14);
+        const openingResolution = this.props.opening?.resolution || this.props.venue.resolution;
 
         return <div className={"venue-opening " + 
                                 (this.props.venue.id) + 
                                 (this.props.venue.open ? " venue-opening--open" : "") +
                                 (this.props.time ? "" : " venue-opening--no-time")}>
             <div className="venue-opening__summary-row" role="row" onClick={this._onVenueClick.bind(this)}>
-                {this.props.opening && 
+                {openingResolution &&
                     <React.Fragment>
-                        <div className="venue-opening__cell venue-opening__start"><ScheduleString time={this.props.opening.local.start} day={this.props.opening.local.day} format24={false} /></div>
-                        <div className="venue-opening__cell venue-opening__time-split">{this.props.opening.local.end && <React.Fragment>-</React.Fragment>}</div>
-                        <div className="venue-opening__cell venue-opening__end">{this.props.opening.local.end && <ScheduleString time={this.props.opening.local.end} day={this.props.opening.local.day} format24={false} /> }</div>
+                        { openingResolution.isWithinWeek === false &&
+                            <div className="venue_opening__cell venue-opening__date"><DateString date={openingResolution.start} /></div> }
+                        <div className="venue-opening__cell venue-opening__start"><TimeString date={openingResolution.start} format24={false} /></div>
+                        <div className="venue-opening__cell venue-opening__time-split">-</div>
+                        <div className="venue-opening__cell venue-opening__end"><TimeString date={openingResolution.end} format24={false} /></div>
                     </React.Fragment>
                 }
+
                 <div className="venue-opening__cell venue-opening__name">
-                    {this.props.venue.name}
-                    { this.isNew() ? 
+                    { this.props.venue.name }
+                    { this.props.venue.isNew() ?
                         <span className="venue-opening__new">new!</span> :
                         null
                     }
@@ -72,4 +69,4 @@ class VenueOpening extends React.Component {
 
 }
 
-export { VenueOpening };
+export { VenueListing };

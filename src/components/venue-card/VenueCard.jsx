@@ -4,7 +4,7 @@ import { Modal } from "../modal/Modal";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import { VenueProfile } from "../venue-profile/VenueProfile";
-import { VenueOpening } from "../venue-opening/VenueOpening";
+import { VenueListing } from "../venue-listing/VenueListing";
 import { FavoriteIcon } from "../icons/FavoriteIcon";
 import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
 import { ReactComponent as UnvisitedIcon } from "../../assets/icons/not-visited-icon.svg";
@@ -13,7 +13,7 @@ import { Location } from "../location/Location";
 import {DateString} from "../date-string/DateString";
 import {TimeString} from "../time-string/TimeString";
 
-class VenueCard extends VenueOpening {
+class VenueCard extends VenueListing {
 
     toggleFavorite(e) {
         if (this.props.venue.isFavorite()) favouritesService.removeFavourite(this.props.venue.id);
@@ -35,6 +35,7 @@ class VenueCard extends VenueOpening {
     }
 
     render() {
+        const openingResolution = this.props.opening?.resolution || this.props.venue.resolution;
         return <Profiler id="venue-card" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
             <div id={"venue-" + (this.props.venue.id)} className={"venue-card " +
                                                                     (this.props.venue.id) + 
@@ -68,22 +69,13 @@ class VenueCard extends VenueOpening {
                             { this.props.venue.name }
                         </div>
 
-                        { this.props.opening &&
+                        { openingResolution &&
                             <div className="venue-card__time">
-                              { this.props.opening.isWithinWeek === false && <div className="venue-card__date"><DateString date={this.props.opening.resolution.start} /></div> }
-                              <div className="venue-card__start"><TimeString date={this.props.opening.resolution.start} format24={false} /></div>
+                              <div className="venue-card__date"><DateString date={openingResolution.start} /></div>
+                              <div className="venue-card__start"><TimeString date={openingResolution.start} format24={false} /></div>
                               <div className="venue-card__time-split">-</div>
-                              <div className="venue-card__end"><TimeString date={this.props.opening.resolution.end} format24={false} /></div>
+                              <div className="venue-card__end"><TimeString date={openingResolution.end} format24={false} /></div>
                             </div>
-                        }
-
-                        { !this.props.opening && this.props.venue.resolution &&
-                          <div className="venue-card__time">
-                            { this.props.venue.resolution.isWithinWeek === false && <div className="venue-card__date"><DateString date={this.props.venue.resolution.start} /></div> }
-                            <div className="venue-card__start"><DateString date={this.props.venue.resolution.start} /><TimeString date={this.props.venue.resolution.start} format24={false} /></div>
-                            <div className="venue-card__time-split">-</div>
-                            <div className="venue-card__end"><TimeString date={this.props.venue.resolution.end} format24={false} /></div>
-                          </div>
                         }
 
                         <div className="venue-card__location">

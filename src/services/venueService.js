@@ -54,7 +54,10 @@ class VenueService {
         }
 
         venueViewModels.open = venueViewModels.open.sort((one, another) => another.venue.resolution.start - one.venue.resolution.start);
-        venueViewModels.scheduled = venueViewModels.scheduled.map(day => day.sort((one, another) => one.opening.resolution.start - another.opening.resolution.start));
+        venueViewModels.scheduled = venueViewModels.scheduled.map(day => day.sort((one, another) =>
+          one.opening.resolution.start.getHours() - another.opening.resolution.start.getHours()
+        || one.opening.resolution.start.getMinutes() - another.opening.resolution.start.getMinutes()));
+
 
         return venueViewModels;
     }
