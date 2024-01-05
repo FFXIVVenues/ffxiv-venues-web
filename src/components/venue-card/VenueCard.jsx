@@ -16,7 +16,7 @@ import {TimeString} from "../time-string/TimeString";
 class VenueCard extends VenueListing {
 
     toggleFavorite(e) {
-        if (this.props.venue.isFavorite()) favouritesService.removeFavourite(this.props.venue.id);
+        if (this.props.venue.isFavourite()) favouritesService.removeFavourite(this.props.venue.id);
         else favouritesService.setFavourite(this.props.venue.id);        
         e.stopPropagation();
         this.forceUpdate();
@@ -59,7 +59,7 @@ class VenueCard extends VenueListing {
                     </div>
 
                     { this.props.venue.isNew() &&
-                        <div className="venue-card__new">new!</div> }
+                        <div className="venue-card__new">New!</div> }
 
                     { this.props.venue.resolution?.isNow &&
                         <div className="venue-card__open">Open now!</div> }
