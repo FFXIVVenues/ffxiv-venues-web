@@ -2,7 +2,7 @@ import React, {Profiler} from "react";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import days from "../../consts/days.json";
-import { FavoriteIcon } from "../../components/icons/FavoriteIcon";
+import { FavoriteIcon } from "../icons/FavoriteIcon";
 import { ReactComponent as NotVisitedIcon }  from "../../assets/icons/not-visited-icon.svg";
 import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
 import { ReactComponent as WebIcon } from "../../assets/icons/web-icon.svg";
@@ -12,6 +12,7 @@ import { TimeString } from "../time-string/TimeString";
 import { Location } from "../location/Location";
 import { nth } from "../date-string/Nth";
 import "./venue-profile.css";
+import {Weekly} from "../date-string/Weekly";
 
 class VenueProfile extends React.Component {
 
@@ -155,7 +156,7 @@ class VenueProfile extends React.Component {
 
                             { this.props.venue.resolution && !this.props.venue.resolution.isNow &&
                               <div className="venue-profile__schedule-block venue-profile__schedule-summary">
-                                  Next open on <DateString date={this.props.venue.resolution.start} /> at <TimeString date={this.props.venue.resolution.start} />
+                                  Next open <DateString date={this.props.venue.resolution.start} /> at <TimeString date={this.props.venue.resolution.start} />
                               </div>
                             }
 
@@ -172,15 +173,20 @@ class VenueProfile extends React.Component {
                                             { this.props.venue.schedule.map((t, i) => {
                                                 return <>
                                                     <tr key={i} className={`venue-profile__opening-time ${t.resolution.isNow ? "venue-profile__opening-time--active" : ""}`}>
-                                                        <td className="venue-profile__day"><strong>Every {t.interval.intervalArgument !== 1 && t.interval.intervalArgument+ nth(t.interval.intervalArgument)} {days[(t.resolution.start.getDay()+6)%7]}</strong></td>
+                                                        <td className="venue-profile__day"><strong>
+                                                            {t.interval.intervalType === 0
+                                                              ? `${Weekly(t.interval.intervalArgument)} on ${days[(t.resolution.start.getDay()+6)%7]}s`
+                                                              : `${t.interval.intervalArgument}${nth(t.interval.intervalArgument)} ${days[(t.resolution.start.getDay()+6)%7]} of the month`
+                                                            }
+                                                        </strong></td>
                                                         <td className="venue-profile__start"><TimeString date={t.resolution.start} format24={false} /></td>
                                                         <td className="venue-profile__split">-</td>
                                                         <td className="venue-profile__end"><TimeString date={t.resolution.end} format24={false} /></td>
                                                     </tr>
-                                                    {t.interval.intervalArgument !== 1 &&
-                                                      <tr>
-                                                          <td colSpan={4} className="venue-profile__next">Next {days[(t.resolution.start.getDay()+6)%7]} opening on {DateString.months[t.resolution.start.getMonth()]} {t.resolution.start.getDate()}{nth(t.resolution.start.getDay())}</td>
-                                                      </tr>}
+                                                    {/*{t.interval.intervalArgument !== 1 &&*/}
+                                                    {/*  <tr>*/}
+                                                    {/*      <td colSpan={4} className="venue-profile__next">Next {days[(t.resolution.start.getDay()+6)%7]} opening on {DateString.months[t.resolution.start.getMonth()]} {t.resolution.start.getDate()}{nth(t.resolution.start.getDay())}</td>*/}
+                                                    {/*  </tr>}*/}
                                                 </>
                                             })}
                                         </tbody>

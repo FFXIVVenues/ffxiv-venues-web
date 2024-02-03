@@ -178,8 +178,8 @@ button.venue-profile__visited-button--visited {
     font-weight: bold;
 }
 
-.venue-profile__day { width: 160px }
-.venue-profile__start { width: 70px }
+.venue-profile__day { width: 210px }
+.venue-profile__start { width: 50px }
 .venue-profile__split { width: 25px; text-align: center; }
 .venue-profile__next {
     font-size: small;
