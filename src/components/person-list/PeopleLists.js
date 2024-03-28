@@ -23,8 +23,11 @@ export const staff = [
     { name: "Kaeda Destrian", world: "Jenova", role: "Indexer Lead", photoId: "325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "870413151676551178" },
     // NA
     { name: "Vix Solanine", world: "Leviathan", role: "Indexer (NA)", photoId: "7ebe3d3ddadcd9ef4f5bb8358b5b6028_a91aae52cff9ef65932db06b150ffd47fc0" , link: "https://vixsolanine.carrd.co/" },
+    { name: "Alyah Vanayel", world: "Adamantoise", role: "Indexer (NA)", photoId: "6f47c6a3d8e2e250422e9e05c97afae5_1f5fd239b885860b7c2bfc72ad1d97effc0" , link: "334530475479531520" },
+    { name: "Ophelia Brevia", world: "Sargatanas", role: "Indexer (NA)", photoId: "a550f0fb4f8a356e30832ba71c8e2855_ba22853447012a24cee115315d6a5bebfc0" , link: "837123659423547423" },
     // EU
     { name: "Darayna Sarantes", world: "Alpha", role: "Indexer (EU)", photoId: "de3016101a8c35c48a2466ef21c881ba_6132295fcf5570fb8b0a944ef322a598fc0", discordId: "268840992021544970" },
+    { name: "Sabrina Swiftspear", world: "Phamtom", role: "Indexer (EU)", photoId: "2d33fa5125bc658892e1426523d97afe_f0a43d6e5eea19af337a176e9836acddfc0", discordId: "248551543056498689"},
     // OCE
     { name: "Juno V'mhari", world: "Sophia", role: "Indexer (OCE)", photoId: "66f3e42541072d69e5dc4672c49769d9_ba15a18cd3a8fb567e39053022515eb6fc0", discordId: "152015224281628672" },
     { name: "Dalnariel Doh", world: "Sophia", role: "Indexer (OCE)", photoId: "bac6010da3d2ef72b6e2eb845264e7fd_ba15a18cd3a8fb567e39053022515eb6fc0", discordId: "176021916354740224" },
