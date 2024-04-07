@@ -11,7 +11,8 @@ export const staff = [
     { name: "Lily Night", world: "Siren", role: "Moderator", photoId: "c36c1dbb999a3d33e518c6bd37539d40_58a84e851e55175d22158ca97af58a1ffc0" , discordId: "320380338524389376" },
 
     // Engineer
-    { name: "Madame Akehime", world: "Jenova", role: "Reat Engineer", photoId: "117ac0f2238aac7e46c0284dc6ffeaa7_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "159859092603535360" },
+    { name: "Asuna Tsuki", world: "Midgardsormr", role: ".NET Engineer", photoId: "f08c36846336d255be2050fc9c7162e6_5c8ecfbc673e1287a9b5e85423fe1657fc0" , discordId: "140284823448190976" },
+    { name: "Madame Akehime", world: "Jenova", role: "React Engineer", photoId: "117ac0f2238aac7e46c0284dc6ffeaa7_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "159859092603535360" },
 
     // Event Production
     { name: "Monsieur Zahmo'wo", world: "Jenova", role: "Event Lead & Indexer (NA)", photoId: "4f7246a71bea833241b0a30b88a78320_ce736afe35e2ded4e46c4fd0659aef7efc0", discordId: "786407181804896257" },
