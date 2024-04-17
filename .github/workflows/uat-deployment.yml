@@ -3,7 +3,7 @@ name: UAT Deployment
 on:
   push:
     branches:
-      - uat
+      - test
 
 jobs:
   build_and_deploy_job:
