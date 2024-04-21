@@ -171,7 +171,6 @@ class VenueProfile extends React.Component {
                                                 return <>
                                                     <tr key={i} className={`venue-profile__opening-time ${t.resolution.isNow ? "venue-profile__opening-time--active" : ""}`}>
                                                         <td className="venue-profile__day"><strong>{t.toString()}</strong></td>
-                                                        <td className="venue-profile__day"><strong>{t.toString()}</strong></td>
                                                         <td className="venue-profile__start"><TimeString date={t.resolution.start} format24={false} /></td>
                                                         <td className="venue-profile__split">-</td>
                                                         <td className="venue-profile__end"><TimeString date={t.resolution.end} format24={false} /></td>
