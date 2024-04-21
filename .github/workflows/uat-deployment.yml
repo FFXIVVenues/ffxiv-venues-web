@@ -3,7 +3,7 @@ name: UAT Deployment
 on:
   push:
     branches:
-      - uat
+      - test
 
 jobs:
   build_and_deploy_job:
@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     environment:
-      name: 'UAT'
-      url: https://uat.ffxivvenues.com/
+      name: 'Test'
+      url: https://ffxivvenues.dev/
 
     steps:
       - uses: actions/checkout@v2
