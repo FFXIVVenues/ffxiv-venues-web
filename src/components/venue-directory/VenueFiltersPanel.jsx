@@ -56,6 +56,10 @@ const worldFilters = [
   { key: Symbol(), label: "Maduin", filter: worldFilter("Maduin") },
   { key: Symbol(), label: "Marilith", filter: worldFilter("Marilith") },
   { key: Symbol(), label: "Seraph", filter: worldFilter("Seraph") },
+  { key: Symbol(), label: "Cuchulainn", filter: worldFilter("Cuchulainn") },
+  { key: Symbol(), label: "Golem", filter: worldFilter("Golem") },
+  { key: Symbol(), label: "Kraken", filter: worldFilter("Kraken") },
+  { key: Symbol(), label: "Rafflesia", filter: worldFilter("Rafflesia") },
 
   { key: Symbol(), label: "Cerberus", filter: worldFilter("Cerberus") },
   { key: Symbol(), label: "Louisoix", filter: worldFilter("Louisoix") },
