@@ -30,6 +30,31 @@ body.modal-open .modal-stage {
     animation: .5s zoomIn;
 }
 
+.modal-stage__modal-close-button {
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #181818;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: -39px;
+}
+.modal-stage__modal-close-button:hover,
+.modal-stage__modal-close-button:focus {
+    border: solid rgba(228, 120, 255) 1px;
+    background-color: var(--accent-dark-color)
+}
+
+.modal-stage__modal-close-button svg {
+    width: 12px;
+    height: 12px;
+}
+
 @media screen and (max-width: 615px) {
     .modal-stage__modal {
         position: fixed;

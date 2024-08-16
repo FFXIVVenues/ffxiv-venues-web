@@ -1,24 +1,24 @@
-.light .next-day-icon {
+.light .icon__next-day {
     filter: invert();
 }
 
 
-.favorite-icon {
+.icon__favourite {
     width: 1rem;
 }
 
-.favorite-icon path {
+.icon__favourite path {
     fill: transparent !important;
     stroke-width: 25pt;
     stroke: white;
 }
 
-.favorite-icon.favorite-icon--lit path {
+.icon__favourite.favorite-icon--lit path {
     fill: white !important;
     stroke: white;
 }
 
-.loading-icon {
+.icon__loading {
     width: 2em;
     animation: spin linear 1s infinite;
 }

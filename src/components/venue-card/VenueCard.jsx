@@ -1,6 +1,6 @@
 import React, {Profiler} from "react";
 import "./venue-card.css";
-import { Modal } from "../modal/Modal";
+import { Modal } from "../modal-stage/Modal";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import { VenueProfile } from "../venue-profile/VenueProfile";
@@ -12,6 +12,7 @@ import defaultImage from "./default-banner.jpg";
 import { Location } from "../location/Location";
 import {DateString} from "../date-string/DateString";
 import {TimeString} from "../time-string/TimeString";
+import {ModalCloseButton} from "../modal-stage/ModalCloseButton";
 
 class VenueCard extends VenueListing {
 
@@ -85,7 +86,8 @@ class VenueCard extends VenueListing {
                 </div>
                 { this.state.openModal &&
                     <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>
-                        <button className="venue-modal__close-button" onClick={this._onCloseClick.bind(this)}><img src="assets/cross.svg" alt="" /></button>
+                        <ModalCloseButton onClick={this._onCloseClick.bind(this)} />
+                        {/*<button className="modal__close-button"><img src="assets/cross.svg" alt="" /></button>*/}
                         <VenueProfile venue={this.props.venue} />
                     </Modal>
                 }

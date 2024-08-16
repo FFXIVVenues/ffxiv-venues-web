@@ -1,4 +1,4 @@
-import { modalService } from "../modal-stage/ModalService";
+import { modalService } from "./ModalService";
 import React from "react";
 
 class Modal extends React.Component {

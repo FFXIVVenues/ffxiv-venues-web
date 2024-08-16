@@ -1,10 +1,11 @@
 import React from "react";
-import { Modal } from "../modal/Modal";
+import { Modal } from "../modal-stage/Modal";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { Location } from "../location/Location";
 import "./venue-listing.css";
 import {DateString} from "../date-string/DateString";
 import {TimeString} from "../time-string/TimeString";
+import {ModalCloseButton} from "../modal-stage/ModalCloseButton";
 
 class VenueListing extends React.Component {
 
@@ -59,7 +60,7 @@ class VenueListing extends React.Component {
             </div>
             { this.state.openModal && 
                 <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>
-                    <button className="venue-modal__close-button" onClick={this._onCloseClick.bind(this)}><img src="assets/cross.svg" alt="" /></button>
+                    <ModalCloseButton onClick={this._onCloseClick.bind(this)} />
                     <VenueProfile venue={this.props.venue} />
                 </Modal>
             }

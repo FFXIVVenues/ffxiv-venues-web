@@ -4,7 +4,7 @@ import "./icons.css";
 
 const FavoriteIcon = (props) => (
     <FavoriteIconSvg 
-        className={ "favorite-icon " + (props.className ? props.className : "") + (props.lit ? " favorite-icon--lit" : "") } 
+        className={ "icons__favourite " + (props.className ? props.className : "") + (props.lit ? " favorite-icon--lit" : "") }
         onClick={props.onClick}/>);
 
 export { FavoriteIcon };
