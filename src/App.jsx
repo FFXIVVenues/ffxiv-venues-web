@@ -15,6 +15,7 @@ import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.sv
 import { Notice } from "./components/notice/Notice";
 import { NewVenueGuidance } from './components/new-venue-guidance/NewVenueGuidance';
 import { Button } from './components/button/Button';
+import {ModalCloseButton} from "./components/modal-stage/ModalCloseButton";
 
 class App extends React.Component {
 
@@ -77,13 +78,13 @@ class App extends React.Component {
           </div>
           { this.state.requestedVenue &&
               <Modal className="venue-modal" onStageClick={_ => this.setState({ requestedVenue: null })}>
-                <button className="venue-modal__close-button" onClick={_ => this.setState({ requestedVenue: null })}><img src="assets/cross.svg" alt="" /></button>
+                <ModalCloseButton onClick={_ => this.setState({ requestedVenue: null })} />
                 <VenueProfile venue={this.state.requestedVenue} />
               </Modal>
           }
           { this.state.showNewVenueModal &&
               <Modal className="new-venue-modal" onStageClick={_ => this.setState({ showNewVenueModal: false })}>
-                <button className="venue-modal__close-button" onClick={_ => this.setState({ showNewVenueModal: false })}><img src="assets/cross.svg" alt="" /></button>
+                <ModalCloseButton onClick={_ => this.setState({ showNewVenueModal: false })} />
                 <NewVenueGuidance />
               </Modal>
           }
