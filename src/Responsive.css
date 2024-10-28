@@ -44,8 +44,9 @@
 
 @media screen and (max-width: 475px) {
     /* Try to make more space; viewport margins decreased, card arrows decreased */
-    .aether-venues__search-textbox {  width: calc(100% - 60px);
-        margin-left: 20px;
+    .venue-filters__search {
+        width: calc(100% - 60px);
+        margin-left: 20px !important;
     }
     .aether-venues__list { margin-left: 10px; width: calc(100vw - 20px - var(--scroll-bar-width)); }
     .scroll-horizontal__arrow { width: 10px }

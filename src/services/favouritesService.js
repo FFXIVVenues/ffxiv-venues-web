@@ -1,13 +1,16 @@
 class FavouritesService {
 
     constructor() {
+        this._favouritesCache = null;
         this._observers = [];
     }
 
     getFavourites() {
-        const favourites = localStorage.getItem("aether-venues-favourites");
-        if (favourites === null) return [];
-        return JSON.parse(favourites);
+        if (!this._favouritesCache) {
+            let data = localStorage.getItem("aether-venues-favourites");
+            this._favouritesCache = data ? JSON.parse(data) : [];
+        }
+        return this._favouritesCache;
     }
 
     isFavourite(id) {

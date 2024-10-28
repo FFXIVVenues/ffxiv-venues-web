@@ -1,9 +1,15 @@
 class VisitedService {
 
+    constructor() {
+        this._visitedCache = [];
+    }
+
     getVisited() {
-        const visited = localStorage.getItem("aether-venues-visited");
-        if (visited === null) return [];
-        return JSON.parse(visited);
+        if (!this._visitedCache) {
+            let data = localStorage.getItem("aether-venues-visited");
+            this._visitedCache = data ? JSON.parse(data) : [];
+        }
+        return this._visitedCache;
     }
 
     isVisited(id) {

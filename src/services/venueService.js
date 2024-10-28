@@ -9,10 +9,12 @@ class VenueService {
     getVenues() {
         const venuesUrl = process.env.REACT_APP_FFXIV_VENUES_API_ROOT + "/venue";
         return this._fetchPromise ??= new Promise((resolve, reject) => {
+            console.time('venueService.getVenues');
             fetch(venuesUrl)
                 .then(response => response.json())
                 .then(venues => venues.map(v => new Venue(v)))
                 .then(resolve)
+                .then(() => console.timeEnd('venueService.getVenues'))
                 .catch(reject);
         });
     }
@@ -22,7 +24,9 @@ class VenueService {
         return venues.find(v => v.id === id);
     }
 
-    async getVenueSchedule() {
+    async getVenueSchedule(filters) {
+        console.time('venueService.getVenueSchedule');
+
         let venueViewModels = {
             favourites: [],
             newest: [],
@@ -31,8 +35,13 @@ class VenueService {
             future: [],
             unscheduled: []
         };
+        let today = new Date().getDay();
     
         for (const venue of await this.getVenues()) {
+            if (filters && filters.length > 0 && !filters.every(filter => filter(venue))) {
+                continue;
+            }
+
             if (venue.isFavourite())
                 venueViewModels.favourites.push({ venue });
             if (venue.isNew())
@@ -49,7 +58,9 @@ class VenueService {
                     venueViewModels.future.push(venueViewModel);
                     continue;
                 }
-                venueViewModels.scheduled[(opening.resolution.start.getDay()+6)%7].push(venueViewModel);
+                let venueDay = opening.resolution.start.getDay();
+                let relativeDay = (venueDay - today + 7) % 7;
+                venueViewModels.scheduled[relativeDay].push(venueViewModel);
             }
         }
 
@@ -57,8 +68,9 @@ class VenueService {
         venueViewModels.scheduled = venueViewModels.scheduled.map(day => day.sort((one, another) =>
           one.opening.resolution.start.getHours() - another.opening.resolution.start.getHours()
         || one.opening.resolution.start.getMinutes() - another.opening.resolution.start.getMinutes()));
+        venueViewModels.newest = venueViewModels.newest.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0));
 
-
+        console.timeEnd('venueService.getVenueSchedule');
         return venueViewModels;
     }
     

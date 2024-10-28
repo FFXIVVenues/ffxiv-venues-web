@@ -143,51 +143,6 @@ a {
   margin-right: 0;
 }
 
-
-.aether-venues__search-textbox {
-  padding: 7.5px 10px;
-  font-size: 1.1em;
-  width: calc(100% - 70px);
-  max-width: 325px;
-  border: solid 1px var(--outline-color);
-  border-radius: 5px;
-  margin-left: 30px;
-  margin-bottom: 15px;
-  background-color: #111;
-  color: var(--foreground-color)
-}
-
-.aether-venues__tags {
-  margin-bottom: 15px;
-  height: 34px;
-  position: relative;
-}
-
-.aether-venues__tag {
-  display: inline-block;
-  border-radius: 5px;
-  background-color: #111;
-  border: solid 1px var(--outline-color);
-  color: white;
-  font-size: 1em;
-  padding: 2px 10px 2px 10px;
-  margin-right: 10px;
-  cursor: pointer;
-  user-select: none;
-  width: max-content;
-}
-
-.aether-venues__tag:hover {
-  border: solid var(--accent-color) 1px;
-  background-color: var(--accent-dark-color);
-}
-
-.aether-venues__tag--enabled {
-  border: solid var(--accent-color) 1px !important;
-  background-color: var(--accent-dark-color) !important;
-  box-shadow: 0 0 10px var(--accent-dark-color);
-}
-
 .aether-venues__list {
   margin-left: 300px;
   margin-top: 90px;

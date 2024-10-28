@@ -29,7 +29,6 @@ export const staff = [
     // EU
     { name: "Darayna Sarantes", world: "Alpha", role: "Indexer (EU)", photoId: "de3016101a8c35c48a2466ef21c881ba_6132295fcf5570fb8b0a944ef322a598fc0", discordId: "268840992021544970" },
     { name: "Mimiyo Miyo", world: "Alpha", role: "Indexer (EU)", photoId: "27de4b49b4cb85db9c6d597baa9b61b5_6132295fcf5570fb8b0a944ef322a598fc0", discordId: "227287609678888962" },
-    { name: "Sabrina Swiftspear", world: "Phantom", role: "Indexer (EU)", photoId: "2d33fa5125bc658892e1426523d97afe_f0a43d6e5eea19af337a176e9836acddfc0", discordId: "248551543056498689"},
     // OCE
     { name: "Juno V'mhari", world: "Sophia", role: "Indexer (OCE)", photoId: "66f3e42541072d69e5dc4672c49769d9_ba15a18cd3a8fb567e39053022515eb6fc0", discordId: "152015224281628672" },
     { name: "Dalnariel Doh", world: "Sophia", role: "Indexer (OCE)", photoId: "bac6010da3d2ef72b6e2eb845264e7fd_ba15a18cd3a8fb567e39053022515eb6fc0", discordId: "176021916354740224" },

@@ -1,5 +1,9 @@
-import { ReactComponent as LoadingIconSvg } from "../../assets/icons/loading-icon.svg";
+import loadingIcon from "../../assets/icons/loading-icon.webp";
 
 export function LoadingIcon(props) {
-    return <LoadingIconSvg className={ "icons__loading " + (props.className ? props.className : "") } />
+    return <img
+      className={ "icons__loading " + (props.className ? props.className : "") }
+      alt="Loading search results..."
+      src={loadingIcon}
+    />
 }

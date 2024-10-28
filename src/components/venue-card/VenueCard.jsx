@@ -1,13 +1,8 @@
 import React, {Profiler} from "react";
 import "./venue-card.css";
 import { Modal } from "../modal-stage/Modal";
-import { favouritesService } from "../../services/favouritesService";
-import { visitedService } from "../../services/visitedService";
 import { VenueProfile } from "../venue-profile/VenueProfile";
 import { VenueListing } from "../venue-listing/VenueListing";
-import { FavoriteIcon } from "../icons/FavoriteIcon";
-import { ReactComponent as VisitedIcon } from "../../assets/icons/visited-icon.svg";
-import { ReactComponent as UnvisitedIcon } from "../../assets/icons/not-visited-icon.svg";
 import defaultImage from "./default-banner.jpg";
 import { Location } from "../location/Location";
 import {DateString} from "../date-string/DateString";
@@ -15,25 +10,6 @@ import {TimeString} from "../time-string/TimeString";
 import {ModalCloseButton} from "../modal-stage/ModalCloseButton";
 
 class VenueCard extends VenueListing {
-
-    toggleFavorite(e) {
-        if (this.props.venue.isFavourite()) favouritesService.removeFavourite(this.props.venue.id);
-        else favouritesService.setFavourite(this.props.venue.id);        
-        e.stopPropagation();
-        this.forceUpdate();
-    }
-
-    removeVisited(e) {
-        visitedService.removeVisited(this.props.venue.id);
-        e.stopPropagation();
-        this.forceUpdate();
-    }
-
-    setVisited(e) {
-        visitedService.setVisited(this.props.venue.id);
-        e.stopPropagation();
-        this.forceUpdate(); 
-    }
 
     render() {
         const openingResolution = this.props.opening?.resolution || this.props.venue.resolution;
@@ -51,13 +27,6 @@ class VenueCard extends VenueListing {
                         ? <img className="venue-card__photo" src={this.props.venue.bannerUri} alt="" loading="lazy" />
                         : <img className="venue-card__photo" src={defaultImage} alt="" loading="lazy" />
                     }
-
-                    <div className="venue-card__options">
-                        <FavoriteIcon lit={this.props.venue.isFavourite()} onClick={e => this.toggleFavorite(e) } />
-                        { this.props.venue.isVisited() ?
-                            <VisitedIcon onClick={e => this.removeVisited(e)} /> :
-                            <UnvisitedIcon onClick={e => this.setVisited(e)} /> }
-                    </div>
 
                     { this.props.venue.isNew() &&
                         <div className="venue-card__new">New!</div> }
@@ -87,7 +56,6 @@ class VenueCard extends VenueListing {
                 { this.state.openModal &&
                     <Modal className="venue-modal" onStageClick={this._onCloseClick.bind(this)}>
                         <ModalCloseButton onClick={this._onCloseClick.bind(this)} />
-                        {/*<button className="modal__close-button"><img src="assets/cross.svg" alt="" /></button>*/}
                         <VenueProfile venue={this.props.venue} />
                     </Modal>
                 }
