@@ -1,5 +1,5 @@
 import days from "../consts/days.json";
-import {nth} from "../components/date-string/Nth";
+import {nth} from "../components/DateString/Nth";
 
 class Schedule {
 

@@ -1,0 +1,29 @@
+.staff-list {
+    background-color: var(--background-color);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.staff-list .staff-list__content {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.staff-list .staff-list__summary {
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.staff-list .staff-list__details[open] .staff-list__summary {
+    margin-bottom: 20px;
+}
+
+.staff-list__patron-header {
+    font-size: .9rem;
+    margin: 20px 0;
+}
+
+.staff-list__footer {
+    margin-top: 25px;
+    margin-bottom: 10px
+}

@@ -1,21 +1,21 @@
 import React from 'react';
 import './App.css';
 import './Responsive.css';
-import { ModalStage } from "./components/modal-stage/ModalStage";
+import { ModalStage } from "./components/ModalStage/ModalStage";
 import { venueService } from './services/venueService';
-import { Modal } from "./components/modal-stage/Modal";
-import { VenueProfile } from "./components/venue-profile/VenueProfile";
-import { VenueDirectory } from './components/venue-directory/VenueDirectory';
-import { PersonList } from './components/person-list/PersonList';
-import { staff} from "./components/person-list/PeopleLists";
+import { Modal } from "./components/ModalStage/Modal";
+import { VenueProfile } from "./components/VenueProfile/VenueProfile";
+import { VenueDirectoryPage } from './pages/VenueDirectoryPage/VenueDirectoryPage';
+import { PersonList } from './components/PersonList/PersonList';
+import { staff} from "./components/PersonList/PeopleLists";
 import { ReactComponent as DiscordIcon } from "./assets/icons/discord-icon.svg";
 import { ReactComponent as NewVenue } from "./assets/icons/new-venue-icon.svg";
 import { ReactComponent as ListViewIcon } from "./assets/icons/list-view-icon.svg";
 import { ReactComponent as CardViewIcon } from "./assets/icons/card-view-icon.svg";
-import { Notice } from "./components/notice/Notice";
-import { NewVenueGuidance } from './components/new-venue-guidance/NewVenueGuidance';
-import { Button } from './components/button/Button';
-import {ModalCloseButton} from "./components/modal-stage/ModalCloseButton";
+import { Notice } from "./components/Notice/Notice";
+import { NewVenueGuidance } from './components/NewVenueGuidance/NewVenueGuidance';
+import { Button } from './components/Button/Button';
+import {ModalCloseButton} from "./components/ModalStage/ModalCloseButton";
 
 class App extends React.Component {
 
@@ -58,7 +58,7 @@ class App extends React.Component {
           </div>
           <Notice />
           <div className={`aether-venues__list ${ this.state.listView ? `aether-venues__list--list-view` : `aether-venues__list--card-view` }`}>
-            <VenueDirectory listView={this.state.listView} />
+            <VenueDirectoryPage listView={this.state.listView} />
           </div>
           <div className="aether-venues__meta-panel">
             <div className="aether-venues__discord-panels">
