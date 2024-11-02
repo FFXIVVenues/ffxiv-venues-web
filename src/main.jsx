@@ -1,13 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import * as Sentry from "@sentry/browser";
 import { App } from './App';
 import './index.css';
 
-Sentry.init({
-  environment: process.env.REACT_APP_FFXIV_VENUES_SENTRY_ENVIRONMENT,
-  dsn: process.env.REACT_APP_FFXIV_VENUES_SENTRY_DSN
-});
 document.querySelector(':root').style.setProperty('--hero-image', [
   `url("/hero-strip/hero-strip-0.jpg")`,
   `url("/hero-strip/hero-strip-1.jpg")`,

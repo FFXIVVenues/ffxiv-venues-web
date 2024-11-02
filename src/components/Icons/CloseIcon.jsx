@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as CloseIconSvg } from "../../assets/icons/close-icon.svg";
+import CloseIconSvg from "../../assets/icons/close-icon.svg";
 import "./icons.css";
 
 const CloseIcon = (props) => (
