@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import '../Responsive.css';
-import { ModalStage } from "../components/ModalStage/ModalStage";
 import { venueService } from '../services/venueService';
 import { Modal } from "../components/ModalStage/Modal";
 import { VenueProfile } from "../components/VenueProfile/VenueProfile";
@@ -49,7 +48,7 @@ class Home extends React.Component {
       <React.Fragment>
         <div className="aether-venues">
           <div className="aether-venues__heading">
-            <h1><img src="../../public/full-logo.png" alt="FFXIV Venues" /></h1>
+            <h1><img src="/full-logo.png" alt="FFXIV Venues" /></h1>
             <div className="aether-venues__view-toggle">
               <button onClick={this.switchToListView} className={this.state.listView ? `active` : undefined}><ListViewIcon /> List view</button>
               <button onClick={this.switchToCardView} className={this.state.listView ? undefined : `active`}><CardViewIcon /> Card view</button>
