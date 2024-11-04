@@ -63,3 +63,9 @@
 }
 
 
+@media screen and (max-width: 475px) {
+    .venue-filters__search {
+        width: calc(100% - 60px);
+        margin-left: 20px !important;
+    }
+}

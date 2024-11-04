@@ -3,7 +3,7 @@
 	src: url("assets/HingashiExtended.ttf") format("truetype");
 }
 
-@font-face { 
+@font-face {
 	font-family: 'Jupiter Pro';
 	src: url("assets/JupiterProBold.ttf") format("truetype");
 }
@@ -23,230 +23,22 @@
 }
 
 body {
-  background-image: var(--hero-image);
-  background-position-x: 000px;
-  background-attachment: fixed;
-  background-size: 280px auto;
-  background-repeat: no-repeat;
-  background-color: var(--background-color);
+  margin: 0;
+  font-family: 'Segoe UI', 'Segoe UI Emoji', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
+  background-color: var(--background-color);
   color: white;
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
 }
 
-.aether-venues__banner-credit {
-  font-size: small;
-  margin-top: 10px;
-  text-align: left;
-}
-
-.aether-venues__heading {
-  display: flex;
-  background-color: var(--background-color);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  border-bottom: black;
-  box-shadow: black 0 0 5px;
-  align-items: center;
-  padding: 10px 20px 5px;
-}
-
-.aether-venues__heading h1 img,
-.aether-venues__heading .aether-venues__colaborators img,
-.aether-venues__heading .aether-venues__colaborators svg {
-  height: 35px;
-  margin: 5px;
-}
-
-.aether-venues__heading h1 {
-  display: inline-block;
-  margin: 0;
-}
-
-.aether-venues__notice-button {
-  margin-bottom: 4px;
-  margin-left: 30px;
-}
-
-.aether-venues__view-toggle {
-  display: flex;
-  margin-left: 60px;
-  margin-bottom: 3px;
-}
-
-.aether-venues__view-toggle button svg {
-  width: 13.5px;
-  height: 13.5px;
-  margin-right: 7px;
-}
-
-.aether-venues__view-toggle button {
-  padding: 10px;
-  height: 30px;
-  margin: 0;
-  border: solid 1px var(--outline-color);
-  border-left-width: 0;
-  border-right-width: 0;
-  display: block;
-  background: unset;
-  width: fit-content;
-  cursor: pointer;
-  color: inherit;
-  display: flex;
-  align-items: center;
-}
-
-.aether-venues__view-toggle button:hover {
-  border-color: var(--accent-color);
-  background-color: var(--accent-dark-color);
-}
-
-.aether-venues__view-toggle button.active {
-  border: solid 1px var(--accent-color);
-  background-color: var(--accent-dark-color) !important;
-  box-shadow: 0 0 10px var(--accent-dark-color);
-}
-
-.aether-venues__view-toggle button:first-child {
-  border-left-width: 1px;
-  border-radius: 5px 0 0 5px;
-}
-
-.aether-venues__view-toggle button:last-child {
-  border-right-width: 1px;
-  border-radius: 0 5px 5px 0;
-}
-
-.aether-venues__colaborators {
-  display: inline-flex;
-  align-items: center;
-  color: gray;
-  vertical-align: middle;
-  float: right;
-  margin-left: auto;
-}
-
-.aether-venues__colaborators a {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-.aether-venues__colaborators a:first-of-type {
-  margin-left: 10px;
-}
-.aether-venues__colaborators a:last-of-type {
-  margin-right: 0;
-}
-
-.aether-venues__list {
-  margin-left: 300px;
-  margin-top: 90px;
-  margin-bottom: 7.5vh;
-  width: calc(100vw - 320px - var(--scroll-bar-width));
-}
-
-.aether-venues__list--list-view .aether-venues__venues details {
-  margin-top: 30px
-}
-
-.aether-venues__venues .loading-icon {
-  margin: 15px 0 150px 30px;
-}
-
-.aether-venues__patron-list {
-  margin-top: 20px
-}
-
-.aether-venues__venues summary {
-  cursor: pointer;
-}
-
-.aether-venues__venues summary:hover {
-  color: var(--accent-color);
-}
-
-.aether-venues__venues summary::marker {
-  color: rgb(90, 90, 90);
-}
-
-.aether-venues__venues summary:hover::marker {
-  color: var(--accent-color);
-}
-
-.aether-venues__venues summary h2 {
-  font-family: "Jupiter Pro";
-  font-size: 1rem;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-left: 10px
-}
-
-.aether-venues__venues .venue-opening {
-  margin-left: 5px
-}
-
-.aether-venues__scheduled-venues {
-  max-width: 100%;
-}
-
-.aether-venues__meta-panel {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-}
-
-.aether-venues__discord {
-  border-radius: 5px;
-  background-color: var(--background-color);
-  width: 240px;
-  padding: 12px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  font-size: .9rem;
-}
-
-.aether-venues__discord-cta {
-  display: flex;
-  align-items: center;
-}
-
-.aether-venues__discord svg {
-  float: left;
-  display: block;
-  height: 40px;
-  width: 40px;
-  margin-left: 5px;
-  margin-right: 15px;
-  fill: white;
-}
-
-.aether-venues__discord-button {
-  border-radius: 5px;
-  display: block;
-  padding: 5px 15px;
-  border: dimgray 1px solid;
-  text-decoration: none;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.aether-venues__discord-button:hover {
-  border: solid var(--accent-color) 1px;
-  background-color: var(--accent-dark-color);
-  color: white
-}
-
-.modal-stage__modal.new-venue-modal {
-  width: 800px;
-}
-
-@media screen and (max-width: 615px) {
-  .modal-stage__modal.new-venue-modal {
-    width: 100%;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

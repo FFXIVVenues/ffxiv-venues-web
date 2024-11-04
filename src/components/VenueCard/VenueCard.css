@@ -21,7 +21,6 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    z-index: -1;
     height: 100%;
     opacity: .8;
 }
@@ -39,53 +38,42 @@
     box-sizing: border-box;
 }
 
-.venue-card__options {
-    float: left;
-    margin: 15px 0 15px 15px;
-}
-
-.venue-card__options svg {
-    width: 1.3rem;
-    filter: drop-shadow( 0 0 15px black);
-    margin-right: .75rem;
-}
-
 .venue-card__name {
     font-size: 1.3em;
     font-weight: bolder;
 }
 
-.venue-card__new {
-    float: right;
-    margin: 15px 15px 15px 0;
-    background-color: darkorange;
-    color: white;
-    border-radius: 3px;
-    font-size: .9rem;
-    text-shadow: none;
-    padding: 3px 6px 5px;
-    line-height: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-}
+.venue-card__stickers {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
 
-.venue-card__options .favorite-icon.favorite-icon--lit path {
-    stroke: darkorange !important;
-    fill: darkorange !important;
-}
+    .venue-card__new,
+    .venue-card__open {
+        margin-bottom: 10px;
+        background-color: var(--accent-color);
+        color: white;
+        border-radius: 3px;
+        font-size: .9rem;
+        text-shadow: none;
+        padding: 3px 6px 5px;
+        line-height: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 
-.venue-card__open {
-    margin: 15px 15px 15px 0;
-    float: right;
-    background-color: var(--accent-color);
-    color: white;
-    border-radius: 3px;
-    font-size: .9rem;
-    text-shadow: none;
-    padding: 3px 6px 5px;
-    line-height: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
+    .venue-card__open {
+        background-color: var(--accent-color);
+    }
+
+    .venue-card__new {
+        background-color: darkorange;
+    }
+
 }
 
 .venue-card__date {
@@ -123,4 +111,8 @@
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+@media screen and (max-width: 475px) {
+    .venue-card__block { width: 330px !important; }
 }

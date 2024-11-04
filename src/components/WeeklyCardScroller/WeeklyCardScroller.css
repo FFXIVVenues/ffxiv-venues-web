@@ -1,0 +1,33 @@
+.weekly-card-scroller__list {
+  summary {
+    cursor: pointer;
+
+    &:hover {
+      color: var(--accent-color);
+
+      &::marker {
+        color: var(--accent-color);
+      }
+    }
+
+    &::marker {
+      color: rgb(90, 90, 90);
+    }
+
+    h2 {
+      font-family: "Jupiter Pro";
+      font-size: 1rem;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-left: 10px
+    }
+  }
+}
+
+  /*.aether-venues__venues .venue-opening {*/
+  /*  margin-left: 5px*/
+  /*}*/
+
+  /*.aether-venues__scheduled-venues {*/
+  /*  max-width: 100%;*/
+  /*}*/

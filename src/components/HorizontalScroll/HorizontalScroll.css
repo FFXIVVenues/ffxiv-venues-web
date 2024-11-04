@@ -67,3 +67,10 @@
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+
+@media screen and (max-width: 475px) {
+    .scroll-horizontal__arrow { width: 10px }
+    .scroll-horizontal__scroll-parent { margin-left: 10px !important; margin-right: 10px !important; width: calc(100% - 20px) !important; }
+    .scroll-horizontal__arrow--left { padding-right: 10px !important; }
+    .scroll-horizontal__arrow--right { padding-left: 10px !important; }
+}

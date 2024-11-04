@@ -1,30 +1,30 @@
-import {VenueFiltersPanel} from "../VenueFilterPanel/VenueFiltersPanel";
+import "./WeeklyCardScroller.css";
+
 import React, {Profiler} from "react";
 import {VenueCardScroller} from "../VenueCardScroller/VenueCardScroller";
-import days from "../../consts/days.json";
 import {timeService} from "../../services/timeService";
+import days from "../../consts/days.json";
 
 const currentDay = timeService.getLocalDay();
 
-export const WeeklyCardScroller = ({venues, onFilter}) =>
+export const WeeklyCardScroller = ({ venues }) =>
   <Profiler id="WeeklyCardScroller" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
-    <VenueFiltersPanel onFilter={onFilter} />
 
     { /* Favourites */ }
     { venues.favourites?.length > 0 &&
-      <Profiler id="WeeklyCardScroller-Favourites" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
-        <div className="aether-venues__venues aether-venues__favourite-venues">
+      <Profiler id="weekly-card-scroller__favourites" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="weekly-card-scroller__list weekly-card-scroller__favourites">
           <details open>
             <summary><h2>Favorites</h2></summary>
             <VenueCardScroller venues={venues.favourites} />
           </details>
         </div>
-      </Profiler>}
+      </Profiler> }
 
     { /* Open */ }
     { venues.open?.length > 0 &&
-      <Profiler id="WeeklyCardScroller-Open" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
-        <div className="aether-venues__venues aether-venues__opennow">
+      <Profiler id="weekly-card-scroller__open" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="weekly-card-scroller__list weekly-card-scroller__opennow">
           <details open>
             <summary><h2>Open now</h2></summary>
             <VenueCardScroller venues={venues.open} />
@@ -34,8 +34,8 @@ export const WeeklyCardScroller = ({venues, onFilter}) =>
 
     { /* Newest */ }
     { venues.newest?.length > 0 &&
-      <Profiler id="WeeklyCardScroller-New" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
-        <div className="aether-venues__venues aether-venues__new-venues">
+      <Profiler id="weekly-card-scroller__new" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="weekly-card-scroller__list weekly-card-scroller__new">
           <details open>
             <summary><h2>Newest</h2></summary>
             <VenueCardScroller venues={venues.newest} />
@@ -44,14 +44,14 @@ export const WeeklyCardScroller = ({venues, onFilter}) =>
       </Profiler>}
 
     { /* Scheduled */ }
-    <div className="aether-venues__venues aether-venues__scheduled-venues">
+    <div className="weekly-card-scroller__days">
       { venues.scheduled.map((dayVenues, i) => {
         const day = days[(currentDay+i)%7];
         if (dayVenues.length === 0) {
           return null;
         }
-        return <Profiler id={`WeeklyCardScroller-Scheduled-${day}`} onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)} key={i}>
-          <div className="aether-venues__day" key={i}>
+        return <Profiler id={`weekly-card-scroller__day-${day}`} onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)} key={i}>
+          <div className="weekly-card-scroller__list weekly-card-scroller__day" key={i}>
             <details open>
               <summary><h2>{i === 0 ? `Today (${day})` : i === 1 ? `Tomorrow (${day})` : day}</h2></summary>
               <VenueCardScroller venues={dayVenues} />
@@ -63,8 +63,8 @@ export const WeeklyCardScroller = ({venues, onFilter}) =>
 
     { /* Future venues */ }
     { venues.future?.length > 0 &&
-      <Profiler id="WeeklyCardScroller-Future" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
-        <div className="aether-venues__venues aether-venues__future-venues">
+      <Profiler id="weekly-card-scroller__future" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="weekly-card-scroller__list weekly-card-scroller__future">
           <details open>
             <summary><h2>Future openings</h2></summary>
             <VenueCardScroller venues={venues.future} />
@@ -74,8 +74,8 @@ export const WeeklyCardScroller = ({venues, onFilter}) =>
 
     { /* Unscheduled */ }
     { venues.unscheduled?.length > 0 &&
-      <Profiler id="WeeklyCardScroller-Unscheduled" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
-        <div className="aether-venues__venues aether-venues__unscheduled-venues">
+      <Profiler id="weekly-card-scroller__unscheduled" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        <div className="weekly-card-scroller__list weekly-card-scroller__unscheduled">
           <details open>
             <summary><h2>Unscheduled</h2></summary>
             <VenueCardScroller venues={venues.unscheduled} />

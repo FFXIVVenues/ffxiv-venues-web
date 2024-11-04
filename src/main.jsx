@@ -1,7 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { App } from './App';
-import './index.css';
 
 document.querySelector(':root').style.setProperty('--hero-image', [
   `url("/hero-strip/hero-strip-0.jpg")`,

@@ -1,0 +1,58 @@
+.aether-venues__view-toggle {
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 3px;
+}
+
+.aether-venues__view-toggle button svg {
+    width: 13.5px;
+    height: 13.5px;
+    margin-right: 7px;
+}
+
+.aether-venues__view-toggle button {
+    padding: 10px;
+    height: 30px;
+    margin: 0;
+    border: solid 1px var(--outline-color);
+    border-left-width: 0;
+    border-right-width: 0;
+    background: unset;
+    width: fit-content;
+    cursor: pointer;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.aether-venues__view-toggle button:hover {
+    border-color: var(--accent-color);
+    background-color: var(--accent-dark-color);
+}
+
+.aether-venues__view-toggle button.active {
+    border: solid 1px var(--accent-color);
+    background-color: var(--accent-dark-color) !important;
+    box-shadow: 0 0 10px var(--accent-dark-color);
+}
+
+.aether-venues__view-toggle button:first-child {
+    border-left-width: 1px;
+    border-radius: 5px 0 0 5px;
+}
+
+.aether-venues__view-toggle button:last-child {
+    border-right-width: 1px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+@media screen and (max-width: 1245px) {
+    .aether-venues__view-toggle { margin-left: auto; }
+}
+
+@media screen and (max-width: 650px) {
+    /* View toggle to icons only */
+    .aether-venues__view-toggle button { font-size: 0; }
+    .aether-venues__view-toggle button svg { margin: 0; }
+}

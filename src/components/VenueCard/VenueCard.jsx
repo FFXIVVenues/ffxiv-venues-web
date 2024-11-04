@@ -29,11 +29,13 @@ class VenueCard extends VenueListItem {
                         : <img className="venue-card__photo" src={defaultImage} alt="" loading="lazy" />
                     }
 
-                    { this.props.venue.isNew() &&
-                        <div className="venue-card__new">New!</div> }
+                    <div className="venue-card__stickers">
+                        { this.props.venue.resolution?.isNow &&
+                          <div className="venue-card__open">Open now!</div> }
 
-                    { this.props.venue.resolution?.isNow &&
-                        <div className="venue-card__open">Open now!</div> }
+                        { this.props.venue.isNew() &&
+                          <div className="venue-card__new">New!</div> }
+                    </div>
 
                     <div className="venue-card__summary">
                         <div className="venue-card__name">

@@ -56,7 +56,7 @@ class VenueProfile extends React.Component {
 
         return (
           <Profiler id="venue-profile" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
-            <div className="venue-profile">
+            <div className={"venue-profile" + (this.props.venue.resolution?.isNow ? " venue-profile--active" : "")}>
                 <div className="venue-profile__user-settings">
                     <button
                         className={"venue-profile__favourite-button" + (this.state.isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
@@ -74,7 +74,7 @@ class VenueProfile extends React.Component {
                 </div>
 
                 { this.props.venue.bannerUri &&
-                    <img className="venue-profile__banner" src={this.props.venue.bannerUri} alt="" />
+                    <img className="venue-profile__banner" src={this.props.venue.bannerUri} alt=""  />
                 }
 
                 <div className="venue-profile__details">

@@ -26,3 +26,22 @@
 .venue-modal .venue-profile {
     margin-top: 0;
 }
+
+@media screen and (max-width: 925px) {
+    /* For list mode, remove end time */
+    .venue-opening__start { width: 90px !important; }
+    .venue-opening__time-split { display: none !important; }
+    .venue-opening__end  { display: none !important; }
+}
+
+@media screen and (max-width: 815px) {
+    /* For list mode, remove location time */
+    .venue-opening__location  { display: none !important; }
+}
+
+@media screen and (max-width: 475px) {
+    /* For list mode, name becomes fluid width */
+    .venue-opening__summary-row { width: 100%; margin-left: -5px !important; padding: 10px 10px !important; }
+    .venue-opening__start { width: 80px !important; }
+    .venue-opening__name { width: auto !important }
+}

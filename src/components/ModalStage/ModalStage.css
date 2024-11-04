@@ -17,7 +17,9 @@ body.modal-open .modal-stage {
     justify-content: center;
     background-color: rgba(0, 0, 0, .7);
     z-index: 100;
-    animation: .3s fadeIn;
+    animation: .3s blurIn;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .modal-stage__modal {
@@ -27,7 +29,7 @@ body.modal-open .modal-stage {
     position: relative;
     width: 600px;
     border: solid 1px #181818;
-    animation: .5s zoomIn;
+    animation: .5s zoomOut;
 }
 
 .modal-stage__modal-close-button {
@@ -76,4 +78,19 @@ body.modal-open .modal-stage {
 @keyframes zoomIn {
     from { transform: scale(1.02); }
     to { transform: scale(1); }
+}
+
+@keyframes zoomOut {
+    from { transform: scale(.95); }
+    to { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes blurIn {
+    from { background-color: rgba(0, 0, 0, 0); backdrop-filter: blur(0); }
+    to  { background-color: rgba(0, 0, 0, .7); backdrop-filter: blur(10px); }
 }
