@@ -1,3 +1,5 @@
+import "./VenueProfile.css";
+
 import React, {Profiler} from "react";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
@@ -9,7 +11,8 @@ import DiscordIcon from "../../assets/icons/discord-icon.svg";
 import { DateString } from "../DateString/DateString";
 import { TimeString } from "../TimeString/TimeString";
 import { Location } from "../Location/Location";
-import "./VenueProfile.css";
+import Markdown from 'react-markdown'
+
 
 class VenueProfile extends React.Component {
 
@@ -117,7 +120,8 @@ class VenueProfile extends React.Component {
 
                     { this.props.venue.description && this.props.venue.description.length > 0 &&
                         <article className="venue-profile__description">
-                            { this.props.venue.description.map((para, i) => <p key={i}>{para}</p>)}
+                            <Markdown>{this.props.venue.description.join("\n\n")}</Markdown>
+                            {/*{ this.props.venue.description.map((para, i) => <p key={i}>{para}</p>)}*/}
                         </article>
                     }
 
