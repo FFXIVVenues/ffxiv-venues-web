@@ -1,7 +1,7 @@
 import "./Notice.css";
 
-function Notice() {
-  return <></>;
+function Notice({children}) {
+  return <div className="notice">{children}</div>;
 }
 
 export { Notice };

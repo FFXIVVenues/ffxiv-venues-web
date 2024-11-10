@@ -12,6 +12,7 @@ import { DateString } from "../DateString/DateString";
 import { TimeString } from "../TimeString/TimeString";
 import { Location } from "../Location/Location";
 import Markdown from 'react-markdown'
+import {Notice} from "../Notice/Notice";
 
 
 class VenueProfile extends React.Component {
@@ -56,6 +57,8 @@ class VenueProfile extends React.Component {
         const overrides = this.props.venue.scheduleOverrides && this.props.venue.scheduleOverrides.filter(o => new Date() < o.end);
         const currentOverride = overrides && overrides.find(s => s.isNow);
         const futureOverrides = overrides && overrides.find(s => !s.isNow);
+        const openlyNsfw = this.props.venue.sfw === false;
+        const hasCourts = this.props.venue.tags.indexOf("Courtesans") > -1;
 
         return (
           <Profiler id="venue-profile" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
@@ -78,6 +81,24 @@ class VenueProfile extends React.Component {
 
                 { this.props.venue.bannerUri &&
                     <img className="venue-profile__banner" src={this.props.venue.bannerUri} alt=""  />
+                }
+
+                { hasCourts && openlyNsfw &&
+                  <Notice>
+                    <strong>Warning:</strong> This venue has indicated they are openly NSFW and offer adult services. You must not visit this venue if you are under 18 years of age or the legal age of consent in your country, and by visiting you declare you are not. Be prepared to verify your age.
+                  </Notice>
+                }
+
+                { hasCourts && !openlyNsfw &&
+                  <Notice>
+                      <strong>Warning:</strong> This venue has indicated they offer adult services. You must not partake in these services if you are under 18 years of age or the legal age of consent in your country, and by partaking in these services you declare you are not. Be prepared to verify your age.
+                  </Notice>
+                }
+
+                { !hasCourts && openlyNsfw &&
+                  <Notice>
+                      <strong>Warning:</strong> This venue has indicated they are openly NSFW. You must not visit this venue if you are under 18 years of age or the legal age of consent in your country, and by visiting you declare you are not. Be prepared to verify your age.
+                  </Notice>
                 }
 
                 <div className="venue-profile__details">

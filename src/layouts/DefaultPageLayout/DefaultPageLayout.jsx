@@ -29,8 +29,6 @@ const DefaultPageLayout = ({ header, children }) => {
         {header}
       </div>
 
-      <Notice />
-
       <div className="default-page-layout__content">
         {children}
       </div>

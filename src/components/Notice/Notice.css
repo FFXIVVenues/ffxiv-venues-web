@@ -1,5 +1,6 @@
 .notice {
-    margin-top: 68px;
+    width: 100%;
+    box-sizing: border-box;
     border-style: none none solid none;
     border-width: 1px;
     border-color: var(--accent-color);
@@ -7,9 +8,7 @@
     padding: 10px 15px;
     background-color: var(--accent-dark-color);
     color: #ddd;
-    cursor: pointer;
-    margin-bottom: -70px;
-    text-align: center;
+    font-size: small;
 }
 
 .notice a {

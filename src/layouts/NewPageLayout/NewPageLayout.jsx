@@ -16,7 +16,6 @@ const NewPageLayout = ({ panel, children }) => {
 
   return <>
     <div className="new-page-layout" style={{ backgroundImage: `url(${backdropImage})` }}>
-      <Notice />
       <div className="new-page-layout__panel">
         <div className="new-page-layout__logo-container">
           <h1><Logo alt="FFXIV Venues"/></h1>
