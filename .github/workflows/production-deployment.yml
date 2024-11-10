@@ -9,7 +9,7 @@ jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+    name: Build and Deploy to Azure
     environment:
       name: 'Production'
       url: https://ffxivvenues.com/
@@ -30,7 +30,8 @@ jobs:
           api_location: ""
           output_location: "dist"
 
-  build_and_publish:
+  build_and_publish_docker_image:
+    name: Build and Publish Docker Image
     runs-on: self-hosted
 
     steps:
