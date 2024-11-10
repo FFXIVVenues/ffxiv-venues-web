@@ -1,0 +1,25 @@
+.textbox__container {
+    background-color: var(--outline-color);
+    padding: 6px 9px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    svg {
+        width: 21px;
+        height: 21px;
+        margin-right: 5px;
+        margin-top: -1px;
+    }
+
+    input {
+        display: block;
+        min-width: 0;
+        background-color: transparent;
+        border: none;
+        color: var(--foreground-color);
+        font-size: 1em;
+        outline: none;
+        margin-top: 2px;
+    }
+}

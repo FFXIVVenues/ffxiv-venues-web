@@ -1,6 +1,6 @@
 .default-page-layout {
     background-image: var(--hero-image);
-    background-position-x: 000px;
+    background-position-x: 0;
     background-attachment: fixed;
     background-size: 280px auto;
     background-repeat: no-repeat;
@@ -74,5 +74,8 @@
 }
 
 @media screen and (min-width: 1245px) and (min-height: 1075px) {
-    .default-page-layout { background-size: auto 100vh; }
+    .default-page-layout {
+        background-size: auto 100vh;
+        padding-left: 27.5vh;
+    }
 }

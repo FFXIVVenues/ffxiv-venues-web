@@ -4,7 +4,7 @@ import { HorizontalScroll } from "../HorizontalScroll/HorizontalScroll"
 import {Profiler} from "react";
 
 export const VenueCardScroller = ({venues})  =>
-  <Profiler id="venue-strip" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+  <Profiler id="venue-strip" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
     <div className="venue-strip">
       <HorizontalScroll reverseScroll>
         { venues.map((v, i) =>

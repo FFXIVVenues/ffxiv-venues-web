@@ -1,6 +1,6 @@
-.venue-directory__error,
-.venue-directory__loading,
-.venue-directory__none-found {
+.new-venue-directory__error,
+.new-venue-directory__loading,
+.new-venue-directory__none-found {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,8 @@
     margin-bottom: 100px;
 }
 
-.venue-directory__loading .icons__loading {
+.new-venue-directory__loading .icons__loading {
     width: 45px;
     height: 45px;
 }
+

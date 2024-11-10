@@ -58,7 +58,7 @@ class VenueProfile extends React.Component {
         const futureOverrides = overrides && overrides.find(s => !s.isNow);
 
         return (
-          <Profiler id="venue-profile" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+          <Profiler id="venue-profile" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
             <div className={"venue-profile" + (this.props.venue.resolution?.isNow ? " venue-profile--active" : "")}>
                 <div className="venue-profile__user-settings">
                     <button
@@ -146,7 +146,7 @@ class VenueProfile extends React.Component {
                       </div>
                     }
 
-                    <Profiler id="venue-profile__schedule" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+                    <Profiler id="venue-profile__schedule" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
                         <div className="venue-profile__schedule">
 
                             { this.props.venue.resolution?.isNow &&

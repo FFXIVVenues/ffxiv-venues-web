@@ -14,7 +14,7 @@ class VenueCard extends VenueListItem {
 
     render() {
         const openingResolution = this.props.opening?.resolution || this.props.venue.resolution;
-        return <Profiler id="venue-card" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+        return <Profiler id="venue-card" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
             <div id={"venue-" + (this.props.venue.id)} className={"venue-card " +
                                                                     (this.props.venue.id) + 
                                                                     (this.props.venue.resolution?.isNow ? " venue-card--open" : "") +

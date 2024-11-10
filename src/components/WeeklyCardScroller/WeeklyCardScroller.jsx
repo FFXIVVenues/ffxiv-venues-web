@@ -8,11 +8,11 @@ import days from "../../consts/days.json";
 const currentDay = timeService.getLocalDay();
 
 export const WeeklyCardScroller = ({ venues }) =>
-  <Profiler id="WeeklyCardScroller" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+  <Profiler id="WeeklyCardScroller" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
 
     { /* Favourites */ }
     { venues.favourites?.length > 0 &&
-      <Profiler id="weekly-card-scroller__favourites" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+      <Profiler id="weekly-card-scroller__favourites" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
         <div className="weekly-card-scroller__list weekly-card-scroller__favourites">
           <details open>
             <summary><h2>Favorites</h2></summary>
@@ -23,7 +23,7 @@ export const WeeklyCardScroller = ({ venues }) =>
 
     { /* Open */ }
     { venues.open?.length > 0 &&
-      <Profiler id="weekly-card-scroller__open" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+      <Profiler id="weekly-card-scroller__open" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
         <div className="weekly-card-scroller__list weekly-card-scroller__opennow">
           <details open>
             <summary><h2>Open now</h2></summary>
@@ -34,7 +34,7 @@ export const WeeklyCardScroller = ({ venues }) =>
 
     { /* Newest */ }
     { venues.newest?.length > 0 &&
-      <Profiler id="weekly-card-scroller__new" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+      <Profiler id="weekly-card-scroller__new" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
         <div className="weekly-card-scroller__list weekly-card-scroller__new">
           <details open>
             <summary><h2>Newest</h2></summary>
@@ -50,7 +50,7 @@ export const WeeklyCardScroller = ({ venues }) =>
         if (dayVenues.length === 0) {
           return null;
         }
-        return <Profiler id={`weekly-card-scroller__day-${day}`} onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)} key={i}>
+        return <Profiler id={`weekly-card-scroller__day-${day}`} onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)} key={i}>
           <div className="weekly-card-scroller__list weekly-card-scroller__day" key={i}>
             <details open>
               <summary><h2>{i === 0 ? `Today (${day})` : i === 1 ? `Tomorrow (${day})` : day}</h2></summary>
@@ -63,7 +63,7 @@ export const WeeklyCardScroller = ({ venues }) =>
 
     { /* Future venues */ }
     { venues.future?.length > 0 &&
-      <Profiler id="weekly-card-scroller__future" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+      <Profiler id="weekly-card-scroller__future" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
         <div className="weekly-card-scroller__list weekly-card-scroller__future">
           <details open>
             <summary><h2>Future openings</h2></summary>
@@ -74,13 +74,13 @@ export const WeeklyCardScroller = ({ venues }) =>
 
     { /* Unscheduled */ }
     { venues.unscheduled?.length > 0 &&
-      <Profiler id="weekly-card-scroller__unscheduled" onRender={(id, phase, duration) => console.log(`${id} rendered (${phase}) in ${duration}ms.`)}>
+      <Profiler id="weekly-card-scroller__unscheduled" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
         <div className="weekly-card-scroller__list weekly-card-scroller__unscheduled">
           <details open>
             <summary><h2>Unscheduled</h2></summary>
             <VenueCardScroller venues={venues.unscheduled} />
           </details>
         </div>
-      </Profiler>}
+      </Profiler> }
 
   </Profiler>
