@@ -67,6 +67,7 @@ body.modal-open .modal-stage {
         border-radius: 0;
         border: none;
         animation-name: slideIn;
+        max-height: 80vh;
     }
 }
 
