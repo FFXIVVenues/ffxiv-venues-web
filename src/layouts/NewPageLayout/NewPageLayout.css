@@ -84,8 +84,8 @@
     .new-page-layout__bottom-cta-buttons {
       flex: initial;
       border-top: solid 1px var(--outline-color);
+      padding: 10px 0 10px 0;
       .menu-button {
-        margin: 10px 0 10px 0;
       }
     }
 
