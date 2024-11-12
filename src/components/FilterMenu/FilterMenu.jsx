@@ -83,7 +83,7 @@ export function FilterMenu(props) {
             <span className="filter-menu__label" onClick={() => onActivate(option, i)}>{option.name}</span>
             <div className="filter-menu__right-icon">{open !== i && option.options && <RightArrow alt="Navigate In Icon" onClick={() => setOpen(i)}/>}</div>
           </div>
-          {option.options &&
+          { option.options &&
             <FilterMenu
               _stackKey={stackKey + "." + i}
               open={open === i}

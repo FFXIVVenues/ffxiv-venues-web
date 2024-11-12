@@ -45,8 +45,8 @@
 }
 
 .filter-menu__left-icon {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 6px;
     cursor: pointer;
     width: 35px;
     height: 16px;
@@ -54,6 +54,7 @@
 }
 
 .filter-menu__label {
+    font-family: system-ui;
     cursor: pointer;
     padding-top: 5px;
     padding-bottom: 5px;
