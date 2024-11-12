@@ -21,7 +21,12 @@
     border-width: 0 1px 0 1px;
 
 
+    display: flex;
+    flex-direction: column;
+
+
     .new-page-layout__logo-container {
+      flex: 0 1 auto;
       padding: 15px;
       border-bottom: solid 1px var(--outline-color);
 
@@ -31,6 +36,7 @@
     }
 
     .new-page-layout__user-container {
+      flex: initial;
       border-bottom: solid 1px var(--outline-color);
       padding: 12px 15px;
       display: flex;
@@ -59,14 +65,27 @@
       }
     }
 
-    .new-page-layout__add-venue {
-      display: flex;
-      align-items: center;
-      padding: 15px 20px;
+    .new-page-layout__top-cta-buttons {
       border-bottom: solid 1px var(--outline-color);
+      .new-page-layout__add-venue {
+        margin: 10px 0 10px 0;
+      }
+    }
 
-      svg {
-        margin-right: 15px
+    .new-page-layout__panel-content {
+      position: relative;
+      flex: auto;
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .new-page-layout__bottom-cta-buttons {
+      flex: initial;
+      border-top: solid 1px var(--outline-color);
+      .menu-button {
+        margin: 10px 0 10px 0;
       }
     }
 

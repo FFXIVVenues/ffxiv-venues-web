@@ -6,7 +6,6 @@ function Button(props) {
     let style = {
         padding: "8px",
         height: "fit-content",
-        // minWidth: 80,
         border: "dimgray 1px solid",
         backgroundColor: "transparent",
         boxSizing: "border-box",

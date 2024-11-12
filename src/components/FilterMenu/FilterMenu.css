@@ -28,6 +28,12 @@
     align-items: center;
     justify-content: space-between;
     animation: .2s slideInFromRight linear;
+
+    &:hover {
+        /*border-top-color: #8f509f;*/
+        /*border-bottom-color: #8f509f;*/
+        background-color: #373737;
+    }
 }
 
 .filter-menu__item-controls--active {
