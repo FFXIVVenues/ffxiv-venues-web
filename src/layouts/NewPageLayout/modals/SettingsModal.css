@@ -1,0 +1,10 @@
+.modal-stage__modal.settings-modal {
+  width: 250px;
+  padding: 20px;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0 0 10px;
+  }
+}

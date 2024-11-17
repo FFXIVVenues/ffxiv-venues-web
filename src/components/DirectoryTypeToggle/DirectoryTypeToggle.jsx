@@ -1,9 +1,10 @@
+import "./DirectoryTypeToggle.css";
+
 import {settingsService} from "../../services/settingsService";
 import ListViewIcon from "../../assets/icons/list-view-icon.svg";
 import CardViewIcon from "../../assets/icons/card-view-icon.svg";
 import React, {useEffect, useState} from "react";
 
-import "./DirectoryTypeToggle.css";
 
 export const DirectoryTypeToggle = () => {
 

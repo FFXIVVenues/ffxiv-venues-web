@@ -8,7 +8,8 @@ import { NewPageLayout } from "../../layouts/NewPageLayout/NewPageLayout";
 import { venueService } from "../../services/venueService";
 import { favouritesService } from "../../services/favouritesService";
 import { settingsService } from "../../services/settingsService";
-import {PanelFilters} from "./PanelFilters/PanelFilters";
+import {DirectoryMenu} from "./DirectoryMenu/DirectoryMenu";
+import backdropImage from "./backdrop.webp";
 
 export function NewDirectoryPage() {
   console.time("NewDirectoryPage.render");
@@ -33,7 +34,10 @@ export function NewDirectoryPage() {
   };
 
   return <Profiler id="NewDirectoryPage" onRender={(id, phase, duration) => console.log(`NewDirectoryPage.render: ${duration}ms.`)}>
-    <NewPageLayout panel={<PanelFilters onFilter={onFilter}/>}>
+    <NewPageLayout
+      panel={<DirectoryMenu onFilter={onFilter}/>}
+      backgroundImage={backdropImage}>
+
       <div className="new-venue-directory-page">
         {
           error ?

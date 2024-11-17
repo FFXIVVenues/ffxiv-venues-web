@@ -1,11 +1,13 @@
 .new-page-layout {
   --panel-width: 240px;
-  --background-color: rgb(30, 30, 30);
+  --background-color: rgb(20, 20, 20);
 
   background-color: var(--background-color);
   background-size: 100vw;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
+  min-height: 100vh;
+  overflow: auto;
 
   .new-page-layout__panel {
     top: 0;
@@ -15,6 +17,8 @@
     position: fixed;
     background-color: var(--panel-color);
     box-shadow: black 0 0 5px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 
     border-style: solid;
     border-color: var(--outline-color);
@@ -92,16 +96,9 @@
   }
 
   .new-page-layout__content {
-    padding-top: 700px;
+    margin-top: 20px;
     margin-left: calc(var(--panel-width) + 40px);
     margin-right: 20px;
   }
 
-}
-
-
-@media screen and (max-width: 615px) {
-  .modal-stage__modal.new-venue-modal {
-    width: 100%;
-  }
 }

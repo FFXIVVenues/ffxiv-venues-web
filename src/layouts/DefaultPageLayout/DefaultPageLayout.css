@@ -23,6 +23,11 @@
     align-items: center;
     padding: 10px 20px 5px;
 
+    .aether-venues__view-toggle {
+        margin-left: 141px;
+        margin-bottom: 3px;
+    }
+
     h1 {
         display: inline-block;
         margin: 0;
@@ -40,15 +45,6 @@
     left: 20px;
 }
 
-.modal-stage__modal.new-venue-modal {
-    width: 800px;
-}
-
-@media screen and (max-width: 615px) {
-    .modal-stage__modal.new-venue-modal {
-        width: 100%;
-    }
-}
 
 @media screen and (min-width: 1245px) {
     .default-page-layout__staff-list--collapsible { display: block; }

@@ -2,24 +2,29 @@ import "./NewPageLayout.css";
 
 import React, {useState} from 'react';
 import Logo from "../../assets/logos/logo.svg";
-import tempAvatar from "../../pages/NewDirectory/PanelFilters/assets/avatar.jpg";
 import SettingsIcon from "../../assets/icons/settings-icon.svg";
 import AddIcon from "../../assets/icons/add-icon.svg";
 import DiscordIcon from "../../assets/icons/discord-icon.svg";
 import RightArrowIcon from "../../assets/icons/right-arrow.svg";
-import backdropImage from "./backdrop.webp";
 import {Modal} from "../../components/ModalStage/Modal";
 import {ModalCloseButton} from "../../components/ModalStage/ModalCloseButton";
 import {NewVenueGuidance} from "../../components/NewVenueGuidance/NewVenueGuidance";
 import {MenuButton} from "../../components/MenuButton/MenuButton";
 import {DirectoryTypeToggle} from "../../components/DirectoryTypeToggle/DirectoryTypeToggle";
+import {SettingsModal} from "./modals/SettingsModal";
+import {NewVenueModal} from "./modals/NewVenueModal";
 
-const NewPageLayout = ({ panel, children }) => {
+const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttachment, className }) => {
   const [ showNewVenueModal, setShowNewVenueModal ] = useState(false);
   const [ showSettingsModal, setShowSettingsModal ] = useState(false);
 
   return <>
-    <div className="new-page-layout" style={{ backgroundImage: `url(${backdropImage})` }}>
+    <div className={`new-page-layout ${className ? className : ""}`}
+         style={{
+           backgroundImage: backgroundImage ? `url(${backgroundImage})` : "none",
+           backgroundAttachment: backgroundImageAttachment || "scroll"
+         }}>
+
       <div className="new-page-layout__panel">
         <div className="new-page-layout__logo-container">
           <h1><Logo alt="FFXIV Venues"/></h1>
@@ -62,27 +67,14 @@ const NewPageLayout = ({ panel, children }) => {
         </div>
 
       </div>
+
       <div className="new-page-layout__content">
         {children}
       </div>
     </div>
 
-
-    {/* Modals */}
-    {/* Convert these to easily re-usable predefined modals */}
-    {showNewVenueModal &&
-      <Modal className="new-venue-modal" onStageClick={_ => setShowNewVenueModal(false)}>
-        <ModalCloseButton onClick={_ => setShowNewVenueModal(false) } />
-        <NewVenueGuidance />
-      </Modal>
-    }
-
-    {showSettingsModal &&
-      <Modal className="settings-modal" onStageClick={_ => setShowSettingsModal(false)}>
-        <ModalCloseButton onClick={_ => setShowSettingsModal(false) } />
-        <DirectoryTypeToggle />
-      </Modal>
-    }
+    {showNewVenueModal && <NewVenueModal onClose={_ => setShowNewVenueModal(false)} />}
+    {showSettingsModal && <SettingsModal onClose={_ => setShowSettingsModal(false)} /> }
   </>
 }
 

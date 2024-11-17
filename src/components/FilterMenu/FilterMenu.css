@@ -32,7 +32,7 @@
     &:hover {
         /*border-top-color: #8f509f;*/
         /*border-bottom-color: #8f509f;*/
-        background-color: #373737;
+        background-color: rgba(0, 0, 0, 0.1);
     }
 }
 

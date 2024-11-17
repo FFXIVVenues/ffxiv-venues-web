@@ -1,4 +1,4 @@
-import "./PanelFilters.css";
+import "./DirectoryMenu.css";
 
 import React, {useRef, useState} from "react";
 import {FilterMenu} from "../../../components/FilterMenu/FilterMenu";
@@ -11,7 +11,7 @@ import SearchIcon from "../../../assets/icons/search-icon.svg";
 import {categoryFilters} from "./filters/categoryFilters";
 import {featureFilters} from "./filters/featureFilters";
 
-export const PanelFilters = ({ onFilter }) => {
+export const DirectoryMenu = ({ onFilter }) => {
 
   const filterRef = useRef({
     search: null,
