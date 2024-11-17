@@ -3,7 +3,7 @@
     list-style: none;
     padding-left: 0;
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: none;
     font-size: 1em;
 }
@@ -30,8 +30,6 @@
     animation: .2s slideInFromRight linear;
 
     &:hover {
-        /*border-top-color: #8f509f;*/
-        /*border-bottom-color: #8f509f;*/
         background-color: rgba(0, 0, 0, 0.1);
     }
 }
