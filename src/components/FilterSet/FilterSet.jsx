@@ -7,13 +7,10 @@ import RightArrow from "./right-arrow.svg";
 export function FilterSet(props) {
   const [open, setOpen] = useState(-1);
   const [activeOptions, setActiveOptions] = useState([]);
-  const [activeStack, setActiveStack ] = useState(props._activeStack || 0);
-
-  if (props._stackKey === undefined)
-    console.log(activeOptions.length, activeStack);
+  const [activeStack, setActiveStack ] = useState(props._activeStack || '0');
 
   const stackKey = props._stackKey === undefined ? 0 : props._stackKey;
-  const noFiltersSelected = activeOptions.length === 0 && activeStack === 0;
+  const noFiltersSelected = !activeOptions.find(a => a) && activeStack === '0';
 
   const onClear = () => {
     setActiveOptions([]);
@@ -40,22 +37,21 @@ export function FilterSet(props) {
         _stackKey: stackKey,
         selectedOptions: selectedOptions
       });
-    if (selectedOptions.length > 0)
-      setActiveStack(stackKey);
+    setActiveStack(selectedOptions.length > 0 ? stackKey : '0');
 
     console.timeEnd("FilterMenu.onActivate");
   };
 
   const onChildActivate = (filterData) => {
     setActiveOptions([]);
-    setActiveStack(filterData._stackKey);
+    setActiveStack(filterData.selectedOptions.length > 0 ? filterData._stackKey : '0');
     if (props.onFilter) props.onFilter(filterData);
   };
 
   useEffect(() => {
     if (props._activeStack !== stackKey) {
       setActiveOptions([]);
-      setActiveStack(props._activeStack || 0)
+      setActiveStack(props._activeStack || '0')
     }
   }, [ props._activeStack ]);
 
