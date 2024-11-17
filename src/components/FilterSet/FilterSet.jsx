@@ -1,10 +1,10 @@
-import "./FilterMenu.css";
+import "./FilterSet.css";
 
 import React, { useState, useEffect } from 'react';
 import LeftArrow from "./left-arrow.svg";
 import RightArrow from "./right-arrow.svg";
 
-export function FilterMenu(props) {
+export function FilterSet(props) {
   const [open, setOpen] = useState(-1);
   const [activeOptions, setActiveOptions] = useState([]);
   const [activeStack, setActiveStack ] = useState(props._activeStack || 0);
@@ -49,7 +49,6 @@ export function FilterMenu(props) {
   const onChildActivate = (filterData) => {
     setActiveOptions([]);
     setActiveStack(filterData._stackKey);
-    setHeaderSelected(false);
     if (props.onFilter) props.onFilter(filterData);
   };
 
@@ -84,7 +83,7 @@ export function FilterMenu(props) {
             <div className="filter-menu__right-icon">{open !== i && option.options && <RightArrow alt="Navigate In Icon" onClick={() => setOpen(i)}/>}</div>
           </div>
           { option.options &&
-            <FilterMenu
+            <FilterSet
               _stackKey={stackKey + "." + i}
               open={open === i}
               options={option.options}

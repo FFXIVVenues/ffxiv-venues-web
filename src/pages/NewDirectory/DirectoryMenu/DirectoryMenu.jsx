@@ -1,7 +1,7 @@
 import "./DirectoryMenu.css";
 
 import React, {useRef, useState} from "react";
-import {FilterMenu} from "../../../components/FilterMenu/FilterMenu";
+import {FilterSet} from "../../../components/FilterSet/FilterSet";
 import {TextBox} from "../../../components/TextBox/TextBox";
 import {worldFilters} from "./filters/worldFilters";
 import GlobeIcon from "../../../assets/icons/globe-icon.svg";
@@ -39,7 +39,7 @@ export const DirectoryMenu = ({ onFilter }) => {
         <TextBox className="filters-panel__search" Icon={SearchIcon} label="Search venues" onChange={e => updateFilters({ search: e.target.value })} />
       </div>
 
-      <FilterMenu
+      <FilterSet
         heading={{
           icon: GlobeIcon,
           name: "All regions"
@@ -48,7 +48,7 @@ export const DirectoryMenu = ({ onFilter }) => {
         options={worldFilters}
         onFilter={e => updateFilters({ locationFilters: e.selectedOptions.map(o => o.filter) })} />
 
-      <FilterMenu
+      <FilterSet
         heading={{
           icon: SceneIcon,
           name: "All scenes",
@@ -56,7 +56,7 @@ export const DirectoryMenu = ({ onFilter }) => {
         options={categoryFilters}
         onFilter={e => updateFilters({ categoryFilters: e.selectedOptions.map(o => o.filter) })} />
 
-      <FilterMenu
+      <FilterSet
         heading={{
           icon: PartierIcon,
           name: "All features",
