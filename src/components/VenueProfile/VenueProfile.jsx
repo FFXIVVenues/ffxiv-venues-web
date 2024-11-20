@@ -182,7 +182,7 @@ class VenueProfile extends React.Component {
                               </div>
                             }
 
-                            { currentOverride &&
+                            { currentOverride && !currentOverride.open &&
                               <div className="venue-profile__schedule-block venue-profile__override">
                                   Venue is closed until <DateString date={currentOverride.end} />!
                               </div>

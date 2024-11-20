@@ -16,31 +16,30 @@ export const regionFilter = (region) =>
   v => {
     switch (region) {
       case "NA":
-        return v.location.dataCenter === "Aether"
-          || v.location.dataCenter === "Crystal"
-          || v.location.dataCenter === "Primal"
-          || v.location.dataCenter === "Dynamis";
+        return dataCenterFilter("Aether")(v)
+          || dataCenterFilter("Crystal")(v)
+          || dataCenterFilter("Primal")(v)
+          || dataCenterFilter("Dynamis")(v);
       case "JP":
-        return v.location.dataCenter === "Elemental"
-          || v.location.dataCenter === "Gaia"
-          || v.location.dataCenter === "Mana"
-          || v.location.dataCenter === "Meteor";
+        return dataCenterFilter("Elemental")(v)
+          || dataCenterFilter("Gaia")(v)
+          || dataCenterFilter("Mana")(v)
+          || dataCenterFilter("Meteor")(v);
       case "EU":
-        return v.location.dataCenter === "Chaos"
-          || v.location.dataCenter === "Light"
-          ;
+        return dataCenterFilter("Chaos")(v)
+          || dataCenterFilter("Light")(v);
       case "OC":
-        return v.location.dataCenter === "Materia";
+        return dataCenterFilter("Materia")(v);
       default:
         return false;
     }
   };
 
 export const dataCenterFilter = (dataCenter) =>
-  v => v.location.dataCenter === dataCenter;
+  v => v.location.dataCenter === dataCenter  || v.location.override?.toLowerCase().includes(dataCenter.toLowerCase());
 
 export const worldFilter = (world) =>
-  v => v.location.world === world;
+  v => v.location.world === world || v.location.override?.toLowerCase().includes(world.toLowerCase());
 
 export const propFilter = (prop, value) =>
   v => v[prop] === value;
