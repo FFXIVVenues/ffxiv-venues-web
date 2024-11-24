@@ -130,6 +130,10 @@
 
 @container new-page-layout (min-width: 700px) {
   .new-page-layout {
+    .new-page-layout__panel-expander {
+      display: none;
+    }
+
     .new-page-layout__panel {
       position: fixed;
       top: 0;
