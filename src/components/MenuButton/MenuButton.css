@@ -1,12 +1,17 @@
 .menu-button {
+  display: grid;
+  grid-template-columns: 16px auto;
+  align-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+
   width: 100%;
   text-decoration: none;
   background: none;
   color: inherit;
   font-family: inherit;
   font-size: inherit;
-  display: flex;
-  align-items: center;
   padding: 5px 20px 6px;
   border-top: 1px solid transparent;
   border-right-style: none;
@@ -15,10 +20,8 @@
   cursor: pointer;
   box-sizing: border-box;
 
-  svg {
-    margin-right: 10px;
-    width: 18px;
-    height: 18px;
+  .menu-button__icon {
+    display: flex;
   }
 
   &:hover {

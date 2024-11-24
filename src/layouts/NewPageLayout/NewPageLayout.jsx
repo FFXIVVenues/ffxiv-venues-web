@@ -6,17 +6,16 @@ import SettingsIcon from "../../assets/icons/settings-icon.svg";
 import AddIcon from "../../assets/icons/add-icon.svg";
 import DiscordIcon from "../../assets/icons/discord-icon.svg";
 import RightArrowIcon from "../../assets/icons/right-arrow.svg";
-import {Modal} from "../../components/ModalStage/Modal";
-import {ModalCloseButton} from "../../components/ModalStage/ModalCloseButton";
-import {NewVenueGuidance} from "../../components/NewVenueGuidance/NewVenueGuidance";
+import UpArrowIcon from "../../assets/icons/up-arrow.svg";
+import DownArrowIcon from "../../assets/icons/down-arrow.svg";
 import {MenuButton} from "../../components/MenuButton/MenuButton";
-import {DirectoryTypeToggle} from "../../components/DirectoryTypeToggle/DirectoryTypeToggle";
 import {SettingsModal} from "./modals/SettingsModal";
 import {NewVenueModal} from "./modals/NewVenueModal";
 
 const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttachment, className }) => {
   const [ showNewVenueModal, setShowNewVenueModal ] = useState(false);
   const [ showSettingsModal, setShowSettingsModal ] = useState(false);
+  const [ expanded, setExpanded ] = useState(false);
 
   return <>
     <div className={`new-page-layout ${className ? className : ""}`}
@@ -25,9 +24,15 @@ const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttach
            backgroundAttachment: backgroundImageAttachment || "scroll"
          }}>
 
-      <div className="new-page-layout__panel">
+      <div className={`new-page-layout__panel  ${expanded ? "new-page-layout__panel--expanded" : ""}`}>
         <div className="new-page-layout__logo-container">
           <h1><Logo alt="FFXIV Venues"/></h1>
+        </div>
+
+        <div className="new-page-layout__panel-expander">
+          <button onClick={_ => setExpanded(!expanded)}>
+            { expanded ? <UpArrowIcon /> : <DownArrowIcon />}
+          </button>
         </div>
 
         {/*<div className="new-page-layout__user-container">*/}
@@ -38,7 +43,7 @@ const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttach
         {/*  <SettingsIcon alt="Settings" className="index-menu__settings-icon"/>*/}
         {/*</div>*/}
 
-        <div className="new-page-layout__top-cta-buttons">
+        <div className="new-page-layout__top-cta-buttons new-page-layout__expandable">
           <MenuButton
             className="new-page-layout__add-venue"
             Icon={AddIcon}
@@ -49,11 +54,11 @@ const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttach
           </MenuButton>
         </div>
 
-        <div className="new-page-layout__panel-content">
+        <div className="new-page-layout__panel-content new-page-layout__expandable">
           {panel}
         </div>
 
-        <div className="new-page-layout__bottom-cta-buttons">
+        <div className="new-page-layout__bottom-cta-buttons new-page-layout__expandable">
           <MenuButton
             Icon={DiscordIcon}
             href="https://discord.gg/gTP65VYcMj">
