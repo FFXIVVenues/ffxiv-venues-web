@@ -30,7 +30,6 @@ export const staff = [
     // EU
     { name: "Darayna Sarantes", world: "Alpha", role: "Indexer (EU)", photoId: "de3016101a8c35c48a2466ef21c881ba_6132295fcf5570fb8b0a944ef322a598fc0", discordId: "268840992021544970" },
     { name: "Aniha Aya", world: "Spriggan", role: "Indexer (EU)", photoId: "b285fd2a55b1fc80e7cab25fb2021f05_feaf0a2e88ff164813fbc9b85876fa48fc0", discordId: "516097960803827742" },
-    { name: "Amatsu Kuwashima", world: "Phoenix", role: "Photographer (EU)", photoId: "b62177d1065ce573cb3eb75ee6e928d0_5047bc596a4bab2dc7f7c120bb22dec5fc0", link: "https://amatsupng.crd.co/#" },
 
     // OCE
     { name: "Juno V'mhari", world: "Sophia", role: "Indexer (OCE)", photoId: "66f3e42541072d69e5dc4672c49769d9_ba15a18cd3a8fb567e39053022515eb6fc0", discordId: "152015224281628672" },
