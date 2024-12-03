@@ -43,10 +43,15 @@
         cursor: pointer;
         width: 100%;
         text-align: center;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 3px;
 
         &:hover {
           svg {
             stroke: var(--accent-color);
+            fill: var(--accent-color);
           }
         }
       }

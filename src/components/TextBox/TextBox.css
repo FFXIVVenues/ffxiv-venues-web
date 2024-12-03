@@ -7,6 +7,9 @@
 
     &:focus-within {
         background-color: rgba(0, 0, 0, 0.2);
+        input::placeholder {
+            opacity: 0;
+        }
     }
 
     svg {
