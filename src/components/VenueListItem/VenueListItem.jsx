@@ -41,7 +41,7 @@ const VenueListItem = ({ venue, opening }) => {
               <div className="venue-opening__cell venue-opening__location"><Location location={venue.location} shorten /></div>
           </div>
           {openModal && (
-            <Modal className="venue-modal" key={venue.name} onStageClick={onCloseClick} onEscape={onCloseClick}>
+            <Modal className="venue-modal" onStageClick={onCloseClick} onEscape={onCloseClick}>
                 <ModalCloseButton onClick={onCloseClick} />
                 <VenueProfile venue={venue} />
             </Modal>
