@@ -1,30 +1,23 @@
+import React, { useEffect } from "react";
 import { modalService } from "./ModalService";
-import React from "react";
 
-class Modal extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this._destroyModal = null;
-    }
-
-    componentDidMount() {
-        this._destroyModal = modalService.push({ 
-            className: this.props.className,
-            style: this.props.style,
-            contents: this.props.children,
-            onStageClick: this.props.onStageClick
+const Modal = ({ key, className, style, children, onStageClick, onEscape }) => {
+    useEffect(() => {
+        const destroyModal = modalService.push({
+            key,
+            className,
+            style,
+            contents: children,
+            onStageClick,
+            onEscape
         });
-    }
 
-    componentWillUnmount() {
-        this._destroyModal && this._destroyModal();
-    }
+        return () => {
+            destroyModal && destroyModal();
+        };
+    }, [className, style, children, onStageClick]);
 
-    render() {
-        return <React.Fragment />
-    };
-
-}
+    return <React.Fragment />;
+};
 
 export { Modal };

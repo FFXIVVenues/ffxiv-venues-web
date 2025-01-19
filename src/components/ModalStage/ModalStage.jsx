@@ -1,53 +1,52 @@
 import { modalService } from "./ModalService";
-import React from "react";
-
+import React, { useState, useEffect, useCallback, memo } from "react";
 import "./ModalStage.css";
 
-class ModalStage extends React.Component {
+const ModalStage = () => {
+    const [modals, setModals] = useState(modalService.modals);
 
-    constructor() {
-        super();
-        this.destroyObserver = null;
-        this.state = {
-            modals: modalService.modals
+    useEffect(() => {
+        const destroyObserver = modalService.observe(() => {
+            setModals(modalService.modals);
+        });
+
+        return () => {
+            destroyObserver && destroyObserver();
         };
-    }
+    }, []);
 
-    componentDidMount() {
-        this.destroyObserver = modalService.observe(this._onModalsUpdate.bind(this));
-    }
-
-    componentWillUnmount() {
-        this.destroyObserver && this.destroyObserver();
-    }
-
-    _onModalsUpdate() {
-        this.setState({ modals: modalService.modals });
-    }
-
-    _onStageClick(event) {
+    const onStageClick = useCallback((event) => {
         if (event.target !== event.currentTarget) return;
-        for (let modal of this.state.modals) {
-            modal.onStageClick();
-        }
-    }
+        modals.forEach(modal => modal.onStageClick && modal.onStageClick());
+    }, [ modals ]);
 
-    render() {
-        document.querySelector("body").className = this.state.modals.length ? "modal-open" : "";
+    useEffect(() => {
+        document.querySelector("body").className = modals.length ? "modal-open" : "";
+    }, [modals]);
 
-        return (
-            <div className="modal-stage" onClick={this._onStageClick.bind(this)}>
-                { this.state.modals.map((m, i) => 
-                    <div key={i} 
-                         className={"modal-stage__modal " + (m.className ? m.className : "") }
-                         style={m.style}>
-                        { m.contents }
-                    </div>
-                )}
+    const onEscPressed = useCallback((e) => {
+        if (e.key !== "Escape") return;
+        modals.forEach(modal => modal.onEscape && modal.onEscape());
+    });
+
+    useEffect(() => {
+        document.addEventListener("keyup", onEscPressed);
+        return () => {
+            document.removeEventListener("keyup", onEscPressed);
+        };
+    }, [modals]);
+
+    return (
+      <div className="modal-stage" onClick={onStageClick}>
+          {modals.map((m, i) => (
+            <div key={m.key}
+                 className={`modal-stage__modal ${m.className || ""}`}
+                 style={m.style}>
+                {m.contents}
             </div>
-        );
-    }
-
-}
+          ))}
+      </div>
+    );
+};
 
 export { ModalStage };

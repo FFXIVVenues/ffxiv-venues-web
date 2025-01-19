@@ -9,7 +9,8 @@ import { venueService } from "../../services/venueService";
 import { favouritesService } from "../../services/favouritesService";
 import { settingsService } from "../../services/settingsService";
 import {DirectoryMenu} from "./DirectoryMenu/DirectoryMenu";
-import backdropImage from "./backdrop.webp";
+// import backdropImage from "./backdrop.webp";
+import backdropImage from "./kana_draft.png";
 
 export function NewDirectoryPage() {
   console.time("NewDirectoryPage.render");
