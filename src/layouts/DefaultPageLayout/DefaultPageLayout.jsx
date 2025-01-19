@@ -7,7 +7,6 @@ import { PersonList } from '../../components/PersonList/PersonList';
 import { staff } from "../../components/PersonList/PeopleLists";
 import DiscordIcon from "../../assets/icons/discord-icon.svg";
 import NewVenue from "../../assets/icons/new-venue-icon.svg";
-import { Notice } from "../../components/Notice/Notice";
 import { NewVenueGuidance } from '../../components/NewVenueGuidance/NewVenueGuidance';
 import { ModalCloseButton } from "../../components/ModalStage/ModalCloseButton";
 import { venueService } from "../../services/venueService";
@@ -63,14 +62,14 @@ const DefaultPageLayout = ({ header, children }) => {
       </div>
 
       {requestedVenue &&
-        <Modal className="venue-modal" onStageClick={() => setRequestedVenue(null)}>
+        <Modal className="venue-modal" onStageClick={() => setRequestedVenue(null)} onEscape={() => setRequestedVenue(null)}>
           <ModalCloseButton onClick={() => setRequestedVenue(null)} />
           <VenueProfile venue={requestedVenue} />
         </Modal>
       }
 
       {showNewVenueModal &&
-        <Modal className="new-venue-modal" onStageClick={() => setShowNewVenueModal(false)}>
+        <Modal className="new-venue-modal" onStageClick={() => setShowNewVenueModal(false)} onEscape={() => setRequestedVenue(null)}>
           <ModalCloseButton onClick={() => setShowNewVenueModal(false)} />
           <NewVenueGuidance />
         </Modal>

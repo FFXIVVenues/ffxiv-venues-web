@@ -35,7 +35,8 @@ class VenueService {
             future: [],
             unscheduled: []
         };
-        let today = new Date().getDay();
+        let now = new Date();
+        let today = now.getDay();
     
         for (const venue of await this.getVenues()) {
             if (filters && filters.length > 0 && !filters.every(filter => filter(venue))) {
@@ -48,12 +49,13 @@ class VenueService {
                 venueViewModels.newest.push({ venue });
             if (venue.resolution?.isNow)
                 venueViewModels.open.push({ venue });
-            if (venue.schedule === undefined || venue.schedule.length === 0) {
+
+            if (!(venue.schedule?.length || venue.scheduleOverrides?.length)) {
                 venueViewModels.unscheduled.push({ venue });
                 continue;
             }
             for (const opening of venue.schedule) {
-                const venueViewModel = { venue, opening };
+                const venueViewModel = { venue, opening: opening.resolution };
                 if (opening.resolution?.isWithinWeek === false) {
                     venueViewModels.future.push(venueViewModel);
                     continue;
@@ -62,12 +64,24 @@ class VenueService {
                 let relativeDay = (venueDay - today + 7) % 7;
                 venueViewModels.scheduled[relativeDay].push(venueViewModel);
             }
+            for (const override of venue.scheduleOverrides) {
+                if (!override.open)
+                    continue;
+
+                if (override.end < now)
+                    continue;
+
+                const venueViewModel = { venue, opening: override };
+                let venueDay = override.start.getDay();
+                let relativeDay = (venueDay - today + 7) % 7;
+                venueViewModels.scheduled[relativeDay].push(venueViewModel);
+            }
         }
 
         venueViewModels.open = venueViewModels.open.sort((one, another) => another.venue.resolution.start - one.venue.resolution.start);
         venueViewModels.scheduled = venueViewModels.scheduled.map(day => day.sort((one, another) =>
-          one.opening.resolution.start.getHours() - another.opening.resolution.start.getHours()
-        || one.opening.resolution.start.getMinutes() - another.opening.resolution.start.getMinutes()));
+           one.opening.start.getHours() - another.opening.start.getHours()
+        || one.opening.start.getMinutes() - another.opening.start.getMinutes()));
         venueViewModels.newest = venueViewModels.newest.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0));
 
         console.timeEnd('venueService.getVenueSchedule');
