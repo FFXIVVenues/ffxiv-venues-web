@@ -79,11 +79,19 @@ button.venue-profile__visited-button--visited {
     overflow-y: auto;
 }
 
+.venue-profile__nsfw-warning {
+    margin: 10px 0 20px 0;
+    padding: 10px 15px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    font-size: .85em;
+}
+
 .venue-profile__notice {
     margin: 10px 0 20px 0;
     padding: 10px 15px;
     border: solid 1px var(--accent-color);
-    background-color: var(--accent-dark-color);
+    background-color: var(--background-color);
     border-radius: 5px;
 }
 
@@ -225,6 +233,10 @@ button.venue-profile__visited-button--visited {
 .venue-profile_syncshell-value {
     display: inline-block;
     user-select: all;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 5px;
 }
 
 .venue-profile_tags {
