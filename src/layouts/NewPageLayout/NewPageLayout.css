@@ -7,10 +7,9 @@
   background-size: 100vw;
   background-repeat: no-repeat;
   min-height: 100vh;
-  overflow: auto;
 
   .new-page-layout__panel {
-    background-color: var(--panel-color);
+    background-color: var(--panel-color-alpha);
     box-shadow: black 0 0 5px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -111,6 +110,11 @@
 
   }
 
+  .new-page-layout__content {
+    overflow: scroll;
+    height: 100vh;
+    box-sizing: border-box;
+  }
 }
 
 
@@ -125,9 +129,7 @@
     }
 
     .new-page-layout__content {
-      margin-top: 20px;
-      margin-left: calc(240px + 40px);
-      margin-right: 20px;
+      margin-left: calc(240px + 60px);
     }
   }
 }
@@ -148,9 +150,7 @@
     }
 
     .new-page-layout__content {
-      margin-top: 20px;
       margin-left: calc(240px + 40px);
-      margin-right: 20px;
     }
   }
 }

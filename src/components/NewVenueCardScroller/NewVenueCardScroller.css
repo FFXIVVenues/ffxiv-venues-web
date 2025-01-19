@@ -1,0 +1,12 @@
+.venue-strip {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    height: 300px;
+}
+
+.venue-card, .loading-component {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}

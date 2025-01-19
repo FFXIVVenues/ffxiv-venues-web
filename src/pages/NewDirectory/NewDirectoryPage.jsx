@@ -1,15 +1,17 @@
 import "./NewDirectoryPage.css"
 
 import {Profiler, useEffect, useState} from "react";
-import { LoadingIcon } from "../../components/Icons/LoadingIcon";
-import { WeeklyVenueList } from "../../components/WeeklyVenueList/WeeklyVenueList";
-import { WeeklyCardScroller } from "../../components/WeeklyCardScroller/WeeklyCardScroller";
-import { NewPageLayout } from "../../layouts/NewPageLayout/NewPageLayout";
-import { venueService } from "../../services/venueService";
-import { favouritesService } from "../../services/favouritesService";
-import { settingsService } from "../../services/settingsService";
+import {LoadingIcon} from "../../components/Icons/LoadingIcon";
+import {WeeklyVenueList} from "../../components/WeeklyVenueList/WeeklyVenueList";
+import {WeeklyCardScroller} from "../../components/WeeklyCardScroller/WeeklyCardScroller";
+import {NewPageLayout} from "../../layouts/NewPageLayout/NewPageLayout";
+import {venueService} from "../../services/venueService";
+import {favouritesService} from "../../services/favouritesService";
+import {settingsService} from "../../services/settingsService";
 import {DirectoryMenu} from "./DirectoryMenu/DirectoryMenu";
 import backdropImage from "./backdrop.webp";
+import {NewVenueCard} from "../../components/NewVenueCard/NewVenueCard";
+import {NewVenueCardScroller} from "../../components/NewVenueCardScroller/NewVenueCardScroller";
 
 export function NewDirectoryPage() {
   console.time("NewDirectoryPage.render");
@@ -37,6 +39,10 @@ export function NewDirectoryPage() {
     <NewPageLayout
       panel={<DirectoryMenu onFilter={onFilter}/>}
       backgroundImage={backdropImage}>
+
+      { venues &&
+          <NewVenueCardScroller venues={venues.open} />
+      }
 
       <div className="new-venue-directory-page">
         {

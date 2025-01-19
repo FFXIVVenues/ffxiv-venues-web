@@ -3,7 +3,7 @@ import { VenueCard } from "../VenueCard/VenueCard";
 import { HorizontalScroll } from "../HorizontalScroll/HorizontalScroll"
 import {Profiler} from "react";
 
-export const VenueCardScroller = ({venues})  =>
+export const VenueCardScroller = ({venues, cardComponent})  =>
   <Profiler id="venue-strip" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
     <div className="venue-strip">
       <HorizontalScroll reverseScroll>

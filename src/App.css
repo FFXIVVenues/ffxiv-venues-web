@@ -10,7 +10,8 @@
 
 :root {
   --foreground-color: rgb(221, 221, 221);
-  --panel-color: rgba(30, 30, 30, 0.9);
+  --panel-color-alpha: rgba(30, 30, 30, 0.9);
+  --panel-color: rgb(30, 30, 30);
   --background-color: rgb(20, 20, 20);
   --outline-color: rgb(47, 47, 47);
   --accent-dark-color: rgba(113, 60, 127);
