@@ -41,7 +41,7 @@
         border: solid 1px var(--outline-color);
         color: white;
         font-size: 1em;
-        padding: 2px 10px 2px 10px;
+        padding: 6px 10px 6px 10px;
         margin-right: 10px;
         cursor: pointer;
         user-select: none;

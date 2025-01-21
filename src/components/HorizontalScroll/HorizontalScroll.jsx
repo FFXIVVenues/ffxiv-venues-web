@@ -64,17 +64,15 @@ class HorizontalScroll extends Component {
   }
 
   render() {
-    const { style, children } = this.props
-    const { width, height } = style || {}
+    const { children } = this.props
 
     return (
-      <div className={`scroll-horizontal ${this.props.className || ''}`} style={{ height: height || `100%`, width: width || `100%` }}>
+      <div className={`scroll-horizontal ${this.props.className || ''}`}>
         <div onClick={this.scrollLeft.bind(this)} className='scroll-horizontal__arrow scroll-horizontal__arrow--left'></div>
         <div
           ref={r => { this.hScrollParent = r }}
-          style={style}
           className='scroll-horizontal__scroll-parent'>
-            <motion.div style={{ display: `inline-flex`, height: `100%` }} id='horizontal-scroll'>{children}</motion.div>
+            <motion.div style={{ display: `inline-flex` }}>{children}</motion.div>
         </div>
         <div onClick={this.scrollRight.bind(this)} className='scroll-horizontal__arrow scroll-horizontal__arrow--right'></div>
       </div>

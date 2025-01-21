@@ -1,12 +1,43 @@
-.venue-strip {
+details.new-venue-card-scroller {
+    width: 100%;
+    margin-top: -5px;
+
+    summary {
+        margin-left: 35px;
+        display: inline-flex;
+        justify-content: space-between;
+        list-style: none;
+        color: var(--foreground-color);
+        cursor: pointer;
+        margin-bottom: -30px;
+
+        &::after {
+            font-size: .75rem;
+            content: "▲";
+            margin-left: 10px;
+            margin-top: .45rem;
+        }
+
+        &:hover {
+            color: var(--accent-color);
+        }
+
+        h2 {
+            font-size: 1.2em;
+            font-weight: 600;
+            display: inline-block;
+            margin: 0;
+        }
+    }
+
+    &[open] summary::after {
+        content: "▼";
+    }
+}
+
+.new-venue-card-scroller__venues {
     display: grid;
     grid-auto-flow: column;
     gap: 20px;
-    height: 300px;
-}
-
-.venue-card, .loading-component {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 20px;
+    padding: 15px 5px 2px 5px;
 }

@@ -10,8 +10,7 @@ import {favouritesService} from "../../services/favouritesService";
 import {settingsService} from "../../services/settingsService";
 import {DirectoryMenu} from "./DirectoryMenu/DirectoryMenu";
 import backdropImage from "./backdrop.webp";
-import {NewVenueCard} from "../../components/NewVenueCard/NewVenueCard";
-import {NewVenueCardScroller} from "../../components/NewVenueCardScroller/NewVenueCardScroller";
+import {NewWeeklyCardScroller} from "../../components/NewWeeklyCardScroller/NewWeeklyCardScroller";
 
 export function NewDirectoryPage() {
   console.time("NewDirectoryPage.render");
@@ -39,12 +38,8 @@ export function NewDirectoryPage() {
     <NewPageLayout
       panel={<DirectoryMenu onFilter={onFilter}/>}
       backgroundImage={backdropImage}>
-
-      { venues &&
-          <NewVenueCardScroller venues={venues.open} />
-      }
-
       <div className="new-venue-directory-page">
+
         {
           error ?
             <div className="new-venue-directory__error">
@@ -62,7 +57,7 @@ export function NewDirectoryPage() {
             </div> :
 
           listView ? <WeeklyVenueList venues={venues} onFilter={onFilter}/> :
-                     <WeeklyCardScroller venues={venues} onFilter={onFilter}/>
+                     <NewWeeklyCardScroller venues={venues} onFilter={onFilter}/>
         }
       </div>
     </NewPageLayout>

@@ -1,0 +1,12 @@
+/*.new-weekly-card-scroller__list:not([open]) {*/
+/*  height: 0px;*/
+/*}*/
+
+.new-weekly-card-scroller__list .new-venue-card-scroller {
+  height: 50px;
+}
+
+.new-weekly-card-scroller__list .new-venue-card-scroller[open] {
+  height: 325px;
+}
+

@@ -11,11 +11,9 @@ import "./VenueCard.css";
 
 const VenueCard = memo(({ venue, opening }) => {
     const [openModal, setOpenModal] = useState(false);
-
     const onVenueClick = useCallback(() => {
         setOpenModal(true);
     }, []);
-
     const onCloseClick = useCallback(() => {
         setOpenModal(false);
     }, []);
