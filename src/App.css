@@ -12,7 +12,8 @@
   --foreground-color: rgb(221, 221, 221);
   --panel-color-alpha: rgba(30, 30, 30, 0.8);
   --panel-color: rgb(30, 30, 30);
-  --background-color: rgb(20, 20, 20);
+  --background-color-rgb: 20, 20, 20;
+  --background-color: rgb(var(--background-color-rgb));
   --outline-color: rgb(47, 47, 47);
   --accent-dark-color: rgba(113, 60, 127);
   --accent-color: rgba(227, 120, 255);

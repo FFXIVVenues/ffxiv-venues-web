@@ -8,23 +8,22 @@ import DiscordIcon from "../../assets/icons/discord-icon.svg";
 import RightArrowIcon from "../../assets/icons/right-arrow.svg";
 import UpArrowIcon from "../../assets/icons/up-arrow.svg";
 import DownArrowIcon from "../../assets/icons/down-arrow.svg";
-import {MenuButton} from "../../components/MenuButton/MenuButton";
-import {SettingsModal} from "./modals/SettingsModal";
-import {NewVenueModal} from "./modals/NewVenueModal";
+import { MenuButton } from "../../components/MenuButton/MenuButton";
+import { SettingsModal } from "./modals/SettingsModal";
+import { NewVenueModal } from "./modals/NewVenueModal";
 
-const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttachment, className }) => {
+const NewPageLayout = ({ children, className }) => {
   const [ showNewVenueModal, setShowNewVenueModal ] = useState(false);
   const [ showSettingsModal, setShowSettingsModal ] = useState(false);
   const [ expanded, setExpanded ] = useState(false);
 
-  return <>
-    <div className={`new-page-layout ${className ? className : ""}`}
-         style={{
-           backgroundImage: backgroundImage ? `url(${backgroundImage})` : "none",
-           backgroundAttachment: backgroundImageAttachment || "scroll"
-         }}>
+  const PanelContent = children.find(child => child.type === NewPageLayout.Panel);
+  const PageContent = children.find(child => child.type === NewPageLayout.Page);
 
-      <div className={`new-page-layout__panel  ${expanded ? "new-page-layout__panel--expanded" : ""}`}>
+  return <>
+    <div className={`new-page-layout ${className ? className : ""}`}>
+
+      <div className={`new-page-layout__panel ${expanded ? "new-page-layout__panel--expanded" : ""}`}>
         <div className="new-page-layout__logo-container">
           <h1><Logo alt="FFXIV Venues"/></h1>
         </div>
@@ -55,7 +54,7 @@ const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttach
         </div>
 
         <div className="new-page-layout__panel-content new-page-layout__expandable">
-          {panel}
+          {PanelContent}
         </div>
 
         <div className="new-page-layout__bottom-cta-buttons new-page-layout__expandable">
@@ -74,7 +73,7 @@ const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttach
       </div>
 
       <div className="new-page-layout__content">
-        {children}
+        {PageContent}
       </div>
     </div>
 
@@ -83,4 +82,7 @@ const NewPageLayout = ({ panel, children, backgroundImage, backgroundImageAttach
   </>
 }
 
-export {NewPageLayout};
+NewPageLayout.Panel = ({ children }) => <>{children}</>;
+NewPageLayout.Page = ({ children }) => <>{children}</>;
+
+export { NewPageLayout };

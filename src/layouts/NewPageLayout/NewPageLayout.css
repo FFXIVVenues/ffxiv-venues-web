@@ -9,6 +9,7 @@
   min-height: 100vh;
 
   .new-page-layout__panel {
+    z-index: 1;
     background-color: var(--panel-color-alpha);
     box-shadow: black 0 0 5px;
     backdrop-filter: blur(20px);
@@ -112,7 +113,7 @@
   }
 
   .new-page-layout__content {
-    overflow: hidden scroll;
+    /*overflow: visible scroll;*/
     height: 100vh;
     box-sizing: border-box;
   }
