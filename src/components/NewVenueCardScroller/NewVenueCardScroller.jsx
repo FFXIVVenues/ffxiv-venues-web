@@ -11,7 +11,7 @@ export const NewVenueCardScroller = ({venues, title, open})  =>
       <HorizontalScroll className="new-venue-card-scroller__scroller" reverseScroll>
         <div className="new-venue-card-scroller__venues">
           { venues.map(v =>
-            <NewVenueCard venue={v.venue} opening={v.opening} key={v.venue.id + v.opening?.resolution?.start} />)
+            <NewVenueCard venue={v.venue} opening={v.opening} key={v.venue.id + v.opening?.start} />)
           }
         </div>
       </HorizontalScroll>
