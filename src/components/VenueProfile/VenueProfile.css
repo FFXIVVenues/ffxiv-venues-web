@@ -57,15 +57,15 @@ button.venue-profile__favourite-button:hover,
 button.venue-profile__visited-button:hover {
     color: #EEE;
     border: solid var(--accent-color) 1px;
-    background-color: var(--accent-dark-color);
+    background-color: var(--button-active-color);
 }
 
 button.venue-profile__favourite-button--favourited,
 button.venue-profile__visited-button--visited {
     color: #EEE;
     border: solid var(--accent-color) 1px !important;
-    background-color: var(--accent-dark-color) !important;
-    box-shadow: 0 0 10px var(--accent-dark-color);
+    background-color: var(--button-active-color) !important;
+    box-shadow: 0 0 10px var(--button-active-color);
 }
 
 .favorite-icon {
@@ -135,7 +135,7 @@ button.venue-profile__visited-button--visited {
 
 .venue-profile__social:hover {
     border: solid var(--accent-color) 1px;
-    background-color: var(--accent-dark-color);
+    background-color: var(--button-active-color);
 }
 
 .venue-profile__social svg  {

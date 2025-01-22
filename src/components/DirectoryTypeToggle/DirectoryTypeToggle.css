@@ -25,13 +25,13 @@
 
 .aether-venues__view-toggle button:hover {
     border-color: var(--accent-color);
-    background-color: var(--accent-dark-color);
+    background-color: var(--button-active-color);
 }
 
 .aether-venues__view-toggle button.active {
     border: solid 1px var(--accent-color);
-    background-color: var(--accent-dark-color) !important;
-    box-shadow: 0 0 10px var(--accent-dark-color);
+    background-color: var(--button-active-color) !important;
+    box-shadow: 0 0 10px var(--button-active-color);
 }
 
 .aether-venues__view-toggle button:first-child {

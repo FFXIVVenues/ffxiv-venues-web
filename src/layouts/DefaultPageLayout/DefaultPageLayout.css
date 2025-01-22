@@ -7,7 +7,7 @@
     background-color: var(--background-color);
 
     min-height: 100vh;
-    padding: 90px var(--scroll-bar-width) 7.5vh 300px;
+    padding: 90px calc(100vw - 100%) 7.5vh 300px;
 }
 
 .default-page-layout__heading {

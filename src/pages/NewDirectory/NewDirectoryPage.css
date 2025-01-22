@@ -20,7 +20,7 @@
         display: block;
         right: 0;
         bottom: 10%;
-        background-color: var(--panel-color-alpha);
+        background-color: rgba(var(--rgb--panel-color), var(--opacity));
         text-align: right;
         border: solid 1px var(--outline-color);
         border-right: none;
@@ -48,8 +48,7 @@
         left: 0;
         right: 0;
         height: 50px;
-        /*background-color: red;*/
-        background: linear-gradient(0deg, var(--background-color) 0%, rgba(var(--background-color-rgb), 0) 100%);
+        background: linear-gradient(0deg, var(--background-color) 0%, rgba(var(--rgb--background-color), 0) 100%);
     }
 }
 

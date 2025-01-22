@@ -3,14 +3,13 @@
   container-name: new-page-layout;
   container-type: size;
 
-  background-color: rgb(20, 20, 20);
   background-size: 100vw;
   background-repeat: no-repeat;
   min-height: 100vh;
 
   .new-page-layout__panel {
     z-index: 1;
-    background-color: var(--panel-color-alpha);
+    background-color: rgba(var(--rgb--panel-color), var(--opacity));
     box-shadow: black 0 0 5px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);

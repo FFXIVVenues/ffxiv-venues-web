@@ -49,7 +49,7 @@ body.modal-open .modal-stage {
 .modal-stage__modal-close-button:hover,
 .modal-stage__modal-close-button:focus {
     border: solid rgba(228, 120, 255) 1px;
-    background-color: var(--accent-dark-color)
+    background-color: var(--button-active-color)
 }
 
 .modal-stage__modal-close-button svg {

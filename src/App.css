@@ -9,18 +9,28 @@
 }
 
 :root {
-  --foreground-color: rgb(221, 221, 221);
+  --rgb--panel-color: 30, 30, 30;
+  --rgb--background-color: 20, 20, 20;
+  --rgb--foreground-color: 225, 225, 225;
+  --rgb--outline-color: 47, 47, 47;
+  --rgb--accent-color: 227, 120, 255;
+  --rgb--button-active-color: 113, 60, 127;
+  --rgb--favorite-venue-color: 227, 120, 255;
+  --rgb--new-venue-color: 117, 203, 77;
+  --opacity: 0.8;
+
   --panel-color-alpha: rgba(30, 30, 30, 0.8);
-  --panel-color: rgb(30, 30, 30);
-  --background-color-rgb: 20, 20, 20;
-  --background-color: rgb(var(--background-color-rgb));
-  --outline-color: rgb(47, 47, 47);
-  --accent-dark-color: rgba(113, 60, 127);
-  --accent-color: rgba(227, 120, 255);
-  --new-color: rgb(117, 203, 77);
 
-  --scroll-bar-width: calc(100vw - 100%);
+  --panel-color: rgb(var(--rgb--panel-color));
+  --foreground-color: rgb(var(--rgb--foreground-color));
+  --background-color: rgb(var(--rgb--background-color));
+  --outline-color: rgb(var(--rgb--outline-color));
+  --button-active-color: rgb(var(--rgb--button-active-color));
 
+  --accent-color: rgba(var(--rgb--accent-color));
+  --new-venue-color: rgb(var(--rgb--new-venue-color));
+
+  /* Changes to random image on page load */
   --hero-image: url("assets/default-strip.jpg");
 
   font-size: 16px;
@@ -35,7 +45,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: var(--background-color);
-  color: white;
+  color: var(--foreground-color);
   overflow-x: hidden;
 }
 

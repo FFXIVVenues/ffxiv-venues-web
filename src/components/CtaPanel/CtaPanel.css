@@ -34,7 +34,7 @@
 
   .cta-panel__button:hover {
     border: solid var(--accent-color) 1px;
-    background-color: var(--accent-dark-color);
-    color: white
+    background-color: var(--button-active-color);
+    color: var(--foreground-color);
   }
 }

@@ -39,7 +39,7 @@
         border-radius: 5px;
         background-color: #111;
         border: solid 1px var(--outline-color);
-        color: white;
+        color: var(--foreground-color);
         font-size: 1em;
         padding: 6px 10px 6px 10px;
         margin-right: 10px;
@@ -49,13 +49,13 @@
 
         &:hover {
             border: solid var(--accent-color) 1px;
-            background-color: var(--accent-dark-color);
+            background-color: var(--button-active-color);
         }
 
         &.aether-venues__tag--enabled {
             border: solid var(--accent-color) 1px !important;
-            background-color: var(--accent-dark-color) !important;
-            box-shadow: 0 0 10px var(--accent-dark-color);
+            background-color: var(--button-active-color) !important;
+            box-shadow: 0 0 10px var(--button-active-color);
         }
 
     }

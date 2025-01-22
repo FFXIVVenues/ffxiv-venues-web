@@ -6,7 +6,7 @@
 }
 
 .new-venue-card__container {
-    background-color: var(--panel-color-alpha);
+    background-color: rgba(var(--rgb--panel-color), var(--opacity));
     &:hover {
         background-color: var(--panel-color);
     }
@@ -25,8 +25,8 @@
 
     &.new-venue-card--new {
         .new-venue-card__banner {
-            border: solid 1px var(--new-color);
-            box-shadow: var(--new-color) 0 0 6px;
+            border: solid 1px var(--new-venue-color);
+            box-shadow: var(--new-venue-color) 0 0 6px;
             margin: -3px 0 0 -1px;
         }
     }
@@ -108,8 +108,8 @@
         }
 
         &.new-venue-card__new {
-            box-shadow: var(--new-color) 0 0 15px;
-            background-color: var(--new-color);
+            box-shadow: var(--new-venue-color) 0 0 15px;
+            background-color: var(--new-venue-color);
             color: var(--background-color);
         }
     }
