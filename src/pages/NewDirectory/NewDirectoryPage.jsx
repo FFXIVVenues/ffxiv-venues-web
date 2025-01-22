@@ -44,12 +44,16 @@ export function NewDirectoryPage() {
       <NewPageLayout.Page>
         <div className="new-venue-directory-page">
 
-          <div className="new-venue-directory__splash-video-container">
-            <video className="new-venue-directory__splash-video" autoPlay loop muted inert>
+          <div className="new-venue-directory__hero-banner">
+            <video className="new-venue-directory__hero-video" autoPlay loop muted disablePictureInPicture>
               <source src={splashVideo} type="video/webm" />
               Your browser does not support the video tag.
             </video>
-            <div className="new-venue-directory__splash-video-gradient"></div>
+            <div className="new-venue-directory__hero-text">
+              <h1>Welcome to FFXIV Venues!</h1>
+              <div>Discover venues. Meet people. Find yourself.</div>
+            </div>
+            <div className="new-venue-directory__hero-gradient"></div>
           </div>
 
           <div className="new-venue-directory-page__schedule">
