@@ -50,7 +50,7 @@ class VenueService {
             if (venue.resolution?.isNow)
                 venueViewModels.open.push({ venue });
 
-            if (!(venue.schedule?.length || venue.scheduleOverrides?.length)) {
+            if (!(venue.schedule?.length || venue.scheduleOverrides?.filter(o => o.end > now).length)) {
                 venueViewModels.unscheduled.push({ venue });
                 continue;
             }
