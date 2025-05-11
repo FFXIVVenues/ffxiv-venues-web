@@ -11,9 +11,11 @@ import { NewVenueGuidance } from '../../components/NewVenueGuidance/NewVenueGuid
 import { ModalCloseButton } from "../../components/ModalStage/ModalCloseButton";
 import { venueService } from "../../services/venueService";
 import { CtaPanel } from "../../components/CtaPanel/CtaPanel";
+import {Notice} from "../../components/Notice/Notice";
 
 const DefaultPageLayout = ({ header, children }) => {
   const [requestedVenue, setRequestedVenue] = useState(null);
+  const [showNoticeModel, setShowNoticeModel] = useState(false);
   const [showNewVenueModal, setShowNewVenueModal] = useState(false);
 
   useEffect(() => {
@@ -26,6 +28,20 @@ const DefaultPageLayout = ({ header, children }) => {
       <div className="default-page-layout__heading">
         <h1><img src="/full-logo.png" alt="FFXIV Venues" /></h1>
         {header}
+      </div>
+
+      {/*Promotional Notice*/}
+      <div className="default-page-layout__promotional_notice" onClick={() => setShowNoticeModel(true)}>
+          <Notice>Refuge Coffee: A large venue collaboration event for charity. Today from 10pm EST. </Notice>
+        { showNoticeModel &&
+          // remember to remove the CSS that pulls the page down too
+          <Modal className="default-page-layout__promotional_modal">
+            <ModalCloseButton onClick={() => setShowNoticeModel(false)}/>
+            <a href={"https://www.refugecoffeeak.com/"} target="_blank" rel="noopener">
+              <img alt="Refuge Coffee Collaboration Charity Event" src="/promotions/refugecoffecolab.png"  />
+            </a>
+          </Modal>
+        }
       </div>
 
       <div className="default-page-layout__content">

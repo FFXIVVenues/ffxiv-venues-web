@@ -7,9 +7,29 @@
     background-color: var(--background-color);
 
     min-height: 100vh;
-    padding: 90px calc(100vw - 100%) 7.5vh 300px;
+    padding: 130px calc(100vw - 100%) 7.5vh 300px;  /* with notice */
+    /* padding: 90px calc(100vw - 100%) 7.5vh 300px; */ /* without notice */
 }
 
+.default-page-layout__promotional_notice {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    right: 0;
+    > .notice {
+        cursor: pointer;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+.default-page-layout__promotional_modal {
+    font-size: 0;
+    img {
+        max-height: 70vh;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
 .default-page-layout__heading {
     display: flex;
     background-color: var(--background-color);
