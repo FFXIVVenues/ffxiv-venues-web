@@ -31,18 +31,18 @@ const DefaultPageLayout = ({ header, children }) => {
       </div>
 
       {/*Promotional Notice*/}
-      <div className="default-page-layout__promotional_notice" onClick={() => setShowNoticeModel(true)}>
-          <Notice>Refuge Coffee: A large venue collaboration event for charity. Today from 10pm EST. </Notice>
-        { showNoticeModel &&
-          // remember to remove the CSS that pulls the page down too
-          <Modal className="default-page-layout__promotional_modal">
-            <ModalCloseButton onClick={() => setShowNoticeModel(false)}/>
-            <a href={"https://www.refugecoffeeak.com/"} target="_blank" rel="noopener">
-              <img alt="Refuge Coffee Collaboration Charity Event" src="/promotions/refugecoffecolab.png"  />
-            </a>
-          </Modal>
-        }
-      </div>
+      {/*<div className="default-page-layout__promotional_notice" onClick={() => setShowNoticeModel(true)}>*/}
+      {/*    <Notice>Refuge Coffee: A large venue collaboration event for charity. Today from 10pm EST. </Notice>*/}
+      {/*  { showNoticeModel &&*/}
+      {/*    // remember to remove the CSS that pulls the page down too*/}
+      {/*    <Modal className="default-page-layout__promotional_modal">*/}
+      {/*      <ModalCloseButton onClick={() => setShowNoticeModel(false)}/>*/}
+      {/*      <a href={"https://www.refugecoffeeak.com/"} target="_blank" rel="noopener">*/}
+      {/*        <img alt="Refuge Coffee Collaboration Charity Event" src="/promotions/refugecoffecolab.png"  />*/}
+      {/*      </a>*/}
+      {/*    </Modal>*/}
+      {/*  }*/}
+      {/*</div>*/}
 
       <div className="default-page-layout__content">
         {children}
