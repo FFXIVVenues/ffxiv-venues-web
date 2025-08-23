@@ -66,7 +66,7 @@ export function VenueFiltersPanel({ onFilter }) {
       className="venue-filters__filters-container"
       animate={{ height: showFilters ? 'auto' : 0, opacity: showFilters ? 1 : 0 }}
       transition={{ duration: 0.3 }}
-      style={{ overflow: 'hidden' }}
+      style={{ overflow: 'hidden', height: 0, opacity: 0 }}
     >
       <div className="venue-filters__region-filter aether-venues__tags">
         <HorizontalScroll reverseScroll>
