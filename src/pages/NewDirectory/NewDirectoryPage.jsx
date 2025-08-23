@@ -9,6 +9,8 @@ import {favouritesService} from "../../services/favouritesService";
 import {settingsService} from "../../services/settingsService";
 import {DirectoryMenu} from "./DirectoryMenu/DirectoryMenu";
 import {NewWeeklyCardScroller} from "../../components/NewWeeklyCardScroller/NewWeeklyCardScroller";
+import {TextBox} from "../../components/TextBox/TextBox";
+import SearchIcon from "../../assets/icons/search-icon.svg";
 import splashVideo from "./splash.webm";
 
 
@@ -49,10 +51,6 @@ export function NewDirectoryPage() {
               <source src={splashVideo} type="video/webm" />
               Your browser does not support the video tag.
             </video>
-            <div className="new-venue-directory__hero-text">
-              <h1>Welcome to FFXIV Venues!</h1>
-              <div>Discover venues. Meet people. Find yourself.</div>
-            </div>
             <div className="new-venue-directory__hero-gradient"></div>
           </div>
 

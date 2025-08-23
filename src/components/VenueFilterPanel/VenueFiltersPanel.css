@@ -3,6 +3,7 @@
     align-items: center;
     margin-left: 30px;
     margin-bottom: 15px;
+    gap: 10px;
 
     .venue-filters__search-textbox {
         padding: 7.5px 10px;
@@ -14,8 +15,13 @@
         background-color: #111;
         color: var(--foreground-color);
     }
-}
 
+    .venue-filters__toggle-button {
+        .venue-filters__toggle-button-arrow {
+            font-size: .6em;
+        }
+    }
+}
 
 .aether-venues__tags {
     margin-bottom: 15px;

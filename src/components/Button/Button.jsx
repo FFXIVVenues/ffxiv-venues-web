@@ -6,7 +6,7 @@ function Button(props) {
     let style = {
         padding: "8px",
         height: "fit-content",
-        border: "dimgray 1px solid",
+        border: "1px solid var(--outline-color)",
         backgroundColor: "transparent",
         boxSizing: "border-box",
         borderRadius: 5,             
@@ -23,8 +23,8 @@ function Button(props) {
         style = { 
             ...style, 
             border: "solid 1px var(--accent-color)",
-            backgroundColor: "var(--accent-dark-color)",
-            boxShadow: "0 0 10px var(--accent-dark-color)",
+            backgroundColor: "var(--button-active-color)",
+            boxShadow: "0 0 10px var(--button-active-color)",
             ...props.focusStyle
         }
     }

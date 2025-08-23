@@ -3,7 +3,6 @@ import { hasProp } from "./filterFunctions/hasProp";
 import { propNotNull } from "./filterFunctions/propNotNull";
 
 export const featureFilters = [
-  { name: "Has SyncShell", filter: propNotNull("mareCode") },
   { name: "SFW", filter: hasProp("sfw", true) },
   { name: "Gambling", filter: hasTag("gambling") },
   { name: "Artists", filter: hasTag("artists") },

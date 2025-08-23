@@ -124,19 +124,6 @@ const VenueProfile = ({ venue }) => {
                     </article>
                   }
 
-                  {venue.mareCode &&
-                    <div className="venue-profile_syncshell">
-                        <div className="venue-profile_syncshell-id">
-                            <span className="venue-profile_syncshell-label">SyncShell ID</span>
-                            <span className="venue-profile_syncshell-value">{venue.mareCode}</span>
-                        </div>
-                        <div className="venue-profile_syncshell-password">
-                            <span className="venue-profile_syncshell-label">SyncShell Password</span>
-                            <span className="venue-profile_syncshell-value">{venue.marePassword}</span>
-                        </div>
-                    </div>
-                  }
-
                   <Profiler id="venue-profile__schedule" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
                       <div className="venue-profile__schedule">
                           {venue.resolution?.isNow &&

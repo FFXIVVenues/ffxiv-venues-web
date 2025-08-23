@@ -12,6 +12,11 @@ export const tagFilter = (...args) =>
     return false;
   };
 
+export const notTagFilter = (...args) => {
+    const tagFilterForArgs = tagFilter(...args);
+    return v => tagFilterForArgs(v) === false;
+}
+
 export const regionFilter = (region) =>
   v => {
     switch (region) {

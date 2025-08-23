@@ -1,4 +1,12 @@
-import { propFilter, tagFilter, worldFilter, dataCenterFilter, regionFilter, propNotNull } from "./venueFilterFunctions";
+import {
+  propFilter,
+  tagFilter,
+  worldFilter,
+  dataCenterFilter,
+  regionFilter,
+  propNotNull,
+  notTagFilter
+} from "./venueFilterFunctions";
 
 export const regionFilters = [
   { key: Symbol(), label: "North America", filter: regionFilter("NA") },
@@ -100,7 +108,6 @@ export const typeFilters = [
 ];
 
 export const featureFilters = [
-  { key: Symbol(), label: "Has SyncShell", filter: propNotNull("mareCode") },
   { key: Symbol(), label: "SFW", filter: propFilter("sfw", true) },
   { key: Symbol(), label: "Gambling", filter: tagFilter("gambling") },
   { key: Symbol(), label: "Artists", filter: tagFilter("artists") },
@@ -117,5 +124,6 @@ export const featureFilters = [
   { key: Symbol(), label: "VIP available", filter: tagFilter("vip") },
   { key: Symbol(), label: "Triple triad", filter: tagFilter("triple triad") },
   { key: Symbol(), label: "Courtesans", filter: tagFilter("courtesans") },
+  { key: Symbol(), label: "Not Courtesans", filter: notTagFilter("courtesans") },
   { key: Symbol(), label: "RP Heavily Encouraged", filter: tagFilter("rp heavy", "ic rp only") }
 ];
