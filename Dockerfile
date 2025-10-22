@@ -1,17 +1,13 @@
-FROM node:18 as build
-ARG test=false
+FROM node:alpine
+
+RUN apk update && apk add nginx && mkdir /www
+COPY nginx.conf /etc/nginx/http.d/default.conf
+
+EXPOSE 80
 
 WORKDIR /app
 COPY . .
 RUN npm install
 
-RUN if [ "$test" = "true" ]; \
-    then npm run build:test; \
-    else npm run build; \
-    fi
-
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+RUN chmod +x entrypoint.sh
+CMD ["./entrypoint.sh"]
