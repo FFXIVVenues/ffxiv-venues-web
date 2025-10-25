@@ -2,26 +2,20 @@ import "./DefaultPageLayout.css";
 
 import React, { useState, useEffect } from 'react';
 import { Modal } from "../../components/ModalStage/Modal";
-import { VenueProfile } from "../../components/VenueProfile/VenueProfile";
 import { PersonList } from '../../components/PersonList/PersonList';
 import { staff } from "../../components/PersonList/PeopleLists";
 import DiscordIcon from "../../assets/icons/discord-icon.svg";
 import NewVenue from "../../assets/icons/new-venue-icon.svg";
 import { NewVenueGuidance } from '../../components/NewVenueGuidance/NewVenueGuidance';
 import { ModalCloseButton } from "../../components/ModalStage/ModalCloseButton";
-import { venueService } from "../../services/venueService";
 import { CtaPanel } from "../../components/CtaPanel/CtaPanel";
-import {Notice} from "../../components/Notice/Notice";
+import {ErrorBoundary} from "../../components/ErrorBoundary/ErrorBoundary";
+// import {Notice} from "../../components/Notice/Notice";
 
 const DefaultPageLayout = ({ header, children }) => {
-  const [requestedVenue, setRequestedVenue] = useState(null);
-  const [showNoticeModel, setShowNoticeModel] = useState(false);
+  // const [showNoticeModel, setShowNoticeModel] = useState(false);
   const [showNewVenueModal, setShowNewVenueModal] = useState(false);
 
-  useEffect(() => {
-    const requestedVenueId = window.location.hash.substring(1);
-    venueService.getVenueById(requestedVenueId).then(v => setRequestedVenue(v));
-  }, []);
 
   return (
     <div className="default-page-layout">
@@ -45,7 +39,9 @@ const DefaultPageLayout = ({ header, children }) => {
       {/*</div>*/}
 
       <div className="default-page-layout__content">
-        {children}
+        <ErrorBoundary fallback={<p>Something went wrong</p>}>
+            {children}
+        </ErrorBoundary>
       </div>
 
       <div className="default-page-layout__meta-panel">
@@ -77,12 +73,6 @@ const DefaultPageLayout = ({ header, children }) => {
         </div>
       </div>
 
-      {requestedVenue &&
-        <Modal className="venue-modal" onStageClick={() => setRequestedVenue(null)} onEscape={() => setRequestedVenue(null)}>
-          <ModalCloseButton onClick={() => setRequestedVenue(null)} />
-          <VenueProfile venue={requestedVenue} />
-        </Modal>
-      }
 
       {showNewVenueModal &&
         <Modal className="new-venue-modal" onStageClick={() => setShowNewVenueModal(false)} onEscape={() => setRequestedVenue(null)}>

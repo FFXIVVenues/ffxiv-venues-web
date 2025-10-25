@@ -1,29 +1,17 @@
-import React, { useState, Profiler, useCallback, memo } from "react";
-import { Modal } from "../ModalStage/Modal";
-import { VenueProfile } from "../VenueProfile/VenueProfile";
+import React, { Profiler, memo } from "react";
 import defaultImage from "./default-banner.jpg";
 import { Location } from "../Location/Location";
 import { DateString } from "../DateString/DateString";
 import { TimeString } from "../TimeString/TimeString";
-import { ModalCloseButton } from "../ModalStage/ModalCloseButton";
 
 import "./VenueCard.css";
 
-const VenueCard = memo(({ venue, opening }) => {
-    const [openModal, setOpenModal] = useState(false);
-    const onVenueClick = useCallback(() => {
-        setOpenModal(true);
-    }, []);
-    const onCloseClick = useCallback(() => {
-        setOpenModal(false);
-    }, []);
-
+const VenueCard = memo(({ venue, opening, onClick }) => {
     const openingResolution = opening || venue.resolution;
-
     return (
       <Profiler id="venue-card" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
           <div id={`venue-${venue.id}`} className={`venue-card ${venue.id} ${venue.resolution?.isNow ? "venue-card--open" : ""} ${venue.resolution ? "" : "venue-card--no-time"}`}>
-              <div className="venue-card__block" role="row" onClick={onVenueClick}>
+              <div className="venue-card__block" role="row" onClick={onClick}>
                   <img className="venue-card__photo" src={venue.bannerUri || defaultImage} alt="" loading="lazy" />
                   <div className="venue-card__stickers">
                       {venue.resolution?.isNow && <div className="venue-card__open">Open now!</div>}
@@ -44,15 +32,11 @@ const VenueCard = memo(({ venue, opening }) => {
                       </div>
                   </div>
               </div>
-              {openModal && (
-                <Modal className="venue-modal" onStageClick={onCloseClick} onEscape={onCloseClick}>
-                    <ModalCloseButton onClick={onCloseClick} />
-                    <VenueProfile venue={venue} />
-                </Modal>
-              )}
           </div>
       </Profiler>
     );
 });
+
+VenueCard.whyDidYouRender = true;
 
 export { VenueCard };

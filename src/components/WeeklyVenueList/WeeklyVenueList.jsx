@@ -7,7 +7,7 @@ import days from "../../consts/days.json";
 
 const currentDay = timeService.getLocalDay();
 
-export const WeeklyVenueList = ({ venues }) =>
+export const WeeklyVenueList = ({ venues, onVenueClick }) =>
   <Profiler id="WeeklyVenueList" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
 
     { /* Favorites */ }
@@ -16,7 +16,7 @@ export const WeeklyVenueList = ({ venues }) =>
         <div className="weekly-venue-list__list weekly-venue-list__favourites">
           <details open>
             <summary><h2>Favorites</h2></summary>
-            <VenueList venues={venues.favourites} />
+            <VenueList venues={venues.favourites} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }
@@ -27,7 +27,7 @@ export const WeeklyVenueList = ({ venues }) =>
         <div className="weekly-venue-list__list weekly-venue-list__opennow">
           <details open>
             <summary><h2>Open now</h2></summary>
-            <VenueList venues={venues.open} />
+            <VenueList venues={venues.open} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }
@@ -38,7 +38,7 @@ export const WeeklyVenueList = ({ venues }) =>
         <div className="weekly-venue-list__list weekly-venue-list__new">
           <details>
             <summary><h2>Newest</h2></summary>
-            <VenueList venues={venues.newest} />
+            <VenueList venues={venues.newest} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }
@@ -54,7 +54,7 @@ export const WeeklyVenueList = ({ venues }) =>
           <div className="weekly-venue-list__list weekly-venue-list__day" key={i}>
             <details open>
               <summary><h2>{i === 0 ? `Today (${day})` : i === 1 ? `Tomorrow (${day})` : day}</h2></summary>
-              <VenueList venues={dayVenues} />
+              <VenueList venues={dayVenues} onVenueClick={onVenueClick} />
             </details>
           </div>
         </Profiler>
@@ -67,7 +67,7 @@ export const WeeklyVenueList = ({ venues }) =>
         <div className="weekly-venue-list__list weekly-venue-list__future">
           <details open>
             <summary><h2>Future openings</h2></summary>
-            <VenueList venues={venues.future} />
+            <VenueList venues={venues.future} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }
@@ -78,7 +78,7 @@ export const WeeklyVenueList = ({ venues }) =>
         <div className="weekly-venue-list__list weekly-venue-list__unscheduled">
           <details open>
             <summary><h2>Unscheduled</h2></summary>
-            <VenueList venues={venues.unscheduled} />
+            <VenueList venues={venues.unscheduled} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }

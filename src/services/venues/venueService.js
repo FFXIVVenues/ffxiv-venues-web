@@ -1,4 +1,4 @@
-import { Venue } from "../model/Venue";
+import { Venue } from "../../model/Venue";
 
 class VenueService {
     

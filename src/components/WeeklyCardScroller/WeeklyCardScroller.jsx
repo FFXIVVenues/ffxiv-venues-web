@@ -7,7 +7,7 @@ import days from "../../consts/days.json";
 
 const currentDay = timeService.getLocalDay();
 
-export const WeeklyCardScroller = ({ venues }) =>
+export const WeeklyCardScroller = ({ venues, onVenueClick }) =>
   <Profiler id="WeeklyCardScroller" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
 
     { /* Favourites */ }
@@ -16,7 +16,7 @@ export const WeeklyCardScroller = ({ venues }) =>
         <div className="weekly-card-scroller__list weekly-card-scroller__favourites">
           <details open>
             <summary><h2>Favorites</h2></summary>
-            <VenueCardScroller venues={venues.favourites} />
+            <VenueCardScroller venues={venues.favourites} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }
@@ -27,7 +27,7 @@ export const WeeklyCardScroller = ({ venues }) =>
         <div className="weekly-card-scroller__list weekly-card-scroller__opennow">
           <details open>
             <summary><h2>Open now</h2></summary>
-            <VenueCardScroller venues={venues.open} />
+            <VenueCardScroller venues={venues.open} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler>}
@@ -38,7 +38,7 @@ export const WeeklyCardScroller = ({ venues }) =>
         <div className="weekly-card-scroller__list weekly-card-scroller__new">
           <details open>
             <summary><h2>Newest</h2></summary>
-            <VenueCardScroller venues={venues.newest} />
+            <VenueCardScroller venues={venues.newest} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler>}
@@ -54,7 +54,7 @@ export const WeeklyCardScroller = ({ venues }) =>
           <div className="weekly-card-scroller__list weekly-card-scroller__day" key={i}>
             <details open>
               <summary><h2>{i === 0 ? `Today (${day})` : i === 1 ? `Tomorrow (${day})` : day}</h2></summary>
-              <VenueCardScroller venues={dayVenues} />
+              <VenueCardScroller venues={dayVenues} onVenueClick={onVenueClick} />
             </details>
           </div>
         </Profiler>
@@ -67,7 +67,7 @@ export const WeeklyCardScroller = ({ venues }) =>
         <div className="weekly-card-scroller__list weekly-card-scroller__future">
           <details open>
             <summary><h2>Future openings</h2></summary>
-            <VenueCardScroller venues={venues.future} />
+            <VenueCardScroller venues={venues.future} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }
@@ -78,7 +78,7 @@ export const WeeklyCardScroller = ({ venues }) =>
         <div className="weekly-card-scroller__list weekly-card-scroller__unscheduled">
           <details open>
             <summary><h2>Unscheduled</h2></summary>
-            <VenueCardScroller venues={venues.unscheduled} />
+            <VenueCardScroller venues={venues.unscheduled} onVenueClick={onVenueClick} />
           </details>
         </div>
       </Profiler> }

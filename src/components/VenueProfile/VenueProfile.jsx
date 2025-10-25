@@ -1,5 +1,5 @@
 import "./VenueProfile.css";
-import React, { useState, useEffect, useCallback, Profiler } from "react";
+import React, { useState, useCallback, Profiler } from "react";
 import { favouritesService } from "../../services/favouritesService";
 import { visitedService } from "../../services/visitedService";
 import { FavoriteIcon } from "../Icons/FavoriteIcon";
@@ -27,13 +27,6 @@ const VenueProfile = ({ venue }) => {
         else favouritesService.setFavourite(venue.id);
         setIsFavourite(!isFavourite);
     }, [isFavourite, venue.id]);
-
-    useEffect(() => {
-        window.history.pushState(null, null, '#' + venue.id);
-        return () => {
-            window.history.pushState(null, null, "#");
-        };
-    }, [venue.id]);
 
     const overrides = venue.scheduleOverrides && venue.scheduleOverrides.filter(o => new Date() < o.end);
     const currentOverride = overrides && overrides.find(s => s.isNow);

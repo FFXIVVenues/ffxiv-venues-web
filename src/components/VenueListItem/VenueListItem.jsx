@@ -8,22 +8,12 @@ import { ModalCloseButton } from "../ModalStage/ModalCloseButton";
 
 import "./VenueListItem.css";
 
-const VenueListItem = ({ venue, opening }) => {
-    const [openModal, setOpenModal] = useState(false);
-
-    const onVenueClick = useCallback(() => {
-        setOpenModal(true);
-    }, []);
-
-    const onCloseClick = useCallback(() => {
-        setOpenModal(false);
-    }, []);
-
+const VenueListItem = ({ venue, opening, onClick }) => {
     const openingResolution = opening || venue.resolution;
 
     return (
       <div className={`venue-opening ${venue.id} ${venue.open ? "venue-opening--open" : ""} ${openingResolution ? "" : "venue-opening--no-time"}`}>
-          <div className="venue-opening__summary-row" role="row" onClick={onVenueClick}>
+          <div className="venue-opening__summary-row" role="row" onClick={onClick}>
               {openingResolution && (
                 <>
                     {openingResolution.isWithinWeek === false && (
@@ -40,12 +30,6 @@ const VenueListItem = ({ venue, opening }) => {
               </div>
               <div className="venue-opening__cell venue-opening__location"><Location location={venue.location} shorten /></div>
           </div>
-          {openModal && (
-            <Modal className="venue-modal" onStageClick={onCloseClick} onEscape={onCloseClick}>
-                <ModalCloseButton onClick={onCloseClick} />
-                <VenueProfile venue={venue} />
-            </Modal>
-          )}
       </div>
     );
 };
