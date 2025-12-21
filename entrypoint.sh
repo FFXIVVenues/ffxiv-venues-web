@@ -2,7 +2,7 @@
 set -e
 
 # Build the app with environment variables
-npm run build
+bun run build
 
 # Copy built files to nginx directory
 cp -r /app/dist/* /www
