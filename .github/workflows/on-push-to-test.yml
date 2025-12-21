@@ -7,6 +7,7 @@ on:
 
 jobs:
   publish_test_web_client:
+    name: Publish Test Web Client
     uses: ./.github/workflows/publish-ffxivvenues-web-client.yml
     with:
       branch: test
