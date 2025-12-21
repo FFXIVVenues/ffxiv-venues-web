@@ -11,5 +11,4 @@ jobs:
     with:
       branch: main
       tag: latest
-      docker_username: ${{ secrets.DOCKER_USERNAME }}
-      docker_password: ${{ secrets.DOCKER_ACCESS_TOKEN }}
+    secrets: inherit

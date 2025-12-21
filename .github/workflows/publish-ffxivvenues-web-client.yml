@@ -23,16 +23,11 @@ on:
         required: true
         type: string
         default: latest
+    secrets:
       docker_username:
         required: true
-        type: string
       docker_password:
         required: true
-        type: string
-
-env:
-  DOCKER_USERNAME: ${{ inputs.docker_username || secrets.DOCKER_USERNAME }}
-  DOCKER_ACCESS_TOKEN: ${{ inputs.docker_password || secrets.DOCKER_ACCESS_TOKEN }}
 
 jobs:
   publish_for_platforms:
@@ -59,11 +54,11 @@ jobs:
       - name: Docker Login
         uses: docker/login-action@v2.0.0
         with:
-          username: ${{ env.DOCKER_USERNAME }}
-          password: ${{ env.DOCKER_ACCESS_TOKEN}}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_ACCESS_TOKEN}}
 
       - name: Build and push docker image
-        run: docker build --push --platform ${{ matrix.platform }} -t ${{ env.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }}-${{matrix.tag}} ./
+        run: docker build --push --platform ${{ matrix.platform }} -t ${{ secrets.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }}-${{ matrix.tag }} ./
 
   publish_multiplatform_manifest:
     name: Publish multiplatform manifest
@@ -73,11 +68,11 @@ jobs:
       - name: Docker Login
         uses: docker/login-action@v2.0.0
         with:
-          username: ${{ env.DOCKER_USERNAME }}
-          password: ${{ env.DOCKER_ACCESS_TOKEN}}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_ACCESS_TOKEN}}
 
       - name: Create and push manifest
         run: |
-          docker buildx imagetools create -t ${{ env.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }} \
-            ${{ env.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }}-amd64 \
-            ${{ env.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }}-arm64
+          docker buildx imagetools create -t ${{ secrets.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }} \
+            ${{ secrets.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }}-amd64 \
+            ${{ secrets.DOCKER_USERNAME }}/ffxivvenues.web:${{ inputs.tag }}-arm64
