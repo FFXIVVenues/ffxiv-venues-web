@@ -7,6 +7,7 @@ on:
 
 jobs:
   publish_production_web_client:
+    name: Publish Production Web Client
     uses: ./.github/workflows/publish-ffxivvenues-web-client.yml
     with:
       branch: main
