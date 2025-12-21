@@ -1,4 +1,4 @@
-name: Publish Production Web Client
+name: "* Publish Production Web Client"
 
 on:
   push:
