@@ -10,15 +10,13 @@ class HorizontalScroll extends Component {
   }
 
   scrollLeft() {
-    const el = DOM.findDOMNode(this.hScrollParent);
-    const stepValue = el.getBoundingClientRect().width * 0.88;
-    this.scrollToX(el, el.scrollLeft - stepValue, 400);
+    const stepValue = this.hScrollParent.getBoundingClientRect().width * 0.88;
+    this.scrollToX(this.hScrollParent, this.hScrollParent.scrollLeft - stepValue, 400);
   }
 
   scrollRight() {
-    const el = DOM.findDOMNode(this.hScrollParent);
-    const stepValue = el.getBoundingClientRect().width * 0.88;
-    this.scrollToX(el, el.scrollLeft + stepValue, 400);
+    const stepValue = this.hScrollParent.getBoundingClientRect().width * 0.88;
+    this.scrollToX(this.hScrollParent, this.hScrollParent.scrollLeft + stepValue, 400);
   }
 
   scrollToX(el, scrollTargetX, speed, easing) {
