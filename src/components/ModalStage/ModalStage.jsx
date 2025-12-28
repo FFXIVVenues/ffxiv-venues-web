@@ -19,14 +19,15 @@ const ModalStage = () => {
         document.querySelector("body").className = modals.length ? "modal-open" : "";
     }, [ modals ]);
 
-    const onStageClick = useCallback((event) => {
+    const onStageClick = useCallback((event, modal) => {
         if (event.target !== event.currentTarget) return;
-        modals.forEach(modal => modal.onStageClick && modal.onStageClick());
+         modal.onStageClick && modal.onStageClick();
     }, [ modals ]);
 
     const onEscPressed = useCallback((e) => {
         if (e.key !== "Escape") return;
-        modals.forEach(modal => modal.onEscape && modal.onEscape());
+        const modal = modals.at(-1);
+        return modal.onEscape && modal.onEscape()
     });
 
     useEffect(() => {
@@ -37,15 +38,19 @@ const ModalStage = () => {
     }, [modals]);
 
     return (
-      <div className="modal-stage" onClick={onStageClick}>
-          {modals.map((m, i) => (
-            <div key={i}
-                 className={`modal-stage__modal ${m.className || ""}`}
-                 style={m.style}>
-                {m.contents}
-            </div>
+        <>
+            {modals.map((m, i) => (
+              <div key={i}
+                   className="modal-stage"
+                   onClick={e => onStageClick(e, m)}>
+                <div
+                     className={`modal-stage__modal ${m.className || ""}`}
+                     style={m.style}>
+                    {m.contents}
+                </div>
+              </div>
           ))}
-      </div>
+        </>
     );
 };
 

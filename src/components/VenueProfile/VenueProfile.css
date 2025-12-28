@@ -10,19 +10,11 @@
     padding-top: 0.05px;
     border-radius: 5px 5px 0 0;
     box-shadow: 0 0 15px black;
-}
-
-.venue-profile__user-settings {
-    position: absolute;
-    left: 0;
-    top: -40px;
+    border-bottom: solid var(--panel-color) 1px;
+    margin: 0;
 }
 
 @media screen and (max-width: 615px) {
-    .venue-profile__user-settings {
-        left: 10px;
-    }
-
     .venue-profile__banner {
         border-radius: 0;
     }
@@ -33,11 +25,19 @@
     }
 }
 
-.venue-profile__user-settings button {
+.venue-profile__toolbar {
+    margin-top: -4px;
+    background-color: color-mix(in oklab, var(--panel-color), black 5%);
+    border-bottom: solid var(--panel-color) 1px;
+    box-shadow: 0 0 15px black;
+    padding: 10px 15px;
+}
+
+.venue-profile__toolbar button {
     margin-right: 10px;
-    padding: 7px 8px;
+    padding: 7px 10px;
     border: solid #222 1px;
-    background-color: #222;
+    background-color: inherit;
     color: #BBB;
     display: inline-flex;
     justify-content: center;
@@ -45,31 +45,34 @@
     border-radius: 5px;
     cursor: pointer;
     width: fit-content;
-}
 
-.venue-profile__user-settings button svg {
-    height: 15px;
-    margin-right: 10px;
-    width: 15px;
-}
+    svg {
+        height: 15px;
+        margin-right: 10px;
+        width: 15px;
+        &.favorite-icon {
+            margin-right: 7px;
+        }
+    }
 
-button.venue-profile__favourite-button:hover,
-button.venue-profile__visited-button:hover {
-    color: #EEE;
-    border: solid var(--accent-color) 1px;
-    background-color: var(--button-active-color);
-}
+    &:hover {
+        color: #EEE;
+        border: solid var(--accent-color) 1px;
+        background-color: var(--button-active-color);
+    }
 
-button.venue-profile__favourite-button--favourited,
-button.venue-profile__visited-button--visited {
-    color: #EEE;
-    border: solid var(--accent-color) 1px !important;
-    background-color: var(--button-active-color) !important;
-    box-shadow: 0 0 10px var(--button-active-color);
-}
+    &.venue-profile__flag-button {
+        float: right;
+        margin-right: 0
+    }
 
-.favorite-icon {
-    margin-right: 7px;
+    &.venue-profile__favourite-button--favourited,
+    &.venue-profile__visited-button--visited {
+        color: #EEE;
+        border: solid var(--accent-color) 1px !important;
+        background-color: var(--button-active-color) !important;
+        box-shadow: 0 0 10px var(--button-active-color);
+    }
 }
 
 .venue-profile__details {

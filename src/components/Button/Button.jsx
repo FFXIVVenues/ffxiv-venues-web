@@ -4,7 +4,7 @@ function Button(props) {
     const [ buttonFocused, setFocused ] = useState(false);
 
     let style = {
-        padding: "8px",
+        padding: "8px 16px",
         height: "fit-content",
         border: "1px solid var(--outline-color)",
         backgroundColor: "transparent",
@@ -37,6 +37,7 @@ function Button(props) {
                 onMouseLeave={_ => setFocused(false) }
                 onBlur  ={_ => setFocused(false) }
                 onClick={props.onClick}
+                tabIndex={props.tabIndex || 0}
                 href={props.href}
                 style={style}
                 target="_blank" 
@@ -50,6 +51,7 @@ function Button(props) {
                     onMouseLeave={_ => setFocused(false) }
                     onBlur  ={_ => setFocused(false) }
                     onClick={props.onClick}
+                    tabIndex={props.tabIndex || 0}
                     style={style}>
                 {props.children}
             </button>
