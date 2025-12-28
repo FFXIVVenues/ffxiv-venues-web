@@ -21,11 +21,12 @@ export const staff = [
     { name: "Kristlyn Brianne", world: "Faerie", role: "Event Manager", photoId: "83f39b3a53676756a1ed67ee7f61e0c4_0e336ff6ad415f47233f0aaf127feac0fc0", discordId: "153017123038429185" },
 
     // Indexing
-    { name: "Kaeda Destrian", world: "Jenova", role: "Indexer Lead", photoId: "325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "870413151676551178" },
+    // { name: "Kaeda Destrian", world: "Jenova", role: "Indexer Lead", photoId: "325546268785ccad39ac94c00b0e044a_ce736afe35e2ded4e46c4fd0659aef7efc0" , discordId: "870413151676551178" },
     // NA
-    { name: "Vix Solanine", world: "Leviathan", role: "Indexer (NA)", photoId: "7ebe3d3ddadcd9ef4f5bb8358b5b6028_a91aae52cff9ef65932db06b150ffd47fc0" , link: "https://vixsolanine.carrd.co/" },
+    // { name: "Vix Solanine", world: "Leviathan", role: "Indexer (NA)", photoId: "7ebe3d3ddadcd9ef4f5bb8358b5b6028_a91aae52cff9ef65932db06b150ffd47fc0" , link: "https://vixsolanine.carrd.co/" },
     { name: "Alyah Vanayel", world: "Adamantoise", role: "Indexer (NA)", photoId: "6f47c6a3d8e2e250422e9e05c97afae5_1f5fd239b885860b7c2bfc72ad1d97effc0" , discordId: "334530475479531520" },
-    { name: "Ophelia Brevia", world: "Sargatanas", role: "Indexer (NA)", photoId: "a550f0fb4f8a356e30832ba71c8e2855_ba22853447012a24cee115315d6a5bebfc0" , discordId: "837123659423547423" },
+    { name: "Hyjr Rava", world: "Mateus", role: "Indexer (NA)", photoId: "958e3f290e0acc9019f0f712a88743ae_f0c52cc66e124fc2e641d7c21ab2ce79fc0" , discordId: "567181695397265411" },
+    // { name: "Ophelia Brevia", world: "Sargatanas", role: "Indexer (NA)", photoId: "a550f0fb4f8a356e30832ba71c8e2855_ba22853447012a24cee115315d6a5bebfc0" , discordId: "837123659423547423" },
 
     // EU
     { name: "Darayna Sarantes", world: "Alpha", role: "Indexer (EU)", photoId: "de3016101a8c35c48a2466ef21c881ba_6132295fcf5570fb8b0a944ef322a598fc0", discordId: "268840992021544970" },

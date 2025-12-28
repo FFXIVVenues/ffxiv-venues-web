@@ -1,0 +1,70 @@
+.modal-stage__modal.flag-venue-modal {
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+
+  h3 {
+    font-size: 1.2em;
+    margin: 0 0 35px 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1em;
+
+    svg {
+      width: 16px;
+      margin-right: .3em
+    }
+
+  }
+
+  p {
+    margin: 0 0 25px 0;
+  }
+
+  select {
+    background-color: transparent;
+    color: var(--foreground-color);
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom : 15px;
+  }
+
+  option {
+    background-color: var(--panel-color);
+    color: var(--foreground-color);
+    border-radius: 5px;
+  }
+
+  textarea {
+    display: block;
+    background-color: transparent;
+    color: var(--foreground-color);
+    font-size: 1em;
+    padding: 5px;
+    font-family: inherit;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .flag-venue-modal__flag-button {
+    float: left;
+  }
+
+  .flag-venue-modal__cancel-button {
+    float: right;
+  }
+
+  .flag-venue-modal__ok-button {
+    margin: 0 auto;
+    min-width: 60px;
+  }
+
+}

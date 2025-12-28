@@ -6,15 +6,18 @@ import { FavoriteIcon } from "../Icons/FavoriteIcon";
 import NotVisitedIcon from "../../assets/icons/not-visited-icon.svg";
 import VisitedIcon from "../../assets/icons/visited-icon.svg";
 import WebIcon from "../../assets/icons/web-icon.svg";
+import WarningIcon from "../../assets/icons/warning-icon.svg";
 import DiscordIcon from "../../assets/icons/discord-icon.svg";
 import { DateString } from "../DateString/DateString";
 import { TimeString } from "../TimeString/TimeString";
 import { Location } from "../Location/Location";
 import Markdown from 'react-markdown';
+import {FlagModal} from "./modals/FlagModal";
 
 const VenueProfile = ({ venue }) => {
     const [isVisited, setIsVisited] = useState(visitedService.isVisited(venue.id));
     const [isFavourite, setIsFavourite] = useState(favouritesService.isFavourite(venue.id));
+    const [flagModalOpen, setFlagModalOpen] = useState(false);
 
     const onVisitedClick = useCallback(() => {
         if (isVisited) visitedService.removeVisited(venue.id);
@@ -28,6 +31,10 @@ const VenueProfile = ({ venue }) => {
         setIsFavourite(!isFavourite);
     }, [isFavourite, venue.id]);
 
+    const onFlagClick = useCallback(() => {
+        setFlagModalOpen(!flagModalOpen);
+    }, [venue.id]);
+
     const overrides = venue.scheduleOverrides && venue.scheduleOverrides.filter(o => new Date() < o.end);
     const currentOverride = overrides && overrides.find(s => s.isNow);
     const futureOverrides = overrides && overrides.find(s => !s.isNow);
@@ -37,28 +44,35 @@ const VenueProfile = ({ venue }) => {
     return (
       <Profiler id="venue-profile" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
           <div className={"venue-profile" + (venue.resolution?.isNow ? " venue-profile--active" : "")}>
-              <div className="venue-profile__user-settings">
-                  <button
-                    className={"venue-profile__favourite-button" + (isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
-                    onClick={onFavoriteClick}>
-                      <FavoriteIcon lit={isFavourite} />
-                      Favorite venue
-                  </button>
-
-                  <button
-                    className={"venue-profile__visited-button" + (isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
-                    onClick={onVisitedClick}>
-                      {isVisited ? <VisitedIcon /> : <NotVisitedIcon />}
-                      Visited
-                  </button>
-              </div>
 
               {venue.bannerUri &&
                 <img className="venue-profile__banner" src={venue.bannerUri} alt="" />
               }
 
-              <div className="venue-profile__details">
+              <div className="venue-profile__toolbar">
+                  <button
+                      className={"venue-profile__favourite-button" + (isFavourite ? " venue-profile__favourite-button--favourited" : " venue-profile__favourite-button--not-favourited")}
+                      onClick={onFavoriteClick}>
+                      <FavoriteIcon lit={isFavourite} />
+                      Favorite venue
+                  </button>
 
+                  <button
+                      className={"venue-profile__visited-button" + (isVisited ? " venue-profile__visited-button--visited" : " venue-profile__visited-button--not-visited")}
+                      onClick={onVisitedClick}>
+                      {isVisited ? <VisitedIcon /> : <NotVisitedIcon />}
+                      Visited
+                  </button>
+
+                  <button
+                      className={"venue-profile__flag-button"}
+                      onClick={onFlagClick}>
+                      <WarningIcon />
+                      Flag Venue
+                  </button>
+              </div>
+
+              <div className="venue-profile__details">
 
                   {venue.notices?.filter(n => n.isNow).map((n, i) =>
                     <div className="venue-profile__notice" key={i}>
@@ -119,25 +133,25 @@ const VenueProfile = ({ venue }) => {
 
                   <Profiler id="venue-profile__schedule" onRender={(id, phase, duration) => console.debug(`Rendered: ${id} (${phase}), ${duration}ms.`)}>
                       <div className="venue-profile__schedule">
-                          {venue.resolution?.isNow &&
+                          { venue.resolution?.isNow &&
                             <div className="venue-profile__schedule-block venue-profile__schedule-summary venue-profile__schedule-summary--active">
                                 Open now until <TimeString date={venue.resolution.end} />!
                             </div>
                           }
 
-                          {venue.resolution && !venue.resolution.isNow &&
+                          { venue.resolution && !venue.resolution.isNow &&
                             <div className="venue-profile__schedule-block venue-profile__schedule-summary">
                                 Next open <DateString date={venue.resolution.start} /> at <TimeString date={venue.resolution.start} />
                             </div>
                           }
 
-                          {currentOverride && !currentOverride.open &&
+                          { currentOverride && !currentOverride.open &&
                             <div className="venue-profile__schedule-block venue-profile__override">
                                 Venue is closed until <DateString date={currentOverride.end} />!
                             </div>
                           }
 
-                          {venue.schedule && venue.schedule.length > 0 &&
+                          { venue.schedule && venue.schedule.length > 0 &&
                             <div className="venue-profile__schedule-block venue-profile__schedule-wrapper">
                                 <table className="venue-profile__schedule-map">
                                     <tbody>
@@ -154,7 +168,7 @@ const VenueProfile = ({ venue }) => {
                             </div>
                           }
 
-                          {futureOverrides && futureOverrides.length > 0 &&
+                          { futureOverrides && futureOverrides.length > 0 &&
                             <article className="venue-profile__schedule-block venue-profile__schedule-exceptions">
                                 Venue will be closed for the following periods:
                                 <table>
@@ -174,7 +188,6 @@ const VenueProfile = ({ venue }) => {
                     <small className="venue-profile__timezone-notice">All times are in <em>your</em> timezone.</small>
                   }
 
-
                   {venue.tags && venue.tags.length &&
                     <div className="venue-profile_tags">
                         {venue.tags.map((tag, i) =>
@@ -185,6 +198,11 @@ const VenueProfile = ({ venue }) => {
 
               </div>
           </div>
+          { flagModalOpen &&
+              <FlagModal
+                venue={venue}
+                onClose={() => setFlagModalOpen(false)} />
+          }
       </Profiler>
     );
 };

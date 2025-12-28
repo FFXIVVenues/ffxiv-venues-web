@@ -7,7 +7,7 @@ class VenueService {
     }
     
     getVenues() {
-        const venuesUrl = import.meta.env.VITE_FFXIV_VENUES_API_ROOT + "/venue";
+        const venuesUrl = import.meta.env.VITE_FFXIV_VENUES_API_ROOT + "/v1.0/venue";
         return this._fetchPromise ??= new Promise((resolve, reject) => {
             console.time('venueService.getVenues');
             fetch(venuesUrl)
