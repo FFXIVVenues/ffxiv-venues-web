@@ -92,5 +92,5 @@ jobs:
           embed-author-name: "${{ github.workflow }}"
           embed-title: "${{ github.event.head_commit.message }}"
           embed-url: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          embed-description: "${{ github.event }}  by ${{ github.actor }}"
+          embed-description: "${{ github.event_name }}  by ${{ github.actor }}"
           embed-color: ${{ job.status == 'success' && '3066993' || '15158332' }}
