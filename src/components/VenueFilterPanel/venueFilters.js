@@ -114,6 +114,7 @@ export const featureFilters = [
   { key: Symbol(), label: "Dancers", filter: tagFilter("dancers") },
   { key: Symbol(), label: "Bards", filter: tagFilter("bards") },
   { key: Symbol(), label: "Twitch DJ", filter: tagFilter("twitch dj") },
+  { key: Symbol(), label: "Sync DJ", filter: tagFilter("sync dj") },
   { key: Symbol(), label: "Tarot", filter: tagFilter("tarot") },
   { key: Symbol(), label: "LGBTQIA+ focused", filter: tagFilter("LGBTQIA+") },
   { key: Symbol(), label: "Pillow talk", filter: tagFilter("pillow") },
