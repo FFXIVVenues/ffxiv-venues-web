@@ -6,8 +6,8 @@ import {sleep} from "./sleep";
 export async function request(requestUrl, requestOptions = {}, backOffOptions = {}) {
   let {
     maxRetries = 5,
-    baseDelayMs = 1000,
-    maxDelayMs = 12_000,
+    baseDelayMs = 1250,
+    maxDelayMs = 15_000,
     retryOnStatuses = new Set([429]),
     retryOnNetworkError = true,
     cancellationSignal = requestOptions.signal, // Abort signal
@@ -101,9 +101,9 @@ function getBackOffInMs({ response, retry, baseDelayMs, maxDelayMs }) {
 
 function computeBackoffWithJitter(retry, baseDelayMs, maxDelayMs) {
   // Exponential backoff base * 2^attempt
-  const backOff = baseDelayMs * Math.pow(2, retry);
-  const jitteredBackOff = Math.random() * backOff;
-  return clamp(jitteredBackOff, baseDelayMs, maxDelayMs);
+  const backOff = baseDelayMs * Math.pow(2, retry-1);
+  const jitter = Math.random() * .15 * backOff;
+  return clamp(backOff + jitter, baseDelayMs, maxDelayMs);
 }
 
 function getRetryAfterInMs(response) {
