@@ -1,4 +1,4 @@
-import {Venue} from "../../model/Venue";
+import { request } from "../utils/request";
 
 const FlagCategory = {
     VenueEmpty: "VenueEmpty",
@@ -9,6 +9,8 @@ const FlagCategory = {
 class FlagService {
 
     flagVenue(venueId, flagCategory, description) {
+        const requestUrl = import.meta.env.VITE_FFXIV_VENUES_API_ROOT
+          + `/v1.0/venue/${venueId}/flag`;
         const requestOptions = {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
@@ -18,7 +20,7 @@ class FlagService {
                 description: description
             })
         };
-        return fetch(import.meta.env.VITE_FFXIV_VENUES_API_ROOT + `/v1.0/venue/${venueId}/flag`, requestOptions);
+        return request(requestUrl, requestOptions);
     }
 
 }

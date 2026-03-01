@@ -1,4 +1,5 @@
 import { Venue } from "../../model/Venue";
+import { request } from "../utils/request";
 
 class VenueService {
     
@@ -9,12 +10,10 @@ class VenueService {
     getVenues() {
         const venuesUrl = import.meta.env.VITE_FFXIV_VENUES_API_ROOT + "/v1.0/venue";
         return this._fetchPromise ??= new Promise((resolve, reject) => {
-            console.time('venueService.getVenues');
-            fetch(venuesUrl)
+            request(venuesUrl)
                 .then(response => response.json())
                 .then(venues => venues.map(v => new Venue(v)))
                 .then(resolve)
-                .then(() => console.timeEnd('venueService.getVenues'))
                 .catch(reject);
         });
     }
@@ -25,7 +24,6 @@ class VenueService {
     }
 
     async getVenueSchedule(filters) {
-        console.time('venueService.getVenueSchedule');
 
         let venueViewModels = {
             favourites: [],
@@ -37,6 +35,9 @@ class VenueService {
         };
         let now = new Date();
         let today = now.getDay();
+        let endOfWeek = new Date();
+        endOfWeek.setDate(now.getDate() + 7);
+        endOfWeek.setHours(0, 0, 0, 0);
     
         for (const venue of await this.getVenues()) {
             if (filters && filters.length > 0 && !filters.every(filter => filter(venue))) {
@@ -71,7 +72,10 @@ class VenueService {
                 if (override.end < now)
                     continue;
 
-                const venueViewModel = { venue, opening: override };
+                if (override.start >= endOfWeek)
+                    continue;
+
+                const venueViewModel = { id: `${venue.id}_${override.start.toISOString()}`, venue, opening: override };
                 let venueDay = override.start.getDay();
                 let relativeDay = (venueDay - today + 7) % 7;
                 venueViewModels.scheduled[relativeDay].push(venueViewModel);
@@ -84,7 +88,6 @@ class VenueService {
         || one.opening.start.getMinutes() - another.opening.start.getMinutes()));
         venueViewModels.newest = venueViewModels.newest.sort((a, b) => ((b.added && new Date(b.added)) || 0) - ((a.added && new Date(a.added)) || 0));
 
-        console.timeEnd('venueService.getVenueSchedule');
         return venueViewModels;
     }
     

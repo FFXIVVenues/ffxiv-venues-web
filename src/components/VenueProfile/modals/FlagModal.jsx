@@ -10,12 +10,29 @@ export const FlagModal = ({ venue, onClose }) => {
 
   const [category, setCategory] = useState(FlagCategory.VenueEmpty);
   const [description, setDescription] = useState();
+  const [flagSending, setFlagSending] = useState(false);
   const [flagSent, setFlagSent] = useState(false);
+  const [error, setError] = useState(null);
 
   const callback = useCallback(async () => {
-    await flagService.flagVenue(venue.id, category, description);
-    setFlagSent(true);
-  }, [ description, category ])
+    try {
+      setFlagSending(true);
+      const res = await flagService.flagVenue(venue.id, category, description);
+      setFlagSending(false);
+      if (!res.ok) {
+        setError("Please wait and try your flag again.");
+        return;
+      }
+      setFlagSent(true);
+    } catch (e) {
+      setFlagSending(false);
+      if (e instanceof Response && e.status === 429) {
+        setError("Please wait and try your flag again (Rate limit exceeded).");
+      } else {
+        setError("Please wait and try your flag again.");
+      }
+    }
+  }, [ flagService, venue.id, category, description ])
 
   if (flagSent)
     return <Modal className="flag-venue-modal" onStageClick={onClose} onEscape={onClose}>
@@ -31,6 +48,17 @@ export const FlagModal = ({ venue, onClose }) => {
     </Modal>
 
   return <Modal className="flag-venue-modal" onStageClick={onClose} onEscape={onClose}>
+    {error &&
+      <div className={"flag-venue-modal__error"}>
+        {error}
+      </div>
+    }
+    {flagSending && !error &&
+      <div className={"flag-venue-modal__sending"}>
+        Sending...
+      </div>
+    }
+
     <small>{venue.name}</small>
     <h3>
       <WarningIcon />

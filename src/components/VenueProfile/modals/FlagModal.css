@@ -67,4 +67,27 @@
     min-width: 60px;
   }
 
+  .flag-venue-modal__error {
+    background-color: rgba(255, 0, 0, 0.1);
+    border: solid 1px darkred;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .flag-venue-modal__sending {
+    background-color: rgba(0, 128, 255, 0.2);
+    border: solid 1px royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  @keyframes disappear {
+    0% { display: block; }
+    100% { display: none; }
+  }
+
 }
